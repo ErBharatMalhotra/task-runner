@@ -1,0 +1,22 @@
+name: gate
+
+# CI guard: this public repo must never contain the private bundle's code,
+# .env files, or key material. Fails the push if it does.
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  privacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Privacy gate
+        run: node scripts/privacy-gate.mjs

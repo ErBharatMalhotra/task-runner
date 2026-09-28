@@ -1,0 +1,102 @@
+name: scheduled-run
+
+# Clone the private bundle, run its pipelines on GitHub's clock, publish the
+# built artifacts here, and sync results back to the private repo.
+# This public repo never contains code — only workflow wiring and artifacts.
+
+on:
+  workflow_dispatch:
+    inputs:
+      pipelines:
+        description: 'which pipelines to run (space-separated), blank = auto'
+        default: ''
+  schedule:
+    - cron: '30 1 * * *'  # daily — generation batch
+    - cron: '0 */6 * * *' # every 4h — live-data refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone private bundle
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+          CORE_REPO: ${{ vars.CORE_REPO }}
+        run: |
+          rm -rf core
+          CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
+          git clone --depth 1 "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" core
+
+      - name: Decide pipelines
+        working-directory: core
+        run: |
+          IN="${{ github.event.inputs.pipelines }}"
+          if [ -n "$IN" ]; then echo "PIPES=$IN" >> "$GITHUB_ENV"
+          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build" >> "$GITHUB_ENV"
+          else echo "PIPES=refresh" >> "$GITHUB_ENV"
+          fi
+
+      # NOTE: PROVIDER_KEYS/SOURCE_USER are this repo's neutral secret names;
+      # the pipeline step maps them onto the names the bundle's engines read.
+      - name: Run pipelines (generation + gates)
+        working-directory: core
+        env:
+          GEMINI_KEYS: ${{ secrets.PROVIDER_KEYS }}
+          GEO_NAMES_USER: ${{ secrets.SOURCE_USER }}
+        run: |
+          for p in $PIPES; do
+            case "$p" in
+              check)   node engine/pipeline-health.js ;;
+              build)   node engine/pipeline-build.js --auto-release ;;
+              refresh) node engine/pipeline-refresh.js ;;
+              *) echo "unknown pipeline: $p" ;;
+            esac
+          done
+
+      - name: Publish artifacts to this public repo
+        if: success()
+        run: |
+          git config user.name "runner-bot"
+          git config user.email "noreply@users.noreply.github.com"
+          git pull --rebase origin main || true
+          rm -rf site
+          mkdir -p site
+          # publish whatever the bundle marks as web-ready (bundle owns the list)
+          if [ -f core/publish.conf ]; then
+            while read -r entry; do
+              case "$entry" in ''|'#'*) continue;; esac
+              mkdir -p "site/$(dirname "$entry")"
+              cp -r "core/$entry" "site/$entry" 2>/dev/null || true
+            done < core/publish.conf
+          fi
+          git add site
+          git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
+          git push
+
+      - name: Sync results back to the private bundle
+        if: success()
+        working-directory: core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+          CORE_REPO: ${{ vars.CORE_REPO }}
+        run: |
+          CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
+          git config user.name "runner-bot"
+          git config user.email "noreply@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "run: $(date -u +%F-%H%M)"
+          git push "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" HEAD:main
