@@ -46,8 +46,8 @@ jobs:
         run: |
           IN="${{ github.event.inputs.pipelines }}"
           if [ -n "$IN" ]; then echo "PIPES=$IN" >> "$GITHUB_ENV"
-          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build" >> "$GITHUB_ENV"
-          else echo "PIPES=refresh" >> "$GITHUB_ENV"
+          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build derive" >> "$GITHUB_ENV"
+          else echo "PIPES=refresh derive" >> "$GITHUB_ENV"
           fi
 
       # NOTE: PROVIDER_KEYS/SOURCE_USER are this repo's neutral secret names;
@@ -63,6 +63,7 @@ jobs:
               check)   node engine/pipeline-health.js ;;
               build)   node engine/pipeline-build.js --auto-release ;;
               refresh) node engine/pipeline-refresh.js ;;
+              derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js ;;
               *) echo "unknown pipeline: $p" ;;
             esac
           done
