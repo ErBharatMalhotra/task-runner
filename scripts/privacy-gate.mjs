@@ -20,7 +20,7 @@ const KEY_PATTERNS = [
 
 // only these top-level entries may exist here
 const ALLOWED_TOP = new Set([
-  ".git", ".github", "scripts", "site", "README.md", "SETUP.md", "LICENSE",
+  ".git", ".github", "scripts", "site", "README.md", "SETUP.md", "LICENSE", ".gitignore",
 ]);
 
 const CODE_EXT = /\.(js|mjs|cjs|ts|py|rb|go|rs|java|sh|ps1|toml|yaml|yml)$/i;
