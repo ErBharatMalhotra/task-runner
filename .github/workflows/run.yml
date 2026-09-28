@@ -66,7 +66,7 @@ jobs:
               build)   FACTORY_MINUTES=30 node engine/pipeline-build.js --count 25 ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
-              backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/priority-search.js ;;
+              backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
               rank)    node engine/priority-search.js ;;
               derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
               *) echo "unknown pipeline: $p" ;;
