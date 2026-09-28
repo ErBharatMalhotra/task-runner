@@ -63,7 +63,7 @@ jobs:
               check)   node engine/pipeline-health.js ;;
               build)   node engine/pipeline-build.js --auto-release ;;
               refresh) node engine/pipeline-refresh.js ;;
-              derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js ;;
+              derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
               *) echo "unknown pipeline: $p" ;;
             esac
           done
