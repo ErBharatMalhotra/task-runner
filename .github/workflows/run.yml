@@ -25,7 +25,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +34,7 @@ jobs:
           node-version: 20
 
       - name: Clone private bundle
+        id: clone
         env:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
           CORE_REPO: ${{ vars.CORE_REPO }}
@@ -54,7 +55,10 @@ jobs:
 
       # NOTE: PROVIDER_KEYS/SOURCE_USER are this repo's neutral secret names;
       # the pipeline step maps them onto the names the bundle's engines read.
+      # CRASH-SAFE: clone ke baad kuch bhi fail ho (build mid-run, release, derive),
+      # ye step + publish + sync-back phir bhi chalenge — jitna kaam hua, SAB save.
       - name: Run pipelines (generation + gates)
+        if: always() && steps.clone.outcome == 'success'
         working-directory: core
         env:
           GEMINI_KEYS: ${{ secrets.PROVIDER_KEYS }}
@@ -63,7 +67,7 @@ jobs:
           for p in $PIPES; do
             case "$p" in
               check)   node engine/pipeline-health.js ;;
-              build)   FACTORY_MINUTES=30 node engine/pipeline-build.js --count 25 ;;
+              build)   FACTORY_MINUTES=30 node engine/pipeline-build.js --fill ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
@@ -74,7 +78,7 @@ jobs:
           done
 
       - name: Publish artifacts to this public repo
-        if: success()
+        if: always() && steps.clone.outcome == 'success'
         run: |
           git config user.name "runner-bot"
           git config user.email "noreply@users.noreply.github.com"
@@ -94,7 +98,7 @@ jobs:
           git push
 
       - name: Sync results back to the private bundle
-        if: success()
+        if: always() && steps.clone.outcome == 'success'
         working-directory: core
         env:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
