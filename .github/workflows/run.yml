@@ -11,8 +11,9 @@ on:
         description: 'which pipelines to run (space-separated), blank = auto'
         default: ''
   schedule:
-    - cron: '30 1 * * *'  # daily — generation batch
-    - cron: '0 */6 * * *' # every 4h — live-data refresh
+    - cron: '30 1 * * *'   # daily — generation batch + release drip
+    - cron: '0 3,9,15 * * *' # 3×/day extra — live refresh + more building
+    - cron: '0 */6 * * *'  # 6-hourly — live-data refresh only
 
 permissions:
   contents: write
@@ -46,7 +47,8 @@ jobs:
         run: |
           IN="${{ github.event.inputs.pipelines }}"
           if [ -n "$IN" ]; then echo "PIPES=$IN" >> "$GITHUB_ENV"
-          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build derive" >> "$GITHUB_ENV"
+          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build release derive" >> "$GITHUB_ENV"
+          elif [ "${{ github.event.schedule }}" = "0 3,9,15 * * *" ]; then echo "PIPES=refresh build derive" >> "$GITHUB_ENV"
           else echo "PIPES=refresh derive" >> "$GITHUB_ENV"
           fi
 
@@ -61,8 +63,11 @@ jobs:
           for p in $PIPES; do
             case "$p" in
               check)   node engine/pipeline-health.js ;;
-              build)   node engine/pipeline-build.js --auto-release ;;
+              build)   FACTORY_MINUTES=30 node engine/pipeline-build.js --count 25 ;;
               refresh) node engine/pipeline-refresh.js ;;
+              release) node engine/pipeline-release.js --batch 3 --min 2 ;;
+              backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/priority-search.js ;;
+              rank)    node engine/priority-search.js ;;
               derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
               *) echo "unknown pipeline: $p" ;;
             esac
