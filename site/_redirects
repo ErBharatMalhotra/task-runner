@@ -1,0 +1,2 @@
+# www → apex canonical redirect (GSC duplicate-host confusion se bachav)
+https://www.bharatdn.com/* https://bharatdn.com/:splat 308

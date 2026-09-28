@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page not found — BharatDN</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://bharatdn.com/404.html">
+<style>
+:root{--bg:#0A0A0B;--card:#141418;--line:#26262E;--tx:#F5F5F7;--mu:#9B9BA6;--red:#DC2626;--bl:#60A5FA}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,sans-serif;min-height:100vh;display:grid;place-items:center;padding:20px}
+.box{max-width:560px;width:100%;text-align:center}
+code{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:2px 8px;font-size:.85em;word-break:break-all}
+h1{font-size:2.6rem;margin:.2em 0 .1em;color:var(--red)}
+.sub{color:var(--mu);margin-bottom:22px}
+#q{width:100%;box-sizing:border-box;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--tx);font-size:1rem;outline:none}
+#q:focus{border-color:rgba(96,165,250,.5)}
+ul{list-style:none;margin:14px 0 0;padding:0;text-align:left}
+li a{display:block;padding:9px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;color:var(--tx);text-decoration:none;font-size:.92rem;background:var(--card)}
+li a:hover{border-color:var(--bl)}
+li a small{color:var(--mu);display:block;font-size:.75rem}
+.home{display:inline-block;margin-top:16px;color:var(--bl);text-decoration:none;font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>404</h1>
+  <div class="sub">Is address par koi page nahi hai. Shayad city guide abhi build nahi hui — 8,000+ queued hain, roz publish hote hain.</div>
+  <input id="q" type="search" placeholder="City search — jaise: agra, kozhikode, thoothukudi…" autocomplete="off">
+  <ul id="hits"></ul>
+  <a class="home" href="/">← bharatdn.com home</a>
+</div>
+<script>
+(async () => {
+  const q = document.getElementById('q'), hits = document.getElementById('hits');
+  let db = [];
+  try { db = (await (await fetch('/search-index.json')).json()) || []; } catch (e) {}
+  const norm = (s) => String(s||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,' ').trim();
+  const pathCity = norm(decodeURIComponent(location.pathname).replace(/.*\/city\/([^\/]+).*/,'$1'));
+  if (pathCity && pathCity !== location.pathname.toLowerCase()) q.value = pathCity.replace(/-/g,' ');
+  const draw = () => {
+    const t = norm(q.value).split(' ').filter(Boolean);
+    if (!t.length) { hits.innerHTML = ''; return; }
+    hits.innerHTML = db.map((c) => {
+      const hay = norm(c.t + ' ' + (c.k||''));
+      return t.every((w) => hay.includes(w)) ? { c, s: norm(c.t).startsWith(t[0]) ? 0 : 1 } : null;
+    }).filter(Boolean).sort((a,b) => a.s-b.s).slice(0,5).map(({c}) =>
+      `<li><a href="${c.u}">${c.t}</a></li>`).join('') || '';
+  };
+  q.addEventListener('input', draw); draw();
+})();
+</script>
+</body>
+</html>
