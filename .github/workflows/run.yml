@@ -85,9 +85,14 @@ jobs:
 
       - name: Publish artifacts to this public repo
         if: always() && steps.clone.outcome == 'success'
+        env:
+          GIT_AUTHOR_NAME: Bharat Malhotra
+          GIT_AUTHOR_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+          GIT_COMMITTER_NAME: Bharat Malhotra
+          GIT_COMMITTER_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
         run: |
-          git config user.name "runner-bot"
-          git config user.email "noreply@users.noreply.github.com"
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
           git pull --rebase origin main || true
           rm -rf site
           mkdir -p site
@@ -109,10 +114,21 @@ jobs:
         env:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
           CORE_REPO: ${{ vars.CORE_REPO }}
+          GIT_AUTHOR_NAME: Bharat Malhotra
+          GIT_AUTHOR_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+          GIT_COMMITTER_NAME: Bharat Malhotra
+          GIT_COMMITTER_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
         run: |
           CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
-          git config user.name "runner-bot"
-          git config user.email "noreply@users.noreply.github.com"
+          REMOTE="https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git"
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
           git add -A
           git diff --cached --quiet || git commit -m "run: $(date -u +%F-%H%M)"
-          git push "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" HEAD:main
+          # core repo run ke dauran aage badh sakta hai (deploy/manual commits) —
+          # rebase + 3 retry: results kabhi reject na hon, chaahe kuch bhi push hua ho
+          for i in 1 2 3; do
+            git pull --rebase "$REMOTE" main && git push "$REMOTE" HEAD:main && break
+            echo "sync attempt $i failed — rebasing on latest and retrying"
+            sleep 5
+          done
