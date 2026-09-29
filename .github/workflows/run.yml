@@ -82,6 +82,12 @@ jobs:
               *) echo "unknown pipeline: $p" ;;
             esac
           done
+          # UNIVERSAL RULE: har run ke end me derive — status.json/home/globe/search-index
+          # har run ke baad fresh (build-only runs se console stale nahi rehta)
+          case " $PIPES " in
+            *" derive "*) ;; # already ran
+            *) node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
+          esac
 
       - name: Publish artifacts to this public repo
         if: always() && steps.clone.outcome == 'success'
