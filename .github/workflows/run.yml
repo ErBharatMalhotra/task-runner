@@ -12,7 +12,7 @@ on:
         default: ''
   schedule:
     - cron: '30 1 * * *'   # daily anchor — fleet check + build + release drip
-    - cron: '0 3-23/2 * * *' # har 2 ghante — refresh + build + derive (fill-mode: poora quota)
+    - cron: '0 * * * *'    # hourly — refresh + build (fill-mode; throughput wall-clock × 24)
     - cron: '0 2 * * 0'    # Sunday — GeoNames+Wikidata backlog pull
 
 permissions:
@@ -25,7 +25,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -73,7 +73,7 @@ jobs:
           for p in $PIPES; do
             case "$p" in
               check)   node engine/pipeline-health.js ;;
-              build)   FACTORY_MINUTES=30 node engine/pipeline-build.js --fill ;;
+              build)   FACTORY_MINUTES=50 node engine/pipeline-build.js --fill ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
