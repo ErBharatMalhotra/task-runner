@@ -38,6 +38,7 @@ button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 .btn-red{background:var(--red);color:#fff}
 .btn-red:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(220,38,38,.35)}
 .nav-toggle{display:none;width:40px;height:40px;border:1px solid var(--line);border-radius:9px;align-items:center;justify-content:center}
+.nav-actions{display:flex;gap:10px;align-items:center}
 .lang{display:flex;align-items:stretch;border:1px solid var(--line);border-radius:9px;font-family:var(--font-mono);font-size:.76rem;flex-shrink:0;position:relative}
 .lang > *:first-child{border-radius:8px 0 0 8px}
 .lang > *:last-child{border-radius:0 8px 8px 0}
@@ -142,6 +143,30 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .net a:hover{border-color:var(--red);transform:translateY(-2px)}
 .net .host{font-family:var(--font-mono);font-size:.74rem;color:var(--red)}
 .net .desc{color:var(--muted);font-size:.84rem;margin-top:4px}
+.exp-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.exp-tab{background:var(--card-2);border:1px solid var(--line-soft);color:var(--muted);border-radius:999px;padding:7px 14px;font-size:.8rem;cursor:pointer;transition:all 160ms ease}
+.exp-tab.on{background:var(--red-soft);border-color:rgba(220,38,38,.4);color:var(--text)}
+.exp-nearby{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.exp-item{display:flex;flex-direction:column;gap:2px;background:var(--card-2);border:1px solid var(--line-soft);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--text);transition:border-color 160ms ease,transform 160ms ease}
+.exp-item:hover{border-color:var(--line);transform:translateY(-2px)}
+.exp-item b{font-size:.95rem}
+.exp-item .exp-d{font-family:var(--font-mono);font-size:.78rem;color:var(--red)}
+.exp-item small{font-size:.7rem;color:var(--dim);letter-spacing:.04em}
+.exp-finder{display:flex;gap:8px;flex-wrap:wrap}
+.exp-finder input{flex:1;min-width:220px;background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--text);font-size:.92rem;outline:none}
+.exp-finder input:focus{border-color:rgba(220,38,38,.5)}
+.exp-finder button{background:var(--red);color:#fff;border:0;border-radius:10px;padding:10px 20px;font-weight:600;cursor:pointer}
+.exp-result{margin-top:12px;color:var(--muted);font-size:.95rem;min-height:1.4em}
+.exp-result b{color:var(--text)}
+.exp-compare{display:flex;flex-direction:column;gap:8px}
+.exp-bar{display:grid;grid-template-columns:minmax(90px,auto) 1fr auto;gap:10px;align-items:center;font-size:.85rem}
+.exp-bar .exp-bn{color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.exp-bar .exp-bt{background:var(--card-2);border-radius:999px;height:16px;overflow:hidden}
+.exp-bar .exp-bt i{display:block;height:100%;background:linear-gradient(90deg,var(--red),#F87171);border-radius:999px;transition:width 600ms var(--ease)}
+.exp-bar.small .exp-bt i{background:linear-gradient(90deg,#475569,#94A3B8)}
+.exp-bar.me .exp-bt i{background:linear-gradient(90deg,#1D4ED8,var(--blue))}
+.exp-bar .exp-bv{font-family:var(--font-mono);font-size:.78rem;color:var(--muted)}
+@media (max-width:640px){.exp-bar{grid-template-columns:minmax(70px,auto) 1fr auto;font-size:.78rem}.exp-nearby{grid-template-columns:repeat(2,1fr)}}
 .faq{background:var(--card);border:1px solid var(--line-soft);border-radius:14px;padding:18px 20px;margin-bottom:10px}
 .faq h3{font-size:.98rem;font-weight:600;margin-bottom:6px}
 .faq p{color:var(--muted);font-size:.9rem}
@@ -159,6 +184,23 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (max-width:480px){.g3,.g4{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
+@media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.72rem;margin-top:10px}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -184,8 +226,8 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <a class="logo" href="../../../index.html" aria-label="भारत डिजिटल नेटवर्क होम"><span class="logo-mark" aria-hidden="true">DN</span>भारत<span style="color:var(--red)">DN</span></a>
     <nav class="nav-links" aria-label="Primary">
       <a href="../../../index.html#digest">डाइजेस्ट</a><a href="../../../index.html#hubs">हब्स</a><a href="../../../index.html#activity">एक्टिविटी</a><a href="../../../index.html#faq">FAQ</a>
-    </nav>
-    <div style="display:flex;gap:10px;align-items:center">
+    </nav>      <div class="nav-actions">
+
       <button class="search-btn" id="searchBtn" aria-label="खोजें"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
       <nav class="lang" aria-label="Language"><a href="../" hreflang="en">EN</a><a class="on" href="./" hreflang="hi" aria-current="true">हिं</a><details><summary aria-label="More languages">▾</summary><div class="lang-menu">
         <input type="search" class="lang-filter" id="langFilter" placeholder="180+ भाषाएँ खोजें…" autocomplete="off" spellcheck="false">
@@ -309,7 +351,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>जिले के वो कोने जो आम लिस्टों में नहीं आते — शिवालिक की तलहटी से लेकर अशोकन स्तूप तक।</p></div>
+  <div class="section-head"><h2>यमुनानगर में छिपी और विरासत जगहें</h2><p>जिले के वो कोने जो आम लिस्टों में नहीं आते — शिवालिक की तलहटी से लेकर अशोकन स्तूप तक।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">~40 किमी उत्तर · बिलासपुर होकर</div><h3>आदिबद्री</h3><p>प्राचीन सरस्वती की बिसात पर शिवालिक की तलहटी। नारायण, केदारनाथ और मंत्र देवी मंदिर — तीन ASI खुदाई टीलों के बीच, शांत और पर्यटकों से दूर।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Adibadri,+Yamunanagar,+Haryana" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">~45 किमी · पांटा साहिब हाईवे</div><h3>कालेसर राष्ट्रीय उद्यान</h3><p>2003 में घोषित 53 वर्ग किमी के घने साल वन — जीप सफ़ारी, महाभारत-कालीन कालेसर महादेव मंदिर और 100 साल पुराना ब्रिटिश-युग डाक बंगला।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kalesar+National+Park,+Haryana" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -323,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>यमुनानगर शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>यमुनानगर के पास घूमने की जगहें (वीकेंड)</h2><p>यमुनानगर शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>सहारनपुर</b><span>UP · फ़र्नीचर और लकड़ी बाज़ार</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Saharanpur,+Uttar+Pradesh" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~55 किमी</div></div>
     <div class="trip"><div class="name"><b>पांटा साहिब</b><span>HP · यमुना किनारे गुरुद्वारा</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paonta+Sahib,+Haryana" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~60 किमी</div></div>
@@ -334,7 +376,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>यमुनानगर में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -354,7 +396,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · तीसरे दर्जे का हरियाणा शहर · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>ट्विन सिटी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>यमुनानगर की अर्थव्यवस्था किससे चलती है</h2><p>ट्विन सिटी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">प्रमुख उद्योग</div><h3>प्लाईवुड और वेनीर</h3><p>भारत का सबसे बड़ा प्लाईवुड क्लस्टर — शहर के आसपास के पोपलर के बाग़ मिलों को कच्चा माल देते हैं; थोक ख़रीदार सीधे फ़ैक्ट्री से लेते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Industrial+Area,+Yamunanagar,+Haryana" target="_blank" rel="noopener">फ़ैक्ट्री बेल्ट ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">मिल्स</div><h3>पेपर और पल्प</h3><p>पेपर मिलों का घना घेरा — उत्तर भारत को पल्प और बोर्ड सप्लाई करने वाला केंद्र।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paper+Mill+Gate,+Workshop+Road,+Yamuna+Nagar" target="_blank" rel="noopener">मिल क्षेत्र ↗</a></div></div>
@@ -368,7 +410,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — ढाबा दिग्गज, स्ट्रीट चाट, मिठाइयाँ और कैफ़े।</p></div>
+  <div class="section-head"><h2>यमुनानगर में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — ढाबा दिग्गज, स्ट्रीट चाट, मिठाइयाँ और कैफ़े।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">ढाबा दिग्गज</div><h3>शर्मा ढाबा</h3><p>प्रेम कॉलोनी, मधु सिनेमा के सामने — <b>1966</b> से चल रहा शुद्ध-शाकाहारी थाली संस्थान। साथ में: महेश ढाबा (मटका चौक, जगाधरी), बरकत डीलक्स (जगाधरी रोड), अजय वैष्णो ढाबा (पालिका बाज़ार)।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sharma+Dhaba,+Prem+Colony,+Yamuna+Nagar" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">स्ट्रीट हीरो</div><h3>MAM चंद छोले वाला</h3><p>देवी भवान बाज़ार, जगाधरी — मशहूर छोला-कुलचे का ठेला। पास ही: गोबिंद तंदूर वाला (काली मंदिर रोड)।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=MAM+Chand+Cholle+Wala,+Jagadhri,+Haryana" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -414,6 +456,128 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>वहाँ घूमने की जगह क्या है?</h3><p>आदिबद्री (40 किमी), कालेसर राष्ट्रीय उद्यान (45 किमी), चनेटी बौद्ध स्तूप, सुघ, कपाल मोचन, छछरौली — सब जिले में, भीड़ से दूर।</p></div>
   <div class="faq"><h3>यमुनानगर कैसे पहुँचें?</h3><p>यमुना नगर–जगाधरी (YJUD) स्टेशन अमृतसर–कोलकाता मुख्य लाइन पर है; श्यामा प्रसाद मुखर्जी पुल से सहारनपुर सीधा। सड़क: अंबाला ~45 किमी, चंडीगढ़ ~90 किमी।</p></div>
 
+  <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — यमुनानगर</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी यमुनानगर के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mago+Maternity+and+Children+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Mago Maternity and Children Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawhney+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Sawhney Hospital</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Smt.+Shanti+Devi+Kalra+Eye+and+Maternity+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Smt. Shanti Devi Kalra Eye and Maternity Hospital</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chadha+Hospital,+यमुनानगर,+India" target="_blank" rel="noopener">Chadha Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jyoti+Hotel+and+Restaurant,+यमुनानगर,+India" target="_blank" rel="noopener">Jyoti Hotel and Restaurant</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jp+Hospital,+Yamunanagar,+यमुनानगर,+India" target="_blank" rel="noopener">Jp Hospital, Yamunanagar</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-09-29 · © OpenStreetMap contributors</p>
+  </section>
+  <div class="card" id="exploreMore" data-lat="30.1328" data-lon="77.287">
+    <div class="exp-tabs" role="tablist">
+      <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>
+      <button type="button" class="exp-tab" data-tab="finder" role="tab" aria-selected="false">Yamunanagar से दूरी</button>
+      <button type="button" class="exp-tab" data-tab="compare" role="tab" aria-selected="false">जनसंख्या तुलना (2011)</button>
+    </div>
+    <div class="exp-pane" data-pane="nearby"><div class="exp-nearby" id="expNearby">आस-पास के शहर लोड हो रहे हैं…</div></div>
+    <div class="exp-pane" data-pane="finder" hidden>
+      <div class="exp-finder"><input id="expPlace" type="text" placeholder="भारत का कोई शहर, कस्बा या गाँव…" autocomplete="off"><button type="button" id="expGo">खोजें</button></div>
+      <div class="exp-result" id="expResult"></div>
+    </div>
+    <div class="exp-pane" data-pane="compare" hidden><div class="exp-compare" id="expCompare">आस-पास के शहर लोड हो रहे हैं…</div></div>
+  </div>
+<script>
+(function(){
+ var L={"units":["किमी","मील"],"bigger":"बड़ा","smaller":"छोटा","err":"वह जगह नहीं मिली — कोई जानी-पहचानी नाम आज़माएँ।"};
+ var SELF={"name":"Yamunanagar","pop":216677};
+ var el=document.getElementById("exploreMore");
+ var lat=parseFloat(el.getAttribute("data-lat")),lon=parseFloat(el.getAttribute("data-lon"));
+ function hv(a,b,c,d){var R=6371,r=Math.PI/180,dLa=(c-a)*r,dLo=(d-b)*r;var h=Math.sin(dLa/2)*Math.sin(dLa/2)+Math.cos(a*r)*Math.cos(c*r)*Math.sin(dLo/2)*Math.sin(dLo/2);return 2*R*Math.asin(Math.sqrt(h))}
+ function fmt(km){if(km<1)return"<1 "+L.units[0];if(km<1000)return Math.round(km)+" "+L.units[0];return Math.round(km*0.621371)+" "+L.units[1]}
+ function fmtIN(n){return Number(n).toLocaleString("en-IN")}
+ el.querySelectorAll(".exp-tab").forEach(function(t){t.addEventListener("click",function(){
+  el.querySelectorAll(".exp-tab").forEach(function(x){x.classList.remove("on");x.setAttribute("aria-selected","false")});
+  t.classList.add("on");t.setAttribute("aria-selected","true");
+  el.querySelectorAll(".exp-pane").forEach(function(p){p.hidden=p.getAttribute("data-pane")!==t.getAttribute("data-tab")});
+ })});
+ var DB=null;
+ fetch("/data/cities-live.json").then(function(r){return r.json()}).then(function(j){DB=j.cities||[];render()}).catch(function(){document.getElementById("expNearby").textContent="—";document.getElementById("expCompare").textContent="—"});
+ function render(){if(!DB)return;
+  var cities=DB.filter(function(c){return !(Math.abs(c.lat-lat)<0.001&&Math.abs(c.lon-lon)<0.001)});
+  cities.forEach(function(c){c.km=hv(lat,lon,c.lat,c.lon)});
+  var near=cities.slice().sort(function(a,b){return a.km-b.km}).slice(0,6);
+  document.getElementById("expNearby").innerHTML=near.map(function(c){
+   return '<a class="exp-item" href="/city/'+c.slug+'/\"><b>'+c.name+'</b><span class="exp-d">'+fmt(c.km)+'</span><small>'+c.state+'</small></a>';
+  }).join("");
+  var others=cities.filter(function(c){return c.pop>0});
+  var bigger=others.filter(function(c){return c.pop>SELF.pop}).sort(function(a,b){return b.pop-a.pop}).slice(0,3);
+  var smaller=others.filter(function(c){return c.pop<SELF.pop}).sort(function(a,b){return b.pop-a.pop}).slice(0,3);
+  var maxPop=SELF.pop;bigger.concat(smaller).forEach(function(c){if(c.pop>maxPop)maxPop=c.pop});
+  function bar(c,cls){var w=Math.max(3,Math.round(c.pop/maxPop*100));return '<div class="exp-bar '+(cls||'')+'"><span class="exp-bn">'+c.name+'</span><span class="exp-bt"><i style="width:'+w+'%"></i></span><span class="exp-bv">'+fmtIN(c.pop)+'</span></div>'}
+  document.getElementById("expCompare").innerHTML=bar(SELF,"me")+bigger.map(function(c){return bar(c,"big")}).join("")+smaller.map(function(c){return bar(c,"small")}).join("");
+ }
+ var go=document.getElementById("expGo"),pl=document.getElementById("expPlace"),res=document.getElementById("expResult");
+ function find(){var q=pl.value.trim().toLowerCase();if(!q||!DB)return;res.textContent="…";
+  var m=DB.filter(function(c){return c.name.toLowerCase().slice(0,q.length)===q||c.slug.indexOf(q.replace(/[^a-z0-9]+/g,"-"))===0});
+  if(!m.length){res.textContent=L.err;return}
+  m.sort(function(a,b){return b.pop-a.pop});var g=m[0];
+  var km=hv(lat,lon,g.lat,g.lon);
+  res.innerHTML='<b>'+g.name+'</b> ('+g.state+') — <b>'+fmt(km)+'</b> · pop '+fmtIN(g.pop)+' · <a href="/city/'+g.slug+'/\">guide</a>';
+ }
+ go.addEventListener("click",find);
+ pl.addEventListener("keydown",function(e){if(e.key==="Enter")find()});
+})();
+</script>
+
 </div></main>
 
 <footer>
@@ -424,12 +588,12 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
         <p>भारत डिजिटल नेटवर्क — भारत का जीता-जागता इंटरनेट, रोज़ बनता हुआ।</p>
       </div>
       <div><h4>नेटवर्क</h4><ul><li><a href="https://news.bharatdn.com">न्यूज़ व डाइजेस्ट</a></li><li><a href="https://ielts.bharatdn.com">IELTS हब</a></li><li><a href="https://jobs.bharatdn.com">जॉब्स बोर्ड</a></li><li><a href="https://tools.bharatdn.com">टूल्स</a></li></ul></div>
-      <div><h4>एक्सप्लोर</h4><ul><li><a href="../../../index.html#digest">डाइजेस्ट</a></li><li><a href="../../../index.html#activity">एक्टिविटी</a></li><li><a href="../../../index.html#faq">FAQ</a></li><li><a href="../../../about.html">हमारे बारे में</a></li></ul></div>
+      <div><h4>एक्सप्लोर</h4><ul><li><a href="../../../index.html#digest">डाइजेस्ट</a></li><li><a href="../../../index.html#cities">सिटी गाइड्स</a></li><li><a href="../../../methodology.html">स्रोत व तरीका</a></li><li><a href="../../../about.html">हमारे बारे में</a></li></ul></div>
       <div><h4>संपर्क</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="../../../contact.html">संपर्क</a></li><li><a href="../../../contact.html">प्रेस</a></li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> भारत डिजिटल नेटवर्क · <span id="istClock">IST</span></span>
-      <span>भारत में बना · <a href="../../../privacy-policy.html">Privacy</a> · <a href="../../../terms.html">Terms</a> · <a href="../../../disclaimer.html">Disclaimer</a></span>
+      <span>भारत में बना · <a href="../../../methodology.html">स्रोत</a> · <a href="../../../privacy-policy.html">Privacy</a> · <a href="../../../terms.html">Terms</a> · <a href="../../../disclaimer.html">Disclaimer</a></span>
     </div>
   </div>
 </footer>
