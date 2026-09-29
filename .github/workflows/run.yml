@@ -11,9 +11,9 @@ on:
         description: 'which pipelines to run (space-separated), blank = auto'
         default: ''
   schedule:
-    - cron: '30 1 * * *'   # daily — generation batch + release drip
-    - cron: '0 3,9,15 * * *' # 3×/day extra — live refresh + more building
-    - cron: '0 5,11,17,23 * * *' # 4×/day gaps me — live-data refresh only
+    - cron: '30 1 * * *'   # daily anchor — fleet check + build + release drip
+    - cron: '0 3-23/2 * * *' # har 2 ghante — refresh + build + derive (fill-mode: poora quota)
+    - cron: '0 2 * * 0'    # Sunday — GeoNames+Wikidata backlog pull
 
 permissions:
   contents: write
@@ -43,15 +43,21 @@ jobs:
           CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
           git clone --depth 1 "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" core
 
-      - name: Decide pipelines
+      # GitHub scheduled runs delay/drop hote hain — event.schedule value ke bharose
+      # mat raho (delayed run galat branch le leta hai). UTC-hour buckets delay-proof:
+      # 01:30 anchor 2-3h late chale to bhi daily branch milti hai.
+      - name: Decide pipelines (delay-tolerant UTC-hour buckets)
         working-directory: core
         run: |
           IN="${{ github.event.inputs.pipelines }}"
-          if [ -n "$IN" ]; then echo "PIPES=$IN" >> "$GITHUB_ENV"
-          elif [ -z "${{ github.event.schedule }}" ]; then echo "PIPES=check build release derive" >> "$GITHUB_ENV"
-          elif [ "${{ github.event.schedule }}" = "0 3,9,15 * * *" ]; then echo "PIPES=refresh build derive" >> "$GITHUB_ENV"
-          else echo "PIPES=refresh derive" >> "$GITHUB_ENV"
+          H=$(date -u +%H); DOW=$(date -u +%u)
+          if [ -n "$IN" ]; then PIPES="$IN"
+          elif [ "$DOW" = "7" ] && [ "$H" = "2" ]; then PIPES="backlog refresh derive"
+          elif [ "$H" = "1" ] || [ "$H" = "2" ]; then PIPES="check build release derive"
+          else PIPES="refresh build derive"
           fi
+          echo "decided: $PIPES (UTC hour=$H dow=$DOW)"
+          echo "PIPES=$PIPES" >> "$GITHUB_ENV"
 
       # NOTE: PROVIDER_KEYS/SOURCE_USER are this repo's neutral secret names;
       # the pipeline step maps them onto the names the bundle's engines read.
