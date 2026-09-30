@@ -1,0 +1,104 @@
+name: release-drip
+
+# Dedicated daily drip: publish up to 3 authored cities, then refresh derived
+# pages + status. WHY SEPARATE FROM scheduled-run: the hourly bucket logic
+# (`H == 1 || H == 2`) missed release when GitHub delayed the anchor past 03:00
+# UTC (happened 2026-09-29 — push race failed the anchor, bucket became
+# refresh/build/derive, drip starved for a day with 52 cities ready). A cron
+# with its own workflow needs NO window logic — whenever it runs, it releases.
+# Race-safe: sync-back uses rebase+retry; concurrency group is its own, and a
+# concurrent scheduled-run can interleave (same clone → rebase → push pattern).
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'max cities to drip this pass'
+        default: '3'
+  schedule:
+    - cron: '30 3 * * *'   # daily 03:30 UTC = 09:00 IST — after the anchor build
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-drip
+  cancel-in-progress: false
+
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone private bundle
+        id: clone
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+          CORE_REPO: ${{ vars.CORE_REPO }}
+        run: |
+          rm -rf core
+          CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
+          git clone --depth 1 "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" core
+
+      - name: Release drip (authored-unreleased cities)
+        if: always() && steps.clone.outcome == 'success'
+        working-directory: core
+        run: node engine/pipeline-release.js --batch ${{ github.event.inputs.batch || 3 }} --min 0
+
+      - name: Derive (home, search, globe, hubs, status)
+        if: always() && steps.clone.outcome == 'success'
+        working-directory: core
+        run: node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js
+
+      - name: Publish artifacts to this public repo
+        if: always() && steps.clone.outcome == 'success'
+        env:
+          GIT_AUTHOR_NAME: Bharat Malhotra
+          GIT_AUTHOR_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+          GIT_COMMITTER_NAME: Bharat Malhotra
+          GIT_COMMITTER_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+        run: |
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+          git pull --rebase origin main || true
+          rm -rf site
+          mkdir -p site
+          if [ -f core/publish.conf ]; then
+            while read -r entry; do
+              case "$entry" in ''|'#'*) continue;; esac
+              mkdir -p "site/$(dirname "$entry")"
+              cp -r "core/$entry" "site/$entry" 2>/dev/null || true
+            done < core/publish.conf
+          fi
+          git add site
+          git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
+          git push
+
+      - name: Sync results back to the private bundle
+        if: always() && steps.clone.outcome == 'success'
+        working-directory: core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+          CORE_REPO: ${{ vars.CORE_REPO }}
+          GIT_AUTHOR_NAME: Bharat Malhotra
+          GIT_AUTHOR_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+          GIT_COMMITTER_NAME: Bharat Malhotra
+          GIT_COMMITTER_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
+        run: |
+          CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
+          REMOTE="https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git"
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+          git add -A
+          git diff --cached --quiet || git commit -m "drip: $(date -u +%F-%H%M)"
+          for i in 1 2 3; do
+            git pull --rebase "$REMOTE" main && git push "$REMOTE" HEAD:main && break
+            echo "sync attempt $i failed — rebasing on latest and retrying"
+            sleep 5
+          done
