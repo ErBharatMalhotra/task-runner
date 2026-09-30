@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-30T06:04:39.040Z",
-  "count": 110,
-  "shown": 110,
+  "generatedAt": "2026-09-30T07:05:56.099Z",
+  "count": 113,
+  "shown": 113,
   "latest": {
-    "slug": "fatwa",
-    "name": "Fatwa",
-    "lat": 25.50958,
-    "lon": 85.30504,
-    "at": "2026-09-28T10:16:26.961Z"
+    "slug": "amravati",
+    "name": "Amravati",
+    "lat": 20.93333,
+    "lon": 77.75,
+    "at": "2026-09-30T05:47:31.687Z"
   },
   "cities": [
     {
@@ -661,6 +661,16 @@
       "releasedAt": "2026-09-26T14:20:28.089Z"
     },
     {
+      "slug": "amravati",
+      "name": "Amravati",
+      "state": "Maharashtra",
+      "lat": 20.93333,
+      "lon": 77.75,
+      "pop": 647057,
+      "tier": 2,
+      "releasedAt": "2026-09-30T05:47:31.687Z"
+    },
+    {
       "slug": "bikaner",
       "name": "Bikaner",
       "state": "Rajasthan",
@@ -769,6 +779,16 @@
       "pop": 550721,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:14.297Z"
+    },
+    {
+      "slug": "nanded",
+      "name": "Nanded",
+      "state": "Maharashtra",
+      "lat": 19.16023,
+      "lon": 77.31497,
+      "pop": 550564,
+      "tier": 2,
+      "releasedAt": "2026-09-30T05:47:31.577Z"
     },
     {
       "slug": "ujjain",
@@ -999,6 +1019,16 @@
       "pop": 216677,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:46.555Z"
+    },
+    {
+      "slug": "secunderabad",
+      "name": "Secunderabad",
+      "state": "Telangana",
+      "lat": 17.50427,
+      "lon": 78.54263,
+      "pop": 204182,
+      "tier": 2,
+      "releasedAt": "2026-09-30T05:47:31.632Z"
     },
     {
       "slug": "shimla",
