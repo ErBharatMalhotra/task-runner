@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-01T09:35:31.050Z",
-  "count": 113,
-  "shown": 113,
+  "generatedAt": "2026-10-01T10:21:38.521Z",
+  "count": 116,
+  "shown": 116,
   "latest": {
-    "slug": "amravati",
-    "name": "Amravati",
-    "lat": 20.93333,
-    "lon": 77.75,
-    "at": "2026-09-30T05:47:31.687Z"
+    "slug": "bhiwandi",
+    "name": "Bhiwandi",
+    "lat": 19.30023,
+    "lon": 73.05881,
+    "at": "2026-10-01T10:21:38.315Z"
   },
   "cities": [
     {
@@ -561,6 +561,16 @@
       "releasedAt": "2026-09-26T14:20:01.030Z"
     },
     {
+      "slug": "bhiwandi",
+      "name": "Bhiwandi",
+      "state": "Maharashtra",
+      "lat": 19.30023,
+      "lon": 73.05881,
+      "pop": 874032,
+      "tier": 2,
+      "releasedAt": "2026-10-01T10:21:38.315Z"
+    },
+    {
       "slug": "jalandhar",
       "name": "Jalandhar",
       "state": "Punjab",
@@ -741,6 +751,16 @@
       "releasedAt": "2026-09-26T11:53:33.701Z"
     },
     {
+      "slug": "sangli",
+      "name": "Sangli",
+      "state": "Maharashtra",
+      "lat": 16.85438,
+      "lon": 74.56417,
+      "pop": 601214,
+      "tier": 2,
+      "releasedAt": "2026-10-01T10:21:38.251Z"
+    },
+    {
       "slug": "durgapur",
       "name": "Durgapur",
       "state": "West Bengal",
@@ -789,6 +809,16 @@
       "pop": 550564,
       "tier": 2,
       "releasedAt": "2026-09-30T05:47:31.577Z"
+    },
+    {
+      "slug": "nellore",
+      "name": "Nellore",
+      "state": "Andhra Pradesh",
+      "lat": 14.44992,
+      "lon": 79.98697,
+      "pop": 547621,
+      "tier": 2,
+      "releasedAt": "2026-10-01T10:21:38.193Z"
     },
     {
       "slug": "ujjain",
