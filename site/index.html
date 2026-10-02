@@ -22,6 +22,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,500;0,600;0,700;1,600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
+/* Keyboard users: first tab stop jumps past the nav straight to content. */
+.skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
+.skip-link:focus{left:0}
 :root{
   --bg:#0A0A0B; --bg-2:#0F0F12; --card:#141418; --card-2:#1A1A20;
   --line:#26262E; --line-soft:#1E1E25;
@@ -136,7 +139,7 @@ button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 .term .info{color:var(--blue)}
 .term .time{color:var(--dim)}
 .tile-cta{background:linear-gradient(135deg,#DC2626 0%,#9F1239 100%);border:none;display:flex;flex-direction:column;justify-content:center;gap:14px}
-.tile-cta h3{font-family:var(--font-display);font-size:1.7rem;line-height:1.15}
+.tile-cta h2{font-family:var(--font-display);font-size:1.7rem;line-height:1.15}
 .tile-cta p{font-size:.9rem;color:rgba(255,255,255,.85)}
 .tile-cta .btn{background:#fff;color:#9F1239;align-self:flex-start}
 .tile-cta .btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(0,0,0,.3)}
@@ -235,6 +238,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <header class="nav" id="nav">
   <div class="container nav-inner">
@@ -253,7 +257,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 </header>
 
-<main>
+<main id="main">
 <!-- ============ HERO + GLOBE ============ -->
 <section class="hero" id="hero">
   <div class="hero-bg" aria-hidden="true"></div>
@@ -338,7 +342,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="tile span-6 tile-cta" data-tile>
-    <h3>Follow the network as it grows</h3>
+    <h2 class="tile-h">Follow the network as it grows</h2>
     <p>New hubs, new cities, new data — arriving every day on one backbone. Start with today's digest.</p>
     <a class="btn" href="#digest">Read today's digest
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -581,12 +585,12 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
         <p>Bharat Digital Network — India's living internet, built daily.</p>
       </div>
       <div><h4>Network</h4><ul><li><a href="https://news.bharatdn.com">News &amp; Digest</a></li><li><a href="https://ielts.bharatdn.com">IELTS Hub</a></li><li><a href="https://jobs.bharatdn.com">Jobs Board</a></li><li><a href="https://tools.bharatdn.com">Tools</a></li></ul></div>
-      <div><h4>Explore</h4><ul><li><a href="#digest">Digest</a></li><li><a href="#cities">City guides</a></li><li><a href="methodology.html">Methodology &amp; sources</a></li><li><a href="about.html">About</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html">Press</a></li></ul></div>
+      <div><h4>Explore</h4><ul><li><a href="#digest">Digest</a></li><li><a href="#cities">City guides</a></li><li><a href="/methodology">Methodology &amp; sources</a></li><li><a href="/about">About</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="/contact">Contact</a></li><li><a href="/contact">Press</a></li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> Bharat Digital Network</span>
-      <span>Made in India · <a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="disclaimer.html">Disclaimer</a></span>
+      <span>Made in India · <a href="/privacy-policy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/disclaimer">Disclaimer</a></span>
     </div>
   </div>
 </footer>

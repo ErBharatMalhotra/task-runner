@@ -20,17 +20,17 @@ a{color:inherit}
 header{border-bottom:1px solid var(--line-soft);background:rgba(10,10,11,.85);backdrop-filter:blur(10px);position:sticky;top:0;z-index:10}
 .nav{display:flex;align-items:center;justify-content:space-between;height:60px}
 .logo{display:flex;gap:9px;align-items:center;font-weight:700;text-decoration:none;letter-spacing:.02em}
-.logo-mark{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--red);font-size:.72rem;font-weight:800}
-.kicker{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.logo-mark{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--red);font-size:.75rem;font-weight:800}
+.kicker{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
 h1{font-family:var(--font-display);font-size:clamp(2rem,5vw,3rem);line-height:1.08;margin:0 0 14px}
 .lede{color:var(--muted);max-width:760px;font-size:1.02rem}
 .hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:30px 0}
 .hub-card{display:flex;flex-direction:column;gap:5px;padding:16px 18px;background:var(--card);border:1px solid var(--line-soft);border-radius:var(--r-md);text-decoration:none;transition:transform 180ms var(--ease),border-color 180ms ease}
 .hub-card:hover{border-color:var(--line);transform:translateY(-2px)}
 .hub-card b{font-size:1.02rem}
-.hub-card span{font-family:var(--font-mono);font-size:.72rem;color:var(--dim)}
+.hub-card span{font-family:var(--font-mono);font-size:.75rem;color:var(--dim)}
 .state-strip{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 8px}
-.state-strip a{font-family:var(--font-mono);font-size:.74rem;color:var(--muted);text-decoration:none;padding:6px 11px;border:1px solid var(--line-soft);border-radius:999px}
+.state-strip a{font-family:var(--font-mono);font-size:.75rem;color:var(--muted);text-decoration:none;padding:6px 11px;border:1px solid var(--line-soft);border-radius:999px}
 .state-strip a:hover{color:var(--text);border-color:var(--line)}
 .state-strip a[aria-current]{color:var(--text);border-color:var(--red);background:var(--red);opacity:.92}
 .prose{max-width:780px;color:var(--muted)}
@@ -40,13 +40,16 @@ h1{font-family:var(--font-display);font-size:clamp(2rem,5vw,3rem);line-height:1.
 .faq-item p{margin:0;color:var(--muted);font-size:.92rem}
 footer{border-top:1px solid var(--line-soft);margin-top:56px;padding:30px 0;color:var(--dim);font-size:.85rem}
 footer a{color:var(--muted)}
-</style>
+
+.skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:#DC2626;color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
+.skip-link:focus{left:0}</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Assam City Guides — Bharat DN","url":"https://bharatdn.com/state/assam/","description":"1 Assam city guides with Census 2011 facts, live weather and local guides."}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many cities does Bharat DN cover in Assam?","acceptedAnswer":{"@type":"Answer","text":"Bharat DN currently publishes 1 city guide for Assam — from Guwahati to Guwahati — and new towns are added continuously."}},{"@type":"Question","name":"What data does each Assam city page include?","acceptedAnswer":{"@type":"Answer","text":"Census 2011 population, literacy, sex ratio and district facts, live weather and US AQI refreshed every four hours, hidden places, local food, markets, festivals, getaways and an FAQ."}},{"@type":"Question","name":"Which is the largest city in Assam on Bharat DN?","acceptedAnswer":{"@type":"Answer","text":"Guwahati — Census 2011 population 9,63,404 — with the full district breakdown on its page."}},{"@type":"Question","name":"Is the data on Assam city pages verified?","acceptedAnswer":{"@type":"Answer","text":"Yes — figures are cross-checked against Census 2011 tables and Wikipedia before publication, and every page shows its sources and a live \"updated\" timestamp for weather data."}}]}</script>
 </head>
 <body>
-<header><div class="container nav"><a class="logo" href="/"><span class="logo-mark">DN</span>भारत<span style="color:var(--red)">DN</span></a><span style="font-family:var(--font-mono);font-size:.74rem;color:var(--dim)">1 cities · Assam</span></div></header>
-<main class="container">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header><div class="container nav"><a class="logo" href="/"><span class="logo-mark">DN</span>भारत<span style="color:var(--red)">DN</span></a><span style="font-family:var(--font-mono);font-size:.75rem;color:var(--dim)">1 cities · Assam</span></div></header>
+<main class="container" id="main">
   <div style="padding:44px 0 6px">
     <div class="kicker">State hub · Bharat DN network</div>
     <h1>Assam city guides</h1>
@@ -96,6 +99,6 @@ footer a{color:var(--muted)}
     <div class="faq-item"><h3>Is the data on Assam city pages verified?</h3><p>Yes — figures are cross-checked against Census 2011 tables and Wikipedia before publication, and every page shows its sources and a live "updated" timestamp for weather data.</p></div>
   </section>
 </main>
-<footer><div class="container">Bharat Digital Network · <a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/methodology.html">Methodology &amp; sources</a> · <a href="/contact.html">Contact</a></div></footer>
+<footer><div class="container">Bharat Digital Network · <a href="/">Home</a> · <a href="/about">About</a> · <a href="/methodology">Methodology &amp; sources</a> · <a href="/contact">Contact</a></div></footer>
 </body>
 </html>

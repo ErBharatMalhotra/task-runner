@@ -52,12 +52,12 @@ button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 .lang-menu{position:absolute;top:calc(100% + 6px);right:-1px;background:var(--card);border:1px solid var(--line);border-radius:10px;min-width:230px;display:flex;flex-direction:column;z-index:70;box-shadow:0 14px 34px rgba(0,0,0,.45);padding:0 0 6px;max-height:72vh}
 .lang-menu a{padding:9px 14px;font-size:.8rem;color:var(--muted);font-family:var(--font-body)}
 .lang-menu a:hover{background:var(--card-2);color:var(--text)}
-.lang-menu .lm-note{font-size:.66rem;color:var(--dim);padding:7px 14px 3px;border-top:1px solid var(--line-soft);margin-top:4px;font-family:var(--font-mono)}
+.lang-menu .lm-note{font-size:.75rem;color:var(--dim);padding:7px 14px 3px;border-top:1px solid var(--line-soft);margin-top:4px;font-family:var(--font-mono)}
 .lang-filter{width:calc(100% - 20px);margin:9px 10px 5px;background:var(--bg);border:1px solid var(--line);border-radius:8px;color:var(--text);font-family:var(--font-body);font-size:.8rem;padding:7px 10px;flex-shrink:0}
 .lang-filter::placeholder{color:var(--dim)}
 .lang-list{overflow-y:auto;display:flex;flex-direction:column;min-height:0}
 .lang-list a{display:flex;justify-content:space-between;gap:10px}
-.lang-list a small{color:var(--dim);font-family:var(--font-mono);font-size:.64rem;flex-shrink:0}
+.lang-list a small{color:var(--dim);font-family:var(--font-mono);font-size:.75rem;flex-shrink:0}
 .lang-list .lm-empty{padding:14px;font-size:.76rem;color:var(--dim);text-align:center}
 .search-btn{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:var(--card);color:var(--muted);flex-shrink:0;transition:color 180ms ease,border-color 180ms ease}
 .search-btn:hover{color:var(--text);border-color:var(--blue)}
@@ -70,12 +70,12 @@ button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 .search-results a{display:flex;flex-direction:column;gap:2px;padding:11px 18px;border-bottom:1px solid var(--line-soft)}
 .search-results a:hover,.search-results a:focus{background:var(--card-2)}
 .sr-t{color:var(--text);font-size:.9rem}
-.sr-u{color:var(--dim);font-family:var(--font-mono);font-size:.7rem}
+.sr-u{color:var(--dim);font-family:var(--font-mono);font-size:.75rem}
 .sr-empty{padding:18px;color:var(--dim);font-size:.85rem;text-align:center}
-.search-hint{display:flex;justify-content:space-between;padding:9px 18px;font-family:var(--font-mono);font-size:.65rem;color:var(--dim);background:var(--bg)}
-.dir{display:inline-flex;gap:5px;font-family:var(--font-mono);font-size:.72rem;color:var(--blue);border:1px solid rgba(96,165,250,.3);border-radius:7px;padding:5px 10px;margin-top:10px;transition:all 160ms ease;cursor:pointer}
+.search-hint{display:flex;justify-content:space-between;padding:9px 18px;font-family:var(--font-mono);font-size:.75rem;color:var(--dim);background:var(--bg)}
+.dir{display:inline-flex;gap:5px;font-family:var(--font-mono);font-size:.75rem;color:var(--blue);border:1px solid rgba(96,165,250,.3);border-radius:7px;padding:5px 10px;margin-top:10px;transition:all 160ms ease;cursor:pointer}
 .dir:hover{background:rgba(96,165,250,.1);border-color:var(--blue)}
-.trip .dir{margin-top:0;padding:4px 9px;font-size:.7rem}
+.trip .dir{margin-top:0;padding:4px 9px;font-size:.75rem}
 .sponsor-actions{display:flex;flex-direction:column;gap:8px;align-items:flex-end;flex-shrink:0}
 .sponsor-actions .tel{font-family:var(--font-mono);font-size:.8rem;color:var(--text);white-space:nowrap}
 .sponsor-actions .tel:hover{color:var(--red)}
@@ -84,13 +84,13 @@ button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .breadcrumb{font-family:var(--font-mono);font-size:.75rem;color:var(--dim);margin-bottom:18px;display:flex;gap:8px;flex-wrap:wrap}
 .breadcrumb a:hover{color:var(--red)}
-.kicker{font-size:.74rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.kicker{font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
 h1{font-family:var(--font-display);font-size:clamp(2.4rem,6vw,4rem);font-weight:700;line-height:1.05;letter-spacing:-.02em}
 h1 .hi{display:block;font-size:.42em;color:var(--muted);font-weight:600;margin-top:6px}
 h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weight:600;margin:0 0 6px}
 .section-head{margin:44px 0 18px}
 .section-head p{color:var(--muted);font-size:.95rem}
-.live-pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:.72rem;color:var(--green);background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.25);padding:5px 12px;border-radius:99px;margin-top:16px}
+.live-pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:.75rem;color:var(--green);background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.25);padding:5px 12px;border-radius:99px;margin-top:16px}
 .live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.6s infinite}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .chip{font-family:var(--font-mono);font-size:.78rem;background:var(--card);border:1px solid var(--line);padding:7px 13px;border-radius:8px;color:var(--muted)}
@@ -103,14 +103,14 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .card:hover{border-color:var(--line);transform:translateY(-2px)}
 .card h3{font-size:.98rem;font-weight:600;margin-bottom:6px}
 .card p{color:var(--muted);font-size:.88rem}
-.card .mono{font-family:var(--font-mono);font-size:.72rem;color:var(--dim);letter-spacing:.04em;text-transform:uppercase}
+.card .mono{font-family:var(--font-mono);font-size:.75rem;color:var(--dim);letter-spacing:.04em;text-transform:uppercase}
 .stat{font-family:var(--font-display);font-size:1.9rem;font-weight:700;line-height:1.1}
 .stat.red{color:var(--red)}.stat.blue{color:var(--blue)}.stat.green{color:var(--green)}
 /* live widget cards */
 .live-grid{grid-template-columns:1.3fr 1fr 1fr}
 .live-card{background:linear-gradient(160deg,var(--card-2),var(--card));border:1px solid var(--line);border-radius:18px;padding:22px;position:relative;overflow:hidden}
 .live-card::after{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(245,245,247,.14),transparent)}
-.live-card .label{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between;align-items:center}
+.live-card .label{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between;align-items:center}
 .live-card .label .tag{color:var(--green);animation:pulse 2s infinite}
 .live-val{font-family:var(--font-display);font-size:2.3rem;font-weight:700;margin-top:10px}
 .live-sub{color:var(--muted);font-size:.84rem;margin-top:4px}
@@ -119,7 +119,7 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .sponsor .badge{position:absolute;top:10px;right:12px}
 .sponsor-logo{width:52px;height:52px;border-radius:12px;background:var(--red-soft);border:1px solid rgba(220,38,38,.4);display:grid;place-items:center;font-weight:800;color:var(--red);flex-shrink:0}
 .sponsor-body{flex:1;min-width:0}
-.sponsor-tag{font-family:var(--font-mono);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);border:1px solid rgba(251,191,36,.35);border-radius:4px;padding:2px 7px;display:inline-block;margin-bottom:6px}
+.sponsor-tag{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);border:1px solid rgba(251,191,36,.35);border-radius:4px;padding:2px 7px;display:inline-block;margin-bottom:6px}
 .sponsor h3{font-size:1rem}
 .sponsor p{color:var(--muted);font-size:.85rem}
 .sponsor .cta{white-space:nowrap;font-size:.82rem;color:var(--blue);text-decoration:underline}
@@ -132,12 +132,12 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 /* prose */
 .prose p{color:var(--muted);font-size:.95rem;margin-bottom:12px;max-width:74ch}
 .prose strong{color:var(--text)}
-.note{font-family:var(--font-mono);font-size:.72rem;color:var(--dim);margin-top:10px}
+.note{font-family:var(--font-mono);font-size:.75rem;color:var(--dim);margin-top:10px}
 /* hidden places */
 .place{padding:0;overflow:hidden}
 .place .ph{height:8px;background:linear-gradient(90deg,var(--red),#7f1d1d);opacity:.85}
 .place .pb{padding:16px 18px 18px}
-.place .dist{font-family:var(--font-mono);font-size:.7rem;color:var(--blue);margin-bottom:6px}
+.place .dist{font-family:var(--font-mono);font-size:.75rem;color:var(--blue);margin-bottom:6px}
 .place h3{font-family:var(--font-display);font-size:1.12rem;font-weight:600;margin-bottom:6px}
 /* getaway rows */
 .trip{display:flex;justify-content:space-between;align-items:center;padding:13px 16px;border-bottom:1px solid var(--line-soft);font-size:.92rem}
@@ -149,7 +149,7 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .net{display:flex;gap:14px;flex-wrap:wrap}
 .net a{flex:1;min-width:220px;background:var(--card);border:1px solid var(--line-soft);border-radius:14px;padding:16px 18px;transition:all 200ms var(--ease)}
 .net a:hover{border-color:var(--red);transform:translateY(-2px)}
-.net .host{font-family:var(--font-mono);font-size:.74rem;color:var(--red)}
+.net .host{font-family:var(--font-mono);font-size:.75rem;color:var(--red)}
 .net .desc{color:var(--muted);font-size:.84rem;margin-top:4px}
 /* explore-more (nearby / finder / compare) */
 .exp-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
@@ -160,7 +160,7 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .exp-item:hover{border-color:var(--line);transform:translateY(-2px)}
 .exp-item b{font-size:.95rem}
 .exp-item .exp-d{font-family:var(--font-mono);font-size:.78rem;color:var(--red)}
-.exp-item small{font-size:.7rem;color:var(--dim);letter-spacing:.04em}
+.exp-item small{font-size:.75rem;color:var(--dim);letter-spacing:.04em}
 .exp-finder{display:flex;gap:8px;flex-wrap:wrap}
 .exp-finder input{flex:1;min-width:220px;background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--text);font-size:.92rem;outline:none}
 .exp-finder input:focus{border-color:rgba(220,38,38,.5)}
@@ -183,7 +183,7 @@ h2{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,1.9rem);font-weigh
 .faq p{color:var(--muted);font-size:.9rem}
 footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px 0 26px}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
-.foot-grid h4{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
+.foot-grid h4{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
 .foot-grid ul{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:.89rem;color:var(--muted)}
 .foot-grid a{transition:color 180ms ease;cursor:pointer}
 .foot-grid a:hover{color:var(--red)}
@@ -196,7 +196,9 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
-</style>
+<style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
+.skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
+.skip-link:focus{left:0}</style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Home","item":"https://bharatdn.com/"},
@@ -215,12 +217,13 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <header class="nav" id="nav">
   <div class="container nav-inner">
-    <a class="logo" href="../../index.html" aria-label="Bharat Digital Network home"><span class="logo-mark" aria-hidden="true">DN</span>भारत<span style="color:var(--red)">DN</span></a>
+    <a class="logo" href="/" aria-label="Bharat Digital Network home"><span class="logo-mark" aria-hidden="true">DN</span>भारत<span style="color:var(--red)">DN</span></a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="../../index.html#digest">Digest</a><a href="../../index.html#hubs">Hubs</a><a href="../../index.html#activity">Activity</a><a href="../../index.html#faq">FAQ</a>
+      <a href="/#digest">Digest</a><a href="/#hubs">Hubs</a><a href="/#activity">Activity</a><a href="/#faq">FAQ</a>
     </nav>      <div class="nav-actions">
 
       <button class="search-btn" id="searchBtn" aria-label="Search site"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
@@ -235,9 +238,9 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 </header>
 
-<main class="page"><div class="container">
+<main class="page" id="main"><div class="container">
 
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../index.html">home</a> / <a href="../../index.html#hubs">cities</a> / <span>aligarh</span></nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">home</a> / <a href="/#hubs">cities</a> / <span>aligarh</span></nav>
 
   <div class="kicker">Uttar Pradesh · Doab · Tala nagri</div>
   <h1>Aligarh<span class="hi">The lock capital and the Aligarh Movement — AMU’s campus, hardware forges and the 1753 French-built fort</span></h1>
@@ -272,7 +275,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">26°C</div><div class="live-sub">Clear sky · humidity 81% · wind 3.6 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">26°C</div><div class="live-sub">Clear sky · humidity 81% · wind 3.6 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.75rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -281,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
       <!--live:jobs--><div class="live-val">—</div><div class="live-sub">New openings from jobs.bharatdn.com in Aligarh</div><!--/live:jobs-->
-      <a href="https://jobs.bharatdn.com" style="font-family:var(--font-mono);font-size:.72rem;color:var(--blue);text-decoration:underline">open jobs board →</a>
+      <a href="https://jobs.bharatdn.com" style="font-family:var(--font-mono);font-size:.75rem;color:var(--blue);text-decoration:underline">open jobs board →</a>
     </div>
   </div>
 
@@ -507,16 +510,16 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="container">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a class="logo" href="../../index.html"><span class="logo-mark" aria-hidden="true">DN</span>भारत<span style="color:var(--red)">DN</span></a>
+        <a class="logo" href="/"><span class="logo-mark" aria-hidden="true">DN</span>भारत<span style="color:var(--red)">DN</span></a>
         <p>Bharat Digital Network — India's living internet, built daily.</p>
       </div>
       <div><h4>Network</h4><ul><li><a href="https://news.bharatdn.com">News &amp; Digest</a></li><li><a href="https://ielts.bharatdn.com">IELTS Hub</a></li><li><a href="https://jobs.bharatdn.com">Jobs Board</a></li><li><a href="https://tools.bharatdn.com">Tools</a></li></ul></div>
-      <div><h4>Explore</h4><ul><li><a href="../../index.html#digest">Digest</a></li><li><a href="../../index.html#cities">City guides</a></li><li><a href="../../methodology.html">Methodology &amp; sources</a></li><li><a href="../../about.html">About</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../contact.html">Press</a></li></ul></div>
+      <div><h4>Explore</h4><ul><li><a href="/#digest">Digest</a></li><li><a href="/#cities">City guides</a></li><li><a href="/methodology">Methodology &amp; sources</a></li><li><a href="/about">About</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="/contact">Contact</a></li><li><a href="/contact">Press</a></li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> Bharat Digital Network · <span id="istClock">IST</span></span>
-      <span>Made in India · <a href="../../methodology.html">Sources</a> · <a href="../../privacy-policy.html">Privacy</a> · <a href="../../terms.html">Terms</a> · <a href="../../disclaimer.html">Disclaimer</a></span>
+      <span>Made in India · <a href="/methodology">Sources</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/disclaimer">Disclaimer</a></span>
     </div>
   </div>
 </footer>
