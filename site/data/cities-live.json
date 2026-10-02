@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-02T09:09:34.606Z",
-  "count": 116,
-  "shown": 116,
+  "generatedAt": "2026-10-02T09:58:08.556Z",
+  "count": 119,
+  "shown": 119,
   "latest": {
-    "slug": "bhiwandi",
-    "name": "Bhiwandi",
-    "lat": 19.30023,
-    "lon": 73.05881,
-    "at": "2026-10-01T10:21:38.315Z"
+    "slug": "kushinagar",
+    "name": "Kushinagar",
+    "lat": 26.74134,
+    "lon": 83.88689,
+    "at": "2026-10-02T09:58:08.352Z"
   },
   "cities": [
     {
@@ -951,6 +951,16 @@
       "releasedAt": "2026-09-26T14:20:27.532Z"
     },
     {
+      "slug": "aizawl",
+      "name": "Aizawl",
+      "state": "Mizoram",
+      "lat": 23.72894,
+      "lon": 92.71791,
+      "pop": 293416,
+      "tier": 2,
+      "releasedAt": "2026-10-02T09:58:08.236Z"
+    },
+    {
       "slug": "gandhinagar",
       "name": "Gandhinagar",
       "state": "Gujarat",
@@ -961,6 +971,16 @@
       "releasedAt": "2026-09-26T14:20:22.598Z"
     },
     {
+      "slug": "thanjavur",
+      "name": "Thanjavur",
+      "state": "Tamil Nadu",
+      "lat": 10.78523,
+      "lon": 79.13909,
+      "pop": 291067,
+      "tier": 2,
+      "releasedAt": "2026-10-02T09:58:08.295Z"
+    },
+    {
       "slug": "bathinda",
       "name": "Bathinda",
       "state": "Punjab",
@@ -969,6 +989,16 @@
       "pop": 285813,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:26.511Z"
+    },
+    {
+      "slug": "kushinagar",
+      "name": "Kushinagar",
+      "state": "Uttar Pradesh",
+      "lat": 26.74134,
+      "lon": 83.88689,
+      "pop": 274403,
+      "tier": 2,
+      "releasedAt": "2026-10-02T09:58:08.352Z"
     },
     {
       "slug": "dhanbad",
