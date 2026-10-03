@@ -1,9 +1,0 @@
-# Cloudflare Pages custom headers (site-wide)
-# X-Frame-Options: clickjacking se bachav (koi iframe nahi kar sakta site ko)
-# X-Content-Type-Options: MIME-sniffing band
-# Referrer-Policy: bahar jaate URLs me poora path leak na ho
-/*
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Strict-Transport-Security: max-age=31536000
