@@ -2,7 +2,7 @@ name: scheduled-run
 
 # Clone the private bundle, run its pipelines on GitHub's clock, publish the
 # built artifacts here, and sync results back to the private repo.
-# This public repo never contains code � only workflow wiring and artifacts.
+# This public repo never contains code — only workflow wiring and artifacts.
 
 on:
   workflow_dispatch:
@@ -12,8 +12,12 @@ on:
         default: ''
   schedule:
     - cron: '30 1 * * *'   # daily anchor — fleet check + build (release = dedicated release-drip workflow)
-    - cron: '0 * * * *'    # hourly � refresh + build (fill-mode; throughput wall-clock � 24)
-    - cron: '0 2 * * 0'    # Sunday � GeoNames+Wikidata backlog pull
+    - cron: '0 * * * *'    # hourly — refresh + build (fill-mode; throughput wall-clock × 24)
+    - cron: '13 4,8,12,16,20,23 * * *'  # off-hour build insurance - GitHub drops
+                            # scheduled runs unpredictably (only 4-5 of 24 actually
+                            # fired/day), so book extra chances. Hour 3 is skipped
+                            # so this never overlaps the 03:30 release-drip workflow.
+    - cron: '0 2 * * 0'    # Sunday — GeoNames+Wikidata backlog pull
 
 permissions:
   contents: write
@@ -25,7 +29,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
@@ -43,7 +47,7 @@ jobs:
           CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
           git clone --depth 1 "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" core
 
-      # GitHub scheduled runs delay/drop hote hain � event.schedule value ke bharose
+      # GitHub scheduled runs delay/drop hote hain — event.schedule value ke bharose
       # mat raho (delayed run galat branch le leta hai). UTC-hour buckets delay-proof:
       # 01:30 anchor 2-3h late chale to bhi daily branch milti hai.
       - name: Decide pipelines (delay-tolerant UTC-hour buckets)
@@ -65,7 +69,7 @@ jobs:
       # NOTE: PROVIDER_KEYS/SOURCE_USER are this repo's neutral secret names;
       # the pipeline step maps them onto the names the bundle's engines read.
       # CRASH-SAFE: clone ke baad kuch bhi fail ho (build mid-run, release, derive),
-      # ye step + publish + sync-back phir bhi chalenge � jitna kaam hua, SAB save.
+      # ye step + publish + sync-back phir bhi chalenge — jitna kaam hua, SAB save.
       - name: Run pipelines (generation + gates)
         if: always() && steps.clone.outcome == 'success'
         working-directory: core
@@ -76,7 +80,13 @@ jobs:
           for p in $PIPES; do
             case "$p" in
               check)   node engine/pipeline-health.js ;;
-              build)   FACTORY_MINUTES=50 node engine/pipeline-build.js --fill ;;
+              # Authoring throughput. Measured cost per city was 208s against 18s of
+              # LLM time (a blocking 60s cooldown on every minute-429), and only
+              # 4-5 of 24 hourly runs actually fired. The bundle now walks to the
+              # next fleet slot instead of sleeping, and runs 4 city workers -
+              # 208s -> 18s per city, so one 70-min pass authors ~230 cities and
+              # the 275/day quota becomes the binding ceiling again.
+              build)   FACTORY_MINUTES=70 FACTORY_PARALLEL=4 node engine/pipeline-build.js --fill ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
@@ -85,7 +95,7 @@ jobs:
               *) echo "unknown pipeline: $p" ;;
             esac
           done
-          # UNIVERSAL RULE: har run ke end me derive � status.json/home/globe/search-index
+          # UNIVERSAL RULE: har run ke end me derive — status.json/home/globe/search-index
           # har run ke baad fresh (build-only runs se console stale nahi rehta)
           case " $PIPES " in
             *" derive "*) ;; # already ran
@@ -134,11 +144,11 @@ jobs:
           git config user.email "$GIT_AUTHOR_EMAIL"
           git add -A
           git diff --cached --quiet || git commit -m "run: $(date -u +%F-%H%M)"
-          # core repo run ke dauran aage badh sakta hai (deploy/manual commits) �
+          # core repo run ke dauran aage badh sakta hai (deploy/manual commits) —
           # rebase + 3 retry: results kabhi reject na hon, chaahe kuch bhi push hua ho
           for i in 1 2 3; do
             git pull --rebase "$REMOTE" main && git push "$REMOTE" HEAD:main && break
-            echo "sync attempt $i failed � rebasing on latest and retrying"
+            echo "sync attempt $i failed — rebasing on latest and retrying"
             sleep 5
           done
 
