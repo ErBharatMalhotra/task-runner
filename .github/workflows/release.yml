@@ -73,6 +73,8 @@ jobs:
       - name: Publish artifacts to this public repo
         if: always() && steps.clone.outcome == 'success'
         env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+          CORE_REPO: ${{ vars.CORE_REPO }}
           GIT_AUTHOR_NAME: Bharat Malhotra
           GIT_AUTHOR_EMAIL: 85725773+ErBharatMalhotra@users.noreply.github.com
           GIT_COMMITTER_NAME: Bharat Malhotra
@@ -81,6 +83,30 @@ jobs:
           git config user.name "$GIT_AUTHOR_NAME"
           git config user.email "$GIT_AUTHOR_EMAIL"
           git pull --rebase origin main || true
+
+          # STALE-CLONE GUARD: a long run can finish after another run has
+          # already published newer artifacts (2026-10-04: a scheduled-run that
+          # started before the release-drip wiped the drip's 13 new pages).
+          # Never publish a tree that is behind what is already live.
+          STALE=0; REASON=""
+          if [ -n "$CORE_TOKEN" ] && [ -n "$CORE_REPO" ]; then
+            CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
+            if git -C core fetch -q "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" main; then
+              if [ "$(git -C core rev-parse HEAD)" != "$(git -C core rev-parse FETCH_HEAD)" ]; then
+                STALE=1; REASON="the bundle remote moved ahead of this clone"
+              fi
+            else
+              echo "WARN: bundle fetch failed - proceeding without the remote check"
+            fi
+          fi
+          PUBLISHED=$(node -e "try{const j=require('./site/data/cities-live.json');console.log((j.cities||j).length||0)}catch{console.log(0)}" 2>/dev/null || echo 0)
+          CLONED=$(node -e "const r=require('./core/data/release-log.json');console.log((r.released||[]).length)" 2>/dev/null || echo 0)
+          if [ "$CLONED" -lt "$PUBLISHED" ]; then
+            STALE=1; REASON="published tree has $PUBLISHED cities, this clone has $CLONED"
+          fi
+          if [ "$STALE" = "1" ]; then
+            echo "publish skipped - $REASON"
+          else
           rm -rf site
           mkdir -p site
           COPIED=0
@@ -118,6 +144,7 @@ jobs:
           git add site
           git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
           git push
+          fi
 
       - name: Sync results back to the private bundle
         if: always() && steps.clone.outcome == 'success'
@@ -136,8 +163,56 @@ jobs:
           git config user.email "$GIT_AUTHOR_EMAIL"
           git add -A
           git diff --cached --quiet || git commit -m "drip: $(date -u +%F-%H%M)"
+          # SAVE-ON-CONFLICT (2026-10-04): ek late run ka rebase derived views par
+          # conflict hua, retry loop wahi stuck rebase dobara hit karta raha, aur
+          # step phir bhi green exit hua — 142 authored cities runner ke saath
+          # gayab. Rules ab: derived view bundle ki newer copy ko overwrite nahi
+          # karega, append-logs dono taraf ka union honge, baaki sab (specs/pool/
+          # facts/pages) is run ka rahega; jo sync sac mein fail ho woh laal ho.
+          SYNCED=0
           for i in 1 2 3; do
-            git pull --rebase "$REMOTE" main && git push "$REMOTE" HEAD:main && break
+            if git pull --rebase "$REMOTE" main && git push "$REMOTE" HEAD:main; then SYNCED=1; break; fi
+            if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
+              echo "sync: conflicts (attempt $i): $(git diff --name-only --diff-filter=U | tr '\n' ' ')"
+              for f in $(git diff --name-only --diff-filter=U); do
+                case "$f" in
+                  data/release-log.json|data/gen-log.json)
+                    # append-only logs: union by key — koi run apni entries na khoye
+                    if node -e "
+                      const cp = require('child_process'), fs = require('fs');
+                      const p = process.argv[1];
+                      const rd = (s) => JSON.parse(cp.execSync('git show ' + s + ':' + p, { maxBuffer: 64 * 1024 * 1024 }).toString());
+                      const key = (k, x) => k === 'generated' ? (x.slug + '|' + (x.at || '')) : (x.slug || JSON.stringify(x));
+                      const up = rd(':2'), me = rd(':3');
+                      const out = Object.assign({}, up);
+                      for (const k of ['released', 'skipped', 'generated']) {
+                        if (!up[k] && !me[k]) continue;
+                        const seen = new Set((up[k] || []).map((x) => key(k, x)));
+                        out[k] = (up[k] || []).concat((me[k] || []).filter((x) => !seen.has(key(k, x))));
+                      }
+                      fs.writeFileSync(p, JSON.stringify(out, null, 2) + '\n');
+                    " "$f"; then git add "$f"; else echo "  WARN: union failed for $f"; fi ;;
+                  data/status.json|data/home-stats.json|data/cities-live.json|data/city-index.json|data/state-hubs.json|search-index.json|index.html)
+                    # derived views: bundle ki newer copy jeete
+                    if git checkout --ours -- "$f" 2>/dev/null; then git add "$f"; else echo "  WARN: could not take the bundle copy of $f"; fi ;;
+                  *)
+                    # authored artifacts (specs/pool/facts/pages): is run ka version jeete
+                    if git checkout --theirs -- "$f" 2>/dev/null; then git add "$f"; else echo "  WARN: could not keep this run's $f"; fi ;;
+                esac
+              done
+              RC=0
+              if git diff --cached --quiet; then
+                git rebase --skip >/dev/null 2>&1 || RC=1
+              else
+                git -c core.editor=true rebase --continue >/dev/null 2>&1 || RC=1
+              fi
+              if [ "$RC" = "0" ] && git push "$REMOTE" HEAD:main; then SYNCED=1; break; fi
+            fi
+            git rebase --abort 2>/dev/null || true
             echo "sync attempt $i failed — rebasing on latest and retrying"
             sleep 5
           done
+          if [ "$SYNCED" != "1" ]; then
+            echo "::error::sync-back failed after 3 attempts - this run's results were NOT saved"
+            exit 1
+          fi
