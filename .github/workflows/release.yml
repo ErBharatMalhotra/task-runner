@@ -129,6 +129,21 @@ jobs:
           fi
           echo "publish: $COPIED path(s) copied"
 
+          # NEVER publish a partial or empty tree: on 2026-10-03/04 every cp
+          # failed on a CRLF publish.conf (after `rm -rf site`), so the runner
+          # committed an empty site/ and the whole deploy 404'd overnight —
+          # Google's sitemap read hit that window (GSC still shows the 404).
+          # Zero copies or a missing root file now stop the publish before
+          # anything is committed or pushed.
+          REQUIRED_MISSING=0
+          for rf in index.html sitemap.xml robots.txt 404.html _headers _redirects; do
+            [ -e "site/$rf" ] || { echo "  WARN: required root file site/$rf is missing"; REQUIRED_MISSING=1; }
+          done
+          if [ "$COPIED" -eq 0 ] || [ "$REQUIRED_MISSING" = "1" ]; then
+            echo "::error::refusing to publish - copied=$COPIED required-missing=$REQUIRED_MISSING"
+            exit 1
+          fi
+
           # Structural gate on what is about to be published: broken internal
           # links, canonical mismatches, dead redirects, sitemap URLs with no
           # page. A failure stops the push instead of shipping it. Skipped when
