@@ -84,9 +84,15 @@ jobs:
               # LLM time (a blocking 60s cooldown on every minute-429), and only
               # 4-5 of 24 hourly runs actually fired. The bundle now walks to the
               # next fleet slot instead of sleeping, and runs 4 city workers -
-              # 208s -> 18s per city, so one 70-min pass authors ~230 cities and
-              # the 275/day quota becomes the binding ceiling again.
-              build)   FACTORY_MINUTES=70 FACTORY_PARALLEL=4 node engine/pipeline-build.js --fill ;;
+              # 208s -> 18s per city, so one 70-min pass authors ~230 cities.
+              #
+              # GEMINI_RPD=100: the old default of 25 made the ceiling 11*25=275,
+              # but the real quota never trips - two consecutive days logged
+              # 286 and 289 calls with ZERO day-429s, and 8 models past 25 calls.
+              # At 275 the first pass burned the whole budget and every later run
+              # in the IST day sat idle on "quota already full". 100 puts the
+              # ceiling at 1100 so a genuine 429 is what stops us.
+              build)   GEMINI_RPD=100 FACTORY_MINUTES=70 FACTORY_PARALLEL=4 node engine/pipeline-build.js --fill ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
