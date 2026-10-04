@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-04T10:24:37.042Z",
-  "count": 122,
-  "shown": 122,
+  "generatedAt": "2026-10-04T11:44:58.933Z",
+  "count": 125,
+  "shown": 125,
   "latest": {
-    "slug": "bhagalpur",
-    "name": "Bhagalpur",
-    "lat": 25.24446,
-    "lon": 86.97183,
-    "at": "2026-10-03T09:20:54.709Z"
+    "slug": "vellore",
+    "name": "Vellore",
+    "lat": 12.9184,
+    "lon": 79.13255,
+    "at": "2026-10-04T09:59:35.385Z"
   },
   "cities": [
     {
@@ -851,6 +851,16 @@
       "releasedAt": "2026-09-26T14:20:16.379Z"
     },
     {
+      "slug": "vellore",
+      "name": "Vellore",
+      "state": "Tamil Nadu",
+      "lat": 12.9184,
+      "lon": 79.13255,
+      "pop": 484690,
+      "tier": 2,
+      "releasedAt": "2026-10-04T09:59:35.385Z"
+    },
+    {
       "slug": "kurnool",
       "name": "Kurnool",
       "state": "Andhra Pradesh",
@@ -1141,6 +1151,16 @@
       "releasedAt": "2026-09-26T11:53:45.672Z"
     },
     {
+      "slug": "tiruvannamalai",
+      "name": "Tiruvannamalai",
+      "state": "Tamil Nadu",
+      "lat": 12.22662,
+      "lon": 79.07461,
+      "pop": 145278,
+      "tier": 2,
+      "releasedAt": "2026-10-04T09:59:35.330Z"
+    },
+    {
       "slug": "haldwani",
       "name": "Haldwani",
       "state": "Uttarakhand",
@@ -1169,6 +1189,16 @@
       "pop": 114405,
       "tier": 2,
       "releasedAt": "2026-09-26T14:21:23.673Z"
+    },
+    {
+      "slug": "amaravati",
+      "name": "Amaravati",
+      "state": "Andhra Pradesh",
+      "lat": 16.514,
+      "lon": 80.516,
+      "pop": 103000,
+      "tier": 2,
+      "releasedAt": "2026-10-04T09:59:35.277Z"
     },
     {
       "slug": "rishikesh",
