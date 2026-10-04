@@ -1,0 +1,41 @@
+name: watchdog
+
+# GitHub drops and delays scheduled runs (measured on this repo: only 4-5 of
+# the 24 hourly scheduled-runs actually fired per day). The pipelines are
+# idempotent, so the watchdog's only job is: if a pipeline has been silent for
+# longer than its threshold AND nothing is queued or running, dispatch it once
+# more. It never touches an active run.
+
+on:
+  schedule:
+    - cron: '45 */2 * * *'   # every 2 hours, off the hour so it never races the pipelines
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'only log the decision (1 = no dispatch)'
+        default: '1'
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Re-trigger pipelines silenced by dropped crons
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: node scripts/watchdog.mjs

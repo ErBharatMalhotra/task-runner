@@ -1,20 +1,27 @@
 name: release-drip
 
-# Dedicated daily drip: publish up to 3 authored cities, then refresh derived
-# pages + status. WHY SEPARATE FROM scheduled-run: the hourly bucket logic
+# Dedicated daily drip: publish authored cities, then refresh derived pages +
+# status. WHY SEPARATE FROM scheduled-run: the hourly bucket logic
 # (`H == 1 || H == 2`) missed release when GitHub delayed the anchor past 03:00
 # UTC (happened 2026-09-29 — push race failed the anchor, bucket became
 # refresh/build/derive, drip starved for a day with 52 cities ready). A cron
 # with its own workflow needs NO window logic — whenever it runs, it releases.
 # Race-safe: sync-back uses rebase+retry; concurrency group is its own, and a
 # concurrent scheduled-run can interleave (same clone → rebase → push pattern).
+#
+# TIERED RAMP (approved 2026-10-04): ~1,500 authored cities are waiting and a
+# flat 3/day drip would take months to surface them. Top tiers (queue tier 1-2)
+# get a 10/day budget; the long tail keeps the original 3/day GSC-safe pace.
 
 on:
   workflow_dispatch:
     inputs:
       batch:
-        description: 'max cities to drip this pass'
+        description: 'max tail cities to drip this pass'
         default: '3'
+      top_batch:
+        description: 'max top-tier (1-2) cities to drip this pass'
+        default: '10'
   schedule:
     - cron: '30 3 * * *'   # daily 03:30 UTC = 09:00 IST — after the anchor build
 
@@ -46,15 +53,22 @@ jobs:
           CLEAN="$(printf '%s' "$CORE_TOKEN" | tr -d '\r\n\t \"')"
           git clone --depth 1 "https://x-access-token:${CLEAN}@github.com/${CORE_REPO}.git" core
 
-      - name: Release drip (authored-unreleased cities)
+      - name: Release drip — top tiers (queue tier 1-2)
+        if: always() && steps.clone.outcome == 'success'
+        working-directory: core
+        env:
+          RELEASE_TIER_CAP: '2'
+        run: node engine/pipeline-release.js --batch ${{ github.event.inputs.top_batch || 10 }} --min 0
+
+      - name: Release drip — tail
         if: always() && steps.clone.outcome == 'success'
         working-directory: core
         run: node engine/pipeline-release.js --batch ${{ github.event.inputs.batch || 3 }} --min 0
 
-      - name: Derive (home, search, globe, hubs, status)
+      - name: Derive (home, search, globe, hubs, status, home-stats)
         if: always() && steps.clone.outcome == 'success'
         working-directory: core
-        run: node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js
+        run: node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js && node engine/build-home-stats.js
 
       - name: Publish artifacts to this public repo
         if: always() && steps.clone.outcome == 'success'

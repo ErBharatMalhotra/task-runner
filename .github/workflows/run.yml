@@ -100,15 +100,18 @@ jobs:
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
               rank)    node engine/priority-search.js ;;
-              derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
+              derive)  node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js && node engine/build-home-stats.js ;;
               *) echo "unknown pipeline: $p" ;;
             esac
           done
           # UNIVERSAL RULE: har run ke end me derive — status.json/home/globe/search-index
-          # har run ke baad fresh (build-only runs se console stale nahi rehta)
+          # har run ke baad fresh (build-only runs se console stale nahi rehta).
+          # build-home-stats LAST — woh status.json ka releasedTotal padhta hai, isliye
+          # status.js ke baad hi chalna chahiye. Iske derive se missing hone ki wajah se
+          # homepage tiles 119 pe atak gaye the jabki 125 cities live thi.
           case " $PIPES " in
             *" derive "*) ;; # already ran
-            *) node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js ;;
+            *) node engine/home-cities.js && node engine/search-index.js && node engine/globe-cities.js && node engine/state-hubs.js && node engine/status.js && node engine/build-home-stats.js ;;
           esac
 
       - name: Publish artifacts to this public repo
@@ -121,52 +124,55 @@ jobs:
         run: |
           git config user.name "$GIT_AUTHOR_NAME"
           git config user.email "$GIT_AUTHOR_EMAIL"
-          git pull --rebase origin main || truerm -rf site
-            mkdir -p site
-            # publish whatever the bundle marks as web-ready (bundle owns the list)
-            # `read` strips the newline but NOT a CR, so a CRLF publish.conf fed
-            # "index.html\r" to cp and every copy failed — silently, because of
-            # the 2>/dev/null || true below. The bundle is stored with LF now; the
-            # ${raw%$'\r'} and the explicit WARN lines keep the next occurrence
-            # of this loud instead of invisible.
-            COPIED=0; MISSING=0; FAILED=0
-            if [ -f core/publish.conf ]; then
-              while IFS= read -r raw || [ -n "$raw" ]; do
-                entry="${raw%$'\r'}"
-                case "$entry" in ''|'#'*) continue;; esac
-                mkdir -p "site/$(dirname "$entry")"
-                # publish.conf lists directories with a trailing slash (city/, state/,
-                # assets/). `cp -r core/city/ site/city/` nests, producing site/city/city
-                # — which shipped 179 duplicate pages live, each with its own canonical.
-                # Strip the slash, and clear the destination first so a rename can never
-                # leave a stale copy behind.
-                src="core/${entry%/}"; dst="site/${entry%/}"
-                mkdir -p "$(dirname "$dst")"
-                rm -rf "$dst"
-                if [ -e "$src" ]; then
-                  if cp -r "$src" "$dst"; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; FAILED=$((FAILED+1)); fi
-                else
-                  echo "  WARN: publish.conf lists '$entry' but it is not in the clone"; MISSING=$((MISSING+1))
-                fi
-              done < core/publish.conf
-            else
-              echo "  WARN: core/publish.conf not found — nothing published"
-            fi
-            echo "publish: $COPIED path(s) copied, $MISSING missing, $FAILED failed"
+          # `git pull ... || truerm -rf site` tha: shell ne usse ek hi command
+          # truerm maana, isliye `rm -rf site` kabhi chala hi nahi. Do saaf lines:
+          git pull --rebase origin main || true
+          rm -rf site
+          mkdir -p site
+          # publish whatever the bundle marks as web-ready (bundle owns the list)
+          # `read` strips the newline but NOT a CR, so a CRLF publish.conf fed
+          # "index.html\r" to cp and every copy failed — silently, because of
+          # the 2>/dev/null || true below. The bundle is stored with LF now; the
+          # ${raw%$'\r'} and the explicit WARN lines keep the next occurrence
+          # of this loud instead of invisible.
+          COPIED=0; MISSING=0; FAILED=0
+          if [ -f core/publish.conf ]; then
+            while IFS= read -r raw || [ -n "$raw" ]; do
+              entry="${raw%$'\r'}"
+              case "$entry" in ''|'#'*) continue;; esac
+              mkdir -p "site/$(dirname "$entry")"
+              # publish.conf lists directories with a trailing slash (city/, state/,
+              # assets/). `cp -r core/city/ site/city/` nests, producing site/city/city
+              # — which shipped 179 duplicate pages live, each with its own canonical.
+              # Strip the slash, and clear the destination first so a rename can never
+              # leave a stale copy behind.
+              src="core/${entry%/}"; dst="site/${entry%/}"
+              mkdir -p "$(dirname "$dst")"
+              rm -rf "$dst"
+              if [ -e "$src" ]; then
+                if cp -r "$src" "$dst"; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; FAILED=$((FAILED+1)); fi
+              else
+                echo "  WARN: publish.conf lists '$entry' but it is not in the clone"; MISSING=$((MISSING+1))
+              fi
+            done < core/publish.conf
+          else
+            echo "  WARN: core/publish.conf not found — nothing published"
+          fi
+          echo "publish: $COPIED path(s) copied, $MISSING missing, $FAILED failed"
 
-            # Structural gate on the copy that is about to be published. Runs only
-            # when something was actually copied, so a no-op refresh pass is not
-            # failed by stale artifacts sitting in site/. A failure here stops the
-            # push, so a broken publish cannot reach the live site.
-            if [ "$COPIED" -gt 0 ]; then
-              echo "::group::site health gate"
-              node scripts/site-health.mjs site
-              echo "::endgroup::"
-            else
-              echo "site health gate skipped — nothing was copied this pass"
-            fi
+          # Structural gate on the copy that is about to be published. Runs only
+          # when something was actually copied, so a no-op refresh pass is not
+          # failed by stale artifacts sitting in site/. A failure here stops the
+          # push, so a broken publish cannot reach the live site.
+          if [ "$COPIED" -gt 0 ]; then
+            echo "::group::site health gate"
+            node scripts/site-health.mjs site
+            echo "::endgroup::"
+          else
+            echo "site health gate skipped — nothing was copied this pass"
+          fi
 
-            git add site
+          git add site
           git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
           git push
 
@@ -194,4 +200,3 @@ jobs:
             echo "sync attempt $i failed — rebasing on latest and retrying"
             sleep 5
           done
-
