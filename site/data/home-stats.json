@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T15:16:35.749Z",
-  "cityGuides": 125,
-  "stateHubs": 26,
+  "generatedAt": "2026-10-04T16:02:57.232Z",
+  "cityGuides": 138,
+  "stateHubs": 27,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,12 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-04T15:16:35.720Z",
-      "title": "pipeline run OK — 542 guides refreshed, 0 failures"
+      "at": "2026-10-04T16:02:57.198Z",
+      "title": "pipeline run OK — 400 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-04T00:00:00.000Z",
-      "title": "3 city guides published — vellore, tiruvannamalai, amaravati"
+      "title": "16 city guides published — khandwa, alappuzha, ballari +13 more"
     },
     {
       "at": "2026-10-03T00:00:00.000Z",
@@ -80,6 +80,10 @@
     }
   ],
   "states": [
+    {
+      "name": "andaman-and-nicobar",
+      "path": "state/andaman-and-nicobar/"
+    },
     {
       "name": "Andhra Pradesh",
       "path": "state/andhra-pradesh/"
