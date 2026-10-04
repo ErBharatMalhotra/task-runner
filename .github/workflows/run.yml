@@ -121,18 +121,31 @@ jobs:
         run: |
           git config user.name "$GIT_AUTHOR_NAME"
           git config user.email "$GIT_AUTHOR_EMAIL"
-          git pull --rebase origin main || true
-          rm -rf site
-          mkdir -p site
-          # publish whatever the bundle marks as web-ready (bundle owns the list)
-          if [ -f core/publish.conf ]; then
-            while read -r entry; do
-              case "$entry" in ''|'#'*) continue;; esac
-              mkdir -p "site/$(dirname "$entry")"
-              cp -r "core/$entry" "site/$entry" 2>/dev/null || true
-            done < core/publish.conf
-          fi
-          git add site
+          git pull --rebase origin main || truerm -rf site
+            mkdir -p site
+            # publish whatever the bundle marks as web-ready (bundle owns the list)
+            # `read` strips the newline but NOT a CR, so a CRLF publish.conf fed
+            # "index.html\r" to cp and every copy failed — silently, because of
+            # the 2>/dev/null || true below. The bundle is stored with LF now; the
+            # ${raw%$'\r'} and the explicit WARN lines keep the next occurrence
+            # of this loud instead of invisible.
+            COPIED=0; MISSING=0; FAILED=0
+            if [ -f core/publish.conf ]; then
+              while IFS= read -r raw || [ -n "$raw" ]; do
+                entry="${raw%$'\r'}"
+                case "$entry" in ''|'#'*) continue;; esac
+                mkdir -p "site/$(dirname "$entry")"
+                if [ -e "core/$entry" ]; then
+                  if cp -r "core/$entry" "site/$entry"; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; FAILED=$((FAILED+1)); fi
+                else
+                  echo "  WARN: publish.conf lists '$entry' but it is not in the clone"; MISSING=$((MISSING+1))
+                fi
+              done < core/publish.conf
+            else
+              echo "  WARN: core/publish.conf not found — nothing published"
+            fi
+            echo "publish: $COPIED path(s) copied, $MISSING missing, $FAILED failed"
+            git add site
           git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
           git push
 
