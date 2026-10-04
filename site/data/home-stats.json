@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T07:36:25.254Z",
-  "cityGuides": 119,
-  "stateHubs": 26,
+  "generatedAt": "2026-10-04T14:13:02.313Z",
+  "cityGuides": 138,
+  "stateHubs": 27,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,8 +55,16 @@
   ],
   "activity": [
     {
-      "at": "2026-10-03T01:16:51.235Z",
-      "title": "pipeline run OK — 77 guides refreshed, 0 failures"
+      "at": "2026-10-04T14:13:02.269Z",
+      "title": "pipeline run OK — 400 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-04T00:00:00.000Z",
+      "title": "16 city guides published — khandwa, alappuzha, ballari +13 more"
+    },
+    {
+      "at": "2026-10-03T00:00:00.000Z",
+      "title": "3 city guides published — bhagalpur, kurnool, erode"
     },
     {
       "at": "2026-10-02T00:00:00.000Z",
@@ -69,17 +77,13 @@
     {
       "at": "2026-09-30T00:00:00.000Z",
       "title": "3 city guides published — amravati, secunderabad, nanded"
-    },
-    {
-      "at": "2026-09-28T00:00:00.000Z",
-      "title": "10 city guides published — fatwa, thoothukudi, ujjain +7 more"
-    },
-    {
-      "at": "2026-09-26T00:00:00.000Z",
-      "title": "100 city guides published — panaji, jodhpur, ranchi +97 more"
     }
   ],
   "states": [
+    {
+      "name": "andaman-and-nicobar",
+      "path": "state/andaman-and-nicobar/"
+    },
     {
       "name": "Andhra Pradesh",
       "path": "state/andhra-pradesh/"

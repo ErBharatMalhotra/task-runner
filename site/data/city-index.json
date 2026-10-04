@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T12:18:18.922Z",
-  "count": 125,
+  "generatedAt": "2026-10-04T14:13:02.119Z",
+  "count": 138,
   "cities": {
     "agartala": {
       "name": "Agartala",
@@ -26,6 +26,11 @@
       "name": "Ajmer",
       "url": "https://bharatdn.com/city/ajmer/",
       "population": 551102
+    },
+    "alappuzha": {
+      "name": "Alappuzha",
+      "url": "https://bharatdn.com/city/alappuzha/",
+      "population": 240991
     },
     "aligarh": {
       "name": "Aligarh",
@@ -62,6 +67,11 @@
       "url": "https://bharatdn.com/city/ayodhya/",
       "population": 55890
     },
+    "ballari": {
+      "name": "Ballari",
+      "url": "https://bharatdn.com/city/ballari/",
+      "population": 410445
+    },
     "bareilly": {
       "name": "Bareilly",
       "url": "https://bharatdn.com/city/bareilly/",
@@ -87,6 +97,11 @@
       "url": "https://bharatdn.com/city/bhavnagar/",
       "population": 713895
     },
+    "bhilai": {
+      "name": "Bhilai",
+      "url": "https://bharatdn.com/city/bhilai/",
+      "population": 627734
+    },
     "bhiwandi": {
       "name": "Bhiwandi",
       "url": "https://bharatdn.com/city/bhiwandi/",
@@ -107,10 +122,20 @@
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
     },
+    "chandannagar": {
+      "name": "Chandannagar",
+      "url": "https://bharatdn.com/city/chandannagar/",
+      "population": 180623
+    },
     "chandigarh": {
       "name": "Chandigarh",
       "url": "https://bharatdn.com/city/chandigarh/",
       "population": 1026545
+    },
+    "chandrapur": {
+      "name": "Chandrapur",
+      "url": "https://bharatdn.com/city/chandrapur/",
+      "population": 328351
     },
     "chennai": {
       "name": "Chennai",
@@ -167,6 +192,11 @@
       "url": "https://bharatdn.com/city/fatwa/",
       "population": 50961
     },
+    "firozabad": {
+      "name": "Firozabad",
+      "url": "https://bharatdn.com/city/firozabad/",
+      "population": 306409
+    },
     "gandhinagar": {
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
@@ -186,6 +216,11 @@
       "name": "Gorakhpur",
       "url": "https://bharatdn.com/city/gorakhpur-haryana/",
       "population": 1324570
+    },
+    "greater-noida": {
+      "name": "Greater Noida",
+      "url": "https://bharatdn.com/city/greater-noida/",
+      "population": 293908
     },
     "guntur": {
       "name": "Guntur",
@@ -257,6 +292,11 @@
       "url": "https://bharatdn.com/city/jalandhar/",
       "population": 873725
     },
+    "jalgaon": {
+      "name": "Jalgaon",
+      "url": "https://bharatdn.com/city/jalgaon/",
+      "population": 460228
+    },
     "jammu": {
       "name": "Jammu",
       "url": "https://bharatdn.com/city/jammu/",
@@ -291,6 +331,11 @@
       "name": "Karnal",
       "url": "https://bharatdn.com/city/karnal/",
       "population": 314000
+    },
+    "khandwa": {
+      "name": "Khandwa",
+      "url": "https://bharatdn.com/city/khandwa/",
+      "population": 200738
     },
     "kharagpur": {
       "name": "Kharagpur",
@@ -387,6 +432,11 @@
       "url": "https://bharatdn.com/city/mussoorie/",
       "population": 30118
     },
+    "muzaffarnagar": {
+      "name": "Muzaffarnagar",
+      "url": "https://bharatdn.com/city/muzaffarnagar/",
+      "population": 349706
+    },
     "mysuru": {
       "name": "Mysuru",
       "url": "https://bharatdn.com/city/mysuru/",
@@ -396,6 +446,11 @@
       "name": "Nagpur",
       "url": "https://bharatdn.com/city/nagpur/",
       "population": 2497870
+    },
+    "najafgarh": {
+      "name": "Najafgarh",
+      "url": "https://bharatdn.com/city/najafgarh/",
+      "population": 1365000
     },
     "nanded": {
       "name": "Nanded",
@@ -452,6 +507,11 @@
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
       "population": 1727692
     },
+    "port-blair": {
+      "name": "Port Blair",
+      "url": "https://bharatdn.com/city/port-blair/",
+      "population": 112050
+    },
     "prayagraj": {
       "name": "Prayagraj",
       "url": "https://bharatdn.com/city/prayagraj/",
@@ -491,6 +551,11 @@
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
       "population": 102690
+    },
+    "rourkela": {
+      "name": "Rourkela",
+      "url": "https://bharatdn.com/city/rourkela/",
+      "population": 273317
     },
     "salem": {
       "name": "Salem",
