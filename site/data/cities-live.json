@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-04T14:13:01.936Z",
-  "count": 138,
-  "shown": 138,
+  "generatedAt": "2026-10-04T15:16:35.481Z",
+  "count": 125,
+  "shown": 125,
   "latest": {
-    "slug": "khandwa",
-    "name": "Khandwa",
-    "lat": 21.82427,
-    "lon": 76.35086,
-    "at": "2026-10-04T14:13:01.722Z"
+    "slug": "vellore",
+    "name": "Vellore",
+    "lat": 12.9184,
+    "lon": 79.13255,
+    "at": "2026-10-04T09:59:35.385Z"
   },
   "cities": [
     {
@@ -289,16 +289,6 @@
       "pop": 1390933,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:21.026Z"
-    },
-    {
-      "slug": "najafgarh",
-      "name": "Najafgarh",
-      "state": "Delhi",
-      "lat": 28.60922,
-      "lon": 76.97982,
-      "pop": 1365000,
-      "tier": 1,
-      "releasedAt": "2026-10-04T14:13:01.508Z"
     },
     {
       "slug": "gorakhpur-haryana",
@@ -721,16 +711,6 @@
       "releasedAt": "2026-09-26T14:20:14.830Z"
     },
     {
-      "slug": "bhilai",
-      "name": "Bhilai",
-      "state": "Chhattisgarh",
-      "lat": 21.20919,
-      "lon": 81.4285,
-      "pop": 627734,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.002Z"
-    },
-    {
       "slug": "mangaluru",
       "name": "Mangaluru",
       "state": "Karnataka",
@@ -881,16 +861,6 @@
       "releasedAt": "2026-10-04T09:59:35.385Z"
     },
     {
-      "slug": "jalgaon",
-      "name": "Jalgaon",
-      "state": "Maharashtra",
-      "lat": 21.00292,
-      "lon": 75.56602,
-      "pop": 460228,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.172Z"
-    },
-    {
       "slug": "kurnool",
       "name": "Kurnool",
       "state": "Andhra Pradesh",
@@ -951,16 +921,6 @@
       "releasedAt": "2026-09-28T10:13:21.852Z"
     },
     {
-      "slug": "ballari",
-      "name": "Ballari",
-      "state": "Karnataka",
-      "lat": 15.14205,
-      "lon": 76.92398,
-      "pop": 410445,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.611Z"
-    },
-    {
       "slug": "agartala",
       "name": "Agartala",
       "state": "Tripura",
@@ -1001,26 +961,6 @@
       "releasedAt": "2026-09-26T14:19:58.142Z"
     },
     {
-      "slug": "muzaffarnagar",
-      "name": "Muzaffarnagar",
-      "state": "Uttar Pradesh",
-      "lat": 29.47091,
-      "lon": 77.70332,
-      "pop": 349706,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.396Z"
-    },
-    {
-      "slug": "chandrapur",
-      "name": "Chandrapur",
-      "state": "Maharashtra",
-      "lat": 19.95076,
-      "lon": 79.29523,
-      "pop": 328351,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.453Z"
-    },
-    {
       "slug": "new-delhi",
       "name": "New Delhi",
       "state": "Delhi",
@@ -1049,26 +989,6 @@
       "pop": 314000,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:27.532Z"
-    },
-    {
-      "slug": "firozabad",
-      "name": "Firozabad",
-      "state": "Uttar Pradesh",
-      "lat": 27.15092,
-      "lon": 78.39781,
-      "pop": 306409,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.338Z"
-    },
-    {
-      "slug": "greater-noida",
-      "name": "Greater Noida",
-      "state": "Uttar Pradesh",
-      "lat": 28.49615,
-      "lon": 77.53601,
-      "pop": 293908,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.227Z"
     },
     {
       "slug": "aizawl",
@@ -1121,16 +1041,6 @@
       "releasedAt": "2026-10-02T09:58:08.352Z"
     },
     {
-      "slug": "rourkela",
-      "name": "Rourkela",
-      "state": "Odisha",
-      "lat": 22.22496,
-      "lon": 84.86414,
-      "pop": 273317,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.114Z"
-    },
-    {
       "slug": "dhanbad",
       "name": "Dhanbad",
       "state": "Jharkhand",
@@ -1169,16 +1079,6 @@
       "pop": 244377,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:09.070Z"
-    },
-    {
-      "slug": "alappuzha",
-      "name": "Alappuzha",
-      "state": "Kerala",
-      "lat": 9.49004,
-      "lon": 76.3264,
-      "pop": 240991,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.668Z"
     },
     {
       "slug": "haridwar",
@@ -1229,26 +1129,6 @@
       "pop": 204182,
       "tier": 2,
       "releasedAt": "2026-09-30T05:47:31.632Z"
-    },
-    {
-      "slug": "khandwa",
-      "name": "Khandwa",
-      "state": "Madhya Pradesh",
-      "lat": 21.82427,
-      "lon": 76.35086,
-      "pop": 200738,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.722Z"
-    },
-    {
-      "slug": "chandannagar",
-      "name": "Chandannagar",
-      "state": "West Bengal",
-      "lat": 22.86225,
-      "lon": 88.36796,
-      "pop": 180623,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.281Z"
     },
     {
       "slug": "shimla",
@@ -1309,16 +1189,6 @@
       "pop": 114405,
       "tier": 2,
       "releasedAt": "2026-09-26T14:21:23.673Z"
-    },
-    {
-      "slug": "port-blair",
-      "name": "Port Blair",
-      "state": "Andaman and Nicobar",
-      "lat": 11.66613,
-      "lon": 92.74635,
-      "pop": 112050,
-      "tier": 2,
-      "releasedAt": "2026-10-04T14:13:01.056Z"
     },
     {
       "slug": "amaravati",
