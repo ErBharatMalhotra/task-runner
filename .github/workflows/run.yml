@@ -145,6 +145,19 @@ jobs:
               echo "  WARN: core/publish.conf not found — nothing published"
             fi
             echo "publish: $COPIED path(s) copied, $MISSING missing, $FAILED failed"
+
+            # Structural gate on the copy that is about to be published. Runs only
+            # when something was actually copied, so a no-op refresh pass is not
+            # failed by stale artifacts sitting in site/. A failure here stops the
+            # push, so a broken publish cannot reach the live site.
+            if [ "$COPIED" -gt 0 ]; then
+              echo "::group::site health gate"
+              node scripts/site-health.mjs site
+              echo "::endgroup::"
+            else
+              echo "site health gate skipped — nothing was copied this pass"
+            fi
+
             git add site
           git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
           git push

@@ -76,6 +76,14 @@ jobs:
               cp -r "core/$entry" "site/$entry" 2>/dev/null || true
             done < core/publish.conf
           fi
+
+          # Structural gate on what is about to be published: broken internal
+          # links, canonical mismatches, dead redirects, sitemap URLs with no
+          # page. A failure stops the push instead of shipping it.
+          echo "::group::site health gate"
+          node scripts/site-health.mjs site
+          echo "::endgroup::"
+
           git add site
           git diff --cached --quiet || git commit -m "artifacts: $(date -u +%F-%H%M)"
           git push

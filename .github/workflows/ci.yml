@@ -20,3 +20,10 @@ jobs:
 
       - name: Privacy gate
         run: node scripts/privacy-gate.mjs
+
+      # The published artifacts in site/ are what search engines crawl. Until now
+      # only privacy was checked, so a broken cross-link or a canonical pointing
+      # at a redirect could be committed and published unnoticed.
+      - name: Site health gate (broken links, canonicals, redirects, sitemap)
+        if: hashFiles('site/**/*.html') != ''
+        run: node scripts/site-health.mjs site
