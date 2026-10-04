@@ -75,9 +75,14 @@ jobs:
               entry="${raw%$'\r'}"
               case "$entry" in ''|'#'*) continue;; esac
               mkdir -p "site/$(dirname "$entry")"
-              # Same CRLF lesson as run.yml: a stray \r made every cp fail while
-              # the job still reported success. Count what actually landed.
-              if cp -r "core/$entry" "site/$entry" 2>/dev/null; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; fi
+              # Same two lessons as run.yml: a stray \r made every cp fail while the
+              # job still reported success, and a trailing slash (city/, state/,
+              # assets/) made cp nest into site/city/city — 179 duplicate pages shipped
+              # live that way. Strip the slash and clear the destination first.
+              src="core/${entry%/}"; dst="site/${entry%/}"
+              mkdir -p "$(dirname "$dst")"
+              rm -rf "$dst"
+              if cp -r "$src" "$dst" 2>/dev/null; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; fi
             done < core/publish.conf
           else
             echo "  WARN: core/publish.conf not found — nothing published"

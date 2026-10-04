@@ -135,8 +135,16 @@ jobs:
                 entry="${raw%$'\r'}"
                 case "$entry" in ''|'#'*) continue;; esac
                 mkdir -p "site/$(dirname "$entry")"
-                if [ -e "core/$entry" ]; then
-                  if cp -r "core/$entry" "site/$entry"; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; FAILED=$((FAILED+1)); fi
+                # publish.conf lists directories with a trailing slash (city/, state/,
+                # assets/). `cp -r core/city/ site/city/` nests, producing site/city/city
+                # — which shipped 179 duplicate pages live, each with its own canonical.
+                # Strip the slash, and clear the destination first so a rename can never
+                # leave a stale copy behind.
+                src="core/${entry%/}"; dst="site/${entry%/}"
+                mkdir -p "$(dirname "$dst")"
+                rm -rf "$dst"
+                if [ -e "$src" ]; then
+                  if cp -r "$src" "$dst"; then COPIED=$((COPIED+1)); else echo "  WARN: copy FAILED for $entry"; FAILED=$((FAILED+1)); fi
                 else
                   echo "  WARN: publish.conf lists '$entry' but it is not in the clone"; MISSING=$((MISSING+1))
                 fi

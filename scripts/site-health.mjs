@@ -44,7 +44,10 @@ export function auditSite(dist) {
   if (fs.existsSync(rd)) {
     for (const line of fs.readFileSync(rd, "utf8").split("\n")) {
       const m = line.trim().match(/^(\S+)\s+(\S+)\s+(30[1278])$/);
-      if (m) redirects.set(m[1], m[2]);
+      // Skip host rewrites like "https://www.example.com/* -> https://example.com/:splat".
+      // Those match the same shape but resolve at the DNS/host level, so there is no
+      // in-tree destination page for them to point at.
+      if (m && !/^https?:\/\//i.test(m[1]) && !/:splat/.test(m[1]) && !/:splat/.test(m[2])) redirects.set(m[1], m[2]);
     }
   }
 
