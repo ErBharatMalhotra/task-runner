@@ -86,13 +86,16 @@ jobs:
               # next fleet slot instead of sleeping, and runs 4 city workers -
               # 208s -> 18s per city, so one 70-min pass authors ~230 cities.
               #
-              # GEMINI_RPD=100: the old default of 25 made the ceiling 11*25=275,
-              # but the real quota never trips - two consecutive days logged
-              # 286 and 289 calls with ZERO day-429s, and 8 models past 25 calls.
-              # At 275 the first pass burned the whole budget and every later run
-              # in the IST day sat idle on "quota already full". 100 puts the
-              # ceiling at 1100 so a genuine 429 is what stops us.
-              build)   GEMINI_RPD=100 FACTORY_MINUTES=70 FACTORY_PARALLEL=4 node engine/pipeline-build.js --fill ;;
+              # GEMINI_RPD=250: the old default of 25 made the ceiling 11*25=275,
+              # but the real quota never trips - three consecutive days logged
+              # 286, 289 and 725 calls with ZERO day-429s, and one model took
+              # 286 calls in a day alone. At 275 the first pass burned the whole
+              # budget and every later run in the IST day sat idle on "quota
+              # already full". 250 puts the ceiling at 2750, below the 286 a
+              # single model already used, and lib/llm.js day-trips any model
+              # that does 429 for real - so over-shooting degrades instead of
+              # failing.
+              build)   GEMINI_RPD=250 FACTORY_MINUTES=70 FACTORY_PARALLEL=4 node engine/pipeline-build.js --fill ;;
               refresh) node engine/pipeline-refresh.js ;;
               release) node engine/pipeline-release.js --batch 3 --min 2 ;;
               backlog) node engine/backlog.js --pages 4 --states --min-pop 1000 && node engine/backlog-wikidata.js && node engine/priority-search.js ;;
