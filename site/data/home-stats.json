@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-10-03T07:36:25.254Z",
+  "cityGuides": 119,
+  "stateHubs": 26,
+  "hubs": [
+    {
+      "host": "bharatdn.com",
+      "url": "/",
+      "label": "Network index",
+      "role": "network root",
+      "state": "live"
+    },
+    {
+      "host": "news.bharatdn.com",
+      "url": "https://news.bharatdn.com",
+      "label": "News & Digest",
+      "role": "editorial",
+      "state": "live"
+    },
+    {
+      "host": "jobs.bharatdn.com",
+      "url": "https://jobs.bharatdn.com",
+      "label": "Jobs Board",
+      "role": "careers & exams",
+      "state": "live"
+    },
+    {
+      "host": "ielts.bharatdn.com",
+      "url": "https://ielts.bharatdn.com",
+      "label": "IELTS Hub",
+      "role": "test prep",
+      "state": "live"
+    },
+    {
+      "host": "tools.bharatdn.com",
+      "url": "https://tools.bharatdn.com",
+      "label": "Tools Directory",
+      "role": "utility",
+      "state": "live"
+    },
+    {
+      "host": "grammar.bharatdn.com",
+      "url": "https://grammar.bharatdn.com",
+      "label": "Grammar",
+      "role": "language skills",
+      "state": "live"
+    },
+    {
+      "host": "stepahead.bharatdn.com",
+      "url": "https://stepahead.bharatdn.com",
+      "label": "Step Ahead",
+      "role": "coaching",
+      "state": "live"
+    }
+  ],
+  "activity": [
+    {
+      "at": "2026-10-03T01:16:51.235Z",
+      "title": "pipeline run OK — 77 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-02T00:00:00.000Z",
+      "title": "3 city guides published — kushinagar, thanjavur, aizawl"
+    },
+    {
+      "at": "2026-10-01T00:00:00.000Z",
+      "title": "3 city guides published — bhiwandi, sangli, nellore"
+    },
+    {
+      "at": "2026-09-30T00:00:00.000Z",
+      "title": "3 city guides published — amravati, secunderabad, nanded"
+    },
+    {
+      "at": "2026-09-28T00:00:00.000Z",
+      "title": "10 city guides published — fatwa, thoothukudi, ujjain +7 more"
+    },
+    {
+      "at": "2026-09-26T00:00:00.000Z",
+      "title": "100 city guides published — panaji, jodhpur, ranchi +97 more"
+    }
+  ],
+  "states": [
+    {
+      "name": "Andhra Pradesh",
+      "path": "state/andhra-pradesh/"
+    },
+    {
+      "name": "Assam",
+      "path": "state/assam/"
+    },
+    {
+      "name": "Bihar",
+      "path": "state/bihar/"
+    },
+    {
+      "name": "Chhattisgarh",
+      "path": "state/chhattisgarh/"
+    },
+    {
+      "name": "Goa",
+      "path": "state/goa/"
+    },
+    {
+      "name": "Gujarat",
+      "path": "state/gujarat/"
+    },
+    {
+      "name": "Haryana",
+      "path": "state/haryana/"
+    },
+    {
+      "name": "Himachal Pradesh",
+      "path": "state/himachal-pradesh/"
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "path": "state/jammu-and-kashmir/"
+    },
+    {
+      "name": "Jharkhand",
+      "path": "state/jharkhand/"
+    },
+    {
+      "name": "Karnataka",
+      "path": "state/karnataka/"
+    },
+    {
+      "name": "Kerala",
+      "path": "state/kerala/"
+    },
+    {
+      "name": "Madhya Pradesh",
+      "path": "state/madhya-pradesh/"
+    },
+    {
+      "name": "Maharashtra",
+      "path": "state/maharashtra/"
+    },
+    {
+      "name": "Manipur",
+      "path": "state/manipur/"
+    },
+    {
+      "name": "Meghalaya",
+      "path": "state/meghalaya/"
+    },
+    {
+      "name": "Mizoram",
+      "path": "state/mizoram/"
+    },
+    {
+      "name": "Odisha",
+      "path": "state/odisha/"
+    },
+    {
+      "name": "Punjab",
+      "path": "state/punjab/"
+    },
+    {
+      "name": "Rajasthan",
+      "path": "state/rajasthan/"
+    },
+    {
+      "name": "Tamil Nadu",
+      "path": "state/tamil-nadu/"
+    },
+    {
+      "name": "Telangana",
+      "path": "state/telangana/"
+    },
+    {
+      "name": "Tripura",
+      "path": "state/tripura/"
+    },
+    {
+      "name": "Uttar Pradesh",
+      "path": "state/uttar-pradesh/"
+    },
+    {
+      "name": "Uttarakhand",
+      "path": "state/uttarakhand/"
+    },
+    {
+      "name": "West Bengal",
+      "path": "state/west-bengal/"
+    }
+  ]
+}

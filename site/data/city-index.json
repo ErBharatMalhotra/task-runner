@@ -1,0 +1,631 @@
+{
+  "generatedAt": "2026-10-04T09:59:35.764Z",
+  "count": 125,
+  "cities": {
+    "agartala": {
+      "name": "Agartala",
+      "url": "https://bharatdn.com/city/agartala/",
+      "population": 404157
+    },
+    "agra": {
+      "name": "Agra",
+      "url": "https://bharatdn.com/city/agra/",
+      "population": 1585704
+    },
+    "ahmedabad": {
+      "name": "Ahmedabad",
+      "url": "https://bharatdn.com/city/ahmedabad/",
+      "population": 5577940
+    },
+    "aizawl": {
+      "name": "Aizawl",
+      "url": "https://bharatdn.com/city/aizawl/",
+      "population": 293416
+    },
+    "ajmer": {
+      "name": "Ajmer",
+      "url": "https://bharatdn.com/city/ajmer/",
+      "population": 551102
+    },
+    "aligarh": {
+      "name": "Aligarh",
+      "url": "https://bharatdn.com/city/aligarh/",
+      "population": 911223
+    },
+    "amaravati": {
+      "name": "Amaravati",
+      "url": "https://bharatdn.com/city/amaravati/",
+      "population": 103000
+    },
+    "amravati": {
+      "name": "Amravati",
+      "url": "https://bharatdn.com/city/amravati/",
+      "population": 647057
+    },
+    "amritsar": {
+      "name": "Amritsar",
+      "url": "https://bharatdn.com/city/amritsar/",
+      "population": 1132383
+    },
+    "asansol": {
+      "name": "Asansol",
+      "url": "https://bharatdn.com/city/asansol/",
+      "population": 614477
+    },
+    "aurangabad": {
+      "name": "Aurangabad",
+      "url": "https://bharatdn.com/city/aurangabad/",
+      "population": 1263808
+    },
+    "ayodhya": {
+      "name": "Ayodhya",
+      "url": "https://bharatdn.com/city/ayodhya/",
+      "population": 55890
+    },
+    "bareilly": {
+      "name": "Bareilly",
+      "url": "https://bharatdn.com/city/bareilly/",
+      "population": 985752
+    },
+    "bathinda": {
+      "name": "Bathinda",
+      "url": "https://bharatdn.com/city/bathinda/",
+      "population": 285813
+    },
+    "bengaluru": {
+      "name": "Bengaluru",
+      "url": "https://bharatdn.com/city/bengaluru/",
+      "population": 8443675
+    },
+    "bhagalpur": {
+      "name": "Bhagalpur",
+      "url": "https://bharatdn.com/city/bhagalpur/",
+      "population": 400146
+    },
+    "bhavnagar": {
+      "name": "Bhavnagar",
+      "url": "https://bharatdn.com/city/bhavnagar/",
+      "population": 713895
+    },
+    "bhiwandi": {
+      "name": "Bhiwandi",
+      "url": "https://bharatdn.com/city/bhiwandi/",
+      "population": 874032
+    },
+    "bhopal": {
+      "name": "Bhopal",
+      "url": "https://bharatdn.com/city/bhopal/",
+      "population": 1798218
+    },
+    "bhubaneswar": {
+      "name": "Bhubaneswar",
+      "url": "https://bharatdn.com/city/bhubaneswar/",
+      "population": 353487
+    },
+    "bikaner": {
+      "name": "Bikaner",
+      "url": "https://bharatdn.com/city/bikaner/",
+      "population": 644406
+    },
+    "chandigarh": {
+      "name": "Chandigarh",
+      "url": "https://bharatdn.com/city/chandigarh/",
+      "population": 1026545
+    },
+    "chennai": {
+      "name": "Chennai",
+      "url": "https://bharatdn.com/city/chennai/",
+      "population": 4646732
+    },
+    "coimbatore": {
+      "name": "Coimbatore",
+      "url": "https://bharatdn.com/city/coimbatore/",
+      "population": 1601438
+    },
+    "cuttack": {
+      "name": "Cuttack",
+      "url": "https://bharatdn.com/city/cuttack/",
+      "population": 610189
+    },
+    "darjeeling": {
+      "name": "Darjeeling",
+      "url": "https://bharatdn.com/city/darjeeling/",
+      "population": 120414
+    },
+    "dehradun": {
+      "name": "Dehradun",
+      "url": "https://bharatdn.com/city/dehradun/",
+      "population": 578438
+    },
+    "delhi": {
+      "name": "Delhi",
+      "url": "https://bharatdn.com/city/delhi/",
+      "population": 11034555
+    },
+    "dhanbad": {
+      "name": "Dhanbad",
+      "url": "https://bharatdn.com/city/dhanbad/",
+      "population": 269766
+    },
+    "durgapur": {
+      "name": "Durgapur",
+      "url": "https://bharatdn.com/city/durgapur/",
+      "population": 581409
+    },
+    "erode": {
+      "name": "Erode",
+      "url": "https://bharatdn.com/city/erode/",
+      "population": 521891
+    },
+    "faridabad": {
+      "name": "Faridabad",
+      "url": "https://bharatdn.com/city/faridabad/",
+      "population": 1404653
+    },
+    "fatwa": {
+      "name": "Fatwa",
+      "url": "https://bharatdn.com/city/fatwa/",
+      "population": 50961
+    },
+    "gandhinagar": {
+      "name": "Gandhinagar",
+      "url": "https://bharatdn.com/city/gandhinagar/",
+      "population": 292167
+    },
+    "ghaziabad": {
+      "name": "Ghaziabad",
+      "url": "https://bharatdn.com/city/ghaziabad/",
+      "population": 1636069
+    },
+    "gorakhpur": {
+      "name": "Gorakhpur",
+      "url": "https://bharatdn.com/city/gorakhpur/",
+      "population": 673446
+    },
+    "gorakhpur-haryana": {
+      "name": "Gorakhpur",
+      "url": "https://bharatdn.com/city/gorakhpur-haryana/",
+      "population": 1324570
+    },
+    "guntur": {
+      "name": "Guntur",
+      "url": "https://bharatdn.com/city/guntur/",
+      "population": 743720
+    },
+    "gurugram": {
+      "name": "Gurugram",
+      "url": "https://bharatdn.com/city/gurugram/",
+      "population": 876969
+    },
+    "guwahati": {
+      "name": "Guwahati",
+      "url": "https://bharatdn.com/city/guwahati/",
+      "population": 963404
+    },
+    "gwalior": {
+      "name": "Gwalior",
+      "url": "https://bharatdn.com/city/gwalior/",
+      "population": 1102884
+    },
+    "haldwani": {
+      "name": "Haldwani",
+      "url": "https://bharatdn.com/city/haldwani/",
+      "population": 139497
+    },
+    "haridwar": {
+      "name": "Haridwar",
+      "url": "https://bharatdn.com/city/haridwar/",
+      "population": 231105
+    },
+    "howrah": {
+      "name": "Howrah",
+      "url": "https://bharatdn.com/city/howrah/",
+      "population": 1077165
+    },
+    "hubballi-dharwad": {
+      "name": "Hubballi-Dharwad",
+      "url": "https://bharatdn.com/city/hubballi-dharwad/",
+      "population": 943857
+    },
+    "hyderabad": {
+      "name": "Hyderabad",
+      "url": "https://bharatdn.com/city/hyderabad/",
+      "population": 6809970
+    },
+    "imphal": {
+      "name": "Imphal",
+      "url": "https://bharatdn.com/city/imphal/",
+      "population": 268243
+    },
+    "indore": {
+      "name": "Indore",
+      "url": "https://bharatdn.com/city/indore/",
+      "population": 2057791
+    },
+    "jabalpur": {
+      "name": "Jabalpur",
+      "url": "https://bharatdn.com/city/jabalpur/",
+      "population": 1081677
+    },
+    "jaipur": {
+      "name": "Jaipur",
+      "url": "https://bharatdn.com/city/jaipur/",
+      "population": 3073350
+    },
+    "jalandhar": {
+      "name": "Jalandhar",
+      "url": "https://bharatdn.com/city/jalandhar/",
+      "population": 873725
+    },
+    "jammu": {
+      "name": "Jammu",
+      "url": "https://bharatdn.com/city/jammu/",
+      "population": 650458
+    },
+    "jamnagar": {
+      "name": "Jamnagar",
+      "url": "https://bharatdn.com/city/jamnagar/",
+      "population": 654040
+    },
+    "jamshedpur": {
+      "name": "Jamshedpur",
+      "url": "https://bharatdn.com/city/jamshedpur/",
+      "population": 631053
+    },
+    "jhansi": {
+      "name": "Jhansi",
+      "url": "https://bharatdn.com/city/jhansi/",
+      "population": 507000
+    },
+    "jodhpur": {
+      "name": "Jodhpur",
+      "url": "https://bharatdn.com/city/jodhpur/",
+      "population": 1137815
+    },
+    "kanpur": {
+      "name": "Kanpur",
+      "url": "https://bharatdn.com/city/kanpur/",
+      "population": 2768057
+    },
+    "karnal": {
+      "name": "Karnal",
+      "url": "https://bharatdn.com/city/karnal/",
+      "population": 314000
+    },
+    "kharagpur": {
+      "name": "Kharagpur",
+      "url": "https://bharatdn.com/city/kharagpur/",
+      "population": 253221
+    },
+    "kochi": {
+      "name": "Kochi",
+      "url": "https://bharatdn.com/city/kochi/",
+      "population": 602046
+    },
+    "kolhapur": {
+      "name": "Kolhapur",
+      "url": "https://bharatdn.com/city/kolhapur/",
+      "population": 653886
+    },
+    "kolkata": {
+      "name": "Kolkata",
+      "url": "https://bharatdn.com/city/kolkata/",
+      "population": 4496694
+    },
+    "kota": {
+      "name": "Kota",
+      "url": "https://bharatdn.com/city/kota/",
+      "population": 1001365
+    },
+    "kozhikode": {
+      "name": "Kozhikode",
+      "url": "https://bharatdn.com/city/kozhikode/",
+      "population": 431560
+    },
+    "kurnool": {
+      "name": "Kurnool",
+      "url": "https://bharatdn.com/city/kurnool/",
+      "population": 460184
+    },
+    "kushinagar": {
+      "name": "Kushinagar",
+      "url": "https://bharatdn.com/city/kushinagar/",
+      "population": 274403
+    },
+    "lucknow": {
+      "name": "Lucknow",
+      "url": "https://bharatdn.com/city/lucknow/",
+      "population": 2815601
+    },
+    "ludhiana": {
+      "name": "Ludhiana",
+      "url": "https://bharatdn.com/city/ludhiana/",
+      "population": 1618879
+    },
+    "madurai": {
+      "name": "Madurai",
+      "url": "https://bharatdn.com/city/madurai/",
+      "population": 1017861
+    },
+    "manali": {
+      "name": "Manali",
+      "url": "https://bharatdn.com/city/manali/",
+      "population": 8096
+    },
+    "mangaluru": {
+      "name": "Mangaluru",
+      "url": "https://bharatdn.com/city/mangaluru/",
+      "population": 623841
+    },
+    "mango": {
+      "name": "Mango",
+      "url": "https://bharatdn.com/city/mango/",
+      "population": 223805
+    },
+    "mathura": {
+      "name": "Mathura",
+      "url": "https://bharatdn.com/city/mathura/",
+      "population": 441386
+    },
+    "meerut": {
+      "name": "Meerut",
+      "url": "https://bharatdn.com/city/meerut/",
+      "population": 1424908
+    },
+    "moradabad": {
+      "name": "Moradabad",
+      "url": "https://bharatdn.com/city/moradabad/",
+      "population": 889810
+    },
+    "mumbai": {
+      "name": "Mumbai",
+      "url": "https://bharatdn.com/city/mumbai/",
+      "population": 12442373
+    },
+    "mussoorie": {
+      "name": "Mussoorie",
+      "url": "https://bharatdn.com/city/mussoorie/",
+      "population": 30118
+    },
+    "mysuru": {
+      "name": "Mysuru",
+      "url": "https://bharatdn.com/city/mysuru/",
+      "population": 920550
+    },
+    "nagpur": {
+      "name": "Nagpur",
+      "url": "https://bharatdn.com/city/nagpur/",
+      "population": 2497870
+    },
+    "nanded": {
+      "name": "Nanded",
+      "url": "https://bharatdn.com/city/nanded/",
+      "population": 550564
+    },
+    "nashik": {
+      "name": "Nashik",
+      "url": "https://bharatdn.com/city/nashik/",
+      "population": 1561809
+    },
+    "navi-mumbai": {
+      "name": "Navi Mumbai",
+      "url": "https://bharatdn.com/city/navi-mumbai/",
+      "population": 1119477
+    },
+    "nellore": {
+      "name": "Nellore",
+      "url": "https://bharatdn.com/city/nellore/",
+      "population": 547621
+    },
+    "new-delhi": {
+      "name": "New Delhi",
+      "url": "https://bharatdn.com/city/new-delhi/",
+      "population": 317797
+    },
+    "noida": {
+      "name": "Noida",
+      "url": "https://bharatdn.com/city/noida/",
+      "population": 637078
+    },
+    "ooty": {
+      "name": "Ooty",
+      "url": "https://bharatdn.com/city/ooty/",
+      "population": 73365
+    },
+    "panaji": {
+      "name": "Panaji",
+      "url": "https://bharatdn.com/city/panaji/",
+      "population": 114405
+    },
+    "panipat": {
+      "name": "Panipat",
+      "url": "https://bharatdn.com/city/panipat/",
+      "population": 442274
+    },
+    "patna": {
+      "name": "Patna",
+      "url": "https://bharatdn.com/city/patna/",
+      "population": 1684222
+    },
+    "pimpri-chinchwad": {
+      "name": "Pimpri-Chinchwad",
+      "url": "https://bharatdn.com/city/pimpri-chinchwad/",
+      "population": 1727692
+    },
+    "prayagraj": {
+      "name": "Prayagraj",
+      "url": "https://bharatdn.com/city/prayagraj/",
+      "population": 1112511
+    },
+    "puducherry": {
+      "name": "Puducherry",
+      "url": "https://bharatdn.com/city/puducherry/",
+      "population": 244377
+    },
+    "pune": {
+      "name": "Pune",
+      "url": "https://bharatdn.com/city/pune/",
+      "population": 3124458
+    },
+    "puri": {
+      "name": "Puri",
+      "url": "https://bharatdn.com/city/puri/",
+      "population": 157613
+    },
+    "raipur": {
+      "name": "Raipur",
+      "url": "https://bharatdn.com/city/raipur/",
+      "population": 1010433
+    },
+    "rajkot": {
+      "name": "Rajkot",
+      "url": "https://bharatdn.com/city/rajkot/",
+      "population": 1390933
+    },
+    "ranchi": {
+      "name": "Ranchi",
+      "url": "https://bharatdn.com/city/ranchi/",
+      "population": 1073571
+    },
+    "rishikesh": {
+      "name": "Rishikesh",
+      "url": "https://bharatdn.com/city/rishikesh/",
+      "population": 102690
+    },
+    "salem": {
+      "name": "Salem",
+      "url": "https://bharatdn.com/city/salem/",
+      "population": 829267
+    },
+    "sangli": {
+      "name": "Sangli",
+      "url": "https://bharatdn.com/city/sangli/",
+      "population": 601214
+    },
+    "secunderabad": {
+      "name": "Secunderabad",
+      "url": "https://bharatdn.com/city/secunderabad/",
+      "population": 204182
+    },
+    "shillong": {
+      "name": "Shillong",
+      "url": "https://bharatdn.com/city/shillong/",
+      "population": 354325
+    },
+    "shimla": {
+      "name": "Shimla",
+      "url": "https://bharatdn.com/city/shimla/",
+      "population": 171817
+    },
+    "siliguri": {
+      "name": "Siliguri",
+      "url": "https://bharatdn.com/city/siliguri/",
+      "population": 701458
+    },
+    "solapur": {
+      "name": "Solapur",
+      "url": "https://bharatdn.com/city/solapur/",
+      "population": 951118
+    },
+    "srinagar": {
+      "name": "Srinagar",
+      "url": "https://bharatdn.com/city/srinagar/",
+      "population": 979170
+    },
+    "surat": {
+      "name": "Surat",
+      "url": "https://bharatdn.com/city/surat/",
+      "population": 4594194
+    },
+    "thane": {
+      "name": "Thane",
+      "url": "https://bharatdn.com/city/thane/",
+      "population": 1841488
+    },
+    "thanjavur": {
+      "name": "Thanjavur",
+      "url": "https://bharatdn.com/city/thanjavur/",
+      "population": 291067
+    },
+    "thiruvananthapuram": {
+      "name": "Thiruvananthapuram",
+      "url": "https://bharatdn.com/city/thiruvananthapuram/",
+      "population": 957738
+    },
+    "thoothukudi": {
+      "name": "Thoothukudi",
+      "url": "https://bharatdn.com/city/thoothukudi/",
+      "population": 410760
+    },
+    "thrissur": {
+      "name": "Thrissur",
+      "url": "https://bharatdn.com/city/thrissur/",
+      "population": 315957
+    },
+    "tiruchirappalli": {
+      "name": "Tiruchirappalli",
+      "url": "https://bharatdn.com/city/tiruchirappalli/",
+      "population": 916674
+    },
+    "tirunelveli": {
+      "name": "Tirunelveli",
+      "url": "https://bharatdn.com/city/tirunelveli/",
+      "population": 550721
+    },
+    "tirupati": {
+      "name": "Tirupati",
+      "url": "https://bharatdn.com/city/tirupati/",
+      "population": 227105
+    },
+    "tiruvannamalai": {
+      "name": "Tiruvannamalai",
+      "url": "https://bharatdn.com/city/tiruvannamalai/",
+      "population": 145278
+    },
+    "udaipur": {
+      "name": "Udaipur",
+      "url": "https://bharatdn.com/city/udaipur/",
+      "population": 451100
+    },
+    "ujjain": {
+      "name": "Ujjain",
+      "url": "https://bharatdn.com/city/ujjain/",
+      "population": 515215
+    },
+    "vadodara": {
+      "name": "Vadodara",
+      "url": "https://bharatdn.com/city/vadodara/",
+      "population": 1822221
+    },
+    "varanasi": {
+      "name": "Varanasi",
+      "url": "https://bharatdn.com/city/varanasi/",
+      "population": 1198491
+    },
+    "vellore": {
+      "name": "Vellore",
+      "url": "https://bharatdn.com/city/vellore/",
+      "population": 484690
+    },
+    "vijayawada": {
+      "name": "Vijayawada",
+      "url": "https://bharatdn.com/city/vijayawada/",
+      "population": 1048219
+    },
+    "visakhapatnam": {
+      "name": "Visakhapatnam",
+      "url": "https://bharatdn.com/city/visakhapatnam/",
+      "population": 1728128
+    },
+    "warangal": {
+      "name": "Warangal",
+      "url": "https://bharatdn.com/city/warangal/",
+      "population": 811382
+    },
+    "yamunanagar": {
+      "name": "yamunanagar",
+      "url": "https://bharatdn.com/city/yamunanagar/",
+      "population": null
+    }
+  }
+}
