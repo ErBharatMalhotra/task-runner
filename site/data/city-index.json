@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T09:59:35.764Z",
-  "count": 125,
+  "generatedAt": "2026-10-04T10:24:37.219Z",
+  "count": 122,
   "cities": {
     "agartala": {
       "name": "Agartala",
@@ -31,11 +31,6 @@
       "name": "Aligarh",
       "url": "https://bharatdn.com/city/aligarh/",
       "population": 911223
-    },
-    "amaravati": {
-      "name": "Amaravati",
-      "url": "https://bharatdn.com/city/amaravati/",
-      "population": 103000
     },
     "amravati": {
       "name": "Amravati",
@@ -577,11 +572,6 @@
       "url": "https://bharatdn.com/city/tirupati/",
       "population": 227105
     },
-    "tiruvannamalai": {
-      "name": "Tiruvannamalai",
-      "url": "https://bharatdn.com/city/tiruvannamalai/",
-      "population": 145278
-    },
     "udaipur": {
       "name": "Udaipur",
       "url": "https://bharatdn.com/city/udaipur/",
@@ -601,11 +591,6 @@
       "name": "Varanasi",
       "url": "https://bharatdn.com/city/varanasi/",
       "population": 1198491
-    },
-    "vellore": {
-      "name": "Vellore",
-      "url": "https://bharatdn.com/city/vellore/",
-      "population": 484690
     },
     "vijayawada": {
       "name": "Vijayawada",
