@@ -783,6 +783,7 @@ loadDaily().then(d=>{
   setCount('statHubs',Array.isArray(d.hubs)?d.hubs.length:undefined);
   renderStateChips(d.states);
   if(Array.isArray(d.digest)&&d.digest.length) renderDigest(d.digest);
+  else{const t=document.getElementById('digestList'); if(t&&t.closest('.tile')) t.closest('.tile').style.display='none';}
   if(Array.isArray(d.activity)&&d.activity.length) renderTerm(d.activity);
   if(Array.isArray(d.hubs)&&d.hubs.length) renderHubs(d.hubs); else renderHubs(FALLBACK.hubs);
   document.getElementById('year').textContent=(d.date?new Date(d.date):new Date()).getFullYear();

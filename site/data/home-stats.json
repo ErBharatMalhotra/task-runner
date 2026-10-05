@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T03:08:17.700Z",
+  "generatedAt": "2026-10-05T07:49:13.417Z",
   "cityGuides": 138,
   "stateHubs": 27,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-05T03:08:17.659Z",
-      "title": "pipeline run OK — 700 guides refreshed, 0 failures"
+      "at": "2026-10-05T07:49:13.378Z",
+      "title": "pipeline run OK — 849 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-04T00:00:00.000Z",
@@ -77,6 +77,29 @@
     {
       "at": "2026-09-30T00:00:00.000Z",
       "title": "3 city guides published — amravati, secunderabad, nanded"
+    }
+  ],
+  "digest": [
+    {
+      "tag": "Network",
+      "tone": "red",
+      "title": "16 new city guides — Khandwa, Alappuzha, Ballari +13 more",
+      "desc": "37 published in the last 7 days, each live-verified.",
+      "time": "yesterday"
+    },
+    {
+      "tag": "Coverage",
+      "tone": "blue",
+      "title": "138 city guides · 27 state hubs live",
+      "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
+      "time": "daily"
+    },
+    {
+      "tag": "Pipeline",
+      "tone": "green",
+      "title": "Pipeline run OK — 849 guides refreshed, 0 failures",
+      "desc": "Every guide passes structural and fact gates before it goes live.",
+      "time": "today"
     }
   ],
   "states": [
