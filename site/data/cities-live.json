@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-05T09:01:41.176Z",
-  "count": 138,
-  "shown": 138,
+  "generatedAt": "2026-10-05T10:44:21.842Z",
+  "count": 151,
+  "shown": 151,
   "latest": {
-    "slug": "khandwa",
-    "name": "Khandwa",
-    "lat": 21.82427,
-    "lon": 76.35086,
-    "at": "2026-10-04T14:13:01.722Z"
+    "slug": "kumbakonam",
+    "name": "Kumbakonam",
+    "lat": 10.96209,
+    "lon": 79.39124,
+    "at": "2026-10-05T10:44:21.373Z"
   },
   "cities": [
     {
@@ -209,6 +209,16 @@
       "pop": 1684222,
       "tier": 1,
       "releasedAt": "2026-09-26T11:53:45.069Z"
+    },
+    {
+      "slug": "kallakurichi",
+      "name": "Kallakurichi",
+      "state": "Tamil Nadu",
+      "lat": 11.73379,
+      "lon": 78.95925,
+      "pop": 1682687,
+      "tier": 1,
+      "releasedAt": "2026-10-05T10:44:20.003Z"
     },
     {
       "slug": "ghaziabad",
@@ -881,6 +891,16 @@
       "releasedAt": "2026-10-04T09:59:35.385Z"
     },
     {
+      "slug": "malegaon",
+      "name": "Malegaon",
+      "state": "Maharashtra",
+      "lat": 20.54966,
+      "lon": 74.53462,
+      "pop": 481228,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:19.891Z"
+    },
+    {
       "slug": "jalgaon",
       "name": "Jalgaon",
       "state": "Maharashtra",
@@ -941,6 +961,16 @@
       "releasedAt": "2026-09-26T14:20:09.576Z"
     },
     {
+      "slug": "akola",
+      "name": "Akola",
+      "state": "Maharashtra",
+      "lat": 20.70957,
+      "lon": 76.9981,
+      "pop": 428857,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:21.251Z"
+    },
+    {
       "slug": "thoothukudi",
       "name": "Thoothukudi",
       "state": "Tamil Nadu",
@@ -979,6 +1009,56 @@
       "pop": 400146,
       "tier": 2,
       "releasedAt": "2026-10-03T09:20:54.709Z"
+    },
+    {
+      "slug": "latur",
+      "name": "Latur",
+      "state": "Maharashtra",
+      "lat": 18.39721,
+      "lon": 76.56784,
+      "pop": 382940,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.651Z"
+    },
+    {
+      "slug": "dhule",
+      "name": "Dhule",
+      "state": "Maharashtra",
+      "lat": 20.9013,
+      "lon": 74.77737,
+      "pop": 375559,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.533Z"
+    },
+    {
+      "slug": "rohtak",
+      "name": "Rohtak",
+      "state": "Haryana",
+      "lat": 28.89447,
+      "lon": 76.58917,
+      "pop": 374292,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.413Z"
+    },
+    {
+      "slug": "kollam",
+      "name": "Kollam",
+      "state": "Kerala",
+      "lat": 8.88113,
+      "lon": 76.58469,
+      "pop": 367107,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.771Z"
+    },
+    {
+      "slug": "muzaffarpur",
+      "name": "Muzaffarpur",
+      "state": "Bihar",
+      "lat": 26.12259,
+      "lon": 85.39055,
+      "pop": 354462,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:19.709Z"
     },
     {
       "slug": "shillong",
@@ -1201,6 +1281,16 @@
       "releasedAt": "2026-09-26T11:53:46.224Z"
     },
     {
+      "slug": "nagercoil",
+      "name": "Nagercoil",
+      "state": "Tamil Nadu",
+      "lat": 8.17899,
+      "lon": 77.43227,
+      "pop": 224849,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.190Z"
+    },
+    {
       "slug": "mango",
       "name": "Mango",
       "state": "Jharkhand",
@@ -1209,6 +1299,16 @@
       "pop": 223805,
       "tier": 2,
       "releasedAt": "2026-09-28T10:02:56.817Z"
+    },
+    {
+      "slug": "kanchipuram",
+      "name": "Kanchipuram",
+      "state": "Tamil Nadu",
+      "lat": 12.83515,
+      "lon": 79.70006,
+      "pop": 221715,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:19.795Z"
     },
     {
       "slug": "yamunanagar",
@@ -1259,6 +1359,26 @@
       "pop": 171817,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:46.001Z"
+    },
+    {
+      "slug": "kumbakonam",
+      "name": "Kumbakonam",
+      "state": "Tamil Nadu",
+      "lat": 10.96209,
+      "lon": 79.39124,
+      "pop": 167155,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:21.373Z"
+    },
+    {
+      "slug": "mohali",
+      "name": "Mohali",
+      "state": "Punjab",
+      "lat": 30.67995,
+      "lon": 76.72211,
+      "pop": 166864,
+      "tier": 2,
+      "releasedAt": "2026-10-05T10:44:20.090Z"
     },
     {
       "slug": "puri",
@@ -1379,6 +1499,16 @@
       "pop": 30118,
       "tier": 3,
       "releasedAt": "2026-09-26T11:53:43.414Z"
+    },
+    {
+      "slug": "nazareth",
+      "name": "Nazareth",
+      "state": "Tamil Nadu",
+      "lat": 8.56102,
+      "lon": 77.97214,
+      "pop": 16584,
+      "tier": 3,
+      "releasedAt": "2026-10-05T10:44:21.148Z"
     },
     {
       "slug": "manali",

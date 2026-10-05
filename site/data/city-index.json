@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T09:01:41.355Z",
-  "count": 138,
+  "generatedAt": "2026-10-05T10:44:21.999Z",
+  "count": 151,
   "cities": {
     "agartala": {
       "name": "Agartala",
@@ -26,6 +26,11 @@
       "name": "Ajmer",
       "url": "https://bharatdn.com/city/ajmer/",
       "population": 551102
+    },
+    "akola": {
+      "name": "Akola",
+      "url": "https://bharatdn.com/city/akola/",
+      "population": 428857
     },
     "alappuzha": {
       "name": "Alappuzha",
@@ -171,6 +176,11 @@
       "name": "Dhanbad",
       "url": "https://bharatdn.com/city/dhanbad/",
       "population": 269766
+    },
+    "dhule": {
+      "name": "Dhule",
+      "url": "https://bharatdn.com/city/dhule/",
+      "population": 375559
     },
     "durgapur": {
       "name": "Durgapur",
@@ -322,6 +332,16 @@
       "url": "https://bharatdn.com/city/jodhpur/",
       "population": 1137815
     },
+    "kallakurichi": {
+      "name": "Kallakurichi",
+      "url": "https://bharatdn.com/city/kallakurichi/",
+      "population": 1682687
+    },
+    "kanchipuram": {
+      "name": "Kanchipuram",
+      "url": "https://bharatdn.com/city/kanchipuram/",
+      "population": 221715
+    },
     "kanpur": {
       "name": "Kanpur",
       "url": "https://bharatdn.com/city/kanpur/",
@@ -357,6 +377,11 @@
       "url": "https://bharatdn.com/city/kolkata/",
       "population": 4496694
     },
+    "kollam": {
+      "name": "Kollam",
+      "url": "https://bharatdn.com/city/kollam/",
+      "population": 367107
+    },
     "kota": {
       "name": "Kota",
       "url": "https://bharatdn.com/city/kota/",
@@ -367,6 +392,11 @@
       "url": "https://bharatdn.com/city/kozhikode/",
       "population": 431560
     },
+    "kumbakonam": {
+      "name": "Kumbakonam",
+      "url": "https://bharatdn.com/city/kumbakonam/",
+      "population": 167155
+    },
     "kurnool": {
       "name": "Kurnool",
       "url": "https://bharatdn.com/city/kurnool/",
@@ -376,6 +406,11 @@
       "name": "Kushinagar",
       "url": "https://bharatdn.com/city/kushinagar/",
       "population": 274403
+    },
+    "latur": {
+      "name": "Latur",
+      "url": "https://bharatdn.com/city/latur/",
+      "population": 382940
     },
     "lucknow": {
       "name": "Lucknow",
@@ -391,6 +426,11 @@
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
       "population": 1017861
+    },
+    "malegaon": {
+      "name": "Malegaon",
+      "url": "https://bharatdn.com/city/malegaon/",
+      "population": 481228
     },
     "manali": {
       "name": "Manali",
@@ -417,6 +457,11 @@
       "url": "https://bharatdn.com/city/meerut/",
       "population": 1424908
     },
+    "mohali": {
+      "name": "Mohali",
+      "url": "https://bharatdn.com/city/mohali/",
+      "population": 166864
+    },
     "moradabad": {
       "name": "Moradabad",
       "url": "https://bharatdn.com/city/moradabad/",
@@ -437,10 +482,20 @@
       "url": "https://bharatdn.com/city/muzaffarnagar/",
       "population": 349706
     },
+    "muzaffarpur": {
+      "name": "Muzaffarpur",
+      "url": "https://bharatdn.com/city/muzaffarpur/",
+      "population": 354462
+    },
     "mysuru": {
       "name": "Mysuru",
       "url": "https://bharatdn.com/city/mysuru/",
       "population": 920550
+    },
+    "nagercoil": {
+      "name": "Nagercoil",
+      "url": "https://bharatdn.com/city/nagercoil/",
+      "population": 224849
     },
     "nagpur": {
       "name": "Nagpur",
@@ -466,6 +521,11 @@
       "name": "Navi Mumbai",
       "url": "https://bharatdn.com/city/navi-mumbai/",
       "population": 1119477
+    },
+    "nazareth": {
+      "name": "Nazareth",
+      "url": "https://bharatdn.com/city/nazareth/",
+      "population": 16584
     },
     "nellore": {
       "name": "Nellore",
@@ -551,6 +611,11 @@
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
       "population": 102690
+    },
+    "rohtak": {
+      "name": "Rohtak",
+      "url": "https://bharatdn.com/city/rohtak/",
+      "population": 374292
     },
     "rourkela": {
       "name": "Rourkela",
