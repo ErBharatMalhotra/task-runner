@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:01:13.411Z",
+  "generatedAt": "2026-10-05T23:40:20.709Z",
   "cityGuides": 151,
   "stateHubs": 27,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-05T17:01:13.384Z",
-      "title": "pipeline run OK — 981 guides refreshed, 0 failures"
+      "at": "2026-10-05T23:40:20.670Z",
+      "title": "pipeline run OK — 801 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-05T00:00:00.000Z",
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Kumbakonam, Akola, Nazareth +10 more",
       "desc": "41 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 981 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 801 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
