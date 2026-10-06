@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T09:05:28.345Z",
-  "count": 151,
+  "generatedAt": "2026-10-06T10:37:30.229Z",
+  "count": 164,
   "cities": {
     "agartala": {
       "name": "Agartala",
@@ -56,6 +56,11 @@
       "name": "Amritsar",
       "url": "https://bharatdn.com/city/amritsar/",
       "population": 1132383
+    },
+    "anantapur": {
+      "name": "Anantapur",
+      "url": "https://bharatdn.com/city/anantapur/",
+      "population": 267161
     },
     "asansol": {
       "name": "Asansol",
@@ -122,6 +127,11 @@
       "url": "https://bharatdn.com/city/bhubaneswar/",
       "population": 353487
     },
+    "bidar": {
+      "name": "Bidar",
+      "url": "https://bharatdn.com/city/bidar/",
+      "population": 216020
+    },
     "bikaner": {
       "name": "Bikaner",
       "url": "https://bharatdn.com/city/bikaner/",
@@ -147,6 +157,11 @@
       "url": "https://bharatdn.com/city/chennai/",
       "population": 4646732
     },
+    "chittorgarh": {
+      "name": "Chittorgarh",
+      "url": "https://bharatdn.com/city/chittorgarh/",
+      "population": 116406
+    },
     "coimbatore": {
       "name": "Coimbatore",
       "url": "https://bharatdn.com/city/coimbatore/",
@@ -156,6 +171,11 @@
       "name": "Cuttack",
       "url": "https://bharatdn.com/city/cuttack/",
       "population": 610189
+    },
+    "darbhanga": {
+      "name": "Darbhanga",
+      "url": "https://bharatdn.com/city/darbhanga/",
+      "population": 296039
     },
     "darjeeling": {
       "name": "Darjeeling",
@@ -332,6 +352,16 @@
       "url": "https://bharatdn.com/city/jodhpur/",
       "population": 1137815
     },
+    "jodhpur-gujarat": {
+      "name": "Jodhpur",
+      "url": "https://bharatdn.com/city/jodhpur-gujarat/",
+      "population": 47329
+    },
+    "kadapa": {
+      "name": "Kadapa",
+      "url": "https://bharatdn.com/city/kadapa/",
+      "population": 344893
+    },
     "kallakurichi": {
       "name": "Kallakurichi",
       "url": "https://bharatdn.com/city/kallakurichi/",
@@ -412,6 +442,11 @@
       "url": "https://bharatdn.com/city/latur/",
       "population": 382940
     },
+    "leh": {
+      "name": "Leh",
+      "url": "https://bharatdn.com/city/leh/",
+      "population": 37475
+    },
     "lucknow": {
       "name": "Lucknow",
       "url": "https://bharatdn.com/city/lucknow/",
@@ -466,6 +501,11 @@
       "name": "Moradabad",
       "url": "https://bharatdn.com/city/moradabad/",
       "population": 889810
+    },
+    "moth": {
+      "name": "Moth",
+      "url": "https://bharatdn.com/city/moth/",
+      "population": 14077
     },
     "mumbai": {
       "name": "Mumbai",
@@ -557,6 +597,11 @@
       "url": "https://bharatdn.com/city/panipat/",
       "population": 442274
     },
+    "pathankot": {
+      "name": "Pathankot",
+      "url": "https://bharatdn.com/city/pathankot/",
+      "population": 174306
+    },
     "patna": {
       "name": "Patna",
       "url": "https://bharatdn.com/city/patna/",
@@ -596,6 +641,11 @@
       "name": "Raipur",
       "url": "https://bharatdn.com/city/raipur/",
       "population": 1010433
+    },
+    "rajahmundry": {
+      "name": "Rajahmundry",
+      "url": "https://bharatdn.com/city/rajahmundry/",
+      "population": 376333
     },
     "rajkot": {
       "name": "Rajkot",
@@ -657,6 +707,11 @@
       "url": "https://bharatdn.com/city/solapur/",
       "population": 951118
     },
+    "sri-ganganagar": {
+      "name": "Sri Ganganagar",
+      "url": "https://bharatdn.com/city/sri-ganganagar/",
+      "population": 237780
+    },
     "srinagar": {
       "name": "Srinagar",
       "url": "https://bharatdn.com/city/srinagar/",
@@ -717,10 +772,20 @@
       "url": "https://bharatdn.com/city/udaipur/",
       "population": 451100
     },
+    "udupi": {
+      "name": "Udupi",
+      "url": "https://bharatdn.com/city/udupi/",
+      "population": 165000
+    },
     "ujjain": {
       "name": "Ujjain",
       "url": "https://bharatdn.com/city/ujjain/",
       "population": 515215
+    },
+    "ulhasnagar": {
+      "name": "Ulhasnagar",
+      "url": "https://bharatdn.com/city/ulhasnagar/",
+      "population": 516584
     },
     "vadodara": {
       "name": "Vadodara",

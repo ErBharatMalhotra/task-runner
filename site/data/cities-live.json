@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-06T09:05:28.160Z",
-  "count": 151,
-  "shown": 151,
+  "generatedAt": "2026-10-06T10:37:30.024Z",
+  "count": 164,
+  "shown": 164,
   "latest": {
-    "slug": "kumbakonam",
-    "name": "Kumbakonam",
-    "lat": 10.96209,
-    "lon": 79.39124,
-    "at": "2026-10-05T10:44:21.373Z"
+    "slug": "jodhpur-gujarat",
+    "name": "Jodhpur",
+    "lat": 21.90174,
+    "lon": 70.0327,
+    "at": "2026-10-06T10:37:29.796Z"
   },
   "cities": [
     {
@@ -861,6 +861,16 @@
       "releasedAt": "2026-10-03T09:20:54.592Z"
     },
     {
+      "slug": "ulhasnagar",
+      "name": "Ulhasnagar",
+      "state": "Maharashtra",
+      "lat": 19.21667,
+      "lon": 73.15,
+      "pop": 516584,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.473Z"
+    },
+    {
       "slug": "ujjain",
       "name": "Ujjain",
       "state": "Madhya Pradesh",
@@ -1021,6 +1031,16 @@
       "releasedAt": "2026-10-05T10:44:20.651Z"
     },
     {
+      "slug": "rajahmundry",
+      "name": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "lat": 17.00517,
+      "lon": 81.77784,
+      "pop": 376333,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.132Z"
+    },
+    {
       "slug": "dhule",
       "name": "Dhule",
       "state": "Maharashtra",
@@ -1091,6 +1111,16 @@
       "releasedAt": "2026-10-04T14:13:01.396Z"
     },
     {
+      "slug": "kadapa",
+      "name": "Kadapa",
+      "state": "Andhra Pradesh",
+      "lat": 14.47995,
+      "lon": 78.82346,
+      "pop": 344893,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.247Z"
+    },
+    {
       "slug": "chandrapur",
       "name": "Chandrapur",
       "state": "Maharashtra",
@@ -1139,6 +1169,16 @@
       "pop": 306409,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.338Z"
+    },
+    {
+      "slug": "darbhanga",
+      "name": "Darbhanga",
+      "state": "Bihar",
+      "lat": 26.15216,
+      "lon": 85.89707,
+      "pop": 296039,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.022Z"
     },
     {
       "slug": "greater-noida",
@@ -1231,6 +1271,16 @@
       "releasedAt": "2026-09-26T14:20:30.215Z"
     },
     {
+      "slug": "anantapur",
+      "name": "Anantapur",
+      "state": "Andhra Pradesh",
+      "lat": 14.67784,
+      "lon": 77.60813,
+      "pop": 267161,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.303Z"
+    },
+    {
       "slug": "kharagpur",
       "name": "Kharagpur",
       "state": "West Bengal",
@@ -1259,6 +1309,16 @@
       "pop": 240991,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.668Z"
+    },
+    {
+      "slug": "sri-ganganagar",
+      "name": "Sri Ganganagar",
+      "state": "Rajasthan",
+      "lat": 29.92009,
+      "lon": 73.87496,
+      "pop": 237780,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.192Z"
     },
     {
       "slug": "haridwar",
@@ -1321,6 +1381,16 @@
       "releasedAt": "2026-09-26T11:53:46.555Z"
     },
     {
+      "slug": "bidar",
+      "name": "Bidar",
+      "state": "Karnataka",
+      "lat": 17.90802,
+      "lon": 77.51524,
+      "pop": 216020,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.359Z"
+    },
+    {
       "slug": "secunderabad",
       "name": "Secunderabad",
       "state": "Telangana",
@@ -1351,6 +1421,16 @@
       "releasedAt": "2026-10-04T14:13:01.281Z"
     },
     {
+      "slug": "pathankot",
+      "name": "Pathankot",
+      "state": "Punjab",
+      "lat": 32.27484,
+      "lon": 75.65287,
+      "pop": 174306,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.532Z"
+    },
+    {
       "slug": "shimla",
       "name": "Shimla",
       "state": "Himachal Pradesh",
@@ -1379,6 +1459,16 @@
       "pop": 166864,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.090Z"
+    },
+    {
+      "slug": "udupi",
+      "name": "Udupi",
+      "state": "Karnataka",
+      "lat": 13.33467,
+      "lon": 74.74617,
+      "pop": 165000,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.420Z"
     },
     {
       "slug": "puri",
@@ -1419,6 +1509,16 @@
       "pop": 120414,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:19.559Z"
+    },
+    {
+      "slug": "chittorgarh",
+      "name": "Chittorgarh",
+      "state": "Rajasthan",
+      "lat": 24.88963,
+      "lon": 74.62403,
+      "pop": 116406,
+      "tier": 2,
+      "releasedAt": "2026-10-06T10:37:29.076Z"
     },
     {
       "slug": "panaji",
@@ -1491,6 +1591,26 @@
       "releasedAt": "2026-09-28T10:16:26.961Z"
     },
     {
+      "slug": "jodhpur-gujarat",
+      "name": "Jodhpur",
+      "state": "Gujarat",
+      "lat": 21.90174,
+      "lon": 70.0327,
+      "pop": 47329,
+      "tier": 3,
+      "releasedAt": "2026-10-06T10:37:29.796Z"
+    },
+    {
+      "slug": "leh",
+      "name": "Leh",
+      "state": "Ladakh",
+      "lat": 34.16504,
+      "lon": 77.58402,
+      "pop": 37475,
+      "tier": 3,
+      "releasedAt": "2026-10-06T10:37:29.708Z"
+    },
+    {
       "slug": "mussoorie",
       "name": "Mussoorie",
       "state": "Uttarakhand",
@@ -1509,6 +1629,16 @@
       "pop": 16584,
       "tier": 3,
       "releasedAt": "2026-10-05T10:44:21.148Z"
+    },
+    {
+      "slug": "moth",
+      "name": "Moth",
+      "state": "Uttar Pradesh",
+      "lat": 25.72595,
+      "lon": 78.95029,
+      "pop": 14077,
+      "tier": 3,
+      "releasedAt": "2026-10-06T10:37:29.635Z"
     },
     {
       "slug": "manali",

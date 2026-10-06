@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T09:05:28.547Z",
-  "cityGuides": 151,
-  "stateHubs": 27,
+  "generatedAt": "2026-10-06T10:37:30.421Z",
+  "cityGuides": 164,
+  "stateHubs": 28,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-06T09:05:28.505Z",
+      "at": "2026-10-06T10:37:30.383Z",
       "title": "pipeline run OK — 480 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-06T00:00:00.000Z",
+      "title": "13 city guides published — jodhpur gujarat, leh, moth +10 more"
     },
     {
       "at": "2026-10-05T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-02T00:00:00.000Z",
       "title": "3 city guides published — kushinagar, thanjavur, aizawl"
-    },
-    {
-      "at": "2026-10-01T00:00:00.000Z",
-      "title": "3 city guides published — bhiwandi, sangli, nellore"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Kumbakonam, Akola, Nazareth +10 more",
-      "desc": "41 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Jodhpur Gujarat, Leh, Moth +10 more",
+      "desc": "54 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "151 city guides · 27 state hubs live",
+      "title": "164 city guides · 28 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
@@ -154,6 +154,10 @@
     {
       "name": "Kerala",
       "path": "state/kerala/"
+    },
+    {
+      "name": "ladakh",
+      "path": "state/ladakh/"
     },
     {
       "name": "Madhya Pradesh",
