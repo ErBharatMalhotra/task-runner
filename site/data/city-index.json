@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-10-07T08:57:36.387Z",
-  "count": 164,
+  "generatedAt": "2026-10-07T10:28:44.914Z",
+  "count": 177,
   "cities": {
+    "agar": {
+      "name": "Agar",
+      "url": "https://bharatdn.com/city/agar/",
+      "population": 37917
+    },
     "agartala": {
       "name": "Agartala",
       "url": "https://bharatdn.com/city/agartala/",
@@ -42,6 +47,11 @@
       "url": "https://bharatdn.com/city/aligarh/",
       "population": 911223
     },
+    "alwar": {
+      "name": "Alwar",
+      "url": "https://bharatdn.com/city/alwar/",
+      "population": 322568
+    },
     "amaravati": {
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
@@ -81,6 +91,11 @@
       "name": "Ballari",
       "url": "https://bharatdn.com/city/ballari/",
       "population": 410445
+    },
+    "bardhaman": {
+      "name": "Bardhaman",
+      "url": "https://bharatdn.com/city/bardhaman/",
+      "population": 301725
     },
     "bareilly": {
       "name": "Bareilly",
@@ -136,6 +151,11 @@
       "name": "Bikaner",
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
+    },
+    "bulandshahr": {
+      "name": "Bulandshahr",
+      "url": "https://bharatdn.com/city/bulandshahr/",
+      "population": 198612
     },
     "chandannagar": {
       "name": "Chandannagar",
@@ -202,6 +222,11 @@
       "url": "https://bharatdn.com/city/dhule/",
       "population": 375559
     },
+    "dindigul": {
+      "name": "Dindigul",
+      "url": "https://bharatdn.com/city/dindigul/",
+      "population": 292512
+    },
     "durgapur": {
       "name": "Durgapur",
       "url": "https://bharatdn.com/city/durgapur/",
@@ -231,6 +256,11 @@
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
       "population": 292167
+    },
+    "gangtok": {
+      "name": "Gangtok",
+      "url": "https://bharatdn.com/city/gangtok/",
+      "population": 100286
     },
     "ghaziabad": {
       "name": "Ghaziabad",
@@ -457,6 +487,11 @@
       "url": "https://bharatdn.com/city/ludhiana/",
       "population": 1618879
     },
+    "machilipatnam": {
+      "name": "Machilipatnam",
+      "url": "https://bharatdn.com/city/machilipatnam/",
+      "population": 192827
+    },
     "madurai": {
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
@@ -587,10 +622,20 @@
       "url": "https://bharatdn.com/city/ooty/",
       "population": 73365
     },
+    "palakkad": {
+      "name": "Palakkad",
+      "url": "https://bharatdn.com/city/palakkad/",
+      "population": 132728
+    },
     "panaji": {
       "name": "Panaji",
       "url": "https://bharatdn.com/city/panaji/",
       "population": 114405
+    },
+    "pandharpur": {
+      "name": "Pandharpur",
+      "url": "https://bharatdn.com/city/pandharpur/",
+      "population": 98923
     },
     "panipat": {
       "name": "Panipat",
@@ -697,10 +742,20 @@
       "url": "https://bharatdn.com/city/shimla/",
       "population": 171817
     },
+    "silchar": {
+      "name": "Silchar",
+      "url": "https://bharatdn.com/city/silchar/",
+      "population": 178865
+    },
     "siliguri": {
       "name": "Siliguri",
       "url": "https://bharatdn.com/city/siliguri/",
       "population": 701458
+    },
+    "sivakasi": {
+      "name": "Sivakasi",
+      "url": "https://bharatdn.com/city/sivakasi/",
+      "population": 234704
     },
     "solapur": {
       "name": "Solapur",
@@ -772,6 +827,11 @@
       "url": "https://bharatdn.com/city/udaipur/",
       "population": 451100
     },
+    "udaipur-tripura": {
+      "name": "Udaipur",
+      "url": "https://bharatdn.com/city/udaipur-tripura/",
+      "population": 32758
+    },
     "udupi": {
       "name": "Udupi",
       "url": "https://bharatdn.com/city/udupi/",
@@ -811,6 +871,11 @@
       "name": "Visakhapatnam",
       "url": "https://bharatdn.com/city/visakhapatnam/",
       "population": 1728128
+    },
+    "vizianagaram": {
+      "name": "Vizianagaram",
+      "url": "https://bharatdn.com/city/vizianagaram/",
+      "population": 228720
     },
     "warangal": {
       "name": "Warangal",

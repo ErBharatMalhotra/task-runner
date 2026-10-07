@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-07T08:57:36.525Z",
-  "cityGuides": 164,
-  "stateHubs": 28,
+  "generatedAt": "2026-10-07T10:28:45.114Z",
+  "cityGuides": 177,
+  "stateHubs": 29,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-07T08:57:36.497Z",
-      "title": "pipeline run OK — 941 guides refreshed, 0 failures"
+      "at": "2026-10-07T10:28:45.075Z",
+      "title": "pipeline run OK — 766 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-07T00:00:00.000Z",
+      "title": "13 city guides published — udaipur tripura, agar, pandharpur +10 more"
     },
     {
       "at": "2026-10-06T00:00:00.000Z",
@@ -73,31 +77,27 @@
     {
       "at": "2026-10-03T00:00:00.000Z",
       "title": "3 city guides published — bhagalpur, kurnool, erode"
-    },
-    {
-      "at": "2026-10-02T00:00:00.000Z",
-      "title": "3 city guides published — kushinagar, thanjavur, aizawl"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Jodhpur Gujarat, Leh, Moth +10 more",
-      "desc": "51 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Udaipur Tripura, Agar, Pandharpur +10 more",
+      "desc": "64 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "164 city guides · 28 state hubs live",
+      "title": "177 city guides · 29 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 941 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 766 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
@@ -190,6 +190,10 @@
     {
       "name": "Rajasthan",
       "path": "state/rajasthan/"
+    },
+    {
+      "name": "sikkim",
+      "path": "state/sikkim/"
     },
     {
       "name": "Tamil Nadu",
