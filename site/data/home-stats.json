@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T03:24:35.221Z",
+  "generatedAt": "2026-10-07T07:44:55.107Z",
   "cityGuides": 164,
   "stateHubs": 28,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-07T03:24:35.191Z",
-      "title": "pipeline run OK — 809 guides refreshed, 0 failures"
+      "at": "2026-10-07T07:44:55.075Z",
+      "title": "pipeline run OK — 860 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-06T00:00:00.000Z",
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Jodhpur Gujarat, Leh, Moth +10 more",
-      "desc": "54 published in the last 7 days, each live-verified.",
+      "desc": "51 published in the last 7 days, each live-verified.",
       "time": "yesterday"
     },
     {
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 809 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 860 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
