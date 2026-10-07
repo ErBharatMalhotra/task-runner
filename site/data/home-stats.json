@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:44:55.107Z",
+  "generatedAt": "2026-10-07T08:57:36.525Z",
   "cityGuides": 164,
   "stateHubs": 28,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-07T07:44:55.075Z",
-      "title": "pipeline run OK — 860 guides refreshed, 0 failures"
+      "at": "2026-10-07T08:57:36.497Z",
+      "title": "pipeline run OK — 941 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-06T00:00:00.000Z",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 860 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 941 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
