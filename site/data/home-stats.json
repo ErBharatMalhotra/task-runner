@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:07:45.312Z",
+  "generatedAt": "2026-10-08T00:12:19.640Z",
   "cityGuides": 177,
   "stateHubs": 29,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-07T20:07:45.278Z",
-      "title": "pipeline run OK — 766 guides refreshed, 0 failures"
+      "at": "2026-10-08T00:12:19.607Z",
+      "title": "pipeline run OK — 763 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-07T00:00:00.000Z",
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Udaipur Tripura, Agar, Pandharpur +10 more",
       "desc": "64 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 766 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 763 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
