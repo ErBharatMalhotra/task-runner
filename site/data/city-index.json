@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T09:03:39.456Z",
-  "count": 177,
+  "generatedAt": "2026-10-08T10:49:34.269Z",
+  "count": 190,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -87,6 +87,11 @@
       "url": "https://bharatdn.com/city/ayodhya/",
       "population": 55890
     },
+    "balasore": {
+      "name": "Balasore",
+      "url": "https://bharatdn.com/city/balasore/",
+      "population": 144373
+    },
     "ballari": {
       "name": "Ballari",
       "url": "https://bharatdn.com/city/ballari/",
@@ -127,6 +132,11 @@
       "url": "https://bharatdn.com/city/bhilai/",
       "population": 627734
     },
+    "bhilwara": {
+      "name": "Bhilwara",
+      "url": "https://bharatdn.com/city/bhilwara/",
+      "population": 359483
+    },
     "bhiwandi": {
       "name": "Bhiwandi",
       "url": "https://bharatdn.com/city/bhiwandi/",
@@ -151,6 +161,11 @@
       "name": "Bikaner",
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
+    },
+    "borivali": {
+      "name": "Borivali",
+      "url": "https://bharatdn.com/city/borivali/",
+      "population": 609617
     },
     "bulandshahr": {
       "name": "Bulandshahr",
@@ -347,6 +362,11 @@
       "url": "https://bharatdn.com/city/jaipur/",
       "population": 3073350
     },
+    "jaisalmer": {
+      "name": "Jaisalmer",
+      "url": "https://bharatdn.com/city/jaisalmer/",
+      "population": 67604
+    },
     "jalandhar": {
       "name": "Jalandhar",
       "url": "https://bharatdn.com/city/jalandhar/",
@@ -401,6 +421,11 @@
       "name": "Kanchipuram",
       "url": "https://bharatdn.com/city/kanchipuram/",
       "population": 221715
+    },
+    "kannauj": {
+      "name": "Kannauj",
+      "url": "https://bharatdn.com/city/kannauj/",
+      "population": 76714
     },
     "kanpur": {
       "name": "Kanpur",
@@ -492,6 +517,11 @@
       "url": "https://bharatdn.com/city/machilipatnam/",
       "population": 192827
     },
+    "madanapalle": {
+      "name": "Madanapalle",
+      "url": "https://bharatdn.com/city/madanapalle/",
+      "population": 180180
+    },
     "madurai": {
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
@@ -577,6 +607,11 @@
       "url": "https://bharatdn.com/city/nagpur/",
       "population": 2497870
     },
+    "nainital": {
+      "name": "Nainital",
+      "url": "https://bharatdn.com/city/nainital/",
+      "population": 42309
+    },
     "najafgarh": {
       "name": "Najafgarh",
       "url": "https://bharatdn.com/city/najafgarh/",
@@ -596,6 +631,11 @@
       "name": "Navi Mumbai",
       "url": "https://bharatdn.com/city/navi-mumbai/",
       "population": 1119477
+    },
+    "navsari": {
+      "name": "Navsari",
+      "url": "https://bharatdn.com/city/navsari/",
+      "population": 171109
     },
     "nazareth": {
       "name": "Nazareth",
@@ -632,6 +672,11 @@
       "url": "https://bharatdn.com/city/panaji/",
       "population": 114405
     },
+    "panchkula": {
+      "name": "Panchkula",
+      "url": "https://bharatdn.com/city/panchkula/",
+      "population": 211355
+    },
     "pandharpur": {
       "name": "Pandharpur",
       "url": "https://bharatdn.com/city/pandharpur/",
@@ -657,6 +702,11 @@
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
       "population": 1727692
     },
+    "porbandar": {
+      "name": "Porbandar",
+      "url": "https://bharatdn.com/city/porbandar/",
+      "population": 152760
+    },
     "port-blair": {
       "name": "Port Blair",
       "url": "https://bharatdn.com/city/port-blair/",
@@ -681,6 +731,11 @@
       "name": "Puri",
       "url": "https://bharatdn.com/city/puri/",
       "population": 157613
+    },
+    "raebareli": {
+      "name": "Raebareli",
+      "url": "https://bharatdn.com/city/raebareli/",
+      "population": 186433
     },
     "raipur": {
       "name": "Raipur",
@@ -721,6 +776,11 @@
       "name": "Salem",
       "url": "https://bharatdn.com/city/salem/",
       "population": 829267
+    },
+    "sambalpur": {
+      "name": "Sambalpur",
+      "url": "https://bharatdn.com/city/sambalpur/",
+      "population": 189366
     },
     "sangli": {
       "name": "Sangli",
@@ -786,6 +846,11 @@
       "name": "Thanjavur",
       "url": "https://bharatdn.com/city/thanjavur/",
       "population": 291067
+    },
+    "thenali": {
+      "name": "Thenali",
+      "url": "https://bharatdn.com/city/thenali/",
+      "population": 164937
     },
     "thiruvananthapuram": {
       "name": "Thiruvananthapuram",

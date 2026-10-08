@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-08T09:03:39.256Z",
-  "count": 177,
-  "shown": 177,
+  "generatedAt": "2026-10-08T10:49:34.066Z",
+  "count": 190,
+  "shown": 190,
   "latest": {
-    "slug": "udaipur-tripura",
-    "name": "Udaipur",
-    "lat": 23.53333,
-    "lon": 91.48333,
-    "at": "2026-10-07T10:28:44.468Z"
+    "slug": "jaisalmer",
+    "name": "Jaisalmer",
+    "lat": 26.91763,
+    "lon": 70.90387,
+    "at": "2026-10-08T10:49:33.814Z"
   },
   "cities": [
     {
@@ -771,6 +771,16 @@
       "releasedAt": "2026-09-28T10:07:47.203Z"
     },
     {
+      "slug": "borivali",
+      "name": "Borivali",
+      "state": "Maharashtra",
+      "lat": 19.23496,
+      "lon": 72.85976,
+      "pop": 609617,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.069Z"
+    },
+    {
       "slug": "kochi",
       "name": "Kochi",
       "state": "Kerala",
@@ -1069,6 +1079,16 @@
       "pop": 367107,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.771Z"
+    },
+    {
+      "slug": "bhilwara",
+      "name": "Bhilwara",
+      "state": "Rajasthan",
+      "lat": 25.34707,
+      "lon": 74.64081,
+      "pop": 359483,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.535Z"
     },
     {
       "slug": "muzaffarpur",
@@ -1441,6 +1461,16 @@
       "releasedAt": "2026-10-06T10:37:29.359Z"
     },
     {
+      "slug": "panchkula",
+      "name": "Panchkula",
+      "state": "Haryana",
+      "lat": 30.69461,
+      "lon": 76.8504,
+      "pop": 211355,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.189Z"
+    },
+    {
       "slug": "secunderabad",
       "name": "Secunderabad",
       "state": "Telangana",
@@ -1481,6 +1511,26 @@
       "releasedAt": "2026-10-07T10:28:44.121Z"
     },
     {
+      "slug": "sambalpur",
+      "name": "Sambalpur",
+      "state": "Odisha",
+      "lat": 21.46527,
+      "lon": 83.97573,
+      "pop": 189366,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.303Z"
+    },
+    {
+      "slug": "raebareli",
+      "name": "Raebareli",
+      "state": "Uttar Pradesh",
+      "lat": 26.2309,
+      "lon": 81.23315,
+      "pop": 186433,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.362Z"
+    },
+    {
       "slug": "chandannagar",
       "name": "Chandannagar",
       "state": "West Bengal",
@@ -1489,6 +1539,16 @@
       "pop": 180623,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.281Z"
+    },
+    {
+      "slug": "madanapalle",
+      "name": "Madanapalle",
+      "state": "Andhra Pradesh",
+      "lat": 13.5503,
+      "lon": 78.50288,
+      "pop": 180180,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.125Z"
     },
     {
       "slug": "silchar",
@@ -1521,6 +1581,16 @@
       "releasedAt": "2026-09-26T11:53:46.001Z"
     },
     {
+      "slug": "navsari",
+      "name": "Navsari",
+      "state": "Gujarat",
+      "lat": 20.94237,
+      "lon": 72.92467,
+      "pop": 171109,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.592Z"
+    },
+    {
       "slug": "kumbakonam",
       "name": "Kumbakonam",
       "state": "Tamil Nadu",
@@ -1551,6 +1621,16 @@
       "releasedAt": "2026-10-06T10:37:29.420Z"
     },
     {
+      "slug": "thenali",
+      "name": "Thenali",
+      "state": "Andhra Pradesh",
+      "lat": 16.24253,
+      "lon": 80.63982,
+      "pop": 164937,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.247Z"
+    },
+    {
       "slug": "puri",
       "name": "Puri",
       "state": "Odisha",
@@ -1561,6 +1641,16 @@
       "releasedAt": "2026-09-26T11:53:45.672Z"
     },
     {
+      "slug": "porbandar",
+      "name": "Porbandar",
+      "state": "Gujarat",
+      "lat": 21.64219,
+      "lon": 69.60929,
+      "pop": 152760,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.421Z"
+    },
+    {
       "slug": "tiruvannamalai",
       "name": "Tiruvannamalai",
       "state": "Tamil Nadu",
@@ -1569,6 +1659,16 @@
       "pop": 145278,
       "tier": 2,
       "releasedAt": "2026-10-04T09:59:35.330Z"
+    },
+    {
+      "slug": "balasore",
+      "name": "Balasore",
+      "state": "Odisha",
+      "lat": 21.49266,
+      "lon": 86.93348,
+      "pop": 144373,
+      "tier": 2,
+      "releasedAt": "2026-10-08T10:49:33.479Z"
     },
     {
       "slug": "haldwani",
@@ -1671,6 +1771,16 @@
       "releasedAt": "2026-10-07T10:28:44.347Z"
     },
     {
+      "slug": "kannauj",
+      "name": "Kannauj",
+      "state": "Uttar Pradesh",
+      "lat": 27.05524,
+      "lon": 79.9188,
+      "pop": 76714,
+      "tier": 3,
+      "releasedAt": "2026-10-08T10:49:33.697Z"
+    },
+    {
       "slug": "ooty",
       "name": "Ooty",
       "state": "Tamil Nadu",
@@ -1679,6 +1789,16 @@
       "pop": 73365,
       "tier": 3,
       "releasedAt": "2026-09-26T11:53:44.672Z"
+    },
+    {
+      "slug": "jaisalmer",
+      "name": "Jaisalmer",
+      "state": "Rajasthan",
+      "lat": 26.91763,
+      "lon": 70.90387,
+      "pop": 67604,
+      "tier": 3,
+      "releasedAt": "2026-10-08T10:49:33.814Z"
     },
     {
       "slug": "ayodhya",
@@ -1709,6 +1829,16 @@
       "pop": 47329,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.796Z"
+    },
+    {
+      "slug": "nainital",
+      "name": "Nainital",
+      "state": "Uttarakhand",
+      "lat": 29.39743,
+      "lon": 79.44686,
+      "pop": 42309,
+      "tier": 3,
+      "releasedAt": "2026-10-08T10:49:33.758Z"
     },
     {
       "slug": "agar",

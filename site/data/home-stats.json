@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T09:03:39.666Z",
-  "cityGuides": 177,
+  "generatedAt": "2026-10-08T10:49:34.475Z",
+  "cityGuides": 190,
   "stateHubs": 29,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-08T09:03:39.624Z",
-      "title": "pipeline run OK — 917 guides refreshed, 0 failures"
+      "at": "2026-10-08T10:49:34.433Z",
+      "title": "pipeline run OK — 722 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-08T00:00:00.000Z",
+      "title": "13 city guides published — jaisalmer, nainital, kannauj +10 more"
     },
     {
       "at": "2026-10-07T00:00:00.000Z",
@@ -73,31 +77,27 @@
     {
       "at": "2026-10-04T00:00:00.000Z",
       "title": "16 city guides published — khandwa, alappuzha, ballari +13 more"
-    },
-    {
-      "at": "2026-10-03T00:00:00.000Z",
-      "title": "3 city guides published — bhagalpur, kurnool, erode"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Udaipur Tripura, Agar, Pandharpur +10 more",
-      "desc": "64 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Jaisalmer, Nainital, Kannauj +10 more",
+      "desc": "74 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "177 city guides · 29 state hubs live",
+      "title": "190 city guides · 29 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 917 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 722 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
