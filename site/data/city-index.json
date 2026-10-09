@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T09:01:03.765Z",
-  "count": 190,
+  "generatedAt": "2026-10-09T10:48:19.506Z",
+  "count": 203,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -86,6 +86,11 @@
       "name": "Ayodhya",
       "url": "https://bharatdn.com/city/ayodhya/",
       "population": 55890
+    },
+    "azamgarh": {
+      "name": "Azamgarh",
+      "url": "https://bharatdn.com/city/azamgarh/",
+      "population": 116644
     },
     "balasore": {
       "name": "Balasore",
@@ -202,6 +207,11 @@
       "url": "https://bharatdn.com/city/coimbatore/",
       "population": 1601438
     },
+    "cuddalore": {
+      "name": "Cuddalore",
+      "url": "https://bharatdn.com/city/cuddalore/",
+      "population": 173636
+    },
     "cuttack": {
       "name": "Cuttack",
       "url": "https://bharatdn.com/city/cuttack/",
@@ -231,6 +241,11 @@
       "name": "Dhanbad",
       "url": "https://bharatdn.com/city/dhanbad/",
       "population": 269766
+    },
+    "dharapuram": {
+      "name": "Dharapuram",
+      "url": "https://bharatdn.com/city/dharapuram/",
+      "population": 72291
     },
     "dhule": {
       "name": "Dhule",
@@ -622,6 +637,11 @@
       "url": "https://bharatdn.com/city/nanded/",
       "population": 550564
     },
+    "narela": {
+      "name": "Narela",
+      "url": "https://bharatdn.com/city/narela/",
+      "population": 800000
+    },
     "nashik": {
       "name": "Nashik",
       "url": "https://bharatdn.com/city/nashik/",
@@ -657,6 +677,11 @@
       "url": "https://bharatdn.com/city/noida/",
       "population": 637078
     },
+    "ongole": {
+      "name": "Ongole",
+      "url": "https://bharatdn.com/city/ongole/",
+      "population": 208344
+    },
     "ooty": {
       "name": "Ooty",
       "url": "https://bharatdn.com/city/ooty/",
@@ -686,6 +711,16 @@
       "name": "Panipat",
       "url": "https://bharatdn.com/city/panipat/",
       "population": 442274
+    },
+    "panvel": {
+      "name": "Panvel",
+      "url": "https://bharatdn.com/city/panvel/",
+      "population": 195373
+    },
+    "parbhani": {
+      "name": "Parbhani",
+      "url": "https://bharatdn.com/city/parbhani/",
+      "population": 307170
     },
     "pathankot": {
       "name": "Pathankot",
@@ -732,6 +767,11 @@
       "url": "https://bharatdn.com/city/puri/",
       "population": 157613
     },
+    "purnia": {
+      "name": "Purnia",
+      "url": "https://bharatdn.com/city/purnia/",
+      "population": 282248
+    },
     "raebareli": {
       "name": "Raebareli",
       "url": "https://bharatdn.com/city/raebareli/",
@@ -751,6 +791,11 @@
       "name": "Rajkot",
       "url": "https://bharatdn.com/city/rajkot/",
       "population": 1390933
+    },
+    "rameswaram": {
+      "name": "Rameswaram",
+      "url": "https://bharatdn.com/city/rameswaram/",
+      "population": 44856
     },
     "ranchi": {
       "name": "Ranchi",
@@ -782,15 +827,30 @@
       "url": "https://bharatdn.com/city/sambalpur/",
       "population": 189366
     },
+    "sambhal": {
+      "name": "Sambhal",
+      "url": "https://bharatdn.com/city/sambhal/",
+      "population": 196109
+    },
     "sangli": {
       "name": "Sangli",
       "url": "https://bharatdn.com/city/sangli/",
       "population": 601214
     },
+    "satna": {
+      "name": "Satna",
+      "url": "https://bharatdn.com/city/satna/",
+      "population": 282977
+    },
     "secunderabad": {
       "name": "Secunderabad",
       "url": "https://bharatdn.com/city/secunderabad/",
       "population": 204182
+    },
+    "shahjahanpur": {
+      "name": "Shahjahanpur",
+      "url": "https://bharatdn.com/city/shahjahanpur/",
+      "population": 320434
     },
     "shillong": {
       "name": "Shillong",
@@ -836,6 +896,11 @@
       "name": "Surat",
       "url": "https://bharatdn.com/city/surat/",
       "population": 4594194
+    },
+    "tezpur": {
+      "name": "Tezpur",
+      "url": "https://bharatdn.com/city/tezpur/",
+      "population": 75540
     },
     "thane": {
       "name": "Thane",
