@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:43:07.477Z",
+  "generatedAt": "2026-10-10T01:08:42.995Z",
   "cityGuides": 203,
   "stateHubs": 29,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-09T20:43:07.437Z",
-      "title": "pipeline run OK — 839 guides refreshed, 0 failures"
+      "at": "2026-10-10T01:08:42.955Z",
+      "title": "pipeline run OK — 824 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-09T00:00:00.000Z",
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Tezpur, Dharapuram, Rameswaram +10 more",
       "desc": "84 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 839 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 824 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
