@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:29:40.092Z",
+  "generatedAt": "2026-10-10T23:32:28.228Z",
   "cityGuides": 216,
   "stateHubs": 29,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-10T21:29:40.049Z",
-      "title": "pipeline run OK — 664 guides refreshed, 0 failures"
+      "at": "2026-10-10T23:32:28.188Z",
+      "title": "pipeline run OK — 669 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-10T00:00:00.000Z",
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Srikalahasti, Fatehpur Sikri, Munnar +10 more",
       "desc": "94 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 664 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 669 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
