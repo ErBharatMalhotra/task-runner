@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-10T08:43:53.812Z",
-  "count": 203,
-  "shown": 203,
+  "generatedAt": "2026-10-10T10:03:11.078Z",
+  "count": 216,
+  "shown": 216,
   "latest": {
-    "slug": "tezpur",
-    "name": "Tezpur",
-    "lat": 26.63333,
-    "lon": 92.8,
-    "at": "2026-10-09T10:48:19.033Z"
+    "slug": "srikalahasti",
+    "name": "Srikalahasti",
+    "lat": 13.75514,
+    "lon": 79.70143,
+    "at": "2026-10-10T10:03:10.845Z"
   },
   "cities": [
     {
@@ -1141,6 +1141,16 @@
       "releasedAt": "2026-10-04T14:13:01.396Z"
     },
     {
+      "slug": "avadi",
+      "name": "Avadi",
+      "state": "Tamil Nadu",
+      "lat": 13.1147,
+      "lon": 80.10981,
+      "pop": 345996,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.519Z"
+    },
+    {
       "slug": "kadapa",
       "name": "Kadapa",
       "state": "Andhra Pradesh",
@@ -1301,6 +1311,16 @@
       "releasedAt": "2026-10-02T09:58:08.295Z"
     },
     {
+      "slug": "dewas",
+      "name": "Dewas",
+      "state": "Madhya Pradesh",
+      "lat": 22.96585,
+      "lon": 76.05526,
+      "pop": 289550,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.344Z"
+    },
+    {
       "slug": "bathinda",
       "name": "Bathinda",
       "state": "Punjab",
@@ -1381,6 +1401,16 @@
       "releasedAt": "2026-10-06T10:37:29.303Z"
     },
     {
+      "slug": "arrah",
+      "name": "Arrah",
+      "state": "Bihar",
+      "lat": 25.55629,
+      "lon": 84.66335,
+      "pop": 261430,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.232Z"
+    },
+    {
       "slug": "kharagpur",
       "name": "Kharagpur",
       "state": "West Bengal",
@@ -1389,6 +1419,16 @@
       "pop": 253221,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:24.773Z"
+    },
+    {
+      "slug": "begusarai",
+      "name": "Begusarai",
+      "state": "Bihar",
+      "lat": 25.41853,
+      "lon": 86.13389,
+      "pop": 252008,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.176Z"
     },
     {
       "slug": "puducherry",
@@ -1489,6 +1529,16 @@
       "pop": 221715,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:19.795Z"
+    },
+    {
+      "slug": "eluru",
+      "name": "Eluru",
+      "state": "Andhra Pradesh",
+      "lat": 16.71311,
+      "lon": 81.10437,
+      "pop": 218020,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.403Z"
     },
     {
       "slug": "yamunanagar",
@@ -1611,6 +1661,26 @@
       "releasedAt": "2026-10-08T10:49:33.362Z"
     },
     {
+      "slug": "bahraich",
+      "name": "Bahraich",
+      "state": "Uttar Pradesh",
+      "lat": 27.57429,
+      "lon": 81.59474,
+      "pop": 182218,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.577Z"
+    },
+    {
+      "slug": "karaikudi",
+      "name": "Karaikudi",
+      "state": "Tamil Nadu",
+      "lat": 10.06615,
+      "lon": 78.76784,
+      "pop": 181851,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.288Z"
+    },
+    {
       "slug": "chandannagar",
       "name": "Chandannagar",
       "state": "West Bengal",
@@ -1721,6 +1791,16 @@
       "releasedAt": "2026-10-08T10:49:33.247Z"
     },
     {
+      "slug": "vapi",
+      "name": "Vapi",
+      "state": "Gujarat",
+      "lat": 20.37175,
+      "lon": 72.90493,
+      "pop": 163630,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.121Z"
+    },
+    {
       "slug": "puri",
       "name": "Puri",
       "state": "Odisha",
@@ -1739,6 +1819,16 @@
       "pop": 152760,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.421Z"
+    },
+    {
+      "slug": "chitradurga",
+      "name": "Chitradurga",
+      "state": "Karnataka",
+      "lat": 14.22262,
+      "lon": 76.40038,
+      "pop": 145853,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.460Z"
     },
     {
       "slug": "tiruvannamalai",
@@ -1831,6 +1921,16 @@
       "releasedAt": "2026-10-04T14:13:01.056Z"
     },
     {
+      "slug": "roorkee",
+      "name": "Roorkee",
+      "state": "Uttarakhand",
+      "lat": 29.86632,
+      "lon": 77.89118,
+      "pop": 103894,
+      "tier": 2,
+      "releasedAt": "2026-10-10T10:03:10.634Z"
+    },
+    {
       "slug": "amaravati",
       "name": "Amaravati",
       "state": "Andhra Pradesh",
@@ -1871,6 +1971,16 @@
       "releasedAt": "2026-10-07T10:28:44.347Z"
     },
     {
+      "slug": "srikalahasti",
+      "name": "Srikalahasti",
+      "state": "Andhra Pradesh",
+      "lat": 13.75514,
+      "lon": 79.70143,
+      "pop": 80056,
+      "tier": 3,
+      "releasedAt": "2026-10-10T10:03:10.845Z"
+    },
+    {
       "slug": "kannauj",
       "name": "Kannauj",
       "state": "Uttar Pradesh",
@@ -1909,6 +2019,16 @@
       "pop": 72291,
       "tier": 3,
       "releasedAt": "2026-10-09T10:48:18.970Z"
+    },
+    {
+      "slug": "munnar",
+      "name": "Munnar",
+      "state": "Kerala",
+      "lat": 10.08818,
+      "lon": 77.06239,
+      "pop": 68000,
+      "tier": 3,
+      "releasedAt": "2026-10-10T10:03:10.733Z"
     },
     {
       "slug": "jaisalmer",
@@ -2009,6 +2129,16 @@
       "pop": 30118,
       "tier": 3,
       "releasedAt": "2026-09-26T11:53:43.414Z"
+    },
+    {
+      "slug": "fatehpur-sikri",
+      "name": "Fatehpur Sikri",
+      "state": "Uttar Pradesh",
+      "lat": 27.0937,
+      "lon": 77.66003,
+      "pop": 30026,
+      "tier": 3,
+      "releasedAt": "2026-10-10T10:03:10.789Z"
     },
     {
       "slug": "nazareth",

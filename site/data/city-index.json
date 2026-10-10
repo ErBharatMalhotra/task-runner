@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T08:43:54.009Z",
-  "count": 203,
+  "generatedAt": "2026-10-10T10:03:11.271Z",
+  "count": 216,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -72,6 +72,11 @@
       "url": "https://bharatdn.com/city/anantapur/",
       "population": 267161
     },
+    "arrah": {
+      "name": "Arrah",
+      "url": "https://bharatdn.com/city/arrah/",
+      "population": 261430
+    },
     "asansol": {
       "name": "Asansol",
       "url": "https://bharatdn.com/city/asansol/",
@@ -82,6 +87,11 @@
       "url": "https://bharatdn.com/city/aurangabad/",
       "population": 1263808
     },
+    "avadi": {
+      "name": "Avadi",
+      "url": "https://bharatdn.com/city/avadi/",
+      "population": 345996
+    },
     "ayodhya": {
       "name": "Ayodhya",
       "url": "https://bharatdn.com/city/ayodhya/",
@@ -91,6 +101,11 @@
       "name": "Azamgarh",
       "url": "https://bharatdn.com/city/azamgarh/",
       "population": 116644
+    },
+    "bahraich": {
+      "name": "Bahraich",
+      "url": "https://bharatdn.com/city/bahraich/",
+      "population": 182218
     },
     "balasore": {
       "name": "Balasore",
@@ -116,6 +131,11 @@
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
       "population": 285813
+    },
+    "begusarai": {
+      "name": "Begusarai",
+      "url": "https://bharatdn.com/city/begusarai/",
+      "population": 252008
     },
     "bengaluru": {
       "name": "Bengaluru",
@@ -197,6 +217,11 @@
       "url": "https://bharatdn.com/city/chennai/",
       "population": 4646732
     },
+    "chitradurga": {
+      "name": "Chitradurga",
+      "url": "https://bharatdn.com/city/chitradurga/",
+      "population": 145853
+    },
     "chittorgarh": {
       "name": "Chittorgarh",
       "url": "https://bharatdn.com/city/chittorgarh/",
@@ -237,6 +262,11 @@
       "url": "https://bharatdn.com/city/delhi/",
       "population": 11034555
     },
+    "dewas": {
+      "name": "Dewas",
+      "url": "https://bharatdn.com/city/dewas/",
+      "population": 289550
+    },
     "dhanbad": {
       "name": "Dhanbad",
       "url": "https://bharatdn.com/city/dhanbad/",
@@ -262,6 +292,11 @@
       "url": "https://bharatdn.com/city/durgapur/",
       "population": 581409
     },
+    "eluru": {
+      "name": "Eluru",
+      "url": "https://bharatdn.com/city/eluru/",
+      "population": 218020
+    },
     "erode": {
       "name": "Erode",
       "url": "https://bharatdn.com/city/erode/",
@@ -271,6 +306,11 @@
       "name": "Faridabad",
       "url": "https://bharatdn.com/city/faridabad/",
       "population": 1404653
+    },
+    "fatehpur-sikri": {
+      "name": "Fatehpur Sikri",
+      "url": "https://bharatdn.com/city/fatehpur-sikri/",
+      "population": 30026
     },
     "fatwa": {
       "name": "Fatwa",
@@ -447,6 +487,11 @@
       "url": "https://bharatdn.com/city/kanpur/",
       "population": 2768057
     },
+    "karaikudi": {
+      "name": "Karaikudi",
+      "url": "https://bharatdn.com/city/karaikudi/",
+      "population": 181851
+    },
     "karnal": {
       "name": "Karnal",
       "url": "https://bharatdn.com/city/karnal/",
@@ -591,6 +636,11 @@
       "name": "Mumbai",
       "url": "https://bharatdn.com/city/mumbai/",
       "population": 12442373
+    },
+    "munnar": {
+      "name": "Munnar",
+      "url": "https://bharatdn.com/city/munnar/",
+      "population": 68000
     },
     "mussoorie": {
       "name": "Mussoorie",
@@ -812,6 +862,11 @@
       "url": "https://bharatdn.com/city/rohtak/",
       "population": 374292
     },
+    "roorkee": {
+      "name": "Roorkee",
+      "url": "https://bharatdn.com/city/roorkee/",
+      "population": 103894
+    },
     "rourkela": {
       "name": "Rourkela",
       "url": "https://bharatdn.com/city/rourkela/",
@@ -886,6 +941,11 @@
       "name": "Sri Ganganagar",
       "url": "https://bharatdn.com/city/sri-ganganagar/",
       "population": 237780
+    },
+    "srikalahasti": {
+      "name": "Srikalahasti",
+      "url": "https://bharatdn.com/city/srikalahasti/",
+      "population": 80056
     },
     "srinagar": {
       "name": "Srinagar",
@@ -981,6 +1041,11 @@
       "name": "Vadodara",
       "url": "https://bharatdn.com/city/vadodara/",
       "population": 1822221
+    },
+    "vapi": {
+      "name": "Vapi",
+      "url": "https://bharatdn.com/city/vapi/",
+      "population": 163630
     },
     "varanasi": {
       "name": "Varanasi",
