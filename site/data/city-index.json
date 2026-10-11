@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T13:27:58.657Z",
-  "count": 242,
+  "generatedAt": "2026-10-11T13:50:46.810Z",
+  "count": 255,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -122,6 +122,11 @@
       "url": "https://bharatdn.com/city/azamgarh/",
       "population": 116644
     },
+    "bahadurgarh": {
+      "name": "Bahadurgarh",
+      "url": "https://bharatdn.com/city/bahadurgarh/",
+      "population": 170767
+    },
     "bahraich": {
       "name": "Bahraich",
       "url": "https://bharatdn.com/city/bahraich/",
@@ -181,6 +186,11 @@
       "name": "Bhilwara",
       "url": "https://bharatdn.com/city/bhilwara/",
       "population": 359483
+    },
+    "bhimavaram": {
+      "name": "Bhimavaram",
+      "url": "https://bharatdn.com/city/bhimavaram/",
+      "population": 146961
     },
     "bhiwandi": {
       "name": "Bhiwandi",
@@ -377,6 +387,11 @@
       "url": "https://bharatdn.com/city/firozabad/",
       "population": 306409
     },
+    "firozpur": {
+      "name": "Firozpur",
+      "url": "https://bharatdn.com/city/firozpur/",
+      "population": 110313
+    },
     "gandhinagar": {
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
@@ -436,6 +451,16 @@
       "name": "Haridwar",
       "url": "https://bharatdn.com/city/haridwar/",
       "population": 231105
+    },
+    "hazaribagh": {
+      "name": "Hazaribagh",
+      "url": "https://bharatdn.com/city/hazaribagh/",
+      "population": 153595
+    },
+    "hindupur": {
+      "name": "Hindupur",
+      "url": "https://bharatdn.com/city/hindupur/",
+      "population": 151677
     },
     "howrah": {
       "name": "Howrah",
@@ -522,6 +547,11 @@
       "url": "https://bharatdn.com/city/jodhpur-gujarat/",
       "population": 47329
     },
+    "jorhat": {
+      "name": "Jorhat",
+      "url": "https://bharatdn.com/city/jorhat/",
+      "population": 126736
+    },
     "kadapa": {
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
@@ -541,6 +571,11 @@
       "name": "Kannauj",
       "url": "https://bharatdn.com/city/kannauj/",
       "population": 76714
+    },
+    "kannur": {
+      "name": "Kannur",
+      "url": "https://bharatdn.com/city/kannur/",
+      "population": 62836
     },
     "kanpur": {
       "name": "Kanpur",
@@ -566,6 +601,11 @@
       "name": "Karwar",
       "url": "https://bharatdn.com/city/karwar/",
       "population": 77139
+    },
+    "katihar": {
+      "name": "Katihar",
+      "url": "https://bharatdn.com/city/katihar/",
+      "population": 240838
     },
     "khammam": {
       "name": "Khammam",
@@ -691,6 +731,11 @@
       "name": "Manali",
       "url": "https://bharatdn.com/city/manali/",
       "population": 8096
+    },
+    "mandsaur": {
+      "name": "Mandsaur",
+      "url": "https://bharatdn.com/city/mandsaur/",
+      "population": 141667
     },
     "mangaluru": {
       "name": "Mangaluru",
@@ -902,6 +947,11 @@
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
       "population": 1727692
     },
+    "pollachi": {
+      "name": "Pollachi",
+      "url": "https://bharatdn.com/city/pollachi/",
+      "population": 90180
+    },
     "porbandar": {
       "name": "Porbandar",
       "url": "https://bharatdn.com/city/porbandar/",
@@ -1052,6 +1102,11 @@
       "url": "https://bharatdn.com/city/siliguri/",
       "population": 701458
     },
+    "silvassa": {
+      "name": "Silvassa",
+      "url": "https://bharatdn.com/city/silvassa/",
+      "population": 98265
+    },
     "sivakasi": {
       "name": "Sivakasi",
       "url": "https://bharatdn.com/city/sivakasi/",
@@ -1081,6 +1136,11 @@
       "name": "Surat",
       "url": "https://bharatdn.com/city/surat/",
       "population": 4594194
+    },
+    "tambaram": {
+      "name": "Tambaram",
+      "url": "https://bharatdn.com/city/tambaram/",
+      "population": 174787
     },
     "tezpur": {
       "name": "Tezpur",
@@ -1211,6 +1271,11 @@
       "name": "yamunanagar",
       "url": "https://bharatdn.com/city/yamunanagar/",
       "population": null
+    },
+    "yavatmal": {
+      "name": "Yavatmal",
+      "url": "https://bharatdn.com/city/yavatmal/",
+      "population": 128175
     }
   }
 }

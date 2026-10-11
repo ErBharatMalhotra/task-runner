@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T13:27:58.871Z",
-  "cityGuides": 242,
-  "stateHubs": 30,
+  "generatedAt": "2026-10-11T13:50:47.017Z",
+  "cityGuides": 255,
+  "stateHubs": 31,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,12 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-11T13:27:58.830Z",
+      "at": "2026-10-11T13:50:46.976Z",
       "title": "pipeline run OK — 601 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-11T00:00:00.000Z",
-      "title": "26 city guides published — kottayam, pen, ankola +23 more"
+      "title": "39 city guides published — silvassa, kannur, pollachi +36 more"
     },
     {
       "at": "2026-10-10T00:00:00.000Z",
@@ -83,14 +83,14 @@
     {
       "tag": "Network",
       "tone": "red",
-      "title": "26 new city guides — Kottayam, Pen, Ankola +23 more",
-      "desc": "117 published in the last 7 days, each live-verified.",
+      "title": "39 new city guides — Silvassa, Kannur, Pollachi +36 more",
+      "desc": "130 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "242 city guides · 30 state hubs live",
+      "title": "255 city guides · 31 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
@@ -122,6 +122,10 @@
     {
       "name": "Chhattisgarh",
       "path": "state/chhattisgarh/"
+    },
+    {
+      "name": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "path": "state/dadra-and-nagar-haveli-and-daman-and-diu/"
     },
     {
       "name": "Goa",

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-11T13:27:58.439Z",
-  "count": 242,
-  "shown": 242,
+  "generatedAt": "2026-10-11T13:50:46.279Z",
+  "count": 255,
+  "shown": 255,
   "latest": {
-    "slug": "kottayam",
-    "name": "Kottayam",
-    "lat": 9.58692,
-    "lon": 76.52132,
-    "at": "2026-10-11T13:27:58.153Z"
+    "slug": "silvassa",
+    "name": "Silvassa",
+    "lat": 20.27386,
+    "lon": 72.99673,
+    "at": "2026-10-11T13:50:45.942Z"
   },
   "cities": [
     {
@@ -1471,6 +1471,16 @@
       "releasedAt": "2026-10-04T14:13:01.668Z"
     },
     {
+      "slug": "katihar",
+      "name": "Katihar",
+      "state": "Bihar",
+      "lat": 25.53852,
+      "lon": 87.57044,
+      "pop": 240838,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.373Z"
+    },
+    {
       "slug": "sri-ganganagar",
       "name": "Sri Ganganagar",
       "state": "Rajasthan",
@@ -1801,6 +1811,16 @@
       "releasedAt": "2026-10-11T10:13:22.618Z"
     },
     {
+      "slug": "tambaram",
+      "name": "Tambaram",
+      "state": "Tamil Nadu",
+      "lat": 12.9246,
+      "lon": 80.12707,
+      "pop": 174787,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.717Z"
+    },
+    {
       "slug": "pathankot",
       "name": "Pathankot",
       "state": "Punjab",
@@ -1839,6 +1859,16 @@
       "pop": 171109,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.592Z"
+    },
+    {
+      "slug": "bahadurgarh",
+      "name": "Bahadurgarh",
+      "state": "Haryana",
+      "lat": 28.69287,
+      "lon": 76.93555,
+      "pop": 170767,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.315Z"
     },
     {
       "slug": "kumbakonam",
@@ -1941,6 +1971,16 @@
       "releasedAt": "2026-10-11T13:27:57.818Z"
     },
     {
+      "slug": "hazaribagh",
+      "name": "Hazaribagh",
+      "state": "Jharkhand",
+      "lat": 23.99241,
+      "lon": 85.36162,
+      "pop": 153595,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.604Z"
+    },
+    {
       "slug": "faizabad",
       "name": "Faizabad",
       "state": "Uttar Pradesh",
@@ -1961,6 +2001,16 @@
       "releasedAt": "2026-10-08T10:49:33.421Z"
     },
     {
+      "slug": "hindupur",
+      "name": "Hindupur",
+      "state": "Andhra Pradesh",
+      "lat": 13.82807,
+      "lon": 77.49143,
+      "pop": 151677,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.487Z"
+    },
+    {
       "slug": "anantnag",
       "name": "Anantnag",
       "state": "Jammu and Kashmir",
@@ -1979,6 +2029,16 @@
       "pop": 148834,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.875Z"
+    },
+    {
+      "slug": "bhimavaram",
+      "name": "Bhimavaram",
+      "state": "Andhra Pradesh",
+      "lat": 16.54078,
+      "lon": 81.52322,
+      "pop": 146961,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.197Z"
     },
     {
       "slug": "chitradurga",
@@ -2021,6 +2081,16 @@
       "releasedAt": "2026-10-08T10:49:33.479Z"
     },
     {
+      "slug": "mandsaur",
+      "name": "Mandsaur",
+      "state": "Madhya Pradesh",
+      "lat": 24.07184,
+      "lon": 75.06986,
+      "pop": 141667,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.546Z"
+    },
+    {
       "slug": "haldwani",
       "name": "Haldwani",
       "state": "Uttarakhand",
@@ -2039,6 +2109,26 @@
       "pop": 132728,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.179Z"
+    },
+    {
+      "slug": "yavatmal",
+      "name": "Yavatmal",
+      "state": "Maharashtra",
+      "lat": 20.39324,
+      "lon": 78.13201,
+      "pop": 128175,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.256Z"
+    },
+    {
+      "slug": "jorhat",
+      "name": "Jorhat",
+      "state": "Assam",
+      "lat": 26.75751,
+      "lon": 94.20306,
+      "pop": 126736,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.660Z"
     },
     {
       "slug": "sawai-madhopur",
@@ -2099,6 +2189,16 @@
       "pop": 112050,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.056Z"
+    },
+    {
+      "slug": "firozpur",
+      "name": "Firozpur",
+      "state": "Punjab",
+      "lat": 30.92574,
+      "lon": 74.61311,
+      "pop": 110313,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:50:45.431Z"
     },
     {
       "slug": "roorkee",
@@ -2179,6 +2279,26 @@
       "pop": 98923,
       "tier": 3,
       "releasedAt": "2026-10-07T10:28:44.347Z"
+    },
+    {
+      "slug": "silvassa",
+      "name": "Silvassa",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "lat": 20.27386,
+      "lon": 72.99673,
+      "pop": 98265,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:50:45.942Z"
+    },
+    {
+      "slug": "pollachi",
+      "name": "Pollachi",
+      "state": "Tamil Nadu",
+      "lat": 10.65825,
+      "lon": 77.0085,
+      "pop": 90180,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:50:45.826Z"
     },
     {
       "slug": "mhow",
@@ -2269,6 +2389,16 @@
       "pop": 67604,
       "tier": 3,
       "releasedAt": "2026-10-08T10:49:33.814Z"
+    },
+    {
+      "slug": "kannur",
+      "name": "Kannur",
+      "state": "Kerala",
+      "lat": 11.86752,
+      "lon": 75.35763,
+      "pop": 62836,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:50:45.886Z"
     },
     {
       "slug": "ayodhya",
