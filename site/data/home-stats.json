@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T13:50:47.017Z",
+  "generatedAt": "2026-10-11T16:03:12.676Z",
   "cityGuides": 255,
   "stateHubs": 31,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-11T13:50:46.976Z",
-      "title": "pipeline run OK — 601 guides refreshed, 0 failures"
+      "at": "2026-10-11T16:03:12.643Z",
+      "title": "pipeline run OK — 672 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-11T00:00:00.000Z",
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "39 new city guides — Silvassa, Kannur, Pollachi +36 more",
-      "desc": "130 published in the last 7 days, each live-verified.",
+      "desc": "117 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 601 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 672 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
