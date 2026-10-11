@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-11T10:13:23.583Z",
-  "count": 229,
-  "shown": 229,
+  "generatedAt": "2026-10-11T13:27:58.439Z",
+  "count": 242,
+  "shown": 242,
   "latest": {
-    "slug": "mhow",
-    "name": "Mhow",
-    "lat": 22.5589,
-    "lon": 75.76543,
-    "at": "2026-10-11T10:13:23.335Z"
+    "slug": "kottayam",
+    "name": "Kottayam",
+    "lat": 9.58692,
+    "lon": 76.52132,
+    "at": "2026-10-11T13:27:58.153Z"
   },
   "cities": [
     {
@@ -931,6 +931,16 @@
       "releasedAt": "2026-10-05T10:44:19.891Z"
     },
     {
+      "slug": "ambattur",
+      "name": "Ambattur",
+      "state": "Tamil Nadu",
+      "lat": 13.09818,
+      "lon": 80.16152,
+      "pop": 466205,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.586Z"
+    },
+    {
       "slug": "jalgaon",
       "name": "Jalgaon",
       "state": "Maharashtra",
@@ -1319,6 +1329,16 @@
       "pop": 289550,
       "tier": 2,
       "releasedAt": "2026-10-10T10:03:10.344Z"
+    },
+    {
+      "slug": "ichalkaranji",
+      "name": "Ichalkaranji",
+      "state": "Maharashtra",
+      "lat": 16.69117,
+      "lon": 74.46054,
+      "pop": 287353,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.760Z"
     },
     {
       "slug": "bathinda",
@@ -1881,6 +1901,16 @@
       "releasedAt": "2026-10-11T10:13:22.789Z"
     },
     {
+      "slug": "chittoor",
+      "name": "Chittoor",
+      "state": "Andhra Pradesh",
+      "lat": 13.21055,
+      "lon": 79.0956,
+      "pop": 160722,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.701Z"
+    },
+    {
       "slug": "puri",
       "name": "Puri",
       "state": "Odisha",
@@ -1889,6 +1919,26 @@
       "pop": 157613,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:45.672Z"
+    },
+    {
+      "slug": "vidisha",
+      "name": "Vidisha",
+      "state": "Madhya Pradesh",
+      "lat": 23.52604,
+      "lon": 77.81092,
+      "pop": 155951,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.932Z"
+    },
+    {
+      "slug": "kishangarh",
+      "name": "Kishangarh",
+      "state": "Rajasthan",
+      "lat": 26.59006,
+      "lon": 74.85397,
+      "pop": 154886,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.818Z"
     },
     {
       "slug": "faizabad",
@@ -1911,6 +1961,26 @@
       "releasedAt": "2026-10-08T10:49:33.421Z"
     },
     {
+      "slug": "anantnag",
+      "name": "Anantnag",
+      "state": "Jammu and Kashmir",
+      "lat": 33.73068,
+      "lon": 75.15418,
+      "pop": 150592,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.645Z"
+    },
+    {
+      "slug": "bhuj",
+      "name": "Bhuj",
+      "state": "Gujarat",
+      "lat": 23.25397,
+      "lon": 69.66928,
+      "pop": 148834,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.875Z"
+    },
+    {
       "slug": "chitradurga",
       "name": "Chitradurga",
       "state": "Karnataka",
@@ -1919,6 +1989,16 @@
       "pop": 145853,
       "tier": 2,
       "releasedAt": "2026-10-10T10:03:10.460Z"
+    },
+    {
+      "slug": "dibrugarh",
+      "name": "Dibrugarh",
+      "state": "Assam",
+      "lat": 27.47989,
+      "lon": 94.90837,
+      "pop": 145488,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.409Z"
     },
     {
       "slug": "tiruvannamalai",
@@ -1959,6 +2039,16 @@
       "pop": 132728,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.179Z"
+    },
+    {
+      "slug": "sawai-madhopur",
+      "name": "Sawai Madhopur",
+      "state": "Rajasthan",
+      "lat": 26.02301,
+      "lon": 76.34408,
+      "pop": 121106,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.464Z"
     },
     {
       "slug": "darjeeling",
@@ -2049,6 +2139,16 @@
       "pop": 102690,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:45.883Z"
+    },
+    {
+      "slug": "malappuram",
+      "name": "Malappuram",
+      "state": "Kerala",
+      "lat": 11.04199,
+      "lon": 76.08154,
+      "pop": 101386,
+      "tier": 2,
+      "releasedAt": "2026-10-11T13:27:57.522Z"
     },
     {
       "slug": "gangtok",
@@ -2181,6 +2281,16 @@
       "releasedAt": "2026-09-26T11:53:10.757Z"
     },
     {
+      "slug": "kottayam",
+      "name": "Kottayam",
+      "state": "Kerala",
+      "lat": 9.58692,
+      "lon": 76.52132,
+      "pop": 55374,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:27:58.153Z"
+    },
+    {
       "slug": "fatwa",
       "name": "Fatwa",
       "state": "Bihar",
@@ -2231,6 +2341,16 @@
       "releasedAt": "2026-10-07T10:28:44.410Z"
     },
     {
+      "slug": "pen",
+      "name": "Pen",
+      "state": "Maharashtra",
+      "lat": 18.73734,
+      "lon": 73.09603,
+      "pop": 37852,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:27:58.096Z"
+    },
+    {
       "slug": "leh",
       "name": "Leh",
       "state": "Ladakh",
@@ -2269,6 +2389,16 @@
       "pop": 30026,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.789Z"
+    },
+    {
+      "slug": "ankola",
+      "name": "Ankola",
+      "state": "Karnataka",
+      "lat": 14.66049,
+      "lon": 74.3047,
+      "pop": 22249,
+      "tier": 3,
+      "releasedAt": "2026-10-11T13:27:58.038Z"
     },
     {
       "slug": "nazareth",

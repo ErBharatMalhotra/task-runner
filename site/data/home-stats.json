@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T10:13:24.019Z",
-  "cityGuides": 229,
+  "generatedAt": "2026-10-11T13:27:58.871Z",
+  "cityGuides": 242,
   "stateHubs": 30,
   "hubs": [
     {
@@ -55,12 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-11T10:13:23.980Z",
-      "title": "pipeline run OK — 656 guides refreshed, 0 failures"
+      "at": "2026-10-11T13:27:58.830Z",
+      "title": "pipeline run OK — 601 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-11T00:00:00.000Z",
-      "title": "13 city guides published — mhow, karwar, kohima +10 more"
+      "title": "26 city guides published — kottayam, pen, ankola +23 more"
     },
     {
       "at": "2026-10-10T00:00:00.000Z",
@@ -83,21 +83,21 @@
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Mhow, Karwar, Kohima +10 more",
-      "desc": "104 published in the last 7 days, each live-verified.",
+      "title": "26 new city guides — Kottayam, Pen, Ankola +23 more",
+      "desc": "117 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "229 city guides · 30 state hubs live",
+      "title": "242 city guides · 30 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 656 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 601 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }

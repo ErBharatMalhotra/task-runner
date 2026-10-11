@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T10:13:23.816Z",
-  "count": 229,
+  "generatedAt": "2026-10-11T13:27:58.657Z",
+  "count": 242,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -57,6 +57,11 @@
       "url": "https://bharatdn.com/city/amaravati/",
       "population": 103000
     },
+    "ambattur": {
+      "name": "Ambattur",
+      "url": "https://bharatdn.com/city/ambattur/",
+      "population": 466205
+    },
     "amravati": {
       "name": "Amravati",
       "url": "https://bharatdn.com/city/amravati/",
@@ -76,6 +81,16 @@
       "name": "Anantapur",
       "url": "https://bharatdn.com/city/anantapur/",
       "population": 267161
+    },
+    "anantnag": {
+      "name": "Anantnag",
+      "url": "https://bharatdn.com/city/anantnag/",
+      "population": 150592
+    },
+    "ankola": {
+      "name": "Ankola",
+      "url": "https://bharatdn.com/city/ankola/",
+      "population": 22249
     },
     "arrah": {
       "name": "Arrah",
@@ -182,6 +197,11 @@
       "url": "https://bharatdn.com/city/bhubaneswar/",
       "population": 353487
     },
+    "bhuj": {
+      "name": "Bhuj",
+      "url": "https://bharatdn.com/city/bhuj/",
+      "population": 148834
+    },
     "bhusawal": {
       "name": "Bhusawal",
       "url": "https://bharatdn.com/city/bhusawal/",
@@ -236,6 +256,11 @@
       "name": "Chitradurga",
       "url": "https://bharatdn.com/city/chitradurga/",
       "population": 145853
+    },
+    "chittoor": {
+      "name": "Chittoor",
+      "url": "https://bharatdn.com/city/chittoor/",
+      "population": 160722
     },
     "chittorgarh": {
       "name": "Chittorgarh",
@@ -301,6 +326,11 @@
       "name": "Dhule",
       "url": "https://bharatdn.com/city/dhule/",
       "population": 375559
+    },
+    "dibrugarh": {
+      "name": "Dibrugarh",
+      "url": "https://bharatdn.com/city/dibrugarh/",
+      "population": 145488
     },
     "dindigul": {
       "name": "Dindigul",
@@ -421,6 +451,11 @@
       "name": "Hyderabad",
       "url": "https://bharatdn.com/city/hyderabad/",
       "population": 6809970
+    },
+    "ichalkaranji": {
+      "name": "Ichalkaranji",
+      "url": "https://bharatdn.com/city/ichalkaranji/",
+      "population": 287353
     },
     "imphal": {
       "name": "Imphal",
@@ -547,6 +582,11 @@
       "url": "https://bharatdn.com/city/kharagpur/",
       "population": 253221
     },
+    "kishangarh": {
+      "name": "Kishangarh",
+      "url": "https://bharatdn.com/city/kishangarh/",
+      "population": 154886
+    },
     "kochi": {
       "name": "Kochi",
       "url": "https://bharatdn.com/city/kochi/",
@@ -576,6 +616,11 @@
       "name": "Kota",
       "url": "https://bharatdn.com/city/kota/",
       "population": 1001365
+    },
+    "kottayam": {
+      "name": "Kottayam",
+      "url": "https://bharatdn.com/city/kottayam/",
+      "population": 55374
     },
     "kozhikode": {
       "name": "Kozhikode",
@@ -631,6 +676,11 @@
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
       "population": 1017861
+    },
+    "malappuram": {
+      "name": "Malappuram",
+      "url": "https://bharatdn.com/city/malappuram/",
+      "population": 101386
     },
     "malegaon": {
       "name": "Malegaon",
@@ -842,6 +892,11 @@
       "url": "https://bharatdn.com/city/patna/",
       "population": 1684222
     },
+    "pen": {
+      "name": "Pen",
+      "url": "https://bharatdn.com/city/pen/",
+      "population": 37852
+    },
     "pimpri-chinchwad": {
       "name": "Pimpri-Chinchwad",
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
@@ -956,6 +1011,11 @@
       "name": "Satna",
       "url": "https://bharatdn.com/city/satna/",
       "population": 282977
+    },
+    "sawai-madhopur": {
+      "name": "Sawai Madhopur",
+      "url": "https://bharatdn.com/city/sawai-madhopur/",
+      "population": 121106
     },
     "secunderabad": {
       "name": "Secunderabad",
@@ -1121,6 +1181,11 @@
       "name": "Vellore",
       "url": "https://bharatdn.com/city/vellore/",
       "population": 484690
+    },
+    "vidisha": {
+      "name": "Vidisha",
+      "url": "https://bharatdn.com/city/vidisha/",
+      "population": 155951
     },
     "vijayawada": {
       "name": "Vijayawada",
