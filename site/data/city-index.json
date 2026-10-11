@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T09:12:24.737Z",
-  "count": 216,
+  "generatedAt": "2026-10-11T10:13:23.816Z",
+  "count": 229,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -66,6 +66,11 @@
       "name": "Amritsar",
       "url": "https://bharatdn.com/city/amritsar/",
       "population": 1132383
+    },
+    "amroha": {
+      "name": "Amroha",
+      "url": "https://bharatdn.com/city/amroha/",
+      "population": 176253
     },
     "anantapur": {
       "name": "Anantapur",
@@ -177,6 +182,11 @@
       "url": "https://bharatdn.com/city/bhubaneswar/",
       "population": 353487
     },
+    "bhusawal": {
+      "name": "Bhusawal",
+      "url": "https://bharatdn.com/city/bhusawal/",
+      "population": 187421
+    },
     "bidar": {
       "name": "Bidar",
       "url": "https://bharatdn.com/city/bidar/",
@@ -191,6 +201,11 @@
       "name": "Borivali",
       "url": "https://bharatdn.com/city/borivali/",
       "population": 609617
+    },
+    "budaun": {
+      "name": "Budaun",
+      "url": "https://bharatdn.com/city/budaun/",
+      "population": 161555
     },
     "bulandshahr": {
       "name": "Bulandshahr",
@@ -262,6 +277,11 @@
       "url": "https://bharatdn.com/city/delhi/",
       "population": 11034555
     },
+    "deoghar": {
+      "name": "Deoghar",
+      "url": "https://bharatdn.com/city/deoghar/",
+      "population": 203123
+    },
     "dewas": {
       "name": "Dewas",
       "url": "https://bharatdn.com/city/dewas/",
@@ -301,6 +321,11 @@
       "name": "Erode",
       "url": "https://bharatdn.com/city/erode/",
       "population": 521891
+    },
+    "faizabad": {
+      "name": "Faizabad",
+      "url": "https://bharatdn.com/city/faizabad/",
+      "population": 153047
     },
     "faridabad": {
       "name": "Faridabad",
@@ -497,6 +522,21 @@
       "url": "https://bharatdn.com/city/karnal/",
       "population": 314000
     },
+    "karur": {
+      "name": "Karur",
+      "url": "https://bharatdn.com/city/karur/",
+      "population": 234191
+    },
+    "karwar": {
+      "name": "Karwar",
+      "url": "https://bharatdn.com/city/karwar/",
+      "population": 77139
+    },
+    "khammam": {
+      "name": "Khammam",
+      "url": "https://bharatdn.com/city/khammam/",
+      "population": 196283
+    },
     "khandwa": {
       "name": "Khandwa",
       "url": "https://bharatdn.com/city/khandwa/",
@@ -511,6 +551,11 @@
       "name": "Kochi",
       "url": "https://bharatdn.com/city/kochi/",
       "population": 602046
+    },
+    "kohima": {
+      "name": "Kohima",
+      "url": "https://bharatdn.com/city/kohima/",
+      "population": 99039
     },
     "kolhapur": {
       "name": "Kolhapur",
@@ -617,6 +662,11 @@
       "url": "https://bharatdn.com/city/meerut/",
       "population": 1424908
     },
+    "mhow": {
+      "name": "Mhow",
+      "url": "https://bharatdn.com/city/mhow/",
+      "population": 81702
+    },
     "mohali": {
       "name": "Mohali",
       "url": "https://bharatdn.com/city/mohali/",
@@ -636,6 +686,11 @@
       "name": "Mumbai",
       "url": "https://bharatdn.com/city/mumbai/",
       "population": 12442373
+    },
+    "munger": {
+      "name": "Munger",
+      "url": "https://bharatdn.com/city/munger/",
+      "population": 213303
     },
     "munnar": {
       "name": "Munnar",
@@ -661,6 +716,11 @@
       "name": "Mysuru",
       "url": "https://bharatdn.com/city/mysuru/",
       "population": 920550
+    },
+    "nagapattinam": {
+      "name": "Nagapattinam",
+      "url": "https://bharatdn.com/city/nagapattinam/",
+      "population": 102905
     },
     "nagercoil": {
       "name": "Nagercoil",
@@ -901,6 +961,11 @@
       "name": "Secunderabad",
       "url": "https://bharatdn.com/city/secunderabad/",
       "population": 204182
+    },
+    "serampore": {
+      "name": "Serampore",
+      "url": "https://bharatdn.com/city/serampore/",
+      "population": 226317
     },
     "shahjahanpur": {
       "name": "Shahjahanpur",

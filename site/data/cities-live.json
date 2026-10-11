@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-11T09:12:24.566Z",
-  "count": 216,
-  "shown": 216,
+  "generatedAt": "2026-10-11T10:13:23.583Z",
+  "count": 229,
+  "shown": 229,
   "latest": {
-    "slug": "srikalahasti",
-    "name": "Srikalahasti",
-    "lat": 13.75514,
-    "lon": 79.70143,
-    "at": "2026-10-10T10:03:10.845Z"
+    "slug": "mhow",
+    "name": "Mhow",
+    "lat": 22.5589,
+    "lon": 75.76543,
+    "at": "2026-10-11T10:13:23.335Z"
   },
   "cities": [
     {
@@ -1471,6 +1471,16 @@
       "releasedAt": "2026-10-07T10:28:44.006Z"
     },
     {
+      "slug": "karur",
+      "name": "Karur",
+      "state": "Tamil Nadu",
+      "lat": 10.95771,
+      "lon": 78.08095,
+      "pop": 234191,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.902Z"
+    },
+    {
       "slug": "haridwar",
       "name": "Haridwar",
       "state": "Uttarakhand",
@@ -1499,6 +1509,16 @@
       "pop": 227105,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:46.224Z"
+    },
+    {
+      "slug": "serampore",
+      "name": "Serampore",
+      "state": "West Bengal",
+      "lat": 22.75278,
+      "lon": 88.34222,
+      "pop": 226317,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.956Z"
     },
     {
       "slug": "nagercoil",
@@ -1561,6 +1581,16 @@
       "releasedAt": "2026-10-06T10:37:29.359Z"
     },
     {
+      "slug": "munger",
+      "name": "Munger",
+      "state": "Bihar",
+      "lat": 25.37459,
+      "lon": 86.47455,
+      "pop": 213303,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.732Z"
+    },
+    {
       "slug": "panchkula",
       "name": "Panchkula",
       "state": "Haryana",
@@ -1591,6 +1621,16 @@
       "releasedAt": "2026-09-30T05:47:31.632Z"
     },
     {
+      "slug": "deoghar",
+      "name": "Deoghar",
+      "state": "Jharkhand",
+      "lat": 24.48983,
+      "lon": 86.69902,
+      "pop": 203123,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:23.009Z"
+    },
+    {
       "slug": "khandwa",
       "name": "Khandwa",
       "state": "Madhya Pradesh",
@@ -1609,6 +1649,16 @@
       "pop": 198612,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:43.720Z"
+    },
+    {
+      "slug": "khammam",
+      "name": "Khammam",
+      "state": "Telangana",
+      "lat": 17.24767,
+      "lon": 80.14368,
+      "pop": 196283,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.675Z"
     },
     {
       "slug": "sambhal",
@@ -1649,6 +1699,16 @@
       "pop": 189366,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.303Z"
+    },
+    {
+      "slug": "bhusawal",
+      "name": "Bhusawal",
+      "state": "Maharashtra",
+      "lat": 21.04365,
+      "lon": 75.78506,
+      "pop": 187421,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.844Z"
     },
     {
       "slug": "raebareli",
@@ -1709,6 +1769,16 @@
       "pop": 178865,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.238Z"
+    },
+    {
+      "slug": "amroha",
+      "name": "Amroha",
+      "state": "Uttar Pradesh",
+      "lat": 28.90314,
+      "lon": 78.46984,
+      "pop": 176253,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.618Z"
     },
     {
       "slug": "pathankot",
@@ -1801,6 +1871,16 @@
       "releasedAt": "2026-10-10T10:03:10.121Z"
     },
     {
+      "slug": "budaun",
+      "name": "Budaun",
+      "state": "Uttar Pradesh",
+      "lat": 28.03811,
+      "lon": 79.12668,
+      "pop": 161555,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:22.789Z"
+    },
+    {
       "slug": "puri",
       "name": "Puri",
       "state": "Odisha",
@@ -1809,6 +1889,16 @@
       "pop": 157613,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:45.672Z"
+    },
+    {
+      "slug": "faizabad",
+      "name": "Faizabad",
+      "state": "Uttar Pradesh",
+      "lat": 26.77549,
+      "lon": 82.15018,
+      "pop": 153047,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:23.065Z"
     },
     {
       "slug": "porbandar",
@@ -1941,6 +2031,16 @@
       "releasedAt": "2026-10-04T09:59:35.277Z"
     },
     {
+      "slug": "nagapattinam",
+      "name": "Nagapattinam",
+      "state": "Tamil Nadu",
+      "lat": 10.76377,
+      "lon": 79.84313,
+      "pop": 102905,
+      "tier": 2,
+      "releasedAt": "2026-10-11T10:13:23.121Z"
+    },
+    {
       "slug": "rishikesh",
       "name": "Rishikesh",
       "state": "Uttarakhand",
@@ -1961,6 +2061,16 @@
       "releasedAt": "2026-10-07T10:28:43.836Z"
     },
     {
+      "slug": "kohima",
+      "name": "Kohima",
+      "state": "Nagaland",
+      "lat": 25.67467,
+      "lon": 94.11099,
+      "pop": 99039,
+      "tier": 3,
+      "releasedAt": "2026-10-11T10:13:23.222Z"
+    },
+    {
       "slug": "pandharpur",
       "name": "Pandharpur",
       "state": "Maharashtra",
@@ -1971,6 +2081,16 @@
       "releasedAt": "2026-10-07T10:28:44.347Z"
     },
     {
+      "slug": "mhow",
+      "name": "Mhow",
+      "state": "Madhya Pradesh",
+      "lat": 22.5589,
+      "lon": 75.76543,
+      "pop": 81702,
+      "tier": 3,
+      "releasedAt": "2026-10-11T10:13:23.335Z"
+    },
+    {
       "slug": "srikalahasti",
       "name": "Srikalahasti",
       "state": "Andhra Pradesh",
@@ -1979,6 +2099,16 @@
       "pop": 80056,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.845Z"
+    },
+    {
+      "slug": "karwar",
+      "name": "Karwar",
+      "state": "Karnataka",
+      "lat": 14.81361,
+      "lon": 74.12972,
+      "pop": 77139,
+      "tier": 3,
+      "releasedAt": "2026-10-11T10:13:23.279Z"
     },
     {
       "slug": "kannauj",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T09:12:24.890Z",
-  "cityGuides": 216,
-  "stateHubs": 29,
+  "generatedAt": "2026-10-11T10:13:24.019Z",
+  "cityGuides": 229,
+  "stateHubs": 30,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-11T09:12:24.859Z",
+      "at": "2026-10-11T10:13:23.980Z",
       "title": "pipeline run OK — 656 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-11T00:00:00.000Z",
+      "title": "13 city guides published — mhow, karwar, kohima +10 more"
     },
     {
       "at": "2026-10-10T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-07T00:00:00.000Z",
       "title": "13 city guides published — udaipur tripura, agar, pandharpur +10 more"
-    },
-    {
-      "at": "2026-10-06T00:00:00.000Z",
-      "title": "13 city guides published — jodhpur gujarat, leh, moth +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Srikalahasti, Fatehpur Sikri, Munnar +10 more",
-      "desc": "94 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Mhow, Karwar, Kohima +10 more",
+      "desc": "104 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "216 city guides · 29 state hubs live",
+      "title": "229 city guides · 30 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
@@ -178,6 +178,10 @@
     {
       "name": "Mizoram",
       "path": "state/mizoram/"
+    },
+    {
+      "name": "nagaland",
+      "path": "state/nagaland/"
     },
     {
       "name": "Odisha",
