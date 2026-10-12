@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-12T07:59:46.170Z",
-  "count": 255,
-  "shown": 255,
+  "generatedAt": "2026-10-12T11:12:02.953Z",
+  "count": 268,
+  "shown": 268,
   "latest": {
-    "slug": "silvassa",
-    "name": "Silvassa",
-    "lat": 20.27386,
-    "lon": 72.99673,
-    "at": "2026-10-11T13:50:45.942Z"
+    "slug": "palani",
+    "name": "Palani",
+    "lat": 10.45034,
+    "lon": 77.5209,
+    "at": "2026-10-12T11:12:02.670Z"
   },
   "cities": [
     {
@@ -1171,6 +1171,16 @@
       "releasedAt": "2026-10-06T10:37:29.247Z"
     },
     {
+      "slug": "kukatpally",
+      "name": "Kukatpally",
+      "state": "Telangana",
+      "lat": 17.48486,
+      "lon": 78.41376,
+      "pop": 341709,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:01.884Z"
+    },
+    {
       "slug": "chandrapur",
       "name": "Chandrapur",
       "state": "Maharashtra",
@@ -1399,6 +1409,16 @@
       "pop": 269766,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:15.362Z"
+    },
+    {
+      "slug": "durg",
+      "name": "Durg",
+      "state": "Chhattisgarh",
+      "lat": 21.19147,
+      "lon": 81.27619,
+      "pop": 268806,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.375Z"
     },
     {
       "slug": "imphal",
@@ -2021,6 +2041,16 @@
       "releasedAt": "2026-10-11T13:27:57.645Z"
     },
     {
+      "slug": "raigarh",
+      "name": "Raigarh",
+      "state": "Chhattisgarh",
+      "lat": 21.89764,
+      "lon": 83.3966,
+      "pop": 150019,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.131Z"
+    },
+    {
       "slug": "bhuj",
       "name": "Bhuj",
       "state": "Gujarat",
@@ -2081,6 +2111,26 @@
       "releasedAt": "2026-10-08T10:49:33.479Z"
     },
     {
+      "slug": "godhra",
+      "name": "Godhra",
+      "state": "Gujarat",
+      "lat": 22.77547,
+      "lon": 73.61488,
+      "pop": 143644,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.313Z"
+    },
+    {
+      "slug": "chhatarpur",
+      "name": "Chhatarpur",
+      "state": "Madhya Pradesh",
+      "lat": 24.9177,
+      "lon": 79.58871,
+      "pop": 142128,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.252Z"
+    },
+    {
       "slug": "mandsaur",
       "name": "Mandsaur",
       "state": "Madhya Pradesh",
@@ -2101,6 +2151,16 @@
       "releasedAt": "2026-09-28T05:55:26.772Z"
     },
     {
+      "slug": "mandya",
+      "name": "Mandya",
+      "state": "Karnataka",
+      "lat": 12.5223,
+      "lon": 76.89746,
+      "pop": 137358,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.192Z"
+    },
+    {
       "slug": "palakkad",
       "name": "Palakkad",
       "state": "Kerala",
@@ -2109,6 +2169,16 @@
       "pop": 132728,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.179Z"
+    },
+    {
+      "slug": "rajapalayam",
+      "name": "Rajapalayam",
+      "state": "Tamil Nadu",
+      "lat": 9.45296,
+      "lon": 77.55335,
+      "pop": 130442,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.007Z"
     },
     {
       "slug": "yavatmal",
@@ -2151,6 +2221,16 @@
       "releasedAt": "2026-09-26T11:53:19.559Z"
     },
     {
+      "slug": "pudukkottai",
+      "name": "Pudukkottai",
+      "state": "Tamil Nadu",
+      "lat": 10.38128,
+      "lon": 78.82141,
+      "pop": 117630,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.437Z"
+    },
+    {
       "slug": "azamgarh",
       "name": "Azamgarh",
       "state": "Uttar Pradesh",
@@ -2159,6 +2239,16 @@
       "pop": 116644,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.549Z"
+    },
+    {
+      "slug": "yelahanka",
+      "name": "Yelahanka",
+      "state": "Karnataka",
+      "lat": 13.10073,
+      "lon": 77.59632,
+      "pop": 116447,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:02.071Z"
     },
     {
       "slug": "chittorgarh",
@@ -2199,6 +2289,16 @@
       "pop": 110313,
       "tier": 2,
       "releasedAt": "2026-10-11T13:50:45.431Z"
+    },
+    {
+      "slug": "bhiwadi",
+      "name": "Bhiwadi",
+      "state": "Rajasthan",
+      "lat": 28.21024,
+      "lon": 76.86056,
+      "pop": 104921,
+      "tier": 2,
+      "releasedAt": "2026-10-12T11:12:01.945Z"
     },
     {
       "slug": "roorkee",
@@ -2371,6 +2471,16 @@
       "releasedAt": "2026-10-09T10:48:18.970Z"
     },
     {
+      "slug": "palani",
+      "name": "Palani",
+      "state": "Tamil Nadu",
+      "lat": 10.45034,
+      "lon": 77.5209,
+      "pop": 70467,
+      "tier": 3,
+      "releasedAt": "2026-10-12T11:12:02.670Z"
+    },
+    {
       "slug": "munnar",
       "name": "Munnar",
       "state": "Kerala",
@@ -2399,6 +2509,16 @@
       "pop": 62836,
       "tier": 3,
       "releasedAt": "2026-10-11T13:50:45.886Z"
+    },
+    {
+      "slug": "itanagar",
+      "name": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "lat": 27.08694,
+      "lon": 93.60987,
+      "pop": 59490,
+      "tier": 3,
+      "releasedAt": "2026-10-12T11:12:02.547Z"
     },
     {
       "slug": "ayodhya",
@@ -2529,6 +2649,16 @@
       "pop": 22249,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.038Z"
+    },
+    {
+      "slug": "weir",
+      "name": "Weir",
+      "state": "Rajasthan",
+      "lat": 27.0186,
+      "lon": 77.17636,
+      "pop": 19385,
+      "tier": 3,
+      "releasedAt": "2026-10-12T11:12:02.608Z"
     },
     {
       "slug": "nazareth",

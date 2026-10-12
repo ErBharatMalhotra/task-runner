@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T07:59:46.610Z",
-  "cityGuides": 255,
-  "stateHubs": 31,
+  "generatedAt": "2026-10-12T11:12:03.413Z",
+  "cityGuides": 268,
+  "stateHubs": 32,
   "hubs": [
     {
       "host": "bharatdn.com",
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-12T07:59:46.569Z",
-      "title": "pipeline run OK — 769 guides refreshed, 0 failures"
+      "at": "2026-10-12T11:12:03.371Z",
+      "title": "pipeline run OK — 411 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-12T00:00:00.000Z",
+      "title": "13 city guides published — palani, weir, itanagar +10 more"
     },
     {
       "at": "2026-10-11T00:00:00.000Z",
@@ -73,31 +77,27 @@
     {
       "at": "2026-10-08T00:00:00.000Z",
       "title": "13 city guides published — jaisalmer, nainital, kannauj +10 more"
-    },
-    {
-      "at": "2026-10-07T00:00:00.000Z",
-      "title": "13 city guides published — udaipur tripura, agar, pandharpur +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "39 new city guides — Silvassa, Kannur, Pollachi +36 more",
+      "title": "13 new city guides — Palani, Weir, Itanagar +10 more",
       "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "255 city guides · 31 state hubs live",
+      "title": "268 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 769 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 411 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
@@ -110,6 +110,10 @@
     {
       "name": "Andhra Pradesh",
       "path": "state/andhra-pradesh/"
+    },
+    {
+      "name": "arunachal-pradesh",
+      "path": "state/arunachal-pradesh/"
     },
     {
       "name": "Assam",

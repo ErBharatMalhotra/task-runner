@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T07:59:46.391Z",
-  "count": 255,
+  "generatedAt": "2026-10-12T11:12:03.194Z",
+  "count": 268,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -192,6 +192,11 @@
       "url": "https://bharatdn.com/city/bhimavaram/",
       "population": 146961
     },
+    "bhiwadi": {
+      "name": "Bhiwadi",
+      "url": "https://bharatdn.com/city/bhiwadi/",
+      "population": 104921
+    },
     "bhiwandi": {
       "name": "Bhiwandi",
       "url": "https://bharatdn.com/city/bhiwandi/",
@@ -261,6 +266,11 @@
       "name": "Chennai",
       "url": "https://bharatdn.com/city/chennai/",
       "population": 4646732
+    },
+    "chhatarpur": {
+      "name": "Chhatarpur",
+      "url": "https://bharatdn.com/city/chhatarpur/",
+      "population": 142128
     },
     "chitradurga": {
       "name": "Chitradurga",
@@ -347,6 +357,11 @@
       "url": "https://bharatdn.com/city/dindigul/",
       "population": 292512
     },
+    "durg": {
+      "name": "Durg",
+      "url": "https://bharatdn.com/city/durg/",
+      "population": 268806
+    },
     "durgapur": {
       "name": "Durgapur",
       "url": "https://bharatdn.com/city/durgapur/",
@@ -406,6 +421,11 @@
       "name": "Ghaziabad",
       "url": "https://bharatdn.com/city/ghaziabad/",
       "population": 1636069
+    },
+    "godhra": {
+      "name": "Godhra",
+      "url": "https://bharatdn.com/city/godhra/",
+      "population": 143644
     },
     "gorakhpur": {
       "name": "Gorakhpur",
@@ -491,6 +511,11 @@
       "name": "Indore",
       "url": "https://bharatdn.com/city/indore/",
       "population": 2057791
+    },
+    "itanagar": {
+      "name": "Itanagar",
+      "url": "https://bharatdn.com/city/itanagar/",
+      "population": 59490
     },
     "jabalpur": {
       "name": "Jabalpur",
@@ -667,6 +692,11 @@
       "url": "https://bharatdn.com/city/kozhikode/",
       "population": 431560
     },
+    "kukatpally": {
+      "name": "Kukatpally",
+      "url": "https://bharatdn.com/city/kukatpally/",
+      "population": 341709
+    },
     "kumbakonam": {
       "name": "Kumbakonam",
       "url": "https://bharatdn.com/city/kumbakonam/",
@@ -736,6 +766,11 @@
       "name": "Mandsaur",
       "url": "https://bharatdn.com/city/mandsaur/",
       "population": 141667
+    },
+    "mandya": {
+      "name": "Mandya",
+      "url": "https://bharatdn.com/city/mandya/",
+      "population": 137358
     },
     "mangaluru": {
       "name": "Mangaluru",
@@ -897,6 +932,11 @@
       "url": "https://bharatdn.com/city/palakkad/",
       "population": 132728
     },
+    "palani": {
+      "name": "Palani",
+      "url": "https://bharatdn.com/city/palani/",
+      "population": 70467
+    },
     "panaji": {
       "name": "Panaji",
       "url": "https://bharatdn.com/city/panaji/",
@@ -972,6 +1012,11 @@
       "url": "https://bharatdn.com/city/puducherry/",
       "population": 244377
     },
+    "pudukkottai": {
+      "name": "Pudukkottai",
+      "url": "https://bharatdn.com/city/pudukkottai/",
+      "population": 117630
+    },
     "pune": {
       "name": "Pune",
       "url": "https://bharatdn.com/city/pune/",
@@ -992,6 +1037,11 @@
       "url": "https://bharatdn.com/city/raebareli/",
       "population": 186433
     },
+    "raigarh": {
+      "name": "Raigarh",
+      "url": "https://bharatdn.com/city/raigarh/",
+      "population": 150019
+    },
     "raipur": {
       "name": "Raipur",
       "url": "https://bharatdn.com/city/raipur/",
@@ -1001,6 +1051,11 @@
       "name": "Rajahmundry",
       "url": "https://bharatdn.com/city/rajahmundry/",
       "population": 376333
+    },
+    "rajapalayam": {
+      "name": "Rajapalayam",
+      "url": "https://bharatdn.com/city/rajapalayam/",
+      "population": 130442
     },
     "rajkot": {
       "name": "Rajkot",
@@ -1267,6 +1322,11 @@
       "url": "https://bharatdn.com/city/warangal/",
       "population": 811382
     },
+    "weir": {
+      "name": "Weir",
+      "url": "https://bharatdn.com/city/weir/",
+      "population": 19385
+    },
     "yamunanagar": {
       "name": "yamunanagar",
       "url": "https://bharatdn.com/city/yamunanagar/",
@@ -1276,6 +1336,11 @@
       "name": "Yavatmal",
       "url": "https://bharatdn.com/city/yavatmal/",
       "population": 128175
+    },
+    "yelahanka": {
+      "name": "Yelahanka",
+      "url": "https://bharatdn.com/city/yelahanka/",
+      "population": 116447
     }
   }
 }
