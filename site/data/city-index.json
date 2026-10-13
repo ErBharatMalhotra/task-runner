@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T10:28:09.867Z",
-  "count": 268,
+  "generatedAt": "2026-10-13T10:53:24.362Z",
+  "count": 281,
   "cities": {
     "agar": {
       "name": "Agar",
@@ -157,6 +157,11 @@
       "url": "https://bharatdn.com/city/bathinda/",
       "population": 285813
     },
+    "beed": {
+      "name": "Beed",
+      "url": "https://bharatdn.com/city/beed/",
+      "population": 146709
+    },
     "begusarai": {
       "name": "Begusarai",
       "url": "https://bharatdn.com/city/begusarai/",
@@ -272,6 +277,11 @@
       "url": "https://bharatdn.com/city/chhatarpur/",
       "population": 142128
     },
+    "chidambaram": {
+      "name": "Chidambaram",
+      "url": "https://bharatdn.com/city/chidambaram/",
+      "population": 62153
+    },
     "chitradurga": {
       "name": "Chitradurga",
       "url": "https://bharatdn.com/city/chitradurga/",
@@ -321,6 +331,11 @@
       "name": "Delhi",
       "url": "https://bharatdn.com/city/delhi/",
       "population": 11034555
+    },
+    "deoband": {
+      "name": "Deoband",
+      "url": "https://bharatdn.com/city/deoband/",
+      "population": 88171
     },
     "deoghar": {
       "name": "Deoghar",
@@ -396,6 +411,11 @@
       "name": "Fatwa",
       "url": "https://bharatdn.com/city/fatwa/",
       "population": 50961
+    },
+    "fazilka": {
+      "name": "Fazilka",
+      "url": "https://bharatdn.com/city/fazilka/",
+      "population": 76492
     },
     "firozabad": {
       "name": "Firozabad",
@@ -847,6 +867,16 @@
       "url": "https://bharatdn.com/city/mysuru/",
       "population": 920550
     },
+    "nabadwip": {
+      "name": "Nabadwip",
+      "url": "https://bharatdn.com/city/nabadwip/",
+      "population": 111123
+    },
+    "nagaon": {
+      "name": "Nagaon",
+      "url": "https://bharatdn.com/city/nagaon/",
+      "population": 121628
+    },
     "nagapattinam": {
       "name": "Nagapattinam",
       "url": "https://bharatdn.com/city/nagapattinam/",
@@ -936,6 +966,11 @@
       "name": "Palani",
       "url": "https://bharatdn.com/city/palani/",
       "population": 70467
+    },
+    "palwal": {
+      "name": "Palwal",
+      "url": "https://bharatdn.com/city/palwal/",
+      "population": 131926
     },
     "panaji": {
       "name": "Panaji",
@@ -1072,6 +1107,11 @@
       "url": "https://bharatdn.com/city/ranchi/",
       "population": 1073571
     },
+    "ranipet": {
+      "name": "Ranipet",
+      "url": "https://bharatdn.com/city/ranipet/",
+      "population": 264330
+    },
     "rishikesh": {
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
@@ -1147,6 +1187,11 @@
       "url": "https://bharatdn.com/city/shimla/",
       "population": 171817
     },
+    "shivpuri": {
+      "name": "Shivpuri",
+      "url": "https://bharatdn.com/city/shivpuri/",
+      "population": 179977
+    },
     "silchar": {
       "name": "Silchar",
       "url": "https://bharatdn.com/city/silchar/",
@@ -1162,6 +1207,16 @@
       "url": "https://bharatdn.com/city/silvassa/",
       "population": 98265
     },
+    "singrauli": {
+      "name": "Singrauli",
+      "url": "https://bharatdn.com/city/singrauli/",
+      "population": 220257
+    },
+    "sirsa": {
+      "name": "Sirsa",
+      "url": "https://bharatdn.com/city/sirsa/",
+      "population": 182534
+    },
     "sivakasi": {
       "name": "Sivakasi",
       "url": "https://bharatdn.com/city/sivakasi/",
@@ -1176,6 +1231,11 @@
       "name": "Sri Ganganagar",
       "url": "https://bharatdn.com/city/sri-ganganagar/",
       "population": 237780
+    },
+    "srikakulam": {
+      "name": "Srikakulam",
+      "url": "https://bharatdn.com/city/srikakulam/",
+      "population": 137944
     },
     "srikalahasti": {
       "name": "Srikalahasti",
@@ -1321,6 +1381,11 @@
       "name": "Warangal",
       "url": "https://bharatdn.com/city/warangal/",
       "population": 811382
+    },
+    "wardha": {
+      "name": "Wardha",
+      "url": "https://bharatdn.com/city/wardha/",
+      "population": 113759
     },
     "weir": {
       "name": "Weir",
