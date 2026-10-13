@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">33.7°C</div><div class="live-sub">साफ आसमान · नमी 28% · हवा 4.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">33.8°C</div><div class="live-sub">साफ आसमान · नमी 27% · हवा 5.2 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>उदयपुर की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>उदयपुर में छिपी और विरासत जगहें</h2><p>उदयपुर की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">उत्तर · राज-दाह-स्थल</div><h3>अहर स्मारक</h3><p>आहर नदी किनारे मेवाड़ राजाओं की छतरियाँ — नक्काशीदार पत्थर, छोटा संग्रहालय और शांत बग़ीचा।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ahar,+Udaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">उत्तर-पश्चिम · जलाशय</div><h3>बड़ी झील</h3><p>जीयाण सागर जलाशय — जहाँ स्थानीय तैरते-पिकनिक मनाते हैं, महल-बोट से दूर नौका-प्लेटफ़ॉर्म।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Badi+Lake,+Udaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>उदयपुर शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>उदयपुर के पास घूमने की जगहें (वीकेंड)</h2><p>उदयपुर शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>नाथद्वारा</b><span>श्रीनाथजी तीर्थनगरी</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Nathdwara,+Rajsamand" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~35 किमी</div></div>
     <div class="trip"><div class="name"><b>कुम्भलगढ़</b><span>क़िले की दीवारें · वन्यजीव</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kumbhalgarh,+Rajsamand" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~85 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>उदयपुर में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 राजस्थान बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>उदयपुर की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>उदयपुर की अर्थव्यवस्था किससे चलती है</h2><p>उदयपुर की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>झील-पर्यटन व विरासत होटल</h3><p>महल-दृश्य कमरे, बोट टिकट और शादी-सीज़न — शहर इसी कैलेंडर पर चलता है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=City+Palace,+Udaipur" target="_blank" rel="noopener">झील केंद्र ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">खनन</div><h3>ज़िंक व सीसा (ज़ावार)</h3><p>ज़ावार पट्टी की पुरानी खदानें आज भी — झील-कहानी के पीछे राजस्थान का धातु-खाता।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Zawar,+Udaipur" target="_blank" rel="noopener">खदान पट्टी ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>उदयपुर में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">झील-दृश्य</div><h3>अंबराई</h3><p>जग मंदिर के सामने पानी के पार की मेज़ — दीयों की रोशनी में थाली, काम तालाब की छाया करती है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ambrai+Ghat,+Udaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">बग़ीचा भोजन</div><h3>सैवेज गार्डन</h3><p>पुराने शहर में पेड़ों के नीचे आँगन-रात्रि — कॉन्टिनेंटल प्लेट और झील-नगर की चहलकदमी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Savage+Garden,+Udaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -446,6 +464,65 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>उदयपुर कैसे पहुँचें?</h3><p>महाराणा प्रताप हवाई अड्डा (UDR) ~25 किमी, उदयपुर सिटी स्टेशन (UDZ) दिल्ली–मुंबई मार्ग पर, और सड़क के लिए NH-48।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — उदयपुर</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी उदयपुर के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bohra+Ganesh,+उदयपुर,+India" target="_blank" rel="noopener">Bohra Ganesh</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mosque,+उदयपुर,+India" target="_blank" rel="noopener">Mosque</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chhoti+Shitla+Mata+Mandir,+उदयपुर,+India" target="_blank" rel="noopener">Chhoti Shitla Mata Mandir</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=पाला+गणेश+मन्दिर,+उदयपुर,+India" target="_blank" rel="noopener">पाला गणेश मन्दिर</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Manshapurna+Karni+Mata+Temple,+उदयपुर,+India" target="_blank" rel="noopener">Shri Manshapurna Karni Mata Temple</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mohan+Mandir,+उदयपुर,+India" target="_blank" rel="noopener">Mohan Mandir</a><span>3.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=J.P.+Orthopaedic+Hospital,+उदयपुर,+India" target="_blank" rel="noopener">J.P. Orthopaedic Hospital</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Anil+Orthopaedic+and+Trauma+Hospital,+उदयपुर,+India" target="_blank" rel="noopener">Anil Orthopaedic and Trauma Hospital</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gattani+Hospital,+उदयपुर,+India" target="_blank" rel="noopener">Gattani Hospital</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=J.K.Hospital+and+Research+Centre,+उदयपुर,+India" target="_blank" rel="noopener">J.K.Hospital and Research Centre</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bhandari+Children+Hospital,+उदयपुर,+India" target="_blank" rel="noopener">Bhandari Children Hospital</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Harsh+Piles+Chikitsa+Kendra,+उदयपुर,+India" target="_blank" rel="noopener">Harsh Piles Chikitsa Kendra</a><span>1.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ravindra+Nath+Tagore+Medical+College,+Udaipur,+उदयपुर,+India" target="_blank" rel="noopener">Ravindra Nath Tagore Medical College, Udaipur</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mohanlal+Sukhadia+University,+उदयपुर,+India" target="_blank" rel="noopener">Mohanlal Sukhadia University</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=राजकीय+नर्सिंग+महाविद्यालय,+उदयपुर,+India" target="_blank" rel="noopener">राजकीय नर्सिंग महाविद्यालय</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=RMV+Girls+College,+उदयपुर,+India" target="_blank" rel="noopener">RMV Girls College</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sahu,+उदयपुर,+India" target="_blank" rel="noopener">Sahu</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=APPY+Tuition+Classes,+उदयपुर,+India" target="_blank" rel="noopener">APPY Tuition Classes</a><span>3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Golden+Tulip,+उदयपुर,+India" target="_blank" rel="noopener">Golden Tulip</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Atiti,+उदयपुर,+India" target="_blank" rel="noopener">Atiti</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pannadhay+Palace,+उदयपुर,+India" target="_blank" rel="noopener">Pannadhay Palace</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Raj+Palace,+उदयपुर,+India" target="_blank" rel="noopener">Raj Palace</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shakti+Palace,+उदयपुर,+India" target="_blank" rel="noopener">Shakti Palace</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mewargarh+Palace,+उदयपुर,+India" target="_blank" rel="noopener">Mewargarh Palace</a><span>2.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(5)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=food+market,+उदयपुर,+India" target="_blank" rel="noopener">food market</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Spice+market,+उदयपुर,+India" target="_blank" rel="noopener">Spice market</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hathi+Pole,+उदयपुर,+India" target="_blank" rel="noopener">Hathi Pole</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tibetan+Market,+उदयपुर,+India" target="_blank" rel="noopener">Tibetan Market</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fatehpura+Vegetable+Market,+उदयपुर,+India" target="_blank" rel="noopener">Fatehpura Vegetable Market</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(1)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Udaipur+Bus+Stand,+उदयपुर,+India" target="_blank" rel="noopener">Udaipur Bus Stand</a><span>1.6 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="24.5854" data-lon="73.7125">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

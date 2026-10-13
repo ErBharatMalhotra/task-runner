@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">27.5°C</div><div class="live-sub">साफ आसमान · नमी 51% · हवा 5.2 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">27.2°C</div><div class="live-sub">साफ आसमान · नमी 56% · हवा 3.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>देहरादून की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>देहरादून में छिपी और विरासत जगहें</h2><p>देहरादून की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">नदी मोड़ · पुरानी गुफ़ा</div><h3>तपकेश्वर</h3><p>मालुन नदी पर शिव-गुफ़ा मंदिर — वन-छाया, अंदर कुंड और सोमवार के भक्त।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Tapkeshwar,+Dehradun" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">उत्तर-पश्चिम · वन-धारा</div><h3>रॉबर्स केव</h3><p>चट्टान के नीचे से बहती नदी — ठंडे पानी में उतरता गलियारा, तौलिये लिए स्थानीय।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Robber's+Cave,+Dehradun" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -358,7 +376,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>देहरादून शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>देहरादून के पास घूमने की जगहें (वीकेंड)</h2><p>देहरादून शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>मसूरी</b><span>हिल स्टेशन · मॉल रोड</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mussoorie,+Dehradun" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~34 किमी</div></div>
     <div class="trip"><div class="name"><b>ऋषिकेश</b><span>गंगा · योग नगरी</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Rishikesh,+Dehradun" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~45 किमी</div></div>
@@ -368,7 +386,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>देहरादून में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -388,7 +406,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 उत्तराखंड बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>देहरादून की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>देहरादून की अर्थव्यवस्था किससे चलती है</h2><p>देहरादून की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">सरकार</div><h3>राजधानी व सचिवालय</h3><p>विधानसभा, सचिवालय और राज्य विभाग — घाटी का रोज़गार-आधार।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Secretariat,+Dehradun" target="_blank" rel="noopener">राजधानी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">शोध</div><h3>FRI व राष्ट्रीय संस्थान</h3><p>फ़ॉरेस्ट रिसर्च इंस्टीट्यूट, सर्वे ऑफ़ इंडिया, वाडिया और IMD — शोध-नगर का पुराना पहरा।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Forest+Research+Institute,+Dehradun" target="_blank" rel="noopener">संस्थान पट्टी ↗</a></div></div>
@@ -400,7 +418,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>देहरादून में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">लीजेंड ढाबा</div><h3>पुरन सिंह</h3><p>कैंटोनमेंट पट्टी का पुराना पंजाबी कमरा — तंदूरी-क्लासिक और दशकों की ग्राहकी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Puran+Singh,+Dehradun" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">नाश्ता काउंटर</div><h3>पल्टन स्ट्रीट प्लेट</h3><p>बाज़ार की सुबह के बड़े-आलू व कचौरी — दफ़्तर खुलने से पहले का दून-नाश्ता।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paltan+Bazaar,+Dehradun" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -444,6 +462,69 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>देहरादून कैसे पहुँचें?</h3><p>दिल्ली से टर्मिनस देहरादून (DDN), जॉली ग्रांट हवाई अड्डा (DED) ~25 किमी, और आगे पहाड़ों के लिए बसें।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — देहरादून</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी देहरादून के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Darbar+Sahib+Sri+Guru+Ram+Rai+Maharaja,+देहरादून,+India" target="_blank" rel="noopener">Darbar Sahib Sri Guru Ram Rai Maharaja</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jhanda+g+Darbar+sahib,+देहरादून,+India" target="_blank" rel="noopener">Jhanda g Darbar sahib</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Laxminarayan+mandir,+देहरादून,+India" target="_blank" rel="noopener">Laxminarayan mandir</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shani+Dev+Temple,+देहरादून,+India" target="_blank" rel="noopener">Shani Dev Temple</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiv+Mandir,+देहरादून,+India" target="_blank" rel="noopener">Shiv Mandir</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiva+Temple,+देहरादून,+India" target="_blank" rel="noopener">Shiva Temple</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Doon+Hospital,+देहरादून,+India" target="_blank" rel="noopener">Government Doon Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=wedding+by+fourth+munky,+देहरादून,+India" target="_blank" rel="noopener">wedding by fourth munky</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=CMI,+देहरादून,+India" target="_blank" rel="noopener">CMI</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Heart+Clinic,+देहरादून,+India" target="_blank" rel="noopener">Heart Clinic</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Mahant+Indiresh+Hospital,+देहरादून,+India" target="_blank" rel="noopener">Shri Mahant Indiresh Hospital</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=General+Hospital,+देहरादून,+India" target="_blank" rel="noopener">General Hospital</a><span>1.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Guru+Nanak+Inter+college,+देहरादून,+India" target="_blank" rel="noopener">Guru Nanak Inter college</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Convent+of+Jesus+&+Mary,+देहरादून,+India" target="_blank" rel="noopener">Convent of Jesus & Mary</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dehradun+College+of+Art,+देहरादून,+India" target="_blank" rel="noopener">Dehradun College of Art</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Doon+Girls,+देहरादून,+India" target="_blank" rel="noopener">Doon Girls</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Col.+Brown+Cambridge+Scool,+देहरादून,+India" target="_blank" rel="noopener">Col. Brown Cambridge Scool</a><span>2.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Summer+Valley,+देहरादून,+India" target="_blank" rel="noopener">Summer Valley</a><span>2.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Royal,+देहरादून,+India" target="_blank" rel="noopener">Hotel Royal</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Park+View+Premium,+देहरादून,+India" target="_blank" rel="noopener">Hotel Park View Premium</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Central+Palace,+देहरादून,+India" target="_blank" rel="noopener">Hotel Central Palace</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pacific+Hotel,+देहरादून,+India" target="_blank" rel="noopener">Pacific Hotel</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramada+Dehradun+Chakrata+Road,+देहरादून,+India" target="_blank" rel="noopener">Ramada Dehradun Chakrata Road</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Soho,+देहरादून,+India" target="_blank" rel="noopener">Soho</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=JHANDA+MOHALLA,+देहरादून,+India" target="_blank" rel="noopener">JHANDA MOHALLA</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=RAM+LEELA+BAZAR,+देहरादून,+India" target="_blank" rel="noopener">RAM LEELA BAZAR</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabzi+Mandi,+देहरादून,+India" target="_blank" rel="noopener">Sabzi Mandi</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rama+Market,+देहरादून,+India" target="_blank" rel="noopener">Rama Market</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tibetan+market,+देहरादून,+India" target="_blank" rel="noopener">Tibetan market</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Local+Vegetable+Market,+देहरादून,+India" target="_blank" rel="noopener">Local Vegetable Market</a><span>2.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mussoorie+Bus+Stand,+देहरादून,+India" target="_blank" rel="noopener">Mussoorie Bus Stand</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shastradhara+bus+stand,+देहरादून,+India" target="_blank" rel="noopener">Shastradhara bus stand</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISBT+Dehradun,+देहरादून,+India" target="_blank" rel="noopener">ISBT Dehradun</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=#5+tuktuk+to+bus+going+Musoorie,+देहरादून,+India" target="_blank" rel="noopener">#5 tuktuk to bus going Musoorie</a><span>4.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="30.3165" data-lon="78.0322">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

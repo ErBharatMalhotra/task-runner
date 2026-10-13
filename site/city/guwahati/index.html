@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guwahati City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Guwahati City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Guwahati, Assam — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/guwahati/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/guwahati/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/guwahati/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/guwahati/">
-<meta property="og:title" content="Guwahati City Guide — Bharat DN">
+<meta property="og:title" content="Guwahati City Guide — Bharat Digital Network">
 <meta property="og:description" content="Guwahati — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/guwahati/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">32.8°C</div><div class="live-sub">Clear sky · humidity 46% · wind 6.4 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">32.1°C</div><div class="live-sub">Clear sky · humidity 49% · wind 7.7 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">69</div><div class="live-sub">69 · Moderate</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">68</div><div class="live-sub">68 · Moderate</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Guwahati beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Guwahati</h2><p>Guwahati beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">mid-river · peacock island</div><h3>Umananda Temple</h3><p>The smallest inhabited river island — a Shiva shrine reached by country boats, near-empty on weekdays.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Umananda+Island,+Guwahati" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">west · near the airport belt</div><h3>Pandu (Pandunath)</h3><p>The old Kamarupa port hill — a cliffside temple, royal inscriptions and the river working below.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Pandu,+Guwahati" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -371,7 +389,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Guwahati.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Guwahati</h2><p>Approximate road distances from Guwahati.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Hajo</b><span>multi-faith hill · Hayagriva</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Hajo,+Kamrup" target="_blank" rel="noopener">Directions ↗</a><div class="km">~30 km</div></div>
     <div class="trip"><div class="name"><b>Madan Kamdev</b><span>“Khajuraho of the East” ruins</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Madan+Kamdev,+Kamrup" target="_blank" rel="noopener">Directions ↗</a><div class="km">~40 km</div></div>
@@ -381,7 +399,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Guwahati</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 NE market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Guwahati.</p></div>
+  <div class="section-head"><h2>What runs Guwahati's economy</h2><p>What actually runs Guwahati.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">oil</div><h3>Refinery & Petrochemicals</h3><p>The Noonmati refinery and pipeline network — the industrial anchor behind the city’s service economy.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Noonmati+Refinery,+Guwahati" target="_blank" rel="noopener">Refinery ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">tea</div><h3>Tea Auction & Export</h3><p>One of Asia’s major tea auctions — the price discovery for estates across Assam and the Dooars runs here.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Guwahati+Tea+Auction+Centre,+Guwahati" target="_blank" rel="noopener">Auction ↗</a></div></div>
@@ -413,7 +431,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Guwahati</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">ghat food</div><h3>Uzan Bazaar counters</h3><p>Momo, jhal muri and fish-curry plates along the old ghat road — morning to late evening.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Uzan+Bazaar,+Guwahati" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">old bazaar</div><h3>Fancy Bazaar eateries</h3><p>Thali rooms and snack stalls inside the wholesale lanes — lunch at the speed of the market.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Fancy+Bazaar,+Guwahati" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -441,7 +459,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Guwahati openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Guwahati students</div></a>
@@ -457,6 +475,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Guwahati?</h3><p>Guwahati Junction (GHY) on the main line to the Northeast, Lokpriya Gopinath Bordoloi airport (GAU) ~20 km, and NH-27.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Guwahati</h2>
+    <p class="nm-sub">Distances are from Guwahati's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maa+Bagala,+Guwahati,+India" target="_blank" rel="noopener">Maa Bagala</a><span>3.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bhubaneswari+Temple,+Guwahati,+India" target="_blank" rel="noopener">Bhubaneswari Temple</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mosque,+Guwahati,+India" target="_blank" rel="noopener">Mosque</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lakhtokia+Mosque,+Guwahati,+India" target="_blank" rel="noopener">Lakhtokia Mosque</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kamarpatty+Mosque,+Guwahati,+India" target="_blank" rel="noopener">Kamarpatty Mosque</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Paltan+Masjid,+Guwahati,+India" target="_blank" rel="noopener">Paltan Masjid</a><span>4.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hayat+Hospital,+Kamrup,+Guwahati,+India" target="_blank" rel="noopener">Hayat Hospital, Kamrup</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr+Bhubaneswar+Borooah+Cancer+Institue,+Guwahati,+India" target="_blank" rel="noopener">Dr Bhubaneswar Borooah Cancer Institue</a><span>2.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sanjevani+Hospital,+Guwahati,+India" target="_blank" rel="noopener">Sanjevani Hospital</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Swagat+Super+Speciality+Surgical+Institute,+Guwahati,+India" target="_blank" rel="noopener">Swagat Super Speciality Surgical Institute</a><span>3.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gauhati+Medical+College+and+Hospital+(GMCH),+Guwahati,+India" target="_blank" rel="noopener">Gauhati Medical College and Hospital (GMCH)</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Arya+Hospital+(A+Unit+Of+North+Eastern+Medical+Research+Inst,+Guwahati,+India" target="_blank" rel="noopener">Arya Hospital (A Unit Of North Eastern Medical Research Inst</a><span>3.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Don+Bosco+School,+Guwahati,+India" target="_blank" rel="noopener">Don Bosco School</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jatiya+Vidyalaya+Kahilipara,+Guwahati,+India" target="_blank" rel="noopener">Jatiya Vidyalaya Kahilipara</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=TAB+Mamorial+Jatiya+Vidyalaya,+Guwahati,+India" target="_blank" rel="noopener">TAB Mamorial Jatiya Vidyalaya</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maligaon+Girls+High+School,+Guwahati,+India" target="_blank" rel="noopener">Maligaon Girls High School</a><span>3.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Spring+Dale+Public+School,+Guwahati,+India" target="_blank" rel="noopener">Spring Dale Public School</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Guwahati+Medical+College,+Guwahati,+India" target="_blank" rel="noopener">Guwahati Medical College</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+City+Park,+Guwahati,+India" target="_blank" rel="noopener">Hotel City Park</a><span>4.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Biswanath,+Guwahati,+India" target="_blank" rel="noopener">Hotel Biswanath</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sundarban+Guest+House,+Guwahati,+India" target="_blank" rel="noopener">Sundarban Guest House</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=The+Ornate,+Guwahati,+India" target="_blank" rel="noopener">The Ornate</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Victoria+Fooding+and+Lodging,+Guwahati,+India" target="_blank" rel="noopener">Hotel Victoria Fooding and Lodging</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Maitri+Residency,+Guwahati,+India" target="_blank" rel="noopener">Hotel Maitri Residency</a><span>4.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dakhingaon+Tiniali,+Guwahati,+India" target="_blank" rel="noopener">Dakhingaon Tiniali</a><span>2.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mangalam+Market,+Guwahati,+India" target="_blank" rel="noopener">Mangalam Market</a><span>3.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MANGALAM+MARKETING,+Guwahati,+India" target="_blank" rel="noopener">MANGALAM MARKETING</a><span>3.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shriji+Point,+Guwahati,+India" target="_blank" rel="noopener">Shriji Point</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dharamshala+market,+Guwahati,+India" target="_blank" rel="noopener">Dharamshala market</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bee+Gee+Market,+Guwahati,+India" target="_blank" rel="noopener">Bee Gee Market</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Inter+State+Bus+Terminal,+Guwahati,+India" target="_blank" rel="noopener">Inter State Bus Terminal</a><span>3.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kamakhya+Mandir,+Guwahati,+India" target="_blank" rel="noopener">Kamakhya Mandir</a><span>3.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Stop-2++(NBS),+Guwahati,+India" target="_blank" rel="noopener">Stop-2  (NBS)</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ASTC,+Guwahati,+India" target="_blank" rel="noopener">ASTC</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Down+Town,+Guwahati,+India" target="_blank" rel="noopener">Down Town</a><span>6.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Basistha+Mandir,+Guwahati,+India" target="_blank" rel="noopener">Basistha Mandir</a><span>7.4 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="26.1445" data-lon="91.7362">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -534,7 +617,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try guwahati" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

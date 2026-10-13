@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">20.5°C</div><div class="live-sub">साफ आसमान · नमी 35% · हवा 5.2 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">19.2°C</div><div class="live-sub">साफ आसमान · नमी 43% · हवा 3.6 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">64</div><div class="live-sub">US AQI 64 · मध्यम</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">63</div><div class="live-sub">US AQI 63 · मध्यम</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>दार्जिलिंग की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>दार्जिलिंग में छिपी और विरासत जगहें</h2><p>दार्जिलिंग की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">शहर · मॉल का किनारा</div><h3>हैप्पी वैली चाय बागान</h3><p>शहर के भीतर कार्यरत बागान — तुड़ाई की कतारें, विदरिंग लूम और बागान-दौरे के बिना फ़ैक्ट्री टूर।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Happy+Valley+Tea+Estate,+Darjeeling" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पूर्वी डोर · पहाड़ी के नीचे</div><h3>जापानी शांति स्तूप</h3><p>1992 का सफ़ेद स्तूप — सुबह के टहलने वाले, सन्नाटा और वह घाटी-दृश्य जहाँ टैक्सी नहीं रुकतीं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Japanese+Peace+Pagoda,+Darjeeling" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>दार्जिलिंग शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>दार्जिलिंग के पास घूमने की जगहें (वीकेंड)</h2><p>दार्जिलिंग शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>कर्सियांग</b><span>चाय पहाड़ियाँ · ईगल्स क्रैग</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kurseong,+Darjeeling" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~30 किमी</div></div>
     <div class="trip"><div class="name"><b>मिरिक</b><span>झील · संतरे के बाग</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mirik,+Darjeeling" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~49 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>दार्जिलिंग में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · हिल-स्टेशन बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>दार्जिलिंग की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>दार्जिलिंग की अर्थव्यवस्था किससे चलती है</h2><p>दार्जिलिंग की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">चाय</div><h3>दार्जिलिंग चाय बागान</h3><p>डोर पर अस्सी के करीब बागान — तुड़ाई का मौसम, नीलामी के दाम और GI लेबल हिल का कैलेंडर चलाते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Happy+Valley+Tea+Estate,+Darjeeling" target="_blank" rel="noopener">बागान पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>होटल, टैक्सी व गाइड</h3><p>मॉल के होटल, पहाड़ी टैक्सी और रोपवे ऑपरेटर — सर्दी का सीज़न आधे शहर की पगार है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Darjeeling" target="_blank" rel="noopener">मॉल पट्टी ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>दार्जिलिंग में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">1959 से</div><h3>ग्लेनरीज़</h3><p>पहाड़ का बेकरी-रेस्टोरेंट — ब्रेड, केक और कंचनजंघा की ओर मुँह वाली टी-रूम मेज़ें।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Glenary’s,+Darjeeling" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">शेक लीजेंड</div><h3>केवेंटर्स</h3><p>मॉल रोड का मिल्क-शेक और नाश्ता संस्थान — कागज़ की स्ट्रॉ और खड़ी कतार।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Keventers,+Darjeeling" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -444,6 +462,64 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>दार्जिलिंग कैसे पहुँचें?</h3><p>निकटतम रेल स्टेशन न्यू जलपाईगुड़ी (NJP) ~88 किमी, बागडोगरा हवाई अड्डा (IXB) ~70 किमी, और NJP से टॉय ट्रेन।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — दार्जिलिंग</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी दार्जिलिंग के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Columba's+Church,+दार्जिलिंग,+India" target="_blank" rel="noopener">St. Columba's Church</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Union+Church,+दार्जिलिंग,+India" target="_blank" rel="noopener">Union Church</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Upasna+Kendra+(C.N.I),+दार्जिलिंग,+India" target="_blank" rel="noopener">Upasna Kendra (C.N.I)</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sherpa+Monastery,+दार्जिलिंग,+India" target="_blank" rel="noopener">Sherpa Monastery</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Japanese+Temple,+दार्जिलिंग,+India" target="_blank" rel="noopener">Japanese Temple</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Peace+Pagoda,+दार्जिलिंग,+India" target="_blank" rel="noopener">Peace Pagoda</a><span>1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mariam+Nursing+Home,+दार्जिलिंग,+India" target="_blank" rel="noopener">Mariam Nursing Home</a><span>0 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yuma+Nursing+Home+and+Diagnostic+Centre+Pvt+Ltd,+दार्जिलिंग,+India" target="_blank" rel="noopener">Yuma Nursing Home and Diagnostic Centre Pvt Ltd</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yuma+Hospital+Clinic,+दार्जिलिंग,+India" target="_blank" rel="noopener">Yuma Hospital Clinic</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Eden+Hospital,+दार्जिलिंग,+India" target="_blank" rel="noopener">Eden Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gjoo.+jorbunglow+Primary+Health+Center,+दार्जिलिंग,+India" target="_blank" rel="noopener">Gjoo. jorbunglow Primary Health Center</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tukvar+Hospital,+दार्जिलिंग,+India" target="_blank" rel="noopener">Tukvar Hospital</a><span>5.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nepali+Girls+High+School,+दार्जिलिंग,+India" target="_blank" rel="noopener">Nepali Girls High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nepali+Girls+High+School,+दार्जिलिंग,+India" target="_blank" rel="noopener">Nepali Girls High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maharani+Girls'+High+School,+दार्जिलिंग,+India" target="_blank" rel="noopener">Maharani Girls' High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bethany+school,+दार्जिलिंग,+India" target="_blank" rel="noopener">Bethany school</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Turnbull+High+School,+दार्जिलिंग,+India" target="_blank" rel="noopener">Turnbull High School</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Pauls+School,+दार्जिलिंग,+India" target="_blank" rel="noopener">St. Pauls School</a><span>400 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Swiss+Hotel,+दार्जिलिंग,+India" target="_blank" rel="noopener">Swiss Hotel</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Pradhan,+दार्जिलिंग,+India" target="_blank" rel="noopener">Hotel Pradhan</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Muscatel+BhumSang,+दार्जिलिंग,+India" target="_blank" rel="noopener">Muscatel BhumSang</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Sweet+Home,+दार्जिलिंग,+India" target="_blank" rel="noopener">Hotel Sweet Home</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Anand+Palace,+दार्जिलिंग,+India" target="_blank" rel="noopener">Anand Palace</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Sinclair,+दार्जिलिंग,+India" target="_blank" rel="noopener">Hotel Sinclair</a><span>500 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dargon+Market,+दार्जिलिंग,+India" target="_blank" rel="noopener">Dargon Market</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jorethang+Market,+दार्जिलिंग,+India" target="_blank" rel="noopener">Jorethang Market</a><span>10.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bus+and+taxi+stand,+दार्जिलिंग,+India" target="_blank" rel="noopener">Bus and taxi stand</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=sig,daj,pelling+etc.,+दार्जिलिंग,+India" target="_blank" rel="noopener">sig,daj,pelling etc.</a><span>10.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shared+jeeps+in+this+parking+garage,+दार्जिलिंग,+India" target="_blank" rel="noopener">Shared jeeps in this parking garage</a><span>10.9 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="27.036" data-lon="88.2627">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

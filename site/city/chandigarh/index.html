@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chandigarh City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Chandigarh City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Chandigarh — live weather, Census 2011 population, sector grid, Rock Garden, Sukhna Lake, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/chandigarh/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/chandigarh/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/chandigarh/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/chandigarh/">
-<meta property="og:title" content="Chandigarh City Guide — Bharat DN">
+<meta property="og:title" content="Chandigarh City Guide — Bharat Digital Network">
 <meta property="og:description" content="Live weather, fast facts, hidden places and everything about Chandigarh–Sukhna.">
 <meta property="og:url" content="https://bharatdn.com/city/chandigarh/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,7 +305,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">29.1°C</div><div class="live-sub">Clear sky · humidity 52% · wind 4.9 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">29.1°C</div><div class="live-sub">Clear sky · humidity 53% · wind 2.9 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>The Chandigarh beyond the tour buses — silent gardens, quiet museums and sector corners no itinerary lists.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Chandigarh</h2><p>The Chandigarh beyond the tour buses — silent gardens, quiet museums and sector corners no itinerary lists.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Sector 1 · behind High Court</div><h3>Garden of Silence</h3><p>A walled meditation garden under old trees — Buddha statues, a still pond and none of the Capitol’s photo crowd.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Garden+of+Silence,+Sector+1,+Chandigarh" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Sector 1 · Capitol Complex</div><h3>Capitol Complex</h3><p>Le Corbusier’s concrete capitol — the Open Hand, the Assembly dome and the High Court’s pylons. UNESCO-listed in 2016; entry is free but needs a quick registration.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Capitol+Complex,+Sector+1,+Chandigarh" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -372,7 +390,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Chandigarh city.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Chandigarh</h2><p>Approximate road distances from Chandigarh city.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Pinjore</b><span>Yadavindra Gardens · Mughal terraces</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Pinjore,+Panchkula" target="_blank" rel="noopener">Directions ↗</a><div class="km">~22 km</div></div>
     <div class="trip"><div class="name"><b>Morni Hills</b><span>Shivalik viewpoints · lake</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Morni+Hills,+Panchkula" target="_blank" rel="noopener">Directions ↗</a><div class="km">~35 km</div></div>
@@ -382,7 +400,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Chandigarh</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -402,7 +420,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · planned UT capital · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs the joint capital of Punjab and Haryana.</p></div>
+  <div class="section-head"><h2>What runs Chandigarh's economy</h2><p>What actually runs the joint capital of Punjab and Haryana.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">capital economy</div><h3>Twin-State Capital</h3><p>Punjab and Haryana share one city — twin secretariats, the High Court bench, Raj Bhavan and the union-territory administration fill the Capitol and Sector 1 office belt.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Capitol+Complex,+Sector+1,+Chandigarh" target="_blank" rel="noopener">Capitol ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">education</div><h3>Panjab University & Campuses</h3><p>Panjab University (1882) in Sector 14 with UIET and a dense student belt anchors the south-west; institutes across the border feed the same market.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Panjab+University,+Sector+14,+Chandigarh" target="_blank" rel="noopener">Campus ↗</a></div></div>
@@ -415,7 +433,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — old coffee houses, butter-heavy dhabas and evening rehri rows.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Chandigarh</h2><p>Where locals actually eat — old coffee houses, butter-heavy dhabas and evening rehri rows.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">old coffee house</div><h3>Indian Coffee House</h3><p>Sector 17’s decades-old coffee house — filter coffee, cheese sandwiches and the same wooden chairs.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Indian+Coffee+House,+Sector+17,+Chandigarh" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">bakery legend</div><h3>Nik Baker’s</h3><p>Chandigarh’s own bakery-café — breads, cakes and pastries from morning to late evening.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Nik+Baker's,+Chandigarh" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -446,7 +464,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Chandigarh openings — administration, IT, education, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Chandigarh students</div></a>
@@ -462,6 +480,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Chandigarh?</h3><p>Chandigarh Junction (CDG), Chandigarh International Airport (IXC) ~9 km away, and NH-44 road links — Delhi is ~245 km to the south.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Chandigarh</h2>
+    <p class="nm-sub">Distances are from Chandigarh's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mandir,+Sector+22-C,+Chandigarh,+India" target="_blank" rel="noopener">Mandir, Sector 22-C</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Sri+Guru+Singh+Sabha,+Chandigarh,+India" target="_blank" rel="noopener">Gurudwara Sri Guru Singh Sabha</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maszid,+Chandigarh,+India" target="_blank" rel="noopener">Maszid</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=math+mandir,+Chandigarh,+India" target="_blank" rel="noopener">math mandir</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hindu+Temple,+Chandigarh,+India" target="_blank" rel="noopener">Hindu Temple</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Shri+Guru+Teg+Bahadur+Sahib,+Chandigarh,+India" target="_blank" rel="noopener">Gurudwara Shri Guru Teg Bahadur Sahib</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Pet+Hospital,+Chandigarh,+India" target="_blank" rel="noopener">Government Pet Hospital</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KD+Cosmetic+Surgery+Centre,Sector+34-A,+Chandigarh,+India" target="_blank" rel="noopener">KD Cosmetic Surgery Centre,Sector 34-A</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dharam+Hospital,+Chandigarh,+India" target="_blank" rel="noopener">Dharam Hospital</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharat+Vikas+Parishad+Charitable+Medical+Centre,+Chandigarh,+India" target="_blank" rel="noopener">Bharat Vikas Parishad Charitable Medical Centre</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chemist+Store+++Dr.+Gagan+Puri,+Chandigarh,+India" target="_blank" rel="noopener">Chemist Store + Dr. Gagan Puri</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=national+medical+and+dialysis+centre,+Chandigarh,+India" target="_blank" rel="noopener">national medical and dialysis centre</a><span>2.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ankur+School,+Chandigarh,+India" target="_blank" rel="noopener">Ankur School</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+College+of+Art,+Chandigarh,+India" target="_blank" rel="noopener">Government College of Art</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kendriya+Vidyalya,+Chandigarh,+India" target="_blank" rel="noopener">Kendriya Vidyalya</a><span>2.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=poest+graduate+government+college,+Chandigarh,+India" target="_blank" rel="noopener">poest graduate government college</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GRIID,+Chandigarh,+India" target="_blank" rel="noopener">GRIID</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GRIID+main+gate,+Chandigarh,+India" target="_blank" rel="noopener">GRIID main gate</a><span>3.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sunbeam,+Chandigarh,+India" target="_blank" rel="noopener">Sunbeam</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Satyadeep,+Chandigarh,+India" target="_blank" rel="noopener">Satyadeep</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Divyadee,+Chandigarh,+India" target="_blank" rel="noopener">Divyadee</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Satyadeep+Hotel,+Chandigarh,+India" target="_blank" rel="noopener">Satyadeep Hotel</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=my+Pg,+Chandigarh,+India" target="_blank" rel="noopener">my Pg</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Aroma+Complex,Sector+22-C,+Chandigarh,+India" target="_blank" rel="noopener">Hotel Aroma Complex,Sector 22-C</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Electronic+Market,+Chandigarh,+India" target="_blank" rel="noopener">Electronic Market</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mat+makers+Market+Bamboo,+Chandigarh,+India" target="_blank" rel="noopener">Mat makers Market Bamboo</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sector+19+D,+Chandigarh,+India" target="_blank" rel="noopener">Sector 19 D</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sector+9+Showrooms,+Chandigarh,+India" target="_blank" rel="noopener">Sector 9 Showrooms</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Avalon+Nail+Studio,+Chandigarh,+India" target="_blank" rel="noopener">Avalon Nail Studio</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Showrooms,+Chandigarh,+India" target="_blank" rel="noopener">Showrooms</a><span>1.5 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+ISBT,+Sector+17,+Chandigarh,+India" target="_blank" rel="noopener">Chandigarh ISBT, Sector 17</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+ISBT,+Sector+43,+Chandigarh,+India" target="_blank" rel="noopener">Chandigarh ISBT, Sector 43</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=CTU+Local+Bus+Station+43,+Chandigarh,+India" target="_blank" rel="noopener">CTU Local Bus Station 43</a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+Railway+Station,+Chandigarh,+India" target="_blank" rel="noopener">Chandigarh Railway Station</a><span>5.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mohali,+Chandigarh,+India" target="_blank" rel="noopener">Mohali</a><span>6.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mansa+Devi+Bus+Stand,+Chandigarh,+India" target="_blank" rel="noopener">Mansa Devi Bus Stand</a><span>7.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="30.7333" data-lon="76.7794">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -539,7 +622,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try chandigarh" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">28.3°C</div><div class="live-sub">साफ आसमान · नमी 57% · हवा 4.6 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">28.2°C</div><div class="live-sub">साफ आसमान · नमी 59% · हवा 4.5 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>ऋषिकेश की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>ऋषिकेश में छिपी और विरासत जगहें</h2><p>ऋषिकेश की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पूर्वी तट · पुरानी गुफ़ा</div><h3>वशिष्ठ गुफ़ा</h3><p>तपोवन के ऊपर नदी-तट की प्राचीन गुफ़ा मंदिर — आश्रम की घंटियाँ, शिवलिंग और मौसम के बावजूद बचा सन्नाटा।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vashishtha+Cave,+Rishikesh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">घाट के ऊपर · परिसर</div><h3>गीता भवन</h3><p>गंगा के ऊपर बड़ा प्रवचन परिसर — निःशुल्क रसोई, पाठ-हॉल और ग्रीष्म-व्याख्या के लिए आए तीर्थयात्री।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gita+Bhawan,+Rishikesh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>ऋषिकेश शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>ऋषिकेश के पास घूमने की जगहें (वीकेंड)</h2><p>ऋषिकेश शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>हरिद्वार</b><span>घाट · शाम आरती</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Haridwar,+Uttarakhand" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~25 किमी</div></div>
     <div class="trip"><div class="name"><b>देहरादून</b><span>राजधानी · बाज़ार</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Dehradun,+Uttarakhand" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~45 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>ऋषिकेश में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 उत्तराखंड बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>ऋषिकेश की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>ऋषिकेश की अर्थव्यवस्था किससे चलती है</h2><p>ऋषिकेश की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>आध्यात्मिक पर्यटन व आश्रम</h3><p>आरती-परिपथ, साधु-पड़ाव और तीर्थ-ठहराव — शहर इसी के इर्द-गिर्द बढ़ा।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Swarg+Ashram,+Rishikesh" target="_blank" rel="noopener">श्रद्धा पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">साहसिक</div><h3>राफ़्टिंग व एडवेंचर</h3><p>मौसम भर ब्रह्मपुरी तक धाराएँ, मोहन चट्टी में बंजी और क्लिफ़ जंप — एड्रेनालिन खाता।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Shivpuri,+Rishikesh" target="_blank" rel="noopener">नदी पट्टी ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>ऋषिकेश में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">लीजेंड कैफ़े</div><h3>चोटीवाला</h3><p>पुराना नदी-तट संस्थान — निश्चित थाली, किडोनी दाल और नाम जो हर ऋषिकेश-यात्री जानता है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Swarg+Ashram,+Rishikesh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">जर्मन बेकरी</div><h3>पम्परनिकल</h3><p>ऋषिकेश की बेकरी-परंपरा — चीज़ टोस्ट, ऐप्पल पाई और सुबह खा लेने वाले लंबे नाश्ते।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Tapovan,+Rishikesh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -446,6 +464,64 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>ऋषिकेश कैसे पहुँचें?</h3><p>रेल-प्रवेश हरिद्वार (HW) 24 किमी, जॉली ग्रांट हवाई अड्डा (DED) दक्षिण में ~20 किमी, और आगे चार धाम के लिए बसें।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — ऋषिकेश</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी ऋषिकेश के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Radha+Govinda+Temple,+ऋषिकेश,+India" target="_blank" rel="noopener">Radha Govinda Temple</a><span>4.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiva,+ऋषिकेश,+India" target="_blank" rel="noopener">Shiva</a><span>5.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hanuman,+ऋषिकेश,+India" target="_blank" rel="noopener">Hanuman</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Parmart+Niketan+Ghat,+ऋषिकेश,+India" target="_blank" rel="noopener">Parmart Niketan Ghat</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharam+Mata+Mandir,+ऋषिकेश,+India" target="_blank" rel="noopener">Bharam Mata Mandir</a><span>6.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ganga+Nivash+Shram+ashram,+ऋषिकेश,+India" target="_blank" rel="noopener">Ganga Nivash Shram ashram</a><span>6.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rana+eye+center,+ऋषिकेश,+India" target="_blank" rel="noopener">Rana eye center</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=AIIMS's+Blood+Bank+Rishikesh,+ऋषिकेश,+India" target="_blank" rel="noopener">AIIMS's Blood Bank Rishikesh</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=AIIMS+Blood+Bank,+Rishikesh,+ऋषिकेश,+India" target="_blank" rel="noopener">AIIMS Blood Bank, Rishikesh</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=All+India+Institute+of+Medical+Sciences,+Rishikesh,+ऋषिकेश,+India" target="_blank" rel="noopener">All India Institute of Medical Sciences, Rishikesh</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Seema+dental+college+and+hospital,+ऋषिकेश,+India" target="_blank" rel="noopener">Seema dental college and hospital</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharadwaj+Hospital+and+Maternity+Home,+ऋषिकेश,+India" target="_blank" rel="noopener">Bharadwaj Hospital and Maternity Home</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Foothills+academy,+ऋषिकेश,+India" target="_blank" rel="noopener">Foothills academy</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nirmal+Gyan+Daan,+ऋषिकेश,+India" target="_blank" rel="noopener">Nirmal Gyan Daan</a><span>5.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=K+Farms,+242A,+Swargashram.;Yog+Sansthan,+ऋषिकेश,+India" target="_blank" rel="noopener">K Farms, 242A, Swargashram.;Yog Sansthan</a><span>6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=World+Peace+Yoga+School,+ऋषिकेश,+India" target="_blank" rel="noopener">World Peace Yoga School</a><span>6.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=World+Peace+Yoga+School,+ऋषिकेश,+India" target="_blank" rel="noopener">World Peace Yoga School</a><span>7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=AYM+Yoga+School,+ऋषिकेश,+India" target="_blank" rel="noopener">AYM Yoga School</a><span>7.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Ellbee+Ganga+View,+ऋषिकेश,+India" target="_blank" rel="noopener">Hotel Ellbee Ganga View</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GMVN-Bharat+Bhoomi,+ऋषिकेश,+India" target="_blank" rel="noopener">GMVN-Bharat Bhoomi</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Laxmi+Lodge,+ऋषिकेश,+India" target="_blank" rel="noopener">Laxmi Lodge</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Song+River+Dharma+Ashram,+ऋषिकेश,+India" target="_blank" rel="noopener">Song River Dharma Ashram</a><span>5.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Himalaya,+ऋषिकेश,+India" target="_blank" rel="noopener">Himalaya</a><span>5.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Brijwasi+Palace,+ऋषिकेश,+India" target="_blank" rel="noopener">Brijwasi Palace</a><span>5.5 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Motorbike+market,+ऋषिकेश,+India" target="_blank" rel="noopener">Motorbike market</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fruit+&+veg+market,+ऋषिकेश,+India" target="_blank" rel="noopener">Fruit & veg market</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GMVN+Bus+Stand,+ऋषिकेश,+India" target="_blank" rel="noopener">GMVN Bus Stand</a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Private+Bus+Stand,+ऋषिकेश,+India" target="_blank" rel="noopener">Private Bus Stand</a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISBT,+ऋषिकेश,+India" target="_blank" rel="noopener">ISBT</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="30.0869" data-lon="78.2676">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

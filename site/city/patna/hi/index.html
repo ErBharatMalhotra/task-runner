@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">30.7°C</div><div class="live-sub">लगभग साफ · नमी 58% · हवा 0.7 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">30.6°C</div><div class="live-sub">साफ आसमान · नमी 58% · हवा 0.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">153</div><div class="live-sub">US AQI 153 · अस्वस्थ</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">152</div><div class="live-sub">US AQI 152 · अस्वस्थ</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>पटना की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>पटना में छिपी और विरासत जगहें</h2><p>पटना की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पश्चिम · गांधी मैदान के पास</div><h3>कुम्हरार</h3><p>पार्क के नीचे उत्खनित मौर्य स्तंभ-मंडप — अशोक की अवधि के 80 आधार, शांत पहरे में।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kumhrar,+Patna" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पुराना शहर · बेली रोड पट्टी</div><h3>अगम कुआँ</h3><p>किंवदंती का “दुर्गम कुआँ” — अष्टकोणीय, अशोक-संबंधित, किनारे पर आज भी दीपक जलते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Agam+Kuan,+Patna" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>पटना शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>पटना के पास घूमने की जगहें (वीकेंड)</h2><p>पटना शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>वैशाली</b><span>अशोक स्तंभ · प्रथम गणराज्य</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vaishali,+Bihar" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~55 किमी</div></div>
     <div class="trip"><div class="name"><b>विक्रमशिला</b><span>बौद्ध विश्वविद्यालय अवशेष</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Bhagalpur,+Bihar" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~60 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>पटना में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 राजधानी बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>पटना की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>पटना की अर्थव्यवस्था किससे चलती है</h2><p>पटना की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">कृषि व्यापार</div><h3>चावल, मखाना व लीची</h3><p>बिहार का अनाज और मखाना व्यापार पटना की मंडियों से गुज़रता है — गंगा-मैदान का थोक हृदय।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Krishi+Mandi,+Patna" target="_blank" rel="noopener">मंडी यार्ड ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">शिक्षा</div><h3>पटना विश्वविद्यालय व कोचिंग</h3><p>1917 का विश्वविद्यालय और लाखों BPSC-रेलवे-स्कूल अभ्यर्थियों की कोचिंग-अर्थव्यवस्था।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Patna+University,+Patna" target="_blank" rel="noopener">कैंपस ↗</a></div></div>
@@ -402,7 +420,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>पटना में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">शाम की पट्टी</div><h3>गांधी मैदान ठेले</h3><p>कोयले पर लिट्टी-चोखा, चना-समोसा और सत्तू शरबत — मैदान पर ढलती शाम के साथ।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gandhi+Maidan,+Patna" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">पुराने शहर की मिठास</div><h3>गुलज़रबाग मिठाई गलियाँ</h3><p>थेकुआ, खजा और लड्डू काउंटर — पूरे शहर के त्योहारी डिब्बे यहीं से भरते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gulzarbagh,+Patna" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -446,6 +464,67 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>पटना कैसे पहुँचें?</h3><p>दिल्ली–हावड़ा मुख्य लाइन पर पटना जंक्शन (PNBE), जयप्रकाश हवाई अड्डा (PAT) ~12 किमी, और गंगा-पुल सड़क मार्ग।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — पटना</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी पटना के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Stupa,+पटना,+India" target="_blank" rel="noopener">Stupa</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=पाटलीपुत्र+करुणा+स्तूप,+पटना,+India" target="_blank" rel="noopener">पाटलीपुत्र करुणा स्तूप</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISKCON+Temple,+पटना,+India" target="_blank" rel="noopener">ISKCON Temple</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gyatri+Mandir,+पटना,+India" target="_blank" rel="noopener">Gyatri Mandir</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shree+Premnidhi+Roopkala+Smarak+Panch+Mandir,+पटना,+India" target="_blank" rel="noopener">Shree Premnidhi Roopkala Smarak Panch Mandir</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiv+Shakti+Mandir,+पटना,+India" target="_blank" rel="noopener">Shiv Shakti Mandir</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Magalam+Hospital,+पटना,+India" target="_blank" rel="noopener">Magalam Hospital</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mahavir+Arogya+Sansthan,+पटना,+India" target="_blank" rel="noopener">Mahavir Arogya Sansthan</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kiran+Nursing+Home,+Patna,+पटना,+India" target="_blank" rel="noopener">Kiran Nursing Home, Patna</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Sai+Lions+Netralaya,+पटना,+India" target="_blank" rel="noopener">Sri Sai Lions Netralaya</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Gardinar+Road+Hospital,+पटना,+India" target="_blank" rel="noopener">New Gardinar Road Hospital</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Jagannath+Sewa+Sadan,+पटना,+India" target="_blank" rel="noopener">Sri Jagannath Sewa Sadan</a><span>1.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shivam+Convent,+पटना,+India" target="_blank" rel="noopener">Shivam Convent</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Era+Public+School,+पटना,+India" target="_blank" rel="noopener">New Era Public School</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Delhi+Model+Public+School,+पटना,+India" target="_blank" rel="noopener">Delhi Model Public School</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mount+Carmel+High+School,+पटना,+India" target="_blank" rel="noopener">Mount Carmel High School</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kendriya+Vidyalaya,+पटना,+India" target="_blank" rel="noopener">Kendriya Vidyalaya</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Patliputra+Univerity,+पटना,+India" target="_blank" rel="noopener">Patliputra Univerity</a><span>2.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+City+Centre,+पटना,+India" target="_blank" rel="noopener">Hotel City Centre</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Bhavya+Regency,+पटना,+India" target="_blank" rel="noopener">Hotel Bhavya Regency</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Chanakya,+पटना,+India" target="_blank" rel="noopener">Hotel Chanakya</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Relax+Zone,+पटना,+India" target="_blank" rel="noopener">Hotel Relax Zone</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mayur+Hotel,+पटना,+India" target="_blank" rel="noopener">Mayur Hotel</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Capital+House+Hotel,+पटना,+India" target="_blank" rel="noopener">Capital House Hotel</a><span>1.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=laxmi+tower,+पटना,+India" target="_blank" rel="noopener">laxmi tower</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Helmet+market,+पटना,+India" target="_blank" rel="noopener">Helmet market</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=BAZAAR+SAMITI,+पटना,+India" target="_blank" rel="noopener">BAZAAR SAMITI</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Registry+bazar,+पटना,+India" target="_blank" rel="noopener">Registry bazar</a><span>11.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=station+new+market,+पटना,+India" target="_blank" rel="noopener">station new market</a><span>11.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maheshwari+chauk,+पटना,+India" target="_blank" rel="noopener">Maheshwari chauk</a><span>12 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Patliputra+Inter+State+Bus+Terminal,+पटना,+India" target="_blank" rel="noopener">Patliputra Inter State Bus Terminal</a><span>5.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hajipur+Bus+Stop,+पटना,+India" target="_blank" rel="noopener">Hajipur Bus Stop</a><span>14.8 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="25.5941" data-lon="85.1376">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

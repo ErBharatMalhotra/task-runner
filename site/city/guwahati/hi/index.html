@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">32.8°C</div><div class="live-sub">साफ आसमान · नमी 46% · हवा 6.4 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">32.1°C</div><div class="live-sub">साफ आसमान · नमी 49% · हवा 7.7 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">69</div><div class="live-sub">US AQI 69 · मध्यम</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">68</div><div class="live-sub">US AQI 68 · मध्यम</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>गुवाहाटी की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>गुवाहाटी में छिपी और विरासत जगहें</h2><p>गुवाहाटी की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">नदी के बीच · मोर-द्वीप</div><h3>उमानंद मंदिर</h3><p>सबसे छोटा बसा हुआ नदी-द्वीप — देशी नावों से पहुँचने वाला शिव-मंदिर, सप्ताहांत में लगभग खाली।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Umananda+Island,+Guwahati" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पश्चिम · हवाई अड्डा पट्टी के पास</div><h3>पंदू (पांडुनाथ)</h3><p>पुराना कामरूप बंदरगान पहाड़ी — चट्टान पर मंदिर, राजकीय अभिलेख और नीचे काम करती नदी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Pandu,+Guwahati" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>गुवाहाटी शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>गुवाहाटी के पास घूमने की जगहें (वीकेंड)</h2><p>गुवाहाटी शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>हाजो</b><span>बहु-धर्म पहाड़ी · हयाग्रीव</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Hajo,+Kamrup" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~30 किमी</div></div>
     <div class="trip"><div class="name"><b>मदन कामदेव</b><span>“पूर्व का खजुराहो” अवशेष</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Madan+Kamdev,+Kamrup" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~40 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>गुवाहाटी में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 पूर्वोत्तर बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>गुवाहाटी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>गुवाहाटी की अर्थव्यवस्था किससे चलती है</h2><p>गुवाहाटी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">तेल</div><h3>रिफ़ाइनरी व पेट्रोकेमिकल</h3><p>नूनमाटी रिफ़ाइनरी और पाइपलाइन जाल — सेवा-अर्थव्यवस्था के पीछे औद्योगिक लंगर।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Noonmati+Refinery,+Guwahati" target="_blank" rel="noopener">रिफ़ाइनरी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">चाय</div><h3>चाय नीलामी व निर्यात</h3><p>एशिया के बड़े चाय-ऑक्शन में से एक — असम और डुअर्स के बागानों की कीमत यहीं तय होती है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Guwahati+Tea+Auction+Centre,+Guwahati" target="_blank" rel="noopener">ऑक्शन ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>गुवाहाटी में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">घाट खाना</div><h3>उजान बाज़ार ठेले</h3><p>पुराने घाट-रोड पर मोमो, झाल मूरी और माछ-भात — सुबह से देर शाम तक।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Uzan+Bazaar,+Guwahati" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">पुराना बाज़ार</div><h3>फ़ैंसी बाज़ार खाना-खाने</h3><p>थाली-कमरे और स्नैक ठेले थोक गलियों के भीतर — बाज़ार जितनी तेज़ दोपहर का खाना।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Fancy+Bazaar,+Guwahati" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -445,6 +463,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>गुवाहाटी कैसे पहुँचें?</h3><p>पूर्वोत्तर की मुख्य लाइन पर गुवाहाटी जंक्शन (GHY), लोकप्रिय गोपीनाथ बोरदोलोई हवाई अड्डा (GAU) ~20 किमी, और NH-27।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — गुवाहाटी</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी गुवाहाटी के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maa+Bagala,+गुवाहाटी,+India" target="_blank" rel="noopener">Maa Bagala</a><span>3.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bhubaneswari+Temple,+गुवाहाटी,+India" target="_blank" rel="noopener">Bhubaneswari Temple</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mosque,+गुवाहाटी,+India" target="_blank" rel="noopener">Mosque</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lakhtokia+Mosque,+गुवाहाटी,+India" target="_blank" rel="noopener">Lakhtokia Mosque</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kamarpatty+Mosque,+गुवाहाटी,+India" target="_blank" rel="noopener">Kamarpatty Mosque</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Paltan+Masjid,+गुवाहाटी,+India" target="_blank" rel="noopener">Paltan Masjid</a><span>4.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hayat+Hospital,+Kamrup,+गुवाहाटी,+India" target="_blank" rel="noopener">Hayat Hospital, Kamrup</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr+Bhubaneswar+Borooah+Cancer+Institue,+गुवाहाटी,+India" target="_blank" rel="noopener">Dr Bhubaneswar Borooah Cancer Institue</a><span>2.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sanjevani+Hospital,+गुवाहाटी,+India" target="_blank" rel="noopener">Sanjevani Hospital</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Swagat+Super+Speciality+Surgical+Institute,+गुवाहाटी,+India" target="_blank" rel="noopener">Swagat Super Speciality Surgical Institute</a><span>3.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gauhati+Medical+College+and+Hospital+(GMCH),+गुवाहाटी,+India" target="_blank" rel="noopener">Gauhati Medical College and Hospital (GMCH)</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Arya+Hospital+(A+Unit+Of+North+Eastern+Medical+Research+Inst,+गुवाहाटी,+India" target="_blank" rel="noopener">Arya Hospital (A Unit Of North Eastern Medical Research Inst</a><span>3.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Don+Bosco+School,+गुवाहाटी,+India" target="_blank" rel="noopener">Don Bosco School</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jatiya+Vidyalaya+Kahilipara,+गुवाहाटी,+India" target="_blank" rel="noopener">Jatiya Vidyalaya Kahilipara</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=TAB+Mamorial+Jatiya+Vidyalaya,+गुवाहाटी,+India" target="_blank" rel="noopener">TAB Mamorial Jatiya Vidyalaya</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maligaon+Girls+High+School,+गुवाहाटी,+India" target="_blank" rel="noopener">Maligaon Girls High School</a><span>3.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Spring+Dale+Public+School,+गुवाहाटी,+India" target="_blank" rel="noopener">Spring Dale Public School</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Guwahati+Medical+College,+गुवाहाटी,+India" target="_blank" rel="noopener">Guwahati Medical College</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+City+Park,+गुवाहाटी,+India" target="_blank" rel="noopener">Hotel City Park</a><span>4.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Biswanath,+गुवाहाटी,+India" target="_blank" rel="noopener">Hotel Biswanath</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sundarban+Guest+House,+गुवाहाटी,+India" target="_blank" rel="noopener">Sundarban Guest House</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=The+Ornate,+गुवाहाटी,+India" target="_blank" rel="noopener">The Ornate</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Victoria+Fooding+and+Lodging,+गुवाहाटी,+India" target="_blank" rel="noopener">Hotel Victoria Fooding and Lodging</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Maitri+Residency,+गुवाहाटी,+India" target="_blank" rel="noopener">Hotel Maitri Residency</a><span>4.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dakhingaon+Tiniali,+गुवाहाटी,+India" target="_blank" rel="noopener">Dakhingaon Tiniali</a><span>2.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mangalam+Market,+गुवाहाटी,+India" target="_blank" rel="noopener">Mangalam Market</a><span>3.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MANGALAM+MARKETING,+गुवाहाटी,+India" target="_blank" rel="noopener">MANGALAM MARKETING</a><span>3.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shriji+Point,+गुवाहाटी,+India" target="_blank" rel="noopener">Shriji Point</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dharamshala+market,+गुवाहाटी,+India" target="_blank" rel="noopener">Dharamshala market</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bee+Gee+Market,+गुवाहाटी,+India" target="_blank" rel="noopener">Bee Gee Market</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Inter+State+Bus+Terminal,+गुवाहाटी,+India" target="_blank" rel="noopener">Inter State Bus Terminal</a><span>3.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kamakhya+Mandir,+गुवाहाटी,+India" target="_blank" rel="noopener">Kamakhya Mandir</a><span>3.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Stop-2++(NBS),+गुवाहाटी,+India" target="_blank" rel="noopener">Stop-2  (NBS)</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ASTC,+गुवाहाटी,+India" target="_blank" rel="noopener">ASTC</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Down+Town,+गुवाहाटी,+India" target="_blank" rel="noopener">Down Town</a><span>6.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Basistha+Mandir,+गुवाहाटी,+India" target="_blank" rel="noopener">Basistha Mandir</a><span>7.4 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="26.1445" data-lon="91.7362">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

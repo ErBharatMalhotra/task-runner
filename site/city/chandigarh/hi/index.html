@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">29.1°C</div><div class="live-sub">साफ आसमान · नमी 52% · हवा 4.9 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">29.1°C</div><div class="live-sub">साफ आसमान · नमी 53% · हवा 2.9 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>बसों से परे चंडीगढ़ — शांत बग़ीचे, सन्न संग्रहालय और वो सेक्टर कोने जो किसी यात्रा-सूची में नहीं आते।</p></div>
+  <div class="section-head"><h2>चंडीगढ़ में छिपी और विरासत जगहें</h2><p>बसों से परे चंडीगढ़ — शांत बग़ीचे, सन्न संग्रहालय और वो सेक्टर कोने जो किसी यात्रा-सूची में नहीं आते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">सेक्टर 1 · उच्च न्यायालय के पीछे</div><h3>शांति उद्यान</h3><p>पुराने पेड़ों के नीचे बंद ध्यान उद्यान — बुद्ध की मूर्तियाँ, सन्न पोखर और कैपिटल की भीड़ बिल्कुल नहीं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Garden+of+Silence,+Sector+1,+Chandigarh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">सेक्टर 1 · कैपिटल</div><h3>कैपिटल कॉम्प्लेक्स</h3><p>ले कोरब्यूज़े का कंक्रीट कैपिटल — खुला हाथ स्मारक, विधानसभा का गुंबज और उच्च न्यायालय के स्तंभ। 2016 में UNESCO विश्व धरोहर; प्रवेश निःशुल्क, पंजीकरण ज़रूरी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Capitol+Complex,+Sector+1,+Chandigarh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -360,7 +378,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>चंडीगढ़ शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>चंडीगढ़ के पास घूमने की जगहें (वीकेंड)</h2><p>चंडीगढ़ शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>पिनज़ोर</b><span>यादविंद्रा उद्यान · मुग़ल बग़ीचे</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Pinjore,+Panchkula" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~22 किमी</div></div>
     <div class="trip"><div class="name"><b>मोरनी हिल्स</b><span>शिवालिक नज़ारे · झील</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Morni+Hills,+Panchkula" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~35 किमी</div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>चंडीगढ़ में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -390,7 +408,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · नियोजित केंद्र शासित राजधानी · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>पंजाब और हरियाणा की संयुक्त राजधानी वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>चंडीगढ़ की अर्थव्यवस्था किससे चलती है</h2><p>पंजाब और हरियाणा की संयुक्त राजधानी वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">राजधानी अर्थव्यवस्था</div><h3>दो राज्यों की राजधानी</h3><p>पंजाब और हरियाणा एक ही शहर साझा करते हैं — दोनों के सचिवालय, उच्च न्यायालय पीठ, राजभवन और केंद्र शासित प्रशासन कैपिटल व सेक्टर 1 की दफ़्तर पट्टी में।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Capitol+Complex,+Sector+1,+Chandigarh" target="_blank" rel="noopener">कैपिटल ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">शिक्षा</div><h3>पंजाब विश्वविद्यालय व परिसर</h3><p>सेक्टर 14 का पंजाब विश्वविद्यालय (1882), UIET और छात्रों की घनी पट्टी दक्षिण-पश्चिम का आधार; सटे संस्थान भी वही बाज़ार चलाते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Panjab+University,+Sector+14,+Chandigarh" target="_blank" rel="noopener">कैंपस ↗</a></div></div>
@@ -403,7 +421,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने कॉफ़ी हाउस, मक्खन वाले ढाबे और शाम की रेहड़ियाँ।</p></div>
+  <div class="section-head"><h2>चंडीगढ़ में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने कॉफ़ी हाउस, मक्खन वाले ढाबे और शाम की रेहड़ियाँ।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">पुराना कॉफ़ी हाउस</div><h3>इंडियन कॉफ़ी हाउस</h3><p>सेक्टर 17 का दशकों पुराना कॉफ़ी हाउस — फ़िल्टर कॉफ़ी, चीज़ सैंडविच और वही लकड़ी की कुर्सियाँ।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Indian+Coffee+House,+Sector+17,+Chandigarh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">बेकरी दिग्गज</div><h3>निक बेकर्स</h3><p>चंडीगढ़ की अपनी बेकरी-कैफ़े — सुबह से देर शाम तक ब्रेड, केक और पेस्ट्री।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Nik+Baker's,+Chandigarh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -450,6 +468,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>चंडीगढ़ कैसे पहुँचें?</h3><p>चंडीगढ़ जंक्शन (CDG), चंडीगढ़ अंतरराष्ट्रीय हवाई अड्डा (IXC) ~9 किमी दूर, और NH-44 सड़क मार्ग — दिल्ली दक्षिण में ~245 किमी दूर है।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — चंडीगढ़</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी चंडीगढ़ के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mandir,+Sector+22-C,+चंडीगढ़,+India" target="_blank" rel="noopener">Mandir, Sector 22-C</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Sri+Guru+Singh+Sabha,+चंडीगढ़,+India" target="_blank" rel="noopener">Gurudwara Sri Guru Singh Sabha</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maszid,+चंडीगढ़,+India" target="_blank" rel="noopener">Maszid</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=math+mandir,+चंडीगढ़,+India" target="_blank" rel="noopener">math mandir</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hindu+Temple,+चंडीगढ़,+India" target="_blank" rel="noopener">Hindu Temple</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Shri+Guru+Teg+Bahadur+Sahib,+चंडीगढ़,+India" target="_blank" rel="noopener">Gurudwara Shri Guru Teg Bahadur Sahib</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Pet+Hospital,+चंडीगढ़,+India" target="_blank" rel="noopener">Government Pet Hospital</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KD+Cosmetic+Surgery+Centre,Sector+34-A,+चंडीगढ़,+India" target="_blank" rel="noopener">KD Cosmetic Surgery Centre,Sector 34-A</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dharam+Hospital,+चंडीगढ़,+India" target="_blank" rel="noopener">Dharam Hospital</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharat+Vikas+Parishad+Charitable+Medical+Centre,+चंडीगढ़,+India" target="_blank" rel="noopener">Bharat Vikas Parishad Charitable Medical Centre</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chemist+Store+++Dr.+Gagan+Puri,+चंडीगढ़,+India" target="_blank" rel="noopener">Chemist Store + Dr. Gagan Puri</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=national+medical+and+dialysis+centre,+चंडीगढ़,+India" target="_blank" rel="noopener">national medical and dialysis centre</a><span>2.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ankur+School,+चंडीगढ़,+India" target="_blank" rel="noopener">Ankur School</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+College+of+Art,+चंडीगढ़,+India" target="_blank" rel="noopener">Government College of Art</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kendriya+Vidyalya,+चंडीगढ़,+India" target="_blank" rel="noopener">Kendriya Vidyalya</a><span>2.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=poest+graduate+government+college,+चंडीगढ़,+India" target="_blank" rel="noopener">poest graduate government college</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GRIID,+चंडीगढ़,+India" target="_blank" rel="noopener">GRIID</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=GRIID+main+gate,+चंडीगढ़,+India" target="_blank" rel="noopener">GRIID main gate</a><span>3.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sunbeam,+चंडीगढ़,+India" target="_blank" rel="noopener">Sunbeam</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Satyadeep,+चंडीगढ़,+India" target="_blank" rel="noopener">Satyadeep</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Divyadee,+चंडीगढ़,+India" target="_blank" rel="noopener">Divyadee</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Satyadeep+Hotel,+चंडीगढ़,+India" target="_blank" rel="noopener">Satyadeep Hotel</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=my+Pg,+चंडीगढ़,+India" target="_blank" rel="noopener">my Pg</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Aroma+Complex,Sector+22-C,+चंडीगढ़,+India" target="_blank" rel="noopener">Hotel Aroma Complex,Sector 22-C</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Electronic+Market,+चंडीगढ़,+India" target="_blank" rel="noopener">Electronic Market</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mat+makers+Market+Bamboo,+चंडीगढ़,+India" target="_blank" rel="noopener">Mat makers Market Bamboo</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sector+19+D,+चंडीगढ़,+India" target="_blank" rel="noopener">Sector 19 D</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sector+9+Showrooms,+चंडीगढ़,+India" target="_blank" rel="noopener">Sector 9 Showrooms</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Avalon+Nail+Studio,+चंडीगढ़,+India" target="_blank" rel="noopener">Avalon Nail Studio</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Showrooms,+चंडीगढ़,+India" target="_blank" rel="noopener">Showrooms</a><span>1.5 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+ISBT,+Sector+17,+चंडीगढ़,+India" target="_blank" rel="noopener">Chandigarh ISBT, Sector 17</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+ISBT,+Sector+43,+चंडीगढ़,+India" target="_blank" rel="noopener">Chandigarh ISBT, Sector 43</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=CTU+Local+Bus+Station+43,+चंडीगढ़,+India" target="_blank" rel="noopener">CTU Local Bus Station 43</a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandigarh+Railway+Station,+चंडीगढ़,+India" target="_blank" rel="noopener">Chandigarh Railway Station</a><span>5.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mohali,+चंडीगढ़,+India" target="_blank" rel="noopener">Mohali</a><span>6.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mansa+Devi+Bus+Stand,+चंडीगढ़,+India" target="_blank" rel="noopener">Mansa Devi Bus Stand</a><span>7.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="30.7333" data-lon="76.7794">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

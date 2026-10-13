@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Patna City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Patna City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Patna, Bihar — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/patna/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/patna/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/patna/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/patna/">
-<meta property="og:title" content="Patna City Guide — Bharat DN">
+<meta property="og:title" content="Patna City Guide — Bharat Digital Network">
 <meta property="og:description" content="Patna — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/patna/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">30.7°C</div><div class="live-sub">Mostly clear · humidity 58% · wind 0.7 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">30.6°C</div><div class="live-sub">Clear sky · humidity 58% · wind 0.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">153</div><div class="live-sub">153 · Unhealthy</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">152</div><div class="live-sub">152 · Unhealthy</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Patna beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Patna</h2><p>Patna beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">west · near Gandhi Maidan</div><h3>Kumhrar</h3><p>The Mauryan pillared hall excavated under a park — 80 column bases of Ashoka’s era, quietly guarded.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kumhrar,+Patna" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">old city · Bailey Road side</div><h3>Agam Kuan</h3><p>The “inaccessible well” of legend — eight-sided, ashoka-linked, still worshipped with lamps at the rim.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Agam+Kuan,+Patna" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -371,7 +389,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Patna.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Patna</h2><p>Approximate road distances from Patna.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Vaishali</b><span>Ashokan pillar · first republic</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vaishali,+Bihar" target="_blank" rel="noopener">Directions ↗</a><div class="km">~55 km</div></div>
     <div class="trip"><div class="name"><b>Vikramshila</b><span>Buddhist university ruins</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Bhagalpur,+Bihar" target="_blank" rel="noopener">Directions ↗</a><div class="km">~60 km</div></div>
@@ -381,7 +399,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Patna</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 capital market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Patna.</p></div>
+  <div class="section-head"><h2>What runs Patna's economy</h2><p>What actually runs Patna.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">agro trade</div><h3>Rice, Makhana & Litchi</h3><p>Bihar’s food grain and foxnut trade routes through Patna’s mandis — the wholesale heart of the Gangetic belt.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Krishi+Mandi,+Patna" target="_blank" rel="noopener">Market yards ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">education</div><h3>Patna University & Coaching</h3><p>1917’s university plus a coaching economy that runs on BPSC, railway and school aspirants by the lakh.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Patna+University,+Patna" target="_blank" rel="noopener">Campus ↗</a></div></div>
@@ -414,7 +432,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Patna</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">evening belt</div><h3>Gandhi Maidan stalls</h3><p>Litti-chokha on coal, chana-samosa and sattu sherbet as the light drops over the maidan.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gandhi+Maidan,+Patna" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">old-city sweets</div><h3>Gulzarbagh mithai lanes</h3><p>Thekua, khaja and ladoo counters that stock festival boxes across the city.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gulzarbagh,+Patna" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -442,7 +460,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Patna openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Patna students</div></a>
@@ -458,6 +476,67 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Patna?</h3><p>Patna Junction (PNBE) on the Delhi–Howrah main line, Jay Prakash airport (PAT) ~12 km, and Ganga bridge road links.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Patna</h2>
+    <p class="nm-sub">Distances are from Patna's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Stupa,+Patna,+India" target="_blank" rel="noopener">Stupa</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=पाटलीपुत्र+करुणा+स्तूप,+Patna,+India" target="_blank" rel="noopener">पाटलीपुत्र करुणा स्तूप</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISKCON+Temple,+Patna,+India" target="_blank" rel="noopener">ISKCON Temple</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gyatri+Mandir,+Patna,+India" target="_blank" rel="noopener">Gyatri Mandir</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shree+Premnidhi+Roopkala+Smarak+Panch+Mandir,+Patna,+India" target="_blank" rel="noopener">Shree Premnidhi Roopkala Smarak Panch Mandir</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiv+Shakti+Mandir,+Patna,+India" target="_blank" rel="noopener">Shiv Shakti Mandir</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Magalam+Hospital,+Patna,+India" target="_blank" rel="noopener">Magalam Hospital</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mahavir+Arogya+Sansthan,+Patna,+India" target="_blank" rel="noopener">Mahavir Arogya Sansthan</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kiran+Nursing+Home,+Patna,+Patna,+India" target="_blank" rel="noopener">Kiran Nursing Home, Patna</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Sai+Lions+Netralaya,+Patna,+India" target="_blank" rel="noopener">Sri Sai Lions Netralaya</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Gardinar+Road+Hospital,+Patna,+India" target="_blank" rel="noopener">New Gardinar Road Hospital</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Jagannath+Sewa+Sadan,+Patna,+India" target="_blank" rel="noopener">Sri Jagannath Sewa Sadan</a><span>1.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shivam+Convent,+Patna,+India" target="_blank" rel="noopener">Shivam Convent</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Era+Public+School,+Patna,+India" target="_blank" rel="noopener">New Era Public School</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Delhi+Model+Public+School,+Patna,+India" target="_blank" rel="noopener">Delhi Model Public School</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mount+Carmel+High+School,+Patna,+India" target="_blank" rel="noopener">Mount Carmel High School</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kendriya+Vidyalaya,+Patna,+India" target="_blank" rel="noopener">Kendriya Vidyalaya</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Patliputra+Univerity,+Patna,+India" target="_blank" rel="noopener">Patliputra Univerity</a><span>2.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+City+Centre,+Patna,+India" target="_blank" rel="noopener">Hotel City Centre</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Bhavya+Regency,+Patna,+India" target="_blank" rel="noopener">Hotel Bhavya Regency</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Chanakya,+Patna,+India" target="_blank" rel="noopener">Hotel Chanakya</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Relax+Zone,+Patna,+India" target="_blank" rel="noopener">Hotel Relax Zone</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mayur+Hotel,+Patna,+India" target="_blank" rel="noopener">Mayur Hotel</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Capital+House+Hotel,+Patna,+India" target="_blank" rel="noopener">Capital House Hotel</a><span>1.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=laxmi+tower,+Patna,+India" target="_blank" rel="noopener">laxmi tower</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Helmet+market,+Patna,+India" target="_blank" rel="noopener">Helmet market</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=BAZAAR+SAMITI,+Patna,+India" target="_blank" rel="noopener">BAZAAR SAMITI</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Registry+bazar,+Patna,+India" target="_blank" rel="noopener">Registry bazar</a><span>11.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=station+new+market,+Patna,+India" target="_blank" rel="noopener">station new market</a><span>11.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maheshwari+chauk,+Patna,+India" target="_blank" rel="noopener">Maheshwari chauk</a><span>12 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Patliputra+Inter+State+Bus+Terminal,+Patna,+India" target="_blank" rel="noopener">Patliputra Inter State Bus Terminal</a><span>5.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hajipur+Bus+Stop,+Patna,+India" target="_blank" rel="noopener">Hajipur Bus Stop</a><span>14.8 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="25.5941" data-lon="85.1376">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -535,7 +614,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try patna" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

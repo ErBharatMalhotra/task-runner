@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Haridwar City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Haridwar City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Haridwar, Uttarakhand — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/haridwar/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/haridwar/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/haridwar/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/haridwar/">
-<meta property="og:title" content="Haridwar City Guide — Bharat DN">
+<meta property="og:title" content="Haridwar City Guide — Bharat Digital Network">
 <meta property="og:description" content="Haridwar — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/haridwar/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,7 +305,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">29.1°C</div><div class="live-sub">Clear sky · humidity 57% · wind 5.2 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">29°C</div><div class="live-sub">Clear sky · humidity 58% · wind 4.5 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Haridwar beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Haridwar</h2><p>Haridwar beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Kankhal · south town</div><h3>Daksh Mahadev</h3><p>The Sati legend’s temple and sacred tank — old stone, a big shikhara and weekday quiet.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Daksh+Mahadev,+Haridwar" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">upstream · seven sages</div><h3>Sapt Rishi Ashram</h3><p>Where the Ganga is said to split for seven rishis — wide ghats, fewer boats, morning chants.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sapt+Rishi+Ashram,+Haridwar" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Haridwar.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Haridwar</h2><p>Approximate road distances from Haridwar.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Rishikesh</b><span>Ganga · yoga town</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Rishikesh,+Dehradun" target="_blank" rel="noopener">Directions ↗</a><div class="km">~25 km</div></div>
     <div class="trip"><div class="name"><b>Rajaji National Park</b><span>elephants · grasslands</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Rajaji,+Uttarakhand" target="_blank" rel="noopener">Directions ↗</a><div class="km">~15 km</div></div>
@@ -380,7 +398,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Haridwar</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -400,7 +418,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 pilgrimage market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Haridwar.</p></div>
+  <div class="section-head"><h2>What runs Haridwar's economy</h2><p>What actually runs Haridwar.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">pilgrimage</div><h3>Temples & aarti economy</h3><p>Darshan queues, dharamshalas and the boat-ghat circuit that runs the faith quarter.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Har-ki-Pauri,+Haridwar" target="_blank" rel="noopener">Faith core ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">industry</div><h3>SIDCUL estate</h3><p>The industrial area’s factories — electricals, food and engineering on the highway fringe.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=SIDCUL,+Haridwar" target="_blank" rel="noopener">Industrial belt ↗</a></div></div>
@@ -412,7 +430,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Haridwar</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">ghat stalls</div><h3>Har-ki-Pauri chaat</h3><p>Papdi chaat, rabri and tea on the aarti ghats — eaten sitting on the steps at dusk.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Har-ki-Pauri,+Haridwar" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">temple lanes</div><h3>Kankhal sweet shops</h3><p>Besan laddoo and peda counters around the Daksh shrine — prasad boxes first, dessert second.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kankhal,+Haridwar" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -440,7 +458,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Haridwar openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Haridwar students</div></a>
@@ -456,6 +474,56 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Haridwar?</h3><p>Haridwar (HW) on the Delhi railway line, Jolly Grant airport (DED) ~40 km, and frequent buses to Rishikesh, Dehradun and the hills.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Haridwar</h2>
+    <p class="nm-sub">Distances are from Haridwar's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Haridwar+-+Mahakumbh+Spot+1,+Haridwar,+India" target="_blank" rel="noopener">Haridwar - Mahakumbh Spot 1</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=नारायणी+शिला,+Haridwar,+India" target="_blank" rel="noopener">नारायणी शिला</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mansa+Devi+Temple,+Haridwar,+India" target="_blank" rel="noopener">Mansa Devi Temple</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ganga+Devi,+Haridwar,+India" target="_blank" rel="noopener">Ganga Devi</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandi+Devi+Temple,+Haridwar,+India" target="_blank" rel="noopener">Chandi Devi Temple</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=daksha+prajajapati,+Haridwar,+India" target="_blank" rel="noopener">daksha prajajapati</a><span>3.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Mela+Hospital,+Haridwar,+India" target="_blank" rel="noopener">Government Mela Hospital</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramkrishan+Mission+Hospital,+Haridwar,+India" target="_blank" rel="noopener">Ramkrishan Mission Hospital</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramakrishna+Mission+Sevashrama,+Haridwar,+Haridwar,+India" target="_blank" rel="noopener">Ramakrishna Mission Sevashrama, Haridwar</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Matrichaya+Hospital,+Haridwar,+India" target="_blank" rel="noopener">Matrichaya Hospital</a><span>3.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr+Mehras+Nursing+Home+and+Hospital,+Haridwar,+India" target="_blank" rel="noopener">Dr Mehras Nursing Home and Hospital</a><span>3.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=City+Hospital,+Haridwar,+India" target="_blank" rel="noopener">City Hospital</a><span>3.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurukul+Kangri+University,+Haridwar,+India" target="_blank" rel="noopener">Gurukul Kangri University</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kanya+Gurukul,+Haridwar,+India" target="_blank" rel="noopener">Kanya Gurukul</a><span>6.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Amrita+Vishwa+Vidyapeetham,+Haridwar,+India" target="_blank" rel="noopener">Amrita Vishwa Vidyapeetham</a><span>6.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dev+Sanskriti+Vishwavidyalaya+(DSVV),+Haridwar,+India" target="_blank" rel="noopener">Dev Sanskriti Vishwavidyalaya (DSVV)</a><span>6.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kendriya+Vidyalaya+BHEL,+Haridwar,+India" target="_blank" rel="noopener">Kendriya Vidyalaya BHEL</a><span>6.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Public+School,+Motichur,+Haridwar,+India" target="_blank" rel="noopener">Government Public School, Motichur</a><span>6.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Krishna+Ji,+Haridwar,+India" target="_blank" rel="noopener">Krishna Ji</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=La+Casa,+Haridwar,+India" target="_blank" rel="noopener">La Casa</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Arjun,+Haridwar,+India" target="_blank" rel="noopener">Hotel Arjun</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Swagat+Palace,+Haridwar,+India" target="_blank" rel="noopener">Hotel Swagat Palace</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maan+Hotel,+Haridwar,+India" target="_blank" rel="noopener">Maan Hotel</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Madhuban+guest+house,+Haridwar,+India" target="_blank" rel="noopener">Madhuban guest house</a><span>600 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(1)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Haridwar+Roadways+Bus+Station,+Haridwar,+India" target="_blank" rel="noopener">Haridwar Roadways Bus Station</a><span>1 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="29.9457" data-lon="78.1642">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -533,7 +601,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try haridwar" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shimla City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Shimla City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Shimla, Himachal Pradesh — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/shimla/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/shimla/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/shimla/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/shimla/">
-<meta property="og:title" content="Shimla City Guide — Bharat DN">
+<meta property="og:title" content="Shimla City Guide — Bharat Digital Network">
 <meta property="og:description" content="Shimla — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/shimla/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,7 +305,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">18.4°C</div><div class="live-sub">Partly cloudy · humidity 47% · wind 10.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">17.2°C</div><div class="live-sub">Partly cloudy · humidity 57% · wind 9.3 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Shimla beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Shimla</h2><p>Shimla beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">east hill · temple</div><h3>Tara Devi</h3><p>The hilltop shrine above the pine line — a short climb, wide valley views and thin crowds.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Tara+Devi,+Shimla" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">below the Mall · cantonment</div><h3>Annadale</h3><p>The old grounds in the deodar hollow — army museum, cricket patch and a quiet green bowl.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Annadale,+Shimla" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -371,7 +389,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Shimla.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Shimla</h2><p>Approximate road distances from Shimla.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Chail</b><span>palace · deodar forest</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chail,+Shimla" target="_blank" rel="noopener">Directions ↗</a><div class="km">~30 km</div></div>
     <div class="trip"><div class="name"><b>Narkanda</b><span>ski slopes · apple belt</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Narkanda,+Shimla" target="_blank" rel="noopener">Directions ↗</a><div class="km">~60 km</div></div>
@@ -381,7 +399,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Shimla</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-3 hill-town market · seasonal — updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Shimla.</p></div>
+  <div class="section-head"><h2>What runs Shimla's economy</h2><p>What actually runs Shimla.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">tourism</div><h3>Hill tourism & hotels</h3><p>Snow-season rooms, Mall shops and the December–June calendar the town lives by.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Shimla" target="_blank" rel="noopener">Mall belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">government</div><h3>State capital & administration</h3><p>Vidhan Sabha, secretariat and courts — the governance payrolls of the ridge town.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Shimla,+Himachal+Pradesh" target="_blank" rel="noopener">Capital ↗</a></div></div>
@@ -413,7 +431,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Shimla</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">icon café</div><h3>Indian Coffee House</h3><p>The Mall’s old coffee house — plywood booths, filter coffee and conversations since the Raj years.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Indian+Coffee+House,+Mall+Road,+Shimla" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">bakery belt</div><h3>Mall Road bakeries</h3><p>Brown bread, plum cakes and chicken patties — hill-station bakery windows in the cold air.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Shimla" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -441,7 +459,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Shimla openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Shimla students</div></a>
@@ -457,6 +475,67 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Shimla?</h3><p>The toy train from Kalka (90 km), Jubbarhatti airport (SLV) ~20 km, and buses via Chandigarh (120 km).</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Shimla</h2>
+    <p class="nm-sub">Distances are from Shimla's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Christ+Church,+Shimla,+India" target="_blank" rel="noopener">Christ Church</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kali+Bari+Temple,+Shimla,+India" target="_blank" rel="noopener">Kali Bari Temple</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kali+Bari+Temple,+Shimla,+India" target="_blank" rel="noopener">Kali Bari Temple</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sidh+Shri+Baba+Balak+Nath+Ji+Mandir,+Shimla,+India" target="_blank" rel="noopener">Sidh Shri Baba Balak Nath Ji Mandir</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jakhoo+Temple,+Shimla,+India" target="_blank" rel="noopener">Jakhoo Temple</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Kalgidhar+Sabha,+Shimla,+India" target="_blank" rel="noopener">Gurudwara Kalgidhar Sabha</a><span>1.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Grover+Dental+Clinic,+Shimla,+India" target="_blank" rel="noopener">Grover Dental Clinic</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vidya+Clinic,+Shimla,+India" target="_blank" rel="noopener">Vidya Clinic</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ripon+Hospital,+Shimla,+India" target="_blank" rel="noopener">Ripon Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tara+Devi+Hospital,+Shimla,+India" target="_blank" rel="noopener">Tara Devi Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rana+Ortho+Care+Centre,+Shimla,+India" target="_blank" rel="noopener">Rana Ortho Care Centre</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr.Jatinder+Eye+Hospital,+Shimla,+India" target="_blank" rel="noopener">Dr.Jatinder Eye Hospital</a><span>200 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School,+Shimla,+India" target="_blank" rel="noopener">Auckland House School</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=D.A.V.+Public+School,+Lakkar+Bazar,+Shimla,+India" target="_blank" rel="noopener">D.A.V. Public School, Lakkar Bazar</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lalpani+School,+Shimla,+India" target="_blank" rel="noopener">Lalpani School</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School,+Shimla,+India" target="_blank" rel="noopener">Auckland House School</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ECI+Chalet+Day+School,+Shimla,+India" target="_blank" rel="noopener">ECI Chalet Day School</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School+(Boys),+Shimla,+India" target="_blank" rel="noopener">Auckland House School (Boys)</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mahamaya+Hotel+(OYO),+Shimla,+India" target="_blank" rel="noopener">Mahamaya Hotel (OYO)</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Combermere,+Shimla,+India" target="_blank" rel="noopener">Hotel Combermere</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Harmony+Hotel,+Shimla,+India" target="_blank" rel="noopener">Harmony Hotel</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Uphar,+Shimla,+India" target="_blank" rel="noopener">Hotel Uphar</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Willow+Bank,+Shimla,+India" target="_blank" rel="noopener">Hotel Willow Bank</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+White,+Shimla,+India" target="_blank" rel="noopener">Hotel White</a><span>500 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MALL+ROAD,+Shimla,+India" target="_blank" rel="noopener">MALL ROAD</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sanjauli+Bazar,+Shimla,+India" target="_blank" rel="noopener">Sanjauli Bazar</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kasumpti+market,+Shimla,+India" target="_blank" rel="noopener">Kasumpti market</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shoghi+Market,+Shimla,+India" target="_blank" rel="noopener">Shoghi Market</a><span>8.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Old+ISBT,+Shimla,+India" target="_blank" rel="noopener">Old ISBT</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=IGMC+Bus+Station,+Shimla,+India" target="_blank" rel="noopener">IGMC Bus Station</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=khalini+busstation,+Shimla,+India" target="_blank" rel="noopener">khalini busstation</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISBT+Shimla+(New+Bus+Stand),+Shimla,+India" target="_blank" rel="noopener">ISBT Shimla (New Bus Stand)</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="31.1048" data-lon="77.1734">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -534,7 +613,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try shimla" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

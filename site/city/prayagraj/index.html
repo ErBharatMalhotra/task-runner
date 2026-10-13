@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prayagraj City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Prayagraj City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Prayagraj (Allahabad), Uttar Pradesh — live weather, Census 2011 population, the Sangam, hidden lanes, Kumbh, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/prayagraj/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/prayagraj/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/prayagraj/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/prayagraj/">
-<meta property="og:title" content="Prayagraj City Guide — Bharat DN">
+<meta property="og:title" content="Prayagraj City Guide — Bharat Digital Network">
 <meta property="og:description" content="Live weather, fast facts, hidden places and everything about Prayagraj–Sangam.">
 <meta property="og:url" content="https://bharatdn.com/city/prayagraj/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">30.8°C</div><div class="live-sub">Mostly clear · humidity 53% · wind 4.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">30.6°C</div><div class="live-sub">Clear sky · humidity 54% · wind 5.6 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">131</div><div class="live-sub">131 · Unhealthy for sensitive groups</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">130</div><div class="live-sub">130 · Unhealthy for sensitive groups</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Prayagraj beyond the mela grounds — fort banyans, Mughal garden-tombs, Gothic churches and civil-lines lawns.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Prayagraj</h2><p>Prayagraj beyond the mela grounds — fort banyans, Mughal garden-tombs, Gothic churches and civil-lines lawns.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Allahabad Fort · river side</div><h3>Akshayavat & Patalpuri</h3><p>The banyan called immortal, over an underground temple inside the fort, with Ashoka’s pillar edicts close by — entry through the army gate needs permission.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Allahabad+Fort,+Prayagraj" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Sangam · far bank</div><h3>Arail Ghats</h3><p>The riverfront beyond the mela crowds — quiet steps, village ferries and the Yamuna sliding into the Ganga.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Arail+Ghat,+Prayagraj" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -373,7 +391,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Prayagraj city.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Prayagraj</h2><p>Approximate road distances from Prayagraj city.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Varanasi</b><span>ghats · Sarnath · Kashi</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Varanasi,+Uttar+Pradesh" target="_blank" rel="noopener">Directions ↗</a><div class="km">~125 km</div></div>
     <div class="trip"><div class="name"><b>Chitrakoot</b><span>Ram-van pilgrimage</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chitrakoot,+Uttar+Pradesh" target="_blank" rel="noopener">Directions ↗</a><div class="km">~130 km</div></div>
@@ -384,7 +402,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Prayagraj</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -404,7 +422,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 north-Indian city · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs the Sangam city — courts, campuses, the doab and the mela.</p></div>
+  <div class="section-head"><h2>What runs Prayagraj's economy</h2><p>What actually runs the Sangam city — courts, campuses, the doab and the mela.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">pilgrim economy</div><h3>Sangam & Mela Trade</h3><p>Boats, camps, kitchens and shramdan logistics — the month-long Magh Mela and the Kumbh cycle feed a whole seasonal industry.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sangam,+Prayagraj" target="_blank" rel="noopener">Mela belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">education</div><h3>University of Allahabad</h3><p>The 1887 university called the Oxford of the East — faculties, hostels and a coaching economy that spills into Katra and Tagore Town.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=University+of+Allahabad,+Prayagraj" target="_blank" rel="noopener">Campus ↗</a></div></div>
@@ -418,7 +436,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — puri-sabzi mornings, old sweet counters and river-side chai.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Prayagraj</h2><p>Where locals actually eat — puri-sabzi mornings, old sweet counters and river-side chai.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">breakfast ritual</div><h3>Puri–sabzi of George Town</h3><p>Puffed puri with potato-tomato sabzi at family breakfast counters — the city’s default morning plate, over by eleven.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=George+Town,+Prayagraj" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">mithai & namkeen</div><h3>Netram Mulchand & Sons</h3><p>The old-city sweet house — kachori, peda and namkeen ordered by the kilo for weddings and gifts.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Netram+Mulchand,+Katra,+Prayagraj" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -449,7 +467,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Prayagraj openings — courts, education, mela services, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Prayagraj students</div></a>
@@ -465,6 +483,65 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Prayagraj?</h3><p>Prayagraj Junction (PRYJ) on the Delhi–Howrah main line, Bamrauli airport (IXD) ~15 km away, and the NH-19 road corridor.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Prayagraj</h2>
+    <p class="nm-sub">Distances are from Prayagraj's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Bairhana+Mosque,+Prayagraj,+India" target="_blank" rel="noopener">New Bairhana Mosque</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=kali+mandir,+Prayagraj,+India" target="_blank" rel="noopener">kali mandir</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maa+Kalyani+Devi+Shakti+Peeth,+Prayagraj,+India" target="_blank" rel="noopener">Maa Kalyani Devi Shakti Peeth</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=kali+mai+ka+mandir,+Prayagraj,+India" target="_blank" rel="noopener">kali mai ka mandir</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yamuna+Ghat,+Prayagraj,+India" target="_blank" rel="noopener">Yamuna Ghat</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shree+Krishna+Pranaami+Mandir,+Prayagraj,+India" target="_blank" rel="noopener">Shree Krishna Pranaami Mandir</a><span>1.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jeevan+Jyoti+Hospital,+Allahabad,+Prayagraj,+India" target="_blank" rel="noopener">Jeevan Jyoti Hospital, Allahabad</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dwarka+Hospital,+Prayagraj,+India" target="_blank" rel="noopener">Dwarka Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ranjana+Hospital,+Prayagraj,+India" target="_blank" rel="noopener">Ranjana Hospital</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=S.R.N.+Hospital,+M.L.+N.+Medical+College,+Prayagraj,+India" target="_blank" rel="noopener">S.R.N. Hospital, M.L. N. Medical College</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=gupta+medical+store,+Prayagraj,+India" target="_blank" rel="noopener">gupta medical store</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shakuntala+Hospital,+Prayagraj,+India" target="_blank" rel="noopener">Shakuntala Hospital</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ECC,+Prayagraj,+India" target="_blank" rel="noopener">ECC</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jamuna+christian+Inter+College,+Prayagraj,+India" target="_blank" rel="noopener">Jamuna christian Inter College</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=mahila+sewa+sadan+inter+college,+Prayagraj,+India" target="_blank" rel="noopener">mahila sewa sadan inter college</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=G+C+STUDY+POINT,+Prayagraj,+India" target="_blank" rel="noopener">G C STUDY POINT</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=mpvm,+Prayagraj,+India" target="_blank" rel="noopener">mpvm</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Majidia+Islamia+Inter+College,+Prayagraj,+India" target="_blank" rel="noopener">Majidia Islamia Inter College</a><span>2.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Relax+Inn,+Prayagraj,+India" target="_blank" rel="noopener">Relax Inn</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=sundaram+guest+house,+Prayagraj,+India" target="_blank" rel="noopener">sundaram guest house</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=parinay+guest+house,+Prayagraj,+India" target="_blank" rel="noopener">parinay guest house</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=akansha+garden,+Prayagraj,+India" target="_blank" rel="noopener">akansha garden</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=akansha+garden,+Prayagraj,+India" target="_blank" rel="noopener">akansha garden</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Arjun,+Prayagraj,+India" target="_blank" rel="noopener">Hotel Arjun</a><span>1.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabji+Mandi,+Prayagraj,+India" target="_blank" rel="noopener">Sabji Mandi</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Naini+Sabji+Mandi,+Prayagraj,+India" target="_blank" rel="noopener">Naini Sabji Mandi</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabzi+Mandi,+Prayagraj,+India" target="_blank" rel="noopener">Sabzi Mandi</a><span>8.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Zero+Road+Bus+Stand,+Prayagraj,+India" target="_blank" rel="noopener">Zero Road Bus Stand</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Civil+Lines+Bus+Station,+Prayagraj,+India" target="_blank" rel="noopener">Civil Lines Bus Station</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=School+Bus+Stand,+Prayagraj,+India" target="_blank" rel="noopener">School Bus Stand</a><span>14.1 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="25.4358" data-lon="81.8463">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -542,7 +619,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try prayagraj" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

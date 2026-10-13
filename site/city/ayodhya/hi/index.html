@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">31.1°C</div><div class="live-sub">साफ आसमान · नमी 53% · हवा 4.9 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">31°C</div><div class="live-sub">साफ आसमान · नमी 54% · हवा 4.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>अयोध्या की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>अयोध्या में छिपी और विरासत जगहें</h2><p>अयोध्या की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पावन टीला · पुराना टीला</div><h3>मणि पर्वत</h3><p>शीर्ष पर स्तूप वाला पौराणिक छोटा पहाड़ — शाम के चढ़ने वाले और तीर्थ-नगर पर नज़र।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mani+Parvat,+Ayodhya" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">दक्षिण · विक्रमादित्य मंदिर</div><h3>त्रेता के ठाकुर</h3><p>विक्रमादित्य को प्राप्त कहा जाने वाला पुराना बलुआ मंदिर — शांत आँगन, शरद का यज्ञ आज भी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Treta+Ke+Thakur,+Ayodhya" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -358,7 +376,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>अयोध्या शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>अयोध्या के पास घूमने की जगहें (वीकेंड)</h2><p>अयोध्या शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>फ़ैज़ाबाद</b><span>जुड़वाँ शहर · चौक व संग्रहालय</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Faizabad,+Ayodhya" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~13 किमी</div></div>
     <div class="trip"><div class="name"><b>चित्रकूट</b><span>राम-वन-पथ श्राइन</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chitrakoot,+Uttar+Pradesh" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~140 किमी</div></div>
@@ -368,7 +386,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>अयोध्या में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -388,7 +406,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-3 तीर्थ बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>अयोध्या की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>अयोध्या की अर्थव्यवस्था किससे चलती है</h2><p>अयोध्या की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">तीर्थ</div><h3>मंदिर व आतिथ्य</h3><p>सरयू-पक्ष की धर्मशालाएँ, गेस्टहाउस और आरती-अर्थव्यवस्था।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ayodhya,+Uttar+Pradesh" target="_blank" rel="noopener">श्रद्धा केंद्र ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">निर्माण</div><h3>राम मंदिर व टाउनशिप कार्य</h3><p>मार्बल, स्कैफ़ोल्ड और होटल-टाउनशिप निर्माण — शहर का सबसे बड़ा कार्य-क्षेत्र।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ayodhya+Dham,+Ayodhya" target="_blank" rel="noopener">कार्य पट्टी ↗</a></div></div>
@@ -400,7 +418,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>अयोध्या में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">प्रसाद काउंटर</div><h3>जन्मभूमि का लड्डू</h3><p>मंदिर की अभिषेक-लड्डू खिड़कियाँ — आरती से पहले कतार, ट्रेन के लिए पैकेट।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ayodhya,+Uttar+Pradesh" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">भोजनालय थाली</div><h3>पुराने शहर के भोजनालय</h3><p>तीर्थ-पक्ष के निश्चित-दाम थाली कमरे — कढ़ी, सब्ज़ी और दाल बार-बार।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Old+City,+Ayodhya" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -444,6 +462,54 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>अयोध्या कैसे पहुँचें?</h3><p>अयोध्या जं (AY) व अयोध्या धाम स्टेशन, महर्षि वाल्मीकि हवाई अड्डा (2023), और लखनऊ से एक्सप्रेसवे/बस-पट्टी।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — अयोध्या</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी अयोध्या के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ram+Janmabhoomi+Temple+complex,+अयोध्या,+India" target="_blank" rel="noopener">Ram Janmabhoomi Temple complex</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hanuman+Garhi+Temple,+अयोध्या,+India" target="_blank" rel="noopener">Hanuman Garhi Temple</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Rang+Mahal,+अयोध्या,+India" target="_blank" rel="noopener">Shri Rang Mahal</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Jagannath+Mandir,+अयोध्या,+India" target="_blank" rel="noopener">Shri Jagannath Mandir</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kanak+Bihari+Temple,+अयोध्या,+India" target="_blank" rel="noopener">Kanak Bihari Temple</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sringar+Bhawan,+अयोध्या,+India" target="_blank" rel="noopener">Sringar Bhawan</a><span>600 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Ram+Hospital+Ayodhya,+अयोध्या,+India" target="_blank" rel="noopener">Sri Ram Hospital Ayodhya</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Om+Sai+Ram+Hospital,+अयोध्या,+India" target="_blank" rel="noopener">Om Sai Ram Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ayodhya+Eye+Hospital,+अयोध्या,+India" target="_blank" rel="noopener">Ayodhya Eye Hospital</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mehdi+Dental+Hospital,+अयोध्या,+India" target="_blank" rel="noopener">Mehdi Dental Hospital</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yashlok+Hospital,+Faizabad,+अयोध्या,+India" target="_blank" rel="noopener">Yashlok Hospital, Faizabad</a><span>4.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Harshan+Hriday+Sansthan,+अयोध्या,+India" target="_blank" rel="noopener">Harshan Hriday Sansthan</a><span>4.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=SMB+Institute+of+Technology,+अयोध्या,+India" target="_blank" rel="noopener">SMB Institute of Technology</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Inter+College,+अयोध्या,+India" target="_blank" rel="noopener">Government Inter College</a><span>6.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MLML+Inter+College,+अयोध्या,+India" target="_blank" rel="noopener">MLML Inter College</a><span>6.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(5)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Birla+Dharamshala,+अयोध्या,+India" target="_blank" rel="noopener">Birla Dharamshala</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Surya+palace,+अयोध्या,+India" target="_blank" rel="noopener">Surya palace</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Surya+Palace,+अयोध्या,+India" target="_blank" rel="noopener">Surya Palace</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Raghukul+Sadan+(Agarwal+Bhawan+Trust),+अयोध्या,+India" target="_blank" rel="noopener">Raghukul Sadan (Agarwal Bhawan Trust)</a><span>4.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Abha+Hotel,+अयोध्या,+India" target="_blank" rel="noopener">Abha Hotel</a><span>5.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tulshi+Ghat+Bus+terminals,+अयोध्या,+India" target="_blank" rel="noopener">Tulshi Ghat Bus terminals</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=International+Bus+Terminal,+अयोध्या,+India" target="_blank" rel="noopener">International Bus Terminal</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Devka;i+Bus+Station,+अयोध्या,+India" target="_blank" rel="noopener">Devka;i Bus Station</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="26.7922" data-lon="82.1998">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

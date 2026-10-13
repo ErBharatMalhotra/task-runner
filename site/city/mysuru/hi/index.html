@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">33.2°C</div><div class="live-sub">साफ आसमान · नमी 25% · हवा 16.4 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">33.5°C</div><div class="live-sub">साफ आसमान · नमी 24% · हवा 15.7 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>मैसूर की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>मैसूर में छिपी और विरासत जगहें</h2><p>मैसूर की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">कैंपस पक्ष · दक्षिण</div><h3>कुक्करहल्ली झील</h3><p>विश्वविद्यालय की झील-परिक्रमा — रंगे सारस, शाम के धावक और वह बैंडस्टैंड जिसे कोई फ़ोटो नहीं करता।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kukkarahalli+Lake,+Mysuru" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">महल के पास · जगन्मोहन</div><h3>जगन्मोहन कला संग्रहालय</h3><p>वह महल जो गैलरी बना — वडियार चित्र और लोक कला, कतार अंबा विलास से छोटी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Jaganmohan+Palace,+Mysuru" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -358,7 +376,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>मैसूर शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>मैसूर के पास घूमने की जगहें (वीकेंड)</h2><p>मैसूर शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>श्रीरंगपट्टना</b><span>टीपू का द्वीप क़िला</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Srirangapatna,+Mandya" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~15 किमी</div></div>
     <div class="trip"><div class="name"><b>सोमनाथपुर</b><span>होयसला कप्पे चिरंब</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Somnathpur,+Mysuru" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~35 किमी</div></div>
@@ -368,7 +386,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>मैसूर में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -388,7 +406,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 कर्नाटक बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>मैसूर की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>मैसूर की अर्थव्यवस्था किससे चलती है</h2><p>मैसूर की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">सिल्क</div><h3>मैसूर सिल्क व बुनाई</h3><p>GI-टैग वाला हैंडलूम और सरकारी सिल्क फ़ैक्ट्री — पट्टू साड़ियाँ जो ट्रेंड से ज़्यादा चलती हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Government+Silk+Factory,+Mysuru" target="_blank" rel="noopener">सिल्क पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>महल, दशहरा व आतिथ्य</h3><p>अंबा विलास, चिड़ियाघर, बृंदावन और दस दिन का दशहरा — शहर के होटल इसी कैलेंडर पर बने हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Amba+Vilas+Palace,+Mysuru" target="_blank" rel="noopener">महल केंद्र ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>मैसूर में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">लीजेंड इडली</div><h3>विनायका माइलारी</h3><p>एक ही शैली की एनएसएसपी इडली, चटनी जिस पर शहर कसम खाता है — छोटा काउंटर, लंबी कतार, मेन्यू नहीं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vinayaka+Mylari,+Mysuru" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">1906 से</div><h3>दासप्रकाश</h3><p>पुराना आइस-क्रीम-टिफ़िन घर — मसाला डोसा, गुलाब जामुन और ख़ास उम्र का फ़ैमिली डाइनिंग हॉल।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Dasaprakash,+Mysuru" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -445,6 +463,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>मैसूर कैसे पहुँचें?</h3><p>बेंगलुरु से ~3 घंटे मैसूर जंक्शन (MYS), मंदकल्ली हवाई अड्डा (MYQ) ~10 किमी, और हाईवे के लिए NH-275।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — मैसूर</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी मैसूर के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ram+Mandir,+मैसूर,+India" target="_blank" rel="noopener">Ram Mandir</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiva+temple,+मैसूर,+India" target="_blank" rel="noopener">Shiva temple</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Iskon,+मैसूर,+India" target="_blank" rel="noopener">Iskon</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Passion+Fellowship,+मैसूर,+India" target="_blank" rel="noopener">Passion Fellowship</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lakshmiramana+Temple,+मैसूर,+India" target="_blank" rel="noopener">Lakshmiramana Temple</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vinayaka+Temple,+मैसूर,+India" target="_blank" rel="noopener">Vinayaka Temple</a><span>1.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Medident,+मैसूर,+India" target="_blank" rel="noopener">Medident</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vinayaka+Nursing+Home,+मैसूर,+India" target="_blank" rel="noopener">Vinayaka Nursing Home</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Clumax+Diagnostics,+मैसूर,+India" target="_blank" rel="noopener">Clumax Diagnostics</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ashoka+Clinic,+मैसूर,+India" target="_blank" rel="noopener">Ashoka Clinic</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Katil+Dental+clinic,+मैसूर,+India" target="_blank" rel="noopener">Katil Dental clinic</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sushrutha+Eye+Hospital,+मैसूर,+India" target="_blank" rel="noopener">Sushrutha Eye Hospital</a><span>1.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+School;Raman+IT,+मैसूर,+India" target="_blank" rel="noopener">Government School;Raman IT</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sharada+Vilas+School+and+College,+मैसूर,+India" target="_blank" rel="noopener">Sharada Vilas School and College</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ashokapuram+Government+School,+मैसूर,+India" target="_blank" rel="noopener">Ashokapuram Government School</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=NIIT,+मैसूर,+India" target="_blank" rel="noopener">NIIT</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=National+Institute+of+Engineering,+मैसूर,+India" target="_blank" rel="noopener">National Institute of Engineering</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dasthi+Institute+of+Nursing,+मैसूर,+India" target="_blank" rel="noopener">Dasthi Institute of Nursing</a><span>1.5 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jade+Garden,+मैसूर,+India" target="_blank" rel="noopener">Jade Garden</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mysore+Comforts,+मैसूर,+India" target="_blank" rel="noopener">Mysore Comforts</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Metropole,+मैसूर,+India" target="_blank" rel="noopener">Metropole</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Regaalis,+Mysore,+मैसूर,+India" target="_blank" rel="noopener">Regaalis, Mysore</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Guru+Residency,+मैसूर,+India" target="_blank" rel="noopener">Hotel Guru Residency</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Quorum,+मैसूर,+India" target="_blank" rel="noopener">Quorum</a><span>1.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nanjumalige,+मैसूर,+India" target="_blank" rel="noopener">Nanjumalige</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mannar's+Market,+मैसूर,+India" target="_blank" rel="noopener">Mannar's Market</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Evening+Bazaar,+मैसूर,+India" target="_blank" rel="noopener">Evening Bazaar</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Duplin+Complex,+मैसूर,+India" target="_blank" rel="noopener">Duplin Complex</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Devaraja+Market,+मैसूर,+India" target="_blank" rel="noopener">Devaraja Market</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Banana+Market,+मैसूर,+India" target="_blank" rel="noopener">Banana Market</a><span>2.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mysore+City+Bus+Station,+मैसूर,+India" target="_blank" rel="noopener">Mysore City Bus Station</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mysore+City+Bus+Stand,+मैसूर,+India" target="_blank" rel="noopener">Mysore City Bus Stand</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KSRTC+City+2+Depot,+मैसूर,+India" target="_blank" rel="noopener">KSRTC City 2 Depot</a><span>2.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kuvempunagar,+मैसूर,+India" target="_blank" rel="noopener">Kuvempunagar</a><span>2.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Private+Bus+Stand,+मैसूर,+India" target="_blank" rel="noopener">Private Bus Stand</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KSRTC+Bus+Station,+मैसूर,+India" target="_blank" rel="noopener">KSRTC Bus Station</a><span>2.8 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="12.2958" data-lon="76.6394">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dehradun City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Dehradun City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Dehradun, Uttarakhand — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/dehradun/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/dehradun/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/dehradun/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/dehradun/">
-<meta property="og:title" content="Dehradun City Guide — Bharat DN">
+<meta property="og:title" content="Dehradun City Guide — Bharat Digital Network">
 <meta property="og:description" content="Dehradun — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/dehradun/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,7 +305,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">27.5°C</div><div class="live-sub">Clear sky · humidity 51% · wind 5.2 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">27.2°C</div><div class="live-sub">Clear sky · humidity 56% · wind 3.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Dehradun beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Dehradun</h2><p>Dehradun beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">river bend · old cave</div><h3>Tapkeshwar</h3><p>The Shiva cave temple on the Malun — forest shade, a spring inside and weekday devotees only.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Tapkeshwar,+Dehradun" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">north-west · forest stream</div><h3>Robber’s Cave</h3><p>The river that runs under rock — wade through cold water in a cut gorge, locals with towels.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Robber's+Cave,+Dehradun" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Dehradun.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Dehradun</h2><p>Approximate road distances from Dehradun.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Mussoorie</b><span>hill station · Mall Road</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mussoorie,+Dehradun" target="_blank" rel="noopener">Directions ↗</a><div class="km">~34 km</div></div>
     <div class="trip"><div class="name"><b>Rishikesh</b><span>Ganga · yoga town</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Rishikesh,+Dehradun" target="_blank" rel="noopener">Directions ↗</a><div class="km">~45 km</div></div>
@@ -380,7 +398,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Dehradun</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -400,7 +418,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 Uttarakhand market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Dehradun.</p></div>
+  <div class="section-head"><h2>What runs Dehradun's economy</h2><p>What actually runs Dehradun.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">government</div><h3>State capital & secretariat</h3><p>The Vidhan Sabha, secretariat and state departments — the employment floor of the valley.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Secretariat,+Dehradun" target="_blank" rel="noopener">Capital ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">research</div><h3>FRI & national institutes</h3><p>Forest Research Institute, Survey of India, Wadia and IMD — a research town’s old guard.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Forest+Research+Institute,+Dehradun" target="_blank" rel="noopener">Institute belt ↗</a></div></div>
@@ -412,7 +430,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Dehradun</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">legacy dhaba</div><h3>Puran Singh</h3><p>The old Punjabi room of the cantonment belt — tandoori classics and a clientele of long standing.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Puran+Singh,+Dehradun" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">breakfast counters</div><h3>Paltan street plates</h3><p>Bedai-aloo and kachori at the bazaar’s morning counters — the Doon breakfast before offices open.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paltan+Bazaar,+Dehradun" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -440,7 +458,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Dehradun openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Dehradun students</div></a>
@@ -456,6 +474,69 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Dehradun?</h3><p>Dehradun (DDN) is the railway terminus from Delhi, Jolly Grant airport (DED) ~25 km, and buses climb onward to the hills.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Dehradun</h2>
+    <p class="nm-sub">Distances are from Dehradun's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Darbar+Sahib+Sri+Guru+Ram+Rai+Maharaja,+Dehradun,+India" target="_blank" rel="noopener">Darbar Sahib Sri Guru Ram Rai Maharaja</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jhanda+g+Darbar+sahib,+Dehradun,+India" target="_blank" rel="noopener">Jhanda g Darbar sahib</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Laxminarayan+mandir,+Dehradun,+India" target="_blank" rel="noopener">Laxminarayan mandir</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shani+Dev+Temple,+Dehradun,+India" target="_blank" rel="noopener">Shani Dev Temple</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiv+Mandir,+Dehradun,+India" target="_blank" rel="noopener">Shiv Mandir</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shiva+Temple,+Dehradun,+India" target="_blank" rel="noopener">Shiva Temple</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Government+Doon+Hospital,+Dehradun,+India" target="_blank" rel="noopener">Government Doon Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=wedding+by+fourth+munky,+Dehradun,+India" target="_blank" rel="noopener">wedding by fourth munky</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=CMI,+Dehradun,+India" target="_blank" rel="noopener">CMI</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Heart+Clinic,+Dehradun,+India" target="_blank" rel="noopener">Heart Clinic</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Mahant+Indiresh+Hospital,+Dehradun,+India" target="_blank" rel="noopener">Shri Mahant Indiresh Hospital</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=General+Hospital,+Dehradun,+India" target="_blank" rel="noopener">General Hospital</a><span>1.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Guru+Nanak+Inter+college,+Dehradun,+India" target="_blank" rel="noopener">Guru Nanak Inter college</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Convent+of+Jesus+&+Mary,+Dehradun,+India" target="_blank" rel="noopener">Convent of Jesus & Mary</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dehradun+College+of+Art,+Dehradun,+India" target="_blank" rel="noopener">Dehradun College of Art</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Doon+Girls,+Dehradun,+India" target="_blank" rel="noopener">Doon Girls</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Col.+Brown+Cambridge+Scool,+Dehradun,+India" target="_blank" rel="noopener">Col. Brown Cambridge Scool</a><span>2.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Summer+Valley,+Dehradun,+India" target="_blank" rel="noopener">Summer Valley</a><span>2.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Royal,+Dehradun,+India" target="_blank" rel="noopener">Hotel Royal</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Park+View+Premium,+Dehradun,+India" target="_blank" rel="noopener">Hotel Park View Premium</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Central+Palace,+Dehradun,+India" target="_blank" rel="noopener">Hotel Central Palace</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pacific+Hotel,+Dehradun,+India" target="_blank" rel="noopener">Pacific Hotel</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramada+Dehradun+Chakrata+Road,+Dehradun,+India" target="_blank" rel="noopener">Ramada Dehradun Chakrata Road</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Soho,+Dehradun,+India" target="_blank" rel="noopener">Soho</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=JHANDA+MOHALLA,+Dehradun,+India" target="_blank" rel="noopener">JHANDA MOHALLA</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=RAM+LEELA+BAZAR,+Dehradun,+India" target="_blank" rel="noopener">RAM LEELA BAZAR</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabzi+Mandi,+Dehradun,+India" target="_blank" rel="noopener">Sabzi Mandi</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rama+Market,+Dehradun,+India" target="_blank" rel="noopener">Rama Market</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tibetan+market,+Dehradun,+India" target="_blank" rel="noopener">Tibetan market</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Local+Vegetable+Market,+Dehradun,+India" target="_blank" rel="noopener">Local Vegetable Market</a><span>2.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mussoorie+Bus+Stand,+Dehradun,+India" target="_blank" rel="noopener">Mussoorie Bus Stand</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shastradhara+bus+stand,+Dehradun,+India" target="_blank" rel="noopener">Shastradhara bus stand</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISBT+Dehradun,+Dehradun,+India" target="_blank" rel="noopener">ISBT Dehradun</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=#5+tuktuk+to+bus+going+Musoorie,+Dehradun,+India" target="_blank" rel="noopener">#5 tuktuk to bus going Musoorie</a><span>4.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="30.3165" data-lon="78.0322">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -533,7 +614,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try dehradun" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

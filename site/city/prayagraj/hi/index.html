@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">30.8°C</div><div class="live-sub">लगभग साफ · नमी 53% · हवा 4.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">30.6°C</div><div class="live-sub">साफ आसमान · नमी 54% · हवा 5.6 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">131</div><div class="live-sub">US AQI 131 · संवेदनशीलों के लिए अस्वस्थ</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">130</div><div class="live-sub">US AQI 130 · संवेदनशीलों के लिए अस्वस्थ</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>मेला-मैदान से परे प्रयागराज — क़िले का बरगद, मुग़ल बग़ीचे-मक़बरे, गॉथिक गिरजाघर और सिविल लाइंस के मैदान।</p></div>
+  <div class="section-head"><h2>प्रयागराज में छिपी और विरासत जगहें</h2><p>मेला-मैदान से परे प्रयागराज — क़िले का बरगद, मुग़ल बग़ीचे-मक़बरे, गॉथिक गिरजाघर और सिविल लाइंस के मैदान।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">इलाहाबाद क़िला · नदी किनारे</div><h3>अक्षयवट व पातालपुरी</h3><p>अमर कहा जाने वाला बरगद, क़िले के भीतर भूमिगत मंदिर के ऊपर — पास ही अशोक के शिलालेख; सेना के गेट से प्रवेश की अनुमति ज़रूरी।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Allahabad+Fort,+Prayagraj" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">संगम · दूसरा किनारा</div><h3>अराइल घाट</h3><p>मेला-भीड़ से परे का तट — शांत सीढ़ियाँ, गाँव की फ़ेरी और गंगा में घुलती यमुना।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Arail+Ghat,+Prayagraj" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -361,7 +379,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>प्रयागराज शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>प्रयागराज के पास घूमने की जगहें (वीकेंड)</h2><p>प्रयागराज शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>वाराणसी</b><span>घाट · सारनाथ · काशी</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Varanasi,+Uttar+Pradesh" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~125 किमी</div></div>
     <div class="trip"><div class="name"><b>चित्रकूट</b><span>राम-वन तीर्थ</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chitrakoot,+Uttar+Pradesh" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~130 किमी</div></div>
@@ -372,7 +390,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>प्रयागराज में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -392,7 +410,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 उत्तर भारतीय शहर · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>संगम का शहर वास्तव में किससे चलता है — अदालतें, कैंपस, दोआब और मेला।</p></div>
+  <div class="section-head"><h2>प्रयागराज की अर्थव्यवस्था किससे चलती है</h2><p>संगम का शहर वास्तव में किससे चलता है — अदालतें, कैंपस, दोआब और मेला।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">तीर्थ अर्थव्यवस्था</div><h3>संगम व मेला व्यापार</h3><p>नाव, टेंट, रसोई और श्रमदान की व्यवस्था — माघ मेला और कुंभ-चक्र पूरे मौसमी उद्योग को चलाते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sangam,+Prayagraj" target="_blank" rel="noopener">मेला पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">शिक्षा</div><h3>इलाहाबाद विश्वविद्यालय</h3><p>1887 का विश्वविद्यालय, जिसे ऑक्सफ़र्ड ऑफ़ द ईस्ट कहा जाता था — विभाग, छात्रावास और कटरा-टैगोर टाउन तक फैली कोचिंग अर्थव्यवस्था।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=University+of+Allahabad,+Prayagraj" target="_blank" rel="noopener">कैंपस ↗</a></div></div>
@@ -406,7 +424,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पूरी-सब्ज़ी की सुबह, पुरानी मिठाई काउंटर और नदी किनारे की चाय।</p></div>
+  <div class="section-head"><h2>प्रयागराज में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पूरी-सब्ज़ी की सुबह, पुरानी मिठाई काउंटर और नदी किनारे की चाय।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">सुबह की रस्म</div><h3>जॉर्ज टाउन की पूरी-सब्ज़ी</h3><p>कुरकुरी पूरी, आलू-टमाटर सब्ज़ी वाले पारिवारिक नाश्ता काउंटर — शहर की तय सुबह की प्लेट, ग्यारह बजे तक ख़त्म।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=George+Town,+Prayagraj" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">मिठास व नमकीन</div><h3>नेत्रम मुलचंद व संस</h3><p>पुराने शहर की मिठाई की दुकान — शादी-तोहफ़े के लिए किलो के हिसाब से कचौरी, पेड़ा और नमकीन।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Netram+Mulchand,+Katra,+Prayagraj" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -453,6 +471,65 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>प्रयागराज कैसे पहुँचें?</h3><p>दिल्ली–हावड़ा मुख्य लाइन पर प्रयागराज जं (PRYJ), बमरौली हवाई अड्डा (IXD) ~15 किमी दूर, और NH-19 सड़क गलियारा।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — प्रयागराज</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी प्रयागराज के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Bairhana+Mosque,+प्रयागराज,+India" target="_blank" rel="noopener">New Bairhana Mosque</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=kali+mandir,+प्रयागराज,+India" target="_blank" rel="noopener">kali mandir</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maa+Kalyani+Devi+Shakti+Peeth,+प्रयागराज,+India" target="_blank" rel="noopener">Maa Kalyani Devi Shakti Peeth</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=kali+mai+ka+mandir,+प्रयागराज,+India" target="_blank" rel="noopener">kali mai ka mandir</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yamuna+Ghat,+प्रयागराज,+India" target="_blank" rel="noopener">Yamuna Ghat</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shree+Krishna+Pranaami+Mandir,+प्रयागराज,+India" target="_blank" rel="noopener">Shree Krishna Pranaami Mandir</a><span>1.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jeevan+Jyoti+Hospital,+Allahabad,+प्रयागराज,+India" target="_blank" rel="noopener">Jeevan Jyoti Hospital, Allahabad</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dwarka+Hospital,+प्रयागराज,+India" target="_blank" rel="noopener">Dwarka Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ranjana+Hospital,+प्रयागराज,+India" target="_blank" rel="noopener">Ranjana Hospital</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=S.R.N.+Hospital,+M.L.+N.+Medical+College,+प्रयागराज,+India" target="_blank" rel="noopener">S.R.N. Hospital, M.L. N. Medical College</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=gupta+medical+store,+प्रयागराज,+India" target="_blank" rel="noopener">gupta medical store</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shakuntala+Hospital,+प्रयागराज,+India" target="_blank" rel="noopener">Shakuntala Hospital</a><span>2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ECC,+प्रयागराज,+India" target="_blank" rel="noopener">ECC</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jamuna+christian+Inter+College,+प्रयागराज,+India" target="_blank" rel="noopener">Jamuna christian Inter College</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=mahila+sewa+sadan+inter+college,+प्रयागराज,+India" target="_blank" rel="noopener">mahila sewa sadan inter college</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=G+C+STUDY+POINT,+प्रयागराज,+India" target="_blank" rel="noopener">G C STUDY POINT</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=mpvm,+प्रयागराज,+India" target="_blank" rel="noopener">mpvm</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Majidia+Islamia+Inter+College,+प्रयागराज,+India" target="_blank" rel="noopener">Majidia Islamia Inter College</a><span>2.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Relax+Inn,+प्रयागराज,+India" target="_blank" rel="noopener">Relax Inn</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=sundaram+guest+house,+प्रयागराज,+India" target="_blank" rel="noopener">sundaram guest house</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=parinay+guest+house,+प्रयागराज,+India" target="_blank" rel="noopener">parinay guest house</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=akansha+garden,+प्रयागराज,+India" target="_blank" rel="noopener">akansha garden</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=akansha+garden,+प्रयागराज,+India" target="_blank" rel="noopener">akansha garden</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Arjun,+प्रयागराज,+India" target="_blank" rel="noopener">Hotel Arjun</a><span>1.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabji+Mandi,+प्रयागराज,+India" target="_blank" rel="noopener">Sabji Mandi</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Naini+Sabji+Mandi,+प्रयागराज,+India" target="_blank" rel="noopener">Naini Sabji Mandi</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sabzi+Mandi,+प्रयागराज,+India" target="_blank" rel="noopener">Sabzi Mandi</a><span>8.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Zero+Road+Bus+Stand,+प्रयागराज,+India" target="_blank" rel="noopener">Zero Road Bus Stand</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Civil+Lines+Bus+Station,+प्रयागराज,+India" target="_blank" rel="noopener">Civil Lines Bus Station</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=School+Bus+Stand,+प्रयागराज,+India" target="_blank" rel="noopener">School Bus Stand</a><span>14.1 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="25.4358" data-lon="81.8463">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

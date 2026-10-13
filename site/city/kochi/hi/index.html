@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">31.2°C</div><div class="live-sub">हल्की बूंदाबांदी · नमी 70% · हवा 15.4 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">31.1°C</div><div class="live-sub">बादल छाए · नमी 70% · हवा 15.5 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">104</div><div class="live-sub">US AQI 104 · संवेदनशीलों के लिए अस्वस्थ</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">105</div><div class="live-sub">US AQI 105 · संवेदनशीलों के लिए अस्वस्थ</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>कोच्चि की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>कोच्चि में छिपी और विरासत जगहें</h2><p>कोच्चि की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">मट्टनचेरी · पुरानी गली</div><h3>पारदेसी सिनेगॉग</h3><p>1568 की मसाला-व्यापारियों की गुरुद्वारा-शैली सिनेगॉग — हाथ से रंगे टाइल, गलत नंबर वाली घड़ी और शांत आँगन।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paradesi+Synagogue,+Mattancherry,+Kochi" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">उत्तरी द्वीप · बैकवाटर पक्ष</div><h3>बोलगट्टी द्वीप</h3><p>मैरीना वाला महल-रिसॉर्ट — रिसॉर्ट की लाइटें जलते-जलते स्थानीय बंध पर टहलते हैं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Bolgatty+Island,+Kochi" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>कोच्चि शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>कोच्चि के पास घूमने की जगहें (वीकेंड)</h2><p>कोच्चि शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>अलप्पुझा</b><span>बैकवाटर · हाउसबोट</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Alappuzha,+Kerala" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~60 किमी</div></div>
     <div class="trip"><div class="name"><b>त्रिशूर</b><span>पूरम नगरी · मंदिर</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Thrissur,+Kerala" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~60 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>कोच्चि में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 केरल बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>कोच्चि की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>कोच्चि की अर्थव्यवस्था किससे चलती है</h2><p>कोच्चि की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">बंदरगाह</div><h3>कोचिन पोर्ट व शिपबिल्डिंग</h3><p>विलिंगडन पट्टी — शिप रिपेयर, रिफ़िट और कार्गो जिसने केरल का पुराना आधुनिक बंदरगाह बनाया।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Cochin+Shipyard,+Kochi" target="_blank" rel="noopener">बंदरगाह पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">निर्यात</div><h3>समुद्री-भोजन व मसाला व्यापार</h3><p>काली मिर्च, इलायची और जमे हुए झींगे मट्टनचेरी गोदामों से दुनिया की मेज़ों तक।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mattancherry,+Kochi" target="_blank" rel="noopener">निर्यात लेन ↗</a></div></div>
@@ -402,7 +420,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>कोच्चि में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">आर्ट कैफ़े</div><h3>काशी आर्ट कैफ़े</h3><p>फ़ोर्ट कोच्चि का संस्थान — पेड़ के नीचे करी, गैलरी दीवारें और यात्रियों के नोटिस-बोर्ड।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kashi+Art+Café,+Fort+Kochi,+Kochi" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">पुट्टू काउंटर</div><h3>ढे पुट्टू</h3><p>दर्ज़न शैलियों में भाप-पका पुट्टू — केरल के नाश्ते की थाली टेस्टिंग-मेन्यू की तरह।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Dhe+Puttu,+Kochi" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -447,6 +465,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>कोच्चि कैसे पहुँचें?</h3><p>दक्षिण भारत की मुख्य लाइन पर एर्नाकुलम जंक्शन (ERS), कोचिन इंटरनेशनल हवाई अड्डा (COK) ~30 किमी, और शहर के लिए कोच्चि मेट्रो।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — कोच्चि</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी कोच्चि के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Andrews+Parish+Hall,+कोच्चि,+India" target="_blank" rel="noopener">St. Andrews Parish Hall</a><span>4.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sree+Kumareswara+Subrahmanya+Temple,+कोच्चि,+India" target="_blank" rel="noopener">Sree Kumareswara Subrahmanya Temple</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Juma+Masjid,+कोच्चि,+India" target="_blank" rel="noopener">Juma Masjid</a><span>5.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Subrahmanian+Temple,+कोच्चि,+India" target="_blank" rel="noopener">Subrahmanian Temple</a><span>6.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.Antony's+chapel,+कोच्चि,+India" target="_blank" rel="noopener">St.Antony's chapel</a><span>6.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maddathil+Parambil+Temple,+कोच्चि,+India" target="_blank" rel="noopener">Maddathil Parambil Temple</a><span>6.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gautham+Hospital,+कोच्चि,+India" target="_blank" rel="noopener">Gautham Hospital</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Laxmi+Hospital,+कोच्चि,+India" target="_blank" rel="noopener">Laxmi Hospital</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nettoor+Primary+Health+Center,+कोच्चि,+India" target="_blank" rel="noopener">Nettoor Primary Health Center</a><span>5.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Akshaya+Hospital,+कोच्चि,+India" target="_blank" rel="noopener">Akshaya Hospital</a><span>5.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Al+Shifa+Hospital,+कोच्चि,+India" target="_blank" rel="noopener">Al Shifa Hospital</a><span>5.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=City+Hospital,+कोच्चि,+India" target="_blank" rel="noopener">City Hospital</a><span>5.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jerly+Sir+Tution+Center,+कोच्चि,+India" target="_blank" rel="noopener">Jerly Sir Tution Center</a><span>2.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Cochin+Bala+Mandir,+कोच्चि,+India" target="_blank" rel="noopener">Sri Cochin Bala Mandir</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=National+Institute+of+Fisheries+Post+Harvest+Technology+and+,+कोच्चि,+India" target="_blank" rel="noopener">National Institute of Fisheries Post Harvest Technology and </a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fatima+Girls+High+School,+कोच्चि,+India" target="_blank" rel="noopener">Fatima Girls High School</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St+Mary's+LP+School,+कोच्चि,+India" target="_blank" rel="noopener">St Mary's LP School</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St+Teresa's+Girls+High+Shool,+कोच्चि,+India" target="_blank" rel="noopener">St Teresa's Girls High Shool</a><span>5.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Caza+Maria,+कोच्चि,+India" target="_blank" rel="noopener">Caza Maria</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Costa+Gama+Homestay,+कोच्चि,+India" target="_blank" rel="noopener">Costa Gama Homestay</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bastian+Homestay,+कोच्चि,+India" target="_blank" rel="noopener">Bastian Homestay</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chack+Inn+Home+Stay,+कोच्चि,+India" target="_blank" rel="noopener">Chack Inn Home Stay</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tag+und+Nacht,+कोच्चि,+India" target="_blank" rel="noopener">Tag und Nacht</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharat+Hotel,+कोच्चि,+India" target="_blank" rel="noopener">Bharat Hotel</a><span>4.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Market,+कोच्चि,+India" target="_blank" rel="noopener">Market</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Local+fish+market,+कोच्चि,+India" target="_blank" rel="noopener">Local fish market</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Corporation+Market,+कोच्चि,+India" target="_blank" rel="noopener">Corporation Market</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Corporation+Market,+कोच्चि,+India" target="_blank" rel="noopener">Corporation Market</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Beach+Fresh+Fish+Stall+Market,+कोच्चि,+India" target="_blank" rel="noopener">Beach Fresh Fish Stall Market</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Cheralaayikkadavu+Market,+कोच्चि,+India" target="_blank" rel="noopener">Cheralaayikkadavu Market</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mattancherry,+कोच्चि,+India" target="_blank" rel="noopener">Mattancherry</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fort+Kochi+Bus+Stand,+कोच्चि,+India" target="_blank" rel="noopener">Fort Kochi Bus Stand</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ernakulam+Boat+Jetty,+कोच्चि,+India" target="_blank" rel="noopener">Ernakulam Boat Jetty</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vypin,+कोच्चि,+India" target="_blank" rel="noopener">Vypin</a><span>5.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lakeshore+stop,+कोच्चि,+India" target="_blank" rel="noopener">Lakeshore stop</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KSRTC+Bus+Station+Ernakulam,+कोच्चि,+India" target="_blank" rel="noopener">KSRTC Bus Station Ernakulam</a><span>5.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="9.9312" data-lon="76.2673">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

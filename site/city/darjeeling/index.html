@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Darjeeling City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Darjeeling City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Darjeeling, West Bengal — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/darjeeling/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/darjeeling/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/darjeeling/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/darjeeling/">
-<meta property="og:title" content="Darjeeling City Guide — Bharat DN">
+<meta property="og:title" content="Darjeeling City Guide — Bharat Digital Network">
 <meta property="og:description" content="Darjeeling — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/darjeeling/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">20.5°C</div><div class="live-sub">Clear sky · humidity 35% · wind 5.2 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">19.2°C</div><div class="live-sub">Clear sky · humidity 43% · wind 3.6 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">64</div><div class="live-sub">64 · Moderate</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">63</div><div class="live-sub">63 · Moderate</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Darjeeling beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Darjeeling</h2><p>Darjeeling beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">town · edge of the Mall</div><h3>Happy Valley Tea Estate</h3><p>A working garden inside the town — plucking rows, withering looms and a factory tour without the estate drive.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Happy+Valley+Tea+Estate,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">east ridge · below the hill</div><h3>Japanese Peace Pagoda</h3><p>The 1992 white stupa above the ridgeway — morning walkers, silence and a valley view few taxis stop for.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Japanese+Peace+Pagoda,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -371,7 +389,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Darjeeling.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Darjeeling</h2><p>Approximate road distances from Darjeeling.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Kurseong</b><span>tea hills · Eagle’s Crag</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kurseong,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a><div class="km">~30 km</div></div>
     <div class="trip"><div class="name"><b>Mirik</b><span>lake · orange gardens</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mirik,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a><div class="km">~49 km</div></div>
@@ -381,7 +399,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Darjeeling</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · hill-station market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Darjeeling.</p></div>
+  <div class="section-head"><h2>What runs Darjeeling's economy</h2><p>What actually runs Darjeeling.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">tea</div><h3>Darjeeling Tea Estates</h3><p>Eighty-odd gardens on the ridge — plucking seasons, auction prices and the GI label drive the hill’s calendar.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Happy+Valley+Tea+Estate,+Darjeeling" target="_blank" rel="noopener">Estate belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">tourism</div><h3>Hotels, Taxis & Guides</h3><p>Mall hotels, hill taxis and ropeway operators — the winter season is the payroll of half the town.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Darjeeling" target="_blank" rel="noopener">Mall belt ↗</a></div></div>
@@ -413,7 +431,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Darjeeling</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">since 1959</div><h3>Glenary’s</h3><p>The hill’s bakery-restaurant — breads, cakes and tea-room tables facing the Kanchenjunga side.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Glenary’s,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">shake legend</div><h3>Keventers</h3><p>The milk-shake and breakfast institution on the Mall road — paper straws and a standing queue.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Keventers,+Darjeeling" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -440,7 +458,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Darjeeling openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Darjeeling students</div></a>
@@ -456,6 +474,64 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Darjeeling?</h3><p>Nearest rail is New Jalpaiguri (NJP) ~88 km, Bagdogra airport (IXB) ~70 km, and the toy train from NJP for the slow climb.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Darjeeling</h2>
+    <p class="nm-sub">Distances are from Darjeeling's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Columba's+Church,+Darjeeling,+India" target="_blank" rel="noopener">St. Columba's Church</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Union+Church,+Darjeeling,+India" target="_blank" rel="noopener">Union Church</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Upasna+Kendra+(C.N.I),+Darjeeling,+India" target="_blank" rel="noopener">Upasna Kendra (C.N.I)</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sherpa+Monastery,+Darjeeling,+India" target="_blank" rel="noopener">Sherpa Monastery</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Japanese+Temple,+Darjeeling,+India" target="_blank" rel="noopener">Japanese Temple</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Peace+Pagoda,+Darjeeling,+India" target="_blank" rel="noopener">Peace Pagoda</a><span>1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mariam+Nursing+Home,+Darjeeling,+India" target="_blank" rel="noopener">Mariam Nursing Home</a><span>0 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yuma+Nursing+Home+and+Diagnostic+Centre+Pvt+Ltd,+Darjeeling,+India" target="_blank" rel="noopener">Yuma Nursing Home and Diagnostic Centre Pvt Ltd</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yuma+Hospital+Clinic,+Darjeeling,+India" target="_blank" rel="noopener">Yuma Hospital Clinic</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Eden+Hospital,+Darjeeling,+India" target="_blank" rel="noopener">Eden Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gjoo.+jorbunglow+Primary+Health+Center,+Darjeeling,+India" target="_blank" rel="noopener">Gjoo. jorbunglow Primary Health Center</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tukvar+Hospital,+Darjeeling,+India" target="_blank" rel="noopener">Tukvar Hospital</a><span>5.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nepali+Girls+High+School,+Darjeeling,+India" target="_blank" rel="noopener">Nepali Girls High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nepali+Girls+High+School,+Darjeeling,+India" target="_blank" rel="noopener">Nepali Girls High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maharani+Girls'+High+School,+Darjeeling,+India" target="_blank" rel="noopener">Maharani Girls' High School</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bethany+school,+Darjeeling,+India" target="_blank" rel="noopener">Bethany school</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Turnbull+High+School,+Darjeeling,+India" target="_blank" rel="noopener">Turnbull High School</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Pauls+School,+Darjeeling,+India" target="_blank" rel="noopener">St. Pauls School</a><span>400 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Swiss+Hotel,+Darjeeling,+India" target="_blank" rel="noopener">Swiss Hotel</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Pradhan,+Darjeeling,+India" target="_blank" rel="noopener">Hotel Pradhan</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Muscatel+BhumSang,+Darjeeling,+India" target="_blank" rel="noopener">Muscatel BhumSang</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Sweet+Home,+Darjeeling,+India" target="_blank" rel="noopener">Hotel Sweet Home</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Anand+Palace,+Darjeeling,+India" target="_blank" rel="noopener">Anand Palace</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Sinclair,+Darjeeling,+India" target="_blank" rel="noopener">Hotel Sinclair</a><span>500 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dargon+Market,+Darjeeling,+India" target="_blank" rel="noopener">Dargon Market</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jorethang+Market,+Darjeeling,+India" target="_blank" rel="noopener">Jorethang Market</a><span>10.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(3)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bus+and+taxi+stand,+Darjeeling,+India" target="_blank" rel="noopener">Bus and taxi stand</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=sig,daj,pelling+etc.,+Darjeeling,+India" target="_blank" rel="noopener">sig,daj,pelling etc.</a><span>10.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shared+jeeps+in+this+parking+garage,+Darjeeling,+India" target="_blank" rel="noopener">Shared jeeps in this parking garage</a><span>10.9 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="27.036" data-lon="88.2627">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -533,7 +609,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try darjeeling" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

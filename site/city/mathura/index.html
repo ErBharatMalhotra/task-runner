@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mathura City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Mathura City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Mathura, Uttar Pradesh — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/mathura/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/mathura/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/mathura/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/mathura/">
-<meta property="og:title" content="Mathura City Guide — Bharat DN">
+<meta property="og:title" content="Mathura City Guide — Bharat Digital Network">
 <meta property="og:description" content="Mathura — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/mathura/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">31.8°C</div><div class="live-sub">Clear sky · humidity 46% · wind 1.7 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">31.9°C</div><div class="live-sub">Clear sky · humidity 46% · wind 0.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">107</div><div class="live-sub">107 · Unhealthy for sensitive groups</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">106</div><div class="live-sub">106 · Unhealthy for sensitive groups</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Mathura beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Mathura</h2><p>Mathura beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">main ghat · evening</div><h3>Vishram Ghat</h3><p>The city’s principal ghat — the aarti’s full circle of lamps, boats and the pilgrim pause after Kansa.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vishram+Ghat,+Mathura" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">north · 1905 temple</div><h3>Gita Mandir</h3><p>The quiet riverside temple of the Gita’s word — sandstone pillars, fewer visitors than the janmabhoomi.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gita+Mandir,+Mathura" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Mathura.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Mathura</h2><p>Approximate road distances from Mathura.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Vrindavan</b><span>temples · Banke Bihari</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vrindavan,+Mathura" target="_blank" rel="noopener">Directions ↗</a><div class="km">~11 km</div></div>
     <div class="trip"><div class="name"><b>Deeg</b><span>water palace gardens</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Deeg,+Bharatpur" target="_blank" rel="noopener">Directions ↗</a><div class="km">~40 km</div></div>
@@ -380,7 +398,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Mathura</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -400,7 +418,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 UP pilgrimage market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Mathura.</p></div>
+  <div class="section-head"><h2>What runs Mathura's economy</h2><p>What actually runs Mathura.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">refinery</div><h3>Mathura refinery (IndianOil)</h3><p>The 1969 refinery complex on the Agra road — the city’s industrial landmark and payrolls.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mathura+Refinery,+Mathura" target="_blank" rel="noopener">Refinery belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">sweets</div><h3>Peda & sweet industry</h3><p>Khoya, sugar and peda pans — Mathura’s edible signature in the old-city katras.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Old+City,+Mathura" target="_blank" rel="noopener">Sweet lane ↗</a></div></div>
@@ -412,7 +430,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Mathura</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">peda counter</div><h3>Katra peda shops</h3><p>The khoya-peda counters of the old city — warm from the pan, packed in boxes for the road.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Old+City,+Mathura" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">breakfast rooms</div><h3>Old-city kachori shops</h3><p>Kachori-aloo and jalebi before the temple crowds — the Braj working breakfast.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Old+City,+Mathura" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -440,7 +458,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Mathura openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Mathura students</div></a>
@@ -456,6 +474,57 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Mathura?</h3><p>Mathura Jn (MTJ) on the Delhi–Mumbai main line, Agra airport (AGR) ~60 km, and the expressway — Delhi ~150 km.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Mathura</h2>
+    <p class="nm-sub">Distances are from Mathura's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Druva+tila,+Mathura,+India" target="_blank" rel="noopener">Druva tila</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramananda+Ashram,+Mathura,+India" target="_blank" rel="noopener">Ramananda Ashram</a><span>8.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Caitanya+Mahaprabhu's+Sitting+Place,+Mathura,+India" target="_blank" rel="noopener">Sri Caitanya Mahaprabhu's Sitting Place</a><span>8.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Murari+Gupta+Jagannath+Temple,+Mathura,+India" target="_blank" rel="noopener">Murari Gupta Jagannath Temple</a><span>8.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Krishna-Balaram+Temple,+Mathura,+India" target="_blank" rel="noopener">Krishna-Balaram Temple</a><span>8.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Кришна-Баларам+мандир,+Mathura,+India" target="_blank" rel="noopener">Кришна-Баларам мандир</a><span>8.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sushila+Hospital,+Mathura,+India" target="_blank" rel="noopener">Sushila Hospital</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Om+Hospital,+Mathura,+India" target="_blank" rel="noopener">Shri Om Hospital</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Krishna+Hospital,+Mathura,+India" target="_blank" rel="noopener">Shri Krishna Hospital</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vipin+Nursing+Home,+Mathura,+India" target="_blank" rel="noopener">Vipin Nursing Home</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sunayan+Eye+Centre,+Mathura,+India" target="_blank" rel="noopener">Sunayan Eye Centre</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maheshwari+Hospital+Pvt+Ltd,,+Mathura,+India" target="_blank" rel="noopener">Maheshwari Hospital Pvt Ltd,</a><span>1.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Amarnath+Girls+Degree+College,+Mathura,+India" target="_blank" rel="noopener">Amarnath Girls Degree College</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Army+Public+School,+Mathura,+India" target="_blank" rel="noopener">Army Public School</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=JAWAR,+Mathura,+India" target="_blank" rel="noopener">JAWAR</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=JAWAR,+Mathura,+India" target="_blank" rel="noopener">JAWAR</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Swami+Bon+Maharaj+College,+Mathura,+India" target="_blank" rel="noopener">Swami Bon Maharaj College</a><span>8.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Law+college,+Mathura,+India" target="_blank" rel="noopener">Law college</a><span>8.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mukund+Palace,+Mathura,+India" target="_blank" rel="noopener">Mukund Palace</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gaurav+guesthouse+1,+Mathura,+India" target="_blank" rel="noopener">Gaurav guesthouse 1</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Brijwasi+Royal,+Mathura,+India" target="_blank" rel="noopener">Brijwasi Royal</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=sheetal+agency,+Mathura,+India" target="_blank" rel="noopener">sheetal agency</a><span>1.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mystic+Palm,+Mathura,+India" target="_blank" rel="noopener">Mystic Palm</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MUKUND+VIHAR,+Mathura,+India" target="_blank" rel="noopener">MUKUND VIHAR</a><span>2.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Bus+Station,+Mathura,+India" target="_blank" rel="noopener">New Bus Station</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=old+bus+stand,+Mathura,+India" target="_blank" rel="noopener">old bus stand</a><span>1.1 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="27.4924" data-lon="77.6737">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -533,7 +602,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try mathura" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

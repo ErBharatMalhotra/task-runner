@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">18.4°C</div><div class="live-sub">आंशिक बादल · नमी 47% · हवा 10.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">17.2°C</div><div class="live-sub">आंशिक बादल · नमी 57% · हवा 9.3 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>शिमला की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>शिमला में छिपी और विरासत जगहें</h2><p>शिमला की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पूर्व पहाड़ी · मंदिर</div><h3>तारा देवी</h3><p>पाइन-रेखा के ऊपर शिखर-मंदिर — छोटी चढ़ाई, चौड़ी घाटी-दृश्य और पतली भीड़।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Tara+Devi,+Shimla" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">मॉल के नीचे · कैंटोनमेंट</div><h3>अन्नाडेल</h3><p>देवदार की खोह में पुराना मैदान — आर्मी म्यूज़ियम, क्रिकेट-पैच और शांत हरा कटोरा।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Annadale,+Shimla" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>शिमला शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>शिमला के पास घूमने की जगहें (वीकेंड)</h2><p>शिमला शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>चैल</b><span>महल · देवदार वन</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chail,+Shimla" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~30 किमी</div></div>
     <div class="trip"><div class="name"><b>नरकंडा</b><span>स्की ढलान · सेब-पट्टी</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Narkanda,+Shimla" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~60 किमी</div></div>
@@ -369,7 +387,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>शिमला में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -389,7 +407,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-3 हिल-टाउन बाज़ार · मौसमी — बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>शिमला की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>शिमला की अर्थव्यवस्था किससे चलती है</h2><p>शिमला की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>हिल पर्यटन व होटल</h3><p>बर्फ़-सीज़न के कमरे, मॉल की दुकानें और दिसंबर–जून का कैलेंडर जिस पर शहर चलता है।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Shimla" target="_blank" rel="noopener">मॉल पट्टी ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">सरकार</div><h3>राजधानी व प्रशासन</h3><p>विधानसभा, सचिवालय और न्यायालय — रिज-नगर की शासन-पगार।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Shimla,+Himachal+Pradesh" target="_blank" rel="noopener">राजधानी ↗</a></div></div>
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>शिमला में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">आइकॉन कैफ़े</div><h3>इंडियन कॉफ़ी हाउस</h3><p>मॉल का पुराना कॉफ़ी हाउस — प्लाईवुड बूथ, फ़िल्टर कॉफ़ी और राज-काल से चलती बातचीत।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Indian+Coffee+House,+Mall+Road,+Shimla" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">बेकरी पट्टी</div><h3>मॉल रोड बेकरी</h3><p>ब्राउन ब्रेड, प्लम केक और चिकन पैटीज़ — ठंडी हवा में हिल-बेकरी की खिड़कियाँ।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mall+Road,+Shimla" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -445,6 +463,67 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>शिमला कैसे पहुँचें?</h3><p>कालका से टॉय ट्रेन (90 किमी), जुब्बरहट्टी हवाई अड्डा (SLV) ~20 किमी, और चंडीगढ़ होते बसें (120 किमी)।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — शिमला</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी शिमला के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Christ+Church,+शिमला,+India" target="_blank" rel="noopener">Christ Church</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kali+Bari+Temple,+शिमला,+India" target="_blank" rel="noopener">Kali Bari Temple</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kali+Bari+Temple,+शिमला,+India" target="_blank" rel="noopener">Kali Bari Temple</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sidh+Shri+Baba+Balak+Nath+Ji+Mandir,+शिमला,+India" target="_blank" rel="noopener">Sidh Shri Baba Balak Nath Ji Mandir</a><span>1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jakhoo+Temple,+शिमला,+India" target="_blank" rel="noopener">Jakhoo Temple</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gurudwara+Kalgidhar+Sabha,+शिमला,+India" target="_blank" rel="noopener">Gurudwara Kalgidhar Sabha</a><span>1.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Grover+Dental+Clinic,+शिमला,+India" target="_blank" rel="noopener">Grover Dental Clinic</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vidya+Clinic,+शिमला,+India" target="_blank" rel="noopener">Vidya Clinic</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ripon+Hospital,+शिमला,+India" target="_blank" rel="noopener">Ripon Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tara+Devi+Hospital,+शिमला,+India" target="_blank" rel="noopener">Tara Devi Hospital</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rana+Ortho+Care+Centre,+शिमला,+India" target="_blank" rel="noopener">Rana Ortho Care Centre</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr.Jatinder+Eye+Hospital,+शिमला,+India" target="_blank" rel="noopener">Dr.Jatinder Eye Hospital</a><span>200 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School,+शिमला,+India" target="_blank" rel="noopener">Auckland House School</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=D.A.V.+Public+School,+Lakkar+Bazar,+शिमला,+India" target="_blank" rel="noopener">D.A.V. Public School, Lakkar Bazar</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lalpani+School,+शिमला,+India" target="_blank" rel="noopener">Lalpani School</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School,+शिमला,+India" target="_blank" rel="noopener">Auckland House School</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ECI+Chalet+Day+School,+शिमला,+India" target="_blank" rel="noopener">ECI Chalet Day School</a><span>700 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Auckland+House+School+(Boys),+शिमला,+India" target="_blank" rel="noopener">Auckland House School (Boys)</a><span>700 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mahamaya+Hotel+(OYO),+शिमला,+India" target="_blank" rel="noopener">Mahamaya Hotel (OYO)</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Combermere,+शिमला,+India" target="_blank" rel="noopener">Hotel Combermere</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Harmony+Hotel,+शिमला,+India" target="_blank" rel="noopener">Harmony Hotel</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Uphar,+शिमला,+India" target="_blank" rel="noopener">Hotel Uphar</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Willow+Bank,+शिमला,+India" target="_blank" rel="noopener">Hotel Willow Bank</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+White,+शिमला,+India" target="_blank" rel="noopener">Hotel White</a><span>500 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=MALL+ROAD,+शिमला,+India" target="_blank" rel="noopener">MALL ROAD</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sanjauli+Bazar,+शिमला,+India" target="_blank" rel="noopener">Sanjauli Bazar</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kasumpti+market,+शिमला,+India" target="_blank" rel="noopener">Kasumpti market</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shoghi+Market,+शिमला,+India" target="_blank" rel="noopener">Shoghi Market</a><span>8.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(4)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Old+ISBT,+शिमला,+India" target="_blank" rel="noopener">Old ISBT</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=IGMC+Bus+Station,+शिमला,+India" target="_blank" rel="noopener">IGMC Bus Station</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=khalini+busstation,+शिमला,+India" target="_blank" rel="noopener">khalini busstation</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ISBT+Shimla+(New+Bus+Stand),+शिमला,+India" target="_blank" rel="noopener">ISBT Shimla (New Bus Stand)</a><span>2.3 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="31.1048" data-lon="77.1734">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kochi City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Kochi City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Kochi, Kerala — live weather, Census 2011 population, hidden places, local facts, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/kochi/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/kochi/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/kochi/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/kochi/">
-<meta property="og:title" content="Kochi City Guide — Bharat DN">
+<meta property="og:title" content="Kochi City Guide — Bharat Digital Network">
 <meta property="og:description" content="Kochi — live weather, fast facts, hidden places and local facts.">
 <meta property="og:url" content="https://bharatdn.com/city/kochi/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,11 +305,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">31.2°C</div><div class="live-sub">Light drizzle · humidity 70% · wind 15.4 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">31.1°C</div><div class="live-sub">Overcast · humidity 70% · wind 15.5 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">104</div><div class="live-sub">104 · Unhealthy for sensitive groups</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">105</div><div class="live-sub">105 · Unhealthy for sensitive groups</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>Jobs this week</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>Kochi beyond the postcards — quiet places and lanes most guides skip.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Kochi</h2><p>Kochi beyond the postcards — quiet places and lanes most guides skip.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">Mattancherry · old lane</div><h3>Paradesi Synagogue</h3><p>The 1568 synagogue of the spice traders — hand-painted tiles, a clock that skips numbers and a quiet courtyard.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Paradesi+Synagogue,+Mattancherry,+Kochi" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">north island · backwater side</div><h3>Bolgatty Island</h3><p>A palace-turned-island resort with a marina — locals walk the bund at dusk while the resort lights come on.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Bolgatty+Island,+Kochi" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -371,7 +389,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Kochi.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Kochi</h2><p>Approximate road distances from Kochi.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Alappuzha</b><span>backwaters · houseboats</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Alappuzha,+Kerala" target="_blank" rel="noopener">Directions ↗</a><div class="km">~60 km</div></div>
     <div class="trip"><div class="name"><b>Thrissur</b><span>Pooram city · temples</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Thrissur,+Kerala" target="_blank" rel="noopener">Directions ↗</a><div class="km">~60 km</div></div>
@@ -381,7 +399,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Kochi</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -401,7 +419,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 Kerala market · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs Kochi.</p></div>
+  <div class="section-head"><h2>What runs Kochi's economy</h2><p>What actually runs Kochi.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">port</div><h3>Cochin Port & Shipbuilding</h3><p>The Willingdon belt — ship repair, refits and cargo that built Kerala’s oldest modern harbour.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Cochin+Shipyard,+Kochi" target="_blank" rel="noopener">Port belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">exports</div><h3>Seafood & Spice Trade</h3><p>Pepper, cardamom and frozen prawns move through Mattancherry godowns to the world’s tables.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Mattancherry,+Kochi" target="_blank" rel="noopener">Export lane ↗</a></div></div>
@@ -414,7 +432,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Kochi</h2><p>Where locals actually eat — local counters, classics and street institutions.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">art café</div><h3>Kashi Art Café</h3><p>The Fort Kochi institution — curries under a tree, gallery walls and travellers’ noticeboards.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kashi+Art+Café,+Fort+Kochi,+Kochi" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">puttu counter</div><h3>Dhe Puttu</h3><p>Steamed puttu in dozen styles — the Kerala breakfast dish treated like a tasting menu.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Dhe+Puttu,+Kochi" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -443,7 +461,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Kochi openings — local employers, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Kochi students</div></a>
@@ -459,6 +477,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Kochi?</h3><p>Ernakulam Junction (ERS) on the South Indian main line, Cochin International airport (COK) ~30 km, and the Kochi Metro for the city.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Kochi</h2>
+    <p class="nm-sub">Distances are from Kochi's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.+Andrews+Parish+Hall,+Kochi,+India" target="_blank" rel="noopener">St. Andrews Parish Hall</a><span>4.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sree+Kumareswara+Subrahmanya+Temple,+Kochi,+India" target="_blank" rel="noopener">Sree Kumareswara Subrahmanya Temple</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Juma+Masjid,+Kochi,+India" target="_blank" rel="noopener">Juma Masjid</a><span>5.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Subrahmanian+Temple,+Kochi,+India" target="_blank" rel="noopener">Subrahmanian Temple</a><span>6.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St.Antony's+chapel,+Kochi,+India" target="_blank" rel="noopener">St.Antony's chapel</a><span>6.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maddathil+Parambil+Temple,+Kochi,+India" target="_blank" rel="noopener">Maddathil Parambil Temple</a><span>6.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gautham+Hospital,+Kochi,+India" target="_blank" rel="noopener">Gautham Hospital</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Laxmi+Hospital,+Kochi,+India" target="_blank" rel="noopener">Laxmi Hospital</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nettoor+Primary+Health+Center,+Kochi,+India" target="_blank" rel="noopener">Nettoor Primary Health Center</a><span>5.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Akshaya+Hospital,+Kochi,+India" target="_blank" rel="noopener">Akshaya Hospital</a><span>5.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Al+Shifa+Hospital,+Kochi,+India" target="_blank" rel="noopener">Al Shifa Hospital</a><span>5.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=City+Hospital,+Kochi,+India" target="_blank" rel="noopener">City Hospital</a><span>5.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jerly+Sir+Tution+Center,+Kochi,+India" target="_blank" rel="noopener">Jerly Sir Tution Center</a><span>2.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Cochin+Bala+Mandir,+Kochi,+India" target="_blank" rel="noopener">Sri Cochin Bala Mandir</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=National+Institute+of+Fisheries+Post+Harvest+Technology+and+,+Kochi,+India" target="_blank" rel="noopener">National Institute of Fisheries Post Harvest Technology and </a><span>3.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fatima+Girls+High+School,+Kochi,+India" target="_blank" rel="noopener">Fatima Girls High School</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St+Mary's+LP+School,+Kochi,+India" target="_blank" rel="noopener">St Mary's LP School</a><span>4.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St+Teresa's+Girls+High+Shool,+Kochi,+India" target="_blank" rel="noopener">St Teresa's Girls High Shool</a><span>5.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Caza+Maria,+Kochi,+India" target="_blank" rel="noopener">Caza Maria</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Costa+Gama+Homestay,+Kochi,+India" target="_blank" rel="noopener">Costa Gama Homestay</a><span>4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bastian+Homestay,+Kochi,+India" target="_blank" rel="noopener">Bastian Homestay</a><span>4.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chack+Inn+Home+Stay,+Kochi,+India" target="_blank" rel="noopener">Chack Inn Home Stay</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Tag+und+Nacht,+Kochi,+India" target="_blank" rel="noopener">Tag und Nacht</a><span>4.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Bharat+Hotel,+Kochi,+India" target="_blank" rel="noopener">Bharat Hotel</a><span>4.3 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Market,+Kochi,+India" target="_blank" rel="noopener">Market</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Local+fish+market,+Kochi,+India" target="_blank" rel="noopener">Local fish market</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Corporation+Market,+Kochi,+India" target="_blank" rel="noopener">Corporation Market</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Corporation+Market,+Kochi,+India" target="_blank" rel="noopener">Corporation Market</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Beach+Fresh+Fish+Stall+Market,+Kochi,+India" target="_blank" rel="noopener">Beach Fresh Fish Stall Market</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Cheralaayikkadavu+Market,+Kochi,+India" target="_blank" rel="noopener">Cheralaayikkadavu Market</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mattancherry,+Kochi,+India" target="_blank" rel="noopener">Mattancherry</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fort+Kochi+Bus+Stand,+Kochi,+India" target="_blank" rel="noopener">Fort Kochi Bus Stand</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ernakulam+Boat+Jetty,+Kochi,+India" target="_blank" rel="noopener">Ernakulam Boat Jetty</a><span>4.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vypin,+Kochi,+India" target="_blank" rel="noopener">Vypin</a><span>5.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lakeshore+stop,+Kochi,+India" target="_blank" rel="noopener">Lakeshore stop</a><span>5.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=KSRTC+Bus+Station+Ernakulam,+Kochi,+India" target="_blank" rel="noopener">KSRTC Bus Station Ernakulam</a><span>5.7 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="9.9312" data-lon="76.2673">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -536,7 +619,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try kochi" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>

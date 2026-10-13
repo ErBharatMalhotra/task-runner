@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,11 +293,11 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">19.6°C</div><div class="live-sub">हल्की बूंदाबांदी · नमी 44% · हवा 6.1 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">19°C</div><div class="live-sub">आंशिक बादल · नमी 48% · हवा 5.8 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
-      <!--live:aqi--><div class="live-val">40</div><div class="live-sub">US AQI 40 · अच्छी</div><!--/live:aqi-->
+      <!--live:aqi--><div class="live-val">43</div><div class="live-sub">US AQI 43 · अच्छी</div><!--/live:aqi-->
     </div>
     <div class="live-card">
       <div class="label"><span>इस हफ़्ते नौकरियाँ</span><span class="tag" style="color:var(--blue)">● network</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>मनाली की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
+  <div class="section-head"><h2>मनाली में छिपी और विरासत जगहें</h2><p>मनाली की पोस्टकार्ड-से-परे जगहें — शांत कोने जो ज़्यादातर गाइड नहीं बताते।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">ओल्ड मनाली · देवदार वन</div><h3>हडिम्बा देवी</h3><p>यकर्ण-शंख पीठ के चारों ओर देवदार में चार-स्तरीय पगोडा — महाभारत की राक्षसी-पत्नी, यहाँ पूजित।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Hadimba+Devi,+Manali" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">नदी तट · पुराना शहर</div><h3>मनु मंदिर</h3><p>मनु — प्रलय से बचे कहे जाने वाले मनु को समर्पित दुर्लभ मंदिर — ब्यास के ऊपर सँकरी गलियाँ।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Manu+Temple,+Manali" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>मनाली शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>मनाली के पास घूमने की जगहें (वीकेंड)</h2><p>मनाली शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>सोलंग घाटी</b><span>स्की स्लोप · पैराग्लाइडिंग</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Solang,+Kullu" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~14 किमी</div></div>
     <div class="trip"><div class="name"><b>अटल सुरंग → सिस्सू</b><span>सर्दियों में खुली सुरंग · लाहौल</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sissu,+Lahaul+Spiti" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~30 किमी</div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>मनाली में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -390,7 +408,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-3 हिल बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>मनाली की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>मनाली की अर्थव्यवस्था किससे चलती है</h2><p>मनाली की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">पर्यटन</div><h3>रिसॉर्ट व होमस्टे पट्टी</h3><p>मॉल रोड होटलों से नदी-किनारे कॉटेज तक — शहर की पहली अर्थव्यवस्था।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Manali,+Himachal+Pradesh" target="_blank" rel="noopener">आतिथ्य केंद्र ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">बागवानी</div><h3>सेब व फल-पट्टी</h3><p>शहर के ऊपर चेरी, आलूबुखारा और सेब के बागान — साइडर, मुरब्बे और शरद-फ़सल।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Manali,+Himachal+Pradesh" target="_blank" rel="noopener">बागान पट्टी ↗</a></div></div>
@@ -402,7 +420,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
+  <div class="section-head"><h2>मनाली में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — पुराने ठेले और चर्चित दुकानें।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">कैफ़े पट्टी</div><h3>The Johnson’s Café</h3><p>ओल्ड मनाली का डिनर — ट्राउट, स्टेक और नदी किनारे बगीचे की मेज़ें।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=The+Johnson’s+Café,+Old+Manali" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">कैफ़े गली</div><h3>Lazy Dog</h3><p>मानलसु किनारे वुड-फ़ायर पिज़्ज़ा और रिवर-डेक — ओल्ड मनाली का मानक।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Lazy+Dog,+Manali" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -446,6 +464,62 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>मनाली कैसे पहुँचें?</h3><p>भुंतर हवाई अड्डा (KUU) ~50 किमी, जोगिंदरनगर (JDN) रेल ~85 किमी, और दिल्ली-चंडीगढ़ से रात्रि बसें।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — मनाली</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी मनाली के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gadhen+Thekcho,+मनाली,+India" target="_blank" rel="noopener">Gadhen Thekcho</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Durga+Devi+Temple,+मनाली,+India" target="_blank" rel="noopener">Durga Devi Temple</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Gatothkach+Tree+Temple,+मनाली,+India" target="_blank" rel="noopener">Gatothkach Tree Temple</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hadimba+Devi+Temple,+मनाली,+India" target="_blank" rel="noopener">Hadimba Devi Temple</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Brahma+Temple,+मनाली,+India" target="_blank" rel="noopener">Brahma Temple</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chhaibu+Devta+Idol,+मनाली,+India" target="_blank" rel="noopener">Chhaibu Devta Idol</a><span>2.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Civil+Hospital,+Manali,+मनाली,+India" target="_blank" rel="noopener">Civil Hospital, Manali</a><span>100 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Men-Tsee-Khang+Manali,+मनाली,+India" target="_blank" rel="noopener">Men-Tsee-Khang Manali</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Manu+Diagnostic+Centre+and+Hospital,+मनाली,+India" target="_blank" rel="noopener">Manu Diagnostic Centre and Hospital</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Rawat+Clinic,+मनाली,+India" target="_blank" rel="noopener">Rawat Clinic</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Mission+Hospital,+मनाली,+India" target="_blank" rel="noopener">Mission Hospital</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Dr+Behl's+Hospital,+मनाली,+India" target="_blank" rel="noopener">Dr Behl's Hospital</a><span>600 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Day+Star+School,+मनाली,+India" target="_blank" rel="noopener">Day Star School</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Manali+Model+School,+मनाली,+India" target="_blank" rel="noopener">Manali Model School</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Atal+Bihari+Vajpayee+Institute+of+Mountaineering+and+Allied+,+मनाली,+India" target="_blank" rel="noopener">Atal Bihari Vajpayee Institute of Mountaineering and Allied </a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kanyal+school,+मनाली,+India" target="_blank" rel="noopener">Kanyal school</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Delhi+Public+School,+मनाली,+India" target="_blank" rel="noopener">Delhi Public School</a><span>1.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Old+Manali+Public+School,+मनाली,+India" target="_blank" rel="noopener">Old Manali Public School</a><span>1.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chelsea,+मनाली,+India" target="_blank" rel="noopener">Chelsea</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Diamond,+मनाली,+India" target="_blank" rel="noopener">Diamond</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ambika,+मनाली,+India" target="_blank" rel="noopener">Ambika</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chandra+Bhaga,+मनाली,+India" target="_blank" rel="noopener">Chandra Bhaga</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Blue+Heaven,+मनाली,+India" target="_blank" rel="noopener">Blue Heaven</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Broadways+Inn,+मनाली,+India" target="_blank" rel="noopener">Broadways Inn</a><span>1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(1)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Manu+market,+मनाली,+India" target="_blank" rel="noopener">Manu market</a><span>600 m</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Private+Shared+Taxi+to+Leh,+मनाली,+India" target="_blank" rel="noopener">Private Shared Taxi to Leh</a><span>500 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Manali+Inter+State+Bus+Terminus,+मनाली,+India" target="_blank" rel="noopener">Manali Inter State Bus Terminus</a><span>500 m</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="32.2396" data-lon="77.1887">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -196,6 +198,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -254,7 +272,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — यह पेज खुद अपडेट होता है (मौसम · AQI · नौकरियाँ) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT -->
@@ -263,7 +281,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>मौजूदा मौसम</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">33.4°C</div><div class="live-sub">साफ आसमान · नमी 35% · हवा 5.5 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">33.7°C</div><div class="live-sub">साफ आसमान · नमी 33% · हवा 5 किमी/घं</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · हर 4 घंटे रिफ्रेश</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>वायु गुणवत्ता (AQI)</span><span class="tag">● live</span></div>
@@ -347,7 +365,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 छिपी और विरासत जगहें</h2><p>हवा महल से आगे का जयपुर — छतरियाँ, बावड़ियाँ और वो संग्रहालय जहाँ बसें नहीं रुकतीं।</p></div>
+  <div class="section-head"><h2>जयपुर में छिपी और विरासत जगहें</h2><p>हवा महल से आगे का जयपुर — छतरियाँ, बावड़ियाँ और वो संग्रहालय जहाँ बसें नहीं रुकतीं।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">आमेर के पास · गली</div><h3>पन्ना मीना की बावड़ी</h3><p>18वीं सदी की सममित सीढ़ियों वाली बावड़ी — स्थानीय अब भी यहीं ठंडक लेते हैं, सीढ़ियाँ चढ़ना आज भी वर्जित नहीं।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Panna+Meena+ka+Kund,+Jaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">नहरगढ़ की तलहटी</div><h3>गैतोर की छतरियाँ</h3><p>कचवाहा राजाओं की राजकीय छतरियाँ — किलों की पहाड़ी के नीचे शांत घाटी में नक्काशीदार संगमरमर।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Gaitor+ki+Chhatriyan,+Jaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>वीकेंड गेटअवे</h2><p>जयपुर शहर से लगभग सड़क दूरियाँ।</p></div>
+  <div class="section-head"><h2>जयपुर के पास घूमने की जगहें (वीकेंड)</h2><p>जयपुर शहर से लगभग सड़क दूरियाँ।</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>नीमराना</b><span>किला-महल · ज़िप लाइन</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Neemrana,+Alwar" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~130 किमी</div></div>
     <div class="trip"><div class="name"><b>अजमेर</b><span>अजमेर शरीफ़ · आना सागर</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ajmer,+Rajasthan" target="_blank" rel="noopener">रास्ता ↗</a><div class="km">~135 किमी</div></div>
@@ -370,7 +388,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
+  <div class="section-head"><h2>जयपुर में रहन-सहन का खर्च</h2><p>एक व्यक्ति के लिए अनुमानित मासिक खर्च — फ़ैसले से पहले स्थानीय तौर पर जाँचें।</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="रहन-सहन का खर्च">
@@ -390,7 +408,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">केवल अनुमान · टियर-2 राजधानी बाज़ार · बाज़ार डेटा से समय-समय पर अपडेट</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>प्रमुख उद्योग</h2><p>गुलाबी नगरी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
+  <div class="section-head"><h2>जयपुर की अर्थव्यवस्था किससे चलती है</h2><p>गुलाबी नगरी की अर्थव्यवस्था वास्तव में किससे चलती है।</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">विरासत अर्थव्यवस्था</div><h3>किले, महल व आतिथ्य</h3><p>आमेर, नहरगढ़ और पुराने शहर के होटल — टिकट काउंटर, गाइड और शादी-सीज़न के बैंकेट।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Amer+Fort,+Jaipur" target="_blank" rel="noopener">पुराना शहर ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">मुख्य शिल्प</div><h3>रत्न व कुंदन-मीना</h3><p>कटिंग-पॉलिशिंग-सेटिंग — जौहरी बाज़ार और एक्सपोर्ट ज़ोन से हीरे व रंगीन पत्थर।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Johari+Bazaar,+Jaipur" target="_blank" rel="noopener">आभूषण पट्टी ↗</a></div></div>
@@ -404,7 +422,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>प्रमुख रेस्तराँ और खाना</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — कचौरी ठेले, थाली संस्थान और पुरानी मिठाइयाँ।</p></div>
+  <div class="section-head"><h2>जयपुर में क्या खास खाना और रेस्तराँ</h2><p>स्थानीय लोग वास्तव में कहाँ खाते हैं — कचौरी ठेले, थाली संस्थान और पुरानी मिठाइयाँ।</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">थाली दिग्गज</div><h3>एलएमबी (लक्ष्मी मिष्ठान भंडार)</h3><p>पुराने शहर का शाकाहारी संस्थान — 1947 से दाल-बाटी-चूरमा और कचौरी वाली थाली।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=LMB,+Johari+Bazaar,+Jaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
     <div class="card"><div class="mono">कचौरी बादशाह</div><h3>रावत मिष्ठान भंडार</h3><p>स्टेशन रोड काउंटर पर प्याज़ कचौरी-इमली चटनी — दोपहर की भीड़ से पहले पहुँचिए।</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Rawat+Mishthan+Bhandar,+Jaipur" target="_blank" rel="noopener">रास्ता देखें ↗</a></div>
@@ -450,6 +468,71 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>जयपुर कैसे पहुँचें?</h3><p>दिल्ली–मुंबई मुख्य लाइन पर जयपुर जंक्शन (JP), जयपुर इंटरनेशनल हवाई अड्डा (JAI) ~12 किमी, और दिल्ली के लिए NH-48 (5–6 घंटे)।</p></div>
 
   <!-- EXPLORE MORE (आस-पास + दूरी + तुलना — client-computed) -->
+  <section class="nearme">
+    <h2>आस-पास क्या है — जयपुर</h2>
+    <p class="nm-sub">ये जानकारी OpenStreetMap से है — दूरी जयपुर के केंद्र से।</p>
+    <details class="nm-cat" open><summary>मंदिर व पूजा स्थल <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ram+Mandir,+जयपुर,+India" target="_blank" rel="noopener">Ram Mandir</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sri+Nrisinghji+Mandir,+जयपुर,+India" target="_blank" rel="noopener">Sri Nrisinghji Mandir</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sitaramji+Temple,+जयपुर,+India" target="_blank" rel="noopener">Sitaramji Temple</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Iswari+Minar+Swarga+Sali,+जयपुर,+India" target="_blank" rel="noopener">Iswari Minar Swarga Sali</a><span>3.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jain+Temple,+जयपुर,+India" target="_blank" rel="noopener">Jain Temple</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Govind+Dev+Ji+Ka+Mandir,+जयपुर,+India" target="_blank" rel="noopener">Govind Dev Ji Ka Mandir</a><span>4.1 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>अस्पताल व क्लिनिक <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ALCS:+Cosmetic+Surgery,+Hair+Transplant+&+Laser+Clinic+in+Ja,+जयपुर,+India" target="_blank" rel="noopener">ALCS: Cosmetic Surgery, Hair Transplant & Laser Clinic in Ja</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=ESIC+Hospital,+जयपुर,+India" target="_blank" rel="noopener">ESIC Hospital</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=jaipur+dental+hospital,+जयपुर,+India" target="_blank" rel="noopener">jaipur dental hospital</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sanjavani+hospital,+जयपुर,+India" target="_blank" rel="noopener">Sanjavani hospital</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=SMS+Trauma+Center,+जयपुर,+India" target="_blank" rel="noopener">SMS Trauma Center</a><span>2.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sawai+Man+Singh+Hospital,+Jaipur,+जयपुर,+India" target="_blank" rel="noopener">Sawai Man Singh Hospital, Jaipur</a><span>2.9 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>स्कूल व कॉलेज <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ajeet+Vidhya+Niketan+School,+जयपुर,+India" target="_blank" rel="noopener">Ajeet Vidhya Niketan School</a><span>800 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Yash+Vidya+Mandir,+जयपुर,+India" target="_blank" rel="noopener">Yash Vidya Mandir</a><span>1.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Maharani+School+Ground+,+Jaipur,+जयपुर,+India" target="_blank" rel="noopener">Maharani School Ground , Jaipur</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=SS+Jain+Subodh+PG+College,+जयपुर,+India" target="_blank" rel="noopener">SS Jain Subodh PG College</a><span>2.9 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=New+Pupils+Senior+Secondary+School,+जयपुर,+India" target="_blank" rel="noopener">New Pupils Senior Secondary School</a><span>3.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Subodh+Public+School,+जयपुर,+India" target="_blank" rel="noopener">Subodh Public School</a><span>3.2 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>होटल व ठहरने की जगह <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hari+Mahal+Palace,+जयपुर,+India" target="_blank" rel="noopener">Hari Mahal Palace</a><span>300 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pearl+Palace+Heritage,+जयपुर,+India" target="_blank" rel="noopener">Pearl Palace Heritage</a><span>600 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Devi+Niketan+Heritage+Hotel,+जयपुर,+India" target="_blank" rel="noopener">Devi Niketan Heritage Hotel</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pearl+Palace+Hotel,+जयपुर,+India" target="_blank" rel="noopener">Pearl Palace Hotel</a><span>900 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Devraj+Niwas+-+Boutique+Hotel,+जयपुर,+India" target="_blank" rel="noopener">Devraj Niwas - Boutique Hotel</a><span>1.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Om+Tower,+जयपुर,+India" target="_blank" rel="noopener">Hotel Om Tower</a><span>1.4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बाज़ार <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chameliwala+Market,+जयपुर,+India" target="_blank" rel="noopener">Chameliwala Market</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jayanti+Market,+जयपुर,+India" target="_blank" rel="noopener">Jayanti Market</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sindhi+Colony+Market,+जयपुर,+India" target="_blank" rel="noopener">Sindhi Colony Market</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Fruits+and+Vegetable+Market,+जयपुर,+India" target="_blank" rel="noopener">Fruits and Vegetable Market</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sikar+House+,+Jaipur,+जयपुर,+India" target="_blank" rel="noopener">Sikar House , Jaipur</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sari+market,+जयपुर,+India" target="_blank" rel="noopener">Sari market</a><span>4 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>बस व परिवहन <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=RSRTC+Bus+Depot,+जयपुर,+India" target="_blank" rel="noopener">RSRTC Bus Depot</a><span>400 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=22+Godam+Public+Bus+Stop,+जयपुर,+India" target="_blank" rel="noopener">22 Godam Public Bus Stop</a><span>1.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sindhi+Camp,+जयपुर,+India" target="_blank" rel="noopener">Sindhi Camp</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Sindhi+Camp+Bus+Stand,+जयपुर,+India" target="_blank" rel="noopener">Sindhi Camp Bus Stand</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=DoodhMandi+Bus+Stand,+जयपुर,+India" target="_blank" rel="noopener">DoodhMandi Bus Stand</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=RSRTC/Roadways+Bus+Stand,+जयपुर,+India" target="_blank" rel="noopener">RSRTC/Roadways Bus Stand</a><span>2.9 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">अंतिम अपडेट: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="26.9124" data-lon="75.7873">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">आस-पास के शहर</button>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Varanasi City Guide — Population, Weather, Hidden Places & Facts | Bharat DN</title>
+<title>Varanasi City Guide — Population, Weather, Hidden Places & Facts | Bharat Digital Network</title>
 <meta name="description" content="Varanasi, Uttar Pradesh — live weather, Census 2011 population, ghats, hidden lanes, Sarnath, cost of living and more. Auto-updating city page.">
 <link rel="canonical" href="https://bharatdn.com/city/varanasi/">
 <link rel="alternate" hreflang="en" href="https://bharatdn.com/city/varanasi/">
 <link rel="alternate" hreflang="hi" href="https://bharatdn.com/city/varanasi/hi/">
 <link rel="alternate" hreflang="x-default" href="https://bharatdn.com/city/varanasi/">
-<meta property="og:title" content="Varanasi City Guide — Bharat DN">
+<meta property="og:title" content="Varanasi City Guide — Bharat Digital Network">
 <meta property="og:description" content="Live weather, fast facts, hidden places and everything about Varanasi–Sarnath.">
 <meta property="og:url" content="https://bharatdn.com/city/varanasi/">
 <meta property="og:type" content="article">
@@ -17,6 +17,8 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
@@ -208,6 +210,22 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media (max-width:768px){.search-btn{width:32px;height:32px}.lang-menu{min-width:200px}}
 @media (max-width:560px){.nav-actions .btn-red{display:none}.nav-actions{gap:7px}}
+/* near-me (what's around — OSM POIs, baked at build time) */
+.nearme h2{margin-top:6px}
+.nm-sub{color:var(--muted);font-size:.86rem;margin:4px 0 14px}
+.nm-cat{border:1px solid var(--line-soft);border-radius:12px;margin-bottom:10px;background:var(--card-2)}
+.nm-cat summary{cursor:pointer;padding:12px 16px;font-weight:600;font-size:.95rem;list-style:none;display:flex;align-items:center;gap:8px}
+.nm-cat summary::-webkit-details-marker{display:none}
+.nm-cat summary::after{content:'+';margin-left:auto;color:var(--muted);font-weight:400}
+.nm-cat[open] summary::after{content:'–'}
+.nm-cat b{color:var(--muted);font-weight:500;font-size:.82rem}
+.nm-cat ul{list-style:none;margin:0;padding:2px 16px 12px}
+.nm-cat li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:.9rem}
+.nm-cat li:first-child{border-top:0}
+.nm-cat li a{color:var(--text);text-decoration:none}
+.nm-cat li a:hover{color:var(--red)}
+.nm-cat li span{color:var(--muted);white-space:nowrap;font-size:.82rem}
+.nm-attr{color:var(--muted);font-size:.75rem;margin-top:10px}
 <style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--red,#DC2626);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
 .skip-link:focus{left:0}</style>
@@ -266,7 +284,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <div class="live-pill"><span class="live-dot" aria-hidden="true"></span> LIVE — this page auto-updates (weather · AQI · jobs) &nbsp;·&nbsp;
-    <!--live:updated-->Updated 13 Oct, 1:38 pm IST<!--/live:updated-->
+    <!--live:updated-->Updated 13 Oct, 3:06 pm IST<!--/live:updated-->
   </div>
 
   <!-- SPONSORED SLOT (labelled per policy) -->
@@ -275,7 +293,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     <div class="sponsor-logo" aria-hidden="true">SA</div>
     <div class="sponsor-body">
       <h3>Step Ahead — IELTS & Study Abroad Coaching</h3>
-      <p>Certified trainer, small batches and honest band-score guidance — the Bharat DN network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
+      <p>Certified trainer, small batches and honest band-score guidance — the Bharat Digital Network’s founding sponsor. Online + classroom cohorts, Mon–Sat.</p>
     </div>
     <div class="sponsor-actions">
       <a class="tel" href="tel:+917417113474">Call 74171 13474</a>
@@ -287,7 +305,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="grid live-grid" style="margin-top:22px">
     <div class="live-card">
       <div class="label"><span>Weather now</span><span class="tag">● live</span></div>
-      <!--live:weather--><div class="live-val">30.8°C</div><div class="live-sub">Mostly clear · humidity 55% · wind 3.6 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
+      <!--live:weather--><div class="live-val">30.7°C</div><div class="live-sub">Mostly clear · humidity 55% · wind 3.8 km/h</div><div class="live-sub" style="font-family:var(--font-mono);font-size:.72rem">source: open-meteo · refreshes every 4h</div><!--/live:weather-->
     </div>
     <div class="live-card">
       <div class="label"><span>Air quality (AQI)</span><span class="tag">● live</span></div>
@@ -359,7 +377,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- HIDDEN PLACES -->
-  <div class="section-head"><h2>🌟 Hidden &amp; heritage places</h2><p>The Varanasi beyond the postcards — quiet ghats, stupa mounds and lanes that never make the boat brochure.</p></div>
+  <div class="section-head"><h2>Hidden &amp; heritage places in Varanasi</h2><p>The Varanasi beyond the postcards — quiet ghats, stupa mounds and lanes that never make the boat brochure.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">below Assi · south end</div><h3>Panchganga Ghat</h3><p>Where five rivers are said to meet — a quiet stretch with a crumbling Maharashtrian math and almost no footfall.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Panchganga+Ghat,+Varanasi" target="_blank" rel="noopener">Directions ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">~10 km NE · Sarnath</div><h3>Chaukhandi Stupa</h3><p>The terraced mound where the Buddha is said to have met his first disciples — brick cores of the Gupta era, still ringed by fields.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chaukhandi+Stupa,+Sarnath,+Varanasi" target="_blank" rel="noopener">Directions ↗</a></div></div>
@@ -373,7 +391,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- GETAWAYS -->
-  <div class="section-head"><h2>Weekend getaways</h2><p>Approximate road distances from Varanasi city.</p></div>
+  <div class="section-head"><h2>Weekend getaways near Varanasi</h2><p>Approximate road distances from Varanasi city.</p></div>
   <div class="card" style="padding:6px 6px">
     <div class="trip"><div class="name"><b>Sarnath</b><span>Buddhist site · Ashokan pillar</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Sarnath,+Uttar+Pradesh" target="_blank" rel="noopener">Directions ↗</a><div class="km">~10 km</div></div>
     <div class="trip"><div class="name"><b>Chunar</b><span>fort & sandstone</span></div><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Chunar,+Mirzapur" target="_blank" rel="noopener">Directions ↗</a><div class="km">~40 km</div></div>
@@ -384,7 +402,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- COST OF LIVING -->
-  <div class="section-head"><h2>Cost of living</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
+  <div class="section-head"><h2>Cost of living in Varanasi</h2><p>Indicative monthly estimates for a single person — verify locally before deciding.</p></div>
   <div class="grid g2">
     <div class="card" style="padding:6px 6px 6px">
       <table class="facts" aria-label="Cost of living">
@@ -404,7 +422,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <p class="note">Estimates only · tier-2 north-Indian city · updated with market data over time</p>
 
   <!-- INDUSTRIES -->
-  <div class="section-head"><h2>Top industries</h2><p>What actually runs the city of Kashi.</p></div>
+  <div class="section-head"><h2>What runs Varanasi's economy</h2><p>What actually runs the city of Kashi.</p></div>
   <div class="grid g3">
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">signature craft</div><h3>Banaresi Silk & Weaving</h3><p>Handloom brocade and katan silk on centuries-old looms — the old city’s economy breathes with the wedding season.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Weavers+lanes,+Madanpura,+Varanasi" target="_blank" rel="noopener">Weaver belt ↗</a></div></div>
     <div class="card place"><div class="ph"></div><div class="pb"><div class="dist">pilgrim economy</div><h3>Temple & Pooja Trade</h3><p>Pooja material, rudraksha, gangajal and prasad supply the millions who arrive by train and boat every week.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Vishwanath+Temple+Lane,+Varanasi" target="_blank" rel="noopener">Godowlia lanes ↗</a></div></div>
@@ -418,7 +436,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section-head"><h2>Top restaurants &amp; food</h2><p>Where locals actually eat — chaat counters, lassi legends and student haunts.</p></div>
+  <div class="section-head"><h2>Famous food &amp; restaurants in Varanasi</h2><p>Where locals actually eat — chaat counters, lassi legends and student haunts.</p></div>
   <div class="grid g3">
     <div class="card"><div class="mono">chaat legends</div><h3>Kashi Chat Bhandar</h3><p>Godowlia’s chhola-tikki and tamatar chaat institution — stand at the counter, eat, leave happy.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Kashi+Chat+Bhandar,+Godowlia,+Varanasi" target="_blank" rel="noopener">Directions ↗</a></div>
     <div class="card"><div class="mono">sweet & lassi</div><h3>Blue Lassi</h3><p>Thick lassi since forever — paan, mango and rabdi versions at the Pandey Ghat corner.</p><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Blue+Lassi,+Godowlia,+Varanasi" target="_blank" rel="noopener">Directions ↗</a></div>
@@ -449,7 +467,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 
   <!-- NETWORK -->
-  <div class="section-head"><h2>From the Bharat DN network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
+  <div class="section-head"><h2>From the Bharat Digital Network</h2><p>Everything this city needs, on the network's own hubs.</p></div>
   <div class="net">
     <a href="https://jobs.bharatdn.com"><div class="host">jobs.bharatdn.com</div><div class="desc">Varanasi openings — silk, tourism, education, govt. alerts</div></a>
     <a href="https://ielts.bharatdn.com"><div class="host">ielts.bharatdn.com</div><div class="desc">IELTS & study-abroad prep for Varanasi students</div></a>
@@ -465,6 +483,67 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="faq"><h3>How do I reach Varanasi?</h3><p>Varanasi Junction (BSB) on the Delhi–Howrah main line, Lal Bahadur Shastri airport (VNS) ~25 km away, and NH-2/NH-56 road links.</p></div>
 
   <!-- EXPLORE MORE (nearby + distance + compare — client-computed, no external API) -->
+  <section class="nearme">
+    <h2>What's around Varanasi</h2>
+    <p class="nm-sub">Distances are from Varanasi's centre.</p>
+    <details class="nm-cat" open><summary>Temples & worship <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shree+Shiv+Mahavir+Mandir,+Varanasi,+India" target="_blank" rel="noopener">Shree Shiv Mahavir Mandir</a><span>1.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=St+Marys+Church,+Varanasi,+India" target="_blank" rel="noopener">St Marys Church</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Pracheen+Hanumaan+Mandir+(Hindu+Temple),+Varanasi,+India" target="_blank" rel="noopener">Pracheen Hanumaan Mandir (Hindu Temple)</a><span>2.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Lal+Girja+CNI+Church,+Varanasi,+India" target="_blank" rel="noopener">Lal Girja CNI Church</a><span>2.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shayri+Mata+Temple,+Varanasi,+India" target="_blank" rel="noopener">Shayri Mata Temple</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Baba+Keenaram+Ashram,+Varanasi,+India" target="_blank" rel="noopener">Baba Keenaram Ashram</a><span>3.8 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hospitals & clinics <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Surya+Super+Speciality+Hospital,+Varanasi,+India" target="_blank" rel="noopener">Surya Super Speciality Hospital</a><span>1.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=The+Apolo+Clinic,+Varanasi,+India" target="_blank" rel="noopener">The Apolo Clinic</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Singh+Medical+And+Surgical+Centre,+Varanasi,+India" target="_blank" rel="noopener">Singh Medical And Surgical Centre</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Ramakrishna+Mission+Home+Of+Service,+Varanasi,+India" target="_blank" rel="noopener">Ramakrishna Mission Home Of Service</a><span>2.7 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Meghna+Hospital+and+Research+Center,+Varanasi,+India" target="_blank" rel="noopener">Meghna Hospital and Research Center</a><span>3.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Samvedna+Hospital,+Varanasi,+Varanasi,+India" target="_blank" rel="noopener">Samvedna Hospital, Varanasi</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Schools & colleges <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=school,+Varanasi,+India" target="_blank" rel="noopener">school</a><span>200 m</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=कैटजी,+Varanasi,+India" target="_blank" rel="noopener">कैटजी</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Martha+Root+Montessori+School,+Varanasi,+India" target="_blank" rel="noopener">Martha Root Montessori School</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=संपूर्णानंद+संस्कृत+विश्वविद्यालय,+Varanasi,+India" target="_blank" rel="noopener">संपूर्णानंद संस्कृत विश्वविद्यालय</a><span>2.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Nice+Computer+Education,+Varanasi,+India" target="_blank" rel="noopener">Nice Computer Education</a><span>3.3 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Oxford+street+convent+school,+Varanasi,+India" target="_blank" rel="noopener">Oxford street convent school</a><span>3.6 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Hotels & stays <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Ashok,+Varanasi,+India" target="_blank" rel="noopener">Hotel Ashok</a><span>1.6 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel+Varuna,+Varanasi,+India" target="_blank" rel="noopener">Hotel Varuna</a><span>1.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Clark´s+Hotel,+Varanasi,+India" target="_blank" rel="noopener">Clark´s Hotel</a><span>2.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Taj+Ganges+Varanasi,+Varanasi,+India" target="_blank" rel="noopener">Taj Ganges Varanasi</a><span>2.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Diamond+Hotel,+Varanasi,+India" target="_blank" rel="noopener">Diamond Hotel</a><span>3.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Monu+Family+Guesthouse,+Varanasi,+India" target="_blank" rel="noopener">Monu Family Guesthouse</a><span>3.7 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Markets & bazaars <b>(6)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Modular+kichen+work,+Varanasi,+India" target="_blank" rel="noopener">Modular kichen work</a><span>3.2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=BLW+Central+Market,+Varanasi,+India" target="_blank" rel="noopener">BLW Central Market</a><span>3.8 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Kailash+Prasad+supermarket,+Varanasi,+India" target="_blank" rel="noopener">Kailash Prasad supermarket</a><span>4.1 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Jalalipatti+Market,+Varanasi,+India" target="_blank" rel="noopener">Jalalipatti Market</a><span>4.4 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vegitable+Market,+Varanasi,+India" target="_blank" rel="noopener">Vegitable Market</a><span>4.5 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Vegitable+Market,+Varanasi,+India" target="_blank" rel="noopener">Vegitable Market</a><span>4.5 km</span></li>
+      </ul>
+    </details>
+    <details class="nm-cat"><summary>Bus & transport <b>(2)</b></summary>
+      <ul>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Chaudhari+Charan+Singh+Bus+Station,+Varanasi,+India" target="_blank" rel="noopener">Chaudhari Charan Singh Bus Station</a><span>2 km</span></li>
+      <li><a href="https://www.google.com/maps/dir/?api=1&destination=Red+Bus,+Varanasi,+India" target="_blank" rel="noopener">Red Bus</a><span>2.9 km</span></li>
+      </ul>
+    </details>
+    <p class="nm-attr">Last updated: 2026-10-13 · © OpenStreetMap contributors</p>
+  </section>
   <div class="card" id="exploreMore" data-lat="25.3176" data-lon="82.9739">
     <div class="exp-tabs" role="tablist">
       <button type="button" class="exp-tab on" data-tab="nearby" role="tab" aria-selected="true">Nearby city guides</button>
@@ -542,7 +621,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 </footer>
 
 <div class="search-overlay" id="searchOverlay" hidden>
-  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat DN">
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search Bharat Digital Network">
     <input type="search" id="searchInput" placeholder="Search cities & pages — try varanasi" autocomplete="off" spellcheck="false">
     <div class="search-results" id="searchResults"></div>
     <div class="search-hint"><span>Enter opens first result</span><span>Esc closes</span></div>
