@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:15:41.611Z",
+  "generatedAt": "2026-10-13T02:31:13.265Z",
   "cityGuides": 268,
   "stateHubs": 32,
   "hubs": [
@@ -55,8 +55,8 @@
   ],
   "activity": [
     {
-      "at": "2026-10-12T21:15:41.571Z",
-      "title": "pipeline run OK — 562 guides refreshed, 0 failures"
+      "at": "2026-10-13T02:31:13.224Z",
+      "title": "pipeline run OK — 549 guides refreshed, 0 failures"
     },
     {
       "at": "2026-10-12T00:00:00.000Z",
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Palani, Weir, Itanagar +10 more",
       "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
@@ -97,7 +97,7 @@
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 562 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 549 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
