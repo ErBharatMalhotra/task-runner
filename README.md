@@ -18,7 +18,9 @@ generated static output. Nothing sensitive is ever committed here — a CI gate
 | Workflow | Schedule | What it does |
 |---|---|---|
 | `run.yml` | daily + dispatch | clone private bundle → run pipelines → publish artifacts → sync results back to the private repo |
-| `ci.yml` | on push | privacy gate (no code / no secrets in this repo) |
+| `release.yml` | hourly drip | release the next queued item on its own schedule |
+| `watchdog.yml` | every 2 hours | re-dispatch a pipeline GitHub has gone quiet on (dropped crons are the real ceiling on throughput here) |
+| `ci.yml` | on push | privacy gate (no code / no secrets in this repo) + site health gate (links, canonicals, redirects, sitemap) |
 
 ## Setup
 
