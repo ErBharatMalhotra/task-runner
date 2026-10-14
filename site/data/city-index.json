@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-10-14T06:29:55.514Z",
-  "count": 281,
+  "generatedAt": "2026-10-14T08:56:11.747Z",
+  "count": 294,
   "cities": {
+    "adilabad": {
+      "name": "Adilabad",
+      "url": "https://bharatdn.com/city/adilabad/",
+      "population": 118526
+    },
+    "adoni": {
+      "name": "Adoni",
+      "url": "https://bharatdn.com/city/adoni/",
+      "population": 184625
+    },
     "agar": {
       "name": "Agar",
       "url": "https://bharatdn.com/city/agar/",
@@ -56,6 +66,11 @@
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
       "population": 103000
+    },
+    "ambarnath": {
+      "name": "Ambarnath",
+      "url": "https://bharatdn.com/city/ambarnath/",
+      "population": 253475
     },
     "ambattur": {
       "name": "Ambattur",
@@ -171,6 +186,11 @@
       "name": "Bengaluru",
       "url": "https://bharatdn.com/city/bengaluru/",
       "population": 8443675
+    },
+    "bettiah": {
+      "name": "Bettiah",
+      "url": "https://bharatdn.com/city/bettiah/",
+      "population": 132209
     },
     "bhagalpur": {
       "name": "Bhagalpur",
@@ -317,6 +337,11 @@
       "url": "https://bharatdn.com/city/darbhanga/",
       "population": 296039
     },
+    "dari": {
+      "name": "Dari",
+      "url": "https://bharatdn.com/city/dari/",
+      "population": 6405
+    },
     "darjeeling": {
       "name": "Darjeeling",
       "url": "https://bharatdn.com/city/darjeeling/",
@@ -371,6 +396,11 @@
       "name": "Dindigul",
       "url": "https://bharatdn.com/city/dindigul/",
       "population": 292512
+    },
+    "dum-dum": {
+      "name": "Dum Dum",
+      "url": "https://bharatdn.com/city/dum-dum/",
+      "population": 122719
     },
     "durg": {
       "name": "Durg",
@@ -481,6 +511,11 @@
       "name": "Gwalior",
       "url": "https://bharatdn.com/city/gwalior/",
       "population": 1102884
+    },
+    "haldia": {
+      "name": "Haldia",
+      "url": "https://bharatdn.com/city/haldia/",
+      "population": 170695
     },
     "haldwani": {
       "name": "Haldwani",
@@ -601,6 +636,11 @@
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
       "population": 344893
+    },
+    "kaithal": {
+      "name": "Kaithal",
+      "url": "https://bharatdn.com/city/kaithal/",
+      "population": 144915
     },
     "kallakurichi": {
       "name": "Kallakurichi",
@@ -806,6 +846,11 @@
       "name": "Mathura",
       "url": "https://bharatdn.com/city/mathura/",
       "population": 441386
+    },
+    "mayiladuthurai": {
+      "name": "Mayiladuthurai",
+      "url": "https://bharatdn.com/city/mayiladuthurai/",
+      "population": 86660
     },
     "meerut": {
       "name": "Meerut",
@@ -1097,6 +1142,16 @@
       "url": "https://bharatdn.com/city/rajkot/",
       "population": 1390933
     },
+    "rajpur-sonarpur": {
+      "name": "Rajpur Sonarpur",
+      "url": "https://bharatdn.com/city/rajpur-sonarpur/",
+      "population": 424368
+    },
+    "ramagundam": {
+      "name": "Ramagundam",
+      "url": "https://bharatdn.com/city/ramagundam/",
+      "population": 242979
+    },
     "rameswaram": {
       "name": "Rameswaram",
       "url": "https://bharatdn.com/city/rameswaram/",
@@ -1166,6 +1221,11 @@
       "name": "Secunderabad",
       "url": "https://bharatdn.com/city/secunderabad/",
       "population": 204182
+    },
+    "sehore": {
+      "name": "Sehore",
+      "url": "https://bharatdn.com/city/sehore/",
+      "population": 109118
     },
     "serampore": {
       "name": "Serampore",
@@ -1261,6 +1321,11 @@
       "name": "Tezpur",
       "url": "https://bharatdn.com/city/tezpur/",
       "population": 75540
+    },
+    "thalassery": {
+      "name": "Thalassery",
+      "url": "https://bharatdn.com/city/thalassery/",
+      "population": 97201
     },
     "thane": {
       "name": "Thane",

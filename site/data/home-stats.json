@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T06:29:55.720Z",
-  "cityGuides": 281,
+  "generatedAt": "2026-10-14T08:56:11.961Z",
+  "cityGuides": 294,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-14T06:29:55.678Z",
-      "title": "pipeline run OK — 432 guides refreshed, 0 failures"
+      "at": "2026-10-14T08:56:11.919Z",
+      "title": "pipeline run OK — 111 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-14T00:00:00.000Z",
+      "title": "13 city guides published — thalassery, mayiladuthurai, dari +10 more"
     },
     {
       "at": "2026-10-13T00:00:00.000Z",
@@ -73,31 +77,27 @@
     {
       "at": "2026-10-10T00:00:00.000Z",
       "title": "13 city guides published — srikalahasti, fatehpur sikri, munnar +10 more"
-    },
-    {
-      "at": "2026-10-09T00:00:00.000Z",
-      "title": "13 city guides published — tezpur, dharapuram, rameswaram +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Chidambaram, Deoband, Fazilka +10 more",
-      "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Thalassery, Mayiladuthurai, Dari +10 more",
+      "desc": "130 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "281 city guides · 32 state hubs live",
+      "title": "294 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
       "tag": "Pipeline",
       "tone": "green",
-      "title": "Pipeline run OK — 432 guides refreshed, 0 failures",
+      "title": "Pipeline run OK — 111 guides refreshed, 0 failures",
       "desc": "Every guide passes structural and fact gates before it goes live.",
       "time": "today"
     }
