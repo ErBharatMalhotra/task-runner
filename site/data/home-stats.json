@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:07:28.413Z",
+  "generatedAt": "2026-10-14T23:11:36.480Z",
   "cityGuides": 294,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-14T20:07:28.373Z",
+      "at": "2026-10-14T23:11:36.448Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Thalassery, Mayiladuthurai, Dari +10 more",
       "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
