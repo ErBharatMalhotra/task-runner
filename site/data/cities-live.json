@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-15T06:13:19.818Z",
-  "count": 294,
-  "shown": 294,
+  "generatedAt": "2026-10-15T08:30:02.676Z",
+  "count": 307,
+  "shown": 307,
   "latest": {
-    "slug": "thalassery",
-    "name": "Thalassery",
-    "lat": 11.74811,
-    "lon": 75.4929,
-    "at": "2026-10-14T08:56:11.219Z"
+    "slug": "ratnagiri",
+    "name": "Ratnagiri",
+    "lat": 16.99154,
+    "lon": 73.31022,
+    "at": "2026-10-15T08:30:02.413Z"
   },
   "cities": [
     {
@@ -971,6 +971,16 @@
       "releasedAt": "2026-09-26T11:53:46.333Z"
     },
     {
+      "slug": "maheshtala",
+      "name": "Maheshtala",
+      "state": "West Bengal",
+      "lat": 22.50862,
+      "lon": 88.25322,
+      "pop": 448317,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:02.071Z"
+    },
+    {
       "slug": "panipat",
       "name": "Panipat",
       "state": "Haryana",
@@ -1891,6 +1901,16 @@
       "releasedAt": "2026-10-13T10:53:23.461Z"
     },
     {
+      "slug": "neyveli",
+      "name": "Neyveli",
+      "state": "Tamil Nadu",
+      "lat": 11.60877,
+      "lon": 79.4994,
+      "pop": 179150,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.997Z"
+    },
+    {
       "slug": "silchar",
       "name": "Silchar",
       "state": "Assam",
@@ -2051,6 +2071,16 @@
       "releasedAt": "2026-10-11T13:27:57.701Z"
     },
     {
+      "slug": "orai",
+      "name": "Orai",
+      "state": "Uttar Pradesh",
+      "lat": 25.99023,
+      "lon": 79.45334,
+      "pop": 158265,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.494Z"
+    },
+    {
       "slug": "puri",
       "name": "Puri",
       "state": "Odisha",
@@ -2059,6 +2089,16 @@
       "pop": 157613,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:45.672Z"
+    },
+    {
+      "slug": "saharsa",
+      "name": "Saharsa",
+      "state": "Bihar",
+      "lat": 25.87498,
+      "lon": 86.59611,
+      "pop": 156540,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.705Z"
     },
     {
       "slug": "vidisha",
@@ -2079,6 +2119,16 @@
       "pop": 154886,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.818Z"
+    },
+    {
+      "slug": "nalgonda",
+      "name": "Nalgonda",
+      "state": "Telangana",
+      "lat": 17.05439,
+      "lon": 79.26707,
+      "pop": 154326,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.564Z"
     },
     {
       "slug": "hazaribagh",
@@ -2341,6 +2391,16 @@
       "releasedAt": "2026-10-11T13:50:45.660Z"
     },
     {
+      "slug": "jagdalpur",
+      "name": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "lat": 19.08136,
+      "lon": 82.02131,
+      "pop": 125463,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.636Z"
+    },
+    {
       "slug": "dum-dum",
       "name": "Dum Dum",
       "state": "West Bengal",
@@ -2401,6 +2461,16 @@
       "releasedAt": "2026-10-12T11:12:02.437Z"
     },
     {
+      "slug": "narasaraopet",
+      "name": "Narasaraopet",
+      "state": "Andhra Pradesh",
+      "lat": 16.23488,
+      "lon": 80.04927,
+      "pop": 117489,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.850Z"
+    },
+    {
       "slug": "azamgarh",
       "name": "Azamgarh",
       "state": "Uttar Pradesh",
@@ -2429,6 +2499,26 @@
       "pop": 116406,
       "tier": 2,
       "releasedAt": "2026-10-06T10:37:29.076Z"
+    },
+    {
+      "slug": "tinsukia",
+      "name": "Tinsukia",
+      "state": "Assam",
+      "lat": 27.48905,
+      "lon": 95.35992,
+      "pop": 116322,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:02.146Z"
+    },
+    {
+      "slug": "giridih",
+      "name": "Giridih",
+      "state": "Jharkhand",
+      "lat": 24.18622,
+      "lon": 86.30875,
+      "pop": 114533,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.778Z"
     },
     {
       "slug": "panaji",
@@ -2469,6 +2559,16 @@
       "pop": 111123,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.570Z"
+    },
+    {
+      "slug": "delhi-cantonment",
+      "name": "Delhi Cantonment",
+      "state": "Delhi",
+      "lat": 28.6,
+      "lon": 77.13333,
+      "pop": 110351,
+      "tier": 2,
+      "releasedAt": "2026-10-15T08:30:01.924Z"
     },
     {
       "slug": "firozpur",
@@ -2681,6 +2781,16 @@
       "releasedAt": "2026-10-13T10:53:23.731Z"
     },
     {
+      "slug": "ratnagiri",
+      "name": "Ratnagiri",
+      "state": "Maharashtra",
+      "lat": 16.99154,
+      "lon": 73.31022,
+      "pop": 76229,
+      "tier": 3,
+      "releasedAt": "2026-10-15T08:30:02.413Z"
+    },
+    {
       "slug": "tezpur",
       "name": "Tezpur",
       "state": "Assam",
@@ -2871,6 +2981,16 @@
       "releasedAt": "2026-10-07T10:28:44.468Z"
     },
     {
+      "slug": "bhatkal",
+      "name": "Bhatkal",
+      "state": "Karnataka",
+      "lat": 13.98534,
+      "lon": 74.55531,
+      "pop": 32000,
+      "tier": 3,
+      "releasedAt": "2026-10-15T08:30:02.339Z"
+    },
+    {
       "slug": "mussoorie",
       "name": "Mussoorie",
       "state": "Uttarakhand",
@@ -2899,6 +3019,16 @@
       "pop": 22249,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.038Z"
+    },
+    {
+      "slug": "banat",
+      "name": "Banat",
+      "state": "Uttar Pradesh",
+      "lat": 29.46355,
+      "lon": 77.35478,
+      "pop": 21580,
+      "tier": 3,
+      "releasedAt": "2026-10-15T08:30:02.261Z"
     },
     {
       "slug": "weir",

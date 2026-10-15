@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T06:13:20.266Z",
-  "cityGuides": 294,
+  "generatedAt": "2026-10-15T08:30:03.082Z",
+  "cityGuides": 307,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-15T06:13:20.226Z",
+      "at": "2026-10-15T08:30:03.046Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-15T00:00:00.000Z",
+      "title": "13 city guides published — ratnagiri, bhatkal, banat +10 more"
     },
     {
       "at": "2026-10-14T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-11T00:00:00.000Z",
       "title": "39 city guides published — silvassa, kannur, pollachi +36 more"
-    },
-    {
-      "at": "2026-10-10T00:00:00.000Z",
-      "title": "13 city guides published — srikalahasti, fatehpur sikri, munnar +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Thalassery, Mayiladuthurai, Dari +10 more",
-      "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Ratnagiri, Bhatkal, Banat +10 more",
+      "desc": "130 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "294 city guides · 32 state hubs live",
+      "title": "307 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

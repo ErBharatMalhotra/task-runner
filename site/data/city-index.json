@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T06:13:20.061Z",
-  "count": 294,
+  "generatedAt": "2026-10-15T08:30:02.902Z",
+  "count": 307,
   "cities": {
     "adilabad": {
       "name": "Adilabad",
@@ -157,6 +157,11 @@
       "url": "https://bharatdn.com/city/ballari/",
       "population": 410445
     },
+    "banat": {
+      "name": "Banat",
+      "url": "https://bharatdn.com/city/banat/",
+      "population": 21580
+    },
     "bardhaman": {
       "name": "Bardhaman",
       "url": "https://bharatdn.com/city/bardhaman/",
@@ -196,6 +201,11 @@
       "name": "Bhagalpur",
       "url": "https://bharatdn.com/city/bhagalpur/",
       "population": 400146
+    },
+    "bhatkal": {
+      "name": "Bhatkal",
+      "url": "https://bharatdn.com/city/bhatkal/",
+      "population": 32000
     },
     "bhavnagar": {
       "name": "Bhavnagar",
@@ -357,6 +367,11 @@
       "url": "https://bharatdn.com/city/delhi/",
       "population": 11034555
     },
+    "delhi-cantonment": {
+      "name": "Delhi Cantonment",
+      "url": "https://bharatdn.com/city/delhi-cantonment/",
+      "population": 110351
+    },
     "deoband": {
       "name": "Deoband",
       "url": "https://bharatdn.com/city/deoband/",
@@ -472,6 +487,11 @@
       "url": "https://bharatdn.com/city/ghaziabad/",
       "population": 1636069
     },
+    "giridih": {
+      "name": "Giridih",
+      "url": "https://bharatdn.com/city/giridih/",
+      "population": 114533
+    },
     "godhra": {
       "name": "Godhra",
       "url": "https://bharatdn.com/city/godhra/",
@@ -576,6 +596,11 @@
       "name": "Jabalpur",
       "url": "https://bharatdn.com/city/jabalpur/",
       "population": 1081677
+    },
+    "jagdalpur": {
+      "name": "Jagdalpur",
+      "url": "https://bharatdn.com/city/jagdalpur/",
+      "population": 125463
     },
     "jaipur": {
       "name": "Jaipur",
@@ -807,6 +832,11 @@
       "url": "https://bharatdn.com/city/madurai/",
       "population": 1017861
     },
+    "maheshtala": {
+      "name": "Maheshtala",
+      "url": "https://bharatdn.com/city/maheshtala/",
+      "population": 448317
+    },
     "malappuram": {
       "name": "Malappuram",
       "url": "https://bharatdn.com/city/malappuram/",
@@ -947,10 +977,20 @@
       "url": "https://bharatdn.com/city/najafgarh/",
       "population": 1365000
     },
+    "nalgonda": {
+      "name": "Nalgonda",
+      "url": "https://bharatdn.com/city/nalgonda/",
+      "population": 154326
+    },
     "nanded": {
       "name": "Nanded",
       "url": "https://bharatdn.com/city/nanded/",
       "population": 550564
+    },
+    "narasaraopet": {
+      "name": "Narasaraopet",
+      "url": "https://bharatdn.com/city/narasaraopet/",
+      "population": 117489
     },
     "narela": {
       "name": "Narela",
@@ -987,6 +1027,11 @@
       "url": "https://bharatdn.com/city/new-delhi/",
       "population": 317797
     },
+    "neyveli": {
+      "name": "Neyveli",
+      "url": "https://bharatdn.com/city/neyveli/",
+      "population": 179150
+    },
     "noida": {
       "name": "Noida",
       "url": "https://bharatdn.com/city/noida/",
@@ -1001,6 +1046,11 @@
       "name": "Ooty",
       "url": "https://bharatdn.com/city/ooty/",
       "population": 73365
+    },
+    "orai": {
+      "name": "Orai",
+      "url": "https://bharatdn.com/city/orai/",
+      "population": 158265
     },
     "palakkad": {
       "name": "Palakkad",
@@ -1167,6 +1217,11 @@
       "url": "https://bharatdn.com/city/ranipet/",
       "population": 264330
     },
+    "ratnagiri": {
+      "name": "Ratnagiri",
+      "url": "https://bharatdn.com/city/ratnagiri/",
+      "population": 76229
+    },
     "rishikesh": {
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
@@ -1186,6 +1241,11 @@
       "name": "Rourkela",
       "url": "https://bharatdn.com/city/rourkela/",
       "population": 273317
+    },
+    "saharsa": {
+      "name": "Saharsa",
+      "url": "https://bharatdn.com/city/saharsa/",
+      "population": 156540
     },
     "salem": {
       "name": "Salem",
@@ -1356,6 +1416,11 @@
       "name": "Thrissur",
       "url": "https://bharatdn.com/city/thrissur/",
       "population": 315957
+    },
+    "tinsukia": {
+      "name": "Tinsukia",
+      "url": "https://bharatdn.com/city/tinsukia/",
+      "population": 116322
     },
     "tiruchirappalli": {
       "name": "Tiruchirappalli",
