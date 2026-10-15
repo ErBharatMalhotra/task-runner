@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:43:55.456Z",
+  "generatedAt": "2026-10-15T14:49:27.653Z",
   "cityGuides": 307,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-15T09:43:55.413Z",
+      "at": "2026-10-15T14:49:27.612Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Ratnagiri, Bhatkal, Banat +10 more",
-      "desc": "130 published in the last 7 days, each live-verified.",
+      "desc": "117 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
