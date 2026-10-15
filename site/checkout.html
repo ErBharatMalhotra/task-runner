@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a sponsored slot — Bharat Digital Network</title>
+<meta name="description" content="Book a labelled Sponsored slot on a Bharat Digital Network city page and pay securely by UPI, card or netbanking. Founding-sponsor offer live — premium, category and basic placements.">
+<link rel="canonical" href="https://bharatdn.com/checkout">
+<meta property="og:title" content="Book a sponsored slot — Bharat Digital Network">
+<meta property="og:description" content="Pick your city, pick your placement, pay online. Every card is labelled Sponsored.">
+<meta property="og:url" content="https://bharatdn.com/checkout">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="icon" type="image/svg+xml" sizes="any" href="/assets/icons/favicon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta property="og:image" content="https://bharatdn.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bharat Digital Network — one network for all of India">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://bharatdn.com/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,500;0,600;0,700;1,600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0A0B;--bg-2:#0F0F12;--card:#141418;--line:#26262E;--line-soft:#1E1E25;--text:#F5F5F7;--muted:#9B9BA6;--dim:#6E6E7A;--red:#DC2626;--blue:#60A5FA;--green:#34D399;--amber:#FBBF24;--ease:cubic-bezier(.16,1,.3,1);--font-display:"Newsreader",Georgia,serif;--font-body:"Roboto",system-ui,sans-serif;--font-mono:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.container{width:min(860px,92%);margin-inline:auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(10,10,11,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line-soft)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.05rem}
+.nav-links{display:flex;gap:26px;font-size:.9rem;font-weight:500;color:var(--muted)}
+.nav-links a:hover{color:var(--text)}
+.page{padding:clamp(30px,5vw,60px) 0 clamp(96px,10vw,84px)}
+.kicker{font-size:.74rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+h1{font-family:var(--font-display);font-size:clamp(1.8rem,4.2vw,2.7rem);font-weight:700;line-height:1.12;letter-spacing:-.02em;margin-bottom:12px}
+.lead{color:var(--muted);font-size:1.02rem;max-width:64ch}
+.card{background:var(--card);border:1px solid var(--line-soft);border-radius:16px;padding:20px 22px;margin-top:22px}
+.card h2{font-family:var(--font-display);font-size:1.2rem;font-weight:600;margin-bottom:4px}
+.card h2 .step{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:99px;background:#1E1E25;color:var(--muted);font-family:var(--font-mono);font-size:.72rem;font-weight:700;margin-right:8px;vertical-align:1px}
+.hint{color:var(--dim);font-size:.84rem;margin-bottom:14px}
+.grid2{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+label{display:block;font-size:.78rem;font-weight:600;letter-spacing:.02em;color:var(--muted);margin-bottom:5px}
+input,select,textarea{width:100%;background:#0E0E12;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--text);font:inherit;font-size:.92rem}
+input:focus,select:focus,textarea:focus{border-color:#3A3A46;outline:none}
+textarea{min-height:74px;resize:vertical}
+.field{margin-bottom:14px}
+.tiers{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.tier{position:relative;border:1px solid var(--line);border-radius:12px;padding:13px 14px;cursor:pointer;display:block;transition:border-color 160ms ease,background 160ms ease}
+.tier:hover{border-color:#3A3A46}
+.tier input{position:absolute;opacity:0;pointer-events:none}
+.tier b{display:block;font-size:.96rem}
+.tier .was{font-family:var(--font-mono);font-size:.8rem;color:var(--dim);text-decoration:line-through;margin-top:2px}
+.tier .now{font-family:var(--font-display);font-size:1.32rem;font-weight:600;color:var(--text);line-height:1.2}
+.tier .now small{font-size:.78rem;color:var(--muted);font-family:var(--font-body);font-weight:400}
+.tier small{display:block;color:var(--dim);font-size:.78rem;margin-top:5px}
+.tier[data-on="1"]{border-color:var(--red);background:#180F11}
+.tier[data-on="1"] .now{color:#fff}
+.pill{display:inline-block;font-family:var(--font-mono);font-size:.68rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:99px;background:rgba(52,211,153,.14);color:var(--green);border:1px solid rgba(52,211,153,.28)}
+.pill.amber{background:rgba(251,191,36,.12);color:var(--amber);border-color:rgba(251,191,36,.3)}
+.terms{display:flex;gap:8px;flex-wrap:wrap}
+.termbtn{border:1px solid var(--line);background:#0E0E12;color:var(--muted);border-radius:10px;padding:8px 14px;font:inherit;font-size:.86rem;font-weight:600;cursor:pointer;text-align:left}
+.termbtn b{display:block;color:var(--text);font-size:.9rem}
+.termbtn span{font-size:.74rem;color:var(--green)}
+.termbtn[data-on="1"]{border-color:var(--red);background:#180F11;color:var(--text)}
+.offer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;background:linear-gradient(90deg,#1A1013,#141418);border:1px solid rgba(220,38,38,.35);border-radius:14px;padding:14px 18px;margin-top:20px}
+.offer b{font-family:var(--font-display);font-size:1.05rem;display:block}
+.offer p{color:var(--muted);font-size:.84rem}
+.offer .save{font-family:var(--font-display);font-size:1.6rem;font-weight:700;color:var(--green);line-height:1}
+.total{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;border-top:1px solid var(--line-soft);margin-top:18px;padding-top:14px}
+.total .was{font-family:var(--font-mono);font-size:.9rem;color:var(--dim);text-decoration:line-through}
+.total b{font-family:var(--font-display);font-size:1.7rem}
+.total small{color:var(--dim);font-size:.8rem}
+.promo{display:flex;gap:8px;align-items:flex-end;margin-top:14px}
+.promo .field{margin:0;flex:1 1 auto;max-width:260px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 24px;border-radius:10px;font-weight:600;font-size:.94rem;cursor:pointer;border:none;font-family:inherit;transition:transform 200ms var(--ease),box-shadow 200ms ease}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 10px 26px rgba(220,38,38,.35)}
+.btn-ghost{border:1px solid var(--line);background:var(--card);color:var(--text)}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;color:var(--muted);margin:16px 0 4px}
+.consent input{width:16px;height:16px;margin-top:3px;flex:0 0 auto}
+.note{color:var(--dim);font-size:.82rem}
+.status{margin-top:16px;border-radius:12px;padding:12px 14px;font-size:.9rem;display:none;border:1px solid var(--line)}
+.status[data-kind="info"]{display:block;background:#111118;color:var(--muted)}
+.status[data-kind="ok"]{display:block;border-color:rgba(52,211,153,.4);background:#0E1A15;color:#CFF7E4}
+.status[data-kind="err"]{display:block;border-color:rgba(220,38,38,.45);background:#1A0F11;color:#F6C9CE}
+.prose h2{font-family:var(--font-display);font-size:1.2rem;font-weight:600;margin:26px 0 8px}
+.prose p,.prose li{color:var(--muted);font-size:.93rem;margin-bottom:10px}
+.prose ul{padding-left:20px}
+.prose a{color:var(--blue);text-decoration:underline}
+footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:34px 0 24px;margin-top:40px}
+.foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.8rem;color:var(--dim)}
+.paybar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:12px;align-items:center;justify-content:space-between;background:rgba(15,15,18,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:10px 4% calc(10px + env(safe-area-inset-bottom))}
+.paybar .b1{font-size:.74rem;color:var(--dim);font-family:var(--font-mono)}
+.paybar .b2{font-family:var(--font-display);font-size:1.25rem;font-weight:700;line-height:1.1}
+.paybar .b3{font-size:.74rem;color:var(--green)}
+@media (max-width:768px){.nav-links{display:none}.paybar{display:flex}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="/" aria-label="Bharat Digital Network home"><img src="/assets/brand-lockup.png" alt="" width="590" height="128" style="height:30px;width:auto;display:block" decoding="async"></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/advertise">Advertise</a><a href="/#hubs">Hubs</a><a href="/contact">Contact</a>
+    </nav>
+    <div style="display:flex;gap:10px;align-items:center">
+      <a class="btn btn-ghost" href="/advertise">Rates</a>
+    </div>
+  </div>
+</header>
+
+<main class="page"><div class="container">
+  <div class="kicker">Checkout</div>
+  <h1>Book your sponsored slot</h1>
+  <p class="lead">City, placement, pay — <strong>about two minutes</strong>. UPI, card or netbanking. Your card is labelled <strong>Sponsored</strong> and carries Call, WhatsApp, Map and Website buttons. No login, no auto-renewal, and the rate is locked for the whole term you pick.</p>
+
+  <div class="offer" id="offer" hidden>
+    <div>
+      <b><span class="pill amber" id="offerBadge">OFFER</span> <span id="offerLabel"></span></b>
+      <p id="offerSub"></p>
+    </div>
+    <div style="text-align:right">
+      <div class="save" id="offerSave"></div>
+      <small class="note" id="offerEnds"></small>
+    </div>
+  </div>
+
+  <form id="form" novalidate>
+    <div class="card">
+      <h2><span class="step">1</span>Where</h2>
+      <p class="hint">Type your city — the rate depends on city size (Census 2011).</p>
+      <div class="grid2">
+        <div class="field">
+          <label for="city">City</label>
+          <input id="city" name="city" list="cityList" autocomplete="off" placeholder="e.g. Yamunanagar" required>
+          <datalist id="cityList"></datalist>
+        </div>
+        <div class="field">
+          <label id="termLabel">Term</label>
+          <div class="terms" id="terms" role="group" aria-labelledby="termLabel"></div>
+        </div>
+      </div>
+      <p class="note" id="cityNote">Start typing a city to see its rates.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="step">2</span>Placement</h2>
+      <p class="hint" id="capsHint">Caps per city keep the page useful.</p>
+      <div class="tiers" id="tiers"></div>
+    </div>
+
+    <div class="card">
+      <h2><span class="step">3</span>Your business</h2>
+      <p class="hint">This is exactly what appears on the card. A quick check happens before it goes live.</p>
+      <div class="grid2">
+        <div class="field"><label for="name">Business name</label><input id="name" name="name" maxlength="80" required></div>
+        <div class="field"><label for="cat">Category line <span class="note">(optional)</span></label><input id="cat" name="cat" maxlength="60" placeholder="Coaching · Model Town"></div>
+        <div class="field"><label for="tel">Phone</label><input id="tel" name="tel" inputmode="tel" placeholder="+91 …" required></div>
+        <div class="field"><label for="whatsapp">WhatsApp <span class="note">(optional)</span></label><input id="whatsapp" name="whatsapp" inputmode="tel"></div>
+        <div class="field"><label for="url">Website <span class="note">(optional)</span></label><input id="url" name="url" placeholder="https://…"></div>
+        <div class="field"><label for="maps">Google Maps name <span class="note">(optional)</span></label><input id="maps" name="maps" maxlength="120" placeholder="Business name, City"></div>
+      </div>
+      <div class="field"><label for="desc">Short description <span class="note">(optional, up to 200 characters)</span></label><textarea id="desc" name="desc" maxlength="200"></textarea></div>
+      <div class="grid2">
+        <div class="field"><label for="contactName">Your name</label><input id="contactName" name="contactName" maxlength="80" required></div>
+        <div class="field"><label for="email">Email <span class="note">(for the payment receipt)</span></label><input id="email" name="email" inputmode="email" required></div>
+      </div>
+
+      <div class="promo">
+        <div class="field">
+          <label for="promoCode">Promo code <span class="note">(optional)</span></label>
+          <input id="promoCode" name="promoCode" maxlength="24" placeholder="e.g. DIWALI50" autocomplete="off" style="text-transform:uppercase">
+        </div>
+        <button class="btn btn-ghost" type="button" id="applyPromo">Apply</button>
+        <span class="note" id="promoNote"></span>
+      </div>
+
+      <div class="total">
+        <span>
+          <small id="totalCaption">Total payable</small><br>
+          <span class="was" id="totalWas" hidden></span>
+          <b id="totalAmount">—</b>
+        </span>
+        <span style="text-align:right">
+          <span class="pill" id="totalSave" hidden></span><br>
+          <small id="totalNote">Server-calculated · GST extra if applicable</small>
+        </span>
+      </div>
+
+      <div class="consent">
+        <input type="checkbox" id="consent" required>
+        <label for="consent" style="font-weight:400;letter-spacing:0;color:var(--muted);margin:0">I understand the card is always labelled <strong>Sponsored</strong>, links use <code>rel="sponsored"</code> (no dofollow), buying a slot never changes what the guide says, and the placement is reviewed before it goes live.</label>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px">
+        <button class="btn btn-red" id="pay" type="submit">Pay securely</button>
+        <span class="note">Payments by Razorpay (UPI · cards · netbanking). We never see your card details.</span>
+      </div>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </div>
+  </form>
+
+  <div class="prose">
+    <h2>What happens after you pay</h2>
+    <ul>
+      <li><strong>Within the hour</strong> — your card goes live on the city page by itself. Razorpay sends the receipt on email.</li>
+      <li><strong>If something is off</strong> — we check the details on the live card. Declined categories are refunded in full.</li>
+      <li><strong>Before expiry</strong> — a renewal reminder on your WhatsApp. Unpaid slots expire on their own; no surprise charges, no auto-debit.</li>
+    </ul>
+    <h2>Not ready to pay online?</h2>
+    <p><a href="https://wa.me/919467777196?text=Advertise%20on%20Bharat%20DN%0ACity%3A%0ABusiness%3A%0APhone%2FWhatsApp%3A%0APlacement%20(premium%2Fcategory%2Flisting)%3A" target="_blank" rel="noopener">WhatsApp us</a> or write to <a href="mailto:info@bharatdn.com">info@bharatdn.com</a> — we can send a payment link or invoice instead. See <a href="/advertise">rates and rules</a>.</p>
+  </div>
+</div></main>
+
+<footer>
+  <div class="container">
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Bharat Digital Network</span>
+      <span><a href="/advertise">Advertise</a> · <a href="/contact">Contact</a> · <a href="/terms">Terms</a> · <a href="/privacy-policy">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile: the price and the pay button follow the thumb, so nobody scrolls back up to pay. -->
+<div class="paybar" id="paybar">
+  <div>
+    <div class="b1" id="barCaption">Total payable</div>
+    <div class="b2" id="barAmount">—</div>
+    <div class="b3" id="barSave"></div>
+  </div>
+  <button class="btn btn-red" type="submit" form="form" id="barPay" disabled>Pay securely</button>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var $=function(id){return document.getElementById(id)};
+  var form=$('form'), status=$('status'), pay=$('pay'), barPay=$('barPay');
+  var priced=null, cityInfo=null, cities=[], slotMeta=null, offer=null;
+  var term=6;
+  var currentOrder=null;   // the create-order response, shared with the post-payment handlers
+                           // (each .then gets its own scope — reading `order` from a later
+                           //  link threw on every successful payment before this)
+  var paid=false;          // money has moved: the pay button stays dead from then on
+
+  function say(kind,html){status.setAttribute('data-kind',kind);status.innerHTML=html;}
+  function clear(){status.removeAttribute('data-kind');status.innerHTML='';}
+  function rupees(n){return '₹'+Number(n).toLocaleString('en-IN')}
+
+  // ---- deep link + memory ---------------------------------------------------
+  // A city page or the rates page can send someone straight here with the city, the
+  // placement and the term already filled in — fewer steps between "I want this" and paid.
+  var qs=new URLSearchParams(location.search);
+  var REF=(document.referrer||'').match(/\/city\/([a-z0-9-]+)\//i);
+  var wantCity=qs.get('city')||(REF?REF[1]:'')||localStorage.getItem('bdn_city')||'';
+  var wantSlot=qs.get('slot')||'';
+  var wantMonths=Number(qs.get('months')||0);
+  var wantPromo=(qs.get('promo')||'').toUpperCase();
+
+  // ---- city picker: same published dataset the pages use (no server round-trip needed)
+  fetch('/data/cities-live.json').then(function(r){return r.json()}).then(function(j){
+    cities=(j.cities||[]).slice().sort(function(a,b){return (b.pop||0)-(a.pop||0)});
+    var dl=$('cityList');
+    dl.innerHTML=cities.slice(0,400).map(function(c){return '<option value="'+c.name+'">'+c.state+'</option>'}).join('');
+    if(wantCity){
+      var c=cityByName(wantCity);
+      if(c) loadPricing(c);
+      else $('city').value=wantCity;
+    }
+  }).catch(function(){});
+
+  function cityByName(v){
+    var q=String(v||'').trim().toLowerCase();
+    return cities.find(function(c){return String(c.name).toLowerCase()===q||String(c.slug)===q}) || null;
+  }
+
+  function selectedTier(){
+    var el=form.querySelector('input[name="slot"]:checked');
+    return el?el.value:null;
+  }
+
+  // ---- terms ---------------------------------------------------------------
+  function paintTerms(){
+    var host=$('terms');
+    host.innerHTML='';
+    (priced&&priced.terms?priced.terms:[1,3,6]).forEach(function(m){
+      var d=(priced&&priced.termDiscount&&priced.termDiscount[String(m)])||0;
+      var on=m===term;
+      var btn=document.createElement('button');
+      btn.type='button';btn.className='termbtn';btn.setAttribute('data-on',on?'1':'0');
+      btn.setAttribute('aria-pressed',on?'true':'false');
+      btn.innerHTML='<b>'+m+(m>1?' months':' month')+'</b>'+(d?'<span>extra '+Math.round(d*100)+'% off</span>':'<span style="color:var(--dim)">no prepay discount</span>');
+      btn.addEventListener('click',function(){
+        term=m;clear();refreshAll(true);
+      });
+      host.appendChild(btn);
+    });
+  }
+
+  // ---- tiers ---------------------------------------------------------------
+  function line(slot){
+    if(!priced||!priced.prices||!priced.prices[slot])return null;
+    return priced.prices[slot][String(term)]||null;
+  }
+
+  function paintTiers(){
+    var host=$('tiers');
+    if(!host.children.length||host.getAttribute('data-city')!==(cityInfo&&cityInfo.slug)){
+      // Selection pehle padho, phir markup banao: a deep link (?slot=premium) ya a tier the
+      // customer already picked must survive the rebuild — reading the radios only AFTER
+      // innerHTML left nothing selected, so "Pay" stayed disabled on a prefilled page.
+      var keep=selectedTier()||wantSlot;
+      host.setAttribute('data-city',cityInfo?cityInfo.slug:'');
+      host.innerHTML=Object.keys(slotMeta||{}).map(function(k){
+        var m=slotMeta[k];
+        return '<label class="tier" data-tier="'+k+'" data-on="0">'+
+          '<input type="radio" name="slot" value="'+k+'"'+(k===keep?' checked':'')+'>'+
+          '<b>'+m.label+'</b><span class="was" data-was>—</span><span class="now" data-now>—</span>'+
+          '<span class="pill" data-save hidden></span>'+
+          '<small>'+m.note+' · max '+m.cap+' per city</small></label>';
+      }).join('');
+    }
+    wantSlot=null;
+    var t=selectedTier();
+    [].forEach.call(host.querySelectorAll('.tier'),function(el){
+      var on=el.getAttribute('data-tier')===t;
+      el.setAttribute('data-on',on?'1':'0');
+      var r=el.querySelector('input'); if(r) r.checked=on;
+    });
+  }
+
+  function paintRates(){
+    var host=$('tiers');
+    [].forEach.call(host.querySelectorAll('.tier'),function(el){
+      var k=el.getAttribute('data-tier'), p=line(k);
+      var now=el.querySelector('[data-now]'), was=el.querySelector('[data-was]'), sv=el.querySelector('[data-save]');
+      if(!p){now.textContent='—';was.textContent='—';sv.hidden=true;return}
+      now.innerHTML=rupees(p.perMonth)+' <small>/month</small>';
+      var strike=p.standardPerMonth>p.perMonth;
+      was.textContent=strike?rupees(p.standardPerMonth)+'/month':'';was.hidden=!strike;
+      // saving is quoted for the chosen term (so the 6-month extra discount shows up too)
+      var save=p.standardTotal-p.totalRupees;
+      sv.hidden=!(save>0);sv.textContent=save>0?'SAVE '+Math.round(save/p.standardTotal*100)+'%':'';
+    });
+  }
+
+  // Ek jagah se poora repaint: term ya placement badla to purana promo total bhi
+  // clear ho jata hai (warna naye term ke saath purane discount ka number dikhta).
+  function refreshAll(recheckPromo){
+    promo=null;
+    if(!recheckPromo||!promoCode())$('promoNote').textContent='';
+    paintTerms();paintTiers();paintRates();updateTotal();
+    if(recheckPromo&&promoCode())applyPromo(true);
+  }
+
+  function updateTotal(){
+    var t=selectedTier(), p=t?line(t):null;
+    if(!p){
+      $('totalAmount').textContent='—';$('totalWas').hidden=true;$('totalSave').hidden=true;
+      pay.disabled=true;barPay.disabled=true;
+      $('barAmount').textContent='—';$('barSave').textContent='';
+      return;
+    }
+    var total=p.totalRupees, standard=p.standardTotal;
+    if(promo&&promo.applied){total=promo.totalRupees;}
+    $('totalCaption').textContent='Total payable · '+p.months+(p.months>1?' months':' month')+' · '+rupees(p.perMonth)+'/month';
+    $('totalAmount').textContent=rupees(total);
+    $('totalWas').textContent=standard>total?rupees(standard):'';$('totalWas').hidden=!(standard>total);
+    var save=standard-total, pct=standard?Math.round(save/standard*100):0;
+    $('totalSave').hidden=!(save>0);$('totalSave').textContent=save>0?'You save '+rupees(save)+' ('+pct+'%)':'';
+    $('barAmount').textContent=rupees(total);
+    $('barCaption').textContent=p.months+(p.months>1?' months':' month')+' · '+rupees(p.perMonth)+'/mo';
+    $('barSave').textContent=save>0?'save '+rupees(save)+' ('+pct+'%)':'';
+    if(!paid){pay.disabled=false;barPay.disabled=false;}
+  }
+
+  // ---- offer banner --------------------------------------------------------
+  function paintOffer(){
+    var box=$('offer');
+    if(!offer||!offer.active||!offer.label){box.hidden=true;return}
+    box.hidden=false;
+    $('offerBadge').textContent=offer.badge||'OFFER';
+    $('offerLabel').textContent=offer.label;
+    $('offerSub').textContent=offer.subline||'';
+    $('offerSave').textContent=offer.discountPct?'-'+offer.discountPct+'%':'';
+    var left=offer.daysLeft;
+    $('offerEnds').textContent=left==null?'':(left>1?'Offer ends in '+left+' days ('+offer.ends+')':left===1?'Offer ends tomorrow':'Offer ends today');
+  }
+
+  // ---- pricing load --------------------------------------------------------
+  // The server is the source of truth. If the API is unreachable we still paint the
+  // published price file so the page is readable — but payment stays blocked until the
+  // server can price the order, because only the server may decide an amount.
+  function loadPricing(city){
+    clear();
+    $('cityNote').textContent='Loading rates for '+city.name+'…';
+    if($('promoCode').value.trim())$('promoCode').value=$('promoCode').value.trim().toUpperCase();
+    return fetch('/api/pricing?city='+encodeURIComponent(city.slug)).then(function(r){
+      return r.json().then(function(j){ if(!r.ok||!j.ok) throw new Error(j.error||('HTTP '+r.status)); return j; });
+    }).then(function(j){
+      priced=j; cityInfo=city;
+      offer=j.offer||null; slotMeta=j.slots||{};
+      $('city').value=city.name;
+      try{localStorage.setItem('bdn_city',city.slug)}catch(e){}
+      $('cityNote').textContent=city.name+(city.state?', '+city.state:'')+' · tier '+j.city.tier+' city'+(j.city.pop?' · pop '+Number(j.city.pop).toLocaleString('en-IN'):'');
+      $('capsHint').textContent='Caps per city keep the page useful: '+Object.keys(slotMeta).map(function(k){return slotMeta[k].cap+' '+k}).join(' · ')+'.';
+      if(wantMonths&&(j.terms||[]).indexOf(wantMonths)>-1) term=wantMonths;
+      paintOffer();
+      refreshAll(true);
+      return;
+    }).catch(function(e){
+      return fetch('/data/pricing-live.json').then(function(r){return r.json()}).then(function(live){
+        // display-only fallback: same numbers the server would use, straight from the file
+        var tier=String((city.tier)||2);
+        priced={terms:live.terms,termDiscount:live.termDiscount,slots:live.slots,offer:live.offer,
+                prices:(live.prices[tier]||{}),city:{slug:city.slug,published:true},degraded:true};
+        cityInfo=city;offer=live.offer;slotMeta=live.slots;
+        try{localStorage.setItem('bdn_city',city.slug)}catch(err){}
+        $('city').value=city.name;
+        $('cityNote').textContent=city.name+' · rates shown from the published price list.';
+        paintOffer();refreshAll(false);
+        say('info','Prices are readable but the payment server is not answering right now, so paying is disabled. <a href="https://wa.me/919467777196" target="_blank" rel="noopener">WhatsApp us</a> and we will book it for you. ('+(e.message||e)+')');
+      }).catch(function(){
+        priced=null;paintRates();updateTotal();
+        say('err','Rates could not be loaded — try again or <a href="https://wa.me/919467777196" target="_blank" rel="noopener">message us on WhatsApp</a>. ('+(e.message||e)+')');
+      });
+    });
+  }
+
+  var cityTimer=null;
+  $('city').addEventListener('input',function(){
+    clearTimeout(cityTimer);
+    var v=$('city').value;
+    cityTimer=setTimeout(function(){
+      var c=cityByName(v);
+      if(c){ if(!cityInfo||cityInfo.slug!==c.slug) loadPricing(c); return; }
+      // half-typed or cleared: drop the previously priced city, so an order can never be
+      // created for a city the customer has moved on from
+      if(cityInfo||priced){
+        cityInfo=null;priced=null;offer=null;
+        $('offer').hidden=true;
+        $('cityNote').textContent=v.trim()?'Pick your city from the list — keep typing to search.':'Start typing a city to see its rates.';
+        $('tiers').innerHTML='';paintRates();updateTotal();
+      }
+    },300);
+  });
+  form.addEventListener('change',function(e){if(e.target.name==='slot'){clear();refreshAll(true)}});
+  updateTotal();
+
+  // ---- promo codes ---------------------------------------------------------
+  // Ek hi jagah decide hota hai: /api/pricing?promo=… (server). Page sirf dikhata hai.
+  var promo=null, promoBusy=false;
+  function promoCode(){return ($('promoCode').value||'').trim().toUpperCase()}
+
+  function applyPromo(silent){
+    var code=promoCode(), t=selectedTier();
+    if(!code){promo=null;promoVerdict=null;$('promoNote').textContent='';updateTotal();return Promise.resolve()}
+    if(!cityInfo||!t){if(!silent)$('promoNote').textContent='Pick city and placement first.';return Promise.resolve()}
+    if(promoBusy)return Promise.resolve();
+    promoBusy=true;
+    $('promoNote').textContent='Checking '+code+'…';
+    return fetch('/api/pricing?city='+encodeURIComponent(cityInfo.slug)+'&slot='+encodeURIComponent(t)+'&months='+term+'&promo='+encodeURIComponent(code))
+      .then(function(r){return r.json().then(function(j){if(!r.ok||!j.ok)throw new Error(j.error||('HTTP '+r.status));return j})})
+      .then(function(j){
+        promoBusy=false;
+        if(j.promo&&j.promo.applied){
+          promo={applied:true,code:j.promo.code,percent:j.promo.percent,totalRupees:j.promo.totalRupees};
+          $('promoNote').innerHTML='<span style="color:var(--green)">'+j.promo.code+' applied — '+j.promo.percent+'% off</span>';
+        }else{
+          promo=null;
+          $('promoNote').innerHTML='<span style="color:var(--amber)">“'+code+'” is not valid now.</span>';
+        }
+        updateTotal();
+      }).catch(function(e){
+        promoBusy=false;promo=null;
+        $('promoNote').textContent='Could not check that code ('+(e.message||e)+'). You can still pay the full price.';
+        updateTotal();
+      });
+  }
+  $('applyPromo').addEventListener('click',function(){applyPromo(false)});
+  $('promoCode').addEventListener('change',function(){applyPromo(true)});
+
+  // ---- Razorpay -------------------------------------------------------------
+  // Script is loaded on demand: the page stays fast, and no third-party script runs
+  // until someone actually intends to pay.
+  var rzpPromise=null;
+  function loadRzp(){
+    if(window.Razorpay) return Promise.resolve(window.Razorpay);
+    if(rzpPromise) return rzpPromise;
+    rzpPromise=new Promise(function(resolve,reject){
+      var s=document.createElement('script');
+      s.src='https://checkout.razorpay.com/v1/checkout.js';
+      s.onload=function(){window.Razorpay?resolve(window.Razorpay):reject(new Error('checkout script blocked'))}
+      s.onerror=function(){reject(new Error('checkout script could not be loaded — check your connection or ad-blocker'))}
+      document.head.appendChild(s);
+    });
+    return rzpPromise;
+  }
+
+  function business(){
+    return {
+      name:$('name').value.trim(), cat:$('cat').value.trim(), desc:$('desc').value.trim(),
+      tel:$('tel').value.trim(), whatsapp:$('whatsapp').value.trim(),
+      url:$('url').value.trim(), maps:$('maps').value.trim()
+    };
+  }
+
+  function busy(on,label){
+    pay.disabled=on||paid;barPay.disabled=on||paid;
+    if(label){pay.textContent=label;}
+  }
+
+  function clientErrors(){
+    if(!cityInfo) return 'Pick your city from the list (start typing to search).';
+    if(!selectedTier()) return 'Choose a placement.';
+    if(!$('name').value.trim()) return 'Business name is required.';
+    if($('tel').value.replace(/[^\d]/g,'').length<10) return 'Enter a 10-digit phone number.';
+    var email=$('email').value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return 'Enter a valid email for the receipt.';
+    if($('url').value.trim() && !/^https?:\/\/[^\s]+\.[^\s]+$/i.test($('url').value.trim())) return 'Website must be a full link starting with http(s)://';
+    if(!$('consent').checked) return 'Please confirm the placement rules.';
+    return null;
+  }
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(paid)return;
+    clear();
+    var problem=clientErrors();
+    if(problem){say('err',problem);return}
+    busy(true,'Opening checkout…');
+
+    fetch('/api/create-order',{
+      method:'POST',headers:{'content-type':'application/json'},
+      body:JSON.stringify({city:cityInfo.slug,slot:selectedTier(),months:term,promo:promoCode()||undefined,business:business()})
+    }).then(function(r){
+      return r.json().then(function(j){if(!r.ok||!j.ok) throw new Error(j.error||('HTTP '+r.status));return j});
+    }).then(function(order){
+      currentOrder=order;
+      return loadRzp().then(function(Razorpay){
+        return new Promise(function(resolve){
+          var modal=new Razorpay({
+            key:order.key_id, amount:order.amount, currency:order.currency, order_id:order.order_id,
+            name:'Bharat Digital Network',
+            description:order.slot.slot+' slot · '+order.slot.cityName+' · '+order.slot.months+' month(s)',
+            // key_id comes from our endpoint — the page has no key baked in, and never the secret
+            prefill:{name:$('contactName').value.trim(),email:$('email').value.trim(),contact:$('tel').value.trim()},
+            notes:{city:order.slot.city,slot:order.slot.slot},
+            theme:{color:'#DC2626'},
+            handler:function(resp){resolve({payment:resp})},
+            modal:{ondismiss:function(){resolve({dismissed:true})}}
+          });
+          modal.on('payment.failed',function(resp){
+            resolve({failed:(resp&&resp.error&&resp.error.description)||'Payment failed'});
+          });
+          modal.open();
+        });
+      });
+    }).then(function(out){
+      if(out.dismissed){busy(false,'Pay securely');
+        say('info','Checkout closed before payment — nothing was charged. Your details are still here when you are ready.');return}
+      if(out.failed){busy(false,'Pay securely');
+        say('err','Payment failed: '+out.failed+' — nothing was charged. You can try another method.');return}
+      var p=out.payment;                                   // {razorpay_payment_id, razorpay_order_id, razorpay_signature}
+      // Money has moved: the button stays disabled from here on. Re-enabling it would let a
+      // second click open a second order for the same slot — a second charge.
+      paid=true;pay.disabled=true;barPay.disabled=true;
+      pay.textContent='Verifying payment…';
+      barPay.textContent='Verifying…';
+      say('info','Payment received — verifying with Razorpay…');
+      return fetch('/api/verify-payment',{
+        method:'POST',headers:{'content-type':'application/json'},
+        body:JSON.stringify({
+          razorpay_order_id:p.razorpay_order_id, razorpay_payment_id:p.razorpay_payment_id, razorpay_signature:p.razorpay_signature,
+          meta:{city:currentOrder.slot.city,slot:currentOrder.slot.slot,months:currentOrder.slot.months,business:business().name,tel:business().tel}
+        })
+      }).then(function(r){return r.json().then(function(j){if(!r.ok||!j.ok) throw new Error(j.error||('HTTP '+r.status));return {j:j,p:p}})})
+        .then(function(o){
+          var j=o.j;
+          pay.textContent='Paid — going live';
+          barPay.textContent='Paid';
+          // j.amount is null when the Payments API could not be read — fall back to the total we
+          // priced, so the customer never sees a misleading ₹0 next to a real payment id
+          var shown=j.amount?j.amount/100:(currentOrder&&currentOrder.slot?currentOrder.slot.totalRupees:null);
+          say('ok','<b>Payment verified.</b> '+(shown!=null?rupees(shown)+' · ':'')+o.p.razorpay_payment_id+'<br>'+j.next+
+            '<br><a href="https://wa.me/919467777196?text='+encodeURIComponent('Paid '+o.p.razorpay_payment_id+' for '+currentOrder.slot.slot+' slot in '+currentOrder.slot.cityName)+'" target="_blank" rel="noopener">Message us on WhatsApp →</a>');
+        })
+        .catch(function(err){
+          // Payment is in, our check failed: never invite a retry of the payment itself.
+          pay.textContent='Paid — send us the id';
+          barPay.textContent='Paid';
+          say('err','Your payment went through but we could not verify it here ('+(err.message||err)+'). <b>Do not pay again.</b> Send us this id on <a href="https://wa.me/919467777196?text='+encodeURIComponent('Payment id '+p.razorpay_payment_id)+'" target="_blank" rel="noopener">WhatsApp</a> and the slot is booked: <code>'+p.razorpay_payment_id+'</code>');
+        });
+    }).catch(function(err){
+      // Nothing was charged yet (create-order, script load) — safe to offer a retry.
+      if(!paid){busy(false,'Pay securely');barPay.textContent='Pay securely';}
+      say('err','Could not start the payment: '+(err.message||err)+'. Nothing was charged — try again or <a href="https://wa.me/919467777196" target="_blank" rel="noopener">WhatsApp us</a>.');
+    });
+  });
+
+  $('year').textContent=new Date().getFullYear();
+  if(wantPromo)$('promoCode').value=wantPromo;
+})();
+</script>
+</body>
+</html>

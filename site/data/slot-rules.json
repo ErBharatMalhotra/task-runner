@@ -1,0 +1,29 @@
+{
+  "_note": "Slot ke rules — 'mere haath me' wala switch. blockedKeywords: inme se koi shabd business name/category/description me ho to order lene se pehle hi reject ho jata hai, aur payment ke baad bhi card publish nahi hota (paisa refund list me dikhta hai). autoPublish: true = payment verify hone ke baad card apne aap city page par chala jata hai (agle pipeline run me). false = order 'pending' me rukta hai, aap approve karo tab live ho.",
+  "autoPublish": true,
+  "blockedKeywords": [
+    "satta",
+    "matka",
+    "betting",
+    "casino",
+    "gambling",
+    "fantasy league",
+    "instant loan",
+    "loan app",
+    "payday",
+    "forex",
+    "binary option",
+    "guaranteed return",
+    "crypto signal",
+    "viagra",
+    "prescription",
+    "narcotic",
+    "escort",
+    "adult",
+    "weapon",
+    "firearm",
+    "tobacco",
+    "pan masala",
+    "gutkha"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_note": "RATE / OFFER CONTROL — yehi ek file sab kuch chalati hai. Yahan number badlo, phir `node engine/rates.js apply` chalao: advertise page, checkout page aur Razorpay charge, teeno apne aap match karne lagenge. `standardRate` = woh rate jo offer khatam hone ke baad lagta hai (strike-through dikhta hai). `offer.discountPct` = abhi ka discount — isi se 'kitna bacha' wala hisaab banta hai. Savings ka claim isliye sach hai kyunki standardRate asli rate hai jo offer ke baad charge hoga.",
+  "currency": "INR",
+
+  "terms": [1, 3, 6],
+  "termDiscount": { "3": 0.05, "6": 0.1 },
+
+  "slots": {
+    "premium": { "cap": 1, "label": "Premium top card", "note": "Exclusive — ek hi per city" },
+    "category": { "cap": 4, "label": "Category card", "note": "Max 4 per city" },
+    "basic": { "cap": 10, "label": "Basic listing", "note": "Max 10 per city" }
+  },
+
+  "standardRate": {
+    "1": { "premium": 4200, "category": 1600, "basic": 700 },
+    "2": { "premium": 2500, "category": 1050, "basic": 500 },
+    "3": { "premium": 1400, "category": 600, "basic": 350 }
+  },
+
+  "offer": {
+    "enabled": true,
+    "badge": "FOUNDING OFFER",
+    "label": "Founding-sponsor offer — 40% off standard rate",
+    "subline": "Book before 31 December 2026 — the rate you pay is locked for the whole term, even after the offer closes.",
+    "ends": "2026-12-31",
+    "discountPct": 40,
+    "minRate": 100
+  },
+
+  "promos": [
+    {
+      "code": "DIWALI50",
+      "percent": 50,
+      "until": "2026-11-15",
+      "enabled": false,
+      "note": "Festival coupon — checkout pe type karne par extra 50% off. enabled: true karne se live."
+    }
+  ],
+
+  "minAmountPaise": 100,
+  "maxAmountPaise": 50000000
+}
