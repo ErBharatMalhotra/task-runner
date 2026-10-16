@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T08:59:25.650Z",
+  "generatedAt": "2026-10-16T12:18:42.358Z",
   "cityGuides": 320,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-16T08:59:25.610Z",
+      "at": "2026-10-16T12:18:42.327Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Mount Abu, Tirumala, Valparai +10 more",
-      "desc": "130 published in the last 7 days, each live-verified.",
+      "desc": "117 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
