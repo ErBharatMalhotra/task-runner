@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T06:59:34.296Z",
-  "cityGuides": 307,
+  "generatedAt": "2026-10-16T08:23:38.629Z",
+  "cityGuides": 320,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-16T06:59:34.257Z",
+      "at": "2026-10-16T08:23:38.587Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-16T00:00:00.000Z",
+      "title": "13 city guides published — mount abu, tirumala, valparai +10 more"
     },
     {
       "at": "2026-10-15T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-12T00:00:00.000Z",
       "title": "13 city guides published — palani, weir, itanagar +10 more"
-    },
-    {
-      "at": "2026-10-11T00:00:00.000Z",
-      "title": "39 city guides published — silvassa, kannur, pollachi +36 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Ratnagiri, Bhatkal, Banat +10 more",
-      "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Mount Abu, Tirumala, Valparai +10 more",
+      "desc": "130 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "307 city guides · 32 state hubs live",
+      "title": "320 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

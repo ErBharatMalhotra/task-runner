@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T06:59:34.095Z",
-  "count": 307,
+  "generatedAt": "2026-10-16T08:23:38.421Z",
+  "count": 320,
   "cities": {
     "adilabad": {
       "name": "Adilabad",
@@ -137,6 +137,11 @@
       "url": "https://bharatdn.com/city/azamgarh/",
       "population": 116644
     },
+    "badlapur": {
+      "name": "Badlapur",
+      "url": "https://bharatdn.com/city/badlapur/",
+      "population": 174226
+    },
     "bahadurgarh": {
       "name": "Bahadurgarh",
       "url": "https://bharatdn.com/city/bahadurgarh/",
@@ -212,6 +217,11 @@
       "url": "https://bharatdn.com/city/bhavnagar/",
       "population": 713895
     },
+    "bhayandar": {
+      "name": "Bhayandar",
+      "url": "https://bharatdn.com/city/bhayandar/",
+      "population": 809378
+    },
     "bhilai": {
       "name": "Bhilai",
       "url": "https://bharatdn.com/city/bhilai/",
@@ -267,6 +277,11 @@
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
     },
+    "bilimora": {
+      "name": "Bilimora",
+      "url": "https://bharatdn.com/city/bilimora/",
+      "population": 510879
+    },
     "borivali": {
       "name": "Borivali",
       "url": "https://bharatdn.com/city/borivali/",
@@ -281,6 +296,11 @@
       "name": "Bulandshahr",
       "url": "https://bharatdn.com/city/bulandshahr/",
       "population": 198612
+    },
+    "buxar": {
+      "name": "Buxar",
+      "url": "https://bharatdn.com/city/buxar/",
+      "population": 102861
     },
     "chandannagar": {
       "name": "Chandannagar",
@@ -437,6 +457,11 @@
       "url": "https://bharatdn.com/city/erode/",
       "population": 521891
     },
+    "etah": {
+      "name": "Etah",
+      "url": "https://bharatdn.com/city/etah/",
+      "population": 100000
+    },
     "faizabad": {
       "name": "Faizabad",
       "url": "https://bharatdn.com/city/faizabad/",
@@ -471,6 +496,11 @@
       "name": "Firozpur",
       "url": "https://bharatdn.com/city/firozpur/",
       "population": 110313
+    },
+    "gadag-betageri": {
+      "name": "Gadag-Betageri",
+      "url": "https://bharatdn.com/city/gadag-betageri/",
+      "population": 172813
     },
     "gandhinagar": {
       "name": "Gandhinagar",
@@ -511,6 +541,11 @@
       "name": "Greater Noida",
       "url": "https://bharatdn.com/city/greater-noida/",
       "population": 293908
+    },
+    "guntakal": {
+      "name": "Guntakal",
+      "url": "https://bharatdn.com/city/guntakal/",
+      "population": 126270
     },
     "guntur": {
       "name": "Guntur",
@@ -601,6 +636,11 @@
       "name": "Jagdalpur",
       "url": "https://bharatdn.com/city/jagdalpur/",
       "population": 125463
+    },
+    "jaigaon": {
+      "name": "Jaigaon",
+      "url": "https://bharatdn.com/city/jaigaon/",
+      "population": 158664
     },
     "jaipur": {
       "name": "Jaipur",
@@ -731,6 +771,16 @@
       "name": "Kharagpur",
       "url": "https://bharatdn.com/city/kharagpur/",
       "population": 253221
+    },
+    "khurja": {
+      "name": "Khurja",
+      "url": "https://bharatdn.com/city/khurja/",
+      "population": 105909
+    },
+    "kishanganj": {
+      "name": "Kishanganj",
+      "url": "https://bharatdn.com/city/kishanganj/",
+      "population": 105782
     },
     "kishangarh": {
       "name": "Kishangarh",
@@ -906,6 +956,11 @@
       "name": "Moth",
       "url": "https://bharatdn.com/city/moth/",
       "population": 14077
+    },
+    "mount-abu": {
+      "name": "Mount Abu",
+      "url": "https://bharatdn.com/city/mount-abu/",
+      "population": 24981
     },
     "mumbai": {
       "name": "Mumbai",
@@ -1427,6 +1482,11 @@
       "url": "https://bharatdn.com/city/tiruchirappalli/",
       "population": 916674
     },
+    "tirumala": {
+      "name": "Tirumala",
+      "url": "https://bharatdn.com/city/tirumala/",
+      "population": 18013
+    },
     "tirunelveli": {
       "name": "Tirunelveli",
       "url": "https://bharatdn.com/city/tirunelveli/",
@@ -1471,6 +1531,11 @@
       "name": "Vadodara",
       "url": "https://bharatdn.com/city/vadodara/",
       "population": 1822221
+    },
+    "valparai": {
+      "name": "Valparai",
+      "url": "https://bharatdn.com/city/valparai/",
+      "population": 90353
     },
     "vapi": {
       "name": "Vapi",
