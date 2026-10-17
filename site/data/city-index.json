@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-10-17T05:56:10.720Z",
-  "count": 320,
+  "generatedAt": "2026-10-17T07:57:51.454Z",
+  "count": 333,
   "cities": {
+    "abohar": {
+      "name": "Abohar",
+      "url": "https://bharatdn.com/city/abohar/",
+      "population": 145302
+    },
     "adilabad": {
       "name": "Adilabad",
       "url": "https://bharatdn.com/city/adilabad/",
@@ -76,6 +81,11 @@
       "name": "Ambattur",
       "url": "https://bharatdn.com/city/ambattur/",
       "population": 466205
+    },
+    "ambur": {
+      "name": "Ambur",
+      "url": "https://bharatdn.com/city/ambur/",
+      "population": 114608
     },
     "amravati": {
       "name": "Amravati",
@@ -191,6 +201,11 @@
       "name": "Begusarai",
       "url": "https://bharatdn.com/city/begusarai/",
       "population": 252008
+    },
+    "belagavi": {
+      "name": "Belagavi",
+      "url": "https://bharatdn.com/city/belagavi/",
+      "population": 490045
     },
     "bengaluru": {
       "name": "Bengaluru",
@@ -377,6 +392,11 @@
       "url": "https://bharatdn.com/city/darjeeling/",
       "population": 120414
     },
+    "datia": {
+      "name": "Datia",
+      "url": "https://bharatdn.com/city/datia/",
+      "population": 100284
+    },
     "dehradun": {
       "name": "Dehradun",
       "url": "https://bharatdn.com/city/dehradun/",
@@ -501,6 +521,11 @@
       "name": "Gadag-Betageri",
       "url": "https://bharatdn.com/city/gadag-betageri/",
       "population": 172813
+    },
+    "gajuwaka": {
+      "name": "Gajuwaka",
+      "url": "https://bharatdn.com/city/gajuwaka/",
+      "population": 258944
     },
     "gandhinagar": {
       "name": "Gandhinagar",
@@ -682,6 +707,11 @@
       "url": "https://bharatdn.com/city/jhansi/",
       "population": 507000
     },
+    "jharsuguda": {
+      "name": "Jharsuguda",
+      "url": "https://bharatdn.com/city/jharsuguda/",
+      "population": 97730
+    },
     "jodhpur": {
       "name": "Jodhpur",
       "url": "https://bharatdn.com/city/jodhpur/",
@@ -712,10 +742,20 @@
       "url": "https://bharatdn.com/city/kallakurichi/",
       "population": 1682687
     },
+    "kanayannur": {
+      "name": "Kanayannur",
+      "url": "https://bharatdn.com/city/kanayannur/",
+      "population": 851406
+    },
     "kanchipuram": {
       "name": "Kanchipuram",
       "url": "https://bharatdn.com/city/kanchipuram/",
       "population": 221715
+    },
+    "kanhangad": {
+      "name": "Kanhangad",
+      "url": "https://bharatdn.com/city/kanhangad/",
+      "population": 125564
     },
     "kannauj": {
       "name": "Kannauj",
@@ -811,6 +851,11 @@
       "name": "Kollam",
       "url": "https://bharatdn.com/city/kollam/",
       "population": 367107
+    },
+    "komarapalayam": {
+      "name": "Komarapalayam",
+      "url": "https://bharatdn.com/city/komarapalayam/",
+      "population": 195071
     },
     "kota": {
       "name": "Kota",
@@ -1117,6 +1162,11 @@
       "url": "https://bharatdn.com/city/palani/",
       "population": 70467
     },
+    "pali": {
+      "name": "Pāli",
+      "url": "https://bharatdn.com/city/pali/",
+      "population": 230075
+    },
     "palwal": {
       "name": "Palwal",
       "url": "https://bharatdn.com/city/palwal/",
@@ -1256,6 +1306,11 @@
       "name": "Ramagundam",
       "url": "https://bharatdn.com/city/ramagundam/",
       "population": 242979
+    },
+    "ramanathapuram": {
+      "name": "Ramanathapuram",
+      "url": "https://bharatdn.com/city/ramanathapuram/",
+      "population": 65314
     },
     "rameswaram": {
       "name": "Rameswaram",
@@ -1427,6 +1482,11 @@
       "url": "https://bharatdn.com/city/surat/",
       "population": 4594194
     },
+    "tadepalligudem": {
+      "name": "Tadepalligudem",
+      "url": "https://bharatdn.com/city/tadepalligudem/",
+      "population": 112655
+    },
     "tambaram": {
       "name": "Tambaram",
       "url": "https://bharatdn.com/city/tambaram/",
@@ -1591,6 +1651,11 @@
       "name": "yamunanagar",
       "url": "https://bharatdn.com/city/yamunanagar/",
       "population": null
+    },
+    "yanam": {
+      "name": "Yanam",
+      "url": "https://bharatdn.com/city/yanam/",
+      "population": 55626
     },
     "yavatmal": {
       "name": "Yavatmal",

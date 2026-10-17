@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T05:56:10.921Z",
-  "cityGuides": 320,
+  "generatedAt": "2026-10-17T07:57:51.639Z",
+  "cityGuides": 333,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-17T05:56:10.882Z",
+      "at": "2026-10-17T07:57:51.584Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-17T00:00:00.000Z",
+      "title": "13 city guides published — yanam, jharsuguda, ramanathapuram +10 more"
     },
     {
       "at": "2026-10-16T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-13T00:00:00.000Z",
       "title": "13 city guides published — chidambaram, deoband, fazilka +10 more"
-    },
-    {
-      "at": "2026-10-12T00:00:00.000Z",
-      "title": "13 city guides published — palani, weir, itanagar +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Mount Abu, Tirumala, Valparai +10 more",
-      "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Yanam, Jharsuguda, Ramanathapuram +10 more",
+      "desc": "130 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "320 city guides · 32 state hubs live",
+      "title": "333 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

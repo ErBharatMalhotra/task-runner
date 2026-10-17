@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-17T05:56:10.475Z",
-  "count": 320,
-  "shown": 320,
+  "generatedAt": "2026-10-17T07:57:50.022Z",
+  "count": 333,
+  "shown": 333,
   "latest": {
-    "slug": "mount-abu",
-    "name": "Mount Abu",
-    "lat": 24.59365,
-    "lon": 72.71756,
-    "at": "2026-10-16T08:23:37.849Z"
+    "slug": "yanam",
+    "name": "Yanam",
+    "lat": 16.73308,
+    "lon": 82.21364,
+    "at": "2026-10-17T07:57:49.266Z"
   },
   "cities": [
     {
@@ -601,6 +601,16 @@
       "releasedAt": "2026-09-26T14:20:25.279Z"
     },
     {
+      "slug": "kanayannur",
+      "name": "Kanayannur",
+      "state": "Kerala",
+      "lat": 9.96667,
+      "lon": 76.26667,
+      "pop": 851406,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.347Z"
+    },
+    {
       "slug": "salem",
       "name": "Salem",
       "state": "Tamil Nadu",
@@ -929,6 +939,16 @@
       "pop": 507000,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:16.379Z"
+    },
+    {
+      "slug": "belagavi",
+      "name": "Belagavi",
+      "state": "Karnataka",
+      "lat": 15.85212,
+      "lon": 74.50447,
+      "pop": 490045,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.023Z"
     },
     {
       "slug": "vellore",
@@ -1501,6 +1521,16 @@
       "releasedAt": "2026-10-10T10:03:10.232Z"
     },
     {
+      "slug": "gajuwaka",
+      "name": "Gajuwaka",
+      "state": "Andhra Pradesh",
+      "lat": 17.7,
+      "lon": 83.21667,
+      "pop": 258944,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.160Z"
+    },
+    {
       "slug": "ambarnath",
       "name": "Ambarnath",
       "state": "Maharashtra",
@@ -1609,6 +1639,16 @@
       "pop": 231105,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:27.033Z"
+    },
+    {
+      "slug": "pali",
+      "name": "Pāli",
+      "state": "Rajasthan",
+      "lat": 25.77276,
+      "lon": 73.32335,
+      "pop": 230075,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:47.889Z"
     },
     {
       "slug": "vizianagaram",
@@ -1809,6 +1849,16 @@
       "pop": 195373,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.614Z"
+    },
+    {
+      "slug": "komarapalayam",
+      "name": "Komarapalayam",
+      "state": "Tamil Nadu",
+      "lat": 11.44495,
+      "lon": 77.71102,
+      "pop": 195071,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.283Z"
     },
     {
       "slug": "machilipatnam",
@@ -2291,6 +2341,16 @@
       "releasedAt": "2026-10-11T13:27:57.409Z"
     },
     {
+      "slug": "abohar",
+      "name": "Abohar",
+      "state": "Punjab",
+      "lat": 30.14453,
+      "lon": 74.19552,
+      "pop": 145302,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:47.767Z"
+    },
+    {
       "slug": "tiruvannamalai",
       "name": "Tiruvannamalai",
       "state": "Tamil Nadu",
@@ -2451,6 +2511,16 @@
       "releasedAt": "2026-10-16T08:23:37.274Z"
     },
     {
+      "slug": "kanhangad",
+      "name": "Kanhangad",
+      "state": "Kerala",
+      "lat": 12.30814,
+      "lon": 75.10632,
+      "pop": 125564,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.222Z"
+    },
+    {
       "slug": "jagdalpur",
       "name": "Jagdalpur",
       "state": "Chhattisgarh",
@@ -2571,6 +2641,16 @@
       "releasedAt": "2026-10-15T08:30:02.146Z"
     },
     {
+      "slug": "ambur",
+      "name": "Ambur",
+      "state": "Tamil Nadu",
+      "lat": 12.79163,
+      "lon": 78.71644,
+      "pop": 114608,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:47.963Z"
+    },
+    {
       "slug": "giridih",
       "name": "Giridih",
       "state": "Jharkhand",
@@ -2599,6 +2679,16 @@
       "pop": 113759,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.345Z"
+    },
+    {
+      "slug": "tadepalligudem",
+      "name": "Tadepalligudem",
+      "state": "Andhra Pradesh",
+      "lat": 16.81467,
+      "lon": 81.52717,
+      "pop": 112655,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.535Z"
     },
     {
       "slug": "port-blair",
@@ -2751,6 +2841,16 @@
       "releasedAt": "2026-10-07T10:28:43.836Z"
     },
     {
+      "slug": "datia",
+      "name": "Datia",
+      "state": "Madhya Pradesh",
+      "lat": 25.67312,
+      "lon": 78.45908,
+      "pop": 100284,
+      "tier": 2,
+      "releasedAt": "2026-10-17T07:57:48.091Z"
+    },
+    {
       "slug": "etah",
       "name": "Etah",
       "state": "Uttar Pradesh",
@@ -2789,6 +2889,16 @@
       "pop": 98265,
       "tier": 3,
       "releasedAt": "2026-10-11T13:50:45.942Z"
+    },
+    {
+      "slug": "jharsuguda",
+      "name": "Jharsuguda",
+      "state": "Odisha",
+      "lat": 21.85531,
+      "lon": 84.00698,
+      "pop": 97730,
+      "tier": 3,
+      "releasedAt": "2026-10-17T07:57:49.055Z"
     },
     {
       "slug": "thalassery",
@@ -2961,6 +3071,16 @@
       "releasedAt": "2026-10-08T10:49:33.814Z"
     },
     {
+      "slug": "ramanathapuram",
+      "name": "Ramanathapuram",
+      "state": "Tamil Nadu",
+      "lat": 9.37158,
+      "lon": 78.83077,
+      "pop": 65314,
+      "tier": 3,
+      "releasedAt": "2026-10-17T07:57:48.866Z"
+    },
+    {
       "slug": "kannur",
       "name": "Kannur",
       "state": "Kerala",
@@ -2999,6 +3119,16 @@
       "pop": 55890,
       "tier": 3,
       "releasedAt": "2026-09-26T11:53:10.757Z"
+    },
+    {
+      "slug": "yanam",
+      "name": "Yanam",
+      "state": "Andhra Pradesh",
+      "lat": 16.73308,
+      "lon": 82.21364,
+      "pop": 55626,
+      "tier": 3,
+      "releasedAt": "2026-10-17T07:57:49.266Z"
     },
     {
       "slug": "kottayam",
