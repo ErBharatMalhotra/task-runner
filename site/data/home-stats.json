@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:13:35.466Z",
+  "generatedAt": "2026-10-17T22:08:58.066Z",
   "cityGuides": 333,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-17T19:13:35.432Z",
+      "at": "2026-10-17T22:08:58.027Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Yanam, Jharsuguda, Ramanathapuram +10 more",
       "desc": "117 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
