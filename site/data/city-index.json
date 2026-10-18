@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T06:47:52.710Z",
-  "count": 333,
+  "generatedAt": "2026-10-18T08:13:11.837Z",
+  "count": 346,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -61,6 +61,11 @@
       "name": "Aligarh",
       "url": "https://bharatdn.com/city/aligarh/",
       "population": 911223
+    },
+    "almora": {
+      "name": "Almora",
+      "url": "https://bharatdn.com/city/almora/",
+      "population": 32442
     },
     "alwar": {
       "name": "Alwar",
@@ -187,6 +192,11 @@
       "url": "https://bharatdn.com/city/bareilly/",
       "population": 985752
     },
+    "barshi": {
+      "name": "Barshi",
+      "url": "https://bharatdn.com/city/barshi/",
+      "population": 118722
+    },
     "bathinda": {
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
@@ -216,6 +226,11 @@
       "name": "Bettiah",
       "url": "https://bharatdn.com/city/bettiah/",
       "population": 132209
+    },
+    "bhadrak": {
+      "name": "Bhadrak",
+      "url": "https://bharatdn.com/city/bhadrak/",
+      "population": 121338
     },
     "bhagalpur": {
       "name": "Bhagalpur",
@@ -252,6 +267,11 @@
       "url": "https://bharatdn.com/city/bhimavaram/",
       "population": 146961
     },
+    "bhind": {
+      "name": "Bhind",
+      "url": "https://bharatdn.com/city/bhind/",
+      "population": 197585
+    },
     "bhiwadi": {
       "name": "Bhiwadi",
       "url": "https://bharatdn.com/city/bhiwadi/",
@@ -286,6 +306,11 @@
       "name": "Bidar",
       "url": "https://bharatdn.com/city/bidar/",
       "population": 216020
+    },
+    "bijnor": {
+      "name": "Bijnor",
+      "url": "https://bharatdn.com/city/bijnor/",
+      "population": 84593
     },
     "bikaner": {
       "name": "Bikaner",
@@ -376,6 +401,11 @@
       "name": "Cuttack",
       "url": "https://bharatdn.com/city/cuttack/",
       "population": 610189
+    },
+    "damoh": {
+      "name": "Damoh",
+      "url": "https://bharatdn.com/city/damoh/",
+      "population": 139561
     },
     "darbhanga": {
       "name": "Darbhanga",
@@ -812,6 +842,11 @@
       "url": "https://bharatdn.com/city/kharagpur/",
       "population": 253221
     },
+    "khargone": {
+      "name": "Khargone",
+      "url": "https://bharatdn.com/city/khargone/",
+      "population": 116150
+    },
     "khurja": {
       "name": "Khurja",
       "url": "https://bharatdn.com/city/khurja/",
@@ -922,6 +957,11 @@
       "url": "https://bharatdn.com/city/madanapalle/",
       "population": 180180
     },
+    "madhyamgram": {
+      "name": "Madhyamgram",
+      "url": "https://bharatdn.com/city/madhyamgram/",
+      "population": 161126
+    },
     "madurai": {
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
@@ -941,6 +981,11 @@
       "name": "Malegaon",
       "url": "https://bharatdn.com/city/malegaon/",
       "population": 481228
+    },
+    "malkajgiri": {
+      "name": "Malkajgiri",
+      "url": "https://bharatdn.com/city/malkajgiri/",
+      "population": 150000
     },
     "manali": {
       "name": "Manali",
@@ -986,6 +1031,11 @@
       "name": "Mhow",
       "url": "https://bharatdn.com/city/mhow/",
       "population": 81702
+    },
+    "miryalaguda": {
+      "name": "Miryalaguda",
+      "url": "https://bharatdn.com/city/miryalaguda/",
+      "population": 104918
     },
     "mohali": {
       "name": "Mohali",
@@ -1222,6 +1272,11 @@
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
       "population": 1727692
     },
+    "pithampur": {
+      "name": "Pithampur",
+      "url": "https://bharatdn.com/city/pithampur/",
+      "population": 126200
+    },
     "pollachi": {
       "name": "Pollachi",
       "url": "https://bharatdn.com/city/pollachi/",
@@ -1266,6 +1321,11 @@
       "name": "Purnia",
       "url": "https://bharatdn.com/city/purnia/",
       "population": 282248
+    },
+    "pushkar": {
+      "name": "Pushkar",
+      "url": "https://bharatdn.com/city/pushkar/",
+      "population": 21626
     },
     "raebareli": {
       "name": "Raebareli",
@@ -1321,6 +1381,11 @@
       "name": "Ranchi",
       "url": "https://bharatdn.com/city/ranchi/",
       "population": 1073571
+    },
+    "raniganj": {
+      "name": "Raniganj",
+      "url": "https://bharatdn.com/city/raniganj/",
+      "population": 131261
     },
     "ranipet": {
       "name": "Ranipet",

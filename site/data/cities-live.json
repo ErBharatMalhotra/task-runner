@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-18T06:47:52.459Z",
-  "count": 333,
-  "shown": 333,
+  "generatedAt": "2026-10-18T08:13:11.570Z",
+  "count": 346,
+  "shown": 346,
   "latest": {
-    "slug": "yanam",
-    "name": "Yanam",
-    "lat": 16.73308,
-    "lon": 82.21364,
-    "at": "2026-10-17T07:57:49.266Z"
+    "slug": "pushkar",
+    "name": "Pushkar",
+    "lat": 26.49022,
+    "lon": 74.55211,
+    "at": "2026-10-18T08:13:11.249Z"
   },
   "cities": [
     {
@@ -1821,6 +1821,16 @@
       "releasedAt": "2026-10-07T10:28:43.720Z"
     },
     {
+      "slug": "bhind",
+      "name": "Bhind",
+      "state": "Madhya Pradesh",
+      "lat": 26.56671,
+      "lon": 78.78728,
+      "pop": 197585,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.350Z"
+    },
+    {
       "slug": "khammam",
       "name": "Khammam",
       "state": "Telangana",
@@ -2151,6 +2161,16 @@
       "releasedAt": "2026-10-11T10:13:22.789Z"
     },
     {
+      "slug": "madhyamgram",
+      "name": "Madhyamgram",
+      "state": "West Bengal",
+      "lat": 22.68944,
+      "lon": 88.44594,
+      "pop": 161126,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.739Z"
+    },
+    {
       "slug": "chittoor",
       "name": "Chittoor",
       "state": "Andhra Pradesh",
@@ -2291,6 +2311,16 @@
       "releasedAt": "2026-10-12T11:12:02.131Z"
     },
     {
+      "slug": "malkajgiri",
+      "name": "Malkajgiri",
+      "state": "Telangana",
+      "lat": 17.44781,
+      "lon": 78.52633,
+      "pop": 150000,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.581Z"
+    },
+    {
       "slug": "bhuj",
       "name": "Bhuj",
       "state": "Gujarat",
@@ -2411,6 +2441,16 @@
       "releasedAt": "2026-10-11T13:50:45.546Z"
     },
     {
+      "slug": "damoh",
+      "name": "Damoh",
+      "state": "Madhya Pradesh",
+      "lat": 23.83312,
+      "lon": 79.4419,
+      "pop": 139561,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.275Z"
+    },
+    {
       "slug": "haldwani",
       "name": "Haldwani",
       "state": "Uttarakhand",
@@ -2471,6 +2511,16 @@
       "releasedAt": "2026-10-13T10:53:23.515Z"
     },
     {
+      "slug": "raniganj",
+      "name": "Raniganj",
+      "state": "West Bengal",
+      "lat": 23.6164,
+      "lon": 87.13061,
+      "pop": 131261,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.501Z"
+    },
+    {
       "slug": "rajapalayam",
       "name": "Rajapalayam",
       "state": "Tamil Nadu",
@@ -2509,6 +2559,16 @@
       "pop": 126270,
       "tier": 2,
       "releasedAt": "2026-10-16T08:23:37.274Z"
+    },
+    {
+      "slug": "pithampur",
+      "name": "Pithampur",
+      "state": "Madhya Pradesh",
+      "lat": 22.60197,
+      "lon": 75.69649,
+      "pop": 126200,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.815Z"
     },
     {
       "slug": "kanhangad",
@@ -2551,6 +2611,16 @@
       "releasedAt": "2026-10-13T10:53:23.160Z"
     },
     {
+      "slug": "bhadrak",
+      "name": "Bhadrak",
+      "state": "Odisha",
+      "lat": 21.05447,
+      "lon": 86.5156,
+      "pop": 121338,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.965Z"
+    },
+    {
       "slug": "sawai-madhopur",
       "name": "Sawai Madhopur",
       "state": "Rajasthan",
@@ -2569,6 +2639,16 @@
       "pop": 120414,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:19.559Z"
+    },
+    {
+      "slug": "barshi",
+      "name": "Barshi",
+      "state": "Maharashtra",
+      "lat": 18.23454,
+      "lon": 75.69275,
+      "pop": 118722,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.660Z"
     },
     {
       "slug": "adilabad",
@@ -2639,6 +2719,16 @@
       "pop": 116322,
       "tier": 2,
       "releasedAt": "2026-10-15T08:30:02.146Z"
+    },
+    {
+      "slug": "khargone",
+      "name": "Khargone",
+      "state": "Madhya Pradesh",
+      "lat": 21.82292,
+      "lon": 75.61394,
+      "pop": 116150,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.891Z"
     },
     {
       "slug": "ambur",
@@ -2769,6 +2859,16 @@
       "pop": 104921,
       "tier": 2,
       "releasedAt": "2026-10-12T11:12:01.945Z"
+    },
+    {
+      "slug": "miryalaguda",
+      "name": "Miryalaguda",
+      "state": "Telangana",
+      "lat": 16.8722,
+      "lon": 79.56247,
+      "pop": 104918,
+      "tier": 2,
+      "releasedAt": "2026-10-18T08:13:10.426Z"
     },
     {
       "slug": "roorkee",
@@ -2949,6 +3049,16 @@
       "pop": 86660,
       "tier": 3,
       "releasedAt": "2026-10-14T08:56:11.108Z"
+    },
+    {
+      "slug": "bijnor",
+      "name": "Bijnor",
+      "state": "Uttar Pradesh",
+      "lat": 29.373,
+      "lon": 78.13636,
+      "pop": 84593,
+      "tier": 3,
+      "releasedAt": "2026-10-18T08:13:11.170Z"
     },
     {
       "slug": "mhow",
@@ -3221,6 +3331,16 @@
       "releasedAt": "2026-10-07T10:28:44.468Z"
     },
     {
+      "slug": "almora",
+      "name": "Almora",
+      "state": "Uttarakhand",
+      "lat": 29.59713,
+      "lon": 79.65911,
+      "pop": 32442,
+      "tier": 3,
+      "releasedAt": "2026-10-18T08:13:11.094Z"
+    },
+    {
       "slug": "bhatkal",
       "name": "Bhatkal",
       "state": "Karnataka",
@@ -3269,6 +3389,16 @@
       "pop": 22249,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.038Z"
+    },
+    {
+      "slug": "pushkar",
+      "name": "Pushkar",
+      "state": "Rajasthan",
+      "lat": 26.49022,
+      "lon": 74.55211,
+      "pop": 21626,
+      "tier": 3,
+      "releasedAt": "2026-10-18T08:13:11.249Z"
     },
     {
       "slug": "banat",
