@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T08:49:36.446Z",
+  "generatedAt": "2026-10-18T10:49:47.130Z",
   "cityGuides": 346,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-18T08:49:36.407Z",
+      "at": "2026-10-18T10:49:47.093Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Pushkar, Bijnor, Almora +10 more",
-      "desc": "130 published in the last 7 days, each live-verified.",
+      "desc": "117 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
