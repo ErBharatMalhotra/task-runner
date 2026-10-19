@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-10-19T07:37:20.282Z",
-  "count": 346,
+  "generatedAt": "2026-10-19T09:11:37.870Z",
+  "count": 359,
   "cities": {
     "abohar": {
       "name": "Abohar",
       "url": "https://bharatdn.com/city/abohar/",
       "population": 145302
+    },
+    "achalpur": {
+      "name": "Achalpur",
+      "url": "https://bharatdn.com/city/achalpur/",
+      "population": 112311
     },
     "adilabad": {
       "name": "Adilabad",
@@ -36,6 +41,11 @@
       "name": "Ahmedabad",
       "url": "https://bharatdn.com/city/ahmedabad/",
       "population": 5577940
+    },
+    "airoli": {
+      "name": "Airoli",
+      "url": "https://bharatdn.com/city/airoli/",
+      "population": 100000
     },
     "aizawl": {
       "name": "Aizawl",
@@ -97,6 +107,11 @@
       "url": "https://bharatdn.com/city/amravati/",
       "population": 647057
     },
+    "amreli": {
+      "name": "Amreli",
+      "url": "https://bharatdn.com/city/amreli/",
+      "population": 117967
+    },
     "amritsar": {
       "name": "Amritsar",
       "url": "https://bharatdn.com/city/amritsar/",
@@ -131,6 +146,11 @@
       "name": "Asansol",
       "url": "https://bharatdn.com/city/asansol/",
       "population": 614477
+    },
+    "ashoknagar-kalyangarh": {
+      "name": "Ashoknagar Kalyangarh",
+      "url": "https://bharatdn.com/city/ashoknagar-kalyangarh/",
+      "population": 111475
     },
     "aurangabad": {
       "name": "Aurangabad",
@@ -181,6 +201,11 @@
       "name": "Banat",
       "url": "https://bharatdn.com/city/banat/",
       "population": 21580
+    },
+    "bangaon": {
+      "name": "Bangaon",
+      "url": "https://bharatdn.com/city/bangaon/",
+      "population": 111693
     },
     "bardhaman": {
       "name": "Bardhaman",
@@ -326,6 +351,11 @@
       "name": "Borivali",
       "url": "https://bharatdn.com/city/borivali/",
       "population": 609617
+    },
+    "botad": {
+      "name": "Botad",
+      "url": "https://bharatdn.com/city/botad/",
+      "population": 130327
     },
     "budaun": {
       "name": "Budaun",
@@ -652,6 +682,11 @@
       "url": "https://bharatdn.com/city/howrah/",
       "population": 1077165
     },
+    "hubballi": {
+      "name": "Hubballi",
+      "url": "https://bharatdn.com/city/hubballi/",
+      "population": 943788
+    },
     "hubballi-dharwad": {
       "name": "Hubballi-Dharwad",
       "url": "https://bharatdn.com/city/hubballi-dharwad/",
@@ -767,6 +802,11 @@
       "url": "https://bharatdn.com/city/kaithal/",
       "population": 144915
     },
+    "kalimpong": {
+      "name": "Kalimpong",
+      "url": "https://bharatdn.com/city/kalimpong/",
+      "population": 43000
+    },
     "kallakurichi": {
       "name": "Kallakurichi",
       "url": "https://bharatdn.com/city/kallakurichi/",
@@ -781,6 +821,11 @@
       "name": "Kanchipuram",
       "url": "https://bharatdn.com/city/kanchipuram/",
       "population": 221715
+    },
+    "kanchrapara": {
+      "name": "Kanchrapara",
+      "url": "https://bharatdn.com/city/kanchrapara/",
+      "population": 136954
     },
     "kanhangad": {
       "name": "Kanhangad",
@@ -906,6 +951,11 @@
       "name": "Kozhikode",
       "url": "https://bharatdn.com/city/kozhikode/",
       "population": 431560
+    },
+    "krishnagiri": {
+      "name": "Krishnagiri",
+      "url": "https://bharatdn.com/city/krishnagiri/",
+      "population": 71323
     },
     "kukatpally": {
       "name": "Kukatpally",
@@ -1106,6 +1156,11 @@
       "name": "Nagapattinam",
       "url": "https://bharatdn.com/city/nagapattinam/",
       "population": 102905
+    },
+    "nagda": {
+      "name": "Nagda",
+      "url": "https://bharatdn.com/city/nagda/",
+      "population": 103501
     },
     "nagercoil": {
       "name": "Nagercoil",
@@ -1651,6 +1706,16 @@
       "name": "Ulhasnagar",
       "url": "https://bharatdn.com/city/ulhasnagar/",
       "population": 516584
+    },
+    "uppal-kalan": {
+      "name": "Uppal Kalan",
+      "url": "https://bharatdn.com/city/uppal-kalan/",
+      "population": 118259
+    },
+    "vadnagar": {
+      "name": "Vadnagar",
+      "url": "https://bharatdn.com/city/vadnagar/",
+      "population": 27790
     },
     "vadodara": {
       "name": "Vadodara",

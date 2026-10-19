@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-19T07:37:20.028Z",
-  "count": 346,
-  "shown": 346,
+  "generatedAt": "2026-10-19T09:11:37.433Z",
+  "count": 359,
+  "shown": 359,
   "latest": {
-    "slug": "pushkar",
-    "name": "Pushkar",
-    "lat": 26.49022,
-    "lon": 74.55211,
-    "at": "2026-10-18T08:13:11.249Z"
+    "slug": "krishnagiri",
+    "name": "Krishnagiri",
+    "lat": 12.51921,
+    "lon": 78.21382,
+    "at": "2026-10-19T09:11:36.779Z"
   },
   "cities": [
     {
@@ -529,6 +529,16 @@
       "pop": 943857,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:11.126Z"
+    },
+    {
+      "slug": "hubballi",
+      "name": "Hubballi",
+      "state": "Karnataka",
+      "lat": 15.34776,
+      "lon": 75.13378,
+      "pop": 943788,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.292Z"
     },
     {
       "slug": "mysuru",
@@ -2481,6 +2491,16 @@
       "releasedAt": "2026-10-12T11:12:02.192Z"
     },
     {
+      "slug": "kanchrapara",
+      "name": "Kanchrapara",
+      "state": "West Bengal",
+      "lat": 22.95998,
+      "lon": 88.42849,
+      "pop": 136954,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.901Z"
+    },
+    {
       "slug": "palakkad",
       "name": "Palakkad",
       "state": "Kerala",
@@ -2529,6 +2549,16 @@
       "pop": 130442,
       "tier": 2,
       "releasedAt": "2026-10-12T11:12:02.007Z"
+    },
+    {
+      "slug": "botad",
+      "name": "Botad",
+      "state": "Gujarat",
+      "lat": 22.16917,
+      "lon": 71.66671,
+      "pop": 130327,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:36.104Z"
     },
     {
       "slug": "yavatmal",
@@ -2661,6 +2691,26 @@
       "releasedAt": "2026-10-14T08:56:10.756Z"
     },
     {
+      "slug": "uppal-kalan",
+      "name": "Uppal Kalan",
+      "state": "Telangana",
+      "lat": 17.40577,
+      "lon": 78.55911,
+      "pop": 118259,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:36.183Z"
+    },
+    {
+      "slug": "amreli",
+      "name": "Amreli",
+      "state": "Gujarat",
+      "lat": 21.59983,
+      "lon": 71.21169,
+      "pop": 117967,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.532Z"
+    },
+    {
       "slug": "pudukkottai",
       "name": "Pudukkottai",
       "state": "Tamil Nadu",
@@ -2781,6 +2831,16 @@
       "releasedAt": "2026-10-17T07:57:48.535Z"
     },
     {
+      "slug": "achalpur",
+      "name": "Achalpur",
+      "state": "Maharashtra",
+      "lat": 21.25665,
+      "lon": 77.51006,
+      "pop": 112311,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:36.009Z"
+    },
+    {
       "slug": "port-blair",
       "name": "Port Blair",
       "state": "Andaman and Nicobar",
@@ -2789,6 +2849,26 @@
       "pop": 112050,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.056Z"
+    },
+    {
+      "slug": "bangaon",
+      "name": "Bangaon",
+      "state": "West Bengal",
+      "lat": 23.04553,
+      "lon": 88.83084,
+      "pop": 111693,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.167Z"
+    },
+    {
+      "slug": "ashoknagar-kalyangarh",
+      "name": "Ashoknagar Kalyangarh",
+      "state": "West Bengal",
+      "lat": 22.86416,
+      "lon": 88.63701,
+      "pop": 111475,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.726Z"
     },
     {
       "slug": "nabadwip",
@@ -2881,6 +2961,16 @@
       "releasedAt": "2026-10-10T10:03:10.634Z"
     },
     {
+      "slug": "nagda",
+      "name": "Nagda",
+      "state": "Madhya Pradesh",
+      "lat": 23.45834,
+      "lon": 75.41759,
+      "pop": 103501,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.837Z"
+    },
+    {
       "slug": "amaravati",
       "name": "Amaravati",
       "state": "Andhra Pradesh",
@@ -2959,6 +3049,16 @@
       "pop": 100000,
       "tier": 2,
       "releasedAt": "2026-10-16T08:23:37.504Z"
+    },
+    {
+      "slug": "airoli",
+      "name": "Airoli",
+      "state": "Maharashtra",
+      "lat": 19.15096,
+      "lon": 72.99625,
+      "pop": 100000,
+      "tier": 2,
+      "releasedAt": "2026-10-19T09:11:35.650Z"
     },
     {
       "slug": "kohima",
@@ -3151,6 +3251,16 @@
       "releasedAt": "2026-10-09T10:48:18.970Z"
     },
     {
+      "slug": "krishnagiri",
+      "name": "Krishnagiri",
+      "state": "Tamil Nadu",
+      "lat": 12.51921,
+      "lon": 78.21382,
+      "pop": 71323,
+      "tier": 3,
+      "releasedAt": "2026-10-19T09:11:36.779Z"
+    },
+    {
       "slug": "palani",
       "name": "Palani",
       "state": "Tamil Nadu",
@@ -3281,6 +3391,16 @@
       "releasedAt": "2026-10-09T10:48:18.905Z"
     },
     {
+      "slug": "kalimpong",
+      "name": "Kalimpong",
+      "state": "West Bengal",
+      "lat": 27.07059,
+      "lon": 88.47529,
+      "pop": 43000,
+      "tier": 3,
+      "releasedAt": "2026-10-19T09:11:36.552Z"
+    },
+    {
       "slug": "nainital",
       "name": "Nainital",
       "state": "Uttarakhand",
@@ -3369,6 +3489,16 @@
       "pop": 30026,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.789Z"
+    },
+    {
+      "slug": "vadnagar",
+      "name": "Vadnagar",
+      "state": "Gujarat",
+      "lat": 23.78593,
+      "lon": 72.63893,
+      "pop": 27790,
+      "tier": 3,
+      "releasedAt": "2026-10-19T09:11:36.660Z"
     },
     {
       "slug": "mount-abu",
