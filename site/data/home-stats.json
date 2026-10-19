@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:50:23.213Z",
+  "generatedAt": "2026-10-19T14:01:40.654Z",
   "cityGuides": 359,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-19T09:50:23.172Z",
+      "at": "2026-10-19T14:01:40.615Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Krishnagiri, Vadnagar, Kalimpong +10 more",
-      "desc": "104 published in the last 7 days, each live-verified.",
+      "desc": "91 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
