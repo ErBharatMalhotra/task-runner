@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T06:20:35.304Z",
-  "count": 359,
+  "generatedAt": "2026-10-20T08:46:27.496Z",
+  "count": 372,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -122,6 +122,11 @@
       "url": "https://bharatdn.com/city/amroha/",
       "population": 176253
     },
+    "anand": {
+      "name": "Anand",
+      "url": "https://bharatdn.com/city/anand/",
+      "population": 209410
+    },
     "anantapur": {
       "name": "Anantapur",
       "url": "https://bharatdn.com/city/anantapur/",
@@ -176,6 +181,11 @@
       "name": "Badlapur",
       "url": "https://bharatdn.com/city/badlapur/",
       "population": 174226
+    },
+    "bagaha": {
+      "name": "Bagaha",
+      "url": "https://bharatdn.com/city/bagaha/",
+      "population": 112634
     },
     "bahadurgarh": {
       "name": "Bahadurgarh",
@@ -672,6 +682,11 @@
       "url": "https://bharatdn.com/city/hazaribagh/",
       "population": 153595
     },
+    "hindaun": {
+      "name": "Hindaun",
+      "url": "https://bharatdn.com/city/hindaun/",
+      "population": 105452
+    },
     "hindupur": {
       "name": "Hindupur",
       "url": "https://bharatdn.com/city/hindupur/",
@@ -887,6 +902,11 @@
       "url": "https://bharatdn.com/city/kharagpur/",
       "population": 253221
     },
+    "khardaha": {
+      "name": "Khardaha",
+      "url": "https://bharatdn.com/city/khardaha/",
+      "population": 128346
+    },
     "khargone": {
       "name": "Khargone",
       "url": "https://bharatdn.com/city/khargone/",
@@ -961,6 +981,11 @@
       "name": "Kukatpally",
       "url": "https://bharatdn.com/city/kukatpally/",
       "population": 341709
+    },
+    "kulti": {
+      "name": "Kulti",
+      "url": "https://bharatdn.com/city/kulti/",
+      "population": 305405
     },
     "kumbakonam": {
       "name": "Kumbakonam",
@@ -1096,6 +1121,11 @@
       "name": "Moradabad",
       "url": "https://bharatdn.com/city/moradabad/",
       "population": 889810
+    },
+    "mormugao": {
+      "name": "Mormugao",
+      "url": "https://bharatdn.com/city/mormugao/",
+      "population": 102345
     },
     "moth": {
       "name": "Moth",
@@ -1322,6 +1352,11 @@
       "url": "https://bharatdn.com/city/pen/",
       "population": 37852
     },
+    "pimpri": {
+      "name": "Pimpri",
+      "url": "https://bharatdn.com/city/pimpri/",
+      "population": 1284606
+    },
     "pimpri-chinchwad": {
       "name": "Pimpri-Chinchwad",
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
@@ -1381,6 +1416,11 @@
       "name": "Pushkar",
       "url": "https://bharatdn.com/city/pushkar/",
       "population": 21626
+    },
+    "quthbullapur": {
+      "name": "Quthbullapur",
+      "url": "https://bharatdn.com/city/quthbullapur/",
+      "population": 225816
     },
     "raebareli": {
       "name": "Raebareli",
@@ -1517,6 +1557,11 @@
       "url": "https://bharatdn.com/city/sehore/",
       "population": 109118
     },
+    "seoni": {
+      "name": "Seoni",
+      "url": "https://bharatdn.com/city/seoni/",
+      "population": 102343
+    },
     "serampore": {
       "name": "Serampore",
       "url": "https://bharatdn.com/city/serampore/",
@@ -1526,6 +1571,11 @@
       "name": "Shahjahanpur",
       "url": "https://bharatdn.com/city/shahjahanpur/",
       "population": 320434
+    },
+    "shamli": {
+      "name": "Shamli",
+      "url": "https://bharatdn.com/city/shamli/",
+      "population": 97966
     },
     "shillong": {
       "name": "Shillong",
@@ -1692,6 +1742,11 @@
       "url": "https://bharatdn.com/city/udaipur-tripura/",
       "population": 32758
     },
+    "udhagamandalam": {
+      "name": "Udhagamandalam",
+      "url": "https://bharatdn.com/city/udhagamandalam/",
+      "population": 233426
+    },
     "udupi": {
       "name": "Udupi",
       "url": "https://bharatdn.com/city/udupi/",
@@ -1736,6 +1791,16 @@
       "name": "Varanasi",
       "url": "https://bharatdn.com/city/varanasi/",
       "population": 1198491
+    },
+    "varkala": {
+      "name": "Varkala",
+      "url": "https://bharatdn.com/city/varkala/",
+      "population": 43276
+    },
+    "velankanni": {
+      "name": "Velankanni",
+      "url": "https://bharatdn.com/city/velankanni/",
+      "population": 11108
     },
     "vellore": {
       "name": "Vellore",
