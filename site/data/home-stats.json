@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:24:58.457Z",
+  "generatedAt": "2026-10-20T23:09:59.223Z",
   "cityGuides": 372,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-20T20:24:58.421Z",
+      "at": "2026-10-20T23:09:59.193Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Varkala, Shamli, Velankanni +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
