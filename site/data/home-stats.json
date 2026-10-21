@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:01:59.152Z",
+  "generatedAt": "2026-10-21T23:15:38.297Z",
   "cityGuides": 385,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-21T20:01:59.114Z",
+      "at": "2026-10-21T23:15:38.258Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Gurdaspur, Raipur Rajasthan, Kharagpur Bihar +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
