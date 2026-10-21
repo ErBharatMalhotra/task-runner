@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T06:20:51.194Z",
-  "count": 372,
+  "generatedAt": "2026-10-21T08:47:12.369Z",
+  "count": 385,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -36,6 +36,11 @@
       "name": "Agra",
       "url": "https://bharatdn.com/city/agra/",
       "population": 1585704
+    },
+    "ahilyanagar": {
+      "name": "Ahilyanagar",
+      "url": "https://bharatdn.com/city/ahilyanagar/",
+      "population": 367140
     },
     "ahmedabad": {
       "name": "Ahmedabad",
@@ -412,6 +417,11 @@
       "url": "https://bharatdn.com/city/chidambaram/",
       "population": 62153
     },
+    "chirmiri": {
+      "name": "Chirmiri",
+      "url": "https://bharatdn.com/city/chirmiri/",
+      "population": 100800
+    },
     "chitradurga": {
       "name": "Chitradurga",
       "url": "https://bharatdn.com/city/chitradurga/",
@@ -467,6 +477,11 @@
       "url": "https://bharatdn.com/city/datia/",
       "population": 100284
     },
+    "deesa": {
+      "name": "Deesa",
+      "url": "https://bharatdn.com/city/deesa/",
+      "population": 111160
+    },
     "dehradun": {
       "name": "Dehradun",
       "url": "https://bharatdn.com/city/dehradun/",
@@ -496,6 +511,11 @@
       "name": "Dewas",
       "url": "https://bharatdn.com/city/dewas/",
       "population": 289550
+    },
+    "dhamtari": {
+      "name": "Dhamtari",
+      "url": "https://bharatdn.com/city/dhamtari/",
+      "population": 101677
     },
     "dhanbad": {
       "name": "Dhanbad",
@@ -607,6 +627,11 @@
       "url": "https://bharatdn.com/city/gangtok/",
       "population": 100286
     },
+    "gaya": {
+      "name": "Gaya",
+      "url": "https://bharatdn.com/city/gaya/",
+      "population": 474093
+    },
     "ghaziabad": {
       "name": "Ghaziabad",
       "url": "https://bharatdn.com/city/ghaziabad/",
@@ -647,6 +672,11 @@
       "url": "https://bharatdn.com/city/guntur/",
       "population": 743720
     },
+    "gurdaspur": {
+      "name": "Gurdaspur",
+      "url": "https://bharatdn.com/city/gurdaspur/",
+      "population": 77928
+    },
     "gurugram": {
       "name": "Gurugram",
       "url": "https://bharatdn.com/city/gurugram/",
@@ -676,6 +706,11 @@
       "name": "Haridwar",
       "url": "https://bharatdn.com/city/haridwar/",
       "population": 231105
+    },
+    "hassan": {
+      "name": "Hassan",
+      "url": "https://bharatdn.com/city/hassan/",
+      "population": 155006
     },
     "hazaribagh": {
       "name": "Hazaribagh",
@@ -901,6 +936,11 @@
       "name": "Kharagpur",
       "url": "https://bharatdn.com/city/kharagpur/",
       "population": 253221
+    },
+    "kharagpur-bihar": {
+      "name": "Kharagpur",
+      "url": "https://bharatdn.com/city/kharagpur-bihar/",
+      "population": 31385
     },
     "khardaha": {
       "name": "Khardaha",
@@ -1222,6 +1262,11 @@
       "url": "https://bharatdn.com/city/nanded/",
       "population": 550564
     },
+    "nandurbar": {
+      "name": "Nandurbar",
+      "url": "https://bharatdn.com/city/nandurbar/",
+      "population": 111037
+    },
     "narasaraopet": {
       "name": "Narasaraopet",
       "url": "https://bharatdn.com/city/narasaraopet/",
@@ -1437,6 +1482,11 @@
       "url": "https://bharatdn.com/city/raipur/",
       "population": 1010433
     },
+    "raipur-rajasthan": {
+      "name": "Raipur",
+      "url": "https://bharatdn.com/city/raipur-rajasthan/",
+      "population": 17537
+    },
     "rajahmundry": {
       "name": "Rajahmundry",
       "url": "https://bharatdn.com/city/rajahmundry/",
@@ -1496,6 +1546,11 @@
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
       "population": 102690
+    },
+    "robertsonpet": {
+      "name": "Robertsonpet",
+      "url": "https://bharatdn.com/city/robertsonpet/",
+      "population": 162230
     },
     "rohtak": {
       "name": "Rohtak",
@@ -1586,6 +1641,11 @@
       "name": "Shimla",
       "url": "https://bharatdn.com/city/shimla/",
       "population": 171817
+    },
+    "shivamogga": {
+      "name": "Shivamogga",
+      "url": "https://bharatdn.com/city/shivamogga/",
+      "population": 322650
     },
     "shivpuri": {
       "name": "Shivpuri",
@@ -1731,6 +1791,11 @@
       "name": "Tiruvannamalai",
       "url": "https://bharatdn.com/city/tiruvannamalai/",
       "population": 145278
+    },
+    "titagarh": {
+      "name": "Titagarh",
+      "url": "https://bharatdn.com/city/titagarh/",
+      "population": 127751
     },
     "udaipur": {
       "name": "Udaipur",

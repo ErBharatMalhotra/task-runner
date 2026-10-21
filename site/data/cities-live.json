@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-21T06:20:51.009Z",
-  "count": 372,
-  "shown": 372,
+  "generatedAt": "2026-10-21T08:47:12.135Z",
+  "count": 385,
+  "shown": 385,
   "latest": {
-    "slug": "varkala",
-    "name": "Varkala",
-    "lat": 8.7333,
-    "lon": 76.7167,
-    "at": "2026-10-20T08:46:26.881Z"
+    "slug": "gurdaspur",
+    "name": "Gurdaspur",
+    "lat": 32.03933,
+    "lon": 75.40318,
+    "at": "2026-10-21T08:47:11.822Z"
   },
   "cities": [
     {
@@ -991,6 +991,16 @@
       "releasedAt": "2026-10-05T10:44:19.891Z"
     },
     {
+      "slug": "gaya",
+      "name": "Gaya",
+      "state": "Bihar",
+      "lat": 24.79686,
+      "lon": 85.00385,
+      "pop": 474093,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.472Z"
+    },
+    {
       "slug": "ambattur",
       "name": "Ambattur",
       "state": "Tamil Nadu",
@@ -1171,6 +1181,16 @@
       "releasedAt": "2026-10-05T10:44:20.413Z"
     },
     {
+      "slug": "ahilyanagar",
+      "name": "Ahilyanagar",
+      "state": "Maharashtra",
+      "lat": 19.09457,
+      "lon": 74.73843,
+      "pop": 367140,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.542Z"
+    },
+    {
       "slug": "kollam",
       "name": "Kollam",
       "state": "Kerala",
@@ -1269,6 +1289,16 @@
       "pop": 328351,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.453Z"
+    },
+    {
+      "slug": "shivamogga",
+      "name": "Shivamogga",
+      "state": "Karnataka",
+      "lat": 13.93157,
+      "lon": 75.56791,
+      "pop": 322650,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:10.880Z"
     },
     {
       "slug": "alwar",
@@ -2211,6 +2241,16 @@
       "releasedAt": "2026-10-10T10:03:10.121Z"
     },
     {
+      "slug": "robertsonpet",
+      "name": "Robertsonpet",
+      "state": "Karnataka",
+      "lat": 12.95629,
+      "lon": 78.27539,
+      "pop": 162230,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.177Z"
+    },
+    {
       "slug": "budaun",
       "name": "Budaun",
       "state": "Uttar Pradesh",
@@ -2289,6 +2329,16 @@
       "pop": 155951,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.932Z"
+    },
+    {
+      "slug": "hassan",
+      "name": "Hassan",
+      "state": "Karnataka",
+      "lat": 13.00715,
+      "lon": 76.0962,
+      "pop": 155006,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.323Z"
     },
     {
       "slug": "kishangarh",
@@ -2631,6 +2681,16 @@
       "releasedAt": "2026-10-11T13:50:45.256Z"
     },
     {
+      "slug": "titagarh",
+      "name": "Titagarh",
+      "state": "West Bengal",
+      "lat": 22.74252,
+      "lon": 88.37326,
+      "pop": 127751,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:10.953Z"
+    },
+    {
       "slug": "jorhat",
       "name": "Jorhat",
       "state": "Assam",
@@ -2941,6 +3001,16 @@
       "releasedAt": "2026-10-19T09:11:35.726Z"
     },
     {
+      "slug": "deesa",
+      "name": "Deesa",
+      "state": "Gujarat",
+      "lat": 24.25612,
+      "lon": 72.17928,
+      "pop": 111160,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.028Z"
+    },
+    {
       "slug": "nabadwip",
       "name": "Nabadwip",
       "state": "West Bengal",
@@ -2949,6 +3019,16 @@
       "pop": 111123,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.570Z"
+    },
+    {
+      "slug": "nandurbar",
+      "name": "Nandurbar",
+      "state": "Maharashtra",
+      "lat": 21.36671,
+      "lon": 74.24051,
+      "pop": 111037,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.397Z"
     },
     {
       "slug": "delhi-cantonment",
@@ -3111,6 +3191,16 @@
       "releasedAt": "2026-10-20T08:46:25.911Z"
     },
     {
+      "slug": "dhamtari",
+      "name": "Dhamtari",
+      "state": "Chhattisgarh",
+      "lat": 20.70718,
+      "lon": 81.54874,
+      "pop": 101677,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.102Z"
+    },
+    {
       "slug": "malappuram",
       "name": "Malappuram",
       "state": "Kerala",
@@ -3119,6 +3209,16 @@
       "pop": 101386,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.522Z"
+    },
+    {
+      "slug": "chirmiri",
+      "name": "Chirmiri",
+      "state": "Chhattisgarh",
+      "lat": 23.19073,
+      "lon": 82.35314,
+      "pop": 100800,
+      "tier": 2,
+      "releasedAt": "2026-10-21T08:47:11.250Z"
     },
     {
       "slug": "gangtok",
@@ -3289,6 +3389,16 @@
       "pop": 80056,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.845Z"
+    },
+    {
+      "slug": "gurdaspur",
+      "name": "Gurdaspur",
+      "state": "Punjab",
+      "lat": 32.03933,
+      "lon": 75.40318,
+      "pop": 77928,
+      "tier": 3,
+      "releasedAt": "2026-10-21T08:47:11.822Z"
     },
     {
       "slug": "karwar",
@@ -3591,6 +3701,16 @@
       "releasedAt": "2026-10-15T08:30:02.339Z"
     },
     {
+      "slug": "kharagpur-bihar",
+      "name": "Kharagpur",
+      "state": "Bihar",
+      "lat": 25.12446,
+      "lon": 86.55578,
+      "pop": 31385,
+      "tier": 3,
+      "releasedAt": "2026-10-21T08:47:11.663Z"
+    },
+    {
       "slug": "mussoorie",
       "name": "Mussoorie",
       "state": "Uttarakhand",
@@ -3679,6 +3799,16 @@
       "pop": 18013,
       "tier": 3,
       "releasedAt": "2026-10-16T08:23:37.773Z"
+    },
+    {
+      "slug": "raipur-rajasthan",
+      "name": "Raipur",
+      "state": "Rajasthan",
+      "lat": 26.04259,
+      "lon": 74.02373,
+      "pop": 17537,
+      "tier": 3,
+      "releasedAt": "2026-10-21T08:47:11.738Z"
     },
     {
       "slug": "nazareth",
