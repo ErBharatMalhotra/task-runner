@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T06:24:14.695Z",
-  "cityGuides": 385,
+  "generatedAt": "2026-10-22T08:49:09.093Z",
+  "cityGuides": 398,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-22T06:24:14.654Z",
+      "at": "2026-10-22T08:49:09.066Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-22T00:00:00.000Z",
+      "title": "13 city guides published — chengalpattu, dharmapuri, udhampur +10 more"
     },
     {
       "at": "2026-10-21T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-18T00:00:00.000Z",
       "title": "13 city guides published — pushkar, bijnor, almora +10 more"
-    },
-    {
-      "at": "2026-10-17T00:00:00.000Z",
-      "title": "13 city guides published — yanam, jharsuguda, ramanathapuram +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Gurdaspur, Raipur Rajasthan, Kharagpur Bihar +10 more",
+      "title": "13 new city guides — Chengalpattu, Dharmapuri, Udhampur +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "385 city guides · 32 state hubs live",
+      "title": "398 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-22T06:24:14.217Z",
-  "count": 385,
-  "shown": 385,
+  "generatedAt": "2026-10-22T08:49:08.792Z",
+  "count": 398,
+  "shown": 398,
   "latest": {
-    "slug": "gurdaspur",
-    "name": "Gurdaspur",
-    "lat": 32.03933,
-    "lon": 75.40318,
-    "at": "2026-10-21T08:47:11.822Z"
+    "slug": "chengalpattu",
+    "name": "Chengalpattu",
+    "lat": 12.69184,
+    "lon": 79.97661,
+    "at": "2026-10-22T08:49:08.591Z"
   },
   "cities": [
     {
@@ -509,6 +509,16 @@
       "pop": 963404,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:25.406Z"
+    },
+    {
+      "slug": "tirupur",
+      "name": "Tirupur",
+      "state": "Tamil Nadu",
+      "lat": 11.11541,
+      "lon": 77.35456,
+      "pop": 963173,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:07.915Z"
     },
     {
       "slug": "thiruvananthapuram",
@@ -1391,6 +1401,16 @@
       "releasedAt": "2026-10-07T10:28:43.774Z"
     },
     {
+      "slug": "mulugu",
+      "name": "Mulugu",
+      "state": "Telangana",
+      "lat": 18.191,
+      "lon": 79.943,
+      "pop": 297671,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.094Z"
+    },
+    {
       "slug": "darbhanga",
       "name": "Darbhanga",
       "state": "Bihar",
@@ -1621,6 +1641,16 @@
       "releasedAt": "2026-10-10T10:03:10.176Z"
     },
     {
+      "slug": "mau",
+      "name": "Mau",
+      "state": "Uttar Pradesh",
+      "lat": 25.94167,
+      "lon": 83.56111,
+      "pop": 246050,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.405Z"
+    },
+    {
       "slug": "puducherry",
       "name": "Puducherry",
       "state": "Puducherry",
@@ -1669,6 +1699,16 @@
       "pop": 237780,
       "tier": 2,
       "releasedAt": "2026-10-06T10:37:29.192Z"
+    },
+    {
+      "slug": "rewa",
+      "name": "Rewa",
+      "state": "Madhya Pradesh",
+      "lat": 24.53256,
+      "lon": 81.29234,
+      "pop": 235654,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.145Z"
     },
     {
       "slug": "sivakasi",
@@ -1901,6 +1941,16 @@
       "releasedAt": "2026-10-04T14:13:01.722Z"
     },
     {
+      "slug": "morena",
+      "name": "Morena",
+      "state": "Madhya Pradesh",
+      "lat": 26.49892,
+      "lon": 77.99534,
+      "pop": 200482,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.354Z"
+    },
+    {
       "slug": "bulandshahr",
       "name": "Bulandshahr",
       "state": "Uttar Pradesh",
@@ -2051,6 +2101,16 @@
       "releasedAt": "2026-10-04T14:13:01.281Z"
     },
     {
+      "slug": "baharampur",
+      "name": "Baharampur",
+      "state": "West Bengal",
+      "lat": 24.10473,
+      "lon": 88.25155,
+      "pop": 180547,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.253Z"
+    },
+    {
       "slug": "madanapalle",
       "name": "Madanapalle",
       "state": "Andhra Pradesh",
@@ -2149,6 +2209,16 @@
       "pop": 172813,
       "tier": 2,
       "releasedAt": "2026-10-16T08:23:37.115Z"
+    },
+    {
+      "slug": "gadag",
+      "name": "Gadag",
+      "state": "Karnataka",
+      "lat": 15.42977,
+      "lon": 75.62971,
+      "pop": 172612,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.040Z"
     },
     {
       "slug": "shimla",
@@ -2851,6 +2921,16 @@
       "releasedAt": "2026-10-15T08:30:01.850Z"
     },
     {
+      "slug": "rishra",
+      "name": "Rishra",
+      "state": "West Bengal",
+      "lat": 22.72394,
+      "lon": 88.34563,
+      "pop": 117014,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:07.988Z"
+    },
+    {
       "slug": "azamgarh",
       "name": "Azamgarh",
       "state": "Uttar Pradesh",
@@ -2899,6 +2979,16 @@
       "pop": 116150,
       "tier": 2,
       "releasedAt": "2026-10-18T08:13:10.891Z"
+    },
+    {
+      "slug": "baidyabati",
+      "name": "Baidyabati",
+      "state": "West Bengal",
+      "lat": 22.78498,
+      "lon": 88.32586,
+      "pop": 115504,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.303Z"
     },
     {
       "slug": "ambur",
@@ -3059,6 +3149,16 @@
       "pop": 109118,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.234Z"
+    },
+    {
+      "slug": "mangalagiri",
+      "name": "Mangalagiri",
+      "state": "Andhra Pradesh",
+      "lat": 16.43083,
+      "lon": 80.56815,
+      "pop": 107197,
+      "tier": 2,
+      "releasedAt": "2026-10-22T08:49:08.196Z"
     },
     {
       "slug": "khurja",
@@ -3371,6 +3471,16 @@
       "releasedAt": "2026-10-18T08:13:11.170Z"
     },
     {
+      "slug": "udhampur",
+      "name": "Udhampur",
+      "state": "Jammu and Kashmir",
+      "lat": 32.92431,
+      "lon": 75.13573,
+      "pop": 84015,
+      "tier": 3,
+      "releasedAt": "2026-10-22T08:49:08.489Z"
+    },
+    {
       "slug": "mhow",
       "name": "Mhow",
       "state": "Madhya Pradesh",
@@ -3491,6 +3601,16 @@
       "releasedAt": "2026-10-12T11:12:02.670Z"
     },
     {
+      "slug": "dharmapuri",
+      "name": "Dharmapuri",
+      "state": "Tamil Nadu",
+      "lat": 12.1277,
+      "lon": 78.15794,
+      "pop": 68619,
+      "tier": 3,
+      "releasedAt": "2026-10-22T08:49:08.541Z"
+    },
+    {
       "slug": "munnar",
       "name": "Munnar",
       "state": "Kerala",
@@ -3509,6 +3629,16 @@
       "pop": 67604,
       "tier": 3,
       "releasedAt": "2026-10-08T10:49:33.814Z"
+    },
+    {
+      "slug": "chengalpattu",
+      "name": "Chengalpattu",
+      "state": "Tamil Nadu",
+      "lat": 12.69184,
+      "lon": 79.97661,
+      "pop": 65689,
+      "tier": 3,
+      "releasedAt": "2026-10-22T08:49:08.591Z"
     },
     {
       "slug": "ramanathapuram",

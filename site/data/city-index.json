@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T06:24:14.496Z",
-  "count": 385,
+  "generatedAt": "2026-10-22T08:49:08.966Z",
+  "count": 398,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -197,10 +197,20 @@
       "url": "https://bharatdn.com/city/bahadurgarh/",
       "population": 170767
     },
+    "baharampur": {
+      "name": "Baharampur",
+      "url": "https://bharatdn.com/city/baharampur/",
+      "population": 180547
+    },
     "bahraich": {
       "name": "Bahraich",
       "url": "https://bharatdn.com/city/bahraich/",
       "population": 182218
+    },
+    "baidyabati": {
+      "name": "Baidyabati",
+      "url": "https://bharatdn.com/city/baidyabati/",
+      "population": 115504
     },
     "balasore": {
       "name": "Balasore",
@@ -402,6 +412,11 @@
       "url": "https://bharatdn.com/city/chandrapur/",
       "population": 328351
     },
+    "chengalpattu": {
+      "name": "Chengalpattu",
+      "url": "https://bharatdn.com/city/chengalpattu/",
+      "population": 65689
+    },
     "chennai": {
       "name": "Chennai",
       "url": "https://bharatdn.com/city/chennai/",
@@ -527,6 +542,11 @@
       "url": "https://bharatdn.com/city/dharapuram/",
       "population": 72291
     },
+    "dharmapuri": {
+      "name": "Dharmapuri",
+      "url": "https://bharatdn.com/city/dharmapuri/",
+      "population": 68619
+    },
     "dhule": {
       "name": "Dhule",
       "url": "https://bharatdn.com/city/dhule/",
@@ -606,6 +626,11 @@
       "name": "Firozpur",
       "url": "https://bharatdn.com/city/firozpur/",
       "population": 110313
+    },
+    "gadag": {
+      "name": "Gadag",
+      "url": "https://bharatdn.com/city/gadag/",
+      "population": 172612
     },
     "gadag-betageri": {
       "name": "Gadag-Betageri",
@@ -1117,6 +1142,11 @@
       "url": "https://bharatdn.com/city/mandya/",
       "population": 137358
     },
+    "mangalagiri": {
+      "name": "Mangalagiri",
+      "url": "https://bharatdn.com/city/mangalagiri/",
+      "population": 107197
+    },
     "mangaluru": {
       "name": "Mangaluru",
       "url": "https://bharatdn.com/city/mangaluru/",
@@ -1131,6 +1161,11 @@
       "name": "Mathura",
       "url": "https://bharatdn.com/city/mathura/",
       "population": 441386
+    },
+    "mau": {
+      "name": "Mau",
+      "url": "https://bharatdn.com/city/mau/",
+      "population": 246050
     },
     "mayiladuthurai": {
       "name": "Mayiladuthurai",
@@ -1162,6 +1197,11 @@
       "url": "https://bharatdn.com/city/moradabad/",
       "population": 889810
     },
+    "morena": {
+      "name": "Morena",
+      "url": "https://bharatdn.com/city/morena/",
+      "population": 200482
+    },
     "mormugao": {
       "name": "Mormugao",
       "url": "https://bharatdn.com/city/mormugao/",
@@ -1176,6 +1216,11 @@
       "name": "Mount Abu",
       "url": "https://bharatdn.com/city/mount-abu/",
       "population": 24981
+    },
+    "mulugu": {
+      "name": "Mulugu",
+      "url": "https://bharatdn.com/city/mulugu/",
+      "population": 297671
     },
     "mumbai": {
       "name": "Mumbai",
@@ -1542,10 +1587,20 @@
       "url": "https://bharatdn.com/city/ratnagiri/",
       "population": 76229
     },
+    "rewa": {
+      "name": "Rewa",
+      "url": "https://bharatdn.com/city/rewa/",
+      "population": 235654
+    },
     "rishikesh": {
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
       "population": 102690
+    },
+    "rishra": {
+      "name": "Rishra",
+      "url": "https://bharatdn.com/city/rishra/",
+      "population": 117014
     },
     "robertsonpet": {
       "name": "Robertsonpet",
@@ -1787,6 +1842,11 @@
       "url": "https://bharatdn.com/city/tirupati/",
       "population": 227105
     },
+    "tirupur": {
+      "name": "Tirupur",
+      "url": "https://bharatdn.com/city/tirupur/",
+      "population": 963173
+    },
     "tiruvannamalai": {
       "name": "Tiruvannamalai",
       "url": "https://bharatdn.com/city/tiruvannamalai/",
@@ -1811,6 +1871,11 @@
       "name": "Udhagamandalam",
       "url": "https://bharatdn.com/city/udhagamandalam/",
       "population": 233426
+    },
+    "udhampur": {
+      "name": "Udhampur",
+      "url": "https://bharatdn.com/city/udhampur/",
+      "population": 84015
     },
     "udupi": {
       "name": "Udupi",
