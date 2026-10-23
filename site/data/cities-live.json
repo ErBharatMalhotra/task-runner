@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-23T06:18:04.777Z",
-  "count": 398,
-  "shown": 398,
+  "generatedAt": "2026-10-23T08:44:53.332Z",
+  "count": 411,
+  "shown": 411,
   "latest": {
-    "slug": "chengalpattu",
-    "name": "Chengalpattu",
-    "lat": 12.69184,
-    "lon": 79.97661,
-    "at": "2026-10-22T08:49:08.591Z"
+    "slug": "kargil",
+    "name": "Kargil",
+    "lat": 34.55765,
+    "lon": 76.12622,
+    "at": "2026-10-23T08:44:52.951Z"
   },
   "cities": [
     {
@@ -1081,6 +1081,16 @@
       "releasedAt": "2026-09-26T11:53:40.531Z"
     },
     {
+      "slug": "davangere",
+      "name": "Davangere",
+      "state": "Karnataka",
+      "lat": 14.46693,
+      "lon": 75.92694,
+      "pop": 435128,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.125Z"
+    },
+    {
       "slug": "kozhikode",
       "name": "Kozhikode",
       "state": "Kerala",
@@ -1301,6 +1311,16 @@
       "releasedAt": "2026-10-04T14:13:01.453Z"
     },
     {
+      "slug": "vijayapura",
+      "name": "Vijayapura",
+      "state": "Karnataka",
+      "lat": 16.82442,
+      "lon": 75.71537,
+      "pop": 327427,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.295Z"
+    },
+    {
       "slug": "shivamogga",
       "name": "Shivamogga",
       "state": "Karnataka",
@@ -1359,6 +1379,16 @@
       "pop": 314000,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:27.532Z"
+    },
+    {
+      "slug": "tumakuru",
+      "name": "Tumakuru",
+      "state": "Karnataka",
+      "lat": 13.34136,
+      "lon": 77.1022,
+      "pop": 307359,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.210Z"
     },
     {
       "slug": "parbhani",
@@ -2051,6 +2081,16 @@
       "releasedAt": "2026-10-08T10:49:33.362Z"
     },
     {
+      "slug": "phusro",
+      "name": "Phusro",
+      "state": "Jharkhand",
+      "lat": 23.75644,
+      "lon": 86.0051,
+      "pop": 185555,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:51.960Z"
+    },
+    {
       "slug": "adoni",
       "name": "Adoni",
       "state": "Andhra Pradesh",
@@ -2091,6 +2131,16 @@
       "releasedAt": "2026-10-10T10:03:10.288Z"
     },
     {
+      "slug": "guna",
+      "name": "Guna",
+      "state": "Madhya Pradesh",
+      "lat": 24.64691,
+      "lon": 77.3113,
+      "pop": 180935,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.042Z"
+    },
+    {
       "slug": "chandannagar",
       "name": "Chandannagar",
       "state": "West Bengal",
@@ -2129,6 +2179,16 @@
       "pop": 179977,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.461Z"
+    },
+    {
+      "slug": "surendranagar",
+      "name": "Surendranagar",
+      "state": "Gujarat",
+      "lat": 22.72706,
+      "lon": 71.64856,
+      "pop": 179628,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.464Z"
     },
     {
       "slug": "neyveli",
@@ -2349,6 +2409,16 @@
       "pop": 160722,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.701Z"
+    },
+    {
+      "slug": "jamuria",
+      "name": "Jamuria",
+      "state": "West Bengal",
+      "lat": 23.70468,
+      "lon": 87.07872,
+      "pop": 160242,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:51.883Z"
     },
     {
       "slug": "jaigaon",
@@ -2831,6 +2901,16 @@
       "releasedAt": "2026-10-13T10:53:23.160Z"
     },
     {
+      "slug": "vejalpur",
+      "name": "Vejalpur",
+      "state": "Gujarat",
+      "lat": 22.69021,
+      "lon": 73.56299,
+      "pop": 121610,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.548Z"
+    },
+    {
       "slug": "bhadrak",
       "name": "Bhadrak",
       "state": "Odisha",
@@ -2889,6 +2969,16 @@
       "pop": 118259,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:36.183Z"
+    },
+    {
+      "slug": "narmadapuram",
+      "name": "Narmadapuram",
+      "state": "Madhya Pradesh",
+      "lat": 22.74747,
+      "lon": 77.72736,
+      "pop": 117988,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.635Z"
     },
     {
       "slug": "amreli",
@@ -3069,6 +3159,16 @@
       "pop": 112050,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.056Z"
+    },
+    {
+      "slug": "bagalkot",
+      "name": "Bagalkot",
+      "state": "Karnataka",
+      "lat": 16.18673,
+      "lon": 75.69614,
+      "pop": 111933,
+      "tier": 2,
+      "releasedAt": "2026-10-23T08:44:52.380Z"
     },
     {
       "slug": "bangaon",
@@ -3581,6 +3681,16 @@
       "releasedAt": "2026-10-09T10:48:18.970Z"
     },
     {
+      "slug": "channapatna",
+      "name": "Channapatna",
+      "state": "Karnataka",
+      "lat": 12.65143,
+      "lon": 77.20672,
+      "pop": 71942,
+      "tier": 3,
+      "releasedAt": "2026-10-23T08:44:52.866Z"
+    },
+    {
       "slug": "krishnagiri",
       "name": "Krishnagiri",
       "state": "Tamil Nadu",
@@ -3951,6 +4061,16 @@
       "releasedAt": "2026-10-05T10:44:21.148Z"
     },
     {
+      "slug": "kargil",
+      "name": "Kargil",
+      "state": "Ladakh",
+      "lat": 34.55765,
+      "lon": 76.12622,
+      "pop": 16338,
+      "tier": 3,
+      "releasedAt": "2026-10-23T08:44:52.951Z"
+    },
+    {
       "slug": "moth",
       "name": "Moth",
       "state": "Uttar Pradesh",
@@ -3969,6 +4089,16 @@
       "pop": 11108,
       "tier": 3,
       "releasedAt": "2026-10-20T08:46:26.728Z"
+    },
+    {
+      "slug": "cheyyur",
+      "name": "Cheyyur",
+      "state": "Tamil Nadu",
+      "lat": 12.34948,
+      "lon": 80.00304,
+      "pop": 11060,
+      "tier": 3,
+      "releasedAt": "2026-10-23T08:44:52.783Z"
     },
     {
       "slug": "manali",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T06:18:04.990Z",
-  "count": 398,
+  "generatedAt": "2026-10-23T08:44:53.671Z",
+  "count": 411,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -191,6 +191,11 @@
       "name": "Bagaha",
       "url": "https://bharatdn.com/city/bagaha/",
       "population": 112634
+    },
+    "bagalkot": {
+      "name": "Bagalkot",
+      "url": "https://bharatdn.com/city/bagalkot/",
+      "population": 111933
     },
     "bahadurgarh": {
       "name": "Bahadurgarh",
@@ -412,6 +417,11 @@
       "url": "https://bharatdn.com/city/chandrapur/",
       "population": 328351
     },
+    "channapatna": {
+      "name": "Channapatna",
+      "url": "https://bharatdn.com/city/channapatna/",
+      "population": 71942
+    },
     "chengalpattu": {
       "name": "Chengalpattu",
       "url": "https://bharatdn.com/city/chengalpattu/",
@@ -421,6 +431,11 @@
       "name": "Chennai",
       "url": "https://bharatdn.com/city/chennai/",
       "population": 4646732
+    },
+    "cheyyur": {
+      "name": "Cheyyur",
+      "url": "https://bharatdn.com/city/cheyyur/",
+      "population": 11060
     },
     "chhatarpur": {
       "name": "Chhatarpur",
@@ -491,6 +506,11 @@
       "name": "Datia",
       "url": "https://bharatdn.com/city/datia/",
       "population": 100284
+    },
+    "davangere": {
+      "name": "Davangere",
+      "url": "https://bharatdn.com/city/davangere/",
+      "population": 435128
     },
     "deesa": {
       "name": "Deesa",
@@ -687,6 +707,11 @@
       "url": "https://bharatdn.com/city/greater-noida/",
       "population": 293908
     },
+    "guna": {
+      "name": "Guna",
+      "url": "https://bharatdn.com/city/guna/",
+      "population": 180935
+    },
     "guntakal": {
       "name": "Guntakal",
       "url": "https://bharatdn.com/city/guntakal/",
@@ -842,6 +867,11 @@
       "url": "https://bharatdn.com/city/jamshedpur/",
       "population": 631053
     },
+    "jamuria": {
+      "name": "Jamuria",
+      "url": "https://bharatdn.com/city/jamuria/",
+      "population": 160242
+    },
     "jhansi": {
       "name": "Jhansi",
       "url": "https://bharatdn.com/city/jhansi/",
@@ -926,6 +956,11 @@
       "name": "Karaikudi",
       "url": "https://bharatdn.com/city/karaikudi/",
       "population": 181851
+    },
+    "kargil": {
+      "name": "Kargil",
+      "url": "https://bharatdn.com/city/kargil/",
+      "population": 16338
     },
     "karnal": {
       "name": "Karnal",
@@ -1322,6 +1357,11 @@
       "url": "https://bharatdn.com/city/narela/",
       "population": 800000
     },
+    "narmadapuram": {
+      "name": "Narmadapuram",
+      "url": "https://bharatdn.com/city/narmadapuram/",
+      "population": 117988
+    },
     "nashik": {
       "name": "Nashik",
       "url": "https://bharatdn.com/city/nashik/",
@@ -1441,6 +1481,11 @@
       "name": "Pen",
       "url": "https://bharatdn.com/city/pen/",
       "population": 37852
+    },
+    "phusro": {
+      "name": "Phusro",
+      "url": "https://bharatdn.com/city/phusro/",
+      "population": 185555
     },
     "pimpri": {
       "name": "Pimpri",
@@ -1767,6 +1812,11 @@
       "url": "https://bharatdn.com/city/surat/",
       "population": 4594194
     },
+    "surendranagar": {
+      "name": "Surendranagar",
+      "url": "https://bharatdn.com/city/surendranagar/",
+      "population": 179628
+    },
     "tadepalligudem": {
       "name": "Tadepalligudem",
       "url": "https://bharatdn.com/city/tadepalligudem/",
@@ -1857,6 +1907,11 @@
       "url": "https://bharatdn.com/city/titagarh/",
       "population": 127751
     },
+    "tumakuru": {
+      "name": "Tumakuru",
+      "url": "https://bharatdn.com/city/tumakuru/",
+      "population": 307359
+    },
     "udaipur": {
       "name": "Udaipur",
       "url": "https://bharatdn.com/city/udaipur/",
@@ -1927,6 +1982,11 @@
       "url": "https://bharatdn.com/city/varkala/",
       "population": 43276
     },
+    "vejalpur": {
+      "name": "Vejalpur",
+      "url": "https://bharatdn.com/city/vejalpur/",
+      "population": 121610
+    },
     "velankanni": {
       "name": "Velankanni",
       "url": "https://bharatdn.com/city/velankanni/",
@@ -1941,6 +2001,11 @@
       "name": "Vidisha",
       "url": "https://bharatdn.com/city/vidisha/",
       "population": 155951
+    },
+    "vijayapura": {
+      "name": "Vijayapura",
+      "url": "https://bharatdn.com/city/vijayapura/",
+      "population": 327427
     },
     "vijayawada": {
       "name": "Vijayawada",
