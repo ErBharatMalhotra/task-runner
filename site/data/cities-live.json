@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-24T06:14:13.263Z",
-  "count": 411,
-  "shown": 411,
+  "generatedAt": "2026-10-24T08:19:33.016Z",
+  "count": 424,
+  "shown": 424,
   "latest": {
-    "slug": "kargil",
-    "name": "Kargil",
-    "lat": 34.55765,
-    "lon": 76.12622,
-    "at": "2026-10-23T08:44:52.951Z"
+    "slug": "hoskote",
+    "name": "Hoskote",
+    "lat": 13.0707,
+    "lon": 77.79814,
+    "at": "2026-10-24T08:19:32.368Z"
   },
   "cities": [
     {
@@ -339,6 +339,16 @@
       "pop": 1263808,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:18.977Z"
+    },
+    {
+      "slug": "dombivali",
+      "name": "Dombivali",
+      "state": "Maharashtra",
+      "lat": 19.21667,
+      "lon": 73.08333,
+      "pop": 1247327,
+      "tier": 1,
+      "releasedAt": "2026-10-24T08:19:30.525Z"
     },
     {
       "slug": "varanasi",
@@ -941,6 +951,16 @@
       "releasedAt": "2026-10-06T10:37:29.473Z"
     },
     {
+      "slug": "loni",
+      "name": "Loni",
+      "state": "Uttar Pradesh",
+      "lat": 28.75143,
+      "lon": 77.29023,
+      "pop": 516082,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:30.365Z"
+    },
+    {
       "slug": "ujjain",
       "name": "Ujjain",
       "state": "Madhya Pradesh",
@@ -1229,6 +1249,16 @@
       "pop": 359483,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.535Z"
+    },
+    {
+      "slug": "brahmapur",
+      "name": "Brahmapur",
+      "state": "Odisha",
+      "lat": 19.31151,
+      "lon": 84.7929,
+      "pop": 356598,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:31.130Z"
     },
     {
       "slug": "muzaffarpur",
@@ -1549,6 +1579,16 @@
       "pop": 282248,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.736Z"
+    },
+    {
+      "slug": "saugor",
+      "name": "Saugor",
+      "state": "Madhya Pradesh",
+      "lat": 23.83877,
+      "lon": 78.73874,
+      "pop": 274556,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:31.341Z"
     },
     {
       "slug": "kushinagar",
@@ -2161,6 +2201,16 @@
       "releasedAt": "2026-10-22T08:49:08.253Z"
     },
     {
+      "slug": "shahuwadi",
+      "name": "Shahuwadi",
+      "state": "Maharashtra",
+      "lat": 16.90993,
+      "lon": 73.94654,
+      "pop": 180322,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:31.011Z"
+    },
+    {
       "slug": "madanapalle",
       "name": "Madanapalle",
       "state": "Andhra Pradesh",
@@ -2339,6 +2389,16 @@
       "pop": 166864,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.090Z"
+    },
+    {
+      "slug": "tonk",
+      "name": "Tonk",
+      "state": "Rajasthan",
+      "lat": 26.16638,
+      "lon": 75.78824,
+      "pop": 165294,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:30.679Z"
     },
     {
       "slug": "udupi",
@@ -2911,6 +2971,16 @@
       "releasedAt": "2026-10-23T08:44:52.548Z"
     },
     {
+      "slug": "chikkamagaluru",
+      "name": "Chikkamagaluru",
+      "state": "Karnataka",
+      "lat": 13.32231,
+      "lon": 75.774,
+      "pop": 121484,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:30.438Z"
+    },
+    {
       "slug": "bhadrak",
       "name": "Bhadrak",
       "state": "Odisha",
@@ -2939,6 +3009,16 @@
       "pop": 120414,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:19.559Z"
+    },
+    {
+      "slug": "satara",
+      "name": "Satara",
+      "state": "Maharashtra",
+      "lat": 17.68589,
+      "lon": 73.99333,
+      "pop": 120195,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:31.240Z"
     },
     {
       "slug": "barshi",
@@ -3019,6 +3099,16 @@
       "pop": 117014,
       "tier": 2,
       "releasedAt": "2026-10-22T08:49:07.988Z"
+    },
+    {
+      "slug": "muktsar",
+      "name": "Muktsar",
+      "state": "Punjab",
+      "lat": 30.47426,
+      "lon": 74.5166,
+      "pop": 116747,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:30.296Z"
     },
     {
       "slug": "azamgarh",
@@ -3421,6 +3511,16 @@
       "releasedAt": "2026-10-21T08:47:11.250Z"
     },
     {
+      "slug": "vasco",
+      "name": "Vasco",
+      "state": "Goa",
+      "lat": 15.39585,
+      "lon": 73.81568,
+      "pop": 100485,
+      "tier": 2,
+      "releasedAt": "2026-10-24T08:19:30.798Z"
+    },
+    {
       "slug": "gangtok",
       "name": "Gangtok",
       "state": "Sikkim",
@@ -3519,6 +3619,16 @@
       "pop": 97201,
       "tier": 3,
       "releasedAt": "2026-10-14T08:56:11.219Z"
+    },
+    {
+      "slug": "mainpuri",
+      "name": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "lat": 27.22857,
+      "lon": 79.02882,
+      "pop": 94619,
+      "tier": 3,
+      "releasedAt": "2026-10-24T08:19:31.927Z"
     },
     {
       "slug": "valparai",
@@ -3791,6 +3901,16 @@
       "releasedAt": "2026-10-12T11:12:02.547Z"
     },
     {
+      "slug": "hoskote",
+      "name": "Hoskote",
+      "state": "Karnataka",
+      "lat": 13.0707,
+      "lon": 77.79814,
+      "pop": 56980,
+      "tier": 3,
+      "releasedAt": "2026-10-24T08:19:32.368Z"
+    },
+    {
       "slug": "ayodhya",
       "name": "Ayodhya",
       "state": "Uttar Pradesh",
@@ -3879,6 +3999,16 @@
       "pop": 42309,
       "tier": 3,
       "releasedAt": "2026-10-08T10:49:33.758Z"
+    },
+    {
+      "slug": "solan",
+      "name": "Solan",
+      "state": "Himachal Pradesh",
+      "lat": 30.90908,
+      "lon": 77.10869,
+      "pop": 40283,
+      "tier": 3,
+      "releasedAt": "2026-10-24T08:19:32.127Z"
     },
     {
       "slug": "agar",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T06:14:13.544Z",
-  "count": 411,
+  "generatedAt": "2026-10-24T08:19:33.824Z",
+  "count": 424,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -387,6 +387,11 @@
       "url": "https://bharatdn.com/city/botad/",
       "population": 130327
     },
+    "brahmapur": {
+      "name": "Brahmapur",
+      "url": "https://bharatdn.com/city/brahmapur/",
+      "population": 356598
+    },
     "budaun": {
       "name": "Budaun",
       "url": "https://bharatdn.com/city/budaun/",
@@ -446,6 +451,11 @@
       "name": "Chidambaram",
       "url": "https://bharatdn.com/city/chidambaram/",
       "population": 62153
+    },
+    "chikkamagaluru": {
+      "name": "Chikkamagaluru",
+      "url": "https://bharatdn.com/city/chikkamagaluru/",
+      "population": 121484
     },
     "chirmiri": {
       "name": "Chirmiri",
@@ -581,6 +591,11 @@
       "name": "Dindigul",
       "url": "https://bharatdn.com/city/dindigul/",
       "population": 292512
+    },
+    "dombivali": {
+      "name": "Dombivali",
+      "url": "https://bharatdn.com/city/dombivali/",
+      "population": 1247327
     },
     "dum-dum": {
       "name": "Dum Dum",
@@ -776,6 +791,11 @@
       "name": "Hindupur",
       "url": "https://bharatdn.com/city/hindupur/",
       "population": 151677
+    },
+    "hoskote": {
+      "name": "Hoskote",
+      "url": "https://bharatdn.com/city/hoskote/",
+      "population": 56980
     },
     "howrah": {
       "name": "Howrah",
@@ -1112,6 +1132,11 @@
       "url": "https://bharatdn.com/city/leh/",
       "population": 37475
     },
+    "loni": {
+      "name": "Loni",
+      "url": "https://bharatdn.com/city/loni/",
+      "population": 516082
+    },
     "lucknow": {
       "name": "Lucknow",
       "url": "https://bharatdn.com/city/lucknow/",
@@ -1146,6 +1171,11 @@
       "name": "Maheshtala",
       "url": "https://bharatdn.com/city/maheshtala/",
       "population": 448317
+    },
+    "mainpuri": {
+      "name": "Mainpuri",
+      "url": "https://bharatdn.com/city/mainpuri/",
+      "population": 94619
     },
     "malappuram": {
       "name": "Malappuram",
@@ -1251,6 +1281,11 @@
       "name": "Mount Abu",
       "url": "https://bharatdn.com/city/mount-abu/",
       "population": 24981
+    },
+    "muktsar": {
+      "name": "Muktsar",
+      "url": "https://bharatdn.com/city/muktsar/",
+      "population": 116747
     },
     "mulugu": {
       "name": "Mulugu",
@@ -1692,10 +1727,20 @@
       "url": "https://bharatdn.com/city/sangli/",
       "population": 601214
     },
+    "satara": {
+      "name": "Satara",
+      "url": "https://bharatdn.com/city/satara/",
+      "population": 120195
+    },
     "satna": {
       "name": "Satna",
       "url": "https://bharatdn.com/city/satna/",
       "population": 282977
+    },
+    "saugor": {
+      "name": "Saugor",
+      "url": "https://bharatdn.com/city/saugor/",
+      "population": 274556
     },
     "sawai-madhopur": {
       "name": "Sawai Madhopur",
@@ -1726,6 +1771,11 @@
       "name": "Shahjahanpur",
       "url": "https://bharatdn.com/city/shahjahanpur/",
       "population": 320434
+    },
+    "shahuwadi": {
+      "name": "Shahuwadi",
+      "url": "https://bharatdn.com/city/shahuwadi/",
+      "population": 180322
     },
     "shamli": {
       "name": "Shamli",
@@ -1781,6 +1831,11 @@
       "name": "Sivakasi",
       "url": "https://bharatdn.com/city/sivakasi/",
       "population": 234704
+    },
+    "solan": {
+      "name": "Solan",
+      "url": "https://bharatdn.com/city/solan/",
+      "population": 40283
     },
     "solapur": {
       "name": "Solapur",
@@ -1907,6 +1962,11 @@
       "url": "https://bharatdn.com/city/titagarh/",
       "population": 127751
     },
+    "tonk": {
+      "name": "Tonk",
+      "url": "https://bharatdn.com/city/tonk/",
+      "population": 165294
+    },
     "tumakuru": {
       "name": "Tumakuru",
       "url": "https://bharatdn.com/city/tumakuru/",
@@ -1981,6 +2041,11 @@
       "name": "Varkala",
       "url": "https://bharatdn.com/city/varkala/",
       "population": 43276
+    },
+    "vasco": {
+      "name": "Vasco",
+      "url": "https://bharatdn.com/city/vasco/",
+      "population": 100485
     },
     "vejalpur": {
       "name": "Vejalpur",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T06:14:13.749Z",
-  "cityGuides": 411,
+  "generatedAt": "2026-10-24T08:19:34.025Z",
+  "cityGuides": 424,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-24T06:14:13.706Z",
+      "at": "2026-10-24T08:19:33.991Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-24T00:00:00.000Z",
+      "title": "13 city guides published — hoskote, solan, mainpuri +10 more"
     },
     {
       "at": "2026-10-23T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-20T00:00:00.000Z",
       "title": "13 city guides published — varkala, shamli, velankanni +10 more"
-    },
-    {
-      "at": "2026-10-19T00:00:00.000Z",
-      "title": "13 city guides published — krishnagiri, vadnagar, kalimpong +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Kargil, Channapatna, Cheyyur +10 more",
+      "title": "13 new city guides — Hoskote, Solan, Mainpuri +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "411 city guides · 32 state hubs live",
+      "title": "424 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
