@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T07:06:06.270Z",
-  "cityGuides": 424,
+  "generatedAt": "2026-10-25T08:37:41.954Z",
+  "cityGuides": 437,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-25T07:06:06.230Z",
+      "at": "2026-10-25T08:37:41.920Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-25T00:00:00.000Z",
+      "title": "13 city guides published — shegaon, kovilpatti, maheshwar +10 more"
     },
     {
       "at": "2026-10-24T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-21T00:00:00.000Z",
       "title": "13 city guides published — gurdaspur, raipur rajasthan, kharagpur bihar +10 more"
-    },
-    {
-      "at": "2026-10-20T00:00:00.000Z",
-      "title": "13 city guides published — varkala, shamli, velankanni +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Hoskote, Solan, Mainpuri +10 more",
+      "title": "13 new city guides — Shegaon, Kovilpatti, Maheshwar +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "424 city guides · 32 state hubs live",
+      "title": "437 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

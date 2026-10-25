@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-25T07:06:05.792Z",
-  "count": 424,
-  "shown": 424,
+  "generatedAt": "2026-10-25T08:37:41.536Z",
+  "count": 437,
+  "shown": 437,
   "latest": {
-    "slug": "hoskote",
-    "name": "Hoskote",
-    "lat": 13.0707,
-    "lon": 77.79814,
-    "at": "2026-10-24T08:19:32.368Z"
+    "slug": "shegaon",
+    "name": "Shegaon",
+    "lat": 20.7932,
+    "lon": 76.69921,
+    "at": "2026-10-25T08:37:41.243Z"
   },
   "cities": [
     {
@@ -891,6 +891,16 @@
       "releasedAt": "2026-09-26T11:53:22.885Z"
     },
     {
+      "slug": "bokaro",
+      "name": "Bokaro",
+      "state": "Jharkhand",
+      "lat": 23.66934,
+      "lon": 86.15161,
+      "pop": 564319,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.948Z"
+    },
+    {
       "slug": "ajmer",
       "name": "Ajmer",
       "state": "Rajasthan",
@@ -1089,6 +1099,16 @@
       "pop": 442274,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:27.027Z"
+    },
+    {
+      "slug": "shyamnagar",
+      "name": "Shyamnagar",
+      "state": "West Bengal",
+      "lat": 22.83333,
+      "lon": 88.36667,
+      "pop": 441956,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.822Z"
     },
     {
       "slug": "mathura",
@@ -1701,6 +1721,16 @@
       "releasedAt": "2026-09-26T14:20:24.773Z"
     },
     {
+      "slug": "bharatpur",
+      "name": "Bharatpur",
+      "state": "Rajasthan",
+      "lat": 27.21731,
+      "lon": 77.49009,
+      "pop": 252838,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.626Z"
+    },
+    {
       "slug": "begusarai",
       "name": "Begusarai",
       "state": "Bihar",
@@ -1979,6 +2009,16 @@
       "pop": 208344,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.796Z"
+    },
+    {
+      "slug": "hosapete",
+      "name": "Hosapete",
+      "state": "Karnataka",
+      "lat": 15.26954,
+      "lon": 76.3871,
+      "pop": 206167,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.885Z"
     },
     {
       "slug": "secunderabad",
@@ -2371,6 +2411,16 @@
       "releasedAt": "2026-10-14T08:56:10.610Z"
     },
     {
+      "slug": "malda",
+      "name": "Malda",
+      "state": "West Bengal",
+      "lat": 25.00447,
+      "lon": 88.14573,
+      "pop": 170039,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.694Z"
+    },
+    {
       "slug": "kumbakonam",
       "name": "Kumbakonam",
       "state": "Tamil Nadu",
@@ -2661,6 +2711,16 @@
       "releasedAt": "2026-10-13T10:53:23.626Z"
     },
     {
+      "slug": "krishnanagar",
+      "name": "Krishnanagar",
+      "state": "West Bengal",
+      "lat": 23.40576,
+      "lon": 88.49073,
+      "pop": 145926,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.503Z"
+    },
+    {
       "slug": "chitradurga",
       "name": "Chitradurga",
       "state": "Karnataka",
@@ -2731,6 +2791,16 @@
       "releasedAt": "2026-10-12T11:12:02.313Z"
     },
     {
+      "slug": "basirhat-city",
+      "name": "Basirhat City",
+      "state": "West Bengal",
+      "lat": 22.66142,
+      "lon": 88.85477,
+      "pop": 143007,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.565Z"
+    },
+    {
       "slug": "chhatarpur",
       "name": "Chhatarpur",
       "state": "Madhya Pradesh",
@@ -2749,6 +2819,16 @@
       "pop": 141667,
       "tier": 2,
       "releasedAt": "2026-10-11T13:50:45.546Z"
+    },
+    {
+      "slug": "chas",
+      "name": "Chas",
+      "state": "Jharkhand",
+      "lat": 23.63556,
+      "lon": 86.16712,
+      "pop": 141640,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:41.011Z"
     },
     {
       "slug": "damoh",
@@ -3241,6 +3321,16 @@
       "releasedAt": "2026-10-19T09:11:36.009Z"
     },
     {
+      "slug": "dharashiv",
+      "name": "Dharashiv",
+      "state": "Maharashtra",
+      "lat": 18.18158,
+      "lon": 76.03889,
+      "pop": 112085,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.440Z"
+    },
+    {
       "slug": "port-blair",
       "name": "Port Blair",
       "state": "Andaman and Nicobar",
@@ -3349,6 +3439,16 @@
       "pop": 107197,
       "tier": 2,
       "releasedAt": "2026-10-22T08:49:08.196Z"
+    },
+    {
+      "slug": "ranebennur",
+      "name": "Ranebennur",
+      "state": "Karnataka",
+      "lat": 14.62239,
+      "lon": 75.62951,
+      "pop": 106406,
+      "tier": 2,
+      "releasedAt": "2026-10-25T08:37:40.758Z"
     },
     {
       "slug": "khurja",
@@ -3621,6 +3721,16 @@
       "releasedAt": "2026-10-14T08:56:11.219Z"
     },
     {
+      "slug": "kovilpatti",
+      "name": "Kovilpatti",
+      "state": "Tamil Nadu",
+      "lat": 9.17167,
+      "lon": 77.86989,
+      "pop": 95057,
+      "tier": 3,
+      "releasedAt": "2026-10-25T08:37:41.176Z"
+    },
+    {
       "slug": "mainpuri",
       "name": "Mainpuri",
       "state": "Uttar Pradesh",
@@ -3891,6 +4001,16 @@
       "releasedAt": "2026-10-13T10:53:23.849Z"
     },
     {
+      "slug": "shegaon",
+      "name": "Shegaon",
+      "state": "Maharashtra",
+      "lat": 20.7932,
+      "lon": 76.69921,
+      "pop": 59672,
+      "tier": 3,
+      "releasedAt": "2026-10-25T08:37:41.243Z"
+    },
+    {
       "slug": "itanagar",
       "name": "Itanagar",
       "state": "Arunachal Pradesh",
@@ -4119,6 +4239,16 @@
       "pop": 24981,
       "tier": 3,
       "releasedAt": "2026-10-16T08:23:37.849Z"
+    },
+    {
+      "slug": "maheshwar",
+      "name": "Maheshwar",
+      "state": "Madhya Pradesh",
+      "lat": 22.17592,
+      "lon": 75.58715,
+      "pop": 24411,
+      "tier": 3,
+      "releasedAt": "2026-10-25T08:37:41.114Z"
     },
     {
       "slug": "ankola",

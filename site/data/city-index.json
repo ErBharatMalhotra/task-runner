@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T07:06:06.068Z",
-  "count": 424,
+  "generatedAt": "2026-10-25T08:37:41.772Z",
+  "count": 437,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -252,6 +252,11 @@
       "url": "https://bharatdn.com/city/barshi/",
       "population": 118722
     },
+    "basirhat-city": {
+      "name": "Basirhat City",
+      "url": "https://bharatdn.com/city/basirhat-city/",
+      "population": 143007
+    },
     "bathinda": {
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
@@ -291,6 +296,11 @@
       "name": "Bhagalpur",
       "url": "https://bharatdn.com/city/bhagalpur/",
       "population": 400146
+    },
+    "bharatpur": {
+      "name": "Bharatpur",
+      "url": "https://bharatdn.com/city/bharatpur/",
+      "population": 252838
     },
     "bhatkal": {
       "name": "Bhatkal",
@@ -377,6 +387,11 @@
       "url": "https://bharatdn.com/city/bilimora/",
       "population": 510879
     },
+    "bokaro": {
+      "name": "Bokaro",
+      "url": "https://bharatdn.com/city/bokaro/",
+      "population": 564319
+    },
     "borivali": {
       "name": "Borivali",
       "url": "https://bharatdn.com/city/borivali/",
@@ -426,6 +441,11 @@
       "name": "Channapatna",
       "url": "https://bharatdn.com/city/channapatna/",
       "population": 71942
+    },
+    "chas": {
+      "name": "Chas",
+      "url": "https://bharatdn.com/city/chas/",
+      "population": 141640
     },
     "chengalpattu": {
       "name": "Chengalpattu",
@@ -571,6 +591,11 @@
       "name": "Dharapuram",
       "url": "https://bharatdn.com/city/dharapuram/",
       "population": 72291
+    },
+    "dharashiv": {
+      "name": "Dharashiv",
+      "url": "https://bharatdn.com/city/dharashiv/",
+      "population": 112085
     },
     "dharmapuri": {
       "name": "Dharmapuri",
@@ -791,6 +816,11 @@
       "name": "Hindupur",
       "url": "https://bharatdn.com/city/hindupur/",
       "population": 151677
+    },
+    "hosapete": {
+      "name": "Hosapete",
+      "url": "https://bharatdn.com/city/hosapete/",
+      "population": 206167
     },
     "hoskote": {
       "name": "Hoskote",
@@ -1087,6 +1117,11 @@
       "url": "https://bharatdn.com/city/kottayam/",
       "population": 55374
     },
+    "kovilpatti": {
+      "name": "Kovilpatti",
+      "url": "https://bharatdn.com/city/kovilpatti/",
+      "population": 95057
+    },
     "kozhikode": {
       "name": "Kozhikode",
       "url": "https://bharatdn.com/city/kozhikode/",
@@ -1096,6 +1131,11 @@
       "name": "Krishnagiri",
       "url": "https://bharatdn.com/city/krishnagiri/",
       "population": 71323
+    },
+    "krishnanagar": {
+      "name": "Krishnanagar",
+      "url": "https://bharatdn.com/city/krishnanagar/",
+      "population": 145926
     },
     "kukatpally": {
       "name": "Kukatpally",
@@ -1172,6 +1212,11 @@
       "url": "https://bharatdn.com/city/maheshtala/",
       "population": 448317
     },
+    "maheshwar": {
+      "name": "Maheshwar",
+      "url": "https://bharatdn.com/city/maheshwar/",
+      "population": 24411
+    },
     "mainpuri": {
       "name": "Mainpuri",
       "url": "https://bharatdn.com/city/mainpuri/",
@@ -1181,6 +1226,11 @@
       "name": "Malappuram",
       "url": "https://bharatdn.com/city/malappuram/",
       "population": 101386
+    },
+    "malda": {
+      "name": "Malda",
+      "url": "https://bharatdn.com/city/malda/",
+      "population": 170039
     },
     "malegaon": {
       "name": "Malegaon",
@@ -1652,6 +1702,11 @@
       "url": "https://bharatdn.com/city/ranchi/",
       "population": 1073571
     },
+    "ranebennur": {
+      "name": "Ranebennur",
+      "url": "https://bharatdn.com/city/ranebennur/",
+      "population": 106406
+    },
     "raniganj": {
       "name": "Raniganj",
       "url": "https://bharatdn.com/city/raniganj/",
@@ -1782,6 +1837,11 @@
       "url": "https://bharatdn.com/city/shamli/",
       "population": 97966
     },
+    "shegaon": {
+      "name": "Shegaon",
+      "url": "https://bharatdn.com/city/shegaon/",
+      "population": 59672
+    },
     "shillong": {
       "name": "Shillong",
       "url": "https://bharatdn.com/city/shillong/",
@@ -1801,6 +1861,11 @@
       "name": "Shivpuri",
       "url": "https://bharatdn.com/city/shivpuri/",
       "population": 179977
+    },
+    "shyamnagar": {
+      "name": "Shyamnagar",
+      "url": "https://bharatdn.com/city/shyamnagar/",
+      "population": 441956
     },
     "silchar": {
       "name": "Silchar",
