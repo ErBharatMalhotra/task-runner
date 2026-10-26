@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:08:23.600Z",
+  "generatedAt": "2026-10-26T23:42:49.783Z",
   "cityGuides": 450,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-26T19:08:23.565Z",
+      "at": "2026-10-26T23:42:49.742Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Kadiri, Dadri, Baud +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
