@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-26T06:43:25.323Z",
-  "count": 437,
-  "shown": 437,
+  "generatedAt": "2026-10-26T09:14:29.836Z",
+  "count": 450,
+  "shown": 450,
   "latest": {
-    "slug": "shegaon",
-    "name": "Shegaon",
-    "lat": 20.7932,
-    "lon": 76.69921,
-    "at": "2026-10-25T08:37:41.243Z"
+    "slug": "kadiri",
+    "name": "Kadiri",
+    "lat": 14.11168,
+    "lon": 78.15982,
+    "at": "2026-10-26T09:14:29.475Z"
   },
   "cities": [
     {
@@ -1161,6 +1161,16 @@
       "releasedAt": "2026-10-14T08:56:10.388Z"
     },
     {
+      "slug": "korba",
+      "name": "Korba",
+      "state": "Chhattisgarh",
+      "lat": 22.3458,
+      "lon": 82.69633,
+      "pop": 419146,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.958Z"
+    },
+    {
       "slug": "thoothukudi",
       "name": "Thoothukudi",
       "state": "Tamil Nadu",
@@ -1449,6 +1459,16 @@
       "pop": 307170,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.676Z"
+    },
+    {
+      "slug": "hisar",
+      "name": "Hisar",
+      "state": "Haryana",
+      "lat": 29.15394,
+      "lon": 75.72294,
+      "pop": 307024,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:29.039Z"
     },
     {
       "slug": "firozabad",
@@ -1961,6 +1981,16 @@
       "releasedAt": "2026-09-26T11:53:46.555Z"
     },
     {
+      "slug": "raurkela-industrial-township",
+      "name": "Raurkela Industrial Township",
+      "state": "Odisha",
+      "lat": 22.19994,
+      "lon": 84.86176,
+      "pop": 216410,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:29.118Z"
+    },
+    {
       "slug": "bidar",
       "name": "Bidar",
       "state": "Karnataka",
@@ -1989,6 +2019,16 @@
       "pop": 211355,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.189Z"
+    },
+    {
+      "slug": "morvi",
+      "name": "Morvi",
+      "state": "Gujarat",
+      "lat": 22.81731,
+      "lon": 70.8377,
+      "pop": 210451,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.879Z"
     },
     {
       "slug": "anand",
@@ -2421,6 +2461,16 @@
       "releasedAt": "2026-10-25T08:37:40.694Z"
     },
     {
+      "slug": "jaunpur",
+      "name": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "lat": 25.75356,
+      "lon": 82.68689,
+      "pop": 169572,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.494Z"
+    },
+    {
       "slug": "kumbakonam",
       "name": "Kumbakonam",
       "state": "Tamil Nadu",
@@ -2439,6 +2489,16 @@
       "pop": 166864,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.090Z"
+    },
+    {
+      "slug": "fatehpur",
+      "name": "Fatehpur",
+      "state": "Uttar Pradesh",
+      "lat": 25.92774,
+      "lon": 80.81266,
+      "pop": 166480,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:29.196Z"
     },
     {
       "slug": "tonk",
@@ -2479,6 +2539,16 @@
       "pop": 163630,
       "tier": 2,
       "releasedAt": "2026-10-10T10:03:10.121Z"
+    },
+    {
+      "slug": "moga",
+      "name": "Moga",
+      "state": "Punjab",
+      "lat": 30.81383,
+      "lon": 75.16878,
+      "pop": 163397,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.647Z"
     },
     {
       "slug": "robertsonpet",
@@ -2961,6 +3031,16 @@
       "releasedAt": "2026-10-11T13:50:45.256Z"
     },
     {
+      "slug": "khanna",
+      "name": "Khanna",
+      "state": "Punjab",
+      "lat": 30.70547,
+      "lon": 76.22196,
+      "pop": 128137,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.569Z"
+    },
+    {
       "slug": "titagarh",
       "name": "Titagarh",
       "state": "West Bengal",
@@ -3251,6 +3331,16 @@
       "releasedAt": "2026-10-22T08:49:08.303Z"
     },
     {
+      "slug": "basti",
+      "name": "Basti",
+      "state": "Uttar Pradesh",
+      "lat": 26.78817,
+      "lon": 82.71617,
+      "pop": 115115,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.801Z"
+    },
+    {
       "slug": "ambur",
       "name": "Ambur",
       "state": "Tamil Nadu",
@@ -3479,6 +3569,16 @@
       "pop": 105452,
       "tier": 2,
       "releasedAt": "2026-10-20T08:46:26.218Z"
+    },
+    {
+      "slug": "ambala-sadar",
+      "name": "Ambala Sadar",
+      "state": "Haryana",
+      "lat": 30.33544,
+      "lon": 76.86265,
+      "pop": 104974,
+      "tier": 2,
+      "releasedAt": "2026-10-26T09:14:28.725Z"
     },
     {
       "slug": "bhiwadi",
@@ -3761,6 +3861,16 @@
       "releasedAt": "2026-10-11T13:50:45.826Z"
     },
     {
+      "slug": "kadiri",
+      "name": "Kadiri",
+      "state": "Andhra Pradesh",
+      "lat": 14.11168,
+      "lon": 78.15982,
+      "pop": 89429,
+      "tier": 3,
+      "releasedAt": "2026-10-26T09:14:29.475Z"
+    },
+    {
       "slug": "deoband",
       "name": "Deoband",
       "state": "Uttar Pradesh",
@@ -3919,6 +4029,16 @@
       "pop": 71323,
       "tier": 3,
       "releasedAt": "2026-10-19T09:11:36.779Z"
+    },
+    {
+      "slug": "dadri",
+      "name": "Dadri",
+      "state": "Uttar Pradesh",
+      "lat": 28.55257,
+      "lon": 77.55403,
+      "pop": 70609,
+      "tier": 3,
+      "releasedAt": "2026-10-26T09:14:29.397Z"
     },
     {
       "slug": "palani",
@@ -4279,6 +4399,16 @@
       "pop": 21580,
       "tier": 3,
       "releasedAt": "2026-10-15T08:30:02.261Z"
+    },
+    {
+      "slug": "baud",
+      "name": "Baud",
+      "state": "Odisha",
+      "lat": 20.83773,
+      "lon": 84.32618,
+      "pop": 20424,
+      "tier": 3,
+      "releasedAt": "2026-10-26T09:14:29.322Z"
     },
     {
       "slug": "weir",

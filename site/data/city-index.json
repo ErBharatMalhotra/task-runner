@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T06:43:25.495Z",
-  "count": 437,
+  "generatedAt": "2026-10-26T09:14:30.134Z",
+  "count": 450,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -91,6 +91,11 @@
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
       "population": 103000
+    },
+    "ambala-sadar": {
+      "name": "Ambala Sadar",
+      "url": "https://bharatdn.com/city/ambala-sadar/",
+      "population": 104974
     },
     "ambarnath": {
       "name": "Ambarnath",
@@ -257,10 +262,20 @@
       "url": "https://bharatdn.com/city/basirhat-city/",
       "population": 143007
     },
+    "basti": {
+      "name": "Basti",
+      "url": "https://bharatdn.com/city/basti/",
+      "population": 115115
+    },
     "bathinda": {
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
       "population": 285813
+    },
+    "baud": {
+      "name": "Baud",
+      "url": "https://bharatdn.com/city/baud/",
+      "population": 20424
     },
     "beed": {
       "name": "Beed",
@@ -512,6 +527,11 @@
       "url": "https://bharatdn.com/city/cuttack/",
       "population": 610189
     },
+    "dadri": {
+      "name": "Dadri",
+      "url": "https://bharatdn.com/city/dadri/",
+      "population": 70609
+    },
     "damoh": {
       "name": "Damoh",
       "url": "https://bharatdn.com/city/damoh/",
@@ -661,6 +681,11 @@
       "name": "Faridabad",
       "url": "https://bharatdn.com/city/faridabad/",
       "population": 1404653
+    },
+    "fatehpur": {
+      "name": "Fatehpur",
+      "url": "https://bharatdn.com/city/fatehpur/",
+      "population": 166480
     },
     "fatehpur-sikri": {
       "name": "Fatehpur Sikri",
@@ -817,6 +842,11 @@
       "url": "https://bharatdn.com/city/hindupur/",
       "population": 151677
     },
+    "hisar": {
+      "name": "Hisar",
+      "url": "https://bharatdn.com/city/hisar/",
+      "population": 307024
+    },
     "hosapete": {
       "name": "Hosapete",
       "url": "https://bharatdn.com/city/hosapete/",
@@ -922,6 +952,11 @@
       "url": "https://bharatdn.com/city/jamuria/",
       "population": 160242
     },
+    "jaunpur": {
+      "name": "Jaunpur",
+      "url": "https://bharatdn.com/city/jaunpur/",
+      "population": 169572
+    },
     "jhansi": {
       "name": "Jhansi",
       "url": "https://bharatdn.com/city/jhansi/",
@@ -951,6 +986,11 @@
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
       "population": 344893
+    },
+    "kadiri": {
+      "name": "Kadiri",
+      "url": "https://bharatdn.com/city/kadiri/",
+      "population": 89429
     },
     "kaithal": {
       "name": "Kaithal",
@@ -1042,6 +1082,11 @@
       "url": "https://bharatdn.com/city/khandwa/",
       "population": 200738
     },
+    "khanna": {
+      "name": "Khanna",
+      "url": "https://bharatdn.com/city/khanna/",
+      "population": 128137
+    },
     "kharagpur": {
       "name": "Kharagpur",
       "url": "https://bharatdn.com/city/kharagpur/",
@@ -1106,6 +1151,11 @@
       "name": "Komarapalayam",
       "url": "https://bharatdn.com/city/komarapalayam/",
       "population": 195071
+    },
+    "korba": {
+      "name": "Korba",
+      "url": "https://bharatdn.com/city/korba/",
+      "population": 419146
     },
     "kota": {
       "name": "Kota",
@@ -1302,6 +1352,11 @@
       "url": "https://bharatdn.com/city/miryalaguda/",
       "population": 104918
     },
+    "moga": {
+      "name": "Moga",
+      "url": "https://bharatdn.com/city/moga/",
+      "population": 163397
+    },
     "mohali": {
       "name": "Mohali",
       "url": "https://bharatdn.com/city/mohali/",
@@ -1321,6 +1376,11 @@
       "name": "Mormugao",
       "url": "https://bharatdn.com/city/mormugao/",
       "population": 102345
+    },
+    "morvi": {
+      "name": "Morvi",
+      "url": "https://bharatdn.com/city/morvi/",
+      "population": 210451
     },
     "moth": {
       "name": "Moth",
@@ -1721,6 +1781,11 @@
       "name": "Ratnagiri",
       "url": "https://bharatdn.com/city/ratnagiri/",
       "population": 76229
+    },
+    "raurkela-industrial-township": {
+      "name": "Raurkela Industrial Township",
+      "url": "https://bharatdn.com/city/raurkela-industrial-township/",
+      "population": 216410
     },
     "rewa": {
       "name": "Rewa",
