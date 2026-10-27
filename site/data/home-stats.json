@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T06:37:04.230Z",
-  "cityGuides": 450,
+  "generatedAt": "2026-10-27T09:14:48.142Z",
+  "cityGuides": 463,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-10-27T06:37:04.189Z",
+      "at": "2026-10-27T09:14:48.108Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-10-27T00:00:00.000Z",
+      "title": "13 city guides published — karjat, doddaballapura, tiruvallur +10 more"
     },
     {
       "at": "2026-10-26T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-23T00:00:00.000Z",
       "title": "13 city guides published — kargil, channapatna, cheyyur +10 more"
-    },
-    {
-      "at": "2026-10-22T00:00:00.000Z",
-      "title": "13 city guides published — chengalpattu, dharmapuri, udhampur +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Kadiri, Dadri, Baud +10 more",
+      "title": "13 new city guides — Karjat, Doddaballapura, Tiruvallur +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "450 city guides · 32 state hubs live",
+      "title": "463 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

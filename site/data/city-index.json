@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T06:37:04.031Z",
-  "count": 450,
+  "generatedAt": "2026-10-27T09:14:47.977Z",
+  "count": 463,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -622,6 +622,11 @@
       "url": "https://bharatdn.com/city/dharmapuri/",
       "population": 68619
     },
+    "dharmavaram": {
+      "name": "Dharmavaram",
+      "url": "https://bharatdn.com/city/dharmavaram/",
+      "population": 121874
+    },
     "dhule": {
       "name": "Dhule",
       "url": "https://bharatdn.com/city/dhule/",
@@ -636,6 +641,11 @@
       "name": "Dindigul",
       "url": "https://bharatdn.com/city/dindigul/",
       "population": 292512
+    },
+    "doddaballapura": {
+      "name": "Doddaballapura",
+      "url": "https://bharatdn.com/city/doddaballapura/",
+      "population": 93105
     },
     "dombivali": {
       "name": "Dombivali",
@@ -756,6 +766,11 @@
       "name": "Godhra",
       "url": "https://bharatdn.com/city/godhra/",
       "population": 143644
+    },
+    "gondal": {
+      "name": "Gondal",
+      "url": "https://bharatdn.com/city/gondal/",
+      "population": 112197
     },
     "gorakhpur": {
       "name": "Gorakhpur",
@@ -997,6 +1012,11 @@
       "url": "https://bharatdn.com/city/kaithal/",
       "population": 144915
     },
+    "kalaburgi": {
+      "name": "Kalaburgi",
+      "url": "https://bharatdn.com/city/kalaburgi/",
+      "population": 543147
+    },
     "kalimpong": {
       "name": "Kalimpong",
       "url": "https://bharatdn.com/city/kalimpong/",
@@ -1006,6 +1026,11 @@
       "name": "Kallakurichi",
       "url": "https://bharatdn.com/city/kallakurichi/",
       "population": 1682687
+    },
+    "kalol": {
+      "name": "Kalol",
+      "url": "https://bharatdn.com/city/kalol/",
+      "population": 134426
     },
     "kanayannur": {
       "name": "Kanayannur",
@@ -1051,6 +1076,11 @@
       "name": "Kargil",
       "url": "https://bharatdn.com/city/kargil/",
       "population": 16338
+    },
+    "karjat": {
+      "name": "Karjat",
+      "url": "https://bharatdn.com/city/karjat/",
+      "population": 34554
     },
     "karnal": {
       "name": "Karnal",
@@ -1212,6 +1242,11 @@
       "url": "https://bharatdn.com/city/kushinagar/",
       "population": 274403
     },
+    "lalitpur": {
+      "name": "Lalitpur",
+      "url": "https://bharatdn.com/city/lalitpur/",
+      "population": 126475
+    },
     "latur": {
       "name": "Latur",
       "url": "https://bharatdn.com/city/latur/",
@@ -1246,6 +1281,11 @@
       "name": "Madanapalle",
       "url": "https://bharatdn.com/city/madanapalle/",
       "population": 180180
+    },
+    "madhavaram": {
+      "name": "Madhavaram",
+      "url": "https://bharatdn.com/city/madhavaram/",
+      "population": 119105
     },
     "madhyamgram": {
       "name": "Madhyamgram",
@@ -1542,6 +1582,11 @@
       "url": "https://bharatdn.com/city/neyveli/",
       "population": 179150
     },
+    "nimach": {
+      "name": "Nimach",
+      "url": "https://bharatdn.com/city/nimach/",
+      "population": 128561
+    },
     "noida": {
       "name": "Noida",
       "url": "https://bharatdn.com/city/noida/",
@@ -1692,6 +1737,11 @@
       "url": "https://bharatdn.com/city/purnia/",
       "population": 282248
     },
+    "puruliya": {
+      "name": "Puruliya",
+      "url": "https://bharatdn.com/city/puruliya/",
+      "population": 122533
+    },
     "pushkar": {
       "name": "Pushkar",
       "url": "https://bharatdn.com/city/pushkar/",
@@ -1821,6 +1871,11 @@
       "name": "Rourkela",
       "url": "https://bharatdn.com/city/rourkela/",
       "population": 273317
+    },
+    "rudrapur": {
+      "name": "Rudrapur",
+      "url": "https://bharatdn.com/city/rudrapur/",
+      "population": 154554
     },
     "saharsa": {
       "name": "Saharsa",
@@ -2057,6 +2112,11 @@
       "url": "https://bharatdn.com/city/tinsukia/",
       "population": 116322
     },
+    "tiruchchirappalli": {
+      "name": "Tiruchchirappalli",
+      "url": "https://bharatdn.com/city/tiruchchirappalli/",
+      "population": 1022518
+    },
     "tiruchirappalli": {
       "name": "Tiruchirappalli",
       "url": "https://bharatdn.com/city/tiruchirappalli/",
@@ -2081,6 +2141,11 @@
       "name": "Tirupur",
       "url": "https://bharatdn.com/city/tirupur/",
       "population": 963173
+    },
+    "tiruvallur": {
+      "name": "Tiruvallur",
+      "url": "https://bharatdn.com/city/tiruvallur/",
+      "population": 56074
     },
     "tiruvannamalai": {
       "name": "Tiruvannamalai",

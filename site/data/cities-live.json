@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-27T06:37:03.740Z",
-  "count": 450,
-  "shown": 450,
+  "generatedAt": "2026-10-27T09:14:47.732Z",
+  "count": 463,
+  "shown": 463,
   "latest": {
-    "slug": "kadiri",
-    "name": "Kadiri",
-    "lat": 14.11168,
-    "lon": 78.15982,
-    "at": "2026-10-26T09:14:29.475Z"
+    "slug": "karjat",
+    "name": "Karjat",
+    "lat": 18.9107,
+    "lon": 73.32354,
+    "at": "2026-10-27T09:14:47.452Z"
   },
   "cities": [
     {
@@ -459,6 +459,16 @@
       "pop": 1026545,
       "tier": 1,
       "releasedAt": "2026-09-26T11:53:14.725Z"
+    },
+    {
+      "slug": "tiruchchirappalli",
+      "name": "Tiruchchirappalli",
+      "state": "Tamil Nadu",
+      "lat": 10.8155,
+      "lon": 78.69651,
+      "pop": 1022518,
+      "tier": 1,
+      "releasedAt": "2026-10-27T09:14:46.743Z"
     },
     {
       "slug": "madurai",
@@ -939,6 +949,16 @@
       "pop": 547621,
       "tier": 2,
       "releasedAt": "2026-10-01T10:21:38.193Z"
+    },
+    {
+      "slug": "kalaburgi",
+      "name": "Kalaburgi",
+      "state": "Karnataka",
+      "lat": 17.33583,
+      "lon": 76.83757,
+      "pop": 543147,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:46.684Z"
     },
     {
       "slug": "erode",
@@ -2671,6 +2691,16 @@
       "releasedAt": "2026-10-11T13:27:57.818Z"
     },
     {
+      "slug": "rudrapur",
+      "name": "Rudrapur",
+      "state": "Uttarakhand",
+      "lat": 28.98,
+      "lon": 79.4,
+      "pop": 154554,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:46.803Z"
+    },
+    {
       "slug": "nalgonda",
       "name": "Nalgonda",
       "state": "Telangana",
@@ -2951,6 +2981,16 @@
       "releasedAt": "2026-10-19T09:11:35.901Z"
     },
     {
+      "slug": "kalol",
+      "name": "Kalol",
+      "state": "Gujarat",
+      "lat": 23.24656,
+      "lon": 72.49508,
+      "pop": 134426,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:47.109Z"
+    },
+    {
       "slug": "palakkad",
       "name": "Palakkad",
       "state": "Kerala",
@@ -3011,6 +3051,16 @@
       "releasedAt": "2026-10-19T09:11:36.104Z"
     },
     {
+      "slug": "nimach",
+      "name": "Nimach",
+      "state": "Rajasthan",
+      "lat": 24.45949,
+      "lon": 74.86625,
+      "pop": 128561,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:47.229Z"
+    },
+    {
       "slug": "khardaha",
       "name": "Khardaha",
       "state": "West Bengal",
@@ -3061,6 +3111,16 @@
       "releasedAt": "2026-10-11T13:50:45.660Z"
     },
     {
+      "slug": "lalitpur",
+      "name": "Lalitpur",
+      "state": "Uttar Pradesh",
+      "lat": 24.69007,
+      "lon": 78.41915,
+      "pop": 126475,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:47.049Z"
+    },
+    {
       "slug": "guntakal",
       "name": "Guntakal",
       "state": "Andhra Pradesh",
@@ -3109,6 +3169,26 @@
       "pop": 122719,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.911Z"
+    },
+    {
+      "slug": "puruliya",
+      "name": "Puruliya",
+      "state": "West Bengal",
+      "lat": 23.33062,
+      "lon": 86.36303,
+      "pop": 122533,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:46.926Z"
+    },
+    {
+      "slug": "dharmavaram",
+      "name": "Dharmavaram",
+      "state": "Andhra Pradesh",
+      "lat": 14.41435,
+      "lon": 77.72035,
+      "pop": 121874,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:46.986Z"
     },
     {
       "slug": "nagaon",
@@ -3179,6 +3259,16 @@
       "pop": 120195,
       "tier": 2,
       "releasedAt": "2026-10-24T08:19:31.240Z"
+    },
+    {
+      "slug": "madhavaram",
+      "name": "Madhavaram",
+      "state": "Tamil Nadu",
+      "lat": 13.14819,
+      "lon": 80.2314,
+      "pop": 119105,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:47.168Z"
     },
     {
       "slug": "barshi",
@@ -3409,6 +3499,16 @@
       "pop": 112311,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:36.009Z"
+    },
+    {
+      "slug": "gondal",
+      "name": "Gondal",
+      "state": "Gujarat",
+      "lat": 21.96074,
+      "lon": 70.80255,
+      "pop": 112197,
+      "tier": 2,
+      "releasedAt": "2026-10-27T09:14:46.865Z"
     },
     {
       "slug": "dharashiv",
@@ -3841,6 +3941,16 @@
       "releasedAt": "2026-10-24T08:19:31.927Z"
     },
     {
+      "slug": "doddaballapura",
+      "name": "Doddaballapura",
+      "state": "Karnataka",
+      "lat": 13.29452,
+      "lon": 77.53777,
+      "pop": 93105,
+      "tier": 3,
+      "releasedAt": "2026-10-27T09:14:47.391Z"
+    },
+    {
       "slug": "valparai",
       "name": "Valparai",
       "state": "Tamil Nadu",
@@ -4151,6 +4261,16 @@
       "releasedAt": "2026-10-24T08:19:32.368Z"
     },
     {
+      "slug": "tiruvallur",
+      "name": "Tiruvallur",
+      "state": "Tamil Nadu",
+      "lat": 13.14376,
+      "lon": 79.90889,
+      "pop": 56074,
+      "tier": 3,
+      "releasedAt": "2026-10-27T09:14:47.331Z"
+    },
+    {
       "slug": "ayodhya",
       "name": "Ayodhya",
       "state": "Uttar Pradesh",
@@ -4279,6 +4399,16 @@
       "pop": 37475,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.708Z"
+    },
+    {
+      "slug": "karjat",
+      "name": "Karjat",
+      "state": "Maharashtra",
+      "lat": 18.9107,
+      "lon": 73.32354,
+      "pop": 34554,
+      "tier": 3,
+      "releasedAt": "2026-10-27T09:14:47.452Z"
     },
     {
       "slug": "udaipur-tripura",
