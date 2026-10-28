@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:56:07.293Z",
+  "generatedAt": "2026-10-28T23:59:49.182Z",
   "cityGuides": 476,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-10-28T20:56:07.262Z",
+      "at": "2026-10-28T23:59:49.147Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Shirdi, Mannargudi, Mahoba +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
