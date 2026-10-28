@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T08:13:36.030Z",
-  "count": 463,
+  "generatedAt": "2026-10-28T09:55:18.936Z",
+  "count": 476,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -307,6 +307,11 @@
       "url": "https://bharatdn.com/city/bhadrak/",
       "population": 121338
     },
+    "bhadravati": {
+      "name": "Bhadravati",
+      "url": "https://bharatdn.com/city/bhadravati/",
+      "population": 163903
+    },
     "bhagalpur": {
       "name": "Bhagalpur",
       "url": "https://bharatdn.com/city/bhagalpur/",
@@ -592,6 +597,16 @@
       "url": "https://bharatdn.com/city/deoghar/",
       "population": 203123
     },
+    "deoli": {
+      "name": "Deoli",
+      "url": "https://bharatdn.com/city/deoli/",
+      "population": 169122
+    },
+    "deoria": {
+      "name": "Deoria",
+      "url": "https://bharatdn.com/city/deoria/",
+      "population": 129570
+    },
     "dewas": {
       "name": "Dewas",
       "url": "https://bharatdn.com/city/dewas/",
@@ -626,6 +641,11 @@
       "name": "Dharmavaram",
       "url": "https://bharatdn.com/city/dharmavaram/",
       "population": 121874
+    },
+    "dhaulpur": {
+      "name": "Dhaulpur",
+      "url": "https://bharatdn.com/city/dhaulpur/",
+      "population": 133075
     },
     "dhule": {
       "name": "Dhule",
@@ -887,6 +907,11 @@
       "url": "https://bharatdn.com/city/hubballi-dharwad/",
       "population": 943857
     },
+    "hugli": {
+      "name": "Hugli",
+      "url": "https://bharatdn.com/city/hugli/",
+      "population": 177005
+    },
     "hyderabad": {
       "name": "Hyderabad",
       "url": "https://bharatdn.com/city/hyderabad/",
@@ -972,6 +997,11 @@
       "url": "https://bharatdn.com/city/jaunpur/",
       "population": 169572
     },
+    "jetpur": {
+      "name": "Jetpur",
+      "url": "https://bharatdn.com/city/jetpur/",
+      "population": 118302
+    },
     "jhansi": {
       "name": "Jhansi",
       "url": "https://bharatdn.com/city/jhansi/",
@@ -1031,6 +1061,11 @@
       "name": "Kalol",
       "url": "https://bharatdn.com/city/kalol/",
       "population": 134426
+    },
+    "kalyan": {
+      "name": "Kalyān",
+      "url": "https://bharatdn.com/city/kalyan/",
+      "population": 1262255
     },
     "kanayannur": {
       "name": "Kanayannur",
@@ -1096,6 +1131,11 @@
       "name": "Karwar",
       "url": "https://bharatdn.com/city/karwar/",
       "population": 77139
+    },
+    "kashipur": {
+      "name": "Kashipur",
+      "url": "https://bharatdn.com/city/kashipur/",
+      "population": 103138
     },
     "katihar": {
       "name": "Katihar",
@@ -1307,6 +1347,11 @@
       "url": "https://bharatdn.com/city/maheshwar/",
       "population": 24411
     },
+    "mahoba": {
+      "name": "Mahoba",
+      "url": "https://bharatdn.com/city/mahoba/",
+      "population": 89170
+    },
     "mainpuri": {
       "name": "Mainpuri",
       "url": "https://bharatdn.com/city/mainpuri/",
@@ -1361,6 +1406,11 @@
       "name": "Mango",
       "url": "https://bharatdn.com/city/mango/",
       "population": 223805
+    },
+    "mannargudi": {
+      "name": "Mannargudi",
+      "url": "https://bharatdn.com/city/mannargudi/",
+      "population": 66999
     },
     "mathura": {
       "name": "Mathura",
@@ -1972,6 +2022,11 @@
       "url": "https://bharatdn.com/city/shimla/",
       "population": 171817
     },
+    "shirdi": {
+      "name": "Shirdi",
+      "url": "https://bharatdn.com/city/shirdi/",
+      "population": 36004
+    },
     "shivamogga": {
       "name": "Shivamogga",
       "url": "https://bharatdn.com/city/shivamogga/",
@@ -2047,6 +2102,11 @@
       "url": "https://bharatdn.com/city/srinagar/",
       "population": 979170
     },
+    "sultan-pur-majra": {
+      "name": "Sultan Pur Majra",
+      "url": "https://bharatdn.com/city/sultan-pur-majra/",
+      "population": 181554
+    },
     "surat": {
       "name": "Surat",
       "url": "https://bharatdn.com/city/surat/",
@@ -2061,6 +2121,11 @@
       "name": "Tadepalligudem",
       "url": "https://bharatdn.com/city/tadepalligudem/",
       "population": 112655
+    },
+    "tadpatri": {
+      "name": "Tadpatri",
+      "url": "https://bharatdn.com/city/tadpatri/",
+      "population": 108171
     },
     "tambaram": {
       "name": "Tambaram",

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-28T08:13:35.732Z",
-  "count": 463,
-  "shown": 463,
+  "generatedAt": "2026-10-28T09:55:18.714Z",
+  "count": 476,
+  "shown": 476,
   "latest": {
-    "slug": "karjat",
-    "name": "Karjat",
-    "lat": 18.9107,
-    "lon": 73.32354,
-    "at": "2026-10-27T09:14:47.452Z"
+    "slug": "shirdi",
+    "name": "Shirdi",
+    "lat": 19.76616,
+    "lon": 74.47738,
+    "at": "2026-10-28T09:55:18.489Z"
   },
   "cities": [
     {
@@ -339,6 +339,16 @@
       "pop": 1263808,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:18.977Z"
+    },
+    {
+      "slug": "kalyan",
+      "name": "Kalyān",
+      "state": "Maharashtra",
+      "lat": 19.2437,
+      "lon": 73.13554,
+      "pop": 1262255,
+      "tier": 1,
+      "releasedAt": "2026-10-28T09:55:18.186Z"
     },
     {
       "slug": "dombivali",
@@ -2271,6 +2281,16 @@
       "releasedAt": "2026-10-10T10:03:10.288Z"
     },
     {
+      "slug": "sultan-pur-majra",
+      "name": "Sultan Pur Majra",
+      "state": "Delhi",
+      "lat": 28.68966,
+      "lon": 77.07648,
+      "pop": 181554,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:17.863Z"
+    },
+    {
       "slug": "guna",
       "name": "Guna",
       "state": "Madhya Pradesh",
@@ -2359,6 +2379,16 @@
       "pop": 178865,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.238Z"
+    },
+    {
+      "slug": "hugli",
+      "name": "Hugli",
+      "state": "West Bengal",
+      "lat": 22.90877,
+      "lon": 88.39674,
+      "pop": 177005,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:17.916Z"
     },
     {
       "slug": "amroha",
@@ -2491,6 +2521,16 @@
       "releasedAt": "2026-10-26T09:14:28.494Z"
     },
     {
+      "slug": "deoli",
+      "name": "Deoli",
+      "state": "Delhi",
+      "lat": 28.50254,
+      "lon": 77.23117,
+      "pop": 169122,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:18.240Z"
+    },
+    {
       "slug": "kumbakonam",
       "name": "Kumbakonam",
       "state": "Tamil Nadu",
@@ -2549,6 +2589,16 @@
       "pop": 164937,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.247Z"
+    },
+    {
+      "slug": "bhadravati",
+      "name": "Bhadravati",
+      "state": "Karnataka",
+      "lat": 13.84846,
+      "lon": 75.70502,
+      "pop": 163903,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:18.024Z"
     },
     {
       "slug": "vapi",
@@ -2991,6 +3041,16 @@
       "releasedAt": "2026-10-27T09:14:47.109Z"
     },
     {
+      "slug": "dhaulpur",
+      "name": "Dhaulpur",
+      "state": "Rajasthan",
+      "lat": 26.69286,
+      "lon": 77.87968,
+      "pop": 133075,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:18.077Z"
+    },
+    {
       "slug": "palakkad",
       "name": "Palakkad",
       "state": "Kerala",
@@ -3049,6 +3109,16 @@
       "pop": 130327,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:36.104Z"
+    },
+    {
+      "slug": "deoria",
+      "name": "Deoria",
+      "state": "Uttar Pradesh",
+      "lat": 26.50167,
+      "lon": 83.77936,
+      "pop": 129570,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:17.971Z"
     },
     {
       "slug": "nimach",
@@ -3289,6 +3359,16 @@
       "pop": 118526,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.756Z"
+    },
+    {
+      "slug": "jetpur",
+      "name": "Jetpur",
+      "state": "Gujarat",
+      "lat": 21.75482,
+      "lon": 70.62347,
+      "pop": 118302,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:18.293Z"
     },
     {
       "slug": "uppal-kalan",
@@ -3621,6 +3701,16 @@
       "releasedAt": "2026-10-14T08:56:10.234Z"
     },
     {
+      "slug": "tadpatri",
+      "name": "Tadpatri",
+      "state": "Andhra Pradesh",
+      "lat": 14.90832,
+      "lon": 78.01031,
+      "pop": 108171,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:17.811Z"
+    },
+    {
       "slug": "mangalagiri",
       "name": "Mangalagiri",
       "state": "Andhra Pradesh",
@@ -3719,6 +3809,16 @@
       "pop": 103501,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:35.837Z"
+    },
+    {
+      "slug": "kashipur",
+      "name": "Kashipur",
+      "state": "Uttarakhand",
+      "lat": 29.21399,
+      "lon": 78.95693,
+      "pop": 103138,
+      "tier": 2,
+      "releasedAt": "2026-10-28T09:55:18.131Z"
     },
     {
       "slug": "amaravati",
@@ -3981,6 +4081,16 @@
       "releasedAt": "2026-10-26T09:14:29.475Z"
     },
     {
+      "slug": "mahoba",
+      "name": "Mahoba",
+      "state": "Uttar Pradesh",
+      "lat": 25.2905,
+      "lon": 79.87533,
+      "pop": 89170,
+      "tier": 3,
+      "releasedAt": "2026-10-28T09:55:18.385Z"
+    },
+    {
       "slug": "deoband",
       "name": "Deoband",
       "state": "Uttar Pradesh",
@@ -4191,6 +4301,16 @@
       "releasedAt": "2026-10-08T10:49:33.814Z"
     },
     {
+      "slug": "mannargudi",
+      "name": "Mannargudi",
+      "state": "Tamil Nadu",
+      "lat": 10.66626,
+      "lon": 79.45064,
+      "pop": 66999,
+      "tier": 3,
+      "releasedAt": "2026-10-28T09:55:18.437Z"
+    },
+    {
       "slug": "chengalpattu",
       "name": "Chengalpattu",
       "state": "Tamil Nadu",
@@ -4399,6 +4519,16 @@
       "pop": 37475,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.708Z"
+    },
+    {
+      "slug": "shirdi",
+      "name": "Shirdi",
+      "state": "Maharashtra",
+      "lat": 19.76616,
+      "lon": 74.47738,
+      "pop": 36004,
+      "tier": 3,
+      "releasedAt": "2026-10-28T09:55:18.489Z"
     },
     {
       "slug": "karjat",
