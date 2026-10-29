@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T07:30:07.442Z",
-  "count": 476,
+  "generatedAt": "2026-10-29T10:17:51.064Z",
+  "count": 489,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -312,6 +312,11 @@
       "url": "https://bharatdn.com/city/bhadravati/",
       "population": 163903
     },
+    "bhadreswar": {
+      "name": "Bhadreswar",
+      "url": "https://bharatdn.com/city/bhadreswar/",
+      "population": 121662
+    },
     "bhagalpur": {
       "name": "Bhagalpur",
       "url": "https://bharatdn.com/city/bhagalpur/",
@@ -326,6 +331,11 @@
       "name": "Bhatkal",
       "url": "https://bharatdn.com/city/bhatkal/",
       "population": 32000
+    },
+    "bhatpara": {
+      "name": "Bhātpāra",
+      "url": "https://bharatdn.com/city/bhatpara/",
+      "population": 483129
     },
     "bhavnagar": {
       "name": "Bhavnagar",
@@ -657,6 +667,16 @@
       "url": "https://bharatdn.com/city/dibrugarh/",
       "population": 145488
     },
+    "dinapore": {
+      "name": "Dinapore",
+      "url": "https://bharatdn.com/city/dinapore/",
+      "population": 152940
+    },
+    "dinapur-nizamat": {
+      "name": "Dinapur Nizamat",
+      "url": "https://bharatdn.com/city/dinapur-nizamat/",
+      "population": 182429
+    },
     "dindigul": {
       "name": "Dindigul",
       "url": "https://bharatdn.com/city/dindigul/",
@@ -761,6 +781,11 @@
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
       "population": 292167
+    },
+    "gangavati": {
+      "name": "Gangavati",
+      "url": "https://bharatdn.com/city/gangavati/",
+      "population": 114642
     },
     "gangtok": {
       "name": "Gangtok",
@@ -1107,6 +1132,11 @@
       "url": "https://bharatdn.com/city/karaikudi/",
       "population": 181851
     },
+    "karauli": {
+      "name": "Karauli",
+      "url": "https://bharatdn.com/city/karauli/",
+      "population": 82960
+    },
     "kargil": {
       "name": "Kargil",
       "url": "https://bharatdn.com/city/kargil/",
@@ -1282,6 +1312,11 @@
       "url": "https://bharatdn.com/city/kushinagar/",
       "population": 274403
     },
+    "lal-bahadur-nagar": {
+      "name": "Lal Bahadur Nagar",
+      "url": "https://bharatdn.com/city/lal-bahadur-nagar/",
+      "population": 261987
+    },
     "lalitpur": {
       "name": "Lalitpur",
       "url": "https://bharatdn.com/city/lalitpur/",
@@ -1381,6 +1416,11 @@
       "name": "Manali",
       "url": "https://bharatdn.com/city/manali/",
       "population": 8096
+    },
+    "mandoli": {
+      "name": "Mandoli",
+      "url": "https://bharatdn.com/city/mandoli/",
+      "population": 120417
     },
     "mandsaur": {
       "name": "Mandsaur",
@@ -1642,6 +1682,11 @@
       "url": "https://bharatdn.com/city/noida/",
       "population": 637078
     },
+    "nowrangapur": {
+      "name": "Nowrangapur",
+      "url": "https://bharatdn.com/city/nowrangapur/",
+      "population": 1220946
+    },
     "ongole": {
       "name": "Ongole",
       "url": "https://bharatdn.com/city/ongole/",
@@ -1691,6 +1736,11 @@
       "name": "Pandharpur",
       "url": "https://bharatdn.com/city/pandharpur/",
       "population": 98923
+    },
+    "panihati": {
+      "name": "Pānihāti",
+      "url": "https://bharatdn.com/city/panihati/",
+      "population": 378705
     },
     "panipat": {
       "name": "Panipat",
@@ -1992,6 +2042,11 @@
       "url": "https://bharatdn.com/city/serampore/",
       "population": 226317
     },
+    "serilingampalle": {
+      "name": "Serilingampalle",
+      "url": "https://bharatdn.com/city/serilingampalle/",
+      "population": 150525
+    },
     "shahjahanpur": {
       "name": "Shahjahanpur",
       "url": "https://bharatdn.com/city/shahjahanpur/",
@@ -2102,6 +2157,11 @@
       "url": "https://bharatdn.com/city/srinagar/",
       "population": 979170
     },
+    "srivilliputhur": {
+      "name": "Srivilliputhur",
+      "url": "https://bharatdn.com/city/srivilliputhur/",
+      "population": 75396
+    },
     "sultan-pur-majra": {
       "name": "Sultan Pur Majra",
       "url": "https://bharatdn.com/city/sultan-pur-majra/",
@@ -2161,6 +2221,11 @@
       "name": "Thiruvananthapuram",
       "url": "https://bharatdn.com/city/thiruvananthapuram/",
       "population": 957738
+    },
+    "thiruvarur": {
+      "name": "Thiruvarur",
+      "url": "https://bharatdn.com/city/thiruvarur/",
+      "population": 58777
     },
     "thoothukudi": {
       "name": "Thoothukudi",

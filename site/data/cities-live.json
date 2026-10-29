@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T07:30:07.130Z",
-  "count": 476,
-  "shown": 476,
+  "generatedAt": "2026-10-29T10:17:50.863Z",
+  "count": 489,
+  "shown": 489,
   "latest": {
-    "slug": "shirdi",
-    "name": "Shirdi",
-    "lat": 19.76616,
-    "lon": 74.47738,
-    "at": "2026-10-28T09:55:18.489Z"
+    "slug": "karauli",
+    "name": "Karauli",
+    "lat": 26.49831,
+    "lon": 77.02755,
+    "at": "2026-10-29T10:17:50.619Z"
   },
   "cities": [
     {
@@ -359,6 +359,16 @@
       "pop": 1247327,
       "tier": 1,
       "releasedAt": "2026-10-24T08:19:30.525Z"
+    },
+    {
+      "slug": "nowrangapur",
+      "name": "Nowrangapur",
+      "state": "Odisha",
+      "lat": 19.23114,
+      "lon": 82.54826,
+      "pop": 1220946,
+      "tier": 1,
+      "releasedAt": "2026-10-29T10:17:50.418Z"
     },
     {
       "slug": "varanasi",
@@ -1051,6 +1061,16 @@
       "releasedAt": "2026-10-04T09:59:35.385Z"
     },
     {
+      "slug": "bhatpara",
+      "name": "Bhātpāra",
+      "state": "West Bengal",
+      "lat": 22.86643,
+      "lon": 88.40113,
+      "pop": 483129,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.077Z"
+    },
+    {
       "slug": "malegaon",
       "name": "Malegaon",
       "state": "Maharashtra",
@@ -1249,6 +1269,16 @@
       "pop": 382940,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.651Z"
+    },
+    {
+      "slug": "panihati",
+      "name": "Pānihāti",
+      "state": "West Bengal",
+      "lat": 22.69089,
+      "lon": 88.37404,
+      "pop": 378705,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.192Z"
     },
     {
       "slug": "rajahmundry",
@@ -1729,6 +1759,16 @@
       "pop": 264330,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.273Z"
+    },
+    {
+      "slug": "lal-bahadur-nagar",
+      "name": "Lal Bahadur Nagar",
+      "state": "Telangana",
+      "lat": 17.34769,
+      "lon": 78.55757,
+      "pop": 261987,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:49.959Z"
     },
     {
       "slug": "arrah",
@@ -2261,6 +2301,16 @@
       "releasedAt": "2026-10-13T10:53:23.218Z"
     },
     {
+      "slug": "dinapur-nizamat",
+      "name": "Dinapur Nizamat",
+      "state": "Bihar",
+      "lat": 25.63847,
+      "lon": 85.05118,
+      "pop": 182429,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.360Z"
+    },
+    {
       "slug": "bahraich",
       "name": "Bahraich",
       "state": "Uttar Pradesh",
@@ -2781,6 +2831,16 @@
       "releasedAt": "2026-10-11T10:13:23.065Z"
     },
     {
+      "slug": "dinapore",
+      "name": "Dinapore",
+      "state": "Bihar",
+      "lat": 25.63705,
+      "lon": 85.04794,
+      "pop": 152940,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:49.903Z"
+    },
+    {
       "slug": "porbandar",
       "name": "Porbandar",
       "state": "Gujarat",
@@ -2809,6 +2869,16 @@
       "pop": 150592,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.645Z"
+    },
+    {
+      "slug": "serilingampalle",
+      "name": "Serilingampalle",
+      "state": "Telangana",
+      "lat": 17.49313,
+      "lon": 78.30196,
+      "pop": 150525,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.247Z"
     },
     {
       "slug": "raigarh",
@@ -3261,6 +3331,16 @@
       "releasedAt": "2026-10-27T09:14:46.986Z"
     },
     {
+      "slug": "bhadreswar",
+      "name": "Bhadreswar",
+      "state": "West Bengal",
+      "lat": 22.82449,
+      "lon": 88.33841,
+      "pop": 121662,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.304Z"
+    },
+    {
       "slug": "nagaon",
       "name": "Nagaon",
       "state": "Assam",
@@ -3309,6 +3389,16 @@
       "pop": 121106,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.464Z"
+    },
+    {
+      "slug": "mandoli",
+      "name": "Mandoli",
+      "state": "Delhi",
+      "lat": 28.70275,
+      "lon": 77.30995,
+      "pop": 120417,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.018Z"
     },
     {
       "slug": "darjeeling",
@@ -3509,6 +3599,16 @@
       "pop": 115115,
       "tier": 2,
       "releasedAt": "2026-10-26T09:14:28.801Z"
+    },
+    {
+      "slug": "gangavati",
+      "name": "Gangavati",
+      "state": "Karnataka",
+      "lat": 15.4313,
+      "lon": 76.52933,
+      "pop": 114642,
+      "tier": 2,
+      "releasedAt": "2026-10-29T10:17:50.135Z"
     },
     {
       "slug": "ambur",
@@ -4131,6 +4231,16 @@
       "releasedAt": "2026-10-22T08:49:08.489Z"
     },
     {
+      "slug": "karauli",
+      "name": "Karauli",
+      "state": "Rajasthan",
+      "lat": 26.49831,
+      "lon": 77.02755,
+      "pop": 82960,
+      "tier": 3,
+      "releasedAt": "2026-10-29T10:17:50.619Z"
+    },
+    {
       "slug": "mhow",
       "name": "Mhow",
       "state": "Madhya Pradesh",
@@ -4209,6 +4319,16 @@
       "pop": 75540,
       "tier": 3,
       "releasedAt": "2026-10-09T10:48:19.033Z"
+    },
+    {
+      "slug": "srivilliputhur",
+      "name": "Srivilliputhur",
+      "state": "Tamil Nadu",
+      "lat": 9.51272,
+      "lon": 77.63369,
+      "pop": 75396,
+      "tier": 3,
+      "releasedAt": "2026-10-29T10:17:50.563Z"
     },
     {
       "slug": "ooty",
@@ -4369,6 +4489,16 @@
       "pop": 59490,
       "tier": 3,
       "releasedAt": "2026-10-12T11:12:02.547Z"
+    },
+    {
+      "slug": "thiruvarur",
+      "name": "Thiruvarur",
+      "state": "Tamil Nadu",
+      "lat": 10.77269,
+      "lon": 79.6368,
+      "pop": 58777,
+      "tier": 3,
+      "releasedAt": "2026-10-29T10:17:50.506Z"
     },
     {
       "slug": "hoskote",
