@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T07:33:36.121Z",
-  "count": 489,
+  "generatedAt": "2026-10-30T10:19:51.283Z",
+  "count": 502,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -147,10 +147,20 @@
       "url": "https://bharatdn.com/city/anantnag/",
       "population": 150592
     },
+    "ankleshwar": {
+      "name": "Ankleshwar",
+      "url": "https://bharatdn.com/city/ankleshwar/",
+      "population": 89457
+    },
     "ankola": {
       "name": "Ankola",
       "url": "https://bharatdn.com/city/ankola/",
       "population": 22249
+    },
+    "arakkonam": {
+      "name": "Arakkonam",
+      "url": "https://bharatdn.com/city/arakkonam/",
+      "population": 79080
     },
     "arrah": {
       "name": "Arrah",
@@ -241,6 +251,11 @@
       "name": "Bangaon",
       "url": "https://bharatdn.com/city/bangaon/",
       "population": 111693
+    },
+    "barasat": {
+      "name": "Bārāsat",
+      "url": "https://bharatdn.com/city/barasat/",
+      "population": 298127
     },
     "bardhaman": {
       "name": "Bardhaman",
@@ -687,6 +702,11 @@
       "url": "https://bharatdn.com/city/doddaballapura/",
       "population": 93105
     },
+    "dohad": {
+      "name": "Dohad",
+      "url": "https://bharatdn.com/city/dohad/",
+      "population": 118846
+    },
     "dombivali": {
       "name": "Dombivali",
       "url": "https://bharatdn.com/city/dombivali/",
@@ -721,6 +741,11 @@
       "name": "Etah",
       "url": "https://bharatdn.com/city/etah/",
       "population": 100000
+    },
+    "etawah": {
+      "name": "Etāwah",
+      "url": "https://bharatdn.com/city/etawah/",
+      "population": 257448
     },
     "faizabad": {
       "name": "Faizabad",
@@ -997,6 +1022,11 @@
       "url": "https://bharatdn.com/city/jalgaon/",
       "population": 460228
     },
+    "jalna": {
+      "name": "Jālna",
+      "url": "https://bharatdn.com/city/jalna/",
+      "population": 285577
+    },
     "jammu": {
       "name": "Jammu",
       "url": "https://bharatdn.com/city/jammu/",
@@ -1091,6 +1121,11 @@
       "name": "Kalyān",
       "url": "https://bharatdn.com/city/kalyan/",
       "population": 1262255
+    },
+    "kamarhati": {
+      "name": "Kāmārhāti",
+      "url": "https://bharatdn.com/city/kamarhati/",
+      "population": 332965
     },
     "kanayannur": {
       "name": "Kanayannur",
@@ -1702,6 +1737,11 @@
       "url": "https://bharatdn.com/city/orai/",
       "population": 158265
     },
+    "orchha": {
+      "name": "Orchha",
+      "url": "https://bharatdn.com/city/orchha/",
+      "population": 11511
+    },
     "palakkad": {
       "name": "Palakkad",
       "url": "https://bharatdn.com/city/palakkad/",
@@ -1761,6 +1801,11 @@
       "name": "Pathankot",
       "url": "https://bharatdn.com/city/pathankot/",
       "population": 174306
+    },
+    "patiala": {
+      "name": "Patiāla",
+      "url": "https://bharatdn.com/city/patiala/",
+      "population": 446246
     },
     "patna": {
       "name": "Patna",
@@ -1927,6 +1972,11 @@
       "url": "https://bharatdn.com/city/ranipet/",
       "population": 264330
     },
+    "rasapudipalem": {
+      "name": "Rasapūdipalem",
+      "url": "https://bharatdn.com/city/rasapudipalem/",
+      "population": 1728128
+    },
     "ratnagiri": {
       "name": "Ratnagiri",
       "url": "https://bharatdn.com/city/ratnagiri/",
@@ -1976,6 +2026,11 @@
       "name": "Rudrapur",
       "url": "https://bharatdn.com/city/rudrapur/",
       "population": 154554
+    },
+    "saharanpur": {
+      "name": "Sahāranpur",
+      "url": "https://bharatdn.com/city/saharanpur/",
+      "population": 484873
     },
     "saharsa": {
       "name": "Saharsa",
@@ -2387,6 +2442,11 @@
       "url": "https://bharatdn.com/city/vellore/",
       "population": 484690
     },
+    "veraval": {
+      "name": "Verāval",
+      "url": "https://bharatdn.com/city/veraval/",
+      "population": 171121
+    },
     "vidisha": {
       "name": "Vidisha",
       "url": "https://bharatdn.com/city/vidisha/",
@@ -2401,6 +2461,11 @@
       "name": "Vijayawada",
       "url": "https://bharatdn.com/city/vijayawada/",
       "population": 1048219
+    },
+    "virar": {
+      "name": "Virār",
+      "url": "https://bharatdn.com/city/virar/",
+      "population": 1222390
     },
     "visakhapatnam": {
       "name": "Visakhapatnam",

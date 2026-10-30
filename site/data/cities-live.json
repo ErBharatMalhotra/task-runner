@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-30T07:33:35.954Z",
-  "count": 489,
-  "shown": 489,
+  "generatedAt": "2026-10-30T10:19:51.008Z",
+  "count": 502,
+  "shown": 502,
   "latest": {
-    "slug": "karauli",
-    "name": "Karauli",
-    "lat": 26.49831,
-    "lon": 77.02755,
-    "at": "2026-10-29T10:17:50.619Z"
+    "slug": "ankleshwar",
+    "name": "Ankleshwar",
+    "lat": 21.63236,
+    "lon": 72.99001,
+    "at": "2026-10-30T10:19:50.674Z"
   },
   "cities": [
     {
@@ -191,6 +191,16 @@
       "releasedAt": "2026-09-26T14:19:22.714Z"
     },
     {
+      "slug": "rasapudipalem",
+      "name": "Rasapūdipalem",
+      "state": "Andhra Pradesh",
+      "lat": 17.73308,
+      "lon": 83.31622,
+      "pop": 1728128,
+      "tier": 1,
+      "releasedAt": "2026-10-30T10:19:50.127Z"
+    },
+    {
       "slug": "pimpri-chinchwad",
       "name": "Pimpri-Chinchwad",
       "state": "Maharashtra",
@@ -359,6 +369,16 @@
       "pop": 1247327,
       "tier": 1,
       "releasedAt": "2026-10-24T08:19:30.525Z"
+    },
+    {
+      "slug": "virar",
+      "name": "Virār",
+      "state": "Maharashtra",
+      "lat": 19.45591,
+      "lon": 72.81136,
+      "pop": 1222390,
+      "tier": 1,
+      "releasedAt": "2026-10-30T10:19:50.202Z"
     },
     {
       "slug": "nowrangapur",
@@ -1051,6 +1071,16 @@
       "releasedAt": "2026-10-17T07:57:48.023Z"
     },
     {
+      "slug": "saharanpur",
+      "name": "Sahāranpur",
+      "state": "Uttar Pradesh",
+      "lat": 29.9679,
+      "lon": 77.54522,
+      "pop": 484873,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:49.844Z"
+    },
+    {
       "slug": "vellore",
       "name": "Vellore",
       "state": "Tamil Nadu",
@@ -1139,6 +1169,16 @@
       "pop": 448317,
       "tier": 2,
       "releasedAt": "2026-10-15T08:30:02.071Z"
+    },
+    {
+      "slug": "patiala",
+      "name": "Patiāla",
+      "state": "Punjab",
+      "lat": 30.33625,
+      "lon": 76.3922,
+      "pop": 446246,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:49.915Z"
     },
     {
       "slug": "panipat",
@@ -1421,6 +1461,16 @@
       "releasedAt": "2026-10-12T11:12:01.884Z"
     },
     {
+      "slug": "kamarhati",
+      "name": "Kāmārhāti",
+      "state": "West Bengal",
+      "lat": 22.67111,
+      "lon": 88.37472,
+      "pop": 332965,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:50.275Z"
+    },
+    {
       "slug": "chandrapur",
       "name": "Chandrapur",
       "state": "Maharashtra",
@@ -1561,6 +1611,16 @@
       "releasedAt": "2026-10-07T10:28:43.774Z"
     },
     {
+      "slug": "barasat",
+      "name": "Bārāsat",
+      "state": "West Bengal",
+      "lat": 22.72154,
+      "lon": 88.48198,
+      "pop": 298127,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:50.347Z"
+    },
+    {
       "slug": "mulugu",
       "name": "Mulugu",
       "state": "Telangana",
@@ -1659,6 +1719,16 @@
       "pop": 285813,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:26.511Z"
+    },
+    {
+      "slug": "jalna",
+      "name": "Jālna",
+      "state": "Maharashtra",
+      "lat": 19.84102,
+      "lon": 75.88636,
+      "pop": 285577,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:49.986Z"
     },
     {
       "slug": "satna",
@@ -1789,6 +1859,16 @@
       "pop": 258944,
       "tier": 2,
       "releasedAt": "2026-10-17T07:57:48.160Z"
+    },
+    {
+      "slug": "etawah",
+      "name": "Etāwah",
+      "state": "Uttar Pradesh",
+      "lat": 26.77615,
+      "lon": 79.02133,
+      "pop": 257448,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:50.419Z"
     },
     {
       "slug": "ambarnath",
@@ -2519,6 +2599,16 @@
       "pop": 171817,
       "tier": 2,
       "releasedAt": "2026-09-26T11:53:46.001Z"
+    },
+    {
+      "slug": "veraval",
+      "name": "Verāval",
+      "state": "Gujarat",
+      "lat": 20.9077,
+      "lon": 70.36786,
+      "pop": 171121,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:50.057Z"
     },
     {
       "slug": "navsari",
@@ -3431,6 +3521,16 @@
       "releasedAt": "2026-10-27T09:14:47.168Z"
     },
     {
+      "slug": "dohad",
+      "name": "Dohad",
+      "state": "Gujarat",
+      "lat": 22.83283,
+      "lon": 74.25986,
+      "pop": 118846,
+      "tier": 2,
+      "releasedAt": "2026-10-30T10:19:49.771Z"
+    },
+    {
       "slug": "barshi",
       "name": "Barshi",
       "state": "Maharashtra",
@@ -4171,6 +4271,16 @@
       "releasedAt": "2026-10-11T13:50:45.826Z"
     },
     {
+      "slug": "ankleshwar",
+      "name": "Ankleshwar",
+      "state": "Gujarat",
+      "lat": 21.63236,
+      "lon": 72.99001,
+      "pop": 89457,
+      "tier": 3,
+      "releasedAt": "2026-10-30T10:19:50.674Z"
+    },
+    {
       "slug": "kadiri",
       "name": "Kadiri",
       "state": "Andhra Pradesh",
@@ -4259,6 +4369,16 @@
       "pop": 80056,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.845Z"
+    },
+    {
+      "slug": "arakkonam",
+      "name": "Arakkonam",
+      "state": "Tamil Nadu",
+      "lat": 13.08449,
+      "lon": 79.67053,
+      "pop": 79080,
+      "tier": 3,
+      "releasedAt": "2026-10-30T10:19:50.532Z"
     },
     {
       "slug": "gurdaspur",
@@ -4859,6 +4979,16 @@
       "pop": 14077,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.635Z"
+    },
+    {
+      "slug": "orchha",
+      "name": "Orchha",
+      "state": "Madhya Pradesh",
+      "lat": 25.35192,
+      "lon": 78.64033,
+      "pop": 11511,
+      "tier": 3,
+      "releasedAt": "2026-10-30T10:19:50.603Z"
     },
     {
       "slug": "velankanni",
