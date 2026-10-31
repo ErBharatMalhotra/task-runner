@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-31T07:20:47.528Z",
-  "count": 502,
-  "shown": 502,
+  "generatedAt": "2026-10-31T09:52:18.516Z",
+  "count": 515,
+  "shown": 515,
   "latest": {
-    "slug": "ankleshwar",
-    "name": "Ankleshwar",
-    "lat": 21.63236,
-    "lon": 72.99001,
-    "at": "2026-10-30T10:19:50.674Z"
+    "slug": "kurseong",
+    "name": "Kurseong",
+    "lat": 26.88251,
+    "lon": 88.27729,
+    "at": "2026-10-31T09:52:18.223Z"
   },
   "cities": [
     {
@@ -1151,6 +1151,16 @@
       "releasedAt": "2026-10-03T09:20:54.650Z"
     },
     {
+      "slug": "ramgundam",
+      "name": "Rāmgundam",
+      "state": "Telangana",
+      "lat": 18.80084,
+      "lon": 79.45206,
+      "pop": 452261,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.934Z"
+    },
+    {
       "slug": "udaipur",
       "name": "Udaipur",
       "state": "Rajasthan",
@@ -1911,6 +1921,16 @@
       "releasedAt": "2026-10-10T10:03:10.176Z"
     },
     {
+      "slug": "tiruvottiyur",
+      "name": "Tiruvottiyūr",
+      "state": "Tamil Nadu",
+      "lat": 13.15823,
+      "lon": 80.30181,
+      "pop": 249446,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.422Z"
+    },
+    {
       "slug": "mau",
       "name": "Mau",
       "state": "Uttar Pradesh",
@@ -2001,6 +2021,16 @@
       "releasedAt": "2026-10-11T10:13:22.902Z"
     },
     {
+      "slug": "pallavaram",
+      "name": "Pallāvaram",
+      "state": "Tamil Nadu",
+      "lat": 12.96796,
+      "lon": 80.15025,
+      "pop": 233984,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.484Z"
+    },
+    {
       "slug": "udhagamandalam",
       "name": "Udhagamandalam",
       "state": "Tamil Nadu",
@@ -2029,6 +2059,16 @@
       "pop": 230075,
       "tier": 2,
       "releasedAt": "2026-10-17T07:57:47.889Z"
+    },
+    {
+      "slug": "hosur",
+      "name": "Hosūr",
+      "state": "Tamil Nadu",
+      "lat": 12.73647,
+      "lon": 77.83264,
+      "pop": 229528,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.554Z"
     },
     {
       "slug": "vizianagaram",
@@ -2091,6 +2131,16 @@
       "releasedAt": "2026-09-28T10:02:56.817Z"
     },
     {
+      "slug": "murwara",
+      "name": "Murwāra",
+      "state": "Madhya Pradesh",
+      "lat": 23.83776,
+      "lon": 80.39405,
+      "pop": 221883,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.619Z"
+    },
+    {
       "slug": "kanchipuram",
       "name": "Kanchipuram",
       "state": "Tamil Nadu",
@@ -2109,6 +2159,16 @@
       "pop": 220257,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.401Z"
+    },
+    {
+      "slug": "mirzapur",
+      "name": "Mirzāpur",
+      "state": "Uttar Pradesh",
+      "lat": 25.1449,
+      "lon": 82.56534,
+      "pop": 220029,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.682Z"
     },
     {
       "slug": "eluru",
@@ -2289,6 +2349,16 @@
       "pop": 196109,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.425Z"
+    },
+    {
+      "slug": "bhiwani",
+      "name": "Bhiwāni",
+      "state": "Haryana",
+      "lat": 28.79304,
+      "lon": 76.13968,
+      "pop": 196057,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.744Z"
     },
     {
       "slug": "panvel",
@@ -2761,6 +2831,16 @@
       "releasedAt": "2026-10-26T09:14:28.647Z"
     },
     {
+      "slug": "raj-nandgaon",
+      "name": "Rāj-Nāndgaon",
+      "state": "Chhattisgarh",
+      "lat": 21.09687,
+      "lon": 81.0289,
+      "pop": 163114,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.809Z"
+    },
+    {
       "slug": "robertsonpet",
       "name": "Robertsonpet",
       "state": "Karnataka",
@@ -3001,6 +3081,16 @@
       "releasedAt": "2026-10-11T13:27:57.875Z"
     },
     {
+      "slug": "barakpur",
+      "name": "Bārākpur",
+      "state": "West Bengal",
+      "lat": 22.76602,
+      "lon": 88.36336,
+      "pop": 148174,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.871Z"
+    },
+    {
       "slug": "bhimavaram",
       "name": "Bhimavaram",
       "state": "Andhra Pradesh",
@@ -3159,6 +3249,16 @@
       "pop": 139497,
       "tier": 2,
       "releasedAt": "2026-09-28T05:55:26.772Z"
+    },
+    {
+      "slug": "kolar",
+      "name": "Kolār",
+      "state": "Karnataka",
+      "lat": 13.13768,
+      "lon": 78.12999,
+      "pop": 138462,
+      "tier": 2,
+      "releasedAt": "2026-10-31T09:52:17.998Z"
     },
     {
       "slug": "srikakulam",
@@ -4651,6 +4751,16 @@
       "releasedAt": "2026-09-26T11:53:10.757Z"
     },
     {
+      "slug": "karad",
+      "name": "Karad",
+      "state": "Maharashtra",
+      "lat": 17.28937,
+      "lon": 74.18183,
+      "pop": 55663,
+      "tier": 3,
+      "releasedAt": "2026-10-31T09:52:18.095Z"
+    },
+    {
       "slug": "yanam",
       "name": "Yanam",
       "state": "Andhra Pradesh",
@@ -4689,6 +4799,26 @@
       "pop": 47329,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.796Z"
+    },
+    {
+      "slug": "kurseong",
+      "name": "Kurseong",
+      "state": "West Bengal",
+      "lat": 26.88251,
+      "lon": 88.27729,
+      "pop": 46427,
+      "tier": 3,
+      "releasedAt": "2026-10-31T09:52:18.223Z"
+    },
+    {
+      "slug": "coonoor",
+      "name": "Coonoor",
+      "state": "Tamil Nadu",
+      "lat": 11.34979,
+      "lon": 76.79375,
+      "pop": 45494,
+      "tier": 3,
+      "releasedAt": "2026-10-31T09:52:18.160Z"
     },
     {
       "slug": "rameswaram",
