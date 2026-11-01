@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T08:23:37.723Z",
-  "count": 515,
+  "generatedAt": "2026-11-01T10:42:48.792Z",
+  "count": 528,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -437,6 +437,11 @@
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
     },
+    "bilaspur": {
+      "name": "Bilāspur",
+      "url": "https://bharatdn.com/city/bilaspur/",
+      "population": 365579
+    },
     "bilimora": {
       "name": "Bilimora",
       "url": "https://bharatdn.com/city/bilimora/",
@@ -551,6 +556,11 @@
       "name": "Chittorgarh",
       "url": "https://bharatdn.com/city/chittorgarh/",
       "population": 116406
+    },
+    "churu": {
+      "name": "Chūru",
+      "url": "https://bharatdn.com/city/churu/",
+      "population": 120157
     },
     "coimbatore": {
       "name": "Coimbatore",
@@ -822,6 +832,11 @@
       "url": "https://bharatdn.com/city/gandhinagar/",
       "population": 292167
     },
+    "gangapur": {
+      "name": "Gangāpur",
+      "url": "https://bharatdn.com/city/gangapur/",
+      "population": 120115
+    },
     "gangavati": {
       "name": "Gangavati",
       "url": "https://bharatdn.com/city/gangavati/",
@@ -857,6 +872,11 @@
       "url": "https://bharatdn.com/city/gondal/",
       "population": 112197
     },
+    "gondia": {
+      "name": "Gondiā",
+      "url": "https://bharatdn.com/city/gondia/",
+      "population": 132813
+    },
     "gorakhpur": {
       "name": "Gorakhpur",
       "url": "https://bharatdn.com/city/gorakhpur/",
@@ -871,6 +891,11 @@
       "name": "Greater Noida",
       "url": "https://bharatdn.com/city/greater-noida/",
       "population": 293908
+    },
+    "gudivada": {
+      "name": "Gudivāda",
+      "url": "https://bharatdn.com/city/gudivada/",
+      "population": 118167
     },
     "guna": {
       "name": "Guna",
@@ -926,6 +951,11 @@
       "name": "Hassan",
       "url": "https://bharatdn.com/city/hassan/",
       "population": 155006
+    },
+    "hathras": {
+      "name": "Hāthras",
+      "url": "https://bharatdn.com/city/hathras/",
+      "population": 126882
     },
     "hazaribagh": {
       "name": "Hazaribagh",
@@ -1011,6 +1041,11 @@
       "name": "Jabalpur",
       "url": "https://bharatdn.com/city/jabalpur/",
       "population": 1081677
+    },
+    "jagadhri": {
+      "name": "Jagādhri",
+      "url": "https://bharatdn.com/city/jagadhri/",
+      "population": 124894
     },
     "jagdalpur": {
       "name": "Jagdalpur",
@@ -1116,6 +1151,11 @@
       "name": "Kaithal",
       "url": "https://bharatdn.com/city/kaithal/",
       "population": 144915
+    },
+    "kakinada": {
+      "name": "Kākināda",
+      "url": "https://bharatdn.com/city/kakinada/",
+      "population": 384182
     },
     "kalaburgi": {
       "name": "Kalaburgi",
@@ -1437,6 +1477,11 @@
       "url": "https://bharatdn.com/city/madhyamgram/",
       "population": 161126
     },
+    "madikeri": {
+      "name": "Madikeri",
+      "url": "https://bharatdn.com/city/madikeri/",
+      "population": 33540
+    },
     "madurai": {
       "name": "Madurai",
       "url": "https://bharatdn.com/city/madurai/",
@@ -1477,6 +1522,11 @@
       "url": "https://bharatdn.com/city/malegaon/",
       "population": 481228
     },
+    "maler-kotla": {
+      "name": "Māler Kotla",
+      "url": "https://bharatdn.com/city/maler-kotla/",
+      "population": 135424
+    },
     "malkajgiri": {
       "name": "Malkajgiri",
       "url": "https://bharatdn.com/city/malkajgiri/",
@@ -1486,6 +1536,11 @@
       "name": "Manali",
       "url": "https://bharatdn.com/city/manali/",
       "population": 8096
+    },
+    "mancherial": {
+      "name": "Mancherial",
+      "url": "https://bharatdn.com/city/mancherial/",
+      "population": 89935
     },
     "mandoli": {
       "name": "Mandoli",
@@ -1847,6 +1902,11 @@
       "url": "https://bharatdn.com/city/parbhani/",
       "population": 307170
     },
+    "patan": {
+      "name": "Pātan",
+      "url": "https://bharatdn.com/city/patan/",
+      "population": 133737
+    },
     "pathankot": {
       "name": "Pathankot",
       "url": "https://bharatdn.com/city/pathankot/",
@@ -1861,6 +1921,11 @@
       "name": "Patna",
       "url": "https://bharatdn.com/city/patna/",
       "population": 1684222
+    },
+    "payyanur": {
+      "name": "Payyanur",
+      "url": "https://bharatdn.com/city/payyanur/",
+      "population": 72111
     },
     "pen": {
       "name": "Pen",

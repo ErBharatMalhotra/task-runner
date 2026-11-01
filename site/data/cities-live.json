@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-01T08:23:37.542Z",
-  "count": 515,
-  "shown": 515,
+  "generatedAt": "2026-11-01T10:42:48.455Z",
+  "count": 528,
+  "shown": 528,
   "latest": {
-    "slug": "kurseong",
-    "name": "Kurseong",
-    "lat": 26.88251,
-    "lon": 88.27729,
-    "at": "2026-10-31T09:52:18.223Z"
+    "slug": "payyanur",
+    "name": "Payyanur",
+    "lat": 12.0935,
+    "lon": 75.20249,
+    "at": "2026-11-01T10:42:48.046Z"
   },
   "cities": [
     {
@@ -1311,6 +1311,16 @@
       "releasedAt": "2026-10-03T09:20:54.709Z"
     },
     {
+      "slug": "kakinada",
+      "name": "Kākināda",
+      "state": "Andhra Pradesh",
+      "lat": 16.96036,
+      "lon": 82.23809,
+      "pop": 384182,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.422Z"
+    },
+    {
       "slug": "latur",
       "name": "Latur",
       "state": "Maharashtra",
@@ -1379,6 +1389,16 @@
       "pop": 367107,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.771Z"
+    },
+    {
+      "slug": "bilaspur",
+      "name": "Bilāspur",
+      "state": "Chhattisgarh",
+      "lat": 22.08005,
+      "lon": 82.15543,
+      "pop": 365579,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.760Z"
     },
     {
       "slug": "bhilwara",
@@ -3291,6 +3311,16 @@
       "releasedAt": "2026-10-19T09:11:35.901Z"
     },
     {
+      "slug": "maler-kotla",
+      "name": "Māler Kotla",
+      "state": "Punjab",
+      "lat": 30.5309,
+      "lon": 75.87949,
+      "pop": 135424,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.010Z"
+    },
+    {
       "slug": "kalol",
       "name": "Kalol",
       "state": "Gujarat",
@@ -3301,6 +3331,16 @@
       "releasedAt": "2026-10-27T09:14:47.109Z"
     },
     {
+      "slug": "patan",
+      "name": "Pātan",
+      "state": "Gujarat",
+      "lat": 23.8507,
+      "lon": 72.12963,
+      "pop": 133737,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.092Z"
+    },
+    {
       "slug": "dhaulpur",
       "name": "Dhaulpur",
       "state": "Rajasthan",
@@ -3309,6 +3349,16 @@
       "pop": 133075,
       "tier": 2,
       "releasedAt": "2026-10-28T09:55:18.077Z"
+    },
+    {
+      "slug": "gondia",
+      "name": "Gondiā",
+      "state": "Maharashtra",
+      "lat": 21.46026,
+      "lon": 80.19205,
+      "pop": 132813,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.179Z"
     },
     {
       "slug": "palakkad",
@@ -3431,6 +3481,16 @@
       "releasedAt": "2026-10-21T08:47:10.953Z"
     },
     {
+      "slug": "hathras",
+      "name": "Hāthras",
+      "state": "Uttar Pradesh",
+      "lat": 27.59551,
+      "lon": 78.05201,
+      "pop": 126882,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.260Z"
+    },
+    {
       "slug": "jorhat",
       "name": "Jorhat",
       "state": "Assam",
@@ -3489,6 +3549,16 @@
       "pop": 125463,
       "tier": 2,
       "releasedAt": "2026-10-15T08:30:01.636Z"
+    },
+    {
+      "slug": "jagadhri",
+      "name": "Jagādhri",
+      "state": "Haryana",
+      "lat": 30.16719,
+      "lon": 77.30367,
+      "pop": 124894,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.341Z"
     },
     {
       "slug": "dum-dum",
@@ -3611,6 +3681,26 @@
       "releasedAt": "2026-10-24T08:19:31.240Z"
     },
     {
+      "slug": "churu",
+      "name": "Chūru",
+      "state": "Rajasthan",
+      "lat": 28.30415,
+      "lon": 74.96718,
+      "pop": 120157,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.507Z"
+    },
+    {
+      "slug": "gangapur",
+      "name": "Gangāpur",
+      "state": "Rajasthan",
+      "lat": 26.47249,
+      "lon": 76.71744,
+      "pop": 120115,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.600Z"
+    },
+    {
       "slug": "madhavaram",
       "name": "Madhavaram",
       "state": "Tamil Nadu",
@@ -3669,6 +3759,16 @@
       "pop": 118259,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:36.183Z"
+    },
+    {
+      "slug": "gudivada",
+      "name": "Gudivāda",
+      "state": "Andhra Pradesh",
+      "lat": 16.43547,
+      "lon": 80.99555,
+      "pop": 118167,
+      "tier": 2,
+      "releasedAt": "2026-11-01T10:42:47.680Z"
     },
     {
       "slug": "narmadapuram",
@@ -4371,6 +4471,16 @@
       "releasedAt": "2026-10-11T13:50:45.826Z"
     },
     {
+      "slug": "mancherial",
+      "name": "Mancherial",
+      "state": "Telangana",
+      "lat": 18.87074,
+      "lon": 79.42863,
+      "pop": 89935,
+      "tier": 3,
+      "releasedAt": "2026-11-01T10:42:47.885Z"
+    },
+    {
       "slug": "ankleshwar",
       "name": "Ankleshwar",
       "state": "Gujarat",
@@ -4569,6 +4679,16 @@
       "pop": 72291,
       "tier": 3,
       "releasedAt": "2026-10-09T10:48:18.970Z"
+    },
+    {
+      "slug": "payyanur",
+      "name": "Payyanur",
+      "state": "Kerala",
+      "lat": 12.0935,
+      "lon": 75.20249,
+      "pop": 72111,
+      "tier": 3,
+      "releasedAt": "2026-11-01T10:42:48.046Z"
     },
     {
       "slug": "channapatna",
@@ -4919,6 +5039,16 @@
       "pop": 34554,
       "tier": 3,
       "releasedAt": "2026-10-27T09:14:47.452Z"
+    },
+    {
+      "slug": "madikeri",
+      "name": "Madikeri",
+      "state": "Karnataka",
+      "lat": 12.42602,
+      "lon": 75.7382,
+      "pop": 33540,
+      "tier": 3,
+      "releasedAt": "2026-11-01T10:42:47.966Z"
     },
     {
       "slug": "udaipur-tripura",
