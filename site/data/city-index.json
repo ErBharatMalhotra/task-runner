@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T07:58:22.010Z",
-  "count": 528,
+  "generatedAt": "2026-11-02T11:31:57.903Z",
+  "count": 541,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -322,6 +322,11 @@
       "url": "https://bharatdn.com/city/bettiah/",
       "population": 132209
     },
+    "betul": {
+      "name": "Betūl",
+      "url": "https://bharatdn.com/city/betul/",
+      "population": 103330
+    },
     "bhadrak": {
       "name": "Bhadrak",
       "url": "https://bharatdn.com/city/bhadrak/",
@@ -497,6 +502,11 @@
       "url": "https://bharatdn.com/city/chandrapur/",
       "population": 328351
     },
+    "chanduasi": {
+      "name": "Chanduasi",
+      "url": "https://bharatdn.com/city/chanduasi/",
+      "population": 112635
+    },
     "channapatna": {
       "name": "Channapatna",
       "url": "https://bharatdn.com/city/channapatna/",
@@ -526,6 +536,11 @@
       "name": "Chhatarpur",
       "url": "https://bharatdn.com/city/chhatarpur/",
       "population": 142128
+    },
+    "chhatarpur-delhi": {
+      "name": "Chhatarpur",
+      "url": "https://bharatdn.com/city/chhatarpur-delhi/",
+      "population": 46776
     },
     "chidambaram": {
       "name": "Chidambaram",
@@ -972,6 +987,11 @@
       "url": "https://bharatdn.com/city/hindupur/",
       "population": 151677
     },
+    "hinganghat": {
+      "name": "Hinganghāt",
+      "url": "https://bharatdn.com/city/hinganghat/",
+      "population": 101805
+    },
     "hisar": {
       "name": "Hisar",
       "url": "https://bharatdn.com/city/hisar/",
@@ -1052,6 +1072,11 @@
       "url": "https://bharatdn.com/city/jagdalpur/",
       "population": 125463
     },
+    "jagtial": {
+      "name": "Jagtiāl",
+      "url": "https://bharatdn.com/city/jagtial/",
+      "population": 103930
+    },
     "jaigaon": {
       "name": "Jaigaon",
       "url": "https://bharatdn.com/city/jaigaon/",
@@ -1081,6 +1106,16 @@
       "name": "Jālna",
       "url": "https://bharatdn.com/city/jalna/",
       "population": 285577
+    },
+    "jalpaiguri": {
+      "name": "Jalpāiguri",
+      "url": "https://bharatdn.com/city/jalpaiguri/",
+      "population": 107832
+    },
+    "jamalpur": {
+      "name": "Jamālpur",
+      "url": "https://bharatdn.com/city/jamalpur/",
+      "population": 105434
     },
     "jammu": {
       "name": "Jammu",
@@ -1136,6 +1171,11 @@
       "name": "Jorhat",
       "url": "https://bharatdn.com/city/jorhat/",
       "population": 126736
+    },
+    "junagadh": {
+      "name": "Jūnāgadh",
+      "url": "https://bharatdn.com/city/junagadh/",
+      "population": 319462
     },
     "kadapa": {
       "name": "Kadapa",
@@ -1812,6 +1852,11 @@
       "url": "https://bharatdn.com/city/nimach/",
       "population": 128561
     },
+    "nizamabad": {
+      "name": "Nizāmābād",
+      "url": "https://bharatdn.com/city/nizamabad/",
+      "population": 311152
+    },
     "noida": {
       "name": "Noida",
       "url": "https://bharatdn.com/city/noida/",
@@ -1957,6 +2002,11 @@
       "url": "https://bharatdn.com/city/pollachi/",
       "population": 90180
     },
+    "ponnani": {
+      "name": "Ponnāni",
+      "url": "https://bharatdn.com/city/ponnani/",
+      "population": 105512
+    },
     "porbandar": {
       "name": "Porbandar",
       "url": "https://bharatdn.com/city/porbandar/",
@@ -1981,6 +2031,11 @@
       "name": "Pudukkottai",
       "url": "https://bharatdn.com/city/pudukkottai/",
       "population": 117630
+    },
+    "punasa": {
+      "name": "Punāsa",
+      "url": "https://bharatdn.com/city/punasa/",
+      "population": 350000
     },
     "pune": {
       "name": "Pune",
@@ -2056,6 +2111,11 @@
       "name": "Rajpur Sonarpur",
       "url": "https://bharatdn.com/city/rajpur-sonarpur/",
       "population": 424368
+    },
+    "rajpura": {
+      "name": "Rajpura",
+      "url": "https://bharatdn.com/city/rajpura/",
+      "population": 92301
     },
     "ramagundam": {
       "name": "Ramagundam",
@@ -2426,6 +2486,11 @@
       "name": "Tiruchchirappalli",
       "url": "https://bharatdn.com/city/tiruchchirappalli/",
       "population": 1022518
+    },
+    "tiruchengode": {
+      "name": "Tiruchengode",
+      "url": "https://bharatdn.com/city/tiruchengode/",
+      "population": 95335
     },
     "tiruchirappalli": {
       "name": "Tiruchirappalli",

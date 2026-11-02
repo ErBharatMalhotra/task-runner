@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T07:58:22.214Z",
-  "cityGuides": 528,
+  "generatedAt": "2026-11-02T11:31:58.109Z",
+  "cityGuides": 541,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-02T07:58:22.171Z",
+      "at": "2026-11-02T11:31:58.065Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-02T00:00:00.000Z",
+      "title": "13 city guides published — tiruchengode, chhatarpur delhi, rajpura +10 more"
     },
     {
       "at": "2026-11-01T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-29T00:00:00.000Z",
       "title": "13 city guides published — karauli, srivilliputhur, thiruvarur +10 more"
-    },
-    {
-      "at": "2026-10-28T00:00:00.000Z",
-      "title": "13 city guides published — shirdi, mannargudi, mahoba +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Payyanur, Madikeri, Mancherial +10 more",
+      "title": "13 new city guides — Tiruchengode, Chhatarpur Delhi, Rajpura +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "528 city guides · 32 state hubs live",
+      "title": "541 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

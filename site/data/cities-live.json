@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-02T07:58:21.691Z",
-  "count": 528,
-  "shown": 528,
+  "generatedAt": "2026-11-02T11:31:57.553Z",
+  "count": 541,
+  "shown": 541,
   "latest": {
-    "slug": "payyanur",
-    "name": "Payyanur",
-    "lat": 12.0935,
-    "lon": 75.20249,
-    "at": "2026-11-01T10:42:48.046Z"
+    "slug": "tiruchengode",
+    "name": "Tiruchengode",
+    "lat": 11.38016,
+    "lon": 77.89444,
+    "at": "2026-11-02T11:31:57.130Z"
   },
   "cities": [
     {
@@ -1451,6 +1451,16 @@
       "releasedAt": "2026-09-26T14:19:58.142Z"
     },
     {
+      "slug": "punasa",
+      "name": "Punāsa",
+      "state": "Madhya Pradesh",
+      "lat": 22.23507,
+      "lon": 76.39335,
+      "pop": 350000,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.172Z"
+    },
+    {
       "slug": "muzaffarnagar",
       "name": "Muzaffarnagar",
       "state": "Uttar Pradesh",
@@ -1551,6 +1561,16 @@
       "releasedAt": "2026-10-09T10:48:18.367Z"
     },
     {
+      "slug": "junagadh",
+      "name": "Jūnāgadh",
+      "state": "Gujarat",
+      "lat": 21.51966,
+      "lon": 70.45981,
+      "pop": 319462,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.757Z"
+    },
+    {
       "slug": "new-delhi",
       "name": "New Delhi",
       "state": "Delhi",
@@ -1579,6 +1599,16 @@
       "pop": 314000,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:27.532Z"
+    },
+    {
+      "slug": "nizamabad",
+      "name": "Nizāmābād",
+      "state": "Telangana",
+      "lat": 18.67154,
+      "lon": 78.0988,
+      "pop": 311152,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.839Z"
     },
     {
       "slug": "tumakuru",
@@ -3961,6 +3991,16 @@
       "releasedAt": "2026-10-17T07:57:48.535Z"
     },
     {
+      "slug": "chanduasi",
+      "name": "Chanduasi",
+      "state": "Uttar Pradesh",
+      "lat": 28.45178,
+      "lon": 78.78277,
+      "pop": 112635,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.093Z"
+    },
+    {
       "slug": "bagaha",
       "name": "Bagaha",
       "state": "Bihar",
@@ -4111,6 +4151,16 @@
       "releasedAt": "2026-10-28T09:55:17.811Z"
     },
     {
+      "slug": "jalpaiguri",
+      "name": "Jalpāiguri",
+      "state": "West Bengal",
+      "lat": 26.51667,
+      "lon": 88.73333,
+      "pop": 107832,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.256Z"
+    },
+    {
       "slug": "mangalagiri",
       "name": "Mangalagiri",
       "state": "Andhra Pradesh",
@@ -4151,6 +4201,16 @@
       "releasedAt": "2026-10-16T08:23:37.349Z"
     },
     {
+      "slug": "ponnani",
+      "name": "Ponnāni",
+      "state": "Kerala",
+      "lat": 10.76695,
+      "lon": 75.92523,
+      "pop": 105512,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.341Z"
+    },
+    {
       "slug": "hindaun",
       "name": "Hindaun",
       "state": "Rajasthan",
@@ -4159,6 +4219,16 @@
       "pop": 105452,
       "tier": 2,
       "releasedAt": "2026-10-20T08:46:26.218Z"
+    },
+    {
+      "slug": "jamalpur",
+      "name": "Jamālpur",
+      "state": "Bihar",
+      "lat": 25.31258,
+      "lon": 86.48888,
+      "pop": 105434,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.434Z"
     },
     {
       "slug": "ambala-sadar",
@@ -4191,6 +4261,16 @@
       "releasedAt": "2026-10-18T08:13:10.426Z"
     },
     {
+      "slug": "jagtial",
+      "name": "Jagtiāl",
+      "state": "Telangana",
+      "lat": 18.79473,
+      "lon": 78.91661,
+      "pop": 103930,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.516Z"
+    },
+    {
       "slug": "roorkee",
       "name": "Roorkee",
       "state": "Uttarakhand",
@@ -4209,6 +4289,16 @@
       "pop": 103501,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:35.837Z"
+    },
+    {
+      "slug": "betul",
+      "name": "Betūl",
+      "state": "Madhya Pradesh",
+      "lat": 21.90056,
+      "lon": 77.90229,
+      "pop": 103330,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.595Z"
     },
     {
       "slug": "kashipur",
@@ -4279,6 +4369,16 @@
       "pop": 102343,
       "tier": 2,
       "releasedAt": "2026-10-20T08:46:25.911Z"
+    },
+    {
+      "slug": "hinganghat",
+      "name": "Hinganghāt",
+      "state": "Maharashtra",
+      "lat": 20.54875,
+      "lon": 78.83978,
+      "pop": 101805,
+      "tier": 2,
+      "releasedAt": "2026-11-02T11:31:56.676Z"
     },
     {
       "slug": "dhamtari",
@@ -4421,6 +4521,16 @@
       "releasedAt": "2026-10-14T08:56:11.219Z"
     },
     {
+      "slug": "tiruchengode",
+      "name": "Tiruchengode",
+      "state": "Tamil Nadu",
+      "lat": 11.38016,
+      "lon": 77.89444,
+      "pop": 95335,
+      "tier": 3,
+      "releasedAt": "2026-11-02T11:31:57.130Z"
+    },
+    {
       "slug": "kovilpatti",
       "name": "Kovilpatti",
       "state": "Tamil Nadu",
@@ -4449,6 +4559,16 @@
       "pop": 93105,
       "tier": 3,
       "releasedAt": "2026-10-27T09:14:47.391Z"
+    },
+    {
+      "slug": "rajpura",
+      "name": "Rajpura",
+      "state": "Punjab",
+      "lat": 30.47856,
+      "lon": 76.59284,
+      "pop": 92301,
+      "tier": 3,
+      "releasedAt": "2026-11-02T11:31:56.964Z"
     },
     {
       "slug": "valparai",
@@ -4919,6 +5039,16 @@
       "pop": 47329,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.796Z"
+    },
+    {
+      "slug": "chhatarpur-delhi",
+      "name": "Chhatarpur",
+      "state": "Delhi",
+      "lat": 28.49849,
+      "lon": 77.18254,
+      "pop": 46776,
+      "tier": 3,
+      "releasedAt": "2026-11-02T11:31:57.046Z"
     },
     {
       "slug": "kurseong",
