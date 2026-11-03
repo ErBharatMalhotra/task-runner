@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T08:19:42.046Z",
-  "count": 541,
+  "generatedAt": "2026-11-03T11:11:41.065Z",
+  "count": 554,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -81,6 +81,11 @@
       "name": "Almora",
       "url": "https://bharatdn.com/city/almora/",
       "population": 32442
+    },
+    "aluva": {
+      "name": "Aluva",
+      "url": "https://bharatdn.com/city/aluva/",
+      "population": 24108
     },
     "alwar": {
       "name": "Alwar",
@@ -167,6 +172,11 @@
       "url": "https://bharatdn.com/city/arrah/",
       "population": 261430
     },
+    "aruppukkottai": {
+      "name": "Aruppukkottai",
+      "url": "https://bharatdn.com/city/aruppukkottai/",
+      "population": 87722
+    },
     "asansol": {
       "name": "Asansol",
       "url": "https://bharatdn.com/city/asansol/",
@@ -236,6 +246,11 @@
       "name": "Balasore",
       "url": "https://bharatdn.com/city/balasore/",
       "population": 144373
+    },
+    "bali": {
+      "name": "Bāli",
+      "url": "https://bharatdn.com/city/bali/",
+      "population": 296973
     },
     "ballari": {
       "name": "Ballari",
@@ -431,6 +446,11 @@
       "name": "Bidar",
       "url": "https://bharatdn.com/city/bidar/",
       "population": 216020
+    },
+    "bihar-sharif": {
+      "name": "Bihār Sharīf",
+      "url": "https://bharatdn.com/city/bihar-sharif/",
+      "population": 297268
     },
     "bijnor": {
       "name": "Bijnor",
@@ -842,6 +862,11 @@
       "url": "https://bharatdn.com/city/gajuwaka/",
       "population": 258944
     },
+    "gandhidham": {
+      "name": "Gāndhīdhām",
+      "url": "https://bharatdn.com/city/gandhidham/",
+      "population": 247992
+    },
     "gandhinagar": {
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
@@ -916,6 +941,11 @@
       "name": "Guna",
       "url": "https://bharatdn.com/city/guna/",
       "population": 180935
+    },
+    "gundupalaiyam": {
+      "name": "Gundupālaiyam",
+      "url": "https://bharatdn.com/city/gundupalaiyam/",
+      "population": 300104
     },
     "guntakal": {
       "name": "Guntakal",
@@ -1282,6 +1312,11 @@
       "url": "https://bharatdn.com/city/kargil/",
       "population": 16338
     },
+    "karimnagar": {
+      "name": "Karīmnagar",
+      "url": "https://bharatdn.com/city/karimnagar/",
+      "population": 289821
+    },
     "karjat": {
       "name": "Karjat",
       "url": "https://bharatdn.com/city/karjat/",
@@ -1351,6 +1386,11 @@
       "name": "Khurja",
       "url": "https://bharatdn.com/city/khurja/",
       "population": 105909
+    },
+    "kirari-sulemannagar": {
+      "name": "Kirāri Sulemānnagar",
+      "url": "https://bharatdn.com/city/kirari-sulemannagar/",
+      "population": 283211
     },
     "kishanganj": {
       "name": "Kishanganj",
@@ -1772,6 +1812,11 @@
       "url": "https://bharatdn.com/city/nagpur/",
       "population": 2497870
     },
+    "naihati": {
+      "name": "Naihāti",
+      "url": "https://bharatdn.com/city/naihati/",
+      "population": 253221
+    },
     "nainital": {
       "name": "Nainital",
       "url": "https://bharatdn.com/city/nainital/",
@@ -2137,6 +2182,11 @@
       "url": "https://bharatdn.com/city/ramgundam/",
       "population": 452261
     },
+    "rampur": {
+      "name": "Rāmpur",
+      "url": "https://bharatdn.com/city/rampur/",
+      "population": 296418
+    },
     "ranchi": {
       "name": "Ranchi",
       "url": "https://bharatdn.com/city/ranchi/",
@@ -2161,6 +2211,11 @@
       "name": "Rasapūdipalem",
       "url": "https://bharatdn.com/city/rasapudipalem/",
       "population": 1728128
+    },
+    "ratlam": {
+      "name": "Ratlām",
+      "url": "https://bharatdn.com/city/ratlam/",
+      "population": 264914
     },
     "ratnagiri": {
       "name": "Ratnagiri",
@@ -2376,6 +2431,11 @@
       "name": "Solapur",
       "url": "https://bharatdn.com/city/solapur/",
       "population": 951118
+    },
+    "sonipat": {
+      "name": "Sonīpat",
+      "url": "https://bharatdn.com/city/sonipat/",
+      "population": 289333
     },
     "sri-ganganagar": {
       "name": "Sri Ganganagar",
@@ -2661,6 +2721,11 @@
       "name": "Virār",
       "url": "https://bharatdn.com/city/virar/",
       "population": 1222390
+    },
+    "virudhachalam": {
+      "name": "Virudhachalam",
+      "url": "https://bharatdn.com/city/virudhachalam/",
+      "population": 73585
     },
     "visakhapatnam": {
       "name": "Visakhapatnam",
