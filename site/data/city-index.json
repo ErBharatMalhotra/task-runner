@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T08:55:11.794Z",
-  "count": 554,
+  "generatedAt": "2026-11-04T11:22:03.789Z",
+  "count": 567,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -292,6 +292,11 @@
       "url": "https://bharatdn.com/city/barshi/",
       "population": 118722
     },
+    "basavakalyan": {
+      "name": "Basavakalyan",
+      "url": "https://bharatdn.com/city/basavakalyan/",
+      "population": 69717
+    },
     "basirhat-city": {
       "name": "Basirhat City",
       "url": "https://bharatdn.com/city/basirhat-city/",
@@ -502,6 +507,11 @@
       "url": "https://bharatdn.com/city/bulandshahr/",
       "population": 198612
     },
+    "burhanpur": {
+      "name": "Burhānpur",
+      "url": "https://bharatdn.com/city/burhanpur/",
+      "population": 210886
+    },
     "buxar": {
       "name": "Buxar",
       "url": "https://bharatdn.com/city/buxar/",
@@ -531,6 +541,11 @@
       "name": "Channapatna",
       "url": "https://bharatdn.com/city/channapatna/",
       "population": 71942
+    },
+    "chapra": {
+      "name": "Chāpra",
+      "url": "https://bharatdn.com/city/chapra/",
+      "population": 202352
     },
     "chas": {
       "name": "Chas",
@@ -817,6 +832,11 @@
       "url": "https://bharatdn.com/city/faridabad/",
       "population": 1404653
     },
+    "farrukhabad": {
+      "name": "Farrukhābād",
+      "url": "https://bharatdn.com/city/farrukhabad/",
+      "population": 241152
+    },
     "fatehpur": {
       "name": "Fatehpur",
       "url": "https://bharatdn.com/city/fatehpur/",
@@ -986,6 +1006,11 @@
       "name": "Haldwani",
       "url": "https://bharatdn.com/city/haldwani/",
       "population": 139497
+    },
+    "hapur": {
+      "name": "Hāpur",
+      "url": "https://bharatdn.com/city/hapur/",
+      "population": 242920
     },
     "haridwar": {
       "name": "Haridwar",
@@ -1381,6 +1406,11 @@
       "name": "Khargone",
       "url": "https://bharatdn.com/city/khargone/",
       "population": 116150
+    },
+    "khopoli": {
+      "name": "Khopoli",
+      "url": "https://bharatdn.com/city/khopoli/",
+      "population": 71141
     },
     "khurja": {
       "name": "Khurja",
@@ -1787,6 +1817,11 @@
       "url": "https://bharatdn.com/city/nabadwip/",
       "population": 111123
     },
+    "nadiad": {
+      "name": "Nadiād",
+      "url": "https://bharatdn.com/city/nadiad/",
+      "population": 225071
+    },
     "nagaon": {
       "name": "Nagaon",
       "url": "https://bharatdn.com/city/nagaon/",
@@ -1841,6 +1876,16 @@
       "name": "Nandurbar",
       "url": "https://bharatdn.com/city/nandurbar/",
       "population": 111037
+    },
+    "nandyal": {
+      "name": "Nandyāl",
+      "url": "https://bharatdn.com/city/nandyal/",
+      "population": 211424
+    },
+    "nangloi-jat": {
+      "name": "Nāngloi Jāt",
+      "url": "https://bharatdn.com/city/nangloi-jat/",
+      "population": 205596
     },
     "narasaraopet": {
       "name": "Narasaraopet",
@@ -2117,6 +2162,11 @@
       "url": "https://bharatdn.com/city/raebareli/",
       "population": 186433
     },
+    "raichur": {
+      "name": "Rāichūr",
+      "url": "https://bharatdn.com/city/raichur/",
+      "population": 234073
+    },
     "raigarh": {
       "name": "Raigarh",
       "url": "https://bharatdn.com/city/raigarh/",
@@ -2392,6 +2442,11 @@
       "url": "https://bharatdn.com/city/shyamnagar/",
       "population": 441956
     },
+    "sikar": {
+      "name": "Sīkar",
+      "url": "https://bharatdn.com/city/sikar/",
+      "population": 244497
+    },
     "silchar": {
       "name": "Silchar",
       "url": "https://bharatdn.com/city/silchar/",
@@ -2527,6 +2582,11 @@
       "url": "https://bharatdn.com/city/thiruvarur/",
       "population": 58777
     },
+    "thodupuzha": {
+      "name": "Thodupuzha",
+      "url": "https://bharatdn.com/city/thodupuzha/",
+      "population": 52045
+    },
     "thoothukudi": {
       "name": "Thoothukudi",
       "url": "https://bharatdn.com/city/thoothukudi/",
@@ -2641,6 +2701,11 @@
       "name": "Ulhasnagar",
       "url": "https://bharatdn.com/city/ulhasnagar/",
       "population": 516584
+    },
+    "uluberiya": {
+      "name": "Uluberiya",
+      "url": "https://bharatdn.com/city/uluberiya/",
+      "population": 235345
     },
     "uppal-kalan": {
       "name": "Uppal Kalan",

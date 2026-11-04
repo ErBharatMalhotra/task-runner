@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T08:55:11.945Z",
-  "cityGuides": 554,
+  "generatedAt": "2026-11-04T11:22:03.923Z",
+  "cityGuides": 567,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-04T08:55:11.913Z",
+      "at": "2026-11-04T11:22:03.893Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-04T00:00:00.000Z",
+      "title": "13 city guides published — thodupuzha, basavakalyan, khopoli +10 more"
     },
     {
       "at": "2026-11-03T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-10-31T00:00:00.000Z",
       "title": "13 city guides published — kurseong, coonoor, karad +10 more"
-    },
-    {
-      "at": "2026-10-30T00:00:00.000Z",
-      "title": "13 city guides published — ankleshwar, orchha, arakkonam +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Aluva, Virudhachalam, Aruppukkottai +10 more",
+      "title": "13 new city guides — Thodupuzha, Basavakalyan, Khopoli +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "554 city guides · 32 state hubs live",
+      "title": "567 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

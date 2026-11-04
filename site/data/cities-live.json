@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-04T08:55:11.589Z",
-  "count": 554,
-  "shown": 554,
+  "generatedAt": "2026-11-04T11:22:03.563Z",
+  "count": 567,
+  "shown": 567,
   "latest": {
-    "slug": "aluva",
-    "name": "Aluva",
-    "lat": 10.10764,
-    "lon": 76.35158,
-    "at": "2026-11-03T11:11:40.461Z"
+    "slug": "thodupuzha",
+    "name": "Thodupuzha",
+    "lat": 9.89394,
+    "lon": 76.72216,
+    "at": "2026-11-04T11:22:03.298Z"
   },
   "cities": [
     {
@@ -2091,6 +2091,16 @@
       "releasedAt": "2026-10-22T08:49:08.405Z"
     },
     {
+      "slug": "sikar",
+      "name": "Sīkar",
+      "state": "Rajasthan",
+      "lat": 27.61206,
+      "lon": 75.13996,
+      "pop": 244497,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.589Z"
+    },
+    {
       "slug": "puducherry",
       "name": "Puducherry",
       "state": "Puducherry",
@@ -2109,6 +2119,26 @@
       "pop": 242979,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.538Z"
+    },
+    {
+      "slug": "hapur",
+      "name": "Hāpur",
+      "state": "Uttar Pradesh",
+      "lat": 28.72985,
+      "lon": 77.78068,
+      "pop": 242920,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.645Z"
+    },
+    {
+      "slug": "farrukhabad",
+      "name": "Farrukhābād",
+      "state": "Uttar Pradesh",
+      "lat": 27.39134,
+      "lon": 79.5793,
+      "pop": 241152,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.700Z"
     },
     {
       "slug": "alappuzha",
@@ -2151,6 +2181,16 @@
       "releasedAt": "2026-10-22T08:49:08.145Z"
     },
     {
+      "slug": "uluberiya",
+      "name": "Uluberiya",
+      "state": "West Bengal",
+      "lat": 22.4756,
+      "lon": 88.09898,
+      "pop": 235345,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.766Z"
+    },
+    {
       "slug": "sivakasi",
       "name": "Sivakasi",
       "state": "Tamil Nadu",
@@ -2169,6 +2209,16 @@
       "pop": 234191,
       "tier": 2,
       "releasedAt": "2026-10-11T10:13:22.902Z"
+    },
+    {
+      "slug": "raichur",
+      "name": "Rāichūr",
+      "state": "Karnataka",
+      "lat": 16.20546,
+      "lon": 77.35567,
+      "pop": 234073,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.823Z"
     },
     {
       "slug": "pallavaram",
@@ -2259,6 +2309,16 @@
       "pop": 225816,
       "tier": 2,
       "releasedAt": "2026-10-20T08:46:26.140Z"
+    },
+    {
+      "slug": "nadiad",
+      "name": "Nadiād",
+      "state": "Gujarat",
+      "lat": 22.69385,
+      "lon": 72.86157,
+      "pop": 225071,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.877Z"
     },
     {
       "slug": "nagercoil",
@@ -2371,6 +2431,16 @@
       "releasedAt": "2026-10-11T10:13:22.732Z"
     },
     {
+      "slug": "nandyal",
+      "name": "Nandyāl",
+      "state": "Andhra Pradesh",
+      "lat": 15.47799,
+      "lon": 78.4836,
+      "pop": 211424,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.932Z"
+    },
+    {
       "slug": "panchkula",
       "name": "Panchkula",
       "state": "Haryana",
@@ -2379,6 +2449,16 @@
       "pop": 211355,
       "tier": 2,
       "releasedAt": "2026-10-08T10:49:33.189Z"
+    },
+    {
+      "slug": "burhanpur",
+      "name": "Burhānpur",
+      "state": "Madhya Pradesh",
+      "lat": 21.30868,
+      "lon": 76.23026,
+      "pop": 210886,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:02.987Z"
     },
     {
       "slug": "morvi",
@@ -2421,6 +2501,16 @@
       "releasedAt": "2026-10-25T08:37:40.885Z"
     },
     {
+      "slug": "nangloi-jat",
+      "name": "Nāngloi Jāt",
+      "state": "Delhi",
+      "lat": 28.67957,
+      "lon": 77.06799,
+      "pop": 205596,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:03.044Z"
+    },
+    {
       "slug": "secunderabad",
       "name": "Secunderabad",
       "state": "Telangana",
@@ -2439,6 +2529,16 @@
       "pop": 203123,
       "tier": 2,
       "releasedAt": "2026-10-11T10:13:23.009Z"
+    },
+    {
+      "slug": "chapra",
+      "name": "Chāpra",
+      "state": "Bihar",
+      "lat": 25.78031,
+      "lon": 84.74709,
+      "pop": 202352,
+      "tier": 2,
+      "releasedAt": "2026-11-04T11:22:03.099Z"
     },
     {
       "slug": "khandwa",
@@ -4951,6 +5051,16 @@
       "releasedAt": "2026-10-19T09:11:36.779Z"
     },
     {
+      "slug": "khopoli",
+      "name": "Khopoli",
+      "state": "Maharashtra",
+      "lat": 18.78562,
+      "lon": 73.34589,
+      "pop": 71141,
+      "tier": 3,
+      "releasedAt": "2026-11-04T11:22:03.187Z"
+    },
+    {
       "slug": "dadri",
       "name": "Dadri",
       "state": "Uttar Pradesh",
@@ -4969,6 +5079,16 @@
       "pop": 70467,
       "tier": 3,
       "releasedAt": "2026-10-12T11:12:02.670Z"
+    },
+    {
+      "slug": "basavakalyan",
+      "name": "Basavakalyan",
+      "state": "Karnataka",
+      "lat": 17.87445,
+      "lon": 76.94972,
+      "pop": 69717,
+      "tier": 3,
+      "releasedAt": "2026-11-04T11:22:03.243Z"
     },
     {
       "slug": "dharmapuri",
@@ -5139,6 +5259,16 @@
       "pop": 55374,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.153Z"
+    },
+    {
+      "slug": "thodupuzha",
+      "name": "Thodupuzha",
+      "state": "Kerala",
+      "lat": 9.89394,
+      "lon": 76.72216,
+      "pop": 52045,
+      "tier": 3,
+      "releasedAt": "2026-11-04T11:22:03.298Z"
     },
     {
       "slug": "fatwa",
