@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-05T08:14:38.509Z",
-  "count": 567,
-  "shown": 567,
+  "generatedAt": "2026-11-05T11:20:08.818Z",
+  "count": 580,
+  "shown": 580,
   "latest": {
-    "slug": "thodupuzha",
-    "name": "Thodupuzha",
-    "lat": 9.89394,
-    "lon": 76.72216,
-    "at": "2026-11-04T11:22:03.298Z"
+    "slug": "maihar",
+    "name": "Maihar",
+    "lat": 24.26594,
+    "lon": 80.76063,
+    "at": "2026-11-05T11:20:08.401Z"
   },
   "cities": [
     {
@@ -2561,6 +2561,16 @@
       "releasedAt": "2026-10-22T08:49:08.354Z"
     },
     {
+      "slug": "gyanpur",
+      "name": "Gyānpur",
+      "state": "Uttar Pradesh",
+      "lat": 25.33268,
+      "lon": 82.46637,
+      "pop": 200000,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.424Z"
+    },
+    {
       "slug": "bulandshahr",
       "name": "Bulandshahr",
       "state": "Uttar Pradesh",
@@ -2579,6 +2589,16 @@
       "pop": 197585,
       "tier": 2,
       "releasedAt": "2026-10-18T08:13:10.350Z"
+    },
+    {
+      "slug": "bhalswa-jahangirpur",
+      "name": "Bhālswa Jahangirpur",
+      "state": "Delhi",
+      "lat": 28.73558,
+      "lon": 77.16682,
+      "pop": 197148,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.502Z"
     },
     {
       "slug": "khammam",
@@ -2621,6 +2641,16 @@
       "releasedAt": "2026-10-09T10:48:18.614Z"
     },
     {
+      "slug": "ambala",
+      "name": "Ambāla",
+      "state": "Haryana",
+      "lat": 30.36099,
+      "lon": 76.79782,
+      "pop": 195153,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.578Z"
+    },
+    {
       "slug": "komarapalayam",
       "name": "Komarapalayam",
       "state": "Tamil Nadu",
@@ -2639,6 +2669,26 @@
       "pop": 192827,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.121Z"
+    },
+    {
+      "slug": "mahesana",
+      "name": "Mahesāna",
+      "state": "Gujarat",
+      "lat": 23.59864,
+      "lon": 72.38472,
+      "pop": 190753,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.657Z"
+    },
+    {
+      "slug": "mahbubnagar",
+      "name": "Mahbūbnagar",
+      "state": "Telangana",
+      "lat": 16.74385,
+      "lon": 77.98597,
+      "pop": 190400,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.737Z"
     },
     {
       "slug": "sambalpur",
@@ -2689,6 +2739,16 @@
       "pop": 184625,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.305Z"
+    },
+    {
+      "slug": "sujangarh",
+      "name": "Sūjāngarh",
+      "state": "Rajasthan",
+      "lat": 27.7,
+      "lon": 74.46667,
+      "pop": 183808,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.818Z"
     },
     {
       "slug": "sirsa",
@@ -2831,6 +2891,16 @@
       "releasedAt": "2026-10-07T10:28:44.238Z"
     },
     {
+      "slug": "proddatur",
+      "name": "Proddatūr",
+      "state": "Andhra Pradesh",
+      "lat": 14.7502,
+      "lon": 78.54813,
+      "pop": 177797,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.895Z"
+    },
+    {
       "slug": "hugli",
       "name": "Hugli",
       "state": "West Bengal",
@@ -2839,6 +2909,16 @@
       "pop": 177005,
       "tier": 2,
       "releasedAt": "2026-10-28T09:55:17.916Z"
+    },
+    {
+      "slug": "hashtsal",
+      "name": "Hashtsāl",
+      "state": "Delhi",
+      "lat": 28.63406,
+      "lon": 77.05771,
+      "pop": 176877,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:07.973Z"
     },
     {
       "slug": "amroha",
@@ -2851,6 +2931,16 @@
       "releasedAt": "2026-10-11T10:13:22.618Z"
     },
     {
+      "slug": "chhindwara",
+      "name": "Chhindwāra",
+      "state": "Madhya Pradesh",
+      "lat": 22.05697,
+      "lon": 78.93958,
+      "pop": 175052,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:08.049Z"
+    },
+    {
       "slug": "tambaram",
       "name": "Tambaram",
       "state": "Tamil Nadu",
@@ -2859,6 +2949,16 @@
       "pop": 174787,
       "tier": 2,
       "releasedAt": "2026-10-11T13:50:45.717Z"
+    },
+    {
+      "slug": "bhetia",
+      "name": "Bhetia",
+      "state": "Jharkhand",
+      "lat": 22.79321,
+      "lon": 86.14098,
+      "pop": 174355,
+      "tier": 2,
+      "releasedAt": "2026-11-05T11:20:08.124Z"
     },
     {
       "slug": "pathankot",
@@ -5221,6 +5321,16 @@
       "releasedAt": "2026-10-27T09:14:47.331Z"
     },
     {
+      "slug": "namakkal",
+      "name": "Namakkal",
+      "state": "Tamil Nadu",
+      "lat": 11.22126,
+      "lon": 78.16524,
+      "pop": 55997,
+      "tier": 3,
+      "releasedAt": "2026-11-05T11:20:08.324Z"
+    },
+    {
       "slug": "ayodhya",
       "name": "Ayodhya",
       "state": "Uttar Pradesh",
@@ -5369,6 +5479,16 @@
       "pop": 40283,
       "tier": 3,
       "releasedAt": "2026-10-24T08:19:32.127Z"
+    },
+    {
+      "slug": "maihar",
+      "name": "Maihar",
+      "state": "Madhya Pradesh",
+      "lat": 24.26594,
+      "lon": 80.76063,
+      "pop": 40192,
+      "tier": 3,
+      "releasedAt": "2026-11-05T11:20:08.401Z"
     },
     {
       "slug": "agar",
@@ -5599,6 +5719,16 @@
       "pop": 17537,
       "tier": 3,
       "releasedAt": "2026-10-21T08:47:11.738Z"
+    },
+    {
+      "slug": "indri",
+      "name": "Indri",
+      "state": "Haryana",
+      "lat": 29.87999,
+      "lon": 77.05972,
+      "pop": 17487,
+      "tier": 3,
+      "releasedAt": "2026-11-05T11:20:08.247Z"
     },
     {
       "slug": "nazareth",

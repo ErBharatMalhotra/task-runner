@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T08:14:39.043Z",
-  "cityGuides": 567,
+  "generatedAt": "2026-11-05T11:20:09.337Z",
+  "cityGuides": 580,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-05T08:14:39.003Z",
+      "at": "2026-11-05T11:20:09.298Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-05T00:00:00.000Z",
+      "title": "13 city guides published — maihar, namakkal, indri +10 more"
     },
     {
       "at": "2026-11-04T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-11-01T00:00:00.000Z",
       "title": "13 city guides published — payyanur, madikeri, mancherial +10 more"
-    },
-    {
-      "at": "2026-10-31T00:00:00.000Z",
-      "title": "13 city guides published — kurseong, coonoor, karad +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Thodupuzha, Basavakalyan, Khopoli +10 more",
+      "title": "13 new city guides — Maihar, Namakkal, Indri +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "567 city guides · 32 state hubs live",
+      "title": "580 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

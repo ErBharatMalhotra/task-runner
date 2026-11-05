@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T08:14:38.838Z",
-  "count": 567,
+  "generatedAt": "2026-11-05T11:20:09.140Z",
+  "count": 580,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -96,6 +96,11 @@
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
       "population": 103000
+    },
+    "ambala": {
+      "name": "Ambāla",
+      "url": "https://bharatdn.com/city/ambala/",
+      "population": 195153
     },
     "ambala-sadar": {
       "name": "Ambala Sadar",
@@ -367,6 +372,11 @@
       "url": "https://bharatdn.com/city/bhagalpur/",
       "population": 400146
     },
+    "bhalswa-jahangirpur": {
+      "name": "Bhālswa Jahangirpur",
+      "url": "https://bharatdn.com/city/bhalswa-jahangirpur/",
+      "population": 197148
+    },
     "bharatpur": {
       "name": "Bharatpur",
       "url": "https://bharatdn.com/city/bharatpur/",
@@ -391,6 +401,11 @@
       "name": "Bhayandar",
       "url": "https://bharatdn.com/city/bhayandar/",
       "population": 809378
+    },
+    "bhetia": {
+      "name": "Bhetia",
+      "url": "https://bharatdn.com/city/bhetia/",
+      "population": 174355
     },
     "bhilai": {
       "name": "Bhilai",
@@ -576,6 +591,11 @@
       "name": "Chhatarpur",
       "url": "https://bharatdn.com/city/chhatarpur-delhi/",
       "population": 46776
+    },
+    "chhindwara": {
+      "name": "Chhindwāra",
+      "url": "https://bharatdn.com/city/chhindwara/",
+      "population": 175052
     },
     "chidambaram": {
       "name": "Chidambaram",
@@ -997,6 +1017,11 @@
       "url": "https://bharatdn.com/city/gwalior/",
       "population": 1102884
     },
+    "gyanpur": {
+      "name": "Gyānpur",
+      "url": "https://bharatdn.com/city/gyanpur/",
+      "population": 200000
+    },
     "haldia": {
       "name": "Haldia",
       "url": "https://bharatdn.com/city/haldia/",
@@ -1016,6 +1041,11 @@
       "name": "Haridwar",
       "url": "https://bharatdn.com/city/haridwar/",
       "population": 231105
+    },
+    "hashtsal": {
+      "name": "Hashtsāl",
+      "url": "https://bharatdn.com/city/hashtsal/",
+      "population": 176877
     },
     "hassan": {
       "name": "Hassan",
@@ -1106,6 +1136,11 @@
       "name": "Indore",
       "url": "https://bharatdn.com/city/indore/",
       "population": 2057791
+    },
+    "indri": {
+      "name": "Indri",
+      "url": "https://bharatdn.com/city/indri/",
+      "population": 17487
     },
     "itanagar": {
       "name": "Itanagar",
@@ -1597,6 +1632,16 @@
       "url": "https://bharatdn.com/city/madurai/",
       "population": 1017861
     },
+    "mahbubnagar": {
+      "name": "Mahbūbnagar",
+      "url": "https://bharatdn.com/city/mahbubnagar/",
+      "population": 190400
+    },
+    "mahesana": {
+      "name": "Mahesāna",
+      "url": "https://bharatdn.com/city/mahesana/",
+      "population": 190753
+    },
     "maheshtala": {
       "name": "Maheshtala",
       "url": "https://bharatdn.com/city/maheshtala/",
@@ -1611,6 +1656,11 @@
       "name": "Mahoba",
       "url": "https://bharatdn.com/city/mahoba/",
       "population": 89170
+    },
+    "maihar": {
+      "name": "Maihar",
+      "url": "https://bharatdn.com/city/maihar/",
+      "population": 40192
     },
     "mainpuri": {
       "name": "Mainpuri",
@@ -1867,6 +1917,11 @@
       "url": "https://bharatdn.com/city/nalgonda/",
       "population": 154326
     },
+    "namakkal": {
+      "name": "Namakkal",
+      "url": "https://bharatdn.com/city/namakkal/",
+      "population": 55997
+    },
     "nanded": {
       "name": "Nanded",
       "url": "https://bharatdn.com/city/nanded/",
@@ -2111,6 +2166,11 @@
       "name": "Prayagraj",
       "url": "https://bharatdn.com/city/prayagraj/",
       "population": 1112511
+    },
+    "proddatur": {
+      "name": "Proddatūr",
+      "url": "https://bharatdn.com/city/proddatur/",
+      "population": 177797
     },
     "puducherry": {
       "name": "Puducherry",
@@ -2516,6 +2576,11 @@
       "name": "Srivilliputhur",
       "url": "https://bharatdn.com/city/srivilliputhur/",
       "population": 75396
+    },
+    "sujangarh": {
+      "name": "Sūjāngarh",
+      "url": "https://bharatdn.com/city/sujangarh/",
+      "population": 183808
     },
     "sultan-pur-majra": {
       "name": "Sultan Pur Majra",
