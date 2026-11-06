@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T09:12:13.905Z",
-  "count": 580,
+  "generatedAt": "2026-11-06T11:17:38.564Z",
+  "count": 593,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -96,6 +96,11 @@
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
       "population": 103000
+    },
+    "ambajogai": {
+      "name": "Ambajogai",
+      "url": "https://bharatdn.com/city/ambajogai/",
+      "population": 74114
     },
     "ambala": {
       "name": "Ambāla",
@@ -312,6 +317,11 @@
       "url": "https://bharatdn.com/city/basti/",
       "population": 115115
     },
+    "batala": {
+      "name": "Batāla",
+      "url": "https://bharatdn.com/city/batala/",
+      "population": 158621
+    },
     "bathinda": {
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
@@ -381,6 +391,11 @@
       "name": "Bharatpur",
       "url": "https://bharatdn.com/city/bharatpur/",
       "population": 252838
+    },
+    "bharuch": {
+      "name": "Bharūch",
+      "url": "https://bharatdn.com/city/bharuch/",
+      "population": 169007
     },
     "bhatkal": {
       "name": "Bhatkal",
@@ -656,6 +671,11 @@
       "name": "Dadri",
       "url": "https://bharatdn.com/city/dadri/",
       "population": 70609
+    },
+    "dalupura": {
+      "name": "Dalūpura",
+      "url": "https://bharatdn.com/city/dalupura/",
+      "population": 154791
     },
     "damoh": {
       "name": "Damoh",
@@ -1032,6 +1052,11 @@
       "url": "https://bharatdn.com/city/haldwani/",
       "population": 139497
     },
+    "hanumangarh": {
+      "name": "Hanumāngarh",
+      "url": "https://bharatdn.com/city/hanumangarh/",
+      "population": 155687
+    },
     "hapur": {
       "name": "Hāpur",
       "url": "https://bharatdn.com/city/hapur/",
@@ -1086,6 +1111,11 @@
       "name": "Hosapete",
       "url": "https://bharatdn.com/city/hosapete/",
       "population": 206167
+    },
+    "hoshiarpur": {
+      "name": "Hoshiārpur",
+      "url": "https://bharatdn.com/city/hoshiarpur/",
+      "population": 168653
     },
     "hoskote": {
       "name": "Hoskote",
@@ -1247,6 +1277,11 @@
       "url": "https://bharatdn.com/city/jharsuguda/",
       "population": 97730
     },
+    "jind": {
+      "name": "Jīnd",
+      "url": "https://bharatdn.com/city/jind/",
+      "population": 167592
+    },
     "jodhpur": {
       "name": "Jodhpur",
       "url": "https://bharatdn.com/city/jodhpur/",
@@ -1271,6 +1306,11 @@
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
       "population": 344893
+    },
+    "kadayanallur": {
+      "name": "Kadayanallur",
+      "url": "https://bharatdn.com/city/kadayanallur/",
+      "population": 90364
     },
     "kadiri": {
       "name": "Kadiri",
@@ -1396,6 +1436,11 @@
       "name": "Karwar",
       "url": "https://bharatdn.com/city/karwar/",
       "population": 77139
+    },
+    "kasganj": {
+      "name": "Kasganj",
+      "url": "https://bharatdn.com/city/kasganj/",
+      "population": 99462
     },
     "kashipur": {
       "name": "Kashipur",
@@ -2227,6 +2272,11 @@
       "url": "https://bharatdn.com/city/raichur/",
       "population": 234073
     },
+    "raiganj": {
+      "name": "Rāiganj",
+      "url": "https://bharatdn.com/city/raiganj/",
+      "population": 170252
+    },
     "raigarh": {
       "name": "Raigarh",
       "url": "https://bharatdn.com/city/raigarh/",
@@ -2532,6 +2582,11 @@
       "url": "https://bharatdn.com/city/sirsa/",
       "population": 182534
     },
+    "sitapur": {
+      "name": "Sītāpur",
+      "url": "https://bharatdn.com/city/sitapur/",
+      "population": 164435
+    },
     "sivakasi": {
       "name": "Sivakasi",
       "url": "https://bharatdn.com/city/sivakasi/",
@@ -2626,6 +2681,11 @@
       "name": "Thane",
       "url": "https://bharatdn.com/city/thane/",
       "population": 1841488
+    },
+    "thanesar": {
+      "name": "Thānesar",
+      "url": "https://bharatdn.com/city/thanesar/",
+      "population": 155152
     },
     "thanjavur": {
       "name": "Thanjavur",
@@ -2771,6 +2831,11 @@
       "name": "Uluberiya",
       "url": "https://bharatdn.com/city/uluberiya/",
       "population": 235345
+    },
+    "unnao": {
+      "name": "Unnāo",
+      "url": "https://bharatdn.com/city/unnao/",
+      "population": 161671
     },
     "uppal-kalan": {
       "name": "Uppal Kalan",
