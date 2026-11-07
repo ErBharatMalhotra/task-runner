@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T09:52:56.896Z",
-  "count": 593,
+  "generatedAt": "2026-11-07T10:32:34.715Z",
+  "count": 606,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -267,10 +267,20 @@
       "url": "https://bharatdn.com/city/ballari/",
       "population": 410445
     },
+    "balurghat": {
+      "name": "Bālurghāt",
+      "url": "https://bharatdn.com/city/balurghat/",
+      "population": 153279
+    },
     "banat": {
       "name": "Banat",
       "url": "https://bharatdn.com/city/banat/",
       "population": 21580
+    },
+    "banda": {
+      "name": "Bānda",
+      "url": "https://bharatdn.com/city/banda/",
+      "population": 152218
     },
     "bangaon": {
       "name": "Bangaon",
@@ -331,6 +341,11 @@
       "name": "Baud",
       "url": "https://bharatdn.com/city/baud/",
       "population": 20424
+    },
+    "beawar": {
+      "name": "Beāwar",
+      "url": "https://bharatdn.com/city/beawar/",
+      "population": 151152
     },
     "beed": {
       "name": "Beed",
@@ -537,6 +552,11 @@
       "url": "https://bharatdn.com/city/bulandshahr/",
       "population": 198612
     },
+    "burari": {
+      "name": "Burāri",
+      "url": "https://bharatdn.com/city/burari/",
+      "population": 146190
+    },
     "burhanpur": {
       "name": "Burhānpur",
       "url": "https://bharatdn.com/city/burhanpur/",
@@ -651,6 +671,11 @@
       "name": "Coimbatore",
       "url": "https://bharatdn.com/city/coimbatore/",
       "population": 1601438
+    },
+    "contai": {
+      "name": "Contai",
+      "url": "https://bharatdn.com/city/contai/",
+      "population": 88702
     },
     "coonoor": {
       "name": "Coonoor",
@@ -1041,6 +1066,11 @@
       "name": "Gyānpur",
       "url": "https://bharatdn.com/city/gyanpur/",
       "population": 200000
+    },
+    "hajipur": {
+      "name": "Hājīpur",
+      "url": "https://bharatdn.com/city/hajipur/",
+      "population": 147688
     },
     "haldia": {
       "name": "Haldia",
@@ -1547,6 +1577,11 @@
       "url": "https://bharatdn.com/city/komarapalayam/",
       "population": 195071
     },
+    "koraput": {
+      "name": "Koraput",
+      "url": "https://bharatdn.com/city/koraput/",
+      "population": 47468
+    },
     "korba": {
       "name": "Korba",
       "url": "https://bharatdn.com/city/korba/",
@@ -1796,6 +1831,11 @@
       "name": "Mayiladuthurai",
       "url": "https://bharatdn.com/city/mayiladuthurai/",
       "population": 86660
+    },
+    "medinipur": {
+      "name": "Medinīpur",
+      "url": "https://bharatdn.com/city/medinipur/",
+      "population": 153349
     },
     "meerut": {
       "name": "Meerut",
@@ -2082,10 +2122,20 @@
       "url": "https://bharatdn.com/city/palakkad/",
       "population": 132728
     },
+    "palakollu": {
+      "name": "Palakollu",
+      "url": "https://bharatdn.com/city/palakollu/",
+      "population": 81199
+    },
     "palani": {
       "name": "Palani",
       "url": "https://bharatdn.com/city/palani/",
       "population": 70467
+    },
+    "palanpur": {
+      "name": "Pālanpur",
+      "url": "https://bharatdn.com/city/palanpur/",
+      "population": 141592
     },
     "pali": {
       "name": "Pāli",
@@ -2392,6 +2442,11 @@
       "url": "https://bharatdn.com/city/rewa/",
       "population": 235654
     },
+    "rewari": {
+      "name": "Rewāri",
+      "url": "https://bharatdn.com/city/rewari/",
+      "population": 143021
+    },
     "rishikesh": {
       "name": "Rishikesh",
       "url": "https://bharatdn.com/city/rishikesh/",
@@ -2457,6 +2512,11 @@
       "url": "https://bharatdn.com/city/sangli/",
       "population": 601214
     },
+    "sasaram": {
+      "name": "Sasarām",
+      "url": "https://bharatdn.com/city/sasaram/",
+      "population": 147408
+    },
     "satara": {
       "name": "Satara",
       "url": "https://bharatdn.com/city/satara/",
@@ -2516,6 +2576,11 @@
       "name": "Shamli",
       "url": "https://bharatdn.com/city/shamli/",
       "population": 97966
+    },
+    "shantipur": {
+      "name": "Shāntipur",
+      "url": "https://bharatdn.com/city/shantipur/",
+      "population": 149983
     },
     "shegaon": {
       "name": "Shegaon",

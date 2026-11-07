@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-07T09:52:56.633Z",
-  "count": 593,
-  "shown": 593,
+  "generatedAt": "2026-11-07T10:32:34.398Z",
+  "count": 606,
+  "shown": 606,
   "latest": {
-    "slug": "ambajogai",
-    "name": "Ambajogai",
-    "lat": 18.73312,
-    "lon": 76.38616,
-    "at": "2026-11-06T11:17:37.790Z"
+    "slug": "palakollu",
+    "name": "Palakollu",
+    "lat": 16.5167,
+    "lon": 81.73,
+    "at": "2026-11-07T10:32:34.012Z"
   },
   "cities": [
     {
@@ -3441,6 +3441,26 @@
       "releasedAt": "2026-10-11T13:50:45.604Z"
     },
     {
+      "slug": "medinipur",
+      "name": "Medinīpur",
+      "state": "West Bengal",
+      "lat": 22.42114,
+      "lon": 87.32257,
+      "pop": 153349,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.059Z"
+    },
+    {
+      "slug": "balurghat",
+      "name": "Bālurghāt",
+      "state": "West Bengal",
+      "lat": 25.22099,
+      "lon": 88.77732,
+      "pop": 153279,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.135Z"
+    },
+    {
       "slug": "faizabad",
       "name": "Faizabad",
       "state": "Uttar Pradesh",
@@ -3471,6 +3491,16 @@
       "releasedAt": "2026-10-08T10:49:33.421Z"
     },
     {
+      "slug": "banda",
+      "name": "Bānda",
+      "state": "Uttar Pradesh",
+      "lat": 25.47758,
+      "lon": 80.33491,
+      "pop": 152218,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.209Z"
+    },
+    {
       "slug": "hindupur",
       "name": "Hindupur",
       "state": "Andhra Pradesh",
@@ -3479,6 +3509,16 @@
       "pop": 151677,
       "tier": 2,
       "releasedAt": "2026-10-11T13:50:45.487Z"
+    },
+    {
+      "slug": "beawar",
+      "name": "Beāwar",
+      "state": "Rajasthan",
+      "lat": 26.10119,
+      "lon": 74.32028,
+      "pop": 151152,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.287Z"
     },
     {
       "slug": "anantnag",
@@ -3521,6 +3561,16 @@
       "releasedAt": "2026-10-18T08:13:10.581Z"
     },
     {
+      "slug": "shantipur",
+      "name": "Shāntipur",
+      "state": "West Bengal",
+      "lat": 23.24723,
+      "lon": 88.43302,
+      "pop": 149983,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.365Z"
+    },
+    {
       "slug": "bhuj",
       "name": "Bhuj",
       "state": "Gujarat",
@@ -3541,6 +3591,26 @@
       "releasedAt": "2026-10-31T09:52:17.871Z"
     },
     {
+      "slug": "hajipur",
+      "name": "Hājīpur",
+      "state": "Bihar",
+      "lat": 25.68544,
+      "lon": 85.20981,
+      "pop": 147688,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.438Z"
+    },
+    {
+      "slug": "sasaram",
+      "name": "Sasarām",
+      "state": "Bihar",
+      "lat": 24.94942,
+      "lon": 84.01645,
+      "pop": 147408,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.513Z"
+    },
+    {
       "slug": "bhimavaram",
       "name": "Bhimavaram",
       "state": "Andhra Pradesh",
@@ -3559,6 +3629,16 @@
       "pop": 146709,
       "tier": 2,
       "releasedAt": "2026-10-13T10:53:23.626Z"
+    },
+    {
+      "slug": "burari",
+      "name": "Burāri",
+      "state": "Delhi",
+      "lat": 28.7557,
+      "lon": 77.19941,
+      "pop": 146190,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.590Z"
     },
     {
       "slug": "krishnanagar",
@@ -3641,6 +3721,16 @@
       "releasedAt": "2026-10-12T11:12:02.313Z"
     },
     {
+      "slug": "rewari",
+      "name": "Rewāri",
+      "state": "Haryana",
+      "lat": 28.199,
+      "lon": 76.6183,
+      "pop": 143021,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.668Z"
+    },
+    {
       "slug": "basirhat-city",
       "name": "Basirhat City",
       "state": "West Bengal",
@@ -3679,6 +3769,16 @@
       "pop": 141640,
       "tier": 2,
       "releasedAt": "2026-10-25T08:37:41.011Z"
+    },
+    {
+      "slug": "palanpur",
+      "name": "Pālanpur",
+      "state": "Gujarat",
+      "lat": 24.17128,
+      "lon": 72.43827,
+      "pop": 141592,
+      "tier": 2,
+      "releasedAt": "2026-11-07T10:32:33.745Z"
     },
     {
       "slug": "damoh",
@@ -5051,6 +5151,16 @@
       "releasedAt": "2026-10-28T09:55:18.385Z"
     },
     {
+      "slug": "contai",
+      "name": "Contai",
+      "state": "West Bengal",
+      "lat": 21.77985,
+      "lon": 87.74892,
+      "pop": 88702,
+      "tier": 3,
+      "releasedAt": "2026-11-07T10:32:33.858Z"
+    },
+    {
       "slug": "deoband",
       "name": "Deoband",
       "state": "Uttar Pradesh",
@@ -5119,6 +5229,16 @@
       "pop": 81702,
       "tier": 3,
       "releasedAt": "2026-10-11T10:13:23.335Z"
+    },
+    {
+      "slug": "palakollu",
+      "name": "Palakollu",
+      "state": "Andhra Pradesh",
+      "lat": 16.5167,
+      "lon": 81.73,
+      "pop": 81199,
+      "tier": 3,
+      "releasedAt": "2026-11-07T10:32:34.012Z"
     },
     {
       "slug": "srikalahasti",
@@ -5519,6 +5639,16 @@
       "pop": 50961,
       "tier": 3,
       "releasedAt": "2026-09-28T10:16:26.961Z"
+    },
+    {
+      "slug": "koraput",
+      "name": "Koraput",
+      "state": "Odisha",
+      "lat": 18.81199,
+      "lon": 82.71048,
+      "pop": 47468,
+      "tier": 3,
+      "releasedAt": "2026-11-07T10:32:33.937Z"
     },
     {
       "slug": "jodhpur-gujarat",
