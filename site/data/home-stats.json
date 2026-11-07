@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:34:58.039Z",
+  "generatedAt": "2026-11-07T09:52:57.062Z",
   "cityGuides": 593,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-07T07:34:57.999Z",
+      "at": "2026-11-07T09:52:57.026Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Ambajogai, Kadayanallur, Kasganj +10 more",
-      "desc": "91 published in the last 7 days, each live-verified.",
+      "desc": "78 published in the last 7 days, each live-verified.",
       "time": "yesterday"
     },
     {
