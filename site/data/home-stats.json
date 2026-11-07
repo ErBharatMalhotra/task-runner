@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:46:10.521Z",
+  "generatedAt": "2026-11-07T23:38:09.249Z",
   "cityGuides": 606,
   "stateHubs": 32,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-07T20:46:10.478Z",
+      "at": "2026-11-07T23:38:09.220Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -85,7 +85,7 @@
       "tone": "red",
       "title": "13 new city guides — Palakollu, Koraput, Contai +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
