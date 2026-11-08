@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T08:18:10.444Z",
-  "count": 606,
+  "generatedAt": "2026-11-08T10:39:43.702Z",
+  "count": 619,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -286,6 +286,11 @@
       "name": "Bangaon",
       "url": "https://bharatdn.com/city/bangaon/",
       "population": 111693
+    },
+    "bankura": {
+      "name": "Bānkura",
+      "url": "https://bharatdn.com/city/bankura/",
+      "population": 133966
     },
     "barakpur": {
       "name": "Bārākpur",
@@ -727,6 +732,11 @@
       "url": "https://bharatdn.com/city/datia/",
       "population": 100284
     },
+    "dausa": {
+      "name": "Dausa",
+      "url": "https://bharatdn.com/city/dausa/",
+      "population": 85960
+    },
     "davangere": {
       "name": "Davangere",
       "url": "https://bharatdn.com/city/davangere/",
@@ -821,6 +831,11 @@
       "name": "Dibrugarh",
       "url": "https://bharatdn.com/city/dibrugarh/",
       "population": 145488
+    },
+    "dimapur": {
+      "name": "Dimāpur",
+      "url": "https://bharatdn.com/city/dimapur/",
+      "population": 135860
     },
     "dinapore": {
       "name": "Dinapore",
@@ -992,6 +1007,11 @@
       "url": "https://bharatdn.com/city/godhra/",
       "population": 143644
     },
+    "gonda-city": {
+      "name": "Gondā City",
+      "url": "https://bharatdn.com/city/gonda-city/",
+      "population": 133583
+    },
     "gondal": {
       "name": "Gondal",
       "url": "https://bharatdn.com/city/gondal/",
@@ -1067,6 +1087,11 @@
       "url": "https://bharatdn.com/city/gyanpur/",
       "population": 200000
     },
+    "habra": {
+      "name": "Hābra",
+      "url": "https://bharatdn.com/city/habra/",
+      "population": 139297
+    },
     "hajipur": {
       "name": "Hājīpur",
       "url": "https://bharatdn.com/city/hajipur/",
@@ -1081,6 +1106,11 @@
       "name": "Haldwani",
       "url": "https://bharatdn.com/city/haldwani/",
       "population": 139497
+    },
+    "halisahar": {
+      "name": "Hālīsahar",
+      "url": "https://bharatdn.com/city/halisahar/",
+      "population": 128172
     },
     "hanumangarh": {
       "name": "Hanumāngarh",
@@ -1347,6 +1377,11 @@
       "url": "https://bharatdn.com/city/kadiri/",
       "population": 89429
     },
+    "kairana": {
+      "name": "Kairana",
+      "url": "https://bharatdn.com/city/kairana/",
+      "population": 80432
+    },
     "kaithal": {
       "name": "Kaithal",
       "url": "https://bharatdn.com/city/kaithal/",
@@ -1512,6 +1547,11 @@
       "url": "https://bharatdn.com/city/khardaha/",
       "population": 128346
     },
+    "kharghar": {
+      "name": "Kharghar",
+      "url": "https://bharatdn.com/city/kharghar/",
+      "population": 80612
+    },
     "khargone": {
       "name": "Khargone",
       "url": "https://bharatdn.com/city/khargone/",
@@ -1647,6 +1687,11 @@
       "url": "https://bharatdn.com/city/kushinagar/",
       "population": 274403
     },
+    "lakhimpur": {
+      "name": "Lakhīmpur",
+      "url": "https://bharatdn.com/city/lakhimpur/",
+      "population": 140223
+    },
     "lal-bahadur-nagar": {
       "name": "Lal Bahadur Nagar",
       "url": "https://bharatdn.com/city/lal-bahadur-nagar/",
@@ -1696,6 +1741,11 @@
       "name": "Madhavaram",
       "url": "https://bharatdn.com/city/madhavaram/",
       "population": 119105
+    },
+    "madhurampur-dehri": {
+      "name": "Madhurampur Dehri",
+      "url": "https://bharatdn.com/city/madhurampur-dehri/",
+      "population": 137231
     },
     "madhyamgram": {
       "name": "Madhyamgram",
@@ -2222,6 +2272,11 @@
       "url": "https://bharatdn.com/city/phusro/",
       "population": 185555
     },
+    "pilibhit": {
+      "name": "Pīlibhīt",
+      "url": "https://bharatdn.com/city/pilibhit/",
+      "population": 131008
+    },
     "pimpri": {
       "name": "Pimpri",
       "url": "https://bharatdn.com/city/pimpri/",
@@ -2657,6 +2712,11 @@
       "url": "https://bharatdn.com/city/sivakasi/",
       "population": 234704
     },
+    "siwan": {
+      "name": "Siwān",
+      "url": "https://bharatdn.com/city/siwan/",
+      "population": 135066
+    },
     "solan": {
       "name": "Solan",
       "url": "https://bharatdn.com/city/solan/",
@@ -2921,6 +2981,11 @@
       "name": "Valparai",
       "url": "https://bharatdn.com/city/valparai/",
       "population": 90353
+    },
+    "valsad": {
+      "name": "Valsād",
+      "url": "https://bharatdn.com/city/valsad/",
+      "population": 139764
     },
     "vapi": {
       "name": "Vapi",

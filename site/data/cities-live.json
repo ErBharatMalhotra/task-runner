@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-08T08:18:10.111Z",
-  "count": 606,
-  "shown": 606,
+  "generatedAt": "2026-11-08T10:39:43.398Z",
+  "count": 619,
+  "shown": 619,
   "latest": {
-    "slug": "palakollu",
-    "name": "Palakollu",
-    "lat": 16.5167,
-    "lon": 81.73,
-    "at": "2026-11-07T10:32:34.012Z"
+    "slug": "kharghar",
+    "name": "Kharghar",
+    "lat": 19.04979,
+    "lon": 73.07024,
+    "at": "2026-11-08T10:39:43.168Z"
   },
   "cities": [
     {
@@ -3781,6 +3781,26 @@
       "releasedAt": "2026-11-07T10:32:33.745Z"
     },
     {
+      "slug": "lakhimpur",
+      "name": "Lakhīmpur",
+      "state": "Uttar Pradesh",
+      "lat": 27.94822,
+      "lon": 80.77935,
+      "pop": 140223,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.527Z"
+    },
+    {
+      "slug": "valsad",
+      "name": "Valsād",
+      "state": "Gujarat",
+      "lat": 20.61013,
+      "lon": 72.93428,
+      "pop": 139764,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.576Z"
+    },
+    {
       "slug": "damoh",
       "name": "Damoh",
       "state": "Madhya Pradesh",
@@ -3799,6 +3819,16 @@
       "pop": 139497,
       "tier": 2,
       "releasedAt": "2026-09-28T05:55:26.772Z"
+    },
+    {
+      "slug": "habra",
+      "name": "Hābra",
+      "state": "West Bengal",
+      "lat": 22.84202,
+      "lon": 88.65606,
+      "pop": 139297,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.625Z"
     },
     {
       "slug": "kolar",
@@ -3831,6 +3861,16 @@
       "releasedAt": "2026-10-12T11:12:02.192Z"
     },
     {
+      "slug": "madhurampur-dehri",
+      "name": "Madhurampur Dehri",
+      "state": "Bihar",
+      "lat": 24.96899,
+      "lon": 84.1964,
+      "pop": 137231,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.674Z"
+    },
+    {
       "slug": "kanchrapara",
       "name": "Kanchrapara",
       "state": "West Bengal",
@@ -3839,6 +3879,16 @@
       "pop": 136954,
       "tier": 2,
       "releasedAt": "2026-10-19T09:11:35.901Z"
+    },
+    {
+      "slug": "dimapur",
+      "name": "Dimāpur",
+      "state": "Nagaland",
+      "lat": 25.91174,
+      "lon": 93.7217,
+      "pop": 135860,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.726Z"
     },
     {
       "slug": "maler-kotla",
@@ -3851,6 +3901,16 @@
       "releasedAt": "2026-11-01T10:42:47.010Z"
     },
     {
+      "slug": "siwan",
+      "name": "Siwān",
+      "state": "Bihar",
+      "lat": 26.22096,
+      "lon": 84.35609,
+      "pop": 135066,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.775Z"
+    },
+    {
       "slug": "kalol",
       "name": "Kalol",
       "state": "Gujarat",
@@ -3861,6 +3921,16 @@
       "releasedAt": "2026-10-27T09:14:47.109Z"
     },
     {
+      "slug": "bankura",
+      "name": "Bānkura",
+      "state": "West Bengal",
+      "lat": 23.23241,
+      "lon": 87.0716,
+      "pop": 133966,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.827Z"
+    },
+    {
       "slug": "patan",
       "name": "Pātan",
       "state": "Gujarat",
@@ -3869,6 +3939,16 @@
       "pop": 133737,
       "tier": 2,
       "releasedAt": "2026-11-01T10:42:47.092Z"
+    },
+    {
+      "slug": "gonda-city",
+      "name": "Gondā City",
+      "state": "Uttar Pradesh",
+      "lat": 27.13181,
+      "lon": 81.95332,
+      "pop": 133583,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.879Z"
     },
     {
       "slug": "dhaulpur",
@@ -3931,6 +4011,16 @@
       "releasedAt": "2026-10-18T08:13:10.501Z"
     },
     {
+      "slug": "pilibhit",
+      "name": "Pīlibhīt",
+      "state": "Uttar Pradesh",
+      "lat": 28.63124,
+      "lon": 79.80436,
+      "pop": 131008,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.934Z"
+    },
+    {
       "slug": "rajapalayam",
       "name": "Rajapalayam",
       "state": "Tamil Nadu",
@@ -3989,6 +4079,16 @@
       "pop": 128175,
       "tier": 2,
       "releasedAt": "2026-10-11T13:50:45.256Z"
+    },
+    {
+      "slug": "halisahar",
+      "name": "Hālīsahar",
+      "state": "West Bengal",
+      "lat": 22.93218,
+      "lon": 88.41859,
+      "pop": 128172,
+      "tier": 2,
+      "releasedAt": "2026-11-08T10:39:42.986Z"
     },
     {
       "slug": "khanna",
@@ -5191,6 +5291,16 @@
       "releasedAt": "2026-10-14T08:56:11.108Z"
     },
     {
+      "slug": "dausa",
+      "name": "Dausa",
+      "state": "Rajasthan",
+      "lat": 26.89,
+      "lon": 76.33584,
+      "pop": 85960,
+      "tier": 3,
+      "releasedAt": "2026-11-08T10:39:43.067Z"
+    },
+    {
       "slug": "bijnor",
       "name": "Bijnor",
       "state": "Uttar Pradesh",
@@ -5239,6 +5349,26 @@
       "pop": 81199,
       "tier": 3,
       "releasedAt": "2026-11-07T10:32:34.012Z"
+    },
+    {
+      "slug": "kharghar",
+      "name": "Kharghar",
+      "state": "Maharashtra",
+      "lat": 19.04979,
+      "lon": 73.07024,
+      "pop": 80612,
+      "tier": 3,
+      "releasedAt": "2026-11-08T10:39:43.168Z"
+    },
+    {
+      "slug": "kairana",
+      "name": "Kairana",
+      "state": "Uttar Pradesh",
+      "lat": 29.39541,
+      "lon": 77.2054,
+      "pop": 80432,
+      "tier": 3,
+      "releasedAt": "2026-11-08T10:39:43.118Z"
     },
     {
       "slug": "srikalahasti",
