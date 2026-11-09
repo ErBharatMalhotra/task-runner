@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T08:27:28.265Z",
-  "count": 619,
-  "shown": 619,
+  "generatedAt": "2026-11-09T11:56:24.609Z",
+  "count": 632,
+  "shown": 632,
   "latest": {
-    "slug": "kharghar",
-    "name": "Kharghar",
-    "lat": 19.04979,
-    "lon": 73.07024,
-    "at": "2026-11-08T10:39:43.168Z"
+    "slug": "nawanshahr",
+    "name": "Nawanshahr",
+    "lat": 31.1245,
+    "lon": 76.11613,
+    "at": "2026-11-09T11:56:24.341Z"
   },
   "cities": [
     {
@@ -4161,6 +4161,16 @@
       "releasedAt": "2026-10-18T08:13:10.815Z"
     },
     {
+      "slug": "mothihari",
+      "name": "Mothīhāri",
+      "state": "Bihar",
+      "lat": 26.64862,
+      "lon": 84.91656,
+      "pop": 126158,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.669Z"
+    },
+    {
       "slug": "kanhangad",
       "name": "Kanhangad",
       "state": "Kerala",
@@ -4191,6 +4201,16 @@
       "releasedAt": "2026-11-01T10:42:47.341Z"
     },
     {
+      "slug": "kurichchi",
+      "name": "Kurichchi",
+      "state": "Tamil Nadu",
+      "lat": 10.96085,
+      "lon": 76.97379,
+      "pop": 123667,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.721Z"
+    },
+    {
       "slug": "dum-dum",
       "name": "Dum Dum",
       "state": "West Bengal",
@@ -4199,6 +4219,16 @@
       "pop": 122719,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.911Z"
+    },
+    {
+      "slug": "hardoi",
+      "name": "Hardoī",
+      "state": "Uttar Pradesh",
+      "lat": 27.39491,
+      "lon": 80.13165,
+      "pop": 122635,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.774Z"
     },
     {
       "slug": "puruliya",
@@ -4279,6 +4309,16 @@
       "pop": 121106,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.464Z"
+    },
+    {
+      "slug": "ambikapur",
+      "name": "Ambikāpur",
+      "state": "Chhattisgarh",
+      "lat": 23.11892,
+      "lon": 83.19537,
+      "pop": 121071,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.827Z"
     },
     {
       "slug": "mandoli",
@@ -4371,6 +4411,16 @@
       "releasedAt": "2026-10-14T08:56:10.756Z"
     },
     {
+      "slug": "jhunjhunun",
+      "name": "Jhunjhunūn",
+      "state": "Rajasthan",
+      "lat": 28.12559,
+      "lon": 75.39797,
+      "pop": 118473,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.880Z"
+    },
+    {
       "slug": "jetpur",
       "name": "Jetpur",
       "state": "Gujarat",
@@ -4399,6 +4449,16 @@
       "pop": 118167,
       "tier": 2,
       "releasedAt": "2026-11-01T10:42:47.680Z"
+    },
+    {
+      "slug": "baran",
+      "name": "Bārān",
+      "state": "Rajasthan",
+      "lat": 25.1,
+      "lon": 76.51667,
+      "pop": 117992,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.933Z"
     },
     {
       "slug": "narmadapuram",
@@ -4451,6 +4511,16 @@
       "releasedAt": "2026-10-22T08:49:07.988Z"
     },
     {
+      "slug": "baripada",
+      "name": "Baripāda",
+      "state": "Odisha",
+      "lat": 21.93458,
+      "lon": 86.72852,
+      "pop": 116849,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:23.988Z"
+    },
+    {
       "slug": "muktsar",
       "name": "Muktsar",
       "state": "Punjab",
@@ -4469,6 +4539,16 @@
       "pop": 116644,
       "tier": 2,
       "releasedAt": "2026-10-09T10:48:18.549Z"
+    },
+    {
+      "slug": "barnala",
+      "name": "Barnāla",
+      "state": "Punjab",
+      "lat": 30.37451,
+      "lon": 75.5487,
+      "pop": 116449,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:24.043Z"
     },
     {
       "slug": "yelahanka",
@@ -4661,6 +4741,16 @@
       "releasedAt": "2026-10-23T08:44:52.380Z"
     },
     {
+      "slug": "suriapet",
+      "name": "Suriāpet",
+      "state": "Telangana",
+      "lat": 17.14054,
+      "lon": 79.62045,
+      "pop": 111729,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:24.096Z"
+    },
+    {
       "slug": "bangaon",
       "name": "Bangaon",
       "state": "West Bengal",
@@ -4709,6 +4799,16 @@
       "pop": 111037,
       "tier": 2,
       "releasedAt": "2026-10-21T08:47:11.397Z"
+    },
+    {
+      "slug": "sultanpur",
+      "name": "Sultānpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.25788,
+      "lon": 82.07269,
+      "pop": 110368,
+      "tier": 2,
+      "releasedAt": "2026-11-09T11:56:24.151Z"
     },
     {
       "slug": "delhi-cantonment",
@@ -5481,6 +5581,16 @@
       "releasedAt": "2026-11-03T11:11:40.394Z"
     },
     {
+      "slug": "sikandrabad",
+      "name": "Sikandrabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.45226,
+      "lon": 77.70004,
+      "pop": 73379,
+      "tier": 3,
+      "releasedAt": "2026-11-09T11:56:24.235Z"
+    },
+    {
       "slug": "ooty",
       "name": "Ooty",
       "state": "Tamil Nadu",
@@ -5811,6 +5921,16 @@
       "releasedAt": "2026-10-31T09:52:18.223Z"
     },
     {
+      "slug": "nawanshahr",
+      "name": "Nawanshahr",
+      "state": "Punjab",
+      "lat": 31.1245,
+      "lon": 76.11613,
+      "pop": 46024,
+      "tier": 3,
+      "releasedAt": "2026-11-09T11:56:24.341Z"
+    },
+    {
       "slug": "coonoor",
       "name": "Coonoor",
       "state": "Tamil Nadu",
@@ -5939,6 +6059,16 @@
       "pop": 33540,
       "tier": 3,
       "releasedAt": "2026-11-01T10:42:47.966Z"
+    },
+    {
+      "slug": "chanderi",
+      "name": "Chanderi",
+      "state": "Madhya Pradesh",
+      "lat": 24.71312,
+      "lon": 78.13809,
+      "pop": 33081,
+      "tier": 3,
+      "releasedAt": "2026-11-09T11:56:24.288Z"
     },
     {
       "slug": "udaipur-tripura",

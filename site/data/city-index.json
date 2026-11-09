@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T08:27:28.562Z",
-  "count": 619,
+  "generatedAt": "2026-11-09T11:56:24.817Z",
+  "count": 632,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -121,6 +121,11 @@
       "name": "Ambattur",
       "url": "https://bharatdn.com/city/ambattur/",
       "population": 466205
+    },
+    "ambikapur": {
+      "name": "Ambikāpur",
+      "url": "https://bharatdn.com/city/ambikapur/",
+      "population": 121071
     },
     "ambur": {
       "name": "Ambur",
@@ -297,6 +302,11 @@
       "url": "https://bharatdn.com/city/barakpur/",
       "population": 148174
     },
+    "baran": {
+      "name": "Bārān",
+      "url": "https://bharatdn.com/city/baran/",
+      "population": 117992
+    },
     "barasat": {
       "name": "Bārāsat",
       "url": "https://bharatdn.com/city/barasat/",
@@ -311,6 +321,16 @@
       "name": "Bareilly",
       "url": "https://bharatdn.com/city/bareilly/",
       "population": 985752
+    },
+    "baripada": {
+      "name": "Baripāda",
+      "url": "https://bharatdn.com/city/baripada/",
+      "population": 116849
+    },
+    "barnala": {
+      "name": "Barnāla",
+      "url": "https://bharatdn.com/city/barnala/",
+      "population": 116449
     },
     "barshi": {
       "name": "Barshi",
@@ -576,6 +596,11 @@
       "name": "Chandannagar",
       "url": "https://bharatdn.com/city/chandannagar/",
       "population": 180623
+    },
+    "chanderi": {
+      "name": "Chanderi",
+      "url": "https://bharatdn.com/city/chanderi/",
+      "population": 33081
     },
     "chandigarh": {
       "name": "Chandigarh",
@@ -1122,6 +1147,11 @@
       "url": "https://bharatdn.com/city/hapur/",
       "population": 242920
     },
+    "hardoi": {
+      "name": "Hardoī",
+      "url": "https://bharatdn.com/city/hardoi/",
+      "population": 122635
+    },
     "haridwar": {
       "name": "Haridwar",
       "url": "https://bharatdn.com/city/haridwar/",
@@ -1336,6 +1366,11 @@
       "name": "Jharsuguda",
       "url": "https://bharatdn.com/city/jharsuguda/",
       "population": 97730
+    },
+    "jhunjhunun": {
+      "name": "Jhunjhunūn",
+      "url": "https://bharatdn.com/city/jhunjhunun/",
+      "population": 118473
     },
     "jind": {
       "name": "Jīnd",
@@ -1672,6 +1707,11 @@
       "url": "https://bharatdn.com/city/kumbakonam/",
       "population": 167155
     },
+    "kurichchi": {
+      "name": "Kurichchi",
+      "url": "https://bharatdn.com/city/kurichchi/",
+      "population": 123667
+    },
     "kurnool": {
       "name": "Kurnool",
       "url": "https://bharatdn.com/city/kurnool/",
@@ -1942,6 +1982,11 @@
       "url": "https://bharatdn.com/city/moth/",
       "population": 14077
     },
+    "mothihari": {
+      "name": "Mothīhāri",
+      "url": "https://bharatdn.com/city/mothihari/",
+      "population": 126158
+    },
     "mount-abu": {
       "name": "Mount Abu",
       "url": "https://bharatdn.com/city/mount-abu/",
@@ -2106,6 +2151,11 @@
       "name": "Navsari",
       "url": "https://bharatdn.com/city/navsari/",
       "population": 171109
+    },
+    "nawanshahr": {
+      "name": "Nawanshahr",
+      "url": "https://bharatdn.com/city/nawanshahr/",
+      "population": 46024
     },
     "nazareth": {
       "name": "Nazareth",
@@ -2672,6 +2722,11 @@
       "url": "https://bharatdn.com/city/shyamnagar/",
       "population": 441956
     },
+    "sikandrabad": {
+      "name": "Sikandrabad",
+      "url": "https://bharatdn.com/city/sikandrabad/",
+      "population": 73379
+    },
     "sikar": {
       "name": "Sīkar",
       "url": "https://bharatdn.com/city/sikar/",
@@ -2767,6 +2822,11 @@
       "url": "https://bharatdn.com/city/sultan-pur-majra/",
       "population": 181554
     },
+    "sultanpur": {
+      "name": "Sultānpur",
+      "url": "https://bharatdn.com/city/sultanpur/",
+      "population": 110368
+    },
     "surat": {
       "name": "Surat",
       "url": "https://bharatdn.com/city/surat/",
@@ -2776,6 +2836,11 @@
       "name": "Surendranagar",
       "url": "https://bharatdn.com/city/surendranagar/",
       "population": 179628
+    },
+    "suriapet": {
+      "name": "Suriāpet",
+      "url": "https://bharatdn.com/city/suriapet/",
+      "population": 111729
     },
     "tadepalligudem": {
       "name": "Tadepalligudem",
