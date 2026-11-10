@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T08:41:45.556Z",
-  "cityGuides": 632,
+  "generatedAt": "2026-11-10T11:30:03.143Z",
+  "cityGuides": 645,
   "stateHubs": 32,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-10T08:41:45.514Z",
+      "at": "2026-11-10T11:30:03.101Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-10T00:00:00.000Z",
+      "title": "13 city guides published — chalisgaon, anekal, medininagar +10 more"
     },
     {
       "at": "2026-11-09T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-11-06T00:00:00.000Z",
       "title": "13 city guides published — ambajogai, kadayanallur, kasganj +10 more"
-    },
-    {
-      "at": "2026-11-05T00:00:00.000Z",
-      "title": "13 city guides published — maihar, namakkal, indri +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Nawanshahr, Chanderi, Sikandrabad +10 more",
+      "title": "13 new city guides — Chalisgaon, Anekal, Medininagar +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "632 city guides · 32 state hubs live",
+      "title": "645 city guides · 32 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

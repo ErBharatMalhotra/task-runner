@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T08:41:45.054Z",
-  "count": 632,
-  "shown": 632,
+  "generatedAt": "2026-11-10T11:30:02.584Z",
+  "count": 645,
+  "shown": 645,
   "latest": {
-    "slug": "nawanshahr",
-    "name": "Nawanshahr",
-    "lat": 31.1245,
-    "lon": 76.11613,
-    "at": "2026-11-09T11:56:24.341Z"
+    "slug": "chalisgaon",
+    "name": "Chalisgaon",
+    "lat": 20.45781,
+    "lon": 75.01596,
+    "at": "2026-11-10T11:30:02.144Z"
   },
   "cities": [
     {
@@ -4841,6 +4841,16 @@
       "releasedAt": "2026-10-14T08:56:10.234Z"
     },
     {
+      "slug": "bansbaria",
+      "name": "Bānsbāria",
+      "state": "West Bengal",
+      "lat": 22.95387,
+      "lon": 88.40098,
+      "pop": 108474,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.139Z"
+    },
+    {
       "slug": "tadpatri",
       "name": "Tadpatri",
       "state": "Andhra Pradesh",
@@ -4931,6 +4941,16 @@
       "releasedAt": "2026-11-02T11:31:56.434Z"
     },
     {
+      "slug": "nagaur",
+      "name": "Nāgaur",
+      "state": "Rajasthan",
+      "lat": 27.20201,
+      "lon": 73.73394,
+      "pop": 105218,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.217Z"
+    },
+    {
       "slug": "ambala-sadar",
       "name": "Ambala Sadar",
       "state": "Haryana",
@@ -4951,6 +4971,16 @@
       "releasedAt": "2026-10-12T11:12:01.945Z"
     },
     {
+      "slug": "bundi",
+      "name": "Būndi",
+      "state": "Rajasthan",
+      "lat": 25.43855,
+      "lon": 75.63735,
+      "pop": 104919,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.303Z"
+    },
+    {
       "slug": "miryalaguda",
       "name": "Miryalaguda",
       "state": "Telangana",
@@ -4959,6 +4989,16 @@
       "pop": 104918,
       "tier": 2,
       "releasedAt": "2026-10-18T08:13:10.426Z"
+    },
+    {
+      "slug": "soyibug",
+      "name": "Soyībug",
+      "state": "Jammu and Kashmir",
+      "lat": 34.07677,
+      "lon": 74.7057,
+      "pop": 104000,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.393Z"
     },
     {
       "slug": "jagtial",
@@ -4981,6 +5021,16 @@
       "releasedAt": "2026-10-10T10:03:10.634Z"
     },
     {
+      "slug": "udgir",
+      "name": "Udgīr",
+      "state": "Maharashtra",
+      "lat": 18.39258,
+      "lon": 77.11756,
+      "pop": 103550,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.473Z"
+    },
+    {
       "slug": "nagda",
       "name": "Nagda",
       "state": "Madhya Pradesh",
@@ -5001,6 +5051,16 @@
       "releasedAt": "2026-11-02T11:31:56.595Z"
     },
     {
+      "slug": "jahanabad-bihar",
+      "name": "Jahānābād",
+      "state": "Bihar",
+      "lat": 25.21368,
+      "lon": 84.9871,
+      "pop": 103202,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.554Z"
+    },
+    {
       "slug": "kashipur",
       "name": "Kashipur",
       "state": "Uttarakhand",
@@ -5009,6 +5069,16 @@
       "pop": 103138,
       "tier": 2,
       "releasedAt": "2026-10-28T09:55:18.131Z"
+    },
+    {
+      "slug": "ghazipur",
+      "name": "Ghazīpur",
+      "state": "Uttar Pradesh",
+      "lat": 25.58333,
+      "lon": 83.58526,
+      "pop": 103095,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.632Z"
     },
     {
       "slug": "amaravati",
@@ -5071,6 +5141,16 @@
       "releasedAt": "2026-10-20T08:46:25.911Z"
     },
     {
+      "slug": "aurangabad-bihar",
+      "name": "Aurangābād",
+      "state": "Bihar",
+      "lat": 24.75204,
+      "lon": 84.3742,
+      "pop": 102244,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.709Z"
+    },
+    {
       "slug": "hinganghat",
       "name": "Hinganghāt",
       "state": "Maharashtra",
@@ -5091,6 +5171,16 @@
       "releasedAt": "2026-10-21T08:47:11.102Z"
     },
     {
+      "slug": "chilakalurupet",
+      "name": "Chilakalūrupet",
+      "state": "Andhra Pradesh",
+      "lat": 16.08987,
+      "lon": 80.16705,
+      "pop": 101398,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.786Z"
+    },
+    {
       "slug": "malappuram",
       "name": "Malappuram",
       "state": "Kerala",
@@ -5099,6 +5189,16 @@
       "pop": 101386,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.522Z"
+    },
+    {
+      "slug": "banswara",
+      "name": "Bānswāra",
+      "state": "Rajasthan",
+      "lat": 23.54109,
+      "lon": 74.4425,
+      "pop": 101017,
+      "tier": 2,
+      "releasedAt": "2026-11-10T11:30:01.864Z"
     },
     {
       "slug": "chirmiri",
@@ -5219,6 +5319,16 @@
       "pop": 97730,
       "tier": 3,
       "releasedAt": "2026-10-17T07:57:49.055Z"
+    },
+    {
+      "slug": "chalisgaon",
+      "name": "Chalisgaon",
+      "state": "Maharashtra",
+      "lat": 20.45781,
+      "lon": 75.01596,
+      "pop": 97551,
+      "tier": 3,
+      "releasedAt": "2026-11-10T11:30:02.144Z"
     },
     {
       "slug": "thalassery",
@@ -5489,6 +5599,16 @@
       "pop": 79080,
       "tier": 3,
       "releasedAt": "2026-10-30T10:19:50.532Z"
+    },
+    {
+      "slug": "medininagar",
+      "name": "Medininagar",
+      "state": "Jharkhand",
+      "lat": 24.03971,
+      "lon": 84.0658,
+      "pop": 78396,
+      "tier": 3,
+      "releasedAt": "2026-11-10T11:30:01.984Z"
     },
     {
       "slug": "gurdaspur",
@@ -5949,6 +6069,16 @@
       "pop": 44856,
       "tier": 3,
       "releasedAt": "2026-10-09T10:48:18.905Z"
+    },
+    {
+      "slug": "anekal",
+      "name": "Anekal",
+      "state": "Karnataka",
+      "lat": 12.7111,
+      "lon": 77.69557,
+      "pop": 44260,
+      "tier": 3,
+      "releasedAt": "2026-11-10T11:30:02.064Z"
     },
     {
       "slug": "varkala",

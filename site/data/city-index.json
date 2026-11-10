@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T08:41:45.373Z",
-  "count": 632,
+  "generatedAt": "2026-11-10T11:30:02.941Z",
+  "count": 645,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -167,6 +167,11 @@
       "url": "https://bharatdn.com/city/anantnag/",
       "population": 150592
     },
+    "anekal": {
+      "name": "Anekal",
+      "url": "https://bharatdn.com/city/anekal/",
+      "population": 44260
+    },
     "ankleshwar": {
       "name": "Ankleshwar",
       "url": "https://bharatdn.com/city/ankleshwar/",
@@ -206,6 +211,11 @@
       "name": "Aurangabad",
       "url": "https://bharatdn.com/city/aurangabad/",
       "population": 1263808
+    },
+    "aurangabad-bihar": {
+      "name": "Aurangābād",
+      "url": "https://bharatdn.com/city/aurangabad-bihar/",
+      "population": 102244
     },
     "avadi": {
       "name": "Avadi",
@@ -296,6 +306,16 @@
       "name": "Bānkura",
       "url": "https://bharatdn.com/city/bankura/",
       "population": 133966
+    },
+    "bansbaria": {
+      "name": "Bānsbāria",
+      "url": "https://bharatdn.com/city/bansbaria/",
+      "population": 108474
+    },
+    "banswara": {
+      "name": "Bānswāra",
+      "url": "https://bharatdn.com/city/banswara/",
+      "population": 101017
     },
     "barakpur": {
       "name": "Bārākpur",
@@ -577,6 +597,11 @@
       "url": "https://bharatdn.com/city/bulandshahr/",
       "population": 198612
     },
+    "bundi": {
+      "name": "Būndi",
+      "url": "https://bharatdn.com/city/bundi/",
+      "population": 104919
+    },
     "burari": {
       "name": "Burāri",
       "url": "https://bharatdn.com/city/burari/",
@@ -591,6 +616,11 @@
       "name": "Buxar",
       "url": "https://bharatdn.com/city/buxar/",
       "population": 102861
+    },
+    "chalisgaon": {
+      "name": "Chalisgaon",
+      "url": "https://bharatdn.com/city/chalisgaon/",
+      "population": 97551
     },
     "chandannagar": {
       "name": "Chandannagar",
@@ -671,6 +701,11 @@
       "name": "Chikkamagaluru",
       "url": "https://bharatdn.com/city/chikkamagaluru/",
       "population": 121484
+    },
+    "chilakalurupet": {
+      "name": "Chilakalūrupet",
+      "url": "https://bharatdn.com/city/chilakalurupet/",
+      "population": 101398
     },
     "chirmiri": {
       "name": "Chirmiri",
@@ -1022,6 +1057,11 @@
       "url": "https://bharatdn.com/city/ghaziabad/",
       "population": 1636069
     },
+    "ghazipur": {
+      "name": "Ghazīpur",
+      "url": "https://bharatdn.com/city/ghazipur/",
+      "population": 103095
+    },
     "giridih": {
       "name": "Giridih",
       "url": "https://bharatdn.com/city/giridih/",
@@ -1286,6 +1326,11 @@
       "name": "Jagtiāl",
       "url": "https://bharatdn.com/city/jagtial/",
       "population": 103930
+    },
+    "jahanabad-bihar": {
+      "name": "Jahānābād",
+      "url": "https://bharatdn.com/city/jahanabad-bihar/",
+      "population": 103202
     },
     "jaigaon": {
       "name": "Jaigaon",
@@ -1922,6 +1967,11 @@
       "url": "https://bharatdn.com/city/mayiladuthurai/",
       "population": 86660
     },
+    "medininagar": {
+      "name": "Medininagar",
+      "url": "https://bharatdn.com/city/medininagar/",
+      "population": 78396
+    },
     "medinipur": {
       "name": "Medinīpur",
       "url": "https://bharatdn.com/city/medinipur/",
@@ -2061,6 +2111,11 @@
       "name": "Nagapattinam",
       "url": "https://bharatdn.com/city/nagapattinam/",
       "population": 102905
+    },
+    "nagaur": {
+      "name": "Nāgaur",
+      "url": "https://bharatdn.com/city/nagaur/",
+      "population": 105218
     },
     "nagda": {
       "name": "Nagda",
@@ -2787,6 +2842,11 @@
       "url": "https://bharatdn.com/city/sonipat/",
       "population": 289333
     },
+    "soyibug": {
+      "name": "Soyībug",
+      "url": "https://bharatdn.com/city/soyibug/",
+      "population": 104000
+    },
     "sri-ganganagar": {
       "name": "Sri Ganganagar",
       "url": "https://bharatdn.com/city/sri-ganganagar/",
@@ -2991,6 +3051,11 @@
       "name": "Udaipur",
       "url": "https://bharatdn.com/city/udaipur-tripura/",
       "population": 32758
+    },
+    "udgir": {
+      "name": "Udgīr",
+      "url": "https://bharatdn.com/city/udgir/",
+      "population": 103550
     },
     "udhagamandalam": {
       "name": "Udhagamandalam",
