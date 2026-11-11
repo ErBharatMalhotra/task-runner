@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T10:39:59.916Z",
-  "count": 645,
+  "generatedAt": "2026-11-11T11:19:23.227Z",
+  "count": 658,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -46,6 +46,11 @@
       "name": "Ahmedabad",
       "url": "https://bharatdn.com/city/ahmedabad/",
       "population": 5577940
+    },
+    "ahmedabad-india": {
+      "name": "Ahmedabad",
+      "url": "https://bharatdn.com/city/ahmedabad-india/",
+      "population": 7645000
     },
     "airoli": {
       "name": "Airoli",
@@ -411,6 +416,11 @@
       "name": "Bengaluru",
       "url": "https://bharatdn.com/city/bengaluru/",
       "population": 8443675
+    },
+    "bengaluru-india": {
+      "name": "Bengaluru",
+      "url": "https://bharatdn.com/city/bengaluru-india/",
+      "population": 12327000
     },
     "bettiah": {
       "name": "Bettiah",
@@ -947,6 +957,11 @@
       "url": "https://bharatdn.com/city/eluru/",
       "population": 218020
     },
+    "ernakulam": {
+      "name": "Ernakulam",
+      "url": "https://bharatdn.com/city/ernakulam/",
+      "population": 633553
+    },
     "erode": {
       "name": "Erode",
       "url": "https://bharatdn.com/city/erode/",
@@ -1307,6 +1322,11 @@
       "url": "https://bharatdn.com/city/itanagar/",
       "population": 59490
     },
+    "itarsi": {
+      "name": "Itārsi",
+      "url": "https://bharatdn.com/city/itarsi/",
+      "population": 100574
+    },
     "jabalpur": {
       "name": "Jabalpur",
       "url": "https://bharatdn.com/city/jabalpur/",
@@ -1502,6 +1522,11 @@
       "url": "https://bharatdn.com/city/kamarhati/",
       "population": 332965
     },
+    "kanakapura": {
+      "name": "Kanakapura",
+      "url": "https://bharatdn.com/city/kanakapura/",
+      "population": 54014
+    },
     "kanayannur": {
       "name": "Kanayannur",
       "url": "https://bharatdn.com/city/kanayannur/",
@@ -1536,6 +1561,11 @@
       "name": "Kanpur",
       "url": "https://bharatdn.com/city/kanpur/",
       "population": 2768057
+    },
+    "kanpur-cantonment": {
+      "name": "Kanpur Cantonment",
+      "url": "https://bharatdn.com/city/kanpur-cantonment/",
+      "population": 108534
     },
     "karad": {
       "name": "Karad",
@@ -1997,6 +2027,11 @@
       "url": "https://bharatdn.com/city/mirzapur/",
       "population": 220029
     },
+    "modinagar": {
+      "name": "Modīnagar",
+      "url": "https://bharatdn.com/city/modinagar/",
+      "population": 475843
+    },
     "moga": {
       "name": "Moga",
       "url": "https://bharatdn.com/city/moga/",
@@ -2056,6 +2091,11 @@
       "name": "Mumbai",
       "url": "https://bharatdn.com/city/mumbai/",
       "population": 12442373
+    },
+    "mumbai-india": {
+      "name": "Mumbai",
+      "url": "https://bharatdn.com/city/mumbai-india/",
+      "population": 15414288
     },
     "munger": {
       "name": "Munger",
@@ -2372,6 +2412,11 @@
       "url": "https://bharatdn.com/city/pen/",
       "population": 37852
     },
+    "phagwara": {
+      "name": "Phagwāra",
+      "url": "https://bharatdn.com/city/phagwara/",
+      "population": 100146
+    },
     "phusro": {
       "name": "Phusro",
       "url": "https://bharatdn.com/city/phusro/",
@@ -2446,6 +2491,11 @@
       "name": "Pune",
       "url": "https://bharatdn.com/city/pune/",
       "population": 3124458
+    },
+    "pune-india": {
+      "name": "Pune",
+      "url": "https://bharatdn.com/city/pune-india/",
+      "population": 6200000
     },
     "puri": {
       "name": "Puri",
@@ -2672,6 +2722,11 @@
       "url": "https://bharatdn.com/city/sangli/",
       "population": 601214
     },
+    "sangrur": {
+      "name": "Sangrur",
+      "url": "https://bharatdn.com/city/sangrur/",
+      "population": 88615
+    },
     "sasaram": {
       "name": "Sasarām",
       "url": "https://bharatdn.com/city/sasaram/",
@@ -2776,6 +2831,11 @@
       "name": "Shyamnagar",
       "url": "https://bharatdn.com/city/shyamnagar/",
       "population": 441956
+    },
+    "siddipet": {
+      "name": "Siddipet",
+      "url": "https://bharatdn.com/city/siddipet/",
+      "population": 66737
     },
     "sikandrabad": {
       "name": "Sikandrabad",
@@ -3206,6 +3266,11 @@
       "name": "Weir",
       "url": "https://bharatdn.com/city/weir/",
       "population": 19385
+    },
+    "yamuna-nagar": {
+      "name": "Yamuna Nagar",
+      "url": "https://bharatdn.com/city/yamuna-nagar/",
+      "population": 217071
     },
     "yamunanagar": {
       "name": "yamunanagar",
