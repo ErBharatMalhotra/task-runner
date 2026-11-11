@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:19:23.420Z",
+  "generatedAt": "2026-11-11T11:51:35.225Z",
   "cityGuides": 658,
   "stateHubs": 33,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-11T11:19:23.380Z",
+      "at": "2026-11-11T11:51:35.189Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -84,7 +84,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Siddipet, Sangrur, Kanakapura +10 more",
-      "desc": "104 published in the last 7 days, each live-verified.",
+      "desc": "91 published in the last 7 days, each live-verified.",
       "time": "today"
     },
     {
