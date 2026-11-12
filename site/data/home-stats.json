@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:07:06.800Z",
+  "generatedAt": "2026-11-12T22:15:01.587Z",
   "cityGuides": 671,
   "stateHubs": 33,
   "hubs": [
@@ -55,7 +55,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-12T18:07:06.764Z",
+      "at": "2026-11-12T22:15:01.543Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
