@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T09:40:09.221Z",
-  "count": 658,
+  "generatedAt": "2026-11-12T11:38:41.767Z",
+  "count": 671,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -1072,6 +1072,11 @@
       "url": "https://bharatdn.com/city/ghaziabad/",
       "population": 1636069
     },
+    "ghaziabad-india": {
+      "name": "Ghaziabad",
+      "url": "https://bharatdn.com/city/ghaziabad-india/",
+      "population": 2375820
+    },
     "ghazipur": {
       "name": "Ghazīpur",
       "url": "https://bharatdn.com/city/ghazipur/",
@@ -1312,6 +1317,11 @@
       "url": "https://bharatdn.com/city/indore/",
       "population": 2057791
     },
+    "indore-india": {
+      "name": "Indore",
+      "url": "https://bharatdn.com/city/indore-india/",
+      "population": 1994397
+    },
     "indri": {
       "name": "Indri",
       "url": "https://bharatdn.com/city/indri/",
@@ -1360,6 +1370,11 @@
     "jaipur": {
       "name": "Jaipur",
       "url": "https://bharatdn.com/city/jaipur/",
+      "population": 3073350
+    },
+    "jaipur-india": {
+      "name": "Jaipur",
+      "url": "https://bharatdn.com/city/jaipur-india/",
       "population": 3073350
     },
     "jaisalmer": {
@@ -1567,6 +1582,11 @@
       "url": "https://bharatdn.com/city/kanpur-cantonment/",
       "population": 108534
     },
+    "kanpur-india": {
+      "name": "Kanpur",
+      "url": "https://bharatdn.com/city/kanpur-india/",
+      "population": 4581268
+    },
     "karad": {
       "name": "Karad",
       "url": "https://bharatdn.com/city/karad/",
@@ -1727,6 +1747,11 @@
       "url": "https://bharatdn.com/city/komarapalayam/",
       "population": 195071
     },
+    "koppal": {
+      "name": "Koppal",
+      "url": "https://bharatdn.com/city/koppal/",
+      "population": 70698
+    },
     "koraput": {
       "name": "Koraput",
       "url": "https://bharatdn.com/city/koraput/",
@@ -1836,6 +1861,11 @@
       "name": "Lucknow",
       "url": "https://bharatdn.com/city/lucknow/",
       "population": 2815601
+    },
+    "lucknow-india": {
+      "name": "Lucknow",
+      "url": "https://bharatdn.com/city/lucknow-india/",
+      "population": 3382000
     },
     "ludhiana": {
       "name": "Ludhiana",
@@ -2172,6 +2202,11 @@
       "url": "https://bharatdn.com/city/nagpur/",
       "population": 2497870
     },
+    "nagpur-india": {
+      "name": "Nagpur",
+      "url": "https://bharatdn.com/city/nagpur-india/",
+      "population": 2405665
+    },
     "naihati": {
       "name": "Naihāti",
       "url": "https://bharatdn.com/city/naihati/",
@@ -2231,6 +2266,11 @@
       "name": "Narmadapuram",
       "url": "https://bharatdn.com/city/narmadapuram/",
       "population": 117988
+    },
+    "narnaul": {
+      "name": "Narnaul",
+      "url": "https://bharatdn.com/city/narnaul/",
+      "population": 74581
     },
     "nashik": {
       "name": "Nashik",
@@ -2467,6 +2507,11 @@
       "url": "https://bharatdn.com/city/prayagraj/",
       "population": 1112511
     },
+    "prayagraj-india": {
+      "name": "Prayagraj",
+      "url": "https://bharatdn.com/city/prayagraj-india/",
+      "population": 5954391
+    },
     "proddatur": {
       "name": "Proddatūr",
       "url": "https://bharatdn.com/city/proddatur/",
@@ -2571,6 +2616,11 @@
       "name": "Rajkot",
       "url": "https://bharatdn.com/city/rajkot/",
       "population": 1390933
+    },
+    "rajkot-india": {
+      "name": "Rajkot",
+      "url": "https://bharatdn.com/city/rajkot-india/",
+      "population": 2043000
     },
     "rajpur-sonarpur": {
       "name": "Rajpur Sonarpur",
@@ -2952,6 +3002,11 @@
       "url": "https://bharatdn.com/city/surat/",
       "population": 4594194
     },
+    "surat-india": {
+      "name": "Surat",
+      "url": "https://bharatdn.com/city/surat-india/",
+      "population": 5935000
+    },
     "surendranagar": {
       "name": "Surendranagar",
       "url": "https://bharatdn.com/city/surendranagar/",
@@ -3167,6 +3222,11 @@
       "url": "https://bharatdn.com/city/vadodara/",
       "population": 1822221
     },
+    "vadodara-india": {
+      "name": "Vadodara",
+      "url": "https://bharatdn.com/city/vadodara-india/",
+      "population": 2065771
+    },
     "valparai": {
       "name": "Valparai",
       "url": "https://bharatdn.com/city/valparai/",
@@ -3196,6 +3256,11 @@
       "name": "Vasco",
       "url": "https://bharatdn.com/city/vasco/",
       "population": 100485
+    },
+    "vatakara": {
+      "name": "Vatakara",
+      "url": "https://bharatdn.com/city/vatakara/",
+      "population": 76493
     },
     "vejalpur": {
       "name": "Vejalpur",

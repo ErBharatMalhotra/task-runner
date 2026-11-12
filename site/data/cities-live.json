@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-12T09:40:08.944Z",
-  "count": 658,
-  "shown": 658,
+  "generatedAt": "2026-11-12T11:38:41.413Z",
+  "count": 671,
+  "shown": 671,
   "latest": {
-    "slug": "siddipet",
-    "name": "Siddipet",
-    "lat": 18.10483,
-    "lon": 78.84858,
-    "at": "2026-11-11T11:19:22.409Z"
+    "slug": "vatakara",
+    "name": "Vatakara",
+    "lat": 11.59776,
+    "lon": 75.58142,
+    "at": "2026-11-12T11:38:40.979Z"
   },
   "cities": [
     {
@@ -91,6 +91,26 @@
       "releasedAt": "2026-11-11T11:19:22.137Z"
     },
     {
+      "slug": "prayagraj-india",
+      "name": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "lat": 25.45,
+      "lon": 81.85,
+      "pop": 5954391,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:39.993Z"
+    },
+    {
+      "slug": "surat-india",
+      "name": "Surat",
+      "state": "India",
+      "lat": 21.205,
+      "lon": 72.84,
+      "pop": 5935000,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.069Z"
+    },
+    {
       "slug": "ahmedabad",
       "name": "Ahmedabad",
       "state": "Gujarat",
@@ -121,6 +141,16 @@
       "releasedAt": "2026-09-26T11:53:46.108Z"
     },
     {
+      "slug": "kanpur-india",
+      "name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "lat": 26.4725,
+      "lon": 80.331111111,
+      "pop": 4581268,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.151Z"
+    },
+    {
       "slug": "kolkata",
       "name": "Kolkata",
       "state": "West Bengal",
@@ -129,6 +159,16 @@
       "pop": 4496694,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:04.744Z"
+    },
+    {
+      "slug": "lucknow-india",
+      "name": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.847,
+      "lon": 80.947,
+      "pop": 3382000,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.227Z"
     },
     {
       "slug": "pune",
@@ -149,6 +189,16 @@
       "pop": 3073350,
       "tier": 1,
       "releasedAt": "2026-09-26T11:53:31.912Z"
+    },
+    {
+      "slug": "jaipur-india",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "lat": 26.915,
+      "lon": 75.82,
+      "pop": 3073350,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.304Z"
     },
     {
       "slug": "lucknow",
@@ -181,6 +231,36 @@
       "releasedAt": "2026-09-26T14:19:38.280Z"
     },
     {
+      "slug": "nagpur-india",
+      "name": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.149722222,
+      "lon": 79.080555555,
+      "pop": 2405665,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.384Z"
+    },
+    {
+      "slug": "ghaziabad-india",
+      "name": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "lat": 28.666666666,
+      "lon": 77.416666666,
+      "pop": 2375820,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.464Z"
+    },
+    {
+      "slug": "vadodara-india",
+      "name": "Vadodara",
+      "state": "Gujarat",
+      "lat": 22.3,
+      "lon": 73.2,
+      "pop": 2065771,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.541Z"
+    },
+    {
       "slug": "indore",
       "name": "Indore",
       "state": "Madhya Pradesh",
@@ -189,6 +269,26 @@
       "pop": 2057791,
       "tier": 1,
       "releasedAt": "2026-09-26T11:53:29.221Z"
+    },
+    {
+      "slug": "rajkot-india",
+      "name": "Rajkot",
+      "state": "Gujarat",
+      "lat": 22.291666666,
+      "lon": 70.793333333,
+      "pop": 2043000,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.617Z"
+    },
+    {
+      "slug": "indore-india",
+      "name": "Indore",
+      "state": "India",
+      "lat": 22.718611111,
+      "lon": 75.855,
+      "pop": 1994397,
+      "tier": 1,
+      "releasedAt": "2026-11-12T11:38:40.701Z"
     },
     {
       "slug": "thane",
@@ -5751,6 +5851,16 @@
       "releasedAt": "2026-10-08T10:49:33.697Z"
     },
     {
+      "slug": "vatakara",
+      "name": "Vatakara",
+      "state": "Kerala",
+      "lat": 11.59776,
+      "lon": 75.58142,
+      "pop": 76493,
+      "tier": 3,
+      "releasedAt": "2026-11-12T11:38:40.979Z"
+    },
+    {
       "slug": "fazilka",
       "name": "Fazilka",
       "state": "Punjab",
@@ -5789,6 +5899,16 @@
       "pop": 75396,
       "tier": 3,
       "releasedAt": "2026-10-29T10:17:50.563Z"
+    },
+    {
+      "slug": "narnaul",
+      "name": "Narnaul",
+      "state": "Haryana",
+      "lat": 28.04444,
+      "lon": 76.10833,
+      "pop": 74581,
+      "tier": 3,
+      "releasedAt": "2026-11-12T11:38:40.894Z"
     },
     {
       "slug": "ambajogai",
@@ -5879,6 +5999,16 @@
       "pop": 71141,
       "tier": 3,
       "releasedAt": "2026-11-04T11:22:03.187Z"
+    },
+    {
+      "slug": "koppal",
+      "name": "Koppal",
+      "state": "Karnataka",
+      "lat": 15.34522,
+      "lon": 76.15478,
+      "pop": 70698,
+      "tier": 3,
+      "releasedAt": "2026-11-12T11:38:40.816Z"
     },
     {
       "slug": "dadri",
