@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T08:31:45.770Z",
-  "count": 671,
+  "generatedAt": "2026-11-13T11:22:13.598Z",
+  "count": 684,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -36,6 +36,11 @@
       "name": "Agra",
       "url": "https://bharatdn.com/city/agra/",
       "population": 1585704
+    },
+    "agra-india": {
+      "name": "Agra",
+      "url": "https://bharatdn.com/city/agra-india/",
+      "population": 1585705
     },
     "ahilyanagar": {
       "name": "Ahilyanagar",
@@ -532,6 +537,11 @@
       "url": "https://bharatdn.com/city/bhopal/",
       "population": 1798218
     },
+    "bhopal-india": {
+      "name": "Bhopal",
+      "url": "https://bharatdn.com/city/bhopal-india/",
+      "population": 1798218
+    },
     "bhubaneswar": {
       "name": "Bhubaneswar",
       "url": "https://bharatdn.com/city/bhubaneswar/",
@@ -892,6 +902,11 @@
       "url": "https://bharatdn.com/city/dhaulpur/",
       "population": 133075
     },
+    "dhubri": {
+      "name": "Dhubri",
+      "url": "https://bharatdn.com/city/dhubri/",
+      "population": 63388
+    },
     "dhule": {
       "name": "Dhule",
       "url": "https://bharatdn.com/city/dhule/",
@@ -985,6 +1000,11 @@
     "faridabad": {
       "name": "Faridabad",
       "url": "https://bharatdn.com/city/faridabad/",
+      "population": 1404653
+    },
+    "faridabad-india": {
+      "name": "Faridabad",
+      "url": "https://bharatdn.com/city/faridabad-india/",
       "population": 1404653
     },
     "farrukhabad": {
@@ -1237,6 +1257,11 @@
       "url": "https://bharatdn.com/city/hazaribagh/",
       "population": 153595
     },
+    "himatnagar": {
+      "name": "Himatnagar",
+      "url": "https://bharatdn.com/city/himatnagar/",
+      "population": 81137
+    },
     "hindaun": {
       "name": "Hindaun",
       "url": "https://bharatdn.com/city/hindaun/",
@@ -1421,6 +1446,11 @@
       "name": "Jamshedpur",
       "url": "https://bharatdn.com/city/jamshedpur/",
       "population": 631053
+    },
+    "jamshedpur-india": {
+      "name": "Jamshedpur",
+      "url": "https://bharatdn.com/city/jamshedpur-india/",
+      "population": 1558000
     },
     "jamuria": {
       "name": "Jamuria",
@@ -1907,6 +1937,11 @@
       "url": "https://bharatdn.com/city/madurai/",
       "population": 1017861
     },
+    "madurai-india": {
+      "name": "Madurai",
+      "url": "https://bharatdn.com/city/madurai-india/",
+      "population": 1561129
+    },
     "mahbubnagar": {
       "name": "Mahbūbnagar",
       "url": "https://bharatdn.com/city/mahbubnagar/",
@@ -2041,6 +2076,11 @@
       "name": "Meerut",
       "url": "https://bharatdn.com/city/meerut/",
       "population": 1424908
+    },
+    "meerut-india": {
+      "name": "Meerut",
+      "url": "https://bharatdn.com/city/meerut-india/",
+      "population": 1571434
     },
     "mhow": {
       "name": "Mhow",
@@ -2277,6 +2317,11 @@
       "url": "https://bharatdn.com/city/nashik/",
       "population": 1561809
     },
+    "nashik-india": {
+      "name": "Nashik",
+      "url": "https://bharatdn.com/city/nashik-india/",
+      "population": 1486053
+    },
     "navi-mumbai": {
       "name": "Navi Mumbai",
       "url": "https://bharatdn.com/city/navi-mumbai/",
@@ -2442,6 +2487,11 @@
       "url": "https://bharatdn.com/city/patna/",
       "population": 1684222
     },
+    "patna-india": {
+      "name": "Patna",
+      "url": "https://bharatdn.com/city/patna-india/",
+      "population": 1684222
+    },
     "payyanur": {
       "name": "Payyanur",
       "url": "https://bharatdn.com/city/payyanur/",
@@ -2476,6 +2526,11 @@
       "name": "Pimpri-Chinchwad",
       "url": "https://bharatdn.com/city/pimpri-chinchwad/",
       "population": 1727692
+    },
+    "pimpri-chinchwad-india": {
+      "name": "Pimpri-Chinchwad",
+      "url": "https://bharatdn.com/city/pimpri-chinchwad-india/",
+      "population": 1729320
     },
     "pithampur": {
       "name": "Pithampur",
@@ -3047,6 +3102,11 @@
       "url": "https://bharatdn.com/city/thane/",
       "population": 1841488
     },
+    "thane-india": {
+      "name": "Thane",
+      "url": "https://bharatdn.com/city/thane-india/",
+      "population": 1886941
+    },
     "thanesar": {
       "name": "Thānesar",
       "url": "https://bharatdn.com/city/thanesar/",
@@ -3236,6 +3296,11 @@
       "name": "Valsād",
       "url": "https://bharatdn.com/city/valsad/",
       "population": 139764
+    },
+    "vaniyambadi": {
+      "name": "Vaniyambadi",
+      "url": "https://bharatdn.com/city/vaniyambadi/",
+      "population": 95061
     },
     "vapi": {
       "name": "Vapi",

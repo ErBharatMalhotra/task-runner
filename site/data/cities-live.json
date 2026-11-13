@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-13T08:31:45.547Z",
-  "count": 671,
-  "shown": 671,
+  "generatedAt": "2026-11-13T11:22:13.238Z",
+  "count": 684,
+  "shown": 684,
   "latest": {
-    "slug": "vatakara",
-    "name": "Vatakara",
-    "lat": 11.59776,
-    "lon": 75.58142,
-    "at": "2026-11-12T11:38:40.979Z"
+    "slug": "dhubri",
+    "name": "Dhubri",
+    "lat": 26.01856,
+    "lon": 89.98564,
+    "at": "2026-11-13T11:22:12.776Z"
   },
   "cities": [
     {
@@ -291,6 +291,16 @@
       "releasedAt": "2026-11-12T11:38:40.701Z"
     },
     {
+      "slug": "thane-india",
+      "name": "Thane",
+      "state": "India",
+      "lat": 19.18,
+      "lon": 72.963333333,
+      "pop": 1886941,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:11.763Z"
+    },
+    {
       "slug": "thane",
       "name": "Thane",
       "state": "Maharashtra",
@@ -319,6 +329,26 @@
       "pop": 1798218,
       "tier": 1,
       "releasedAt": "2026-09-26T14:21:23.075Z"
+    },
+    {
+      "slug": "bhopal-india",
+      "name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "lat": 23.258888888,
+      "lon": 77.4125,
+      "pop": 1798218,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:11.842Z"
+    },
+    {
+      "slug": "pimpri-chinchwad-india",
+      "name": "Pimpri-Chinchwad",
+      "state": "India",
+      "lat": 18.627777777,
+      "lon": 73.813055555,
+      "pop": 1729320,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:11.922Z"
     },
     {
       "slug": "visakhapatnam",
@@ -361,6 +391,16 @@
       "releasedAt": "2026-09-26T11:53:45.069Z"
     },
     {
+      "slug": "patna-india",
+      "name": "Patna",
+      "state": "Bihar",
+      "lat": 25.61,
+      "lon": 85.141388888,
+      "pop": 1684222,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:11.998Z"
+    },
+    {
       "slug": "kallakurichi",
       "name": "Kallakurichi",
       "state": "Tamil Nadu",
@@ -401,6 +441,16 @@
       "releasedAt": "2026-09-26T14:19:57.057Z"
     },
     {
+      "slug": "agra-india",
+      "name": "Agra",
+      "state": "Uttar Pradesh",
+      "lat": 27.18,
+      "lon": 78.02,
+      "pop": 1585705,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.082Z"
+    },
+    {
       "slug": "agra",
       "name": "Agra",
       "state": "Uttar Pradesh",
@@ -411,6 +461,16 @@
       "releasedAt": "2026-09-26T11:53:06.602Z"
     },
     {
+      "slug": "meerut-india",
+      "name": "Meerut",
+      "state": "Uttar Pradesh",
+      "lat": 28.98,
+      "lon": 77.706388888,
+      "pop": 1571434,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.164Z"
+    },
+    {
       "slug": "nashik",
       "name": "Nashik",
       "state": "Maharashtra",
@@ -419,6 +479,36 @@
       "pop": 1561809,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:19.480Z"
+    },
+    {
+      "slug": "madurai-india",
+      "name": "Madurai",
+      "state": "India",
+      "lat": 9.919661111,
+      "lon": 78.119394444,
+      "pop": 1561129,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.244Z"
+    },
+    {
+      "slug": "jamshedpur-india",
+      "name": "Jamshedpur",
+      "state": "Jharkhand",
+      "lat": 22.8,
+      "lon": 86.183333333,
+      "pop": 1558000,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.328Z"
+    },
+    {
+      "slug": "nashik-india",
+      "name": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20,
+      "lon": 73.783333333,
+      "pop": 1486053,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.406Z"
     },
     {
       "slug": "meerut",
@@ -439,6 +529,16 @@
       "pop": 1404653,
       "tier": 1,
       "releasedAt": "2026-09-26T14:19:59.226Z"
+    },
+    {
+      "slug": "faridabad-india",
+      "name": "Faridabad",
+      "state": "India",
+      "lat": 28.41124,
+      "lon": 77.31316,
+      "pop": 1404653,
+      "tier": 1,
+      "releasedAt": "2026-11-13T11:22:12.490Z"
     },
     {
       "slug": "rajkot",
@@ -5551,6 +5651,16 @@
       "releasedAt": "2026-11-02T11:31:57.130Z"
     },
     {
+      "slug": "vaniyambadi",
+      "name": "Vaniyambadi",
+      "state": "Tamil Nadu",
+      "lat": 12.68162,
+      "lon": 78.62014,
+      "pop": 95061,
+      "tier": 3,
+      "releasedAt": "2026-11-13T11:22:12.612Z"
+    },
+    {
       "slug": "kovilpatti",
       "name": "Kovilpatti",
       "state": "Tamil Nadu",
@@ -5769,6 +5879,16 @@
       "pop": 81199,
       "tier": 3,
       "releasedAt": "2026-11-07T10:32:34.012Z"
+    },
+    {
+      "slug": "himatnagar",
+      "name": "Himatnagar",
+      "state": "Gujarat",
+      "lat": 23.59893,
+      "lon": 72.96602,
+      "pop": 81137,
+      "tier": 3,
+      "releasedAt": "2026-11-13T11:22:12.695Z"
     },
     {
       "slug": "kharghar",
@@ -6109,6 +6229,16 @@
       "pop": 65314,
       "tier": 3,
       "releasedAt": "2026-10-17T07:57:48.866Z"
+    },
+    {
+      "slug": "dhubri",
+      "name": "Dhubri",
+      "state": "Assam",
+      "lat": 26.01856,
+      "lon": 89.98564,
+      "pop": 63388,
+      "tier": 3,
+      "releasedAt": "2026-11-13T11:22:12.776Z"
     },
     {
       "slug": "kannur",
