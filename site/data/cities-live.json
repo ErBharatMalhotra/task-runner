@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-14T10:12:37.700Z",
-  "count": 684,
-  "shown": 684,
+  "generatedAt": "2026-11-14T10:45:34.858Z",
+  "count": 697,
+  "shown": 697,
   "latest": {
-    "slug": "dhubri",
-    "name": "Dhubri",
-    "lat": 26.01856,
-    "lon": 89.98564,
-    "at": "2026-11-13T11:22:12.776Z"
+    "slug": "jeypore",
+    "name": "Jeypore",
+    "lat": 18.8563,
+    "lon": 82.5716,
+    "at": "2026-11-14T10:45:34.598Z"
   },
   "cities": [
     {
@@ -581,6 +581,16 @@
       "releasedAt": "2026-10-20T08:46:26.061Z"
     },
     {
+      "slug": "jabalpur-india",
+      "name": "Jabalpur",
+      "state": "India",
+      "lat": 23.166666666,
+      "lon": 79.933333333,
+      "pop": 1267564,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:33.795Z"
+    },
+    {
       "slug": "aurangabad",
       "name": "Aurangabad",
       "state": "Maharashtra",
@@ -611,6 +621,16 @@
       "releasedAt": "2026-10-24T08:19:30.525Z"
     },
     {
+      "slug": "kalyan-dombivli",
+      "name": "Kalyan-Dombivli",
+      "state": "Maharashtra",
+      "lat": 19.233333333,
+      "lon": 73.133333333,
+      "pop": 1246381,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:33.847Z"
+    },
+    {
       "slug": "virar",
       "name": "Virār",
       "state": "Maharashtra",
@@ -619,6 +639,16 @@
       "pop": 1222390,
       "tier": 1,
       "releasedAt": "2026-10-30T10:19:50.202Z"
+    },
+    {
+      "slug": "vasai-virar",
+      "name": "Vasai-Virar",
+      "state": "India",
+      "lat": 19.47,
+      "lon": 72.8,
+      "pop": 1222390,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:33.898Z"
     },
     {
       "slug": "nowrangapur",
@@ -639,6 +669,36 @@
       "pop": 1198491,
       "tier": 1,
       "releasedAt": "2026-09-26T11:53:46.441Z"
+    },
+    {
+      "slug": "varanasi-india",
+      "name": "Varanasi",
+      "state": "India",
+      "lat": 25.318888888,
+      "lon": 83.012777777,
+      "pop": 1198491,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:33.953Z"
+    },
+    {
+      "slug": "srinagar-india",
+      "name": "Srinagar",
+      "state": "India",
+      "lat": 34.091111111,
+      "lon": 74.806111111,
+      "pop": 1180570,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.004Z"
+    },
+    {
+      "slug": "aurangabad-india",
+      "name": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.88,
+      "lon": 75.32,
+      "pop": 1175116,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.056Z"
     },
     {
       "slug": "jodhpur",
@@ -669,6 +729,26 @@
       "pop": 1119477,
       "tier": 1,
       "releasedAt": "2026-09-26T14:20:07.681Z"
+    },
+    {
+      "slug": "navi-mumbai-india",
+      "name": "Navi Mumbai",
+      "state": "India",
+      "lat": 19.03,
+      "lon": 73.01,
+      "pop": 1119477,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.109Z"
+    },
+    {
+      "slug": "guwahati-india",
+      "name": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1805876,
+      "lon": 91.750238,
+      "pop": 1116267,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.176Z"
     },
     {
       "slug": "prayagraj",
@@ -719,6 +799,26 @@
       "pop": 1073571,
       "tier": 1,
       "releasedAt": "2026-09-26T14:21:23.373Z"
+    },
+    {
+      "slug": "ranchi-india",
+      "name": "Ranchi",
+      "state": "Jharkhand",
+      "lat": 23.355555555,
+      "lon": 85.334722222,
+      "pop": 1073440,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.230Z"
+    },
+    {
+      "slug": "gwalior-india",
+      "name": "Gwalior",
+      "state": "Madhya Pradesh",
+      "lat": 26.2125,
+      "lon": 78.1775,
+      "pop": 1069276,
+      "tier": 1,
+      "releasedAt": "2026-11-14T10:45:34.395Z"
     },
     {
       "slug": "vijayawada",
@@ -5831,6 +5931,16 @@
       "releasedAt": "2026-11-08T10:39:43.067Z"
     },
     {
+      "slug": "jeypore",
+      "name": "Jeypore",
+      "state": "Odisha",
+      "lat": 18.8563,
+      "lon": 82.5716,
+      "pop": 84830,
+      "tier": 3,
+      "releasedAt": "2026-11-14T10:45:34.598Z"
+    },
+    {
       "slug": "bijnor",
       "name": "Bijnor",
       "state": "Uttar Pradesh",
@@ -6351,6 +6461,16 @@
       "releasedAt": "2026-10-17T07:57:49.266Z"
     },
     {
+      "slug": "raxaul",
+      "name": "Raxaul",
+      "state": "Bihar",
+      "lat": 26.97982,
+      "lon": 84.85065,
+      "pop": 55536,
+      "tier": 3,
+      "releasedAt": "2026-11-14T10:45:34.480Z"
+    },
+    {
       "slug": "kottayam",
       "name": "Kottayam",
       "state": "Kerala",
@@ -6499,6 +6619,16 @@
       "pop": 42309,
       "tier": 3,
       "releasedAt": "2026-10-08T10:49:33.758Z"
+    },
+    {
+      "slug": "paithan",
+      "name": "Paithan",
+      "state": "Maharashtra",
+      "lat": 19.47506,
+      "lon": 75.38558,
+      "pop": 41536,
+      "tier": 3,
+      "releasedAt": "2026-11-14T10:45:34.545Z"
     },
     {
       "slug": "solan",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T10:12:38.045Z",
-  "count": 684,
+  "generatedAt": "2026-11-14T10:45:35.055Z",
+  "count": 697,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -226,6 +226,11 @@
       "name": "Aurangābād",
       "url": "https://bharatdn.com/city/aurangabad-bihar/",
       "population": 102244
+    },
+    "aurangabad-india": {
+      "name": "Aurangabad",
+      "url": "https://bharatdn.com/city/aurangabad-india/",
+      "population": 1175116
     },
     "avadi": {
       "name": "Avadi",
@@ -1182,10 +1187,20 @@
       "url": "https://bharatdn.com/city/guwahati/",
       "population": 963404
     },
+    "guwahati-india": {
+      "name": "Guwahati",
+      "url": "https://bharatdn.com/city/guwahati-india/",
+      "population": 1116267
+    },
     "gwalior": {
       "name": "Gwalior",
       "url": "https://bharatdn.com/city/gwalior/",
       "population": 1102884
+    },
+    "gwalior-india": {
+      "name": "Gwalior",
+      "url": "https://bharatdn.com/city/gwalior-india/",
+      "population": 1069276
     },
     "gyanpur": {
       "name": "Gyānpur",
@@ -1367,6 +1382,11 @@
       "url": "https://bharatdn.com/city/jabalpur/",
       "population": 1081677
     },
+    "jabalpur-india": {
+      "name": "Jabalpur",
+      "url": "https://bharatdn.com/city/jabalpur-india/",
+      "population": 1267564
+    },
     "jagadhri": {
       "name": "Jagādhri",
       "url": "https://bharatdn.com/city/jagadhri/",
@@ -1467,6 +1487,11 @@
       "url": "https://bharatdn.com/city/jetpur/",
       "population": 118302
     },
+    "jeypore": {
+      "name": "Jeypore",
+      "url": "https://bharatdn.com/city/jeypore/",
+      "population": 84830
+    },
     "jhansi": {
       "name": "Jhansi",
       "url": "https://bharatdn.com/city/jhansi/",
@@ -1561,6 +1586,11 @@
       "name": "Kalyān",
       "url": "https://bharatdn.com/city/kalyan/",
       "population": 1262255
+    },
+    "kalyan-dombivli": {
+      "name": "Kalyan-Dombivli",
+      "url": "https://bharatdn.com/city/kalyan-dombivli/",
+      "population": 1246381
     },
     "kamarhati": {
       "name": "Kāmārhāti",
@@ -2327,6 +2357,11 @@
       "url": "https://bharatdn.com/city/navi-mumbai/",
       "population": 1119477
     },
+    "navi-mumbai-india": {
+      "name": "Navi Mumbai",
+      "url": "https://bharatdn.com/city/navi-mumbai-india/",
+      "population": 1119477
+    },
     "navsari": {
       "name": "Navsari",
       "url": "https://bharatdn.com/city/navsari/",
@@ -2396,6 +2431,11 @@
       "name": "Orchha",
       "url": "https://bharatdn.com/city/orchha/",
       "population": 11511
+    },
+    "paithan": {
+      "name": "Paithan",
+      "url": "https://bharatdn.com/city/paithan/",
+      "population": 41536
     },
     "palakkad": {
       "name": "Palakkad",
@@ -2717,6 +2757,11 @@
       "url": "https://bharatdn.com/city/ranchi/",
       "population": 1073571
     },
+    "ranchi-india": {
+      "name": "Ranchi",
+      "url": "https://bharatdn.com/city/ranchi-india/",
+      "population": 1073440
+    },
     "ranebennur": {
       "name": "Ranebennur",
       "url": "https://bharatdn.com/city/ranebennur/",
@@ -2751,6 +2796,11 @@
       "name": "Raurkela Industrial Township",
       "url": "https://bharatdn.com/city/raurkela-industrial-township/",
       "population": 216410
+    },
+    "raxaul": {
+      "name": "Raxaul",
+      "url": "https://bharatdn.com/city/raxaul/",
+      "population": 55536
     },
     "rewa": {
       "name": "Rewa",
@@ -3032,6 +3082,11 @@
       "url": "https://bharatdn.com/city/srinagar/",
       "population": 979170
     },
+    "srinagar-india": {
+      "name": "Srinagar",
+      "url": "https://bharatdn.com/city/srinagar-india/",
+      "population": 1180570
+    },
     "srivilliputhur": {
       "name": "Srivilliputhur",
       "url": "https://bharatdn.com/city/srivilliputhur/",
@@ -3312,10 +3367,20 @@
       "url": "https://bharatdn.com/city/varanasi/",
       "population": 1198491
     },
+    "varanasi-india": {
+      "name": "Varanasi",
+      "url": "https://bharatdn.com/city/varanasi-india/",
+      "population": 1198491
+    },
     "varkala": {
       "name": "Varkala",
       "url": "https://bharatdn.com/city/varkala/",
       "population": 43276
+    },
+    "vasai-virar": {
+      "name": "Vasai-Virar",
+      "url": "https://bharatdn.com/city/vasai-virar/",
+      "population": 1222390
     },
     "vasco": {
       "name": "Vasco",
