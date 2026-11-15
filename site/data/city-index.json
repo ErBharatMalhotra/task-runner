@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T09:10:22.435Z",
-  "count": 697,
+  "generatedAt": "2026-11-15T11:21:07.606Z",
+  "count": 710,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -357,6 +357,11 @@
       "url": "https://bharatdn.com/city/bareilly/",
       "population": 985752
     },
+    "bareilly-india": {
+      "name": "Bareilly",
+      "url": "https://bharatdn.com/city/bareilly-india/",
+      "population": 898167
+    },
     "baripada": {
       "name": "Baripāda",
       "url": "https://bharatdn.com/city/baripada/",
@@ -662,6 +667,11 @@
       "url": "https://bharatdn.com/city/chandigarh/",
       "population": 1026545
     },
+    "chandigarh-india": {
+      "name": "Chandigarh",
+      "url": "https://bharatdn.com/city/chandigarh-india/",
+      "population": 1055450
+    },
     "chandrapur": {
       "name": "Chandrapur",
       "url": "https://bharatdn.com/city/chandrapur/",
@@ -761,6 +771,11 @@
       "name": "Coimbatore",
       "url": "https://bharatdn.com/city/coimbatore/",
       "population": 1601438
+    },
+    "coimbatore-india": {
+      "name": "Coimbatore",
+      "url": "https://bharatdn.com/city/coimbatore-india/",
+      "population": 959823
     },
     "contai": {
       "name": "Contai",
@@ -1111,6 +1126,11 @@
       "name": "Giridih",
       "url": "https://bharatdn.com/city/giridih/",
       "population": 114533
+    },
+    "gobichettipalayam": {
+      "name": "Gobichettipalayam",
+      "url": "https://bharatdn.com/city/gobichettipalayam/",
+      "population": 59523
     },
     "godhra": {
       "name": "Godhra",
@@ -1522,6 +1542,11 @@
       "url": "https://bharatdn.com/city/jodhpur-gujarat/",
       "population": 47329
     },
+    "jodhpur-india": {
+      "name": "Jodhpur",
+      "url": "https://bharatdn.com/city/jodhpur-india/",
+      "population": 1033918
+    },
     "jorhat": {
       "name": "Jorhat",
       "url": "https://bharatdn.com/city/jorhat/",
@@ -1707,6 +1732,11 @@
       "url": "https://bharatdn.com/city/katihar/",
       "population": 240838
     },
+    "kayamkulam": {
+      "name": "Kayamkulam",
+      "url": "https://bharatdn.com/city/kayamkulam/",
+      "population": 68634
+    },
     "khammam": {
       "name": "Khammam",
       "url": "https://bharatdn.com/city/khammam/",
@@ -1826,6 +1856,11 @@
       "name": "Kota",
       "url": "https://bharatdn.com/city/kota/",
       "population": 1001365
+    },
+    "kota-india": {
+      "name": "Kota",
+      "url": "https://bharatdn.com/city/kota-india/",
+      "population": 1001694
     },
     "kottayam": {
       "name": "Kottayam",
@@ -2226,6 +2261,11 @@
       "name": "Muzaffarpur",
       "url": "https://bharatdn.com/city/muzaffarpur/",
       "population": 354462
+    },
+    "mysore": {
+      "name": "Mysore",
+      "url": "https://bharatdn.com/city/mysore/",
+      "population": 920550
     },
     "mysuru": {
       "name": "Mysuru",
@@ -2687,6 +2727,11 @@
       "url": "https://bharatdn.com/city/raipur/",
       "population": 1010433
     },
+    "raipur-india": {
+      "name": "Raipur",
+      "url": "https://bharatdn.com/city/raipur-india/",
+      "population": 1010087
+    },
     "raipur-rajasthan": {
       "name": "Raipur",
       "url": "https://bharatdn.com/city/raipur-rajasthan/",
@@ -2957,6 +3002,11 @@
       "url": "https://bharatdn.com/city/shegaon/",
       "population": 59672
     },
+    "shikohabad": {
+      "name": "Shikohabad",
+      "url": "https://bharatdn.com/city/shikohabad/",
+      "population": 99678
+    },
     "shillong": {
       "name": "Shillong",
       "url": "https://bharatdn.com/city/shillong/",
@@ -3051,6 +3101,11 @@
       "name": "Solapur",
       "url": "https://bharatdn.com/city/solapur/",
       "population": 951118
+    },
+    "solapur-india": {
+      "name": "Solapur",
+      "url": "https://bharatdn.com/city/solapur-india/",
+      "population": 951558
     },
     "sonipat": {
       "name": "Sonīpat",
@@ -3221,6 +3276,11 @@
       "name": "Tiruchirappalli",
       "url": "https://bharatdn.com/city/tiruchirappalli/",
       "population": 916674
+    },
+    "tiruchirappalli-india": {
+      "name": "Tiruchirappalli",
+      "url": "https://bharatdn.com/city/tiruchirappalli-india/",
+      "population": 916857
     },
     "tirumala": {
       "name": "Tirumala",
@@ -3426,6 +3486,11 @@
       "name": "Vijayawada",
       "url": "https://bharatdn.com/city/vijayawada/",
       "population": 1048219
+    },
+    "vijayawada-india": {
+      "name": "Vijayawada",
+      "url": "https://bharatdn.com/city/vijayawada-india/",
+      "population": 1048240
     },
     "virar": {
       "name": "Virār",

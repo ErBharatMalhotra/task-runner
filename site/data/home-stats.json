@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T09:10:22.606Z",
-  "cityGuides": 697,
+  "generatedAt": "2026-11-15T11:21:07.809Z",
+  "cityGuides": 710,
   "stateHubs": 33,
   "hubs": [
     {
@@ -55,8 +55,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-15T09:10:22.570Z",
+      "at": "2026-11-15T11:21:07.764Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-15T00:00:00.000Z",
+      "title": "13 city guides published — kayamkulam, shikohabad, gobichettipalayam +10 more"
     },
     {
       "at": "2026-11-14T00:00:00.000Z",
@@ -73,24 +77,20 @@
     {
       "at": "2026-11-11T00:00:00.000Z",
       "title": "13 city guides published — siddipet, sangrur, kanakapura +10 more"
-    },
-    {
-      "at": "2026-11-10T00:00:00.000Z",
-      "title": "13 city guides published — chalisgaon, anekal, medininagar +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Jeypore, Paithan, Raxaul +10 more",
+      "title": "13 new city guides — Kayamkulam, Shikohabad, Gobichettipalayam +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "697 city guides · 33 state hubs live",
+      "title": "710 city guides · 33 state hubs live",
       "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
