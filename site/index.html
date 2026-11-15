@@ -710,7 +710,8 @@ tickClock(); setInterval(tickClock,30000);
 
 // The counters animate from whatever is already in the markup, so a failed
 // fetch leaves the verified defaults in place rather than a row of zeros.
-function setCount(id,n){ const el=document.getElementById(id); if(el&&typeof n==='number') el.dataset.count=n; }
+// setCount updates both dataset.count (for observer) and textContent (immediate).
+function setCount(id,n){ const el=document.getElementById(id); if(el&&typeof n==='number'){ el.dataset.count=n; el.textContent=n; } }
 function renderStateChips(states){
   const box=document.getElementById('stateChips'); if(!box) return;
   if(!Array.isArray(states)||!states.length){ box.innerHTML=''; return; }
