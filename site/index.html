@@ -201,6 +201,16 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
 .foot-grid h4{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:14px}
 .foot-grid ul{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:.89rem;color:var(--muted)}
+.foot-grid ul li.net-group{font-weight:700;color:var(--dim);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+@media (min-width: 768px){
+  .foot-grid > div:nth-child(2) ul{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px}
+  .foot-grid > div:nth-child(2) ul li.net-group{grid-column:1/-1}
+}
+.foot-grid ul li.net-group{font-weight:700;color:var(--dim);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+@media (min-width: 768px){
+  .foot-grid > div:nth-child(2) ul{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px}
+  .foot-grid > div:nth-child(2) ul li.net-group{grid-column:1/-1}
+}
 .foot-grid a{transition:color 180ms ease;cursor:pointer}
 .foot-grid a:hover{color:var(--red)}
 .foot-brand p{font-size:.88rem;color:var(--muted);max-width:38ch;margin-top:12px}
