@@ -687,7 +687,7 @@ const countIO=new IntersectionObserver(es=>es.forEach(e=>{
     el.textContent=Math.round(target*(1-Math.pow(1-p,3)))+sfx;
     if(p<1)requestAnimationFrame(tick);})(t0);
   countIO.unobserve(el);
-}),{threshold:0,rootMargin:'0px 0px -100px 0px'});
+}),{threshold:0,rootMargin:'0px 0px 200px 0px'});
 document.querySelectorAll('[data-count]').forEach(el=>countIO.observe(el));
 
 document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{
