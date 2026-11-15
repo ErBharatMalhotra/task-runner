@@ -679,13 +679,16 @@ document.querySelectorAll('.reveal').forEach(el=>revealIO.observe(el));
 
 const countIO=new IntersectionObserver(es=>es.forEach(e=>{
   if(!e.isIntersecting) return;
-  const el=e.target,target=+el.dataset.count||0,sfx=el.dataset.suffix||'';
+  const el=e.target,sfx=el.dataset.suffix||'';
   const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(reduce){el.textContent=target+sfx;countIO.unobserve(el);return;}
+  if(reduce){el.textContent=(+el.dataset.count||0)+sfx;countIO.unobserve(el);return;}
   const t0=performance.now(),dur=1100;
-  (function tick(t){const p=Math.min((t-t0)/dur,1);
+  (function tick(t){
+    const target=+el.dataset.count||0; // read live target each frame
+    const p=Math.min((t-t0)/dur,1);
     el.textContent=Math.round(target*(1-Math.pow(1-p,3)))+sfx;
-    if(p<1)requestAnimationFrame(tick);})(t0);
+    if(p<1)requestAnimationFrame(tick);
+  })(t0);
   countIO.unobserve(el);
 }),{threshold:0,rootMargin:'0px 0px 200px 0px'});
 document.querySelectorAll('[data-count]').forEach(el=>countIO.observe(el));
