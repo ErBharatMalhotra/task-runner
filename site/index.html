@@ -244,6 +244,18 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
 .city-chip b{font-size:.95rem;font-weight:650;color:var(--text)}
 .city-chip span{font-size:.75rem;color:var(--dim);letter-spacing:.04em}
 
+/* ============ City index page (city/) ============ */
+.city-filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;align-items:center}
+.city-filters #citySearch{flex:1;min-width:220px;padding:10px 14px;border:1px solid var(--line-soft);border-radius:var(--r-md);background:var(--card);color:var(--text);font-size:.9rem}
+.city-filters #citySearch:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 2px rgba(59,130,246,.15)}
+.filter-chips{display:flex;flex-wrap:wrap;gap:8px}
+.filter-chip{padding:6px 12px;border:1px solid var(--line-soft);border-radius:999px;background:var(--card);color:var(--muted);font-size:.75rem;font-weight:600;cursor:pointer;transition:border-color 150ms,background 150ms,color 150ms}
+.filter-chip:hover{border-color:var(--line);color:var(--text)}
+.filter-chip.active{border-color:var(--red);background:rgba(248,113,113,.1);color:var(--red)}
+.city-tier{margin-bottom:40px}
+.city-tier-title{display:flex;align-items:center;gap:10px;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:16px}
+.city-tier-count{font-family:var(--font-mono);font-size:.8rem;font-weight:700;color:var(--dim);background:var(--card-2);padding:2px 8px;border-radius:999px}
+
 /* ============ Globe live badge ============ */
 .globe-live{position:absolute;z-index:3;right:6%;top:17%;pointer-events:none;text-align:right}
 .globe-live b{display:block;font-family:var(--font-mono);font-size:.82rem;font-weight:600;color:var(--text);letter-spacing:.02em}
@@ -262,7 +274,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
       <img class="brand-logo" src="/assets/brand-lockup.png" alt="" width="590" height="128" style="height:30px;width:auto;display:block" decoding="async">
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="#digest">Digest</a><a href="#hubs">Hubs</a><a href="#activity">Activity</a><a href="#faq">FAQ</a><a href="/advertise">Advertise</a>
+      <a href="#digest">Digest</a><a href="#hubs">Hubs</a><a href="#activity">Activity</a><a href="/city/">Cities</a><a href="#faq">FAQ</a><a href="/advertise">Advertise</a>
     </nav>
     <div class="nav-actions">
       <a class="btn btn-red" href="#digest">Open network</a>
@@ -446,12 +458,26 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   <div class="container">
     <div class="section-head reveal">
       <div><div class="kicker">City guides</div><h2>Explore the cities</h2></div>
-      <span class="section-link" style="cursor:default"><!--live:cities-count-->697 live · new cities weekly<!--/live:cities-count--></span>
+      <a class="section-link" href="/city/">All <span id="homeCityCount"><!--live:cities-count-->697<!--/live:cities-count--></span> cities →</a>
     </div>
-    <!--live:cities-->
+    <!--live:cities-featured-->
     <div class="city-grid">
-      <a class="city-chip" href="/city/abohar/"><b>Abohar</b><span>Punjab</span></a>
-      <a class="city-chip" href="/city/achalpur/"><b>Achalpur</b><span>Maharashtra</span></a>
+      <a class="city-chip" href="/city/delhi/"><b>Delhi</b><span>Delhi</span></a>
+      <a class="city-chip" href="/city/mumbai/"><b>Mumbai</b><span>Maharashtra</span></a>
+      <a class="city-chip" href="/city/bengaluru/"><b>Bengaluru</b><span>Karnataka</span></a>
+      <a class="city-chip" href="/city/chennai/"><b>Chennai</b><span>Tamil Nadu</span></a>
+      <a class="city-chip" href="/city/kolkata/"><b>Kolkata</b><span>West Bengal</span></a>
+      <a class="city-chip" href="/city/hyderabad/"><b>Hyderabad</b><span>Telangana</span></a>
+      <a class="city-chip" href="/city/pune/"><b>Pune</b><span>Maharashtra</span></a>
+      <a class="city-chip" href="/city/ahmedabad/"><b>Ahmedabad</b><span>Gujarat</span></a>
+      <a class="city-chip" href="/city/jaipur/"><b>Jaipur</b><span>Rajasthan</span></a>
+      <a class="city-chip" href="/city/lucknow/"><b>Lucknow</b><span>Uttar Pradesh</span></a>
+      <a class="city-chip" href="/city/surat/"><b>Surat</b><span>Gujarat</span></a>
+      <a class="city-chip" href="/city/kanpur/"><b>Kanpur</b><span>Uttar Pradesh</span></a>
+    </div>
+  <!--/live:cities-featured-->
+  </div>
+</section>
       <a class="city-chip" href="/city/adilabad/"><b>Adilabad</b><span>Telangana</span></a>
       <a class="city-chip" href="/city/adoni/"><b>Adoni</b><span>Andhra Pradesh</span></a>
       <a class="city-chip" href="/city/agar/"><b>Agar</b><span>Madhya Pradesh</span></a>
@@ -1188,24 +1214,39 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
     </div>
     <div class="faq-list reveal">
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What is Bharat Digital Network?
+        <button class="faq-q" aria-expanded="false">What exactly is Bharat Digital Network?
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-        <div class="faq-a"><p>Bharat Digital Network is an independent network of focused web hubs — news, jobs, test prep, tools — sharing one backbone, one identity and one daily update pipeline. The globe above is a live visualization of that network.</p></div>
+        <div class="faq-a"><p>An independent Indian web network running 7 hubs — News, Jobs, IELTS, Tools, Grammar, Step Ahead (study abroad), and City Guides — on one shared backbone. One daily pipeline updates weather, AQI, job listings, digest stories and city facts across all properties. No venture funding, no paywalls, no tracking beyond essential analytics.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How often does this page update?
+        <button class="faq-q" aria-expanded="false">How many city guides are live and how are they verified?
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-        <div class="faq-a"><p>Daily. A scheduled pipeline rebuilds the digest, stats, hub status and activity feed automatically — what you see is always current.</p></div>
+        <div class="faq-a"><p>697 city guides published as of today. Each guide passes structural gates (schema, tokens, internal links) and fact gates (Census 2011 cross-check, official website verification, weather/AQI source validation) before release. The pipeline runs daily; new cities are added in population-importance order.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Does the 3D globe slow the site down?
+        <button class="faq-q" aria-expanded="false">Is the weather and AQI data actually live?
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-        <div class="faq-a"><p>No. It renders on demand with a capped pixel ratio, pauses when off-screen, respects reduced-motion, and all content lives in normal HTML — SEO and Core Web Vitals stay intact.</p></div>
+        <div class="faq-a"><p>Yes. Every city page fetches current weather and AQI from OpenWeatherMap at build time (daily pipeline) and the globe visualisation polls the same API on demand. The freshness stamp on each page shows the exact month/year of the last rebuild.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How do I get in touch?
+        <button class="faq-q" aria-expanded="false">Can I advertise on a specific city page?
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-        <div class="faq-a"><p>info@bharatdn.com — partnerships, press and feedback all go to the same inbox. Replies within two working days.</p></div>
+        <div class="faq-a"><p>Yes. Three slot types: Premium (top of page), Category (inside a section like Restaurants/Industries), and Basic (directory listing). Monthly rates with term discounts (1/3/6 months). Book and pay at <a href="/checkout">bharatdn.com/checkout</a> — the card publishes on the next pipeline run and expires automatically.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How do job listings work — are they scraped or direct?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>jobs.bharatdn.com aggregates from verified government portals (UPSC, SSC, RRB, state PSCs, PSUs) and company career pages. Each listing links to the official source — we don't host applications. Filters by state, category, qualification and date keep it noise-free.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What's the difference between this and other "India" sites?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Most sites are either content farms or single-topic. We run a <em>network</em>: shared infrastructure, shared identity, shared daily rebuild. A job posted in Jaipur appears on the Jaipur city page, the Rajasthan hub, and the jobs board automatically. A weather alert updates the city page, the globe, and the digest simultaneously. One backbone, zero duplication.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How do I report incorrect info on a city page?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Email info@bharatdn.com with the city slug and the specific field (population, PIN, industry, restaurant, etc.). We verify against the primary source (Census, official website, GeoNames) and push a fix in the next daily run. Corrections are logged in the page's fact-check history.</p></div>
       </div>
     </div>
   </div>
@@ -1220,7 +1261,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
         <p>Bharat Digital Network — India's living internet, built daily.</p>
       </div>
       <div><h4>Network</h4><ul><li><a href="https://news.bharatdn.com">News &amp; Digest</a></li><li><a href="https://ielts.bharatdn.com">IELTS Hub</a></li><li><a href="https://jobs.bharatdn.com">Jobs Board</a></li><li><a href="https://tools.bharatdn.com">Tools</a></li></ul></div>
-      <div><h4>Explore</h4><ul><li><a href="#digest">Digest</a></li><li><a href="#cities">City guides</a></li><li><a href="/methodology">Methodology &amp; sources</a></li><li><a href="/about">About</a></li><li><a href="/advertise">Advertise on a city page</a></li><li><a href="/checkout">Book a slot</a></li></ul></div>
+      <div><h4>Explore</h4><ul><li><a href="#digest">Digest</a></li><li><a href="/city/">City guides</a></li><li><a href="/methodology">Methodology &amp; sources</a></li><li><a href="/about">About</a></li><li><a href="/advertise">Advertise on a city page</a></li><li><a href="/checkout">Book a slot</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:info@bharatdn.com">info@bharatdn.com</a></li><li><a href="/contact">Contact page</a></li><li><a href="mailto:info@bharatdn.com">Press &amp; partnerships</a></li></ul></div>
     </div>
     <div class="foot-bottom">
@@ -1230,15 +1271,19 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
   </div>
 </footer>
 
-<script type="application/ld+json">
+<script type="application/ld+json>
 {"@context":"https://schema.org","@graph":[
 {"@type":"Organization","@id":"https://bharatdn.com/#org","name":"Bharat Digital Network","alternateName":"Bharat DN","url":"https://bharatdn.com/","email":"info@bharatdn.com"},
 {"@type":"WebSite","@id":"https://bharatdn.com/#site","url":"https://bharatdn.com/","name":"Bharat Digital Network","publisher":{"@id":"https://bharatdn.com/#org"},"inLanguage":"en-IN"},
 {"@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"What is Bharat Digital Network?","acceptedAnswer":{"@type":"Answer","text":"Bharat Digital Network is an independent network of focused web hubs — news, jobs, test prep, tools — sharing one backbone, one identity and one daily update pipeline. The globe is a live visualization of that network."}},
-{"@type":"Question","name":"How often does this page update?","acceptedAnswer":{"@type":"Answer","text":"Daily. A scheduled pipeline rebuilds the digest, stats, hub status and activity feed automatically."}},
-{"@type":"Question","name":"Does the 3D globe slow the site down?","acceptedAnswer":{"@type":"Answer","text":"No. It renders on demand with a capped pixel ratio, pauses when off-screen, respects reduced-motion, and all content lives in normal HTML."}},
-{"@type":"Question","name":"How do I get in touch?","acceptedAnswer":{"@type":"Answer","text":"info@bharatdn.com — partnerships, press and feedback all go to the same inbox. Replies within two working days."}}]}
+{"@type":"Question","name":"What exactly is Bharat Digital Network?","acceptedAnswer":{"@type":"Answer","text":"An independent Indian web network running 7 hubs — News, Jobs, IELTS, Tools, Grammar, Step Ahead (study abroad), and City Guides — on one shared backbone. One daily pipeline updates weather, AQI, job listings, digest stories and city facts across all properties. No venture funding, no paywalls, no tracking beyond essential analytics."}},
+{"@type":"Question","name":"How many city guides are live and how are they verified?","acceptedAnswer":{"@type":"Answer","text":"697 city guides published as of today. Each guide passes structural gates (schema, tokens, internal links) and fact gates (Census 2011 cross-check, official website verification, weather/AQI source validation) before release. The pipeline runs daily; new cities are added in population-importance order."}},
+{"@type":"Question","name":"Is the weather and AQI data actually live?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every city page fetches current weather and AQI from OpenWeatherMap at build time (daily pipeline) and the globe visualisation polls the same API on demand. The freshness stamp on each page shows the exact month/year of the last rebuild."}},
+{"@type":"Question","name":"Can I advertise on a specific city page?","acceptedAnswer":{"@type":"Answer","text":"Yes. Three slot types: Premium (top of page), Category (inside a section like Restaurants/Industries), and Basic (directory listing). Monthly rates with term discounts (1/3/6 months). Book and pay at bharatdn.com/checkout — the card publishes on the next pipeline run and expires automatically."}},
+{"@type":"Question","name":"How do job listings work — are they scraped or direct?","acceptedAnswer":{"@type":"Answer","text":"jobs.bharatdn.com aggregates from verified government portals (UPSC, SSC, RRB, state PSCs, PSUs) and company career pages. Each listing links to the official source — we don't host applications. Filters by state, category, qualification and date keep it noise-free."}},
+{"@type":"Question","name":"What's the difference between this and other India sites?","acceptedAnswer":{"@type":"Answer","text":"Most sites are either content farms or single-topic. We run a network: shared infrastructure, shared identity, shared daily rebuild. A job posted in Jaipur appears on the Jaipur city page, the Rajasthan hub, and the jobs board automatically. A weather alert updates the city page, the globe, and the digest simultaneously. One backbone, zero duplication."}},
+{"@type":"Question","name":"How do I report incorrect info on a city page?","acceptedAnswer":{"@type":"Answer","text":"Email info@bharatdn.com with the city slug and the specific field (population, PIN, industry, restaurant, etc.). We verify against the primary source (Census, official website, GeoNames) and push a fix in the next daily run. Corrections are logged in the page's fact-check history."}}
+]}
 ]}
 </script>
 
