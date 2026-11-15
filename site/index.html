@@ -449,7 +449,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--bg-2);padding:44px
       <span class="section-link" style="cursor:default"><!--live:cities-count-->697 live · new cities weekly<!--/live:cities-count--></span>
     </div>
     <!--live:cities-->
-    <div class="city-grid reveal">
+    <div class="city-grid">
       <a class="city-chip" href="/city/abohar/"><b>Abohar</b><span>Punjab</span></a>
       <a class="city-chip" href="/city/achalpur/"><b>Achalpur</b><span>Maharashtra</span></a>
       <a class="city-chip" href="/city/adilabad/"><b>Adilabad</b><span>Telangana</span></a>
@@ -1328,7 +1328,7 @@ const tileIO = new IntersectionObserver((entries)=>{
 },{threshold:.15, rootMargin:'0px 0px -40px 0px'});
 tiles.forEach(t=>tileIO.observe(t));
 
-const revealIO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');revealIO.unobserve(e.target)}}),{threshold:.15});
+const revealIO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');revealIO.unobserve(e.target)}}),{threshold:0,rootMargin:'0px 0px -60px 0px'});
 document.querySelectorAll('.reveal').forEach(el=>revealIO.observe(el));
 
 const countIO=new IntersectionObserver(es=>es.forEach(e=>{
