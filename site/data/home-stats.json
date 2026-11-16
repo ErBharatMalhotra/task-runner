@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T08:05:12.263Z",
+  "generatedAt": "2026-11-16T08:13:28.531Z",
   "cityGuides": 710,
   "stateHubs": 33,
   "hubs": [
@@ -51,11 +51,88 @@
       "label": "Step Ahead",
       "role": "coaching",
       "state": "live"
+    },
+    {
+      "host": "french.bharatdn.com",
+      "url": "https://french.bharatdn.com",
+      "label": "French",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "german.bharatdn.com",
+      "url": "https://german.bharatdn.com",
+      "label": "German",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "spanish.bharatdn.com",
+      "url": "https://spanish.bharatdn.com",
+      "label": "Spanish",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "japanese.bharatdn.com",
+      "url": "https://japanese.bharatdn.com",
+      "label": "Japanese",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "korean.bharatdn.com",
+      "url": "https://korean.bharatdn.com",
+      "label": "Korean",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "mandarin.bharatdn.com",
+      "url": "https://mandarin.bharatdn.com",
+      "label": "Mandarin",
+      "role": "language",
+      "state": "live"
+    },
+    {
+      "host": "readme.bharatdn.com",
+      "url": "https://readme.bharatdn.com",
+      "label": "ReadmeCraft",
+      "role": "dev tool",
+      "state": "live"
+    },
+    {
+      "host": "gitchronicle.bharatdn.com",
+      "url": "https://gitchronicle.bharatdn.com",
+      "label": "GitChronicle",
+      "role": "dev tool",
+      "state": "live"
+    },
+    {
+      "host": "githolo.bharatdn.com",
+      "url": "https://githolo.bharatdn.com",
+      "label": "GitHolo",
+      "role": "dev tool",
+      "state": "live"
+    },
+    {
+      "host": "radar.bharatdn.com",
+      "url": "https://radar.bharatdn.com",
+      "label": "AI Radar",
+      "role": "dev tool",
+      "state": "live"
+    },
+    {
+      "host": "me.bharatdn.com",
+      "url": "https://me.bharatdn.com",
+      "label": "Portfolio",
+      "role": "personal",
+      "state": "live"
     }
   ],
   "activity": [
     {
-      "at": "2026-11-16T08:05:12.221Z",
+      "at": "2026-11-16T08:13:28.496Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -91,7 +168,7 @@
       "tag": "Coverage",
       "tone": "blue",
       "title": "710 city guides · 33 state hubs live",
-      "desc": "7 portals on one backbone — news, jobs, exam prep, tools and coaching.",
+      "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
     {
