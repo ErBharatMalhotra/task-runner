@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-16T09:28:49.587Z",
-  "count": 710,
-  "shown": 710,
+  "generatedAt": "2026-11-16T11:53:08.057Z",
+  "count": 723,
+  "shown": 723,
   "latest": {
-    "slug": "kayamkulam",
-    "name": "Kayamkulam",
-    "lat": 9.18173,
-    "lon": 76.50093,
-    "at": "2026-11-15T11:21:06.755Z"
+    "slug": "devanahalli",
+    "name": "Devanahalli",
+    "lat": 13.24655,
+    "lon": 77.71183,
+    "at": "2026-11-16T11:53:07.564Z"
   },
   "cities": [
     {
@@ -1101,6 +1101,26 @@
       "releasedAt": "2026-09-26T14:20:17.922Z"
     },
     {
+      "slug": "moradabad-india",
+      "name": "Moradabad",
+      "state": "India",
+      "lat": 28.838888888,
+      "lon": 78.776944444,
+      "pop": 887871,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.579Z"
+    },
+    {
+      "slug": "jamnagar-india",
+      "name": "Jamnagar",
+      "state": "India",
+      "lat": 22.47,
+      "lon": 70.07,
+      "pop": 877000,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.656Z"
+    },
+    {
       "slug": "gurugram",
       "name": "Gurugram",
       "state": "Haryana",
@@ -1109,6 +1129,26 @@
       "pop": 876969,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:01.030Z"
+    },
+    {
+      "slug": "gurgaon",
+      "name": "Gurgaon",
+      "state": "Haryana",
+      "lat": 28.466666666,
+      "lon": 77.033333333,
+      "pop": 876824,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.734Z"
+    },
+    {
+      "slug": "aligarh-india",
+      "name": "Aligarh",
+      "state": "Uttar Pradesh",
+      "lat": 27.88,
+      "lon": 78.08,
+      "pop": 874408,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.814Z"
     },
     {
       "slug": "bhiwandi",
@@ -1131,6 +1171,16 @@
       "releasedAt": "2026-09-26T14:20:25.279Z"
     },
     {
+      "slug": "jalandhar-india",
+      "name": "Jalandhar",
+      "state": "Punjab",
+      "lat": 31.325555555,
+      "lon": 75.579166666,
+      "pop": 873725,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.893Z"
+    },
+    {
       "slug": "kanayannur",
       "name": "Kanayannur",
       "state": "Kerala",
@@ -1141,6 +1191,16 @@
       "releasedAt": "2026-10-17T07:57:48.347Z"
     },
     {
+      "slug": "bhubaneswar-india",
+      "name": "Bhubaneswar",
+      "state": "Odisha",
+      "lat": 20.295,
+      "lon": 85.825,
+      "pop": 837737,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:06.975Z"
+    },
+    {
       "slug": "salem",
       "name": "Salem",
       "state": "Tamil Nadu",
@@ -1149,6 +1209,16 @@
       "pop": 829267,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:13.785Z"
+    },
+    {
+      "slug": "mira-bhayandar",
+      "name": "Mira-Bhayandar",
+      "state": "India",
+      "lat": 19.3,
+      "lon": 72.85,
+      "pop": 814655,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:07.054Z"
     },
     {
       "slug": "warangal",
@@ -1181,6 +1251,16 @@
       "releasedAt": "2026-10-09T10:48:18.249Z"
     },
     {
+      "slug": "thiruvananthapuram-municipal-corporation",
+      "name": "Thiruvananthapuram Municipal Corporation",
+      "state": "India",
+      "lat": 8.4829645,
+      "lon": 76.9395275,
+      "pop": 744739,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:07.133Z"
+    },
+    {
       "slug": "guntur",
       "name": "Guntur",
       "state": "Andhra Pradesh",
@@ -1191,6 +1271,16 @@
       "releasedAt": "2026-09-26T14:20:12.663Z"
     },
     {
+      "slug": "thiruvananthapuram-india",
+      "name": "Thiruvananthapuram",
+      "state": "India",
+      "lat": 8.4875,
+      "lon": 76.9525,
+      "pop": 743691,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:07.210Z"
+    },
+    {
       "slug": "bhavnagar",
       "name": "Bhavnagar",
       "state": "Gujarat",
@@ -1199,6 +1289,16 @@
       "pop": 713895,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:21.547Z"
+    },
+    {
+      "slug": "bhiwandi-india",
+      "name": "Bhiwandi",
+      "state": "Maharashtra",
+      "lat": 19.3,
+      "lon": 73.066666666,
+      "pop": 709665,
+      "tier": 2,
+      "releasedAt": "2026-11-16T11:53:07.286Z"
     },
     {
       "slug": "siliguri",
@@ -6111,6 +6211,16 @@
       "releasedAt": "2026-11-13T11:22:12.695Z"
     },
     {
+      "slug": "bargarh",
+      "name": "Bargarh",
+      "state": "Odisha",
+      "lat": 21.33348,
+      "lon": 83.61905,
+      "pop": 80625,
+      "tier": 3,
+      "releasedAt": "2026-11-16T11:53:07.486Z"
+    },
+    {
       "slug": "kharghar",
       "name": "Kharghar",
       "state": "Maharashtra",
@@ -6909,6 +7019,26 @@
       "pop": 30026,
       "tier": 3,
       "releasedAt": "2026-10-10T10:03:10.789Z"
+    },
+    {
+      "slug": "kotagiri",
+      "name": "Kotagiri",
+      "state": "Tamil Nadu",
+      "lat": 11.42072,
+      "lon": 76.86035,
+      "pop": 28848,
+      "tier": 3,
+      "releasedAt": "2026-11-16T11:53:07.409Z"
+    },
+    {
+      "slug": "devanahalli",
+      "name": "Devanahalli",
+      "state": "Karnataka",
+      "lat": 13.24655,
+      "lon": 77.71183,
+      "pop": 28051,
+      "tier": 3,
+      "releasedAt": "2026-11-16T11:53:07.564Z"
     },
     {
       "slug": "vadnagar",

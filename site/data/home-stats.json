@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T09:28:50.040Z",
-  "cityGuides": 710,
+  "generatedAt": "2026-11-16T11:53:08.642Z",
+  "cityGuides": 723,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-16T09:28:50.004Z",
+      "at": "2026-11-16T11:53:08.600Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-16T00:00:00.000Z",
+      "title": "13 city guides published — devanahalli, bargarh, kotagiri +10 more"
     },
     {
       "at": "2026-11-15T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-12T00:00:00.000Z",
       "title": "13 city guides published — vatakara, narnaul, koppal +10 more"
-    },
-    {
-      "at": "2026-11-11T00:00:00.000Z",
-      "title": "13 city guides published — siddipet, sangrur, kanakapura +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Kayamkulam, Shikohabad, Gobichettipalayam +10 more",
-      "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "title": "13 new city guides — Devanahalli, Bargarh, Kotagiri +10 more",
+      "desc": "104 published in the last 7 days, each live-verified.",
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "710 city guides · 33 state hubs live",
+      "title": "723 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

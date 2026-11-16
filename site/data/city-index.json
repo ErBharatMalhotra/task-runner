@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T09:28:49.872Z",
-  "count": 710,
+  "generatedAt": "2026-11-16T11:53:08.434Z",
+  "count": 723,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -86,6 +86,11 @@
       "name": "Aligarh",
       "url": "https://bharatdn.com/city/aligarh/",
       "population": 911223
+    },
+    "aligarh-india": {
+      "name": "Aligarh",
+      "url": "https://bharatdn.com/city/aligarh-india/",
+      "population": 874408
     },
     "almora": {
       "name": "Almora",
@@ -362,6 +367,11 @@
       "url": "https://bharatdn.com/city/bareilly-india/",
       "population": 898167
     },
+    "bargarh": {
+      "name": "Bargarh",
+      "url": "https://bharatdn.com/city/bargarh/",
+      "population": 80625
+    },
     "baripada": {
       "name": "Baripāda",
       "url": "https://bharatdn.com/city/baripada/",
@@ -537,6 +547,11 @@
       "url": "https://bharatdn.com/city/bhiwandi/",
       "population": 874032
     },
+    "bhiwandi-india": {
+      "name": "Bhiwandi",
+      "url": "https://bharatdn.com/city/bhiwandi-india/",
+      "population": 709665
+    },
     "bhiwani": {
       "name": "Bhiwāni",
       "url": "https://bharatdn.com/city/bhiwani/",
@@ -556,6 +571,11 @@
       "name": "Bhubaneswar",
       "url": "https://bharatdn.com/city/bhubaneswar/",
       "population": 353487
+    },
+    "bhubaneswar-india": {
+      "name": "Bhubaneswar",
+      "url": "https://bharatdn.com/city/bhubaneswar-india/",
+      "population": 837737
     },
     "bhuj": {
       "name": "Bhuj",
@@ -882,6 +902,11 @@
       "url": "https://bharatdn.com/city/deoria/",
       "population": 129570
     },
+    "devanahalli": {
+      "name": "Devanahalli",
+      "url": "https://bharatdn.com/city/devanahalli/",
+      "population": 28051
+    },
     "dewas": {
       "name": "Dewas",
       "url": "https://bharatdn.com/city/dewas/",
@@ -1197,6 +1222,11 @@
       "url": "https://bharatdn.com/city/gurdaspur/",
       "population": 77928
     },
+    "gurgaon": {
+      "name": "Gurgaon",
+      "url": "https://bharatdn.com/city/gurgaon/",
+      "population": 876824
+    },
     "gurugram": {
       "name": "Gurugram",
       "url": "https://bharatdn.com/city/gurugram/",
@@ -1452,6 +1482,11 @@
       "url": "https://bharatdn.com/city/jalandhar/",
       "population": 873725
     },
+    "jalandhar-india": {
+      "name": "Jalandhar",
+      "url": "https://bharatdn.com/city/jalandhar-india/",
+      "population": 873725
+    },
     "jalgaon": {
       "name": "Jalgaon",
       "url": "https://bharatdn.com/city/jalgaon/",
@@ -1481,6 +1516,11 @@
       "name": "Jamnagar",
       "url": "https://bharatdn.com/city/jamnagar/",
       "population": 654040
+    },
+    "jamnagar-india": {
+      "name": "Jamnagar",
+      "url": "https://bharatdn.com/city/jamnagar-india/",
+      "population": 877000
     },
     "jamshedpur": {
       "name": "Jamshedpur",
@@ -1862,6 +1902,11 @@
       "url": "https://bharatdn.com/city/kota-india/",
       "population": 1001694
     },
+    "kotagiri": {
+      "name": "Kotagiri",
+      "url": "https://bharatdn.com/city/kotagiri/",
+      "population": 28848
+    },
     "kottayam": {
       "name": "Kottayam",
       "url": "https://bharatdn.com/city/kottayam/",
@@ -2152,6 +2197,11 @@
       "url": "https://bharatdn.com/city/mhow/",
       "population": 81702
     },
+    "mira-bhayandar": {
+      "name": "Mira-Bhayandar",
+      "url": "https://bharatdn.com/city/mira-bhayandar/",
+      "population": 814655
+    },
     "miryalaguda": {
       "name": "Miryalaguda",
       "url": "https://bharatdn.com/city/miryalaguda/",
@@ -2181,6 +2231,11 @@
       "name": "Moradabad",
       "url": "https://bharatdn.com/city/moradabad/",
       "population": 889810
+    },
+    "moradabad-india": {
+      "name": "Moradabad",
+      "url": "https://bharatdn.com/city/moradabad-india/",
+      "population": 887871
     },
     "morena": {
       "name": "Morena",
@@ -3236,6 +3291,16 @@
       "name": "Thiruvananthapuram",
       "url": "https://bharatdn.com/city/thiruvananthapuram/",
       "population": 957738
+    },
+    "thiruvananthapuram-india": {
+      "name": "Thiruvananthapuram",
+      "url": "https://bharatdn.com/city/thiruvananthapuram-india/",
+      "population": 743691
+    },
+    "thiruvananthapuram-municipal-corporation": {
+      "name": "Thiruvananthapuram Municipal Corporation",
+      "url": "https://bharatdn.com/city/thiruvananthapuram-municipal-corporation/",
+      "population": 744739
     },
     "thiruvarur": {
       "name": "Thiruvarur",
