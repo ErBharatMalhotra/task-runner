@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-17T09:36:34.202Z",
-  "count": 723,
-  "shown": 723,
+  "generatedAt": "2026-11-17T12:15:11.284Z",
+  "count": 736,
+  "shown": 736,
   "latest": {
-    "slug": "devanahalli",
-    "name": "Devanahalli",
-    "lat": 13.24655,
-    "lon": 77.71183,
-    "at": "2026-11-16T11:53:07.564Z"
+    "slug": "bhadohi",
+    "name": "Bhadohi",
+    "lat": 25.39526,
+    "lon": 82.5703,
+    "at": "2026-11-17T12:15:10.806Z"
   },
   "cities": [
     {
@@ -1301,6 +1301,26 @@
       "releasedAt": "2026-11-16T11:53:07.286Z"
     },
     {
+      "slug": "saharanpur-india",
+      "name": "Saharanpur",
+      "state": "Uttar Pradesh",
+      "lat": 29.964,
+      "lon": 77.546,
+      "pop": 705478,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:09.817Z"
+    },
+    {
+      "slug": "warangal-india",
+      "name": "Warangal",
+      "state": "Telangana",
+      "lat": 17.975555555,
+      "lon": 79.601111111,
+      "pop": 704570,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:09.894Z"
+    },
+    {
       "slug": "siliguri",
       "name": "Siliguri",
       "state": "West Bengal",
@@ -1311,6 +1331,26 @@
       "releasedAt": "2026-09-26T14:20:23.197Z"
     },
     {
+      "slug": "salem-india",
+      "name": "Salem",
+      "state": "Tamil Nadu",
+      "lat": 11.65,
+      "lon": 78.166666666,
+      "pop": 693236,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:09.977Z"
+    },
+    {
+      "slug": "kochi-india",
+      "name": "Kochi",
+      "state": "India",
+      "lat": 9.966666666,
+      "lon": 76.283333333,
+      "pop": 677381,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.055Z"
+    },
+    {
       "slug": "gorakhpur",
       "name": "Gorakhpur",
       "state": "Uttar Pradesh",
@@ -1319,6 +1359,16 @@
       "pop": 673446,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:18.428Z"
+    },
+    {
+      "slug": "gorakhpur-india",
+      "name": "Gorakhpur",
+      "state": "India",
+      "lat": 26.761111111,
+      "lon": 83.366666666,
+      "pop": 673446,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.134Z"
     },
     {
       "slug": "jamnagar",
@@ -1351,6 +1401,16 @@
       "releasedAt": "2026-09-26T14:20:28.089Z"
     },
     {
+      "slug": "guntur-india",
+      "name": "Guntur",
+      "state": "Andhra Pradesh",
+      "lat": 16.3,
+      "lon": 80.45,
+      "pop": 647508,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.213Z"
+    },
+    {
       "slug": "amravati",
       "name": "Amravati",
       "state": "Maharashtra",
@@ -1369,6 +1429,16 @@
       "pop": 644406,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:29.671Z"
+    },
+    {
+      "slug": "noida-india",
+      "name": "Noida",
+      "state": "Uttar Pradesh",
+      "lat": 28.57,
+      "lon": 77.32,
+      "pop": 637272,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.290Z"
     },
     {
       "slug": "noida",
@@ -1391,6 +1461,16 @@
       "releasedAt": "2026-11-11T11:19:21.586Z"
     },
     {
+      "slug": "bidhannagar",
+      "name": "Bidhannagar",
+      "state": "West Bengal",
+      "lat": 22.58,
+      "lon": 88.42,
+      "pop": 632107,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.369Z"
+    },
+    {
       "slug": "jamshedpur",
       "name": "Jamshedpur",
       "state": "Jharkhand",
@@ -1411,6 +1491,16 @@
       "releasedAt": "2026-10-04T14:13:01.002Z"
     },
     {
+      "slug": "bhilai-india",
+      "name": "Bhilai",
+      "state": "Chhattisgarh",
+      "lat": 21.21,
+      "lon": 81.38,
+      "pop": 625700,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.448Z"
+    },
+    {
       "slug": "mangaluru",
       "name": "Mangaluru",
       "state": "Karnataka",
@@ -1419,6 +1509,16 @@
       "pop": 623841,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:10.612Z"
+    },
+    {
+      "slug": "mangaluru-india",
+      "name": "Mangaluru",
+      "state": "India",
+      "lat": 12.871666666,
+      "lon": 74.8425,
+      "pop": 623841,
+      "tier": 2,
+      "releasedAt": "2026-11-17T12:15:10.526Z"
     },
     {
       "slug": "asansol",
@@ -6071,6 +6171,16 @@
       "releasedAt": "2026-10-26T09:14:29.475Z"
     },
     {
+      "slug": "shahdol",
+      "name": "Shahdol",
+      "state": "Madhya Pradesh",
+      "lat": 23.29356,
+      "lon": 81.3619,
+      "pop": 89289,
+      "tier": 3,
+      "releasedAt": "2026-11-17T12:15:10.727Z"
+    },
+    {
       "slug": "mahoba",
       "name": "Mahoba",
       "state": "Uttar Pradesh",
@@ -6259,6 +6369,16 @@
       "pop": 79080,
       "tier": 3,
       "releasedAt": "2026-10-30T10:19:50.532Z"
+    },
+    {
+      "slug": "bhadohi",
+      "name": "Bhadohi",
+      "state": "Uttar Pradesh",
+      "lat": 25.39526,
+      "lon": 82.5703,
+      "pop": 78568,
+      "tier": 3,
+      "releasedAt": "2026-11-17T12:15:10.806Z"
     },
     {
       "slug": "medininagar",
@@ -7079,6 +7199,16 @@
       "pop": 24108,
       "tier": 3,
       "releasedAt": "2026-11-03T11:11:40.461Z"
+    },
+    {
+      "slug": "qadian",
+      "name": "Qadian",
+      "state": "Punjab",
+      "lat": 31.82198,
+      "lon": 75.37663,
+      "pop": 23632,
+      "tier": 3,
+      "releasedAt": "2026-11-17T12:15:10.648Z"
     },
     {
       "slug": "ankola",

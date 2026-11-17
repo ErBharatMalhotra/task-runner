@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T09:36:34.501Z",
-  "count": 723,
+  "generatedAt": "2026-11-17T12:15:11.647Z",
+  "count": 736,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -457,6 +457,11 @@
       "url": "https://bharatdn.com/city/betul/",
       "population": 103330
     },
+    "bhadohi": {
+      "name": "Bhadohi",
+      "url": "https://bharatdn.com/city/bhadohi/",
+      "population": 78568
+    },
     "bhadrak": {
       "name": "Bhadrak",
       "url": "https://bharatdn.com/city/bhadrak/",
@@ -521,6 +526,11 @@
       "name": "Bhilai",
       "url": "https://bharatdn.com/city/bhilai/",
       "population": 627734
+    },
+    "bhilai-india": {
+      "name": "Bhilai",
+      "url": "https://bharatdn.com/city/bhilai-india/",
+      "population": 625700
     },
     "bhilwara": {
       "name": "Bhilwara",
@@ -591,6 +601,11 @@
       "name": "Bidar",
       "url": "https://bharatdn.com/city/bidar/",
       "population": 216020
+    },
+    "bidhannagar": {
+      "name": "Bidhannagar",
+      "url": "https://bharatdn.com/city/bidhannagar/",
+      "population": 632107
     },
     "bihar-sharif": {
       "name": "Bihār Sharīf",
@@ -1187,6 +1202,11 @@
       "url": "https://bharatdn.com/city/gorakhpur-haryana/",
       "population": 1324570
     },
+    "gorakhpur-india": {
+      "name": "Gorakhpur",
+      "url": "https://bharatdn.com/city/gorakhpur-india/",
+      "population": 673446
+    },
     "greater-noida": {
       "name": "Greater Noida",
       "url": "https://bharatdn.com/city/greater-noida/",
@@ -1216,6 +1236,11 @@
       "name": "Guntur",
       "url": "https://bharatdn.com/city/guntur/",
       "population": 743720
+    },
+    "guntur-india": {
+      "name": "Guntur",
+      "url": "https://bharatdn.com/city/guntur-india/",
+      "population": 647508
     },
     "gurdaspur": {
       "name": "Gurdaspur",
@@ -1847,6 +1872,11 @@
       "url": "https://bharatdn.com/city/kochi/",
       "population": 602046
     },
+    "kochi-india": {
+      "name": "Kochi",
+      "url": "https://bharatdn.com/city/kochi-india/",
+      "population": 677381
+    },
     "kohima": {
       "name": "Kohima",
       "url": "https://bharatdn.com/city/kohima/",
@@ -2145,6 +2175,11 @@
     "mangaluru": {
       "name": "Mangaluru",
       "url": "https://bharatdn.com/city/mangaluru/",
+      "population": 623841
+    },
+    "mangaluru-india": {
+      "name": "Mangaluru",
+      "url": "https://bharatdn.com/city/mangaluru-india/",
       "population": 623841
     },
     "mango": {
@@ -2502,6 +2537,11 @@
       "url": "https://bharatdn.com/city/noida/",
       "population": 637078
     },
+    "noida-india": {
+      "name": "Noida",
+      "url": "https://bharatdn.com/city/noida-india/",
+      "population": 637272
+    },
     "nowrangapur": {
       "name": "Nowrangapur",
       "url": "https://bharatdn.com/city/nowrangapur/",
@@ -2752,6 +2792,11 @@
       "url": "https://bharatdn.com/city/pushkar/",
       "population": 21626
     },
+    "qadian": {
+      "name": "Qadian",
+      "url": "https://bharatdn.com/city/qadian/",
+      "population": 23632
+    },
     "quthbullapur": {
       "name": "Quthbullapur",
       "url": "https://bharatdn.com/city/quthbullapur/",
@@ -2952,6 +2997,11 @@
       "url": "https://bharatdn.com/city/saharanpur/",
       "population": 484873
     },
+    "saharanpur-india": {
+      "name": "Saharanpur",
+      "url": "https://bharatdn.com/city/saharanpur-india/",
+      "population": 705478
+    },
     "saharsa": {
       "name": "Saharsa",
       "url": "https://bharatdn.com/city/saharsa/",
@@ -2961,6 +3011,11 @@
       "name": "Salem",
       "url": "https://bharatdn.com/city/salem/",
       "population": 829267
+    },
+    "salem-india": {
+      "name": "Salem",
+      "url": "https://bharatdn.com/city/salem-india/",
+      "population": 693236
     },
     "sambalpur": {
       "name": "Sambalpur",
@@ -3031,6 +3086,11 @@
       "name": "Serilingampalle",
       "url": "https://bharatdn.com/city/serilingampalle/",
       "population": 150525
+    },
+    "shahdol": {
+      "name": "Shahdol",
+      "url": "https://bharatdn.com/city/shahdol/",
+      "population": 89289
     },
     "shahjahanpur": {
       "name": "Shahjahanpur",
@@ -3581,6 +3641,11 @@
       "name": "Warangal",
       "url": "https://bharatdn.com/city/warangal/",
       "population": 811382
+    },
+    "warangal-india": {
+      "name": "Warangal",
+      "url": "https://bharatdn.com/city/warangal-india/",
+      "population": 704570
     },
     "wardha": {
       "name": "Wardha",
