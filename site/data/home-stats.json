@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:57:19.999Z",
+  "generatedAt": "2026-11-17T00:13:38.473Z",
   "cityGuides": 723,
   "stateHubs": 33,
   "hubs": [
@@ -132,7 +132,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-16T18:57:19.967Z",
+      "at": "2026-11-17T00:13:38.445Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -162,7 +162,7 @@
       "tone": "red",
       "title": "13 new city guides — Devanahalli, Bargarh, Kotagiri +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
