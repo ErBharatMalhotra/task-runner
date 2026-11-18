@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T08:55:15.043Z",
-  "count": 736,
+  "generatedAt": "2026-11-18T12:02:10.402Z",
+  "count": 749,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -152,6 +152,11 @@
       "url": "https://bharatdn.com/city/amravati/",
       "population": 647057
     },
+    "amravati-india": {
+      "name": "Amravati",
+      "url": "https://bharatdn.com/city/amravati-india/",
+      "population": 549370
+    },
     "amreli": {
       "name": "Amreli",
       "url": "https://bharatdn.com/city/amreli/",
@@ -216,6 +221,11 @@
       "name": "Asansol",
       "url": "https://bharatdn.com/city/asansol/",
       "population": 614477
+    },
+    "asansol-india": {
+      "name": "Asansol",
+      "url": "https://bharatdn.com/city/asansol-india/",
+      "population": 563917
     },
     "ashoknagar-kalyangarh": {
       "name": "Ashoknagar Kalyangarh",
@@ -802,6 +812,11 @@
       "url": "https://bharatdn.com/city/churu/",
       "population": 120157
     },
+    "cochin-municipal-corporation": {
+      "name": "Cochin Municipal Corporation",
+      "url": "https://bharatdn.com/city/cochin-municipal-corporation/",
+      "population": 596473
+    },
     "coimbatore": {
       "name": "Coimbatore",
       "url": "https://bharatdn.com/city/coimbatore/",
@@ -831,6 +846,11 @@
       "name": "Cuttack",
       "url": "https://bharatdn.com/city/cuttack/",
       "population": 610189
+    },
+    "cuttack-india": {
+      "name": "Cuttack",
+      "url": "https://bharatdn.com/city/cuttack-india/",
+      "population": 606007
     },
     "dadri": {
       "name": "Dadri",
@@ -886,6 +906,11 @@
       "name": "Dehradun",
       "url": "https://bharatdn.com/city/dehradun/",
       "population": 578438
+    },
+    "dehradun-india": {
+      "name": "Dehradun",
+      "url": "https://bharatdn.com/city/dehradun-india/",
+      "population": 578420
     },
     "delhi": {
       "name": "Delhi",
@@ -1026,6 +1051,11 @@
       "name": "Durgapur",
       "url": "https://bharatdn.com/city/durgapur/",
       "population": 581409
+    },
+    "durgapur-india": {
+      "name": "Durgapur",
+      "url": "https://bharatdn.com/city/durgapur-india/",
+      "population": 566517
     },
     "eluru": {
       "name": "Eluru",
@@ -1326,6 +1356,11 @@
       "name": "Haridwar",
       "url": "https://bharatdn.com/city/haridwar/",
       "population": 231105
+    },
+    "harihar": {
+      "name": "Harihar",
+      "url": "https://bharatdn.com/city/harihar/",
+      "population": 83219
     },
     "hashtsal": {
       "name": "Hashtsāl",
@@ -1952,6 +1987,11 @@
       "url": "https://bharatdn.com/city/kozhikode/",
       "population": 431560
     },
+    "kozhikode-india": {
+      "name": "Kozhikode",
+      "url": "https://bharatdn.com/city/kozhikode-india/",
+      "population": 609224
+    },
     "krishnagiri": {
       "name": "Krishnagiri",
       "url": "https://bharatdn.com/city/krishnagiri/",
@@ -2132,6 +2172,11 @@
       "url": "https://bharatdn.com/city/malegaon/",
       "population": 481228
     },
+    "malegaon-india": {
+      "name": "Malegaon",
+      "url": "https://bharatdn.com/city/malegaon-india/",
+      "population": 576642
+    },
     "maler-kotla": {
       "name": "Māler Kotla",
       "url": "https://bharatdn.com/city/maler-kotla/",
@@ -2186,6 +2231,11 @@
       "name": "Mango",
       "url": "https://bharatdn.com/city/mango/",
       "population": 223805
+    },
+    "manjeri": {
+      "name": "Manjeri",
+      "url": "https://bharatdn.com/city/manjeri/",
+      "population": 97102
     },
     "mannargudi": {
       "name": "Mannargudi",
@@ -2622,6 +2672,11 @@
       "url": "https://bharatdn.com/city/pandharpur/",
       "population": 98923
     },
+    "pandharpur-india": {
+      "name": "Pandharpur",
+      "url": "https://bharatdn.com/city/pandharpur-india/",
+      "population": 583926
+    },
     "panihati": {
       "name": "Pānihāti",
       "url": "https://bharatdn.com/city/panihati/",
@@ -2987,6 +3042,11 @@
       "url": "https://bharatdn.com/city/rourkela/",
       "population": 273317
     },
+    "rourkela-india": {
+      "name": "Rourkela",
+      "url": "https://bharatdn.com/city/rourkela-india/",
+      "population": 552970
+    },
     "rudrapur": {
       "name": "Rudrapur",
       "url": "https://bharatdn.com/city/rudrapur/",
@@ -3186,6 +3246,11 @@
       "name": "Singrauli",
       "url": "https://bharatdn.com/city/singrauli/",
       "population": 220257
+    },
+    "sirhind": {
+      "name": "Sirhind",
+      "url": "https://bharatdn.com/city/sirhind/",
+      "population": 60847
     },
     "sirsa": {
       "name": "Sirsa",

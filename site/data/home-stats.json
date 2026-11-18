@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T08:55:15.189Z",
-  "cityGuides": 736,
+  "generatedAt": "2026-11-18T12:02:10.613Z",
+  "cityGuides": 749,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-18T08:55:15.159Z",
+      "at": "2026-11-18T12:02:10.568Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-18T00:00:00.000Z",
+      "title": "13 city guides published — sirhind, manjeri, harihar +10 more"
     },
     {
       "at": "2026-11-17T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-14T00:00:00.000Z",
       "title": "13 city guides published — jeypore, paithan, raxaul +10 more"
-    },
-    {
-      "at": "2026-11-13T00:00:00.000Z",
-      "title": "13 city guides published — dhubri, himatnagar, vaniyambadi +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Bhadohi, Shahdol, Qadian +10 more",
+      "title": "13 new city guides — Sirhind, Manjeri, Harihar +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "736 city guides · 33 state hubs live",
+      "title": "749 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

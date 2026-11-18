@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-18T08:55:14.817Z",
-  "count": 736,
-  "shown": 736,
+  "generatedAt": "2026-11-18T12:02:09.950Z",
+  "count": 749,
+  "shown": 749,
   "latest": {
-    "slug": "bhadohi",
-    "name": "Bhadohi",
-    "lat": 25.39526,
-    "lon": 82.5703,
-    "at": "2026-11-17T12:15:10.806Z"
+    "slug": "sirhind",
+    "name": "Sirhind",
+    "lat": 30.64321,
+    "lon": 76.38421,
+    "at": "2026-11-18T12:02:09.415Z"
   },
   "cities": [
     {
@@ -1551,6 +1551,26 @@
       "releasedAt": "2026-10-08T10:49:33.069Z"
     },
     {
+      "slug": "kozhikode-india",
+      "name": "Kozhikode",
+      "state": "Kerala",
+      "lat": 11.247777777,
+      "lon": 75.780277777,
+      "pop": 609224,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.372Z"
+    },
+    {
+      "slug": "cuttack-india",
+      "name": "Cuttack",
+      "state": "Odisha",
+      "lat": 20.45,
+      "lon": 85.866666666,
+      "pop": 606007,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.452Z"
+    },
+    {
       "slug": "kochi",
       "name": "Kochi",
       "state": "Kerala",
@@ -1569,6 +1589,26 @@
       "pop": 601214,
       "tier": 2,
       "releasedAt": "2026-10-01T10:21:38.251Z"
+    },
+    {
+      "slug": "cochin-municipal-corporation",
+      "name": "Cochin Municipal Corporation",
+      "state": "India",
+      "lat": 9.982179,
+      "lon": 76.2867605,
+      "pop": 596473,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.537Z"
+    },
+    {
+      "slug": "pandharpur-india",
+      "name": "Pandharpur",
+      "state": "India",
+      "lat": 17.67,
+      "lon": 75.33,
+      "pop": 583926,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.623Z"
     },
     {
       "slug": "durgapur",
@@ -1591,6 +1631,36 @@
       "releasedAt": "2026-09-26T11:53:22.885Z"
     },
     {
+      "slug": "dehradun-india",
+      "name": "Dehradun",
+      "state": "Uttarakhand",
+      "lat": 30.318,
+      "lon": 78.029,
+      "pop": 578420,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.705Z"
+    },
+    {
+      "slug": "malegaon-india",
+      "name": "Malegaon",
+      "state": "India",
+      "lat": 20.55,
+      "lon": 74.55,
+      "pop": 576642,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.787Z"
+    },
+    {
+      "slug": "durgapur-india",
+      "name": "Durgapur",
+      "state": "West Bengal",
+      "lat": 23.55,
+      "lon": 87.32,
+      "pop": 566517,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.868Z"
+    },
+    {
       "slug": "bokaro",
       "name": "Bokaro",
       "state": "Jharkhand",
@@ -1599,6 +1669,26 @@
       "pop": 564319,
       "tier": 2,
       "releasedAt": "2026-10-25T08:37:40.948Z"
+    },
+    {
+      "slug": "asansol-india",
+      "name": "Asansol",
+      "state": "West Bengal",
+      "lat": 23.683333333,
+      "lon": 86.966666666,
+      "pop": 563917,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:08.951Z"
+    },
+    {
+      "slug": "rourkela-india",
+      "name": "Rourkela",
+      "state": "India",
+      "lat": 22.249166666,
+      "lon": 84.882777777,
+      "pop": 552970,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:09.038Z"
     },
     {
       "slug": "ajmer",
@@ -1629,6 +1719,16 @@
       "pop": 550564,
       "tier": 2,
       "releasedAt": "2026-09-30T05:47:31.577Z"
+    },
+    {
+      "slug": "amravati-india",
+      "name": "Amravati",
+      "state": "India",
+      "lat": 20.933333333,
+      "lon": 77.75,
+      "pop": 549370,
+      "tier": 2,
+      "releasedAt": "2026-11-18T12:02:09.126Z"
     },
     {
       "slug": "nellore",
@@ -6051,6 +6151,16 @@
       "releasedAt": "2026-10-14T08:56:11.219Z"
     },
     {
+      "slug": "manjeri",
+      "name": "Manjeri",
+      "state": "Kerala",
+      "lat": 11.12018,
+      "lon": 76.11996,
+      "pop": 97102,
+      "tier": 3,
+      "releasedAt": "2026-11-18T12:02:09.332Z"
+    },
+    {
       "slug": "tiruchengode",
       "name": "Tiruchengode",
       "state": "Tamil Nadu",
@@ -6279,6 +6389,16 @@
       "pop": 84015,
       "tier": 3,
       "releasedAt": "2026-10-22T08:49:08.489Z"
+    },
+    {
+      "slug": "harihar",
+      "name": "Harihar",
+      "state": "Karnataka",
+      "lat": 14.51288,
+      "lon": 75.80716,
+      "pop": 83219,
+      "tier": 3,
+      "releasedAt": "2026-11-18T12:02:09.249Z"
     },
     {
       "slug": "karauli",
@@ -6719,6 +6839,16 @@
       "pop": 62153,
       "tier": 3,
       "releasedAt": "2026-10-13T10:53:23.849Z"
+    },
+    {
+      "slug": "sirhind",
+      "name": "Sirhind",
+      "state": "Punjab",
+      "lat": 30.64321,
+      "lon": 76.38421,
+      "pop": 60847,
+      "tier": 3,
+      "releasedAt": "2026-11-18T12:02:09.415Z"
     },
     {
       "slug": "shegaon",
