@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T09:11:14.011Z",
-  "count": 749,
+  "generatedAt": "2026-11-19T11:58:23.506Z",
+  "count": 762,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -31,6 +31,11 @@
       "name": "Agartala",
       "url": "https://bharatdn.com/city/agartala/",
       "population": 404157
+    },
+    "agartala-india": {
+      "name": "Agartala",
+      "url": "https://bharatdn.com/city/agartala-india/",
+      "population": 522613
     },
     "agra": {
       "name": "Agra",
@@ -72,6 +77,11 @@
       "url": "https://bharatdn.com/city/ajmer/",
       "population": 551102
     },
+    "ajmer-india": {
+      "name": "Ajmer",
+      "url": "https://bharatdn.com/city/ajmer-india/",
+      "population": 542321
+    },
     "akola": {
       "name": "Akola",
       "url": "https://bharatdn.com/city/akola/",
@@ -81,6 +91,11 @@
       "name": "Alappuzha",
       "url": "https://bharatdn.com/city/alappuzha/",
       "population": 240991
+    },
+    "alibag": {
+      "name": "Alibag",
+      "url": "https://bharatdn.com/city/alibag/",
+      "population": 20752
     },
     "aligarh": {
       "name": "Aligarh",
@@ -447,6 +462,11 @@
       "url": "https://bharatdn.com/city/belagavi/",
       "population": 490045
     },
+    "belgaum": {
+      "name": "Belgaum",
+      "url": "https://bharatdn.com/city/belgaum/",
+      "population": 488157
+    },
     "bengaluru": {
       "name": "Bengaluru",
       "url": "https://bharatdn.com/city/bengaluru/",
@@ -632,6 +652,11 @@
       "url": "https://bharatdn.com/city/bikaner/",
       "population": 644406
     },
+    "bikaner-india": {
+      "name": "Bikaner",
+      "url": "https://bharatdn.com/city/bikaner-india/",
+      "population": 529007
+    },
     "bilaspur": {
       "name": "Bilāspur",
       "url": "https://bharatdn.com/city/bilaspur/",
@@ -726,6 +751,11 @@
       "name": "Chanduasi",
       "url": "https://bharatdn.com/city/chanduasi/",
       "population": 112635
+    },
+    "changanassery": {
+      "name": "Changanassery",
+      "url": "https://bharatdn.com/city/changanassery/",
+      "population": 51430
     },
     "channapatna": {
       "name": "Channapatna",
@@ -1572,6 +1602,11 @@
       "url": "https://bharatdn.com/city/jammu/",
       "population": 650458
     },
+    "jammu-india": {
+      "name": "Jammu",
+      "url": "https://bharatdn.com/city/jammu-india/",
+      "population": 502197
+    },
     "jamnagar": {
       "name": "Jamnagar",
       "url": "https://bharatdn.com/city/jamnagar/",
@@ -1615,6 +1650,11 @@
     "jhansi": {
       "name": "Jhansi",
       "url": "https://bharatdn.com/city/jhansi/",
+      "population": 507000
+    },
+    "jhansi-india": {
+      "name": "Jhansi",
+      "url": "https://bharatdn.com/city/jhansi-india/",
       "population": 507000
     },
     "jharsuguda": {
@@ -2122,6 +2162,11 @@
       "url": "https://bharatdn.com/city/madurai-india/",
       "population": 1561129
     },
+    "mahasi": {
+      "name": "Mahasi",
+      "url": "https://bharatdn.com/city/mahasi/",
+      "population": 546995
+    },
     "mahbubnagar": {
       "name": "Mahbūbnagar",
       "url": "https://bharatdn.com/city/mahbubnagar/",
@@ -2562,6 +2607,11 @@
       "url": "https://bharatdn.com/city/nellore/",
       "population": 547621
     },
+    "nellore-india": {
+      "name": "Nellore",
+      "url": "https://bharatdn.com/city/nellore-india/",
+      "population": 547621
+    },
     "new-delhi": {
       "name": "New Delhi",
       "url": "https://bharatdn.com/city/new-delhi/",
@@ -2616,6 +2666,11 @@
       "name": "Orchha",
       "url": "https://bharatdn.com/city/orchha/",
       "population": 11511
+    },
+    "ottapalam": {
+      "name": "Ottapalam",
+      "url": "https://bharatdn.com/city/ottapalam/",
+      "population": 53792
     },
     "paithan": {
       "name": "Paithan",
@@ -3557,10 +3612,20 @@
       "url": "https://bharatdn.com/city/ujjain/",
       "population": 515215
     },
+    "ujjain-india": {
+      "name": "Ujjain",
+      "url": "https://bharatdn.com/city/ujjain-india/",
+      "population": 515215
+    },
     "ulhasnagar": {
       "name": "Ulhasnagar",
       "url": "https://bharatdn.com/city/ulhasnagar/",
       "population": 516584
+    },
+    "ulhasnagar-india": {
+      "name": "Ulhasnagar",
+      "url": "https://bharatdn.com/city/ulhasnagar-india/",
+      "population": 506098
     },
     "uluberiya": {
       "name": "Uluberiya",

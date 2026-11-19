@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-19T09:11:13.778Z",
-  "count": 749,
-  "shown": 749,
+  "generatedAt": "2026-11-19T11:58:23.297Z",
+  "count": 762,
+  "shown": 762,
   "latest": {
-    "slug": "sirhind",
-    "name": "Sirhind",
-    "lat": 30.64321,
-    "lon": 76.38421,
-    "at": "2026-11-18T12:02:09.415Z"
+    "slug": "alibag",
+    "name": "Alibag",
+    "lat": 18.64813,
+    "lon": 72.87579,
+    "at": "2026-11-19T11:58:23.028Z"
   },
   "cities": [
     {
@@ -1741,6 +1741,26 @@
       "releasedAt": "2026-10-01T10:21:38.193Z"
     },
     {
+      "slug": "nellore-india",
+      "name": "Nellore",
+      "state": "Andhra Pradesh",
+      "lat": 14.433333333,
+      "lon": 79.966666666,
+      "pop": 547621,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.388Z"
+    },
+    {
+      "slug": "mahasi",
+      "name": "Mahasi",
+      "state": "India",
+      "lat": 27.639722222,
+      "lon": 81.385555555,
+      "pop": 546995,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.440Z"
+    },
+    {
       "slug": "kalaburgi",
       "name": "Kalaburgi",
       "state": "Karnataka",
@@ -1749,6 +1769,36 @@
       "pop": 543147,
       "tier": 2,
       "releasedAt": "2026-10-27T09:14:46.684Z"
+    },
+    {
+      "slug": "ajmer-india",
+      "name": "Ajmer",
+      "state": "Rajasthan",
+      "lat": 26.468,
+      "lon": 74.639,
+      "pop": 542321,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.490Z"
+    },
+    {
+      "slug": "bikaner-india",
+      "name": "Bikaner",
+      "state": "India",
+      "lat": 28.018055555,
+      "lon": 73.316944444,
+      "pop": 529007,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.543Z"
+    },
+    {
+      "slug": "agartala-india",
+      "name": "Agartala",
+      "state": "Tripura",
+      "lat": 23.833333333,
+      "lon": 91.266666666,
+      "pop": 522613,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.594Z"
     },
     {
       "slug": "erode",
@@ -1791,6 +1841,16 @@
       "releasedAt": "2026-09-28T10:11:41.627Z"
     },
     {
+      "slug": "ujjain-india",
+      "name": "Ujjain",
+      "state": "Madhya Pradesh",
+      "lat": 23.182777777,
+      "lon": 75.777222222,
+      "pop": 515215,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.645Z"
+    },
+    {
       "slug": "bilimora",
       "name": "Bilimora",
       "state": "Gujarat",
@@ -1811,6 +1871,36 @@
       "releasedAt": "2026-09-26T14:20:16.379Z"
     },
     {
+      "slug": "jhansi-india",
+      "name": "Jhansi",
+      "state": "India",
+      "lat": 25.44862,
+      "lon": 78.56962,
+      "pop": 507000,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.697Z"
+    },
+    {
+      "slug": "ulhasnagar-india",
+      "name": "Ulhasnagar",
+      "state": "India",
+      "lat": 19.216666666,
+      "lon": 73.15,
+      "pop": 506098,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.747Z"
+    },
+    {
+      "slug": "jammu-india",
+      "name": "Jammu",
+      "state": "India",
+      "lat": 32.733333333,
+      "lon": 74.85,
+      "pop": 502197,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.797Z"
+    },
+    {
       "slug": "belagavi",
       "name": "Belagavi",
       "state": "Karnataka",
@@ -1819,6 +1909,16 @@
       "pop": 490045,
       "tier": 2,
       "releasedAt": "2026-10-17T07:57:48.023Z"
+    },
+    {
+      "slug": "belgaum",
+      "name": "Belgaum",
+      "state": "India",
+      "lat": 15.856944444,
+      "lon": 74.504444444,
+      "pop": 488157,
+      "tier": 2,
+      "releasedAt": "2026-11-19T11:58:22.846Z"
     },
     {
       "slug": "saharanpur",
@@ -6981,6 +7081,16 @@
       "releasedAt": "2026-11-11T11:19:22.255Z"
     },
     {
+      "slug": "ottapalam",
+      "name": "Ottapalam",
+      "state": "Kerala",
+      "lat": 10.7735,
+      "lon": 76.37758,
+      "pop": 53792,
+      "tier": 3,
+      "releasedAt": "2026-11-19T11:58:22.928Z"
+    },
+    {
       "slug": "thodupuzha",
       "name": "Thodupuzha",
       "state": "Kerala",
@@ -6989,6 +7099,16 @@
       "pop": 52045,
       "tier": 3,
       "releasedAt": "2026-11-04T11:22:03.298Z"
+    },
+    {
+      "slug": "changanassery",
+      "name": "Changanassery",
+      "state": "Kerala",
+      "lat": 9.44203,
+      "lon": 76.53604,
+      "pop": 51430,
+      "tier": 3,
+      "releasedAt": "2026-11-19T11:58:22.978Z"
     },
     {
       "slug": "fatwa",
@@ -7369,6 +7489,16 @@
       "pop": 21580,
       "tier": 3,
       "releasedAt": "2026-10-15T08:30:02.261Z"
+    },
+    {
+      "slug": "alibag",
+      "name": "Alibag",
+      "state": "Maharashtra",
+      "lat": 18.64813,
+      "lon": 72.87579,
+      "pop": 20752,
+      "tier": 3,
+      "releasedAt": "2026-11-19T11:58:23.028Z"
     },
     {
       "slug": "baud",
