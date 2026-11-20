@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T11:21:16.239Z",
-  "count": 762,
+  "generatedAt": "2026-11-20T11:59:23.303Z",
+  "count": 775,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -86,6 +86,11 @@
       "name": "Akola",
       "url": "https://bharatdn.com/city/akola/",
       "population": 428857
+    },
+    "akola-india": {
+      "name": "Akola",
+      "url": "https://bharatdn.com/city/akola-india/",
+      "population": 425817
     },
     "alappuzha": {
       "name": "Alappuzha",
@@ -672,6 +677,11 @@
       "url": "https://bharatdn.com/city/bokaro/",
       "population": 564319
     },
+    "bongaigaon": {
+      "name": "Bongaigaon",
+      "url": "https://bharatdn.com/city/bongaigaon/",
+      "population": 67322
+    },
     "borivali": {
       "name": "Borivali",
       "url": "https://bharatdn.com/city/borivali/",
@@ -1207,6 +1217,11 @@
       "url": "https://bharatdn.com/city/gaya/",
       "population": 474093
     },
+    "gaya-india": {
+      "name": "Gaya",
+      "url": "https://bharatdn.com/city/gaya-india/",
+      "population": 474093
+    },
     "ghaziabad": {
       "name": "Ghaziabad",
       "url": "https://bharatdn.com/city/ghaziabad/",
@@ -1581,6 +1596,11 @@
       "name": "Jalgaon",
       "url": "https://bharatdn.com/city/jalgaon/",
       "population": 460228
+    },
+    "jalgaon-india": {
+      "name": "Jalgaon",
+      "url": "https://bharatdn.com/city/jalgaon-india/",
+      "population": 460468
     },
     "jalna": {
       "name": "Jālna",
@@ -2032,6 +2052,11 @@
       "url": "https://bharatdn.com/city/kozhikode-india/",
       "population": 609224
     },
+    "kozhikode-municipal-corporation": {
+      "name": "Kozhikode Municipal Corporation",
+      "url": "https://bharatdn.com/city/kozhikode-municipal-corporation/",
+      "population": 436527
+    },
     "krishnagiri": {
       "name": "Krishnagiri",
       "url": "https://bharatdn.com/city/krishnagiri/",
@@ -2066,6 +2091,11 @@
       "name": "Kurnool",
       "url": "https://bharatdn.com/city/kurnool/",
       "population": 460184
+    },
+    "kurnool-india": {
+      "name": "Kurnool",
+      "url": "https://bharatdn.com/city/kurnool-india/",
+      "population": 457633
     },
     "kurseong": {
       "name": "Kurseong",
@@ -2180,6 +2210,11 @@
     "maheshtala": {
       "name": "Maheshtala",
       "url": "https://bharatdn.com/city/maheshtala/",
+      "population": 448317
+    },
+    "maheshtala-india": {
+      "name": "Maheshtala",
+      "url": "https://bharatdn.com/city/maheshtala-india/",
       "population": 448317
     },
     "maheshwar": {
@@ -2546,6 +2581,11 @@
       "name": "Nāngloi Jāt",
       "url": "https://bharatdn.com/city/nangloi-jat/",
       "population": 205596
+    },
+    "narasapuram": {
+      "name": "Narasapuram",
+      "url": "https://bharatdn.com/city/narasapuram/",
+      "population": 59306
     },
     "narasaraopet": {
       "name": "Narasaraopet",
@@ -2977,6 +3017,11 @@
       "url": "https://bharatdn.com/city/rajpur-sonarpur/",
       "population": 424368
     },
+    "rajpur-sonarpur-india": {
+      "name": "Rajpur Sonarpur",
+      "url": "https://bharatdn.com/city/rajpur-sonarpur-india/",
+      "population": 424368
+    },
     "rajpura": {
       "name": "Rajpura",
       "url": "https://bharatdn.com/city/rajpura/",
@@ -3147,6 +3192,11 @@
       "url": "https://bharatdn.com/city/sangli/",
       "population": 601214
     },
+    "sangli-india": {
+      "name": "Sangli",
+      "url": "https://bharatdn.com/city/sangli-india/",
+      "population": 436639
+    },
     "sangrur": {
       "name": "Sangrur",
       "url": "https://bharatdn.com/city/sangrur/",
@@ -3161,6 +3211,11 @@
       "name": "Satara",
       "url": "https://bharatdn.com/city/satara/",
       "population": 120195
+    },
+    "sathyamangalam": {
+      "name": "Sathyamangalam",
+      "url": "https://bharatdn.com/city/sathyamangalam/",
+      "population": 37816
     },
     "satna": {
       "name": "Satna",
@@ -3582,6 +3637,11 @@
       "url": "https://bharatdn.com/city/udaipur/",
       "population": 451100
     },
+    "udaipur-india": {
+      "name": "Udaipur",
+      "url": "https://bharatdn.com/city/udaipur-india/",
+      "population": 451100
+    },
     "udaipur-tripura": {
       "name": "Udaipur",
       "url": "https://bharatdn.com/city/udaipur-tripura/",
@@ -3720,6 +3780,11 @@
     "vellore": {
       "name": "Vellore",
       "url": "https://bharatdn.com/city/vellore/",
+      "population": 484690
+    },
+    "vellore-india": {
+      "name": "Vellore",
+      "url": "https://bharatdn.com/city/vellore-india/",
       "population": 484690
     },
     "veraval": {

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-20T11:21:15.993Z",
-  "count": 762,
-  "shown": 762,
+  "generatedAt": "2026-11-20T11:59:22.896Z",
+  "count": 775,
+  "shown": 775,
   "latest": {
-    "slug": "alibag",
-    "name": "Alibag",
-    "lat": 18.64813,
-    "lon": 72.87579,
-    "at": "2026-11-19T11:58:23.028Z"
+    "slug": "sathyamangalam",
+    "name": "Sathyamangalam",
+    "lat": 11.50526,
+    "lon": 77.23826,
+    "at": "2026-11-20T11:59:22.395Z"
   },
   "cities": [
     {
@@ -1941,6 +1941,16 @@
       "releasedAt": "2026-10-04T09:59:35.385Z"
     },
     {
+      "slug": "vellore-india",
+      "name": "Vellore",
+      "state": "India",
+      "lat": 12.933333333,
+      "lon": 79.133333333,
+      "pop": 484690,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.417Z"
+    },
+    {
       "slug": "bhatpara",
       "name": "Bhātpāra",
       "state": "West Bengal",
@@ -1981,6 +1991,16 @@
       "releasedAt": "2026-10-21T08:47:11.472Z"
     },
     {
+      "slug": "gaya-india",
+      "name": "Gaya",
+      "state": "Bihar",
+      "lat": 24.75,
+      "lon": 85.016666666,
+      "pop": 474093,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.495Z"
+    },
+    {
       "slug": "ambattur",
       "name": "Ambattur",
       "state": "Tamil Nadu",
@@ -1989,6 +2009,16 @@
       "pop": 466205,
       "tier": 2,
       "releasedAt": "2026-10-11T13:27:57.586Z"
+    },
+    {
+      "slug": "jalgaon-india",
+      "name": "Jalgaon",
+      "state": "Maharashtra",
+      "lat": 21.016666666,
+      "lon": 75.566666666,
+      "pop": 460468,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.574Z"
     },
     {
       "slug": "jalgaon",
@@ -2011,6 +2041,16 @@
       "releasedAt": "2026-10-03T09:20:54.650Z"
     },
     {
+      "slug": "kurnool-india",
+      "name": "Kurnool",
+      "state": "Andhra Pradesh",
+      "lat": 15.822222222,
+      "lon": 78.035,
+      "pop": 457633,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.653Z"
+    },
+    {
       "slug": "ramgundam",
       "name": "Rāmgundam",
       "state": "Telangana",
@@ -2031,6 +2071,16 @@
       "releasedAt": "2026-09-26T11:53:46.333Z"
     },
     {
+      "slug": "udaipur-india",
+      "name": "Udaipur",
+      "state": "Rajasthan",
+      "lat": 24.583333333,
+      "lon": 73.683333333,
+      "pop": 451100,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.730Z"
+    },
+    {
       "slug": "maheshtala",
       "name": "Maheshtala",
       "state": "West Bengal",
@@ -2039,6 +2089,16 @@
       "pop": 448317,
       "tier": 2,
       "releasedAt": "2026-10-15T08:30:02.071Z"
+    },
+    {
+      "slug": "maheshtala-india",
+      "name": "Maheshtala",
+      "state": "West Bengal",
+      "lat": 22.5060294,
+      "lon": 88.2501665,
+      "pop": 448317,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.806Z"
     },
     {
       "slug": "patiala",
@@ -2081,6 +2141,26 @@
       "releasedAt": "2026-09-26T11:53:40.531Z"
     },
     {
+      "slug": "sangli-india",
+      "name": "Sangli",
+      "state": "India",
+      "lat": 16.866666666,
+      "lon": 74.566666666,
+      "pop": 436639,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.885Z"
+    },
+    {
+      "slug": "kozhikode-municipal-corporation",
+      "name": "Kozhikode Municipal Corporation",
+      "state": "India",
+      "lat": 11.2597755,
+      "lon": 75.801454,
+      "pop": 436527,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:21.964Z"
+    },
+    {
       "slug": "davangere",
       "name": "Davangere",
       "state": "Karnataka",
@@ -2111,6 +2191,16 @@
       "releasedAt": "2026-10-05T10:44:21.251Z"
     },
     {
+      "slug": "akola-india",
+      "name": "Akola",
+      "state": "India",
+      "lat": 20.733333333,
+      "lon": 77,
+      "pop": 425817,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:22.041Z"
+    },
+    {
       "slug": "rajpur-sonarpur",
       "name": "Rajpur Sonarpur",
       "state": "West Bengal",
@@ -2119,6 +2209,16 @@
       "pop": 424368,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.388Z"
+    },
+    {
+      "slug": "rajpur-sonarpur-india",
+      "name": "Rajpur Sonarpur",
+      "state": "West Bengal",
+      "lat": 22.4408748,
+      "lon": 88.4246368,
+      "pop": 424368,
+      "tier": 2,
+      "releasedAt": "2026-11-20T11:59:22.116Z"
     },
     {
       "slug": "korba",
@@ -6871,6 +6971,16 @@
       "releasedAt": "2026-10-08T10:49:33.814Z"
     },
     {
+      "slug": "bongaigaon",
+      "name": "Bongaigaon",
+      "state": "Assam",
+      "lat": 26.47703,
+      "lon": 90.55815,
+      "pop": 67322,
+      "tier": 3,
+      "releasedAt": "2026-11-20T11:59:22.242Z"
+    },
+    {
       "slug": "mannargudi",
       "name": "Mannargudi",
       "state": "Tamil Nadu",
@@ -6979,6 +7089,16 @@
       "pop": 59490,
       "tier": 3,
       "releasedAt": "2026-10-12T11:12:02.547Z"
+    },
+    {
+      "slug": "narasapuram",
+      "name": "Narasapuram",
+      "state": "Andhra Pradesh",
+      "lat": 16.43425,
+      "lon": 81.69845,
+      "pop": 59306,
+      "tier": 3,
+      "releasedAt": "2026-11-20T11:59:22.318Z"
     },
     {
       "slug": "thiruvarur",
@@ -7279,6 +7399,16 @@
       "pop": 37852,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.096Z"
+    },
+    {
+      "slug": "sathyamangalam",
+      "name": "Sathyamangalam",
+      "state": "Tamil Nadu",
+      "lat": 11.50526,
+      "lon": 77.23826,
+      "pop": 37816,
+      "tier": 3,
+      "releasedAt": "2026-11-20T11:59:22.395Z"
     },
     {
       "slug": "leh",
