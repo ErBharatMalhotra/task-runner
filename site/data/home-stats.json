@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T09:32:49.876Z",
-  "cityGuides": 775,
+  "generatedAt": "2026-11-21T11:33:26.695Z",
+  "cityGuides": 788,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-21T09:32:49.848Z",
+      "at": "2026-11-21T11:33:26.665Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-21T00:00:00.000Z",
+      "title": "13 city guides published — pataudi, baddi, gudiyatham +10 more"
     },
     {
       "at": "2026-11-20T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-17T00:00:00.000Z",
       "title": "13 city guides published — bhadohi, shahdol, qadian +10 more"
-    },
-    {
-      "at": "2026-11-16T00:00:00.000Z",
-      "title": "13 city guides published — devanahalli, bargarh, kotagiri +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Sathyamangalam, Narasapuram, Bongaigaon +10 more",
+      "title": "13 new city guides — Pataudi, Baddi, Gudiyatham +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "775 city guides · 33 state hubs live",
+      "title": "788 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },

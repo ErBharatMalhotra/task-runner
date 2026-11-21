@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T09:32:49.745Z",
-  "count": 775,
+  "generatedAt": "2026-11-21T11:33:26.563Z",
+  "count": 788,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -282,6 +282,11 @@
       "url": "https://bharatdn.com/city/azamgarh/",
       "population": 116644
     },
+    "baddi": {
+      "name": "Baddi",
+      "url": "https://bharatdn.com/city/baddi/",
+      "population": 29911
+    },
     "badlapur": {
       "name": "Badlapur",
       "url": "https://bharatdn.com/city/badlapur/",
@@ -330,6 +335,11 @@
     "ballari": {
       "name": "Ballari",
       "url": "https://bharatdn.com/city/ballari/",
+      "population": 410445
+    },
+    "ballari-india": {
+      "name": "Ballari",
+      "url": "https://bharatdn.com/city/ballari-india/",
       "population": 410445
     },
     "balurghat": {
@@ -517,6 +527,11 @@
       "url": "https://bharatdn.com/city/bhagalpur/",
       "population": 400146
     },
+    "bhagalpur-india": {
+      "name": "Bhagalpur",
+      "url": "https://bharatdn.com/city/bhagalpur-india/",
+      "population": 410210
+    },
     "bhalswa-jahangirpur": {
       "name": "Bhālswa Jahangirpur",
       "url": "https://bharatdn.com/city/bhalswa-jahangirpur/",
@@ -541,6 +556,11 @@
       "name": "Bhātpāra",
       "url": "https://bharatdn.com/city/bhatpara/",
       "population": 483129
+    },
+    "bhatpara-india": {
+      "name": "Bhatpara",
+      "url": "https://bharatdn.com/city/bhatpara-india/",
+      "population": 386019
     },
     "bhavnagar": {
       "name": "Bhavnagar",
@@ -1292,6 +1312,11 @@
       "url": "https://bharatdn.com/city/gudivada/",
       "population": 118167
     },
+    "gudiyatham": {
+      "name": "Gudiyatham",
+      "url": "https://bharatdn.com/city/gudiyatham/",
+      "population": 93973
+    },
     "guna": {
       "name": "Guna",
       "url": "https://bharatdn.com/city/guna/",
@@ -1657,6 +1682,11 @@
       "url": "https://bharatdn.com/city/jaunpur/",
       "population": 169572
     },
+    "jaura-madhya-pradesh": {
+      "name": "Jaura, Madhya Pradesh",
+      "url": "https://bharatdn.com/city/jaura-madhya-pradesh/",
+      "population": 398111
+    },
     "jetpur": {
       "name": "Jetpur",
       "url": "https://bharatdn.com/city/jetpur/",
@@ -1745,6 +1775,11 @@
     "kakinada": {
       "name": "Kākināda",
       "url": "https://bharatdn.com/city/kakinada/",
+      "population": 384182
+    },
+    "kakinada-india": {
+      "name": "Kakinada",
+      "url": "https://bharatdn.com/city/kakinada-india/",
       "population": 384182
     },
     "kalaburgi": {
@@ -1996,6 +2031,11 @@
       "name": "Kollam",
       "url": "https://bharatdn.com/city/kollam/",
       "population": 367107
+    },
+    "kollam-india": {
+      "name": "Kollam",
+      "url": "https://bharatdn.com/city/kollam-india/",
+      "population": 397419
     },
     "komarapalayam": {
       "name": "Komarapalayam",
@@ -2797,6 +2837,11 @@
       "url": "https://bharatdn.com/city/patan/",
       "population": 133737
     },
+    "pataudi": {
+      "name": "Pataudi",
+      "url": "https://bharatdn.com/city/pataudi/",
+      "population": 20418
+    },
     "pathankot": {
       "name": "Pathankot",
       "url": "https://bharatdn.com/city/pathankot/",
@@ -2806,6 +2851,11 @@
       "name": "Patiāla",
       "url": "https://bharatdn.com/city/patiala/",
       "population": 446246
+    },
+    "patiala-india": {
+      "name": "Patiala",
+      "url": "https://bharatdn.com/city/patiala-india/",
+      "population": 406192
     },
     "patna": {
       "name": "Patna",
@@ -3307,6 +3357,11 @@
       "url": "https://bharatdn.com/city/shirdi/",
       "population": 36004
     },
+    "shirur": {
+      "name": "Shirur",
+      "url": "https://bharatdn.com/city/shirur/",
+      "population": 385414
+    },
     "shivamogga": {
       "name": "Shivamogga",
       "url": "https://bharatdn.com/city/shivamogga/",
@@ -3401,6 +3456,11 @@
       "name": "Sonīpat",
       "url": "https://bharatdn.com/city/sonipat/",
       "population": 289333
+    },
+    "south-dum-dum": {
+      "name": "South Dum Dum",
+      "url": "https://bharatdn.com/city/south-dum-dum/",
+      "population": 403316
     },
     "soyibug": {
       "name": "Soyībug",
@@ -3591,6 +3651,11 @@
       "name": "Tirunelveli",
       "url": "https://bharatdn.com/city/tirunelveli/",
       "population": 550721
+    },
+    "tirunelveli-india": {
+      "name": "Tirunelveli",
+      "url": "https://bharatdn.com/city/tirunelveli-india/",
+      "population": 411298
     },
     "tirupati": {
       "name": "Tirupati",

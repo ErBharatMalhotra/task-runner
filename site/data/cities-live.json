@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-21T09:32:49.539Z",
-  "count": 775,
-  "shown": 775,
+  "generatedAt": "2026-11-21T11:33:26.321Z",
+  "count": 788,
+  "shown": 788,
   "latest": {
-    "slug": "sathyamangalam",
-    "name": "Sathyamangalam",
-    "lat": 11.50526,
-    "lon": 77.23826,
-    "at": "2026-11-20T11:59:22.395Z"
+    "slug": "pataudi",
+    "name": "Pataudi",
+    "lat": 28.32547,
+    "lon": 76.77858,
+    "at": "2026-11-21T11:33:26.016Z"
   },
   "cities": [
     {
@@ -2231,6 +2231,16 @@
       "releasedAt": "2026-10-26T09:14:28.958Z"
     },
     {
+      "slug": "tirunelveli-india",
+      "name": "Tirunelveli",
+      "state": "India",
+      "lat": 8.728888888,
+      "lon": 77.708055555,
+      "pop": 411298,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.306Z"
+    },
+    {
       "slug": "thoothukudi",
       "name": "Thoothukudi",
       "state": "Tamil Nadu",
@@ -2251,6 +2261,36 @@
       "releasedAt": "2026-10-04T14:13:01.611Z"
     },
     {
+      "slug": "ballari-india",
+      "name": "Ballari",
+      "state": "India",
+      "lat": 15.15,
+      "lon": 76.933333333,
+      "pop": 410445,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.362Z"
+    },
+    {
+      "slug": "bhagalpur-india",
+      "name": "Bhagalpur",
+      "state": "Bihar",
+      "lat": 25.244444444,
+      "lon": 86.971944444,
+      "pop": 410210,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.418Z"
+    },
+    {
+      "slug": "patiala-india",
+      "name": "Patiala",
+      "state": "India",
+      "lat": 30.566666666,
+      "lon": 76.633333333,
+      "pop": 406192,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.475Z"
+    },
+    {
       "slug": "agartala",
       "name": "Agartala",
       "state": "Tripura",
@@ -2259,6 +2299,16 @@
       "pop": 404157,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:30.745Z"
+    },
+    {
+      "slug": "south-dum-dum",
+      "name": "South Dum Dum",
+      "state": "India",
+      "lat": 22.61,
+      "lon": 88.4,
+      "pop": 403316,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.530Z"
     },
     {
       "slug": "bhagalpur",
@@ -2271,6 +2321,46 @@
       "releasedAt": "2026-10-03T09:20:54.709Z"
     },
     {
+      "slug": "jaura-madhya-pradesh",
+      "name": "Jaura, Madhya Pradesh",
+      "state": "India",
+      "lat": 26.344444444,
+      "lon": 77.811388888,
+      "pop": 398111,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.586Z"
+    },
+    {
+      "slug": "kollam-india",
+      "name": "Kollam",
+      "state": "India",
+      "lat": 8.885277777,
+      "lon": 76.586388888,
+      "pop": 397419,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.643Z"
+    },
+    {
+      "slug": "bhatpara-india",
+      "name": "Bhatpara",
+      "state": "India",
+      "lat": 22.866388888,
+      "lon": 88.401111111,
+      "pop": 386019,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.699Z"
+    },
+    {
+      "slug": "shirur",
+      "name": "Shirur",
+      "state": "Maharashtra",
+      "lat": 18.8275,
+      "lon": 74.374722222,
+      "pop": 385414,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.758Z"
+    },
+    {
       "slug": "kakinada",
       "name": "Kākināda",
       "state": "Andhra Pradesh",
@@ -2279,6 +2369,16 @@
       "pop": 384182,
       "tier": 2,
       "releasedAt": "2026-11-01T10:42:47.422Z"
+    },
+    {
+      "slug": "kakinada-india",
+      "name": "Kakinada",
+      "state": "India",
+      "lat": 16.933333333,
+      "lon": 82.216666666,
+      "pop": 384182,
+      "tier": 2,
+      "releasedAt": "2026-11-21T11:33:25.816Z"
     },
     {
       "slug": "latur",
@@ -6401,6 +6501,16 @@
       "releasedAt": "2026-10-24T08:19:31.927Z"
     },
     {
+      "slug": "gudiyatham",
+      "name": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "lat": 12.94601,
+      "lon": 78.87377,
+      "pop": 93973,
+      "tier": 3,
+      "releasedAt": "2026-11-21T11:33:25.902Z"
+    },
+    {
       "slug": "doddaballapura",
       "name": "Doddaballapura",
       "state": "Karnataka",
@@ -7521,6 +7631,16 @@
       "releasedAt": "2026-10-10T10:03:10.789Z"
     },
     {
+      "slug": "baddi",
+      "name": "Baddi",
+      "state": "Himachal Pradesh",
+      "lat": 30.95783,
+      "lon": 76.79136,
+      "pop": 29911,
+      "tier": 3,
+      "releasedAt": "2026-11-21T11:33:25.960Z"
+    },
+    {
       "slug": "kotagiri",
       "name": "Kotagiri",
       "state": "Tamil Nadu",
@@ -7639,6 +7759,16 @@
       "pop": 20424,
       "tier": 3,
       "releasedAt": "2026-10-26T09:14:29.322Z"
+    },
+    {
+      "slug": "pataudi",
+      "name": "Pataudi",
+      "state": "Haryana",
+      "lat": 28.32547,
+      "lon": 76.77858,
+      "pop": 20418,
+      "tier": 3,
+      "releasedAt": "2026-11-21T11:33:26.016Z"
     },
     {
       "slug": "weir",
