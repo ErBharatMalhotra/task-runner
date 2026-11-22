@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-22T11:10:36.321Z",
-  "count": 788,
-  "shown": 788,
+  "generatedAt": "2026-11-22T11:47:43.270Z",
+  "count": 801,
+  "shown": 801,
   "latest": {
-    "slug": "pataudi",
-    "name": "Pataudi",
-    "lat": 28.32547,
-    "lon": 76.77858,
-    "at": "2026-11-21T11:33:26.016Z"
+    "slug": "jhumri-telaiya",
+    "name": "Jhumri Telaiya",
+    "lat": 24.4349,
+    "lon": 85.52951,
+    "at": "2026-11-22T11:47:42.844Z"
   },
   "cities": [
     {
@@ -2401,6 +2401,16 @@
       "releasedAt": "2026-10-29T10:17:50.192Z"
     },
     {
+      "slug": "panihati-india",
+      "name": "Panihati",
+      "state": "India",
+      "lat": 22.69,
+      "lon": 88.37,
+      "pop": 377347,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:41.857Z"
+    },
+    {
       "slug": "rajahmundry",
       "name": "Rajahmundry",
       "state": "Andhra Pradesh",
@@ -2421,6 +2431,16 @@
       "releasedAt": "2026-10-05T10:44:20.533Z"
     },
     {
+      "slug": "dhule-india",
+      "name": "Dhule",
+      "state": "India",
+      "lat": 20.901388888,
+      "lon": 74.7775,
+      "pop": 375559,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:41.937Z"
+    },
+    {
       "slug": "rohtak",
       "name": "Rohtak",
       "state": "Haryana",
@@ -2429,6 +2449,16 @@
       "pop": 374292,
       "tier": 2,
       "releasedAt": "2026-10-05T10:44:20.413Z"
+    },
+    {
+      "slug": "rohtak-india",
+      "name": "Rohtak",
+      "state": "Haryana",
+      "lat": 28.9,
+      "lon": 76.566666666,
+      "pop": 374292,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.014Z"
     },
     {
       "slug": "ahilyanagar",
@@ -2461,6 +2491,26 @@
       "releasedAt": "2026-11-01T10:42:47.760Z"
     },
     {
+      "slug": "bilaspur-india",
+      "name": "Bilaspur",
+      "state": "Chhattisgarh",
+      "lat": 22.08,
+      "lon": 82.155555555,
+      "pop": 365579,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.098Z"
+    },
+    {
+      "slug": "kollam-municipal-corporation",
+      "name": "Kollam Municipal Corporation",
+      "state": "India",
+      "lat": 8.892785,
+      "lon": 76.592226,
+      "pop": 361441,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.181Z"
+    },
+    {
       "slug": "bhilwara",
       "name": "Bhilwara",
       "state": "Rajasthan",
@@ -2471,6 +2521,16 @@
       "releasedAt": "2026-10-08T10:49:33.535Z"
     },
     {
+      "slug": "bhilwara-india",
+      "name": "Bhilwara",
+      "state": "India",
+      "lat": 25.346944444,
+      "lon": 74.640833333,
+      "pop": 359483,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.260Z"
+    },
+    {
       "slug": "brahmapur",
       "name": "Brahmapur",
       "state": "Odisha",
@@ -2479,6 +2539,16 @@
       "pop": 356598,
       "tier": 2,
       "releasedAt": "2026-10-24T08:19:31.130Z"
+    },
+    {
+      "slug": "brahmapur-india",
+      "name": "Brahmapur",
+      "state": "Odisha",
+      "lat": 19.32,
+      "lon": 84.78,
+      "pop": 355823,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.336Z"
     },
     {
       "slug": "muzaffarpur",
@@ -2509,6 +2579,16 @@
       "pop": 353487,
       "tier": 2,
       "releasedAt": "2026-09-26T14:19:58.142Z"
+    },
+    {
+      "slug": "ahilyanagar-india",
+      "name": "Ahilyanagar",
+      "state": "Maharashtra",
+      "lat": 19.083333333,
+      "lon": 74.733333333,
+      "pop": 350859,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.417Z"
     },
     {
       "slug": "punasa",
@@ -2549,6 +2629,26 @@
       "pop": 344893,
       "tier": 2,
       "releasedAt": "2026-10-06T10:37:29.247Z"
+    },
+    {
+      "slug": "kadapa-india",
+      "name": "Kadapa",
+      "state": "Andhra Pradesh",
+      "lat": 14.466666666,
+      "lon": 78.816666666,
+      "pop": 344893,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.497Z"
+    },
+    {
+      "slug": "rajahmundry-india",
+      "name": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "lat": 16.983333333,
+      "lon": 81.783333333,
+      "pop": 341831,
+      "tier": 2,
+      "releasedAt": "2026-11-22T11:47:42.575Z"
     },
     {
       "slug": "kukatpally",
@@ -6641,6 +6741,16 @@
       "releasedAt": "2026-10-13T10:53:23.787Z"
     },
     {
+      "slug": "jhumri-telaiya",
+      "name": "Jhumri Telaiya",
+      "state": "Jharkhand",
+      "lat": 24.4349,
+      "lon": 85.52951,
+      "pop": 87867,
+      "tier": 3,
+      "releasedAt": "2026-11-22T11:47:42.844Z"
+    },
+    {
       "slug": "aruppukkottai",
       "name": "Aruppukkottai",
       "state": "Tamil Nadu",
@@ -7221,6 +7331,16 @@
       "releasedAt": "2026-10-29T10:17:50.506Z"
     },
     {
+      "slug": "sankarankovil",
+      "name": "Sankarankovil",
+      "state": "Tamil Nadu",
+      "lat": 9.17048,
+      "lon": 77.54107,
+      "pop": 57277,
+      "tier": 3,
+      "releasedAt": "2026-11-22T11:47:42.768Z"
+    },
+    {
       "slug": "hoskote",
       "name": "Hoskote",
       "state": "Karnataka",
@@ -7669,6 +7789,16 @@
       "pop": 27790,
       "tier": 3,
       "releasedAt": "2026-10-19T09:11:36.660Z"
+    },
+    {
+      "slug": "khajuraho",
+      "name": "Khajuraho",
+      "state": "Madhya Pradesh",
+      "lat": 24.84809,
+      "lon": 79.93351,
+      "pop": 25662,
+      "tier": 3,
+      "releasedAt": "2026-11-22T11:47:42.691Z"
     },
     {
       "slug": "mount-abu",

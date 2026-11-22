@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T11:10:36.621Z",
-  "count": 788,
+  "generatedAt": "2026-11-22T11:47:43.616Z",
+  "count": 801,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -51,6 +51,11 @@
       "name": "Ahilyanagar",
       "url": "https://bharatdn.com/city/ahilyanagar/",
       "population": 367140
+    },
+    "ahilyanagar-india": {
+      "name": "Ahilyanagar",
+      "url": "https://bharatdn.com/city/ahilyanagar-india/",
+      "population": 350859
     },
     "ahmedabad": {
       "name": "Ahmedabad",
@@ -592,6 +597,11 @@
       "url": "https://bharatdn.com/city/bhilwara/",
       "population": 359483
     },
+    "bhilwara-india": {
+      "name": "Bhilwara",
+      "url": "https://bharatdn.com/city/bhilwara-india/",
+      "population": 359483
+    },
     "bhimavaram": {
       "name": "Bhimavaram",
       "url": "https://bharatdn.com/city/bhimavaram/",
@@ -687,6 +697,11 @@
       "url": "https://bharatdn.com/city/bilaspur/",
       "population": 365579
     },
+    "bilaspur-india": {
+      "name": "Bilaspur",
+      "url": "https://bharatdn.com/city/bilaspur-india/",
+      "population": 365579
+    },
     "bilimora": {
       "name": "Bilimora",
       "url": "https://bharatdn.com/city/bilimora/",
@@ -716,6 +731,11 @@
       "name": "Brahmapur",
       "url": "https://bharatdn.com/city/brahmapur/",
       "population": 356598
+    },
+    "brahmapur-india": {
+      "name": "Brahmapur",
+      "url": "https://bharatdn.com/city/brahmapur-india/",
+      "population": 355823
     },
     "budaun": {
       "name": "Budaun",
@@ -1055,6 +1075,11 @@
     "dhule": {
       "name": "Dhule",
       "url": "https://bharatdn.com/city/dhule/",
+      "population": 375559
+    },
+    "dhule-india": {
+      "name": "Dhule",
+      "url": "https://bharatdn.com/city/dhule-india/",
       "population": 375559
     },
     "dibrugarh": {
@@ -1712,6 +1737,11 @@
       "url": "https://bharatdn.com/city/jharsuguda/",
       "population": 97730
     },
+    "jhumri-telaiya": {
+      "name": "Jhumri Telaiya",
+      "url": "https://bharatdn.com/city/jhumri-telaiya/",
+      "population": 87867
+    },
     "jhunjhunun": {
       "name": "Jhunjhunūn",
       "url": "https://bharatdn.com/city/jhunjhunun/",
@@ -1750,6 +1780,11 @@
     "kadapa": {
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
+      "population": 344893
+    },
+    "kadapa-india": {
+      "name": "Kadapa",
+      "url": "https://bharatdn.com/city/kadapa-india/",
       "population": 344893
     },
     "kadayanallur": {
@@ -1932,6 +1967,11 @@
       "url": "https://bharatdn.com/city/kayamkulam/",
       "population": 68634
     },
+    "khajuraho": {
+      "name": "Khajuraho",
+      "url": "https://bharatdn.com/city/khajuraho/",
+      "population": 25662
+    },
     "khammam": {
       "name": "Khammam",
       "url": "https://bharatdn.com/city/khammam/",
@@ -2036,6 +2076,11 @@
       "name": "Kollam",
       "url": "https://bharatdn.com/city/kollam-india/",
       "population": 397419
+    },
+    "kollam-municipal-corporation": {
+      "name": "Kollam Municipal Corporation",
+      "url": "https://bharatdn.com/city/kollam-municipal-corporation/",
+      "population": 361441
     },
     "komarapalayam": {
       "name": "Komarapalayam",
@@ -2817,6 +2862,11 @@
       "url": "https://bharatdn.com/city/panihati/",
       "population": 378705
     },
+    "panihati-india": {
+      "name": "Panihati",
+      "url": "https://bharatdn.com/city/panihati-india/",
+      "population": 377347
+    },
     "panipat": {
       "name": "Panipat",
       "url": "https://bharatdn.com/city/panipat/",
@@ -3047,6 +3097,11 @@
       "url": "https://bharatdn.com/city/rajahmundry/",
       "population": 376333
     },
+    "rajahmundry-india": {
+      "name": "Rajahmundry",
+      "url": "https://bharatdn.com/city/rajahmundry-india/",
+      "population": 341831
+    },
     "rajapalayam": {
       "name": "Rajapalayam",
       "url": "https://bharatdn.com/city/rajapalayam/",
@@ -3182,6 +3237,11 @@
       "url": "https://bharatdn.com/city/rohtak/",
       "population": 374292
     },
+    "rohtak-india": {
+      "name": "Rohtak",
+      "url": "https://bharatdn.com/city/rohtak-india/",
+      "population": 374292
+    },
     "roorkee": {
       "name": "Roorkee",
       "url": "https://bharatdn.com/city/roorkee/",
@@ -3251,6 +3311,11 @@
       "name": "Sangrur",
       "url": "https://bharatdn.com/city/sangrur/",
       "population": 88615
+    },
+    "sankarankovil": {
+      "name": "Sankarankovil",
+      "url": "https://bharatdn.com/city/sankarankovil/",
+      "population": 57277
     },
     "sasaram": {
       "name": "Sasarām",

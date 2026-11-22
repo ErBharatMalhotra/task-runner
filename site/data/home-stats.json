@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T11:10:36.793Z",
-  "cityGuides": 788,
+  "generatedAt": "2026-11-22T11:47:43.805Z",
+  "cityGuides": 801,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-22T11:10:36.756Z",
+      "at": "2026-11-22T11:47:43.765Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-22T00:00:00.000Z",
+      "title": "13 city guides published — jhumri telaiya, sankarankovil, khajuraho +10 more"
     },
     {
       "at": "2026-11-21T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-18T00:00:00.000Z",
       "title": "13 city guides published — sirhind, manjeri, harihar +10 more"
-    },
-    {
-      "at": "2026-11-17T00:00:00.000Z",
-      "title": "13 city guides published — bhadohi, shahdol, qadian +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Pataudi, Baddi, Gudiyatham +10 more",
+      "title": "13 new city guides — Jhumri Telaiya, Sankarankovil, Khajuraho +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "788 city guides · 33 state hubs live",
+      "title": "801 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
