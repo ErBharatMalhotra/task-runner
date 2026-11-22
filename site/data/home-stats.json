@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T23:00:51.600Z",
+  "generatedAt": "2026-11-22T03:01:24.837Z",
   "cityGuides": 788,
   "stateHubs": 33,
   "hubs": [
@@ -132,7 +132,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-21T23:00:51.562Z",
+      "at": "2026-11-22T03:01:24.798Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -162,7 +162,7 @@
       "tone": "red",
       "title": "13 new city guides — Pataudi, Baddi, Gudiyatham +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "today"
+      "time": "yesterday"
     },
     {
       "tag": "Coverage",
