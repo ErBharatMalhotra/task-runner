@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T09:31:48.709Z",
-  "count": 801,
+  "generatedAt": "2026-11-23T13:26:56.039Z",
+  "count": 814,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -131,6 +131,11 @@
       "name": "Alwar",
       "url": "https://bharatdn.com/city/alwar/",
       "population": 322568
+    },
+    "alwar-india": {
+      "name": "Alwar",
+      "url": "https://bharatdn.com/city/alwar-india/",
+      "population": 341422
     },
     "amaravati": {
       "name": "Amaravati",
@@ -347,6 +352,11 @@
       "url": "https://bharatdn.com/city/ballari-india/",
       "population": 410445
     },
+    "balotra": {
+      "name": "Balotra",
+      "url": "https://bharatdn.com/city/balotra/",
+      "population": 74496
+    },
     "balurghat": {
       "name": "Bālurghāt",
       "url": "https://bharatdn.com/city/balurghat/",
@@ -401,6 +411,11 @@
       "name": "Bardhaman",
       "url": "https://bharatdn.com/city/bardhaman/",
       "population": 301725
+    },
+    "bardhaman-india": {
+      "name": "Bardhaman",
+      "url": "https://bharatdn.com/city/bardhaman-india/",
+      "population": 314265
     },
     "bareilly": {
       "name": "Bareilly",
@@ -1777,6 +1792,11 @@
       "url": "https://bharatdn.com/city/junagadh/",
       "population": 319462
     },
+    "junagadh-india": {
+      "name": "Junagadh",
+      "url": "https://bharatdn.com/city/junagadh-india/",
+      "population": 320250
+    },
     "kadapa": {
       "name": "Kadapa",
       "url": "https://bharatdn.com/city/kadapa/",
@@ -1851,6 +1871,11 @@
       "name": "Kāmārhāti",
       "url": "https://bharatdn.com/city/kamarhati/",
       "population": 332965
+    },
+    "kamarhati-india": {
+      "name": "Kamarhati",
+      "url": "https://bharatdn.com/city/kamarhati-india/",
+      "population": 330211
     },
     "kanakapura": {
       "name": "Kanakapura",
@@ -2557,6 +2582,11 @@
       "url": "https://bharatdn.com/city/mussoorie/",
       "population": 30118
     },
+    "muvattupuzha": {
+      "name": "Muvattupuzha",
+      "url": "https://bharatdn.com/city/muvattupuzha/",
+      "population": 30397
+    },
     "muzaffarnagar": {
       "name": "Muzaffarnagar",
       "url": "https://bharatdn.com/city/muzaffarnagar/",
@@ -2566,6 +2596,11 @@
       "name": "Muzaffarpur",
       "url": "https://bharatdn.com/city/muzaffarpur/",
       "population": 354462
+    },
+    "muzaffarpur-india": {
+      "name": "Muzaffarpur",
+      "url": "https://bharatdn.com/city/muzaffarpur-india/",
+      "population": 333200
     },
     "mysore": {
       "name": "Mysore",
@@ -2757,6 +2792,11 @@
       "url": "https://bharatdn.com/city/nizamabad/",
       "population": 311152
     },
+    "nizamabad-india": {
+      "name": "Nizamabad",
+      "url": "https://bharatdn.com/city/nizamabad-india/",
+      "population": 311152
+    },
     "noida": {
       "name": "Noida",
       "url": "https://bharatdn.com/city/noida/",
@@ -2927,6 +2967,11 @@
       "url": "https://bharatdn.com/city/pen/",
       "population": 37852
     },
+    "perumbavoor": {
+      "name": "Perumbavoor",
+      "url": "https://bharatdn.com/city/perumbavoor/",
+      "population": 28110
+    },
     "phagwara": {
       "name": "Phagwāra",
       "url": "https://bharatdn.com/city/phagwara/",
@@ -3031,6 +3076,11 @@
       "name": "Purnia",
       "url": "https://bharatdn.com/city/purnia/",
       "population": 282248
+    },
+    "purnia-india": {
+      "name": "Purnia",
+      "url": "https://bharatdn.com/city/purnia-india/",
+      "population": 310817
     },
     "puruliya": {
       "name": "Puruliya",
@@ -3682,6 +3732,16 @@
       "url": "https://bharatdn.com/city/thrissur/",
       "population": 315957
     },
+    "thrissur-india": {
+      "name": "Thrissur",
+      "url": "https://bharatdn.com/city/thrissur-india/",
+      "population": 315596
+    },
+    "thrissur-municipal-corporation": {
+      "name": "Thrissur Municipal Corporation",
+      "url": "https://bharatdn.com/city/thrissur-municipal-corporation/",
+      "population": 317474
+    },
     "tinsukia": {
       "name": "Tinsukia",
       "url": "https://bharatdn.com/city/tinsukia/",
@@ -3930,6 +3990,11 @@
     "vijayapura": {
       "name": "Vijayapura",
       "url": "https://bharatdn.com/city/vijayapura/",
+      "population": 327427
+    },
+    "vijayapura-india": {
+      "name": "Vijayapura",
+      "url": "https://bharatdn.com/city/vijayapura-india/",
       "population": 327427
     },
     "vijayawada": {

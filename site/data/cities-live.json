@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-23T09:31:48.323Z",
-  "count": 801,
-  "shown": 801,
+  "generatedAt": "2026-11-23T13:26:55.800Z",
+  "count": 814,
+  "shown": 814,
   "latest": {
-    "slug": "jhumri-telaiya",
-    "name": "Jhumri Telaiya",
-    "lat": 24.4349,
-    "lon": 85.52951,
-    "at": "2026-11-22T11:47:42.844Z"
+    "slug": "muvattupuzha",
+    "name": "Muvattupuzha",
+    "lat": 9.97985,
+    "lon": 76.57381,
+    "at": "2026-11-23T13:26:55.496Z"
   },
   "cities": [
     {
@@ -2661,6 +2661,26 @@
       "releasedAt": "2026-10-12T11:12:01.884Z"
     },
     {
+      "slug": "alwar-india",
+      "name": "Alwar",
+      "state": "Rajasthan",
+      "lat": 27.566666666,
+      "lon": 76.616666666,
+      "pop": 341422,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:54.793Z"
+    },
+    {
+      "slug": "muzaffarpur-india",
+      "name": "Muzaffarpur",
+      "state": "India",
+      "lat": 26.12,
+      "lon": 85.383333333,
+      "pop": 333200,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:54.847Z"
+    },
+    {
       "slug": "kamarhati",
       "name": "Kāmārhāti",
       "state": "West Bengal",
@@ -2669,6 +2689,16 @@
       "pop": 332965,
       "tier": 2,
       "releasedAt": "2026-10-30T10:19:50.275Z"
+    },
+    {
+      "slug": "kamarhati-india",
+      "name": "Kamarhati",
+      "state": "India",
+      "lat": 22.67,
+      "lon": 88.37,
+      "pop": 330211,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:54.903Z"
     },
     {
       "slug": "chandrapur",
@@ -2689,6 +2719,16 @@
       "pop": 327427,
       "tier": 2,
       "releasedAt": "2026-10-23T08:44:52.295Z"
+    },
+    {
+      "slug": "vijayapura-india",
+      "name": "Vijayapura",
+      "state": "Karnataka",
+      "lat": 16.82442,
+      "lon": 75.71537,
+      "pop": 327427,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:54.959Z"
     },
     {
       "slug": "shivamogga",
@@ -2721,6 +2761,16 @@
       "releasedAt": "2026-10-09T10:48:18.367Z"
     },
     {
+      "slug": "junagadh-india",
+      "name": "Junagadh",
+      "state": "India",
+      "lat": 21.52,
+      "lon": 70.47,
+      "pop": 320250,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.013Z"
+    },
+    {
       "slug": "junagadh",
       "name": "Jūnāgadh",
       "state": "Gujarat",
@@ -2741,6 +2791,16 @@
       "releasedAt": "2026-09-28T10:01:09.229Z"
     },
     {
+      "slug": "thrissur-municipal-corporation",
+      "name": "Thrissur Municipal Corporation",
+      "state": "India",
+      "lat": 10.513589,
+      "lon": 76.229073,
+      "pop": 317474,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.069Z"
+    },
+    {
       "slug": "thrissur",
       "name": "Thrissur",
       "state": "Kerala",
@@ -2749,6 +2809,26 @@
       "pop": 315957,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:10.110Z"
+    },
+    {
+      "slug": "thrissur-india",
+      "name": "Thrissur",
+      "state": "India",
+      "lat": 10.52,
+      "lon": 76.21,
+      "pop": 315596,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.125Z"
+    },
+    {
+      "slug": "bardhaman-india",
+      "name": "Bardhaman",
+      "state": "India",
+      "lat": 23.25,
+      "lon": 87.85,
+      "pop": 314265,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.181Z"
     },
     {
       "slug": "karnal",
@@ -2769,6 +2849,26 @@
       "pop": 311152,
       "tier": 2,
       "releasedAt": "2026-11-02T11:31:56.839Z"
+    },
+    {
+      "slug": "nizamabad-india",
+      "name": "Nizamabad",
+      "state": "India",
+      "lat": 18.671997222,
+      "lon": 78.094,
+      "pop": 311152,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.242Z"
+    },
+    {
+      "slug": "purnia-india",
+      "name": "Purnia",
+      "state": "India",
+      "lat": 25.78,
+      "lon": 87.47,
+      "pop": 310817,
+      "tier": 2,
+      "releasedAt": "2026-11-23T13:26:55.299Z"
     },
     {
       "slug": "tumakuru",
@@ -7021,6 +7121,16 @@
       "releasedAt": "2026-11-12T11:38:40.894Z"
     },
     {
+      "slug": "balotra",
+      "name": "Balotra",
+      "state": "Rajasthan",
+      "lat": 25.83242,
+      "lon": 72.24,
+      "pop": 74496,
+      "tier": 3,
+      "releasedAt": "2026-11-23T13:26:55.442Z"
+    },
+    {
       "slug": "ambajogai",
       "name": "Ambajogai",
       "state": "Maharashtra",
@@ -7731,6 +7841,16 @@
       "releasedAt": "2026-10-21T08:47:11.663Z"
     },
     {
+      "slug": "muvattupuzha",
+      "name": "Muvattupuzha",
+      "state": "Kerala",
+      "lat": 9.97985,
+      "lon": 76.57381,
+      "pop": 30397,
+      "tier": 3,
+      "releasedAt": "2026-11-23T13:26:55.496Z"
+    },
+    {
       "slug": "mussoorie",
       "name": "Mussoorie",
       "state": "Uttarakhand",
@@ -7769,6 +7889,16 @@
       "pop": 28848,
       "tier": 3,
       "releasedAt": "2026-11-16T11:53:07.409Z"
+    },
+    {
+      "slug": "perumbavoor",
+      "name": "Perumbavoor",
+      "state": "Kerala",
+      "lat": 10.10695,
+      "lon": 76.47366,
+      "pop": 28110,
+      "tier": 3,
+      "releasedAt": "2026-11-23T13:26:55.387Z"
     },
     {
       "slug": "devanahalli",
