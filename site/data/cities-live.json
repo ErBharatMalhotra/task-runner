@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-24T11:28:08.173Z",
-  "count": 814,
-  "shown": 814,
+  "generatedAt": "2026-11-24T14:05:36.072Z",
+  "count": 827,
+  "shown": 827,
   "latest": {
-    "slug": "muvattupuzha",
-    "name": "Muvattupuzha",
-    "lat": 9.97985,
-    "lon": 76.57381,
-    "at": "2026-11-23T13:26:55.496Z"
+    "slug": "ziro",
+    "name": "Ziro",
+    "lat": 27.59497,
+    "lon": 93.83854,
+    "at": "2026-11-24T14:05:35.799Z"
   },
   "cities": [
     {
@@ -2901,6 +2901,16 @@
       "releasedAt": "2026-10-26T09:14:29.039Z"
     },
     {
+      "slug": "hisar-india",
+      "name": "Hisar",
+      "state": "India",
+      "lat": 29.148888888,
+      "lon": 75.736666666,
+      "pop": 307024,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.130Z"
+    },
+    {
       "slug": "firozabad",
       "name": "Firozabad",
       "state": "Uttar Pradesh",
@@ -2939,6 +2949,16 @@
       "pop": 300104,
       "tier": 2,
       "releasedAt": "2026-11-03T11:11:39.614Z"
+    },
+    {
+      "slug": "uzhavarkarai",
+      "name": "Uzhavarkarai",
+      "state": "India",
+      "lat": 11.956980555,
+      "lon": 79.7737,
+      "pop": 300104,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.181Z"
     },
     {
       "slug": "barasat",
@@ -3021,6 +3041,26 @@
       "releasedAt": "2026-10-02T09:58:08.236Z"
     },
     {
+      "slug": "aizawl-india",
+      "name": "Aizawl",
+      "state": "Mizoram",
+      "lat": 23.733333333,
+      "lon": 92.716666666,
+      "pop": 293416,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.232Z"
+    },
+    {
+      "slug": "bally",
+      "name": "Bally",
+      "state": "West Bengal",
+      "lat": 22.65,
+      "lon": 88.34,
+      "pop": 293373,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.284Z"
+    },
+    {
       "slug": "dindigul",
       "name": "Dindigul",
       "state": "Tamil Nadu",
@@ -3039,6 +3079,26 @@
       "pop": 292167,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:22.598Z"
+    },
+    {
+      "slug": "gandhinagar-india",
+      "name": "Gandhinagar",
+      "state": "Gujarat",
+      "lat": 23.223,
+      "lon": 72.65,
+      "pop": 292167,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.338Z"
+    },
+    {
+      "slug": "farrukhabad-india",
+      "name": "Farrukhabad",
+      "state": "Uttar Pradesh",
+      "lat": 27.391388888,
+      "lon": 79.579166666,
+      "pop": 291374,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.392Z"
     },
     {
       "slug": "thanjavur",
@@ -3061,6 +3121,16 @@
       "releasedAt": "2026-11-03T11:11:39.884Z"
     },
     {
+      "slug": "karimnagar-india",
+      "name": "Karimnagar",
+      "state": "India",
+      "lat": 18.43554,
+      "lon": 79.13371,
+      "pop": 289821,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.443Z"
+    },
+    {
       "slug": "dewas",
       "name": "Dewas",
       "state": "Madhya Pradesh",
@@ -3081,6 +3151,26 @@
       "releasedAt": "2026-11-03T11:11:39.952Z"
     },
     {
+      "slug": "ichalkaranji-india",
+      "name": "Ichalkaranji",
+      "state": "Maharashtra",
+      "lat": 16.7,
+      "lon": 74.47,
+      "pop": 287570,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.493Z"
+    },
+    {
+      "slug": "tirupati-india",
+      "name": "Tirupati",
+      "state": "Andhra Pradesh",
+      "lat": 13.65,
+      "lon": 79.42,
+      "pop": 287482,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.543Z"
+    },
+    {
       "slug": "ichalkaranji",
       "name": "Ichalkaranji",
       "state": "Maharashtra",
@@ -3099,6 +3189,16 @@
       "pop": 285813,
       "tier": 2,
       "releasedAt": "2026-09-26T14:20:26.511Z"
+    },
+    {
+      "slug": "bathinda-india",
+      "name": "Bathinda",
+      "state": "Punjab",
+      "lat": 30.213333333,
+      "lon": 74.951944444,
+      "pop": 285813,
+      "tier": 2,
+      "releasedAt": "2026-11-24T14:05:35.600Z"
     },
     {
       "slug": "jalna",
@@ -7091,6 +7191,16 @@
       "releasedAt": "2026-10-15T08:30:02.413Z"
     },
     {
+      "slug": "bodinayakkanur",
+      "name": "Bodinayakkanur",
+      "state": "Tamil Nadu",
+      "lat": 10.01171,
+      "lon": 77.34976,
+      "pop": 75680,
+      "tier": 3,
+      "releasedAt": "2026-11-24T14:05:35.747Z"
+    },
+    {
       "slug": "tezpur",
       "name": "Tezpur",
       "state": "Assam",
@@ -7549,6 +7659,16 @@
       "pop": 53792,
       "tier": 3,
       "releasedAt": "2026-11-19T11:58:22.928Z"
+    },
+    {
+      "slug": "dandeli",
+      "name": "Dandeli",
+      "state": "Karnataka",
+      "lat": 15.26667,
+      "lon": 74.61667,
+      "pop": 52295,
+      "tier": 3,
+      "releasedAt": "2026-11-24T14:05:35.690Z"
     },
     {
       "slug": "thodupuzha",
@@ -8099,6 +8219,16 @@
       "pop": 14077,
       "tier": 3,
       "releasedAt": "2026-10-06T10:37:29.635Z"
+    },
+    {
+      "slug": "ziro",
+      "name": "Ziro",
+      "state": "Arunachal Pradesh",
+      "lat": 27.59497,
+      "lon": 93.83854,
+      "pop": 13893,
+      "tier": 3,
+      "releasedAt": "2026-11-24T14:05:35.799Z"
     },
     {
       "slug": "orchha",

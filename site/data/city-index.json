@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T11:28:08.572Z",
-  "count": 814,
+  "generatedAt": "2026-11-24T14:05:36.297Z",
+  "count": 827,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -75,6 +75,11 @@
     "aizawl": {
       "name": "Aizawl",
       "url": "https://bharatdn.com/city/aizawl/",
+      "population": 293416
+    },
+    "aizawl-india": {
+      "name": "Aizawl",
+      "url": "https://bharatdn.com/city/aizawl-india/",
       "population": 293416
     },
     "ajmer": {
@@ -352,6 +357,11 @@
       "url": "https://bharatdn.com/city/ballari-india/",
       "population": 410445
     },
+    "bally": {
+      "name": "Bally",
+      "url": "https://bharatdn.com/city/bally/",
+      "population": 293373
+    },
     "balotra": {
       "name": "Balotra",
       "url": "https://bharatdn.com/city/balotra/",
@@ -470,6 +480,11 @@
     "bathinda": {
       "name": "Bathinda",
       "url": "https://bharatdn.com/city/bathinda/",
+      "population": 285813
+    },
+    "bathinda-india": {
+      "name": "Bathinda",
+      "url": "https://bharatdn.com/city/bathinda-india/",
       "population": 285813
     },
     "baud": {
@@ -722,6 +737,11 @@
       "url": "https://bharatdn.com/city/bilimora/",
       "population": 510879
     },
+    "bodinayakkanur": {
+      "name": "Bodinayakkanur",
+      "url": "https://bharatdn.com/city/bodinayakkanur/",
+      "population": 75680
+    },
     "bokaro": {
       "name": "Bokaro",
       "url": "https://bharatdn.com/city/bokaro/",
@@ -961,6 +981,11 @@
       "name": "Damoh",
       "url": "https://bharatdn.com/city/damoh/",
       "population": 139561
+    },
+    "dandeli": {
+      "name": "Dandeli",
+      "url": "https://bharatdn.com/city/dandeli/",
+      "population": 52295
     },
     "darbhanga": {
       "name": "Darbhanga",
@@ -1202,6 +1227,11 @@
       "url": "https://bharatdn.com/city/farrukhabad/",
       "population": 241152
     },
+    "farrukhabad-india": {
+      "name": "Farrukhabad",
+      "url": "https://bharatdn.com/city/farrukhabad-india/",
+      "population": 291374
+    },
     "fatehpur": {
       "name": "Fatehpur",
       "url": "https://bharatdn.com/city/fatehpur/",
@@ -1255,6 +1285,11 @@
     "gandhinagar": {
       "name": "Gandhinagar",
       "url": "https://bharatdn.com/city/gandhinagar/",
+      "population": 292167
+    },
+    "gandhinagar-india": {
+      "name": "Gandhinagar",
+      "url": "https://bharatdn.com/city/gandhinagar-india/",
       "population": 292167
     },
     "gangapur": {
@@ -1517,6 +1552,11 @@
       "url": "https://bharatdn.com/city/hisar/",
       "population": 307024
     },
+    "hisar-india": {
+      "name": "Hisar",
+      "url": "https://bharatdn.com/city/hisar-india/",
+      "population": 307024
+    },
     "hosapete": {
       "name": "Hosapete",
       "url": "https://bharatdn.com/city/hosapete/",
@@ -1566,6 +1606,11 @@
       "name": "Ichalkaranji",
       "url": "https://bharatdn.com/city/ichalkaranji/",
       "population": 287353
+    },
+    "ichalkaranji-india": {
+      "name": "Ichalkaranji",
+      "url": "https://bharatdn.com/city/ichalkaranji-india/",
+      "population": 287570
     },
     "imphal": {
       "name": "Imphal",
@@ -1950,6 +1995,11 @@
     "karimnagar": {
       "name": "Karīmnagar",
       "url": "https://bharatdn.com/city/karimnagar/",
+      "population": 289821
+    },
+    "karimnagar-india": {
+      "name": "Karimnagar",
+      "url": "https://bharatdn.com/city/karimnagar-india/",
       "population": 289821
     },
     "karjat": {
@@ -3787,6 +3837,11 @@
       "url": "https://bharatdn.com/city/tirupati/",
       "population": 227105
     },
+    "tirupati-india": {
+      "name": "Tirupati",
+      "url": "https://bharatdn.com/city/tirupati-india/",
+      "population": 287482
+    },
     "tirupur": {
       "name": "Tirupur",
       "url": "https://bharatdn.com/city/tirupur/",
@@ -3891,6 +3946,11 @@
       "name": "Uppal Kalan",
       "url": "https://bharatdn.com/city/uppal-kalan/",
       "population": 118259
+    },
+    "uzhavarkarai": {
+      "name": "Uzhavarkarai",
+      "url": "https://bharatdn.com/city/uzhavarkarai/",
+      "population": 300104
     },
     "vadnagar": {
       "name": "Vadnagar",
@@ -4071,6 +4131,11 @@
       "name": "Yelahanka",
       "url": "https://bharatdn.com/city/yelahanka/",
       "population": 116447
+    },
+    "ziro": {
+      "name": "Ziro",
+      "url": "https://bharatdn.com/city/ziro/",
+      "population": 13893
     }
   }
 }

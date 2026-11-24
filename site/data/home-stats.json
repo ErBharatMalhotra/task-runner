@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T11:28:08.779Z",
-  "cityGuides": 814,
+  "generatedAt": "2026-11-24T14:05:36.433Z",
+  "cityGuides": 827,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-24T11:28:08.737Z",
+      "at": "2026-11-24T14:05:36.402Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-24T00:00:00.000Z",
+      "title": "13 city guides published — ziro, bodinayakkanur, dandeli +10 more"
     },
     {
       "at": "2026-11-23T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-20T00:00:00.000Z",
       "title": "13 city guides published — sathyamangalam, narasapuram, bongaigaon +10 more"
-    },
-    {
-      "at": "2026-11-19T00:00:00.000Z",
-      "title": "13 city guides published — alibag, changanassery, ottapalam +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Muvattupuzha, Balotra, Perumbavoor +10 more",
+      "title": "13 new city guides — Ziro, Bodinayakkanur, Dandeli +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "814 city guides · 33 state hubs live",
+      "title": "827 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
