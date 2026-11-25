@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-25T12:34:12.804Z",
-  "count": 827,
-  "shown": 827,
+  "generatedAt": "2026-11-25T13:18:50.014Z",
+  "count": 840,
+  "shown": 840,
   "latest": {
-    "slug": "ziro",
-    "name": "Ziro",
-    "lat": 27.59497,
-    "lon": 93.83854,
-    "at": "2026-11-24T14:05:35.799Z"
+    "slug": "angul",
+    "name": "Angul",
+    "lat": 20.84089,
+    "lon": 85.10192,
+    "at": "2026-11-25T13:18:49.487Z"
   },
   "cities": [
     {
@@ -3211,6 +3211,16 @@
       "releasedAt": "2026-10-30T10:19:49.986Z"
     },
     {
+      "slug": "jalna-india",
+      "name": "Jalna",
+      "state": "Maharashtra",
+      "lat": 19.833333333,
+      "lon": 75.883333333,
+      "pop": 285577,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.500Z"
+    },
+    {
       "slug": "kirari-sulemannagar",
       "name": "Kirāri Sulemānnagar",
       "state": "Delhi",
@@ -3241,6 +3251,26 @@
       "releasedAt": "2026-10-09T10:48:18.736Z"
     },
     {
+      "slug": "satna-india",
+      "name": "Satna",
+      "state": "Madhya Pradesh",
+      "lat": 24.598351185,
+      "lon": 80.828125281,
+      "pop": 280222,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.575Z"
+    },
+    {
+      "slug": "barasat-india",
+      "name": "Barasat",
+      "state": "India",
+      "lat": 22.7191072,
+      "lon": 88.4826229,
+      "pop": 278435,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.652Z"
+    },
+    {
       "slug": "saugor",
       "name": "Saugor",
       "state": "Madhya Pradesh",
@@ -3261,6 +3291,16 @@
       "releasedAt": "2026-10-02T09:58:08.352Z"
     },
     {
+      "slug": "ratlam-india",
+      "name": "Ratlam",
+      "state": "Madhya Pradesh",
+      "lat": 23.316666666,
+      "lon": 75.066666666,
+      "pop": 273892,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.731Z"
+    },
+    {
       "slug": "rourkela",
       "name": "Rourkela",
       "state": "Odisha",
@@ -3269,6 +3309,16 @@
       "pop": 273317,
       "tier": 2,
       "releasedAt": "2026-10-04T14:13:01.114Z"
+    },
+    {
+      "slug": "bandel",
+      "name": "Bandel",
+      "state": "India",
+      "lat": 22.922777777,
+      "lon": 88.379444444,
+      "pop": 272302,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.811Z"
     },
     {
       "slug": "dhanbad",
@@ -3281,6 +3331,16 @@
       "releasedAt": "2026-09-26T14:20:15.362Z"
     },
     {
+      "slug": "handwara-india",
+      "name": "Handwara",
+      "state": "India",
+      "lat": 34.4,
+      "lon": 74.28,
+      "pop": 269311,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.888Z"
+    },
+    {
       "slug": "durg",
       "name": "Durg",
       "state": "Chhattisgarh",
@@ -3289,6 +3349,16 @@
       "pop": 268806,
       "tier": 2,
       "releasedAt": "2026-10-12T11:12:02.375Z"
+    },
+    {
+      "slug": "durg-india",
+      "name": "Durg",
+      "state": "Chhattisgarh",
+      "lat": 21.19,
+      "lon": 81.28,
+      "pop": 268806,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:48.968Z"
     },
     {
       "slug": "imphal",
@@ -3309,6 +3379,36 @@
       "pop": 267161,
       "tier": 2,
       "releasedAt": "2026-10-06T10:37:29.303Z"
+    },
+    {
+      "slug": "ananthapuram",
+      "name": "Ananthapuram",
+      "state": "India",
+      "lat": 14.683333333,
+      "lon": 77.6,
+      "pop": 267161,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:49.044Z"
+    },
+    {
+      "slug": "latur-india",
+      "name": "Latur",
+      "state": "Maharashtra",
+      "lat": 18.4,
+      "lon": 76.583333333,
+      "pop": 266955,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:49.122Z"
+    },
+    {
+      "slug": "imphal-india",
+      "name": "Imphal",
+      "state": "Manipur",
+      "lat": 24.82,
+      "lon": 93.95,
+      "pop": 264986,
+      "tier": 2,
+      "releasedAt": "2026-11-25T13:18:49.200Z"
     },
     {
       "slug": "ratlam",
@@ -6741,6 +6841,16 @@
       "releasedAt": "2026-11-10T11:30:02.144Z"
     },
     {
+      "slug": "amalner",
+      "name": "Amalner",
+      "state": "Maharashtra",
+      "lat": 21.03983,
+      "lon": 75.05887,
+      "pop": 97369,
+      "tier": 3,
+      "releasedAt": "2026-11-25T13:18:49.321Z"
+    },
+    {
       "slug": "thalassery",
       "name": "Thalassery",
       "state": "Kerala",
@@ -6809,6 +6919,16 @@
       "pop": 93973,
       "tier": 3,
       "releasedAt": "2026-11-21T11:33:25.902Z"
+    },
+    {
+      "slug": "baraut",
+      "name": "Baraut",
+      "state": "Uttar Pradesh",
+      "lat": 29.10199,
+      "lon": 77.26334,
+      "pop": 93544,
+      "tier": 3,
+      "releasedAt": "2026-11-25T13:18:49.398Z"
     },
     {
       "slug": "doddaballapura",
@@ -7769,6 +7889,16 @@
       "pop": 44856,
       "tier": 3,
       "releasedAt": "2026-10-09T10:48:18.905Z"
+    },
+    {
+      "slug": "angul",
+      "name": "Angul",
+      "state": "Odisha",
+      "lat": 20.84089,
+      "lon": 85.10192,
+      "pop": 44386,
+      "tier": 3,
+      "releasedAt": "2026-11-25T13:18:49.487Z"
     },
     {
       "slug": "anekal",

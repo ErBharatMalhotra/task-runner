@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T12:34:13.137Z",
-  "count": 827,
+  "generatedAt": "2026-11-25T13:18:50.423Z",
+  "count": 840,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -142,6 +142,11 @@
       "url": "https://bharatdn.com/city/alwar-india/",
       "population": 341422
     },
+    "amalner": {
+      "name": "Amalner",
+      "url": "https://bharatdn.com/city/amalner/",
+      "population": 97369
+    },
     "amaravati": {
       "name": "Amaravati",
       "url": "https://bharatdn.com/city/amaravati/",
@@ -217,6 +222,11 @@
       "url": "https://bharatdn.com/city/anantapur/",
       "population": 267161
     },
+    "ananthapuram": {
+      "name": "Ananthapuram",
+      "url": "https://bharatdn.com/city/ananthapuram/",
+      "population": 267161
+    },
     "anantnag": {
       "name": "Anantnag",
       "url": "https://bharatdn.com/city/anantnag/",
@@ -226,6 +236,11 @@
       "name": "Anekal",
       "url": "https://bharatdn.com/city/anekal/",
       "population": 44260
+    },
+    "angul": {
+      "name": "Angul",
+      "url": "https://bharatdn.com/city/angul/",
+      "population": 44386
     },
     "ankleshwar": {
       "name": "Ankleshwar",
@@ -382,6 +397,11 @@
       "url": "https://bharatdn.com/city/banda/",
       "population": 152218
     },
+    "bandel": {
+      "name": "Bandel",
+      "url": "https://bharatdn.com/city/bandel/",
+      "population": 272302
+    },
     "bangaon": {
       "name": "Bangaon",
       "url": "https://bharatdn.com/city/bangaon/",
@@ -416,6 +436,16 @@
       "name": "Bārāsat",
       "url": "https://bharatdn.com/city/barasat/",
       "population": 298127
+    },
+    "barasat-india": {
+      "name": "Barasat",
+      "url": "https://bharatdn.com/city/barasat-india/",
+      "population": 278435
+    },
+    "baraut": {
+      "name": "Baraut",
+      "url": "https://bharatdn.com/city/baraut/",
+      "population": 93544
     },
     "bardhaman": {
       "name": "Bardhaman",
@@ -1172,6 +1202,11 @@
       "url": "https://bharatdn.com/city/durg/",
       "population": 268806
     },
+    "durg-india": {
+      "name": "Durg",
+      "url": "https://bharatdn.com/city/durg-india/",
+      "population": 268806
+    },
     "durgapur": {
       "name": "Durgapur",
       "url": "https://bharatdn.com/city/durgapur/",
@@ -1482,6 +1517,11 @@
       "url": "https://bharatdn.com/city/halisahar/",
       "population": 128172
     },
+    "handwara-india": {
+      "name": "Handwara",
+      "url": "https://bharatdn.com/city/handwara-india/",
+      "population": 269311
+    },
     "hanumangarh": {
       "name": "Hanumāngarh",
       "url": "https://bharatdn.com/city/hanumangarh/",
@@ -1617,6 +1657,11 @@
       "url": "https://bharatdn.com/city/imphal/",
       "population": 268243
     },
+    "imphal-india": {
+      "name": "Imphal",
+      "url": "https://bharatdn.com/city/imphal-india/",
+      "population": 264986
+    },
     "indore": {
       "name": "Indore",
       "url": "https://bharatdn.com/city/indore/",
@@ -1715,6 +1760,11 @@
     "jalna": {
       "name": "Jālna",
       "url": "https://bharatdn.com/city/jalna/",
+      "population": 285577
+    },
+    "jalna-india": {
+      "name": "Jalna",
+      "url": "https://bharatdn.com/city/jalna-india/",
       "population": 285577
     },
     "jalpaiguri": {
@@ -2286,6 +2336,11 @@
       "name": "Latur",
       "url": "https://bharatdn.com/city/latur/",
       "population": 382940
+    },
+    "latur-india": {
+      "name": "Latur",
+      "url": "https://bharatdn.com/city/latur-india/",
+      "population": 266955
     },
     "leh": {
       "name": "Leh",
@@ -3292,6 +3347,11 @@
       "url": "https://bharatdn.com/city/ratlam/",
       "population": 264914
     },
+    "ratlam-india": {
+      "name": "Ratlam",
+      "url": "https://bharatdn.com/city/ratlam-india/",
+      "population": 273892
+    },
     "ratnagiri": {
       "name": "Ratnagiri",
       "url": "https://bharatdn.com/city/ratnagiri/",
@@ -3436,6 +3496,11 @@
       "name": "Satna",
       "url": "https://bharatdn.com/city/satna/",
       "population": 282977
+    },
+    "satna-india": {
+      "name": "Satna",
+      "url": "https://bharatdn.com/city/satna-india/",
+      "population": 280222
     },
     "saugor": {
       "name": "Saugor",
