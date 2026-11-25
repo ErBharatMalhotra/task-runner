@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T10:11:54.951Z",
+  "generatedAt": "2026-11-25T12:34:13.315Z",
   "cityGuides": 827,
   "stateHubs": 33,
   "hubs": [
@@ -132,7 +132,7 @@
   ],
   "activity": [
     {
-      "at": "2026-11-25T10:11:54.908Z",
+      "at": "2026-11-25T12:34:13.279Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
     },
     {
@@ -161,7 +161,7 @@
       "tag": "Network",
       "tone": "red",
       "title": "13 new city guides — Ziro, Bodinayakkanur, Dandeli +10 more",
-      "desc": "91 published in the last 7 days, each live-verified.",
+      "desc": "78 published in the last 7 days, each live-verified.",
       "time": "yesterday"
     },
     {
