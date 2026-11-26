@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T09:53:36.579Z",
-  "count": 840,
+  "generatedAt": "2026-11-26T12:58:50.486Z",
+  "count": 853,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -262,6 +262,11 @@
       "url": "https://bharatdn.com/city/arrah/",
       "population": 261430
     },
+    "arrah-india": {
+      "name": "Arrah",
+      "url": "https://bharatdn.com/city/arrah-india/",
+      "population": 261430
+    },
     "aruppukkottai": {
       "name": "Aruppukkottai",
       "url": "https://bharatdn.com/city/aruppukkottai/",
@@ -301,6 +306,11 @@
       "name": "Avadi",
       "url": "https://bharatdn.com/city/avadi/",
       "population": 345996
+    },
+    "aymanam": {
+      "name": "Aymanam",
+      "url": "https://bharatdn.com/city/aymanam/",
+      "population": 34470
     },
     "ayodhya": {
       "name": "Ayodhya",
@@ -537,6 +547,11 @@
       "url": "https://bharatdn.com/city/begusarai/",
       "population": 252008
     },
+    "begusarai-india": {
+      "name": "Begusarai",
+      "url": "https://bharatdn.com/city/begusarai-india/",
+      "population": 252008
+    },
     "belagavi": {
       "name": "Belagavi",
       "url": "https://bharatdn.com/city/belagavi/",
@@ -607,6 +622,11 @@
       "url": "https://bharatdn.com/city/bharatpur/",
       "population": 252838
     },
+    "bharatpur-india": {
+      "name": "Bharatpur",
+      "url": "https://bharatdn.com/city/bharatpur-india/",
+      "population": 252342
+    },
     "bharuch": {
       "name": "Bharūch",
       "url": "https://bharatdn.com/city/bharuch/",
@@ -671,6 +691,11 @@
       "name": "Bhind",
       "url": "https://bharatdn.com/city/bhind/",
       "population": 197585
+    },
+    "bhiti": {
+      "name": "Bhiti",
+      "url": "https://bharatdn.com/city/bhiti/",
+      "population": 248669
     },
     "bhiwadi": {
       "name": "Bhiwadi",
@@ -776,6 +801,11 @@
       "name": "Bokaro",
       "url": "https://bharatdn.com/city/bokaro/",
       "population": 564319
+    },
+    "bolpur": {
+      "name": "Bolpur",
+      "url": "https://bharatdn.com/city/bolpur/",
+      "population": 70998
     },
     "bongaigaon": {
       "name": "Bongaigaon",
@@ -1376,6 +1406,11 @@
       "name": "Gobichettipalayam",
       "url": "https://bharatdn.com/city/gobichettipalayam/",
       "population": 59523
+    },
+    "godavarikhani": {
+      "name": "Godavarikhani",
+      "url": "https://bharatdn.com/city/godavarikhani/",
+      "population": 252693
     },
     "godhra": {
       "name": "Godhra",
@@ -2832,6 +2867,11 @@
       "url": "https://bharatdn.com/city/narnaul/",
       "population": 74581
     },
+    "narnaul-india": {
+      "name": "Narnaul",
+      "url": "https://bharatdn.com/city/narnaul-india/",
+      "population": 252786
+    },
     "nashik": {
       "name": "Nashik",
       "url": "https://bharatdn.com/city/nashik/",
@@ -2882,6 +2922,11 @@
       "url": "https://bharatdn.com/city/new-delhi/",
       "population": 317797
     },
+    "new-delhi-india": {
+      "name": "New Delhi",
+      "url": "https://bharatdn.com/city/new-delhi-india/",
+      "population": 249998
+    },
     "neyveli": {
       "name": "Neyveli",
       "url": "https://bharatdn.com/city/neyveli/",
@@ -2911,6 +2956,11 @@
       "name": "Noida",
       "url": "https://bharatdn.com/city/noida-india/",
       "population": 637272
+    },
+    "north-dum-dum": {
+      "name": "North Dum Dum",
+      "url": "https://bharatdn.com/city/north-dum-dum/",
+      "population": 249142
     },
     "nowrangapur": {
       "name": "Nowrangapur",
@@ -3081,6 +3131,11 @@
       "name": "Phagwāra",
       "url": "https://bharatdn.com/city/phagwara/",
       "population": 100146
+    },
+    "phalodi": {
+      "name": "Phalodi",
+      "url": "https://bharatdn.com/city/phalodi/",
+      "population": 49914
     },
     "phusro": {
       "name": "Phusro",
@@ -3702,6 +3757,11 @@
       "url": "https://bharatdn.com/city/sri-ganganagar/",
       "population": 237780
     },
+    "sri-ganganagar-india": {
+      "name": "Sri Ganganagar",
+      "url": "https://bharatdn.com/city/sri-ganganagar-india/",
+      "population": 249914
+    },
     "srikakulam": {
       "name": "Srikakulam",
       "url": "https://bharatdn.com/city/srikakulam/",
@@ -3941,6 +4001,11 @@
       "name": "Tumakuru",
       "url": "https://bharatdn.com/city/tumakuru/",
       "population": 307359
+    },
+    "tuni-india": {
+      "name": "Tuni",
+      "url": "https://bharatdn.com/city/tuni-india/",
+      "population": 254425
     },
     "udaipur": {
       "name": "Udaipur",

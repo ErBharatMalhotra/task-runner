@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-26T09:53:36.251Z",
-  "count": 840,
-  "shown": 840,
+  "generatedAt": "2026-11-26T12:58:50.149Z",
+  "count": 853,
+  "shown": 853,
   "latest": {
-    "slug": "angul",
-    "name": "Angul",
-    "lat": 20.84089,
-    "lon": 85.10192,
-    "at": "2026-11-25T13:18:49.487Z"
+    "slug": "aymanam",
+    "name": "Aymanam",
+    "lat": 9.60684,
+    "lon": 76.50055,
+    "at": "2026-11-26T12:58:49.727Z"
   },
   "cities": [
     {
@@ -3451,6 +3451,16 @@
       "releasedAt": "2026-10-10T10:03:10.232Z"
     },
     {
+      "slug": "arrah-india",
+      "name": "Arrah",
+      "state": "India",
+      "lat": 25.563055555,
+      "lon": 84.671111111,
+      "pop": 261430,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:48.911Z"
+    },
+    {
       "slug": "gajuwaka",
       "name": "Gajuwaka",
       "state": "Andhra Pradesh",
@@ -3469,6 +3479,16 @@
       "pop": 257448,
       "tier": 2,
       "releasedAt": "2026-10-30T10:19:50.419Z"
+    },
+    {
+      "slug": "tuni-india",
+      "name": "Tuni",
+      "state": "Andhra Pradesh",
+      "lat": 17.35,
+      "lon": 82.55,
+      "pop": 254425,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:48.974Z"
     },
     {
       "slug": "ambarnath",
@@ -3511,6 +3531,36 @@
       "releasedAt": "2026-10-25T08:37:40.626Z"
     },
     {
+      "slug": "narnaul-india",
+      "name": "Narnaul",
+      "state": "Haryana",
+      "lat": 28.044444444,
+      "lon": 76.108333333,
+      "pop": 252786,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.037Z"
+    },
+    {
+      "slug": "godavarikhani",
+      "name": "Godavarikhani",
+      "state": "Telangana",
+      "lat": 18.751891666,
+      "lon": 79.513311111,
+      "pop": 252693,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.103Z"
+    },
+    {
+      "slug": "bharatpur-india",
+      "name": "Bharatpur",
+      "state": "Rajasthan",
+      "lat": 27.217222222,
+      "lon": 77.49,
+      "pop": 252342,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.168Z"
+    },
+    {
       "slug": "begusarai",
       "name": "Begusarai",
       "state": "Bihar",
@@ -3521,6 +3571,36 @@
       "releasedAt": "2026-10-10T10:03:10.176Z"
     },
     {
+      "slug": "begusarai-india",
+      "name": "Begusarai",
+      "state": "India",
+      "lat": 25.42,
+      "lon": 86.13,
+      "pop": 252008,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.231Z"
+    },
+    {
+      "slug": "new-delhi-india",
+      "name": "New Delhi",
+      "state": "India",
+      "lat": 28.613888888,
+      "lon": 77.208888888,
+      "pop": 249998,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.295Z"
+    },
+    {
+      "slug": "sri-ganganagar-india",
+      "name": "Sri Ganganagar",
+      "state": "Rajasthan",
+      "lat": 29.92,
+      "lon": 73.875,
+      "pop": 249914,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.358Z"
+    },
+    {
       "slug": "tiruvottiyur",
       "name": "Tiruvottiyūr",
       "state": "Tamil Nadu",
@@ -3529,6 +3609,26 @@
       "pop": 249446,
       "tier": 2,
       "releasedAt": "2026-10-31T09:52:17.422Z"
+    },
+    {
+      "slug": "north-dum-dum",
+      "name": "North Dum Dum",
+      "state": "West Bengal",
+      "lat": 22.65208,
+      "lon": 88.41907,
+      "pop": 249142,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.431Z"
+    },
+    {
+      "slug": "bhiti",
+      "name": "Bhiti",
+      "state": "India",
+      "lat": 26.48,
+      "lon": 82.3008,
+      "pop": 248669,
+      "tier": 2,
+      "releasedAt": "2026-11-26T12:58:49.494Z"
     },
     {
       "slug": "gandhidham",
@@ -7451,6 +7551,16 @@
       "releasedAt": "2026-11-04T11:22:03.187Z"
     },
     {
+      "slug": "bolpur",
+      "name": "Bolpur",
+      "state": "West Bengal",
+      "lat": 23.66278,
+      "lon": 87.69695,
+      "pop": 70998,
+      "tier": 3,
+      "releasedAt": "2026-11-26T12:58:49.599Z"
+    },
+    {
       "slug": "koppal",
       "name": "Koppal",
       "state": "Karnataka",
@@ -7821,6 +7931,16 @@
       "releasedAt": "2026-09-28T10:16:26.961Z"
     },
     {
+      "slug": "phalodi",
+      "name": "Phalodi",
+      "state": "Rajasthan",
+      "lat": 27.13102,
+      "lon": 72.36826,
+      "pop": 49914,
+      "tier": 3,
+      "releasedAt": "2026-11-26T12:58:49.665Z"
+    },
+    {
       "slug": "koraput",
       "name": "Koraput",
       "state": "Odisha",
@@ -8029,6 +8149,16 @@
       "pop": 34554,
       "tier": 3,
       "releasedAt": "2026-10-27T09:14:47.452Z"
+    },
+    {
+      "slug": "aymanam",
+      "name": "Aymanam",
+      "state": "Kerala",
+      "lat": 9.60684,
+      "lon": 76.50055,
+      "pop": 34470,
+      "tier": 3,
+      "releasedAt": "2026-11-26T12:58:49.727Z"
     },
     {
       "slug": "madikeri",
