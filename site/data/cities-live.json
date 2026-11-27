@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-27T09:58:31.076Z",
-  "count": 853,
-  "shown": 853,
+  "generatedAt": "2026-11-27T12:55:13.400Z",
+  "count": 866,
+  "shown": 866,
   "latest": {
-    "slug": "aymanam",
-    "name": "Aymanam",
-    "lat": 9.60684,
-    "lon": 76.50055,
-    "at": "2026-11-26T12:58:49.727Z"
+    "slug": "kuppam",
+    "name": "Kuppam",
+    "lat": 12.74931,
+    "lon": 78.34189,
+    "at": "2026-11-27T12:55:12.827Z"
   },
   "cities": [
     {
@@ -3651,6 +3651,16 @@
       "releasedAt": "2026-10-22T08:49:08.405Z"
     },
     {
+      "slug": "baranagar",
+      "name": "Baranagar",
+      "state": "West Bengal",
+      "lat": 22.64,
+      "lon": 88.37,
+      "pop": 245213,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:11.801Z"
+    },
+    {
       "slug": "sikar",
       "name": "Sīkar",
       "state": "Rajasthan",
@@ -3679,6 +3689,16 @@
       "pop": 242979,
       "tier": 2,
       "releasedAt": "2026-10-14T08:56:10.538Z"
+    },
+    {
+      "slug": "ramagundam-india",
+      "name": "Ramagundam",
+      "state": "Telangana",
+      "lat": 18.8,
+      "lon": 79.45,
+      "pop": 242979,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:11.880Z"
     },
     {
       "slug": "hapur",
@@ -3751,6 +3771,26 @@
       "releasedAt": "2026-11-04T11:22:02.766Z"
     },
     {
+      "slug": "uluberia",
+      "name": "Uluberia",
+      "state": "West Bengal",
+      "lat": 22.47,
+      "lon": 88.11,
+      "pop": 235345,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:11.960Z"
+    },
+    {
+      "slug": "mirzapur-cum-vindhyachal",
+      "name": "Mirzapur-cum-Vindhyachal",
+      "state": "Uttar Pradesh",
+      "lat": 25.145,
+      "lon": 82.565277777,
+      "pop": 234871,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.040Z"
+    },
+    {
       "slug": "sivakasi",
       "name": "Sivakasi",
       "state": "Tamil Nadu",
@@ -3801,6 +3841,16 @@
       "releasedAt": "2026-10-20T08:46:26.368Z"
     },
     {
+      "slug": "kannur-municipal-corporation",
+      "name": "Kannur Municipal Corporation",
+      "state": "India",
+      "lat": 11.867676,
+      "lon": 75.396441,
+      "pop": 232634,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.121Z"
+    },
+    {
       "slug": "haridwar",
       "name": "Haridwar",
       "state": "Uttarakhand",
@@ -3821,6 +3871,16 @@
       "releasedAt": "2026-10-17T07:57:47.889Z"
     },
     {
+      "slug": "pali-india",
+      "name": "Pali",
+      "state": "India",
+      "lat": 25.7725,
+      "lon": 73.323333333,
+      "pop": 229956,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.205Z"
+    },
+    {
       "slug": "hosur",
       "name": "Hosūr",
       "state": "Tamil Nadu",
@@ -3831,6 +3891,16 @@
       "releasedAt": "2026-10-31T09:52:17.554Z"
     },
     {
+      "slug": "silchar-india",
+      "name": "Silchar",
+      "state": "Assam",
+      "lat": 24.816666666,
+      "lon": 92.8,
+      "pop": 228985,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.287Z"
+    },
+    {
       "slug": "vizianagaram",
       "name": "Vizianagaram",
       "state": "Andhra Pradesh",
@@ -3839,6 +3909,16 @@
       "pop": 228720,
       "tier": 2,
       "releasedAt": "2026-10-07T10:28:44.065Z"
+    },
+    {
+      "slug": "vizianagaram-india",
+      "name": "Vizianagaram",
+      "state": "India",
+      "lat": 18.116666666,
+      "lon": 83.416666666,
+      "pop": 228720,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.369Z"
     },
     {
       "slug": "tirupati",
@@ -3871,6 +3951,16 @@
       "releasedAt": "2026-10-20T08:46:26.140Z"
     },
     {
+      "slug": "nadiad-india",
+      "name": "Nadiad",
+      "state": "India",
+      "lat": 22.7,
+      "lon": 72.87,
+      "pop": 225132,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.450Z"
+    },
+    {
       "slug": "nadiad",
       "name": "Nadiād",
       "state": "Gujarat",
@@ -3899,6 +3989,16 @@
       "pop": 223805,
       "tier": 2,
       "releasedAt": "2026-09-28T10:02:56.817Z"
+    },
+    {
+      "slug": "thanjavur-india",
+      "name": "Thanjavur",
+      "state": "Tamil Nadu",
+      "lat": 10.787,
+      "lon": 79.137806,
+      "pop": 222943,
+      "tier": 2,
+      "releasedAt": "2026-11-27T12:55:12.532Z"
     },
     {
       "slug": "murwara",
@@ -7581,6 +7681,16 @@
       "releasedAt": "2026-10-26T09:14:29.397Z"
     },
     {
+      "slug": "suratgarh",
+      "name": "Suratgarh",
+      "state": "Rajasthan",
+      "lat": 29.3215,
+      "lon": 73.89979,
+      "pop": 70536,
+      "tier": 3,
+      "releasedAt": "2026-11-27T12:55:12.658Z"
+    },
+    {
       "slug": "palani",
       "name": "Palani",
       "state": "Tamil Nadu",
@@ -8101,6 +8211,16 @@
       "releasedAt": "2026-10-07T10:28:44.410Z"
     },
     {
+      "slug": "robertsganj",
+      "name": "Robertsganj",
+      "state": "Uttar Pradesh",
+      "lat": 24.6886,
+      "lon": 83.06784,
+      "pop": 37855,
+      "tier": 3,
+      "releasedAt": "2026-11-27T12:55:12.736Z"
+    },
+    {
       "slug": "pen",
       "name": "Pen",
       "state": "Maharashtra",
@@ -8359,6 +8479,16 @@
       "pop": 22249,
       "tier": 3,
       "releasedAt": "2026-10-11T13:27:58.038Z"
+    },
+    {
+      "slug": "kuppam",
+      "name": "Kuppam",
+      "state": "Andhra Pradesh",
+      "lat": 12.74931,
+      "lon": 78.34189,
+      "pop": 21963,
+      "tier": 3,
+      "releasedAt": "2026-11-27T12:55:12.827Z"
     },
     {
       "slug": "pushkar",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T09:58:31.341Z",
-  "count": 853,
+  "generatedAt": "2026-11-27T12:55:13.830Z",
+  "count": 866,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -441,6 +441,11 @@
       "name": "Bārān",
       "url": "https://bharatdn.com/city/baran/",
       "population": 117992
+    },
+    "baranagar": {
+      "name": "Baranagar",
+      "url": "https://bharatdn.com/city/baranagar/",
+      "population": 245213
     },
     "barasat": {
       "name": "Bārāsat",
@@ -2042,6 +2047,11 @@
       "url": "https://bharatdn.com/city/kannur/",
       "population": 62836
     },
+    "kannur-municipal-corporation": {
+      "name": "Kannur Municipal Corporation",
+      "url": "https://bharatdn.com/city/kannur-municipal-corporation/",
+      "population": 232634
+    },
     "kanpur": {
       "name": "Kanpur",
       "url": "https://bharatdn.com/city/kanpur/",
@@ -2326,6 +2336,11 @@
       "name": "Kumbakonam",
       "url": "https://bharatdn.com/city/kumbakonam/",
       "population": 167155
+    },
+    "kuppam": {
+      "name": "Kuppam",
+      "url": "https://bharatdn.com/city/kuppam/",
+      "population": 21963
     },
     "kurichchi": {
       "name": "Kurichchi",
@@ -2627,6 +2642,11 @@
       "url": "https://bharatdn.com/city/mirzapur/",
       "population": 220029
     },
+    "mirzapur-cum-vindhyachal": {
+      "name": "Mirzapur-cum-Vindhyachal",
+      "url": "https://bharatdn.com/city/mirzapur-cum-vindhyachal/",
+      "population": 234871
+    },
     "modinagar": {
       "name": "Modīnagar",
       "url": "https://bharatdn.com/city/modinagar/",
@@ -2761,6 +2781,11 @@
       "name": "Nadiād",
       "url": "https://bharatdn.com/city/nadiad/",
       "population": 225071
+    },
+    "nadiad-india": {
+      "name": "Nadiad",
+      "url": "https://bharatdn.com/city/nadiad-india/",
+      "population": 225132
     },
     "nagaon": {
       "name": "Nagaon",
@@ -3021,6 +3046,11 @@
       "name": "Pāli",
       "url": "https://bharatdn.com/city/pali/",
       "population": 230075
+    },
+    "pali-india": {
+      "name": "Pali",
+      "url": "https://bharatdn.com/city/pali-india/",
+      "population": 229956
     },
     "pallavaram": {
       "name": "Pallāvaram",
@@ -3347,6 +3377,11 @@
       "url": "https://bharatdn.com/city/ramagundam/",
       "population": 242979
     },
+    "ramagundam-india": {
+      "name": "Ramagundam",
+      "url": "https://bharatdn.com/city/ramagundam-india/",
+      "population": 242979
+    },
     "ramanathapuram": {
       "name": "Ramanathapuram",
       "url": "https://bharatdn.com/city/ramanathapuram/",
@@ -3441,6 +3476,11 @@
       "name": "Rishra",
       "url": "https://bharatdn.com/city/rishra/",
       "population": 117014
+    },
+    "robertsganj": {
+      "name": "Robertsganj",
+      "url": "https://bharatdn.com/city/robertsganj/",
+      "population": 37855
     },
     "robertsonpet": {
       "name": "Robertsonpet",
@@ -3682,6 +3722,11 @@
       "url": "https://bharatdn.com/city/silchar/",
       "population": 178865
     },
+    "silchar-india": {
+      "name": "Silchar",
+      "url": "https://bharatdn.com/city/silchar-india/",
+      "population": 228985
+    },
     "siliguri": {
       "name": "Siliguri",
       "url": "https://bharatdn.com/city/siliguri/",
@@ -3812,6 +3857,11 @@
       "url": "https://bharatdn.com/city/surat-india/",
       "population": 5935000
     },
+    "suratgarh": {
+      "name": "Suratgarh",
+      "url": "https://bharatdn.com/city/suratgarh/",
+      "population": 70536
+    },
     "surendranagar": {
       "name": "Surendranagar",
       "url": "https://bharatdn.com/city/surendranagar/",
@@ -3866,6 +3916,11 @@
       "name": "Thanjavur",
       "url": "https://bharatdn.com/city/thanjavur/",
       "population": 291067
+    },
+    "thanjavur-india": {
+      "name": "Thanjavur",
+      "url": "https://bharatdn.com/city/thanjavur-india/",
+      "population": 222943
     },
     "thenali": {
       "name": "Thenali",
@@ -4062,6 +4117,11 @@
       "url": "https://bharatdn.com/city/ulhasnagar-india/",
       "population": 506098
     },
+    "uluberia": {
+      "name": "Uluberia",
+      "url": "https://bharatdn.com/city/uluberia/",
+      "population": 235345
+    },
     "uluberiya": {
       "name": "Uluberiya",
       "url": "https://bharatdn.com/city/uluberiya/",
@@ -4215,6 +4275,11 @@
     "vizianagaram": {
       "name": "Vizianagaram",
       "url": "https://bharatdn.com/city/vizianagaram/",
+      "population": 228720
+    },
+    "vizianagaram-india": {
+      "name": "Vizianagaram",
+      "url": "https://bharatdn.com/city/vizianagaram-india/",
       "population": 228720
     },
     "warangal": {
