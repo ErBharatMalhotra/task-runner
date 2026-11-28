@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-28T09:13:31.057Z",
-  "count": 866,
+  "generatedAt": "2026-11-28T12:07:23.306Z",
+  "count": 879,
   "cities": {
     "abohar": {
       "name": "Abohar",
@@ -266,6 +266,11 @@
       "name": "Arrah",
       "url": "https://bharatdn.com/city/arrah-india/",
       "population": 261430
+    },
+    "arsikere": {
+      "name": "Arsikere",
+      "url": "https://bharatdn.com/city/arsikere/",
+      "population": 53216
     },
     "aruppukkottai": {
       "name": "Aruppukkottai",
@@ -1212,6 +1217,11 @@
       "url": "https://bharatdn.com/city/dindigul/",
       "population": 292512
     },
+    "dindigul-india": {
+      "name": "Dindigul",
+      "url": "https://bharatdn.com/city/dindigul-india/",
+      "population": 207327
+    },
     "doddaballapura": {
       "name": "Doddaballapura",
       "url": "https://bharatdn.com/city/doddaballapura/",
@@ -1852,6 +1862,11 @@
       "url": "https://bharatdn.com/city/jamuria/",
       "population": 160242
     },
+    "jaora": {
+      "name": "Jaora",
+      "url": "https://bharatdn.com/city/jaora/",
+      "population": 74907
+    },
     "jaunpur": {
       "name": "Jaunpur",
       "url": "https://bharatdn.com/city/jaunpur/",
@@ -2132,6 +2147,11 @@
       "url": "https://bharatdn.com/city/katihar/",
       "population": 240838
     },
+    "katni": {
+      "name": "Katni",
+      "url": "https://bharatdn.com/city/katni/",
+      "population": 221883
+    },
     "kayamkulam": {
       "name": "Kayamkulam",
       "url": "https://bharatdn.com/city/kayamkulam/",
@@ -2166,6 +2186,11 @@
       "name": "Kharagpur",
       "url": "https://bharatdn.com/city/kharagpur-bihar/",
       "population": 31385
+    },
+    "kharagpur-india": {
+      "name": "Kharagpur",
+      "url": "https://bharatdn.com/city/kharagpur-india/",
+      "population": 207604
     },
     "khardaha": {
       "name": "Khardaha",
@@ -2727,6 +2752,11 @@
       "url": "https://bharatdn.com/city/munger/",
       "population": 213303
     },
+    "munger-india": {
+      "name": "Munger",
+      "url": "https://bharatdn.com/city/munger-india/",
+      "population": 213303
+    },
     "munnar": {
       "name": "Munnar",
       "url": "https://bharatdn.com/city/munnar/",
@@ -2827,6 +2857,11 @@
       "url": "https://bharatdn.com/city/naihati/",
       "population": 253221
     },
+    "naihati-india": {
+      "name": "Naihati",
+      "url": "https://bharatdn.com/city/naihati-india/",
+      "population": 217900
+    },
     "nainital": {
       "name": "Nainital",
       "url": "https://bharatdn.com/city/nainital/",
@@ -2865,6 +2900,11 @@
     "nangloi-jat": {
       "name": "Nāngloi Jāt",
       "url": "https://bharatdn.com/city/nangloi-jat/",
+      "population": 205596
+    },
+    "nangloi-jat-india": {
+      "name": "Nangloi Jat",
+      "url": "https://bharatdn.com/city/nangloi-jat-india/",
       "population": 205596
     },
     "narasapuram": {
@@ -3402,6 +3442,11 @@
       "url": "https://bharatdn.com/city/rampur/",
       "population": 296418
     },
+    "rampur-mathura": {
+      "name": "Rampur Mathura",
+      "url": "https://bharatdn.com/city/rampur-mathura/",
+      "population": 219642
+    },
     "ranchi": {
       "name": "Ranchi",
       "url": "https://bharatdn.com/city/ranchi/",
@@ -3552,6 +3597,11 @@
       "url": "https://bharatdn.com/city/sambhal/",
       "population": 196109
     },
+    "sambhal-india": {
+      "name": "Sambhal",
+      "url": "https://bharatdn.com/city/sambhal-india/",
+      "population": 220813
+    },
     "sangli": {
       "name": "Sangli",
       "url": "https://bharatdn.com/city/sangli/",
@@ -3677,6 +3727,11 @@
       "url": "https://bharatdn.com/city/shimla/",
       "population": 171817
     },
+    "shimla-india": {
+      "name": "Shimla",
+      "url": "https://bharatdn.com/city/shimla-india/",
+      "population": 206575
+    },
     "shirdi": {
       "name": "Shirdi",
       "url": "https://bharatdn.com/city/shirdi/",
@@ -3731,6 +3786,11 @@
       "name": "Siliguri",
       "url": "https://bharatdn.com/city/siliguri/",
       "population": 701458
+    },
+    "siliguri-india": {
+      "name": "Siliguri",
+      "url": "https://bharatdn.com/city/siliguri-india/",
+      "population": 218718
     },
     "silvassa": {
       "name": "Silvassa",
@@ -3881,6 +3941,11 @@
       "name": "Tadpatri",
       "url": "https://bharatdn.com/city/tadpatri/",
       "population": 108171
+    },
+    "taliparamba": {
+      "name": "Taliparamba",
+      "url": "https://bharatdn.com/city/taliparamba/",
+      "population": 72465
     },
     "tambaram": {
       "name": "Tambaram",

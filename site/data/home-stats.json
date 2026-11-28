@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-28T09:13:31.227Z",
-  "cityGuides": 866,
+  "generatedAt": "2026-11-28T12:07:23.516Z",
+  "cityGuides": 879,
   "stateHubs": 33,
   "hubs": [
     {
@@ -132,8 +132,12 @@
   ],
   "activity": [
     {
-      "at": "2026-11-28T09:13:31.192Z",
+      "at": "2026-11-28T12:07:23.465Z",
       "title": "pipeline run OK — 0 guides refreshed, 0 failures"
+    },
+    {
+      "at": "2026-11-28T00:00:00.000Z",
+      "title": "13 city guides published — jaora, arsikere, taliparamba +10 more"
     },
     {
       "at": "2026-11-27T00:00:00.000Z",
@@ -150,24 +154,20 @@
     {
       "at": "2026-11-24T00:00:00.000Z",
       "title": "13 city guides published — ziro, bodinayakkanur, dandeli +10 more"
-    },
-    {
-      "at": "2026-11-23T00:00:00.000Z",
-      "title": "13 city guides published — muvattupuzha, balotra, perumbavoor +10 more"
     }
   ],
   "digest": [
     {
       "tag": "Network",
       "tone": "red",
-      "title": "13 new city guides — Kuppam, Robertsganj, Suratgarh +10 more",
+      "title": "13 new city guides — Jaora, Arsikere, Taliparamba +10 more",
       "desc": "91 published in the last 7 days, each live-verified.",
-      "time": "yesterday"
+      "time": "today"
     },
     {
       "tag": "Coverage",
       "tone": "blue",
-      "title": "866 city guides · 33 state hubs live",
+      "title": "879 city guides · 33 state hubs live",
       "desc": "18 portals on one backbone — news, jobs, exam prep, tools and coaching.",
       "time": "daily"
     },
